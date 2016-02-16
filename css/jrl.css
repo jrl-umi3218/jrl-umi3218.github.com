@@ -1,0 +1,8 @@
+.navbar-brand>img {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-top:-10px;
+  margin-right: 10px;
+  height: 40px;
+}
