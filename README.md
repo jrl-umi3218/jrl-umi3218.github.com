@@ -13,12 +13,12 @@ $ jekyll server --safe --trace
 You will get something like:
 
 ```
-Configuration file: /path/to/roboptim.github.com/_config.yml
-           Source:  /path/to/roboptim.github.com
-       Destination: /path/to/roboptim.github.com/_site
+Configuration file: /path/to/jrl-umi3218.github.com/_config.yml
+           Source:  /path/to/jrl-umi3218.github.com
+       Destination: /path/to/jrl-umi3218.github.com/_site
       Generating... 
                     done.
-Configuration file: /path/to/roboptim.github.com/_config.yml
+Configuration file: /path/to/jrl-umi3218.github.com/_config.yml
     Server address: http://0.0.0.0:4000/
   Server running... press ctrl-c to stop
 ```
