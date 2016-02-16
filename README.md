@@ -1,26 +1,31 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Modern Business](http://startbootstrap.com/template-overviews/modern-business/)
+JRL website
+===========
 
-[Modern Business](http://startbootstrap.com/template-overviews/modern-business/) is a multipurpose, full website template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template includes 17 unique HTML pages and a working PHP contact form.
+## Testing locally
 
-## Getting Started
+In order to test your modifications locally before pushing to GitHub, install
+`jekyll`, and run the following command at the root of the project folder:
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+```sh
+$ jekyll server --safe --trace
+```
 
-## Bugs and Issues
+You will get something like:
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-modern-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/modern-business/).
+```
+Configuration file: /path/to/roboptim.github.com/_config.yml
+           Source:  /path/to/roboptim.github.com
+       Destination: /path/to/roboptim.github.com/_site
+      Generating... 
+                    done.
+Configuration file: /path/to/roboptim.github.com/_config.yml
+    Server address: http://0.0.0.0:4000/
+  Server running... press ctrl-c to stop
+```
 
-## Creator
+Then simply type the server address in your browser (`http://0.0.0.0:4000/`
+here).
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+## Jekyll theme
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-modern-business/blob/gh-pages/LICENSE) license.
+We use the [startbootstrap-modern-business](https://github.com/BlackrockDigital/startbootstrap-modern-business).
