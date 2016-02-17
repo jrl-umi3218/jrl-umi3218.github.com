@@ -42,8 +42,7 @@
     - id: escande
     - family: Duchemin
       given: Grégoire
-    - family: Chrétien
-      given: Benjamin
+    - id: chretien
     - id: kheddar
   projects: [comanoid]
 - id: samy:humanoids:2015

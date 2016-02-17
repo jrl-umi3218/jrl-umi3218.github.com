@@ -86,6 +86,24 @@
     - title: "Humanoid Posture Generation on non-Euclidean Manifolds"
       url: "http://www.youtube.com/watch?v=mShAQhHsQBY"
       img: "http://i1.ytimg.com/vi/mShAQhHsQBY/mqdefault.jpg"
+- id: chretien
+  given: Benjamin
+  family: Chrétien
+  role: phd
+  nationality: fr
+  scholar: "http://scholar.google.com/citations?user=RuokHdYAAAAJ"
+  github: "https://github.com/bchretien"
+  bio: >
+    <h3>Bio</h3>
+    <ul>
+      <li>Masters Degree in Aerospace Engineering from ISAE SUPAERO, Toulouse</li>
+    </ul>
+    <h3>Research interests</h3>
+    <ul>
+      <li>Motion planning</li>
+      <li>High-performance computing, GPGPU</li>
+      <li>Nonlinear optimization</li>
+    </ul>
 - id: galdeano
   given: David
   family: Galdeano
