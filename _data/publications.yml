@@ -1,0 +1,30 @@
+- id: brossette:humanoids:2015
+  year: 2015
+  title: "Humanoid posture generation on non-Euclidean manifolds"
+  booktitle: "2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)"
+  bib: "http://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.bib"
+  pdf: "http://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.pdf"
+  authors:
+    - family: Brossette
+      given: Stanilas
+    - family: Escande
+      given: Adrien
+    - family: Duchemin
+      given: Grégoire
+    - family: Chrétien
+      given: Benjamin
+    - family: Kheddar
+      given: Abderrahmane
+  projects: [comanoid]
+- id: samy:humanoids:2015
+  year: 2015
+  title: "Falls control using posture reshaping and active compliance"
+  booktitle: "2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)"
+  bib: "http://comanoid.cnrs.fr/publications_files/2015/Humanoids/T5OC-4.bib"
+  pdf: "http://comanoid.cnrs.fr/publications_files/2015/Humanoids/T5OC-4.pdf"
+  authors:
+    - family: Samy
+      given: Vincent
+    - family: Kheddar
+      given: Abderrahmane
+  projects: [comanoid]

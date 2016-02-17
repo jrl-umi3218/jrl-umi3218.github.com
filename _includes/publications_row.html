@@ -1,0 +1,42 @@
+<tr id="{{ include.publication.id }}">
+  <td id="{{ include.publication.id }}-title">{{ include.publication.title }}</td>
+  <td id="{{ include.publication.id }}-authors">
+    {% for author in include.publication.authors %}
+      <!-- Given names like Jean-Paul become J.-P. -->
+      <!-- TODO: remove extra whitespace, i.e. J. -P. -->
+      {% assign given_names = author.given | split:'-' %}
+      {% for n in given_names  %}
+        {% if forloop.index > 1 %}
+          -{{ n | truncate: 2, '.' }}
+        {% else %}
+          {{ n | truncate: 2, '.' }}
+        {% endif %}
+      {% endfor %}
+      {% if forloop.index < forloop.length %}
+        {{author.family}},
+      {% else %}
+        {{author.family}}
+      {% endif %}
+    {% endfor %}
+  </td>
+  <td id="{{ include.publication.id }}-book-title">{{include.publication.booktitle}}</td>
+  <td id="{{ include.publication.id }}-year">{{include.publication.year}}</td>
+  <td id="{{ include.publication.id }}-bib">
+    {% if include.publication.bib %}
+    <a href="{{ include.publication.bib }}" target="_blank">
+      <span class='glyphicon glyphicon-file'></span>
+    </a>
+    {% else %}
+    <span class='glyphicon glyphicon-ban-circle'></span>
+    {% endif %}
+  </td>
+  <td id="{{ include.publication.id }}-pdf">
+    {% if include.publication.pdf %}
+    <a href="{{ include.publication.pdf }}" target="_blank">
+      <span class='glyphicon glyphicon-file'></span>
+    </a>
+    {% else %}
+    <span class='glyphicon glyphicon-ban-circle'></span>
+    {% endif %}
+  </td>
+</tr>

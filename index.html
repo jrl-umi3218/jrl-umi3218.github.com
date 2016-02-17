@@ -5,47 +5,6 @@ title: CNRS-AIST JRL
 
 <!-- Page Content -->
 <div class="container">
-
-  <!-- Header Carousel -->
-  <div id="myCarousel" class="carousel slide">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-        <div class="carousel-caption">
-          <h2>Caption 1</h2>
-        </div>
-      </div>
-      <div class="item">
-        <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-        <div class="carousel-caption">
-          <h2>Caption 2</h2>
-        </div>
-      </div>
-      <div class="item">
-        <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-        <div class="carousel-caption">
-          <h2>Caption 3</h2>
-        </div>
-      </div>
-    </div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="icon-next"></span>
-    </a>
-  </div>
-
   <!-- Marketing Icons Section -->
   <div class="row">
     <div class="col-lg-12">
@@ -54,39 +13,18 @@ title: CNRS-AIST JRL
       </h1>
     </div>
 
-    <!--div class="col-md-4">
+    <div class="col-md-12">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+          <h4>Overview</h4>
         </div>
         <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-          <a href="#" class="btn btn-default">Learn More</a>
+          <p>CNRS-AIST JRL (Joint Robotics Laboratory), UMI3218/RL is a joint laboratory established between a French public organization CNRS (Centre National de la Recherche Scientifique) and AIST and located at Intelligent Systems Research Institute of the AIST at Tsukuba. The researchers from both countries are closely collaborating to pursue means of increasing robot’s functional autonomy, especially using the humanoid platform.</p>
+          <p>The main research subjects include: task and motion planning and control, multimodal interaction with human and surrounding environment through perception, and cognitive robotics. We host always more than ten foreign researchers, which characterizes the international atmosphere of this research group. We are actively conducting international collaborative research with French CNRS laboratories and also with research institutes through international research projects including EU projects.</p>
+          <p>The framework is identified as the Unité Mixte Internationale (UMI, International Joint Research Unit) for CNRS and concurrently as a Research Laboratory (RL) for AIST, and defined as UMI/RL.</p>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
-        </div>
-        <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-          <a href="#" class="btn btn-default">Learn More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
-        </div>
-        <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-          <a href="#" class="btn btn-default">Learn More</a>
-        </div>
-      </div>
-    </div -->
   </div>
   <!-- /.row -->
 
@@ -95,36 +33,15 @@ title: CNRS-AIST JRL
     <div class="col-lg-12">
       <h2 class="page-header">Projects</h2>
     </div>
+    {% for project in site.data.projects %}
+    {% if project.active == true %}
     <div class="col-md-4 col-sm-6">
-      <a href="portfolio-item.html">
-        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+      <a href="project-{{project.id}}.html" data-toggle="tooltip" title="{{project.title}} - {{project.longtitle}}">
+        <img class="img-responsive img-portfolio img-hover" src="/assets/projects/{{project.id}}.png" alt="{{project.title}} - {{project.longtitle}}">
       </a>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <a href="portfolio-item.html">
-        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-      </a>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <a href="portfolio-item.html">
-        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-      </a>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <a href="portfolio-item.html">
-        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-      </a>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <a href="portfolio-item.html">
-        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-      </a>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <a href="portfolio-item.html">
-        <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-      </a>
-    </div>
+    {% endif %}
+    {% endfor %}
   </div>
   <!-- /.row -->
 </div>

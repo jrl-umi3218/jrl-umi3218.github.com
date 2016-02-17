@@ -1,0 +1,25 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <td>Title</td>
+      <td>Authors</td>
+      <td>Conference/Book</td>
+      <td>Year</td>
+      <td>bib</td>
+      <td>pdf</td>
+    </tr>
+  </thead>
+  <tbody>
+    {% for publication in site.data.publications | sort: 'year' %}
+      {% if include.project_id %}
+        {% for p_id in publication.projects %}
+          {% if p_id == include.project_id %}
+            {% include publications_row.html publication=publication %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% include publications_row.html publication=publication %}
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>

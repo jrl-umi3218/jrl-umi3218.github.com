@@ -1,25 +1,14 @@
----
-layout: default
-title: CNRS-AIST JRL
----
-
-<!-- Page Content -->
-<div class="container">
-
   <!-- Page Heading/Breadcrumbs -->
   <div class="row">
     <div class="col-lg-12">
       <ol class="breadcrumb">
         <li><a href="index.html">Home</a>
         </li>
-        <li class="active">404</li>
+        <li class="active">{{include.breadcrumbs}}</li>
       </ol>
-      <h1 class="page-header">404
-        <small>Page Not Found</small>
+      <h1 class="page-header">{{include.title}}
+        {% if include.subtitle %}<small>{{include.subtitle}}</small>{% endif %}
       </h1>
     </div>
   </div>
   <!-- /.row -->
-
-</div>
-<!-- /.container -->

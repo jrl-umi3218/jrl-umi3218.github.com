@@ -1,0 +1,51 @@
+- id: dlr
+  logo: "/assets/logos/dlr.png"
+  name: "German Aerospace Center"
+  shortname: "DLR"
+  website: "http://www.dlr.de/dlr/en"
+- id: inria
+  logo: "/assets/logos/inria.png"
+  name: "Institut National de Recherche en Informatique et Automatique"
+  shortname: "INRIA"
+  website: "http://www.inria.fr/en/"
+- id: sapienza
+  logo: "/assets/logos/sapienza.png"
+  name: "Università degli Studi di Roma “La Sapienza”"
+  website: "http://en.uniroma1.it/"
+- id: airbus-gi
+  logo: "/assets/logos/airbus.png"
+  name: "Airbus Group Innovations"
+  shortname: "AGI"
+  website: "http://www.airbusgroup.com/int/en/innovation-environment/airbus-group-innovations.html"
+- id: heidelberg
+  logo: "/assets/logos/heidelberg.png"
+  name: "Universität Heidelberg"
+  website: "http://www.uni-heidelberg.de/index_e.html"
+- id: cnrs
+  logo: "/assets/logos/cnrs.png"
+  name: "Centre National de la Recherche Scientifique"
+  shortname: "CNRS"
+  website: "http://www.cnrs.fr/index.php"
+- id: kit
+  logo: "/assets/logos/kit.png"
+  name: "Karlsruhe Institute of Technology"
+  shortname: "KIT"
+  website: "https://www.kit.edu/english/"
+- id: iit
+  logo: "/assets/logos/iit.png"
+  name: "Istituto Italiano di Tecnologica"
+  shortname: "IIT"
+  website: "https://www.iit.it/"
+- id: tudelft
+  logo: "/assets/logos/tud.png"
+  name: "Technische Universiteit Delft"
+  shortname: "TU Delft"
+  website: "http://tudelft.nl/en/"
+- id: wis
+  logo: "/assets/logos/wi.png"
+  name: "Weizmann Institute"
+  website: "http://www.weizmann.ac.il/pages/"
+- id: utubingen
+  logo: "/assets/logos/utubingen.png"
+  name: "Universität Tübingen"
+  website: "https://www.uni-tuebingen.de/"

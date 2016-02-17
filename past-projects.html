@@ -1,0 +1,23 @@
+---
+layout: default
+title: CNRS-AIST JRL
+---
+<!-- Page Content -->
+<div class="container">
+  <!-- Projects Section -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="page-header">Past Projects</h2>
+    </div>
+    {% for project in site.data.projects %}
+    {% if project.active == false %}
+    <div class="col-md-4 col-sm-6">
+      <a href="project-{{project.id}}.html" data-toggle="tooltip" title="{{project.title}} - {{project.longtitle}}">
+        <img class="img-responsive img-portfolio img-hover" src="/assets/projects/{{project.id}}.png" alt="{{project.title}} - {{project.longtitle}}">
+      </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<!-- /.container -->

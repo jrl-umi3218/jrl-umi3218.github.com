@@ -1,0 +1,45 @@
+- id: comanoid
+  title: "COMANOID"
+  longtitle: "Multi-Contact Collaborative Humanoids in Aircraft Manufacturing"
+  year-start: 2015
+  year-end: 2019
+  active: true
+  url: "http://www.comanoid.eu"
+  partners: [cnrs, dlr, inria, sapienza, airbus-gi]
+  description: "<p>COMANOID stands for -Multi-Contact Collaborative Humanoids in Aircraft Manufacturing- is a RIA four-year European research project that started in January 2015 as part of the Horizon H2020 program.</p>
+
+  <p>COMANOID aims at deploying humanoid robots to achieve non-added value tasks that have been identified by Airbus Group in aircraft assembly operations. The project focuses on showing precise accessibility (namely into areas where wheeled robots cannot be deployed) through whole body multi-contact planning motion with advanced embedded 3D dense SLAM localization and visuo-force servoing capabilities. Because the robots evolve in human worker co-localized spaces, safety issues will be specifically accounted for. The results of COMANOID will be showcased in a 1:1 scale demonstrator of a real aircraft using two humanoid robots: the HRP-4 position controlled humanoid robot provided by CNRS partner and the TORO torque controlled humanoid robot provided by DLR partner.</p>
+    <h4>Goals</h4>
+    <ul>
+      <li>To investigate the deployment of humanoid robots solutions in Airbus assembly operations that are laborious and inaccessible for wheeled platforms.</li>
+      <li>To achieve Human-robot safe and operationally efficient collaboration.</li>
+    </ul>"
+- id: koroibot
+  title: "KoroiBot"
+  longtitle: "Improving humanoid walking capabilities by human-inspired mathematical models, optimization and learning"
+  year-start: 2013
+  year-end: 2016
+  active: true
+  url: "http://www.koroibot.eu/"
+  partners: [heidelberg,cnrs,kit,iit,tudelft,wis,utubingen]
+  description: "<p>Teaching two-legged robots a stable, robust “human” way of walking – this is the goal of the international research project KoroiBot, which is named after Koroibos of Elis, the first recorded Olympic champion in history. KoroiBot is funded by the European Union from October 2013 on for three years and gathers an interdisciplinary consortium from the areas of robotics, mathematics and cognitive sciences.</p>
+  <p>Whether as rescuers in disaster areas, household helps or as “colleagues” in modern work environments: there are numerous possible areas of deployment for humanoid robots in the future. One of the major challenges on the way is to enable robots to move on two legs in different situations, without falling – even in unknown rough terrain and under possible perturbations.</p>
+    <p>In the KoroiBot project, we will study the way humans walk e.g. on stairs and slopes, on soft and slippery ground or over beams and seesaws, and create mathematical models. Besides developing new optimization and learning methods for walking on two legs, we  aim to implement them in practice on real robots. In addition, the research results are to flow into planning new design principles for the next generation of robots.</p>
+    <p>Besides the targeted use in robotics, we expect possible applications of the methods in medicine, e.g. for controlling intelligent artificial limbs, designing and controlling exoskeletons as well as in computer animation and in game design.</p>
+
+    <p>Financial support by the European Union within the 7th Framework Program under Grant Agreement No. 611909 is gratefully acknowledged.</p>"
+- id: vere
+  title: "VERE"
+  longtitle: "Virtual Embodiment and Robotic Re-Embodiment"
+  year-start: 2010
+  year-end: 2015
+  active: true
+  url: "http://www.vereproject.eu/"
+  description: "<p>This Integrated Project aims at dissolving the boundary between the human body and surrogate representations in immersive virtual reality and physical reality. Dissolving the boundary means that people have the illusion that their surrogate representation is their own body, and act and have thoughts that correspond to this. The work in VERE may be thought of as applied presence research and applied cognitive neuroscience, and it would also significantly add to scientific knowledge in these areas.</p>"
+- id: robot_at_cwe
+  title: "Robot@CWE"
+  longtitle: "Robot@CWE"
+  year-start: 2007
+  year-end: 2009
+  active: false
+  description: "<p>The main objective of this STREP is to research and demonstrate integrative concepts of advanced robotic systems, to be seen as collaborative agents, in various environments working together with humans. We will integrate collaborative robotic systems as active agent operated through various control paradigms within working environment clusters. ROBOT@CWE will design suitable architectures and technologies to achieve this goal. Current developments in robotics tend toward human-centred design raising issues in: human-machine interface, human-robot interaction, working robots, assistive robots, ubiquitous robotics,humanitarian robotics for disaster support and rescue mission, European security, etc.</p>"

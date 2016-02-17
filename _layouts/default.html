@@ -76,19 +76,24 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
               <ul class="dropdown-menu">
+                {% for project in site.data.projects %}
+                {% if project.active == true %}
                 <li>
-                  <a href="dummy-project.html">Dummy project</a>
+                <a href="project-{{ project.id }}.html">{{project.title}}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+                <li role=separator class=divider></li>
+                <li>
+                  <a href="past-projects.html">Past projects</a>
                 </li>
               </ul>
             </li>
             <li>
+              <a href="members.html">Members</a>
+            </li>
+            <li>
               <a href="publications.html">Publications</a>
-            </li>
-            <li>
-              <a href="gallery.html">Gallery</a>
-            </li>
-            <li>
-              <a href="about.html">About</a>
             </li>
             <li>
               <a href="contact.html">Contact</a>
