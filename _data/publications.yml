@@ -13,8 +13,7 @@
       given: Grégoire
     - family: Chrétien
       given: Benjamin
-    - family: Kheddar
-      given: Abderrahmane
+    - id: kheddar
   projects: [comanoid]
 - id: samy:humanoids:2015
   year: 2015
@@ -25,6 +24,5 @@
   authors:
     - family: Samy
       given: Vincent
-    - family: Kheddar
-      given: Abderrahmane
+    - id: kheddar
   projects: [comanoid]

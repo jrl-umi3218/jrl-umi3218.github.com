@@ -4,6 +4,11 @@
       <ol class="breadcrumb">
         <li><a href="index.html">Home</a>
         </li>
+        {% if include.crumbs %}
+        {% for cr in include.crumbs %}
+        <li>{{cr}}</li>
+        {% endfor %}
+        {% endif %}
         <li class="active">{{include.breadcrumbs}}</li>
       </ol>
       <h1 class="page-header">{{include.title}}

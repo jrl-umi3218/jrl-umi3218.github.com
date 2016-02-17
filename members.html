@@ -1,44 +1,47 @@
 ---
 layout: default
-title: CNRS-AIST JRL
+title: CNRS-AIST JRL - Members
 ---
 
 <!-- Page Content -->
 <div class="container">
 
-  <!-- Page Heading/Breadcrumbs -->
-  <div class="row">
-    <div class="col-lg-12">
-      <h1 class="page-header">About
-        <small>Subheading</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="index.html">Home</a>
-        </li>
-        <li class="active">About</li>
-      </ol>
+  {% include breadcrumbs.html breadcrumbs="Members" title="Members" %}
+
+  <!-- Intro Content -->
+  <div class="row row-eq-height">
+    <div class="col-md-6 col-eq-height">
+      <a href="/assets/pictures/jrl-team-picture.jpg" data-toggle="lightbox">
+        <img class="img-responsive img-rounded" src="/assets/pictures/jrl-team-picture.jpg" alt="">
+      </a>
+    </div>
+    <div class="col-md-6 col-eq-height">
+      <h2>About the JRL</h2>
+        <p>CNRS-AIST JRL (Joint Robotics Laboratory), UMI3218/RL is a joint laboratory established between a French public organization CNRS (Centre National de la Recherche Scientifique) and AIST and located at Intelligent Systems Research Institute of the AIST at Tsukuba. The researchers from both countries are closely collaborating to pursue means of increasing robot’s functional autonomy, especially using the humanoid platform.</p>
+        <p>The main research subjects include: task and motion planning and control, multimodal interaction with human and surrounding environment through perception, and cognitive robotics. We host always more than ten foreign researchers, which characterizes the international atmosphere of this research group. We are actively conducting international collaborative research with French CNRS laboratories and also with research institutes through international research projects including EU projects.</p>
+        <p>The framework is identified as the Unité Mixte Internationale (UMI, International Joint Research Unit) for CNRS and concurrently as a Research Laboratory (RL) for AIST, and defined as UMI/RL.</p>
     </div>
   </div>
   <!-- /.row -->
 
-  <!-- Intro Content -->
+  <!-- Co-directors -->
   <div class="row">
-    <div class="col-md-6">
-      <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+    <div class="col-lg-12">
+      <h3 class="page-header">Co-directors</h3>
     </div>
-    <div class="col-md-6">
-      <h2>About the JRL</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
-    </div>
+    <div class="col-md-2"></div>
+    {% for member in site.data.members %}
+    {% if member.role == "co-director" %}
+    {% include member_summary.html member=member %}
+    {% endif %}
+    {% endfor %}
+    <div class="col-md-2"></div>
   </div>
-  <!-- /.row -->
 
   <!-- Team Members -->
   <div class="row">
     <div class="col-lg-12">
-      <h2 class="page-header">Our Team</h2>
+      <h3 class="page-header">Our Team</h3>
     </div>
     <div class="col-md-4 text-center">
       <div class="thumbnail">
@@ -156,33 +159,6 @@ title: CNRS-AIST JRL
     </div>
   </div>
   <!-- /.row -->
-
-  <!-- Our Collaborators -->
-  <div class="row">
-    <div class="col-lg-12">
-      <h2 class="page-header">Our Collaborators</h2>
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-6">
-      <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-6">
-      <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-6">
-      <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-6">
-      <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-6">
-      <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-6">
-      <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-    </div>
-  </div>
-  <!-- /.row -->
-
 </div>
 <!-- /.container -->
 

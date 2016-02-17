@@ -1,0 +1,31 @@
+{% assign member_has_page = false %}
+{% capture member_page %}member-{{include.member.id}}.html{% endcapture %}
+{% for page in site.html_pages %}
+  {% if page.path == member_page %}
+    {% assign member_has_page = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+<div class="col-md-4 text-center">
+  <div class="thumbnail">
+    {% if member_has_page %}<a href="{{member_page}}">{% endif %}<img class="img-responsive" src="/assets/members/{{include.member.id}}.jpg" alt="{{include.member.given}} {{include.member.family}} photo">{% if member_has_page %}</a>{% endif %}
+    <div class="caption">
+      <h3>{% if member_has_page %}<a href="{{member_page}}">{% endif %}{{include.member.given}} {{include.member.family}}{% if member_has_page %}</a>{% endif %}</h3>
+      <p><span class="flag-icon flag-icon-{{include.member.nationality}}" style="box-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black;"></span></p>
+      <ul class="list-inline">
+        {% if include.member.website %}
+        <li><a href="{{include.member.website}}" target="_blank"><i class="fa fa-2x fa-external-link-square"></i></a>
+        </li>
+        {% endif %}
+        {% if include.member.linkedin %}
+        <li><a href="{{include.member.linkedin}}" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
+        </li>
+        {% endif %}
+        {% if include.member.scholar %}
+        <li><a href="{{include.member.scholar}}" target="_blank"><i class="fa fa-2x fa-google-plus-square"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>

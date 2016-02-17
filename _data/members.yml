@@ -1,0 +1,19 @@
+- id: kheddar
+  given: Abderrahmane
+  family: Kheddar
+  role: co-director
+  nationality: fr
+  linkedin: "https://www.linkedin.com/in/kheddar"
+  website: "http://www.lirmm.fr/lirmm_eng/users/utilisateurs-lirmm/equipes/idh/abderrahmane-kheddar"
+  scholar: "https://scholar.google.fr/citations?user=yd4xmlcAAAAJ&hl=fr"
+  bio: >
+    <p><b>Abderrahmane Kheddar&nbsp;</b>received the BSCS degree from the <a href="http://www.esi.dz/" target="_self">Institut National d’Informatique</a> (INI), Algiers, the MSc and PhD degrees in robotics, both from the <a href="http://www.upmc.fr/en/index.html" target="_self">University of Pierre and Marie Curie</a>, Paris 6. He is presently Directeur de Recherche at <a href="http://www.cnrs.fr/" target="_self">CNRS</a>. He is the Director of the <a href="https://unit.aist.go.jp/is/jrl/ci/" target="_self">CNRS-AIST Joint Robotic Laboratory</a> (JRL), UMI3218/CRT, Tsukuba, Japan; and team leader of the <a href="http://www.lirmm.fr/lirmm_eng/research/teams/idh" target="_self">Interactive Digital Humans</a> (IDH) team at CNRS-UM&nbsp;<a href="http://www.lirmm.fr/lirmm_eng/" target="_self">LIRMM</a> at Montpellier, France. Prior to this, he was (1999-2003) assistant professor and (2004-2008) full professor at the <a href="http://www.univ-evry.fr/en/index.html" target="_self">University of Evry</a> where he created and headed the virtual reality and haptics group. His current research interests include humanoid robotics, haptics, and thought-based control using brain machine interfaces en physical re-embodiment. He is a founding member of the <a href="http://www.worldhaptics.org/" target="_self">IEEE/RAS chapter on haptics</a> (acting also as a senior advisor), the co-chair and co-founding member of the <a href="http://www.tc-opt.uni-hd.de/" target="_self">IEEE/RAS Technical committee on model-based optimization</a>. He is presently Editor of the IEEE Transactions on Robotics and the Journal of Intelligent and Robotic Systems, and Frontiers in Bionics; he is a founding member of the IEEE Transactions on Haptics and served in its editorial board during three years (2007-2010) and served as AE also the&nbsp;MIT Press PRESENCE journal (2013-2014). He also coordinated or acted as a PI for several EU projects and <a href="https://www.jsps.go.jp/english/" target="_self">JSPS</a> Kakenhi projects.</p>
+#  selected_publications: ["samy:humanoids:2015"]
+- id: yoshida
+  given: Eiichi
+  family: Yoshida
+  role: co-director
+  nationality: jp
+  linkedin: "https://www.linkedin.com/in/eiichi-yoshida-615107"
+  bio: >
+    <p><b>Eiichi Yoshida&nbsp;</b>...</p>

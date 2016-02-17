@@ -6,3 +6,14 @@
   margin-right: 10px;
   height: 40px;
 }
+
+.row-eq-height {
+  display: table;
+  table-layout: fixed;
+}
+
+.col-eq-height {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
