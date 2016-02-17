@@ -5,8 +5,9 @@
   nationality: fr
   linkedin: "https://www.linkedin.com/in/kheddar"
   website: "http://www.lirmm.fr/lirmm_eng/users/utilisateurs-lirmm/equipes/idh/abderrahmane-kheddar"
-  scholar: "https://scholar.google.fr/citations?user=yd4xmlcAAAAJ&hl=fr"
+  scholar: "https://scholar.google.com/citations?user=yd4xmlcAAAAJ"
   bio: >
+    <h3>Bio</h3>
     <p><b>Abderrahmane Kheddar&nbsp;</b>received the BSCS degree from the <a href="http://www.esi.dz/" target="_self">Institut National d’Informatique</a> (INI), Algiers, the MSc and PhD degrees in robotics, both from the <a href="http://www.upmc.fr/en/index.html" target="_self">University of Pierre and Marie Curie</a>, Paris 6. He is presently Directeur de Recherche at <a href="http://www.cnrs.fr/" target="_self">CNRS</a>. He is the Director of the <a href="https://unit.aist.go.jp/is/jrl/ci/" target="_self">CNRS-AIST Joint Robotic Laboratory</a> (JRL), UMI3218/CRT, Tsukuba, Japan; and team leader of the <a href="http://www.lirmm.fr/lirmm_eng/research/teams/idh" target="_self">Interactive Digital Humans</a> (IDH) team at CNRS-UM&nbsp;<a href="http://www.lirmm.fr/lirmm_eng/" target="_self">LIRMM</a> at Montpellier, France. Prior to this, he was (1999-2003) assistant professor and (2004-2008) full professor at the <a href="http://www.univ-evry.fr/en/index.html" target="_self">University of Evry</a> where he created and headed the virtual reality and haptics group. His current research interests include humanoid robotics, haptics, and thought-based control using brain machine interfaces en physical re-embodiment. He is a founding member of the <a href="http://www.worldhaptics.org/" target="_self">IEEE/RAS chapter on haptics</a> (acting also as a senior advisor), the co-chair and co-founding member of the <a href="http://www.tc-opt.uni-hd.de/" target="_self">IEEE/RAS Technical committee on model-based optimization</a>. He is presently Editor of the IEEE Transactions on Robotics and the Journal of Intelligent and Robotic Systems, and Frontiers in Bionics; he is a founding member of the IEEE Transactions on Haptics and served in its editorial board during three years (2007-2010) and served as AE also the&nbsp;MIT Press PRESENCE journal (2013-2014). He also coordinated or acted as a PI for several EU projects and <a href="https://www.jsps.go.jp/english/" target="_self">JSPS</a> Kakenhi projects.</p>
 #  selected_publications: ["samy:humanoids:2015"]
 - id: yoshida
@@ -16,4 +17,80 @@
   nationality: jp
   linkedin: "https://www.linkedin.com/in/eiichi-yoshida-615107"
   bio: >
+    <h3>Bio</h3>
     <p><b>Eiichi Yoshida&nbsp;</b>...</p>
+- id: escande
+  given: Adrien
+  family: Escande
+  role: permanent
+  nationality: fr
+  scholar: "https://scholar.google.com/citations?user=c_64U7QAAAAJ"
+  website: "https://sites.google.com/site/adrienescandehomepage/"
+  linkedin: "https://www.linkedin.com/in/adrien-escande-663399113"
+- id: ganesh
+  given: Ganesh
+  family: Gowrishankar
+  role: permanent
+  nationality: in
+  website: "https://staff.aist.go.jp/g.ganesh/"
+- id: ayusawa
+  given: Ko
+  family: Ayusawa
+  role: permanent
+  nationality: jp
+  website: "http://dblp.uni-trier.de/pers/hd/a/Ayusawa:Ko"
+- id: morisawa
+  given: Mitsuharu
+  family: Morisawa
+  role: permanent
+  nationality: jp
+  linkedin: "https://www.linkedin.com/in/mitsuharu-morisawa-99475249"
+  website: "http://dblp.uni-trier.de/pers/hd/m/Morisawa:Mitsuharu"
+- id: demagistris
+  given: Giovanni
+  family: "De Magistris"
+  role: postdoc
+  nationality: it
+  linkedin: "https://www.linkedin.com/in/giovanni-de-magistris-06a01772"
+  scholar: "https://scholar.google.com/citations?user=KA6mj_0AAAAJ"
+- id: gergondet
+  given: Pierre
+  family: Gergondet
+  role: engineer
+  nationality: fr
+  linkedin: "https://www.linkedin.com/in/pierre-gergondet-9086092"
+  scholar: "https://scholar.google.com/citations?user=PaxwF6sAAAAJ"
+  github: "https://github.com/gergondet"
+- id: brossette
+  given: Stanislas
+  family: Brossette
+  role: phd
+  nationality: fr
+  scholar: "https://scholar.google.com/citations?user=aq1XI7UAAAAJ"
+  website: "https://sites.google.com/site/stanislasbrossette/"
+  linkedin: "https://www.linkedin.com/in/brossette"
+  github: "https://github.com/stanislas-brossette"
+  bio: >
+    <h3>Bio</h3>
+    <ul>
+      <li>Masters Degree in Computational Mechanics from Ecole Normale Superieure of Cachan</li>
+    </ul>
+    <h3>Research interests</h3>
+    <ul>
+      <li>Full-body posture generation (generalized inverse kinematics)</li>
+      <li>Development of a dedicated nonlinear optimization solver specialized for robotics problems</li>
+      <li>Description and resolution of robotics problems on non-Euclidean manifolds</li>
+      <li>Autonomous choice of contact points on complex surfaces</li>
+    </ul>
+  videos:
+    - title: "Humanoid Posture Generation on non-Euclidean Manifolds"
+      url: "http://www.youtube.com/watch?v=mShAQhHsQBY"
+      img: "http://i1.ytimg.com/vi/mShAQhHsQBY/mqdefault.jpg"
+- id: galdeano
+  given: David
+  family: Galdeano
+  role: alumni
+  nationality: fr
+  linkedin: "https://www.linkedin.com/in/david-galdeano-733416110"
+  scholar: "https://scholar.google.co.jp/citations?user=fbE_0PYAAAAJ"
+  website: "https://sites.google.com/site/galdeanodavid/home"

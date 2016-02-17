@@ -1,14 +1,45 @@
+- id: escande:icra:2016
+  year: 2016
+  title: "Parametrization of Catmull-Clark Subdivision Surfaces for Posture generation"
+  booktitle: "IEEE International Conference on Robotics and Automation (ICRA)"
+  authors:
+    - id: escande
+    - id: brossette
+    - id: kheddar
+- id: vaillant:ar:2016
+  year: 2016
+  title: "Multi-Contact Vertical Ladder Climbing with an HRP-2 Humanoid"
+  booktitle: "Autonomous Robots"
+  authors:
+    - family: Vaillant
+      given: Joris
+    - id: kheddar
+    - family: Audren
+      given: Hervé
+    - family: Keith
+      given: François
+    - id: brossette
+    - id: escande
+    - family: Bouyarmane
+      given: Karim
+    - family: Kaneko
+      given: Kenji
+    - id: morisawa
+    - id: gergondet
+    - id: yoshida
+    - family: Kajita
+      given: Suuji
+    - family: Kanehiro
+      given: Fumio
 - id: brossette:humanoids:2015
   year: 2015
   title: "Humanoid posture generation on non-Euclidean manifolds"
-  booktitle: "2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)"
+  booktitle: "IEEE-RAS International Conference on Humanoid Robots (Humanoids)"
   bib: "http://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.bib"
   pdf: "http://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.pdf"
   authors:
-    - family: Brossette
-      given: Stanilas
-    - family: Escande
-      given: Adrien
+    - id: brossette
+    - id: escande
     - family: Duchemin
       given: Grégoire
     - family: Chrétien
@@ -18,7 +49,7 @@
 - id: samy:humanoids:2015
   year: 2015
   title: "Falls control using posture reshaping and active compliance"
-  booktitle: "2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)"
+  booktitle: "IEEE-RAS International Conference on Humanoid Robots (Humanoids)"
   bib: "http://comanoid.cnrs.fr/publications_files/2015/Humanoids/T5OC-4.bib"
   pdf: "http://comanoid.cnrs.fr/publications_files/2015/Humanoids/T5OC-4.pdf"
   authors:
@@ -26,3 +57,48 @@
       given: Vincent
     - id: kheddar
   projects: [comanoid]
+- id: brossette:cisram:2013
+  year: 2013
+  title: "Point-Cloud Multi-Contact Planning for Humanoids: Preliminary Results"
+  booktitle: "Cybernetics and Intelligent Systems Robotics, Automation and Mechatronics (CISRAM)"
+  authors:
+    - id: brossette
+    - family: Vaillant
+      given: Joris
+    - family: Keith
+      given: François
+    - id: escande
+    - id: kheddar
+- id: brossette:iros:2014
+  year: 2014
+  title: "Integration of Non-Inclusive Contacts in Posture Generation"
+  booktitle: "IEEE/RSJ International Conference on Intelligent Robots and Systems"
+  authors:
+    - id: brossette
+    - id: escande
+    - family: Vaillant
+      given: Joris
+    - family: Keith
+      given: François
+    - family: Moulard
+      given: Thomas
+    - id: kheddar
+- id: vaillant:humanoids:2014
+  year: 2014
+  title: "Vertical Ladder Climbing by the HRP-2 Humanoid Robot"
+  booktitle: "IEEE/RAS International Conference on Humanoid Robots (Humanoids)"
+  authors:
+    - family: Vaillant
+      given: Joris
+    - id: kheddar
+    - family: Audren
+      given: Hervé
+    - family: Keith
+      given: François
+    - id: brossette
+    - family: Kaneko
+      given: Kenji
+    - id: morisawa
+    - id: yoshida
+    - family: Kanehiro
+      given: Fumio
