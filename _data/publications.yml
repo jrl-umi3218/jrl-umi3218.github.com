@@ -1,3 +1,13 @@
+- id: chretien:tpds:2016
+  year: 2016
+  title: "GPU Robot Motion Planning using Semi-Infinite Nonlinear Programming"
+  booktitle: "IEEE Transactions on Parallel and Distributed Systems (TPDS)"
+  authors:
+    - id: chretien
+    - id: escande
+    - id: kheddar
+  pdf: "https://hal.archives-ouvertes.fr/hal-01266581/document"
+  projects: [robohow]
 - id: escande:icra:2016
   year: 2016
   title: "Parametrization of Catmull-Clark Subdivision Surfaces for Posture generation"
@@ -56,6 +66,27 @@
       given: Vincent
     - id: kheddar
   projects: [comanoid]
+- id: chretien:iros:2015
+  year: 2015
+  title: "Continuously satisfying constraints with contact forces in trajectory optimization for humanoid robots"
+  authors:
+    - id: chretien
+    - id: escande
+    - id: kheddar
+  booktitle: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document"
+  projects: [robohow]
+- id: moulard:rsj:2014
+  title: "Software Tools for Nonlinear Optimization: Modern Solvers and Toolboxes for Robotics"
+  authors:
+  - family: Moulard
+    given: Thomas
+  - id: chretien
+  - id: yoshida
+  year: 2014
+  booktitle: "Journal of the Robotics Society of Japan (日本ロボット学会誌)"
+  pdf: "http://staff.aist.go.jp/e.yoshida/papers/moulard_rsj14.pdf"
+  projects: [robohow]
 - id: brossette:cisram:2013
   year: 2013
   title: "Point-Cloud Multi-Contact Planning for Humanoids: Preliminary Results"
