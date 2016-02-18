@@ -49,3 +49,42 @@
   logo: "/assets/logos/utubingen.png"
   name: "Universität Tübingen"
   website: "https://www.uni-tuebingen.de/"
+- id: bremen
+  logo: "/assets/logos/bremen.png"
+  name: "Universität Bremen"
+  shortname: "UNIHB"
+  website: "http://www.uni-bremen.de/"
+- id: epfl
+  logo: "/assets/logos/epfl.png"
+  name: "Ecole Polytechnique Federale de Lausanne"
+  shortname: "EPFL"
+  website: "http://www.epfl.ch/"
+- id: kth
+  logo: "/assets/logos/kth.png"
+  name: "Kungliga Tekniska Högskolan"
+  shortname: "KTH"
+  website: "http://www.kth.se/"
+- id: kul
+  logo: "/assets/logos/kul.png"
+  name: "Katholieke Universiteit Leuven"
+  shortname: "KUL"
+  website: "http://www.kuleuven.be/"
+- id: forth
+  logo: "/assets/logos/forth.png"
+  name: "Foundation for Research and Technology - Hellas"
+  shortname: "FORTH"
+  website: "http://www.forth.gr/"
+- id: ul
+  logo: "/assets/logos/ul.png"
+  name: "Universiteit Leiden"
+  shortname: "UL"
+  website: "http://www.leidenuniv.nl/"
+- id: aldebaran
+  logo: "/assets/logos/aldebaran.png"
+  name: "Aldebaran Robotics"
+  website: "http://www.aldebaran-robotics.com/"
+- id: tum
+  logo: "/assets/logos/tum.png"
+  name: "Technische Universität München"
+  shortname: "TUM"
+  website: "http://www.tum.de/"

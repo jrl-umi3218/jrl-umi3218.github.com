@@ -82,7 +82,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                {% for project in site.data.projects %}
+                {% assign sorted_projects = site.data.projects | sort_by: 'id' %}
+                {% for project in sorted_projects %}
                 {% if project.active == true %}
                 <li>
                 <a href="project-{{ project.id }}.html">{{project.title}}</a>

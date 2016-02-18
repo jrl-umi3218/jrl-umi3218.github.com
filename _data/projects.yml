@@ -28,6 +28,24 @@
     <p>Besides the targeted use in robotics, we expect possible applications of the methods in medicine, e.g. for controlling intelligent artificial limbs, designing and controlling exoskeletons as well as in computer animation and in game design.</p>
 
     <p>Financial support by the European Union within the 7th Framework Program under Grant Agreement No. 611909 is gratefully acknowledged.</p>"
+- id: robohow
+  title: "RoboHow"
+  longtitle: "RoboHow"
+  year-start: 2012
+  year-end: 2016
+  active: true
+  url: "https://robohow.eu/"
+  partners: [bremen,cnrs,epfl,kth,kul,forth,ul,aldebaran,tum]
+  description: "<p>Robohow is a four-year European research project that started in February 2012. It aims at enabling robots to competently perform everyday human-scale manipulation activities - both in human working and living environments.</p>
+  <p>In order to achieve this goal, Robohow pursues a knowledge-enabled and plan-based approach to robot programming and control.</p>
+  <p>The vision of the project is that of a cognitive robot that autonomously performs complex everyday manipulation tasks and extends its repertoire of such by acquiring new skills using web-enabled and experience-based learning as well as by observing humans.</p>"
+  videos:
+    - title: "Human-Humanoid Joint Haptic Table Carrying Task with Height Stabilization using Vision"
+      url: "https://www.youtube.com/watch?v=LnuF41CKq0E"
+      img: "http://i1.ytimg.com/vi/LnuF41CKq0E/mqdefault.jpg"
+    - title: "Proactivity and Role Switching in a Humanoid-Human Transportation Task"
+      url: "https://www.youtube.com/watch?v=kYUdYOIYeZ0"
+      img: "http://i1.ytimg.com/vi/kYUdYOIYeZ0/mqdefault.jpg"
 - id: vere
   title: "VERE"
   longtitle: "Virtual Embodiment and Robotic Re-Embodiment"

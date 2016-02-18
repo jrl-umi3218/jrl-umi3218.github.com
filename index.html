@@ -37,7 +37,8 @@ title: CNRS-AIST JRL
     <div class="col-lg-12">
       <h2 class="page-header">Projects</h2>
     </div>
-    {% for project in site.data.projects %}
+    {% assign sorted_projects = site.data.projects | sort_by: 'id' %}
+    {% for project in sorted_projects %}
     {% if project.active == true %}
     <div class="col-md-4 col-sm-6">
       <a href="project-{{project.id}}.html" data-toggle="tooltip" title="{{project.title}} - {{project.longtitle}}">
