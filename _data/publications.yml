@@ -18,6 +18,7 @@
     - id: escande
     - id: brossette
     - id: kheddar
+  projects: [comanoid]
 - id: vaillant:ar:2016
   year: 2016
   title: "Multi-Contact Vertical Ladder Climbing with an HRP-2 Humanoid"
@@ -103,6 +104,7 @@
       given: François
     - id: escande
     - id: kheddar
+  projects: [robohow]
 - id: brossette:iros:2014
   year: 2014
   title: "Integration of Non-Inclusive Contacts in Posture Generation"
@@ -119,6 +121,7 @@
     - family: Moulard
       given: Thomas
     - id: kheddar
+  projects: [robohow, koroibot]
 - id: vaillant:humanoids:2014
   year: 2014
   title: "Vertical Ladder Climbing by the HRP-2 Humanoid Robot"
