@@ -28,7 +28,7 @@
       {% endif %}
       {% assign given_names = given | split:'-' %}
       <span class="publications-members">
-      {% capture author_fullname %}
+      {% capture author_initials %}
       {% for n in given_names  %}
         {% if forloop.index > 1 %}
           -{{ n | truncate: 2, '.' }}
@@ -36,8 +36,11 @@
           {{ n | truncate: 2, '.' }}
         {% endif %}
       {% endfor %}
-      {{family}}
       {% endcapture %}
+      {% capture author_fullname %}{{author_initials}} {{family}}{% endcapture%}
+      {% if forloop.index < forloop.length %}
+      {% capture author_fullname %}{{author_fullname}}, {% endcapture %}
+      {% endif %}
       {% if member_has_page == true %}
         <a href="{{member_page}}">{{author_fullname}}</a>
       {% elsif author.id and role != "alumni" %}
@@ -45,7 +48,7 @@
       {% else %}
         {{author_fullname}}
       {% endif %}
-      </span>{% if forloop.index < forloop.length -%}, {% endif %}
+      </span>
     {% endfor %}
   </td>
   <td id="{{ include.publication.id }}-book-title">{{include.publication.booktitle}}</td>
