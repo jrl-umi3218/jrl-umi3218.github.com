@@ -37,7 +37,7 @@ title: CNRS-AIST JRL
     <div class="col-lg-12">
       <h2 class="page-header">Projects</h2>
     </div>
-    {% assign sorted_projects = site.data.projects | sort_by: 'id' %}
+    {% assign sorted_projects = site.data.projects | sort: 'id' %}
     {% for project in sorted_projects %}
     {% if project.active == true %}
     <div class="col-md-4 col-sm-6">
