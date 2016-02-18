@@ -20,6 +20,18 @@
     - id: brossette
     - id: kheddar
   projects: [comanoid]
+- id: demagistris:icra:2016
+  year: 2016
+  title: "Humanoid walking with compliant soles using a deformation estimator"
+  booktitle: "IEEE International Conference on Robotics and Automation (ICRA)"
+  authors:
+    - id: demagistris
+    - family: Pajon
+      given: Adrien
+    - family: Miossec
+      given: Sylvain
+    - id: kheddar
+  projects: [koroibot]  
 - id: vaillant:ar:2016
   year: 2016
   title: "Multi-Contact Vertical Ladder Climbing with an HRP-2 Humanoid"
@@ -57,6 +69,21 @@
     - id: chretien
     - id: kheddar
   projects: [comanoid]
+- id: pajon:icar:2015
+  year: 2015
+  title: "A humanoid walking pattern generator for sole design optimization"
+  booktitle: "17th International Conference on Advanced Robotics (ICAR)"
+  pdf: "https://www.researchgate.net/profile/Giovanni_Magistris/publication/281112900_A_Humanoid_Walking_Pattern_Generator_for_Sole_Design_Optimization/links/55d679f708ae9d65948bde6c.pdf"
+  authors:
+    - family: Pajon
+      given: Adrien
+    - id: demagistris
+    - family: Miossec
+      given: Sylvain
+    - family: Kaneko
+      given: Kenji
+    - id: kheddar
+  projects: [koroibot]    
 - id: samy:humanoids:2015
   year: 2015
   title: "Falls control using posture reshaping and active compliance"
