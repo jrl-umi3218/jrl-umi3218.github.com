@@ -1,6 +1,159 @@
 JRL website
 ===========
 
+## Providing information for the website
+
+The website relies on yaml data to generate most of its content. Most of the
+time this all you will need to change to update the website. In this section we
+describe the data expected by the website for each data types.
+
+#### Members
+
+| Field | Description | Required |
+|-------|-------------|:--------:|
+| id | A unique user id, all lower-case is prefered | ✔ |
+| given | Given name(s) | ✔ |
+| family | Family name | ✔ |
+| role | One of: co-director/permanent/postdoc/phd/master/alumni | ✔ |
+| nationality | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality | ✔ |
+| linkedin | Link to the member's linkedin profile      |  |
+| webiste  | Link to the member's personal website      |  |
+| scholar  | Link to the member's google scholar prefix |  |
+| github   | Link to the member's github profile        |  |
+| bio | The member's bio (HTML) |  |
+| selected_publications | A subset of publications-id |  |
+| videos | A list of video entries (see [Video entry](#video_entry)) |  |
+
+###### Optional asset
+
+If the user's id is `jrlmember`, the site expects to find a picture of the member at the following location: `assets/members/jrlmember.jpg`. Otherwise it will use an anonymous picture.
+
+The image should be `150x200` for the sake of the website's layout.
+
+###### Note
+
+While the `linkedin`, `website`, `scholar` and `github` are all optionals it is mandatory to provide at least 1 to prevent a break of the members' page layout.
+
+
+#### Publications
+
+| Field | Description | Required |
+|-------|-------------|:--------:|
+| id | A unique publication id, typically `firstauthor:journal:year` | ✔ |
+| year | The publication's year  | ✔ |
+| title | The publication's title | ✔ |
+| booktitle | The publication's conference or book name | ✔ |
+| authors | The publication's list of authors, if the authors is part of the JRL members' database then you should use his/her id otherwise provide given and family entries | ✔ |
+| bib | Link to a bib file |  |
+| pdf | Link to a pdf file (or any link that could link to the pdf, e.g. HAL or ieeexplore) |  |
+| projects | List of related projects' ids |  |
+
+#### Projects
+
+| Field | Description | Required |
+|-------|-------------|:--------:|
+| id | A unique project id | ✔ |
+| title | Project title (typically the acronym e.g. `VERE`) | ✔ |
+| longtitle | A more descriptive title (typically the acronym significance e.g `Virtual Embodiment and Robotics Re-Embodiment`) | ✔ |
+| year-start | Starting year | ✔ |
+| year-end | Ending year | ✔ |
+| active | true for active projects, false otherwise | ✔ |
+| url | Website of the project |  |
+| partners | A list of the projects' partner id |  |
+| description | Description of the project (HTML) | ✔ |
+| videos | A list of video entries (see [Video entry](#video_entry)) |  |
+
+###### Mandatory asset
+
+For a project whose id is `jrlproject`, a logo is expected at
+`/assets/projects/jrlproject.png`.
+
+The image resolution should be `700x450`.
+
+
+###### Note
+
+The `active` property is very important to properly showcase your project on the website's front page.
+
+If the project `active` property is set to `true`:
+- the project will appear on the front-page
+- the project will be directly listed in the projects menu
+
+If the project `active` property is set to `false`:
+- the project will only appear in the `Past projects` page
+
+#### Partners
+
+| Field | Description | Required |
+|-------|-------------|:--------:|
+| id | A unique partner id | ✔ |
+| logo | A link to the partner's logo (for the sake of the website's layout, this logo should be a in square image) | ✔ |
+| name | The full name of the partner | ✔ |
+| shortname | An abbreviated name |  |
+| website | A link to the partner's website | ✔ |
+
+
+#### Video entry<a name="video_entry"></a>
+
+| Field | Description | Required |
+|-------|-------------|:--------:|
+| title | Video title | ✔ |
+| url | Video url (youtube-only) | ✔ |
+| img | Image used for the vignette (`http://i1.ytimg.com/vi/[YOURVIDEOHASH]/mqdefault.jpg` can be used) | ✔ |
+
+## Creating a new page
+
+Normally, providing the additional information is enough to display it on the website. An additional step is required for two operations:
+1. Create a member's page
+2. Create a project's page
+
+#### Create a member page
+
+In the following example, the user id is `jrlmember`.
+
+- Create a new page named `member-jrlmember.html` at the root of the repository
+- Put the following content
+
+```
+---
+layout: default
+title: CNRS-AIST JRL
+---
+{% include member_full.html id="jrlmember" %}
+```
+
+- (optional) Add pictures to the carousel by puting pictures in the `assets/members/jrlmember/` folder (note: the picture wil appear in their alphabetical order)
+
+The page will display:
+- A carousel including the member's picture and all pictures added in step 3
+- The content of the `bio` entry
+- A video gallery corresponding to the `videos` entry
+- Either the full list of publications or a list of selected publications and the full (hidden by default) list of publications.
+
+### Create a project page
+
+In the following example, the project id is `jrlproject`.
+
+- Create a new page named `project-jrlproject.html` at the root of the repository
+- Put the following content
+
+```
+---
+layout: default
+title: CNRS-AIST JRL
+---
+{% include project.html id="jrl-project" %}
+```
+
+- (optional) Add pictures to the carousel by putting pictures in the `assets/projects/jrlproject/` folder (note: the picture will appear in their alphabetical order)
+
+The page will display:
+- A carousel including ll pictures added in step 3 or the project logo if no pictures were added
+- The content of the `description` entry
+- A video gallery corresponding to the `videos` entry
+- The full list of publications related to the project
+- A list of partners in the project
+
 ## Testing locally
 
 In order to test your modifications locally before pushing to GitHub, install
@@ -16,7 +169,7 @@ You will get something like:
 Configuration file: /path/to/jrl-umi3218.github.com/_config.yml
            Source:  /path/to/jrl-umi3218.github.com
        Destination: /path/to/jrl-umi3218.github.com/_site
-      Generating... 
+      Generating...
                     done.
 Configuration file: /path/to/jrl-umi3218.github.com/_config.yml
     Server address: http://0.0.0.0:4000/
