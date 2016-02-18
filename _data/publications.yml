@@ -132,3 +132,17 @@
     - id: yoshida
     - family: Kanehiro
       given: Fumio
+- id: pham:cvpr:2015
+  year: 2015
+  title: "Towards Force Sensing From Vision: Observing Hand-Object Interactions to Infer Manipulation Forces"
+  booktitle: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+  bib: "https://raw.githubusercontent.com/ph4m/homepage/master/bibtex/cvpr.pham.2015.bib"
+  pdf: "http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pham_Towards_Force_Sensing_2015_CVPR_paper.pdf"
+  authors:
+    - id: pham
+    - id: kheddar
+    - family: Qammaz
+      given: Ammar
+    - family: Argyros
+      given: Antonis A.
+  projects: [robohow]

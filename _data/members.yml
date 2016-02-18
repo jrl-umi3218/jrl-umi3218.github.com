@@ -112,3 +112,19 @@
   linkedin: "https://www.linkedin.com/in/david-galdeano-733416110"
   scholar: "https://scholar.google.co.jp/citations?user=fbE_0PYAAAAJ"
   website: "https://sites.google.com/site/galdeanodavid/home"
+- id: pham
+  given: Tu-Hoa
+  family: Pham
+  role: phd
+  nationality: fr
+  scholar: "https://scholar.google.com/citations?user=omqi7kAAAAAJ&hl=en"
+  website: "http://hoa.pm/"
+  linkedin: "https://www.linkedin.com/in/tuhoapham"
+  github: "https://github.com/ph4m"
+  bio: >
+    <h3>Bio</h3>
+    <p><b>Tu-Hoa Pham&nbsp;</b>is a third-year Ph.D. student at JRL under the supervision of Prof. Abderrahmane Kheddar. His research interests lie at the intersection of computer vision, machine learning and haptics. His current work is on the inference of hand-object dynamics during manipulation tasks relying solely on visual observations. Prior to that, he graduated in 2013 with a Dipl.-Ing. SUPAERO degree from the French <a href="http://supaero.isae.fr/en" target="_self">Institut Supérieur de l'A&eacute;ronautique et de l'Espace</a> and an M.Sc. in Probability and Statistics from the <a href="http://www.math.univ-toulouse.fr/spip.php?article76" target="_self">University of Toulouse</a>, during which he was a visiting researcher at the Computer Vision and Robotics Laboratory, FORTH, with <a href="http://users.ics.forth.gr/~argyros/" target="_self">Prof. Antonis A. Argyros</a>.</p>
+  videos:
+    - title: "Towards Force Sensing from Vision: Observing Hand-Object Interactions to Infer Manipulation Forces (CVPR 2015)"
+      url: "https://www.youtube.com/watch?v=mtWwkOJkeXM"
+      img: "https://raw.githubusercontent.com/ph4m/homepage/master/media/fsv-overview.jpg"
