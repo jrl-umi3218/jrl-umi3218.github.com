@@ -5,6 +5,14 @@
   {% endif %}
 {% endfor %}
 {% capture member_full_name %}{{member.given}} {{member.family}}{% endcapture %}
+{% assign member_picture = '/assets/members/nopicture.png' %}
+ {% capture search_picture %}/assets/members/{{member.id}}.jpg{% endcapture %}
+{% for file in site.static_files %}
+  {% if file.path == search_picture %}
+    {% assign member_picture = file.path %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 <!-- Page Content -->
 <div class="container">
   {% capture subtitle %}
@@ -34,7 +42,7 @@
 
   <!-- Portfolio Item Row -->
   <div class="row row-eq-height">
-    {% capture carousel_files %}/assets/members/{{member.id}}.jpg{% endcapture %}
+    {% capture carousel_files %}{{member_picture}}{% endcapture %}
     {% capture member_assets %}/assets/members/{{member.id}}/{% endcapture %}
     {% for f in site.static_files %}
       {% assign f_base = f.path | remove_first: member_assets %}
@@ -70,7 +78,7 @@
             {% assign class = "item" %}
           {% endif %}
           <div class="{{class}}">
-            <img class="img-responsive" src="{{f}}" alt="" style="margin: auto;">
+            <img class="img-responsive img-rounded" src="{{f}}" alt="" style="margin: auto;">
           </div>
         {% endfor %}
         </div>
