@@ -8,6 +8,7 @@
       {% if author.id %}
         {% for member in site.data.members %}
           {% if member.id == author.id %}
+            {% assign role = member.role %}
             {% assign given = member.given %}
             {% assign family = member.family %}
             {% capture member_page %}member-{{member.id}}.html{% endcapture %}
@@ -29,8 +30,8 @@
       <span class="publications-members">
       {% if member_has_page == true %}
         <a href="{{member_page}}">
-      {% elsif author.id %}
-        <a href="{{member_summary}}">
+      {% elsif author.id and role != "alumni" %}
+      <a href="{{member_summary}}">
       {% endif %}
       {% for n in given_names  %}
         {% if forloop.index > 1 %}
@@ -39,7 +40,7 @@
           {{ n | truncate: 2, '.' }}
         {% endif %}
       {% endfor %}
-      {{family}}{% if author.id -%}</a>{% endif %}</span>{% if forloop.index < forloop.length -%}, {% endif %}
+      {{family}}{% if member_has_page or (authord.id and role != alumni) %}</a>{% endif %}</span>{% if forloop.index < forloop.length -%}, {% endif %}
     {% endfor %}
   </td>
   <td id="{{ include.publication.id }}-book-title">{{include.publication.booktitle}}</td>
