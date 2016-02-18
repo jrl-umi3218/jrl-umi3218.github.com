@@ -12,6 +12,8 @@
   year: 2016
   title: "Parametrization of Catmull-Clark Subdivision Surfaces for Posture generation"
   booktitle: "IEEE International Conference on Robotics and Automation (ICRA)"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01275693/document"
+  bib: "https://hal.archives-ouvertes.fr/hal-01275693v1/bibtex"
   authors:
     - id: escande
     - id: brossette
@@ -20,6 +22,7 @@
   year: 2016
   title: "Multi-Contact Vertical Ladder Climbing with an HRP-2 Humanoid"
   booktitle: "Autonomous Robots"
+  pdf: "http://www.lirmm.fr/~bouyarmane/auton_robots.pdf"
   authors:
     - family: Vaillant
       given: Joris
@@ -90,6 +93,8 @@
   year: 2013
   title: "Point-Cloud Multi-Contact Planning for Humanoids: Preliminary Results"
   booktitle: "Cybernetics and Intelligent Systems Robotics, Automation and Mechatronics (CISRAM)"
+  bib: "https://hal.archives-ouvertes.fr/lirmm-00863931v1/bibtex"
+  pdf: "https://hal.archives-ouvertes.fr/lirmm-00863931/document"
   authors:
     - id: brossette
     - family: Vaillant
@@ -102,6 +107,8 @@
   year: 2014
   title: "Integration of Non-Inclusive Contacts in Posture Generation"
   booktitle: "IEEE/RSJ International Conference on Intelligent Robots and Systems"
+  bib: "https://hal.archives-ouvertes.fr/hal-01016319v1/bibtex"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01016319/document"
   authors:
     - id: brossette
     - id: escande
@@ -116,6 +123,7 @@
   year: 2014
   title: "Vertical Ladder Climbing by the HRP-2 Humanoid Robot"
   booktitle: "IEEE/RAS International Conference on Humanoid Robots (Humanoids)"
+  pdf: "https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjAm_6ltYDLAhXDupQKHc0SAzgQFggbMAA&url=http%3A%2F%2Forb.iwr.uni-heidelberg.de%2Fphpref%2Fkoroibot%2Fpdf%2FVaillant2014Vertical.pdf&usg=AFQjCNEYcwp-iAHM5X7xYVPrYisXA10L7w&sig2=LEP4Wn_qsJMOQ7qMOAyn_w&bvm=bv.114195076,bs.1,d.dGo&cad=rja"
   authors:
     - family: Vaillant
       given: Joris

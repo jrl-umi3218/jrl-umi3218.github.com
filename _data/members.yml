@@ -86,6 +86,9 @@
     - title: "Humanoid Posture Generation on non-Euclidean Manifolds"
       url: "http://www.youtube.com/watch?v=mShAQhHsQBY"
       img: "http://i1.ytimg.com/vi/mShAQhHsQBY/mqdefault.jpg"
+    - title: "Posture generation in Comanoid scenario"
+      url: "https://www.youtube.com/watch?v=K_D5HxfhqnI"
+      img: "https://i.ytimg.com/vi_webp/K_D5HxfhqnI/mqdefault.webp"
 - id: chretien
   given: Benjamin
   family: Chrétien
