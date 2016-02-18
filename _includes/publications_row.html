@@ -38,16 +38,15 @@
       {% endfor %}
       {% endcapture %}
       {% capture author_fullname %}{{author_initials}} {{family}}{% endcapture%}
+      {% if member_has_page == true %}
+        {% capture author_fullname %}<a href="{{member_page}}">{{author_fullname}}</a>{% endcapture %}
+      {% elsif author.id and role != "alumni" %}
+        {% capture author_fullname %}<a href="{{member_summary}}">{{author_fullname}}</a>{% endcapture %}
+      {% endif %}
       {% if forloop.index < forloop.length %}
       {% capture author_fullname %}{{author_fullname}}, {% endcapture %}
       {% endif %}
-      {% if member_has_page == true %}
-        <a href="{{member_page}}">{{author_fullname}}</a>
-      {% elsif author.id and role != "alumni" %}
-        <a href="{{member_summary}}">{{author_fullname}}</a>
-      {% else %}
-        {{author_fullname}}
-      {% endif %}
+      {{author_fullname}}
       </span>
     {% endfor %}
   </td>
