@@ -81,6 +81,23 @@
   </div>
   <!-- /.row -->
 
+  {% if project.videos %}
+  <!-- Videos -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="page-header">Videos</h3>
+    </div>
+      {% for video in project.videos %}
+        <div class="col-sm-3 text-center">
+          <a href="{{video.url}}" data-toggle="lightbox" data-gallery="videos" data-title="{{video.title}}">
+            <img src="{{video.img}}" class="img-responsive"><br/>{{video.title}}
+          </a>
+        </div>
+      {% endfor %}
+  </div>
+  <!-- /.row -->
+  {% endif %}
+
   <!-- Publications row -->
   <div class="row">
 

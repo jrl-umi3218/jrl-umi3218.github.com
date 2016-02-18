@@ -36,6 +36,13 @@
   active: true
   url: "http://www.vereproject.eu/"
   description: "<p>This Integrated Project aims at dissolving the boundary between the human body and surrogate representations in immersive virtual reality and physical reality. Dissolving the boundary means that people have the illusion that their surrogate representation is their own body, and act and have thoughts that correspond to this. The work in VERE may be thought of as applied presence research and applied cognitive neuroscience, and it would also significantly add to scientific knowledge in these areas.</p>"
+  videos:
+    - title: "Humanoid robot embodiment with a brain-computer interface"
+      url: "https://www.youtube.com/watch?v=ekP1oxD6Vj0"
+      img: "http://i1.ytimg.com/vi/ekP1oxD6Vj0/mqdefault.jpg"
+    - title: "Multitask Humanoid Control with a Brain-Computer Interface: user experiment with HRP-2"
+      url: "https://www.youtube.com/watch?v=6bynYqmVVck"
+      img: "http://i1.ytimg.com/vi/6bynYqmVVck/mqdefault.jpg"
 - id: robot_at_cwe
   title: "Robot@CWE"
   longtitle: "Robot@CWE"
