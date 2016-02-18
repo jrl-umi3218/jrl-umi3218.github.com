@@ -61,6 +61,14 @@
   linkedin: "https://www.linkedin.com/in/pierre-gergondet-9086092"
   scholar: "https://scholar.google.com/citations?user=PaxwF6sAAAAJ"
   github: "https://github.com/gergondet"
+  bio: >
+    <h3>Bio</h3>
+    <p><b>Pierre Gergondet</b> graduated from Ecole Centrale de Paris with a master in embedded systems. He obtained a Ph.D. degree from the University of Montpellier and conducted his
+    thesis in CNRS-AIST JRL, UMI3218/CRT, Tsukuba, Japan where is is now a research associate working on embedded software for humanoids. His research interest includes humanoid robotics and the usage of brain-computer interfaces to control a humanoid robot.</p>
+  videos:
+    - title: "Multitask Humanoid Control with a Brain-Computer Interface: user experiment with HRP-2"
+      url: "https://www.youtube.com/watch?v=6bynYqmVVck"
+      img: "http://i1.ytimg.com/vi/6bynYqmVVck/mqdefault.jpg"
 - id: brossette
   given: Stanislas
   family: Brossette
@@ -174,3 +182,27 @@
   linkedin: "https://www.linkedin.com/in/moulard"
   website: "http://moulard.net/"
   github: "https://github.com/thomas-moulard"
+- id: bussy
+  given: Antoine
+  family: Bussy
+  role: alumni
+  nationality: fr
+  linkedin: "https://www.linkedin.com/in/antoine-bussy-18366278"
+- id: agravante
+  given: Don Joven
+  family: Agravante
+  role: alumni
+  nationality: ph
+  linkedin: "https://www.linkedin.com/in/don-joven-agravante-71b53747"
+- id: druon
+  given: Sébastien
+  family: Druon
+  role: alumni
+  nationality: fr
+  linkedin: "https://www.linkedin.com/in/sébastien-druon-4989b77b"
+- id: daachi
+  given: Boubaker
+  family: Daachi
+  role: alumni
+  nationality: dz
+  website: "http://daachi.free.fr/"

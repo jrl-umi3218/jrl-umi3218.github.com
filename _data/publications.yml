@@ -190,3 +190,190 @@
     - family: Argyros
       given: Antonis A.
   projects: [robohow]
+- id: gergondet:robio:2011
+  year: 2011
+  title: "Using brain-computer interface to steer a humanoid robot"
+  booktitle: "Robotics and Biomimetics (ROBIO)"
+  pdf: "http://www.vere.eventlab-ub.org/sharedDocs/ROBIO-2011.pdf"
+  authors:
+    - id: gergondet
+    - id: druon
+    - id: kheddar
+    - given: Christoph
+      family: Hintermüller
+    - given: Christoph
+      family: Guger
+    - given: Mel
+      family: Slater
+  projects: [vere]
+- id: bussy:roman:2012
+  year: 2012
+  title: "Proactive behavior of a humanoid robot in a haptic transportation task with a human partner"
+  booktitle: "Ro-Man'2012: International Symposium on Robot and Human Interactive Communication"
+  bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-00773403"
+  pdf: "http://hal-lirmm.ccsd.cnrs.fr/file/index/docid/773403/filename/2012-roman-hri-bci.pdf"
+  authors:
+    - id: bussy
+    - id: gergondet
+    - id: kheddar
+    - id: keith
+    - given: André
+      family: Crosnier
+  projects: [robohow]
+- id: gergondet:iser:2012
+  year: 2012
+  title: "Multitask Humanoid Control with a Brain-Computer Interface: user experiment with HRP-2"
+  booktitle: "ISER: International Symposium on Experimental Robotics"
+  bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-00781275v2"
+  pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-00781275v2/document"
+  authors:
+    - id: gergondet
+    - id: kheddar
+    - given: Christoph
+      family: Hintermüller
+    - given: Christoph
+      family: Guger
+    - given: Mel
+      family: Slater
+  projects: [vere]
+- id: yoshida:iros:2010
+  year: 2010
+  title: "Online replanning for reactive robot motion: Practical aspects"
+  booktitle: "Intelligent Robots and Systems (IROS)"
+  bib: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5649645&tag=1"
+  pdf: "http://www.ivtinternational.com/downloads/alt11/page_one/kineo/one.pdf"
+  authors:
+    - id: yoshida
+    - given: Kazuhito
+      family: Yokoi
+    - id: gergondet
+- id: agravante:icra:2014
+  year: 2014
+  title: "Collaborative human-humanoid carrying using vision and haptic sensing"
+  booktitle: "Robotics and Automation (ICRA)"
+  bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-00950727"
+  pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-00950727/document"
+  authors:
+    - id: agravante
+    - given: Andréa
+      family: Cherubini
+    - id: bussy
+    - id: gergondet
+    - id: kheddar
+  projects: [robohow]
+- id: tidoni:fnr:2014
+  year: 2014
+  title: "Audio-visual feedback improves the BCI performance in the navigational control of a humanoid robot"
+  booktitle: "Frontiers in neurorobotics"
+  bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01058974"
+  pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01058974/document"
+  authors:
+    - given: Emmanuele
+      family: Tidoni
+    - id: gergondet
+    - id: kheddar
+    - given: Salvatore
+      family: Aglioti
+  projects: [vere]
+- id: petit:cyber:2014
+  year: 2014
+  title: "Navigation assistance for a bci-controlled humanoid robot"
+  booktitle: "Cyber Technology in Automation, Control, and Intelligent Systems (CYBER)"
+  pdf: "https://saturne.lirmm.fr/content/download/9167/136428/file/Navigation%20assistance%20for%20a%20BCI-controlled%20humanoid%20robot.pdf"
+  authors:
+    - id: petit
+    - id: gergondet
+    - given: Andréa
+      family: Cherubini
+    - given: Maxime
+      family: Meilland
+    - given: Andrew
+      family: Comport
+    - id: kheddar
+  projects: [vere]
+- id: gergondet:roman:2012
+  year: 2012
+  title: "Steering a robot with a brain-computer interface: impact of video feedback on BCI performance"
+  booktitle: "Ro-Man'2012: International Symposium on Robot and Human Interactive Communication"
+  bib: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6343765"
+  authors:
+    - id: gergondet
+    - id: petit
+    - id: kheddar
+  projects: [vere]
+- id: petit:icra:2014
+  year: 2014
+  title: "An integrated framework for humanoid embodiment with a BCI"
+  booktitle: "IEEE International Conference on Robotics and Automation (ICRA)"
+  bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01222969"
+  pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01222969/document"
+  authors:
+    - id: petit
+    - id: kheddar
+    - given: Andréa
+      family: Cherubini
+    - id: kheddar
+  projects: [vere]
+- id: kapeller:embc:2015
+  year: 2015
+  title: "Online control of a humanoid robot through hand movement imagination using CSP and ECoG based features"
+  booktitle: "Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"
+  bib: "http://www.ncbi.nlm.nih.gov/pubmed/26736620"
+  authors:
+    - given: Christoph
+      family: Kapeller
+    - id: gergondet
+    - given: K
+      family: Kamada
+    - given: Hiroshi
+      family: Ogawa
+    - given: F
+      family: Takeuchi
+    - given: Rupert
+      family: Ortner
+    - given: Robert
+      family: Pruckl
+    - id: kheddar
+    - given: J
+      family: Scharinger
+    - given: Christoph
+      family: Guger
+  projects: [vere]
+- id: daachi:icorr:2015
+  year: 2015
+  title: "Expliciting SSVEP misclassifications with extra-brain activities using time-frequency EEG analysis"
+  booktitle: "IEEE International Conference on Rehabilitation Robotics (ICORR)"
+  bib: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7281338"
+  authors:
+    - id: daachi
+    - id: gergondet
+    - given: Larbi
+      family: Boubchir
+    - id: kheddar
+  projects: [vere]
+- id: gergondet:bci:2015
+  year: 2015
+  title: "SSVEP stimuli design for object-centric BCI"
+  booktile: "Brain-Computer Interfaces"
+  bib: "http://www.tandfonline.com/doi/abs/10.1080/2326263X.2015.1051432"
+  authors:
+    - id: kheddar
+    - id: gergondet
+  projects: [vere]
+- id: gergondet:urai:2014
+  year: 2014
+  title: "Combining 3D SLAM and visual tracking to reach and retrieve objects in daily-life indoor environments"
+  booktitle: "International Conference on Ubiquitous Robots and Ambient Intelligence (URAI)"
+  bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01247142"
+  pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01247142/document"
+  authors:
+    - id: gergondet
+    - id: petit
+    - given: Maxime
+      family: Meilland
+    - id: kheddar
+    - given: Andrew
+      family: Comport
+    - given: Andréa
+      family: Cherubini
+  projects: [vere]
