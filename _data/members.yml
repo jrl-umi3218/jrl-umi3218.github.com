@@ -146,3 +146,31 @@
     - title: "Towards Force Sensing from Vision: Observing Hand-Object Interactions to Infer Manipulation Forces (CVPR 2015)"
       url: "https://www.youtube.com/watch?v=mtWwkOJkeXM"
       img: "https://raw.githubusercontent.com/ph4m/homepage/master/media/fsv-overview.jpg"
+- id: vaillant
+  given: Joris
+  family: Vaillant
+  role: alumni
+  nationality: fr
+  github: "https://github.com/jorisv"
+  scholar: "https://scholar.google.com/citations?user=2LNoT9UAAAAJ"
+- id: keith
+  given: François
+  family: Keith
+  role: alumni
+  nationality: fr
+  github: "https://github.com/francois-keith"
+  scholar: "https://scholar.google.fr/citations?user=cxSxXiQAAAAJ"
+- id: petit
+  given: Damien
+  family: Petit
+  role: alumni
+  nationality: fr
+  linkedin: "https://www.linkedin.com/in/damien-petit-91bb0425"
+- id: moulard
+  given: Thomas
+  family: Moulard
+  role: alumni
+  nationality: fr
+  linkedin: "https://www.linkedin.com/in/moulard"
+  website: "http://moulard.net/"
+  github: "https://github.com/thomas-moulard"
