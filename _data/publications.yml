@@ -24,8 +24,7 @@
     - family: Vaillant
       given: Joris
     - id: kheddar
-    - family: Audren
-      given: Hervé
+    - id: audren
     - family: Keith
       given: François
     - id: brossette
@@ -121,8 +120,7 @@
     - family: Vaillant
       given: Joris
     - id: kheddar
-    - family: Audren
-      given: Hervé
+    - id: audren
     - family: Keith
       given: François
     - id: brossette
@@ -132,6 +130,21 @@
     - id: yoshida
     - family: Kanehiro
       given: Fumio
+- id: audren:iros:2014
+  year: 2014
+  title: "Model Preview Control in Multi-Contact Motion - Application to a Humanoid Robot"
+  booktitle: "IEEE/RSJ Internation Conference on Intelligent Robots and Systems (IROS)"
+  pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01256511/document"
+  bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01256511v1/bibtex"
+  authors:
+    - id: audren
+    - family: Vaillant
+      given: Joris
+    - id: kheddar
+    - id: escande
+    - family: Kaneko
+      given: Kenji
+    - id: yoshida
 - id: pham:cvpr:2015
   year: 2015
   title: "Towards Force Sensing From Vision: Observing Hand-Object Interactions to Infer Manipulation Forces"

@@ -104,6 +104,21 @@
       <li>High-performance computing, GPGPU</li>
       <li>Nonlinear optimization</li>
     </ul>
+- id: audren
+  given: Hervé
+  family: Audren
+  role: phd
+  nationality: fr
+  scholar: "https://scholar.google.co.jp/citations?user=uhEOkTAAAAAJ&hl=en"
+  website: "https://haudren.github.io"
+  github: "https://github.com/haudren"
+  linkedin: "https://www.linkedin.com/in/haudren"
+  bio: >
+    <h3>Bio</h3>
+    I got my master's degree in Science and Executive Engineering in 2013 from Mines ParisTech, France. I subsequently
+    started my Ph.D. in JRL. My research interests include multi-contact stability and motion, optimization and safe
+    human-robot interaction. I am mostly developing in C++ and Python, and contributing to a full-stack control solution
+    from planning to real-time control. Outside of work, I like to go biking or rock climbing.
 - id: galdeano
   given: David
   family: Galdeano
