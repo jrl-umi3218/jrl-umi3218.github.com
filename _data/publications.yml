@@ -140,6 +140,7 @@
   booktitle: "IEEE/RSJ Internation Conference on Intelligent Robots and Systems (IROS)"
   pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01256511/document"
   bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01256511v1/bibtex"
+  projects: [robohow, koroibot]
   authors:
     - id: audren
     - id: vaillant
