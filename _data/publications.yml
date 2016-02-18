@@ -118,7 +118,7 @@
   year: 2014
   title: "Vertical Ladder Climbing by the HRP-2 Humanoid Robot"
   booktitle: "IEEE/RAS International Conference on Humanoid Robots (Humanoids)"
-  pdf: "https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjAm_6ltYDLAhXDupQKHc0SAzgQFggbMAA&url=http%3A%2F%2Forb.iwr.uni-heidelberg.de%2Fphpref%2Fkoroibot%2Fpdf%2FVaillant2014Vertical.pdf&usg=AFQjCNEYcwp-iAHM5X7xYVPrYisXA10L7w&sig2=LEP4Wn_qsJMOQ7qMOAyn_w&bvm=bv.114195076,bs.1,d.dGo&cad=rja"
+  pdf: "http://orb.iwr.uni-heidelberg.de/phpref/koroibot/pdf/Vaillant2014Vertical.pdf"
   authors:
     - id: vaillant
     - id: kheddar
