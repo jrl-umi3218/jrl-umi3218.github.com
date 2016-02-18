@@ -7,6 +7,7 @@
     - id: escande
     - id: kheddar
   pdf: "https://hal.archives-ouvertes.fr/hal-01266581/document"
+  bib: "https://hal.archives-ouvertes.fr/hal-01266581v1/bibtex"
   projects: [robohow]
 - id: escande:icra:2016
   year: 2016
@@ -103,6 +104,7 @@
     - id: kheddar
   booktitle: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
   pdf: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document"
+  bib: "http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539v1/bibtex"
   projects: [robohow]
 - id: moulard:rsj:2014
   title: "Software Tools for Nonlinear Optimization: Modern Solvers and Toolboxes for Robotics"
@@ -111,8 +113,9 @@
   - id: chretien
   - id: yoshida
   year: 2014
-  booktitle: "Journal of the Robotics Society of Japan (日本ロボット学会誌)"
+  booktitle: "Journal of the Robotics Society of Japan (JRSJ)"
   pdf: "http://staff.aist.go.jp/e.yoshida/papers/moulard_rsj14.pdf"
+  bib: "https://www.jstage.jst.go.jp/AF06S010ShoshJkuDld?sryCd=jrsj&noVol=32&noIssue=6&kijiCd=32_32_536&kijiLangKrke=en&kijiToolIdHkwtsh=AT0073"
   projects: [robohow]
 - id: brossette:cisram:2013
   year: 2013
