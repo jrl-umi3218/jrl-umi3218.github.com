@@ -12,10 +12,21 @@
   table-layout: fixed;
 }
 
-.col-eq-height {
-  display: table-cell;
+/* .row-eq-height class from http://getbootstrap.com.vn/examples/equal-height-columns/ */
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.col-middle {
   vertical-align: middle;
-  float: none;
+  margin: auto;
 }
 
 .publications-members {

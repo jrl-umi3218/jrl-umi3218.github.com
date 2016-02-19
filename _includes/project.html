@@ -14,7 +14,7 @@
   {% include breadcrumbs.html breadcrumbs=project.longtitle title=project.title subtitle=subtitle %}
 
   <!-- Portfolio Item Row -->
-  <div class="row">
+  <div class="row row-eq-height">
     {% capture project_assets %}/assets/projects/{{project.id}}/{% endcapture %}
     {% for f in site.static_files %}
       {% assign f_base = f.path | remove_first: project_assets %}
@@ -32,7 +32,7 @@
     {% assign carousel_files = carousel_files | split: "," %}
     {% assign carousel_files_size = carousel_files | size %}
 
-    <div class="col-md-6">
+    <div class="col-md-6 col-middle">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         {% if carousel_files_size != 1 %}
         <!-- Indicators -->
@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 col-middle">
       <h3>Project Description</h3>
       {{project.description}}
     </div>
