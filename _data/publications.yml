@@ -377,3 +377,12 @@
     - given: Andréa
       family: Cherubini
   projects: [vere]
+- id: ganesh:STAR:2016
+  year: 2016
+  title: "Beyond Watching: Action understanding by humans and its implications for interacting robots"
+  booktitle: "Dance Notations and Robot Motion"
+  authors:
+    - id: ganesh
+    - given: Tsuyoshi
+      family: Ikegami
+  projects: [kakenhiG_2015]
