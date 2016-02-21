@@ -36,7 +36,8 @@
   year: 2016
   title: "Multi-Contact Vertical Ladder Climbing with an HRP-2 Humanoid"
   booktitle: "Autonomous Robots"
-  pdf: "http://www.lirmm.fr/~bouyarmane/auton_robots.pdf"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01276931/document"
+  bib: "https://hal.archives-ouvertes.fr/hal-01276931v1/bibtex"
   authors:
     - id: vaillant
     - id: kheddar
@@ -148,7 +149,8 @@
   year: 2014
   title: "Vertical Ladder Climbing by the HRP-2 Humanoid Robot"
   booktitle: "IEEE/RAS International Conference on Humanoid Robots (Humanoids)"
-  pdf: "http://orb.iwr.uni-heidelberg.de/phpref/koroibot/pdf/Vaillant2014Vertical.pdf"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01276934/document"
+  bib: "https://hal.archives-ouvertes.fr/hal-01276934v1/bibtex"
   authors:
     - id: vaillant
     - id: kheddar
