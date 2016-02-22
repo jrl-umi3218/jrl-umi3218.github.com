@@ -11,7 +11,12 @@
   {% else %}
     {% capture subtitle %}<br/>{{project.longtitle}}{% endcapture %}
   {% endif %}
-  {% include breadcrumbs.html breadcrumbs=project.longtitle title=project.title subtitle=subtitle %}
+  {% if project.longtitle != project.title %}
+    {% capture bc %}{{project.title}} - {{project.longtitle}} {% endcapture %}
+  {% else %}
+    {% capture bc %}{{project.title}}{% endcapture %}
+  {% endif %}
+  {% include breadcrumbs.html breadcrumbs=bc title=project.title subtitle=subtitle %}
 
   <!-- Portfolio Item Row -->
   <div class="row row-eq-height">
