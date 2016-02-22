@@ -37,7 +37,7 @@
     {% assign carousel_files = carousel_files | split: "," %}
     {% assign carousel_files_size = carousel_files | size %}
 
-    <div class="col-md-6 col-middle">
+    <div class="col-md-6 col-xs-6 col-middle">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         {% if carousel_files_size != 1 %}
         <!-- Indicators -->
@@ -78,7 +78,7 @@
       </div>
     </div>
 
-    <div class="col-md-6 col-middle">
+    <div class="col-md-6 col-xs-6 col-middle">
       <h3>Project Description</h3>
       {{project.description}}
     </div>
