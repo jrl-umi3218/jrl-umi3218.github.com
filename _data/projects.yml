@@ -74,7 +74,8 @@
   year-start: 2015
   year-end: 2017
   active: true
-  description: "<p>Our brain can readily learn to control new actions with our effectors/limbs, but can it also learn to control new limbs in addition to our current ones? Answering this question will clarify an individual brain’s neuronal limits, for functional augmentation with brain-machine interface (BMI) systems and of plasticity after brain damage. This JSPS (Kakenhi 'houga')multi-disciplinary project with the University of Electro-communication in Tokyo will provide a crucial understanding of the <i>unused capabilities<i> of the human brain in regard to effector control and will enable a human to use this capability to incorporate an additional artificial limb naturally into his body schema.</p>"
+  description: >
+    <p>Our brain can readily learn to control new actions with our effectors/limbs, but can it also learn to control new limbs in addition to our current ones? Answering this question will clarify an individual brain’s neuronal limits, for functional augmentation with brain-machine interface (BMI) systems and of plasticity after brain damage. This JSPS (Kakenhi 'houga')multi-disciplinary project with the University of Electro-communication in Tokyo will provide a crucial understanding of the <i>unused capabilities</i> of the human brain in regard to effector control and will enable a human to use this capability to incorporate an additional artificial limb naturally into his body schema.</p>
 - id: kakenhiG_2013
   title: "AnxCon"
   longtitle: "Understanding and controlling the effects of anxiety on motor behavior"
