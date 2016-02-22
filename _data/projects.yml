@@ -68,3 +68,17 @@
   year-end: 2009
   active: false
   description: "<p>The main objective of this STREP is to research and demonstrate integrative concepts of advanced robotic systems, to be seen as collaborative agents, in various environments working together with humans. We will integrate collaborative robotic systems as active agent operated through various control paradigms within working environment clusters. ROBOT@CWE will design suitable architectures and technologies to achieve this goal. Current developments in robotics tend toward human-centred design raising issues in: human-machine interface, human-robot interaction, working robots, assistive robots, ubiquitous robotics,humanitarian robotics for disaster support and rescue mission, European security, etc.</p>"
+id: kakenhiG_2015
+  title: "Sixth Finger"
+  longtitle: "towards natural learning of an additional effector by the human brain"
+  year-start: 2015
+  year-end: 2017
+  active: true
+  description: "<p>Our brain can readily learn to control new actions with our effectors/limbs, but can it also learn to control new limbs in addition to our current ones? Answering this question will clarify an individual brain’s neuronal limits, for functional augmentation with brain-machine interface (BMI) systems and of plasticity after brain damage. This JSPS (Kakenhi 'houga')multi-disciplinary project with the University of Electro-communication in Tokyo will provide a crucial understanding of the <i>unused capabilities<i> of the human brain in regard to effector control and will enable a human to use this capability to incorporate an additional artificial limb naturally into his body schema.</p>"
+id: kakenhiG_2013
+  title: "AnxCon"
+  longtitle: "Understanding and controlling the effects of anxiety on motor behavior"
+  year-start: 2013
+  year-end: 2016
+  active: true
+  description: "<p>This JSPS ('Kakenhi Kiban B') project investigates the effects of cognitive anxiety associated with observation of other individuals and competition on one's own motor behavior. In Collboration with <a href="https://cinet.jp/english/" target="_self">Centre for Information and Neural Networks (CINET)</a> in Osaka, <a href="http://www.nifs-k.ac.jp/" target="_self">National Institute of Fitness and Sports</a> in Kanoya, and <a href="http://www.chukyo-u.ac.jp/" target="_self">Nagoya Chukyo University</a>, we are using cognitive neuroscience experiments and computational modelling to acquire a quantitative measure of motor deteriorations due to anxiety, and investigate how non-human agents like robots may be used to influence human behaviors.   

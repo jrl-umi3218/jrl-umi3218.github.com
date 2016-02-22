@@ -382,9 +382,120 @@
 - id: ganesh:STAR:2016
   year: 2016
   title: "Beyond Watching: Action understanding by humans and its implications for interacting robots"
-  booktitle: "Dance Notations and Robot Motion"
+  booktitle: "Dance Notations and Robot Motion, in the Springer Tracts in Advanced Robotics"
   authors:
     - id: ganesh
     - given: Tsuyoshi
       family: Ikegami
   projects: [kakenhiG_2015]
+  id: ganesh:CBIOL:2016
+  year: 2016
+  title: " Multiple learning processes underlie human pain  conditioning "
+  booktitle: "Current Biology"
+  authors:
+    - given: Suyi
+      family: Zhang
+    - given: Hiro
+      family: Mano
+    - id: ganesh
+    - given: Trevor
+      family: Robbins
+    - given: Benjamin
+      family: Seymour
+  projects: [kakenhiG_2013]
+
+id: franch:NEURORES:2015
+  year: 2015
+  title: " The role of functionality in the body model for self-attribution "
+  booktitle: "Neuroscience Research"
+  pdf: " http://www.sciencedirect.com/science/article/pii/S0168010215002655"
+  authors:
+    - given: Laura
+     family: Aymerich-Franch
+    - id: ganesh
+  projects: [kakenhiG_2015]
+
+id: franch:ARSO:2015
+  year: 2015
+  title: " Embodiment of a humanoid robot avatar is preserved during partial and delayed control "
+  booktitle: "IEEE International Workshop on Advanced Robotics and its Social Impacts, ARSO"
+  authors:
+    - given: Laura
+     family: Aymerich-Franch
+    - id: petit
+    - id: ganesh
+    - id: kheddar
+  projects: [kakenhiG_2015]
+
+ id: pistohl:TNSR:2014
+  year: 2014
+  title: " Artificial Proprioceptive Feedback for Myoelectric Prosthesis Control"
+  booktitle: " IEEE Neural Systems & Rehabilitation Engineering "
+  authors:
+    - given: T
+     family: Pistohl
+    - given: D
+     family: Joshi
+    - id: ganesh
+    - given: A
+     family: Jackson
+    - given: Kia
+     family: Nazarpour
+  
+- id: ikegami:SCIREP:2014
+  year: 2014
+  title: " Watching novice action degrades expert’s performance- Evidence that the motor system is involved in action understanding by humans."
+ pdf: "http://www.nature.com/articles/srep06989"
+  booktitle: "Nature Scientific Reports"
+  authors:
+    - given: Tsuyoshi
+      family: Ikegami
+    - id: ganesh
+  projects: [kakenhiG_2013] 
+ 
+
+
+- id: ganesh:NATCOM:2014
+  year: 2014
+  title: " Immediate tool incorporation processes determine human motor planning with tools."
+ pdf: "http://www.nature.com/ncomms/2014/140731/ncomms5524/full/ncomms5524.html"
+  booktitle: "Nature Communications"
+  authors:
+     - id: ganesh
+     - given: Toshinori
+      family: Yoshioka
+     - given: Rieko
+      family: Osu
+     - given: Tsuyoshi
+      family: Ikegami
+
+- id: ganesh:SCIREP:2014
+  year: 2014
+  title: “Two is better than one: Physical interactions improve motor performance in humans”
+ pdf: "http://www.nature.com/articles/srep03824"
+  booktitle: "Nature Scientific Reports"
+  authors:
+     - id: ganesh 
+     - given: Atsushi
+      family: Takagi
+     - given: Rieko
+      family: Osu
+     - given: Toshinori
+      family: Yoshioka
+     - given: Mitsuo
+      family: Kawato
+     - given: Etienne
+      family: Burdet
+
+- id: ganesh:SCIREP:2013
+  year: 2013
+  title: “Feeling the force: Returning sensory signals determine effort expenditure during motor coordination”
+ pdf: "http://www.nature.com/articles/srep02648 "
+  booktitle: "Nature Scientific Reports"
+  authors:
+     - id: ganesh 
+     - given: Rieko
+      family: Osu
+     - given: Eiichi
+      family: Naito
+
