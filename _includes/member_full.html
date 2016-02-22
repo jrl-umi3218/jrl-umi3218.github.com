@@ -34,7 +34,7 @@
     {% endcase %}
   {% endcapture %}
   {% if member.website %}
-  {% capture subtitle %}{{subtitle}}<br/><a href="{{member.website}}" target="blank_">Personal website <span class="glyphicon glyphicon-globe" style="font-size: small;"</span></a>{% endcapture %}
+  {% capture subtitle %}{{subtitle}}<br/><a href="{{member.website}}" target="blank_">Personal website <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{% endcapture %}
   {% endif %}
   {% capture crumbs %}<a href="members.html">Members</a>{% endcapture %}
   {% assign crumbs = crumbs | split: "," %}
@@ -78,7 +78,7 @@
             {% assign class = "item" %}
           {% endif %}
           <div class="{{class}}">
-            <img class="img-responsive img-rounded" src="{{f}}" alt="" style="margin: auto;">
+            <img class="img-responsive img-rounded" src="{{f}}" alt="carousel picture {{forloop.index}}" style="margin: auto;">
           </div>
         {% endfor %}
         </div>
@@ -111,7 +111,7 @@
       {% for video in member.videos %}
         <div class="col-sm-3 text-center">
           <a href="{{video.url}}" data-toggle="lightbox" data-gallery="videos" data-title="{{video.title}}">
-            <img src="{{video.img}}" class="img-responsive"><br/>{{video.title}}
+            <img src="{{video.img}}" class="img-responsive" alt="{{video.title}} snapshot"><br/>{{video.title}}
           </a>
         </div>
       {% endfor %}

@@ -7,7 +7,7 @@
 <div class="container">
 
   {% if project.url %}
-  {% capture subtitle %}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle}} <span class="glyphicon glyphicon-globe" style="font-size: small;"</span></a>{% endcapture %}
+  {% capture subtitle %}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle}} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{% endcapture %}
   {% else %}
     {% capture subtitle %}<br/>{{project.longtitle}}{% endcapture %}
   {% endif %}
@@ -61,7 +61,7 @@
             {% assign class = "item" %}
           {% endif %}
           <div class="{{class}}">
-            <img class="img-responsive" src="{{f}}" alt="">
+            <img class="img-responsive" src="{{f}}" alt="carousel {{forloop.index}}">
           </div>
         {% endfor %}
         </div>
@@ -95,7 +95,7 @@
       {% for video in project.videos %}
         <div class="col-sm-3 text-center">
           <a href="{{video.url}}" data-toggle="lightbox" data-gallery="videos" data-title="{{video.title}}">
-            <img src="{{video.img}}" class="img-responsive"><br/>{{video.title}}
+            <img src="{{video.img}}" class="img-responsive" alt="{{video.title}} snapshot"><br/>{{video.title}}
           </a>
         </div>
       {% endfor %}

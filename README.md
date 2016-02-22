@@ -1,6 +1,8 @@
 JRL website
 ===========
 
+[![Build Status](https://travis-ci.org/jrl-umi3218/jrl-umi3218.github.com.svg?branch=master)](https://travis-ci.org/jrl-umi3218/jrl-umi3218.github.com)
+
 ## Providing information for the website
 
 The website relies on yaml data to generate most of its content. Most of the

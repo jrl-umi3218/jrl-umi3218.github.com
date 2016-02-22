@@ -50,7 +50,7 @@
       </span>
     {% endfor %}
   </td>
-  <td id="{{ include.publication.id }}-book-title">{{include.publication.booktitle}}</td>
+  <td id="{{ include.publication.id }}-book-title">{{include.publication.booktitle | xml_escape}}</td>
   <td id="{{ include.publication.id }}-year">{{include.publication.year}}</td>
   <td id="{{ include.publication.id }}-bib">
     {% if include.publication.bib %}
