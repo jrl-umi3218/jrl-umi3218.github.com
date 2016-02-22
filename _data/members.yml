@@ -28,11 +28,16 @@
   website: "https://sites.google.com/site/adrienescandehomepage/"
   linkedin: "https://www.linkedin.com/in/adrien-escande-663399113"
 - id: ganesh
-  given: Ganesh
-  family: Gowrishankar
+  given: Gowrishankar
+  family: Ganesh
   role: permanent
   nationality: in
   website: "https://staff.aist.go.jp/g.ganesh/"
+  bio: >
+    <h3>Bio</h3>
+    <p><b>Ganesh Gowrishankar&nbsp;</b> received his Bachelor of Engineering (first-class, Hons.) degree from the Delhi College of Engineering, India, in 2002 and his Master of Engineering from the National University of Singapore, in 2005, both in Mechanical Engineering. He received his Ph.D. in Bioengineering from Imperial College London, U.K., in 2010. He worked as a Researcher in Human Motor Control in the Lab of Dr. Mitsuo Kawato at the Advanced Telecommunication Research (ATR), Kyoto, Japan, from 2004 and through his PhD. Following his PhD, he worked at the National Institute of Information and Communications Technology (NICT) as a Specialist Researcher in Motor Neuroscience and Robotics till December 2013. Since January 2014, he has joined as a CR1 Researcher at the Centre National de la Recherché Scientifique (CNRS). He is a visiting researcher at the <a href="https://cinet.jp/english/" target="_self">Centre for Information and Neural Networks (CINET)</a> in Osaka, <a href="http://www.atr.jp/index_e.html" target="_self">ATR</a> in Kyoto and the <a href="http://www.lirmm.fr/lirmm_eng/research/teams/idh" target="_self">Interactive Digital Humans</a> (IDH) team at the Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier (LIRMM) in Montpellier. His research interests include human sensori-motor control and learning, robot control, social neuroscience and robot-human interactions.</p>
+    <h3>Research interests</h3>
+    <p>How should rehabilitation, biomedical and social robots behave such that an interacting human is comfortable with them, feels safe with them and is willing to coexist and learn from them? The answer to this questions is not trivial because human interactions, both with their environment and other humans, have complex dynamics that change not only with an interacting individual’s physiology, age and pathology, but also emotional factors like fear and anxiety, and cognitive factors like the Theory of Mind. The reason we can intuitively interact with a fellow human is because we understand his/her behaviour in all these aspects and respond accordingly, and correspondingly he/she does the same. My research aims to endow machines and robots with similar capabilities to understand humans through the development of _Human Centric Robotics_**. You can read more <a href="https://staff.aist.go.jp/g.ganesh/index_files/Page1890.html" target="_self">here</a>.<p> and see the full list of publications <a href="https://staff.aist.go.jp/g.ganesh/index_files/Page1711.html" target="_self">here</a>.<p> 
 - id: ayusawa
   given: Ko
   family: Ayusawa
