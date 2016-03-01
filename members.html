@@ -28,9 +28,14 @@ title: CNRS-AIST JRL - Members
   <!-- Co-directors -->
   <div class="row">
     <div class="col-lg-12">
-      <h3 class="page-header">Co-directors</h3>
+      <h3 class="page-header">Director and co-director</h3>
     </div>
     <div class="col-md-2"></div>
+    {% for member in members %}
+    {% if member.role == "director" %}
+    {% include member_summary.html member=member %}
+    {% endif %}
+    {% endfor %}
     {% for member in members %}
     {% if member.role == "co-director" %}
     {% include member_summary.html member=member %}
