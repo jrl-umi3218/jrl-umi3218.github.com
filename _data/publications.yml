@@ -70,6 +70,18 @@
     - id: chretien
     - id: kheddar
   projects: [comanoid]
+- id: traversaro:iros:2016
+  year: 2016
+  title: "Identification of Fully Physical Consistent Inertial Parameters using Optimization on Manifolds (Submitted)"
+  booktitle: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  authors:
+    - family: Traversaro
+      given: Silvio
+    - id: brossette
+    - id: escande
+    - family: Nori
+      given: Francesco
+  projects: [CodyCo, koroibot, comanoid]
 - id: pajon:icar:2015
   year: 2015
   title: "A humanoid walking pattern generator for sole design optimization"
