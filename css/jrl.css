@@ -49,7 +49,6 @@
 .breadcrumbs-container {
   background:#222;
   color: #9d9d9d;
-  padding-bottom: 20px;
 }
 
 .breadcrumbs-container h1 {
@@ -111,12 +110,12 @@
    background-image: url('/assets/banner-large.png');
    background-repeat: no-repeat;
    background-position: center;
-   background-size: 1490px 503px;
-/*   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
-   -o-background-size: cover;*/
+   background-size: 1490px 520px;
   }
+}
+
+.home-banner-xs {
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1490px) {
