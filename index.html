@@ -13,15 +13,9 @@ title: CNRS-AIST JRL
   </div>
 </div>
 </div>
-
-<!-- Page Content -->
-<div class="container">
+<div class="breadcrumbs-container home-banner-large">
+  <div class="container home-banner-xs">
   <!-- Marketing Icons Section -->
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="alert alert-danger" role="alert">This site is incomplete. Please come back later.</div>
-    </div>
-  </div>
     {% capture home_assets %}/assets/pictures/home/{% endcapture %}
     {% for f in site.static_files %}
       {% assign f_base = f.path | remove_first: home_assets %}
@@ -68,9 +62,18 @@ title: CNRS-AIST JRL
       </div>
     </div>
   </div>
+</div>
 
+</div>
 
+<!-- Page Content -->
+<div class="container">
   <div class="row" style="margin-top:25px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="alert alert-danger" role="alert">This site is incomplete. Please come back later.</div>
+      </div>
+    </div>
     <div class="col-md-12">
       <div class="panel panel-default">
         <div class="panel-heading">

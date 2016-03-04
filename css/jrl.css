@@ -49,7 +49,7 @@
 .breadcrumbs-container {
   background:#222;
   color: #9d9d9d;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .breadcrumbs-container h1 {
@@ -104,4 +104,29 @@
 
 .compact {
   margin: 0px !important;
+}
+
+@media screen and (min-width: 1490px) {
+  .home-banner-large {
+   background-image: url('/assets/banner-large.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 1490px 503px;
+/*   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;*/
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .home-banner-xs {
+   background-image: url('/assets/banner.png');
+   background-repeat: no-repeat;
+   text-align: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+  }
 }
