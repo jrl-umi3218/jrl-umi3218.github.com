@@ -2,13 +2,12 @@
 layout: default
 title: CNRS-AIST JRL
 ---
+{% include breadcrumbs.html breadcrumbs="Past projects" title="Past projects" %}
+
 <!-- Page Content -->
 <div class="container">
   <!-- Projects Section -->
   <div class="row">
-    <div class="col-lg-12">
-      <h2 class="page-header">Past Projects</h2>
-    </div>
     {% for project in site.data.projects %}
     {% if project.active == false %}
     <div class="col-md-4 col-sm-6">

@@ -4,11 +4,11 @@ title: CNRS-AIST JRL - Members
 ---
 
 {% assign members = site.data.members | sort: 'id' %}
+
+{% include breadcrumbs.html breadcrumbs="Members" title="Members" %}
+
 <!-- Page Content -->
 <div class="container">
-
-  {% include breadcrumbs.html breadcrumbs="Members" title="Members" %}
-
   <!-- Intro Content -->
   <div class="row row-eq-height">
     <div class="col-md-6 col-xs-6 col-middle">
@@ -26,11 +26,10 @@ title: CNRS-AIST JRL - Members
   <!-- /.row -->
 
   <!-- Co-directors -->
-  <div class="row">
-    <div class="col-lg-12">
-      <h3 class="page-header">Director and co-director</h3>
+  <div class="row row-centered">
+    <div class="col-lg-12 col-centered">
+      <h3 class="page-header compact">Director and co-director</h3>
     </div>
-    <div class="col-md-2"></div>
     {% for member in members %}
     {% if member.role == "director" %}
     {% include member_summary.html member=member %}
@@ -41,67 +40,54 @@ title: CNRS-AIST JRL - Members
     {% include member_summary.html member=member %}
     {% endif %}
     {% endfor %}
-    <div class="col-md-2"></div>
-  </div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <h3 class="page-header">Permanent Researchers</h3>
+    <div class="col-lg-12 col-centered">
+      <h3 class="page-header compact">Permanent Researchers</h3>
     </div>
     {% for member in members %}
     {% if member.role == "permanent" %}
     {% include member_summary.html member=member %}
     {% endif %}
     {% endfor %}
-  </div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <h3 class="page-header">Postdoctoral fellows</h3>
+    <div class="col-lg-12 col-centered">
+      <h3 class="page-header compact">Postdoctoral fellows</h3>
     </div>
     {% for member in members %}
     {% if member.role == "postdoc" %}
     {% include member_summary.html member=member %}
     {% endif %}
     {% endfor %}
-  </div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <h3 class="page-header">Research engineers</h3>
+    <div class="col-lg-12 col-centered">
+      <h3 class="page-header compact">Research engineers</h3>
     </div>
     {% for member in members %}
     {% if member.role == "engineer" %}
     {% include member_summary.html member=member %}
     {% endif %}
     {% endfor %}
-  </div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <h3 class="page-header">PhD students</h3>
+    <div class="col-lg-12 col-centered">
+      <h3 class="page-header compact">PhD students</h3>
     </div>
     {% for member in members %}
     {% if member.role == "phd" %}
     {% include member_summary.html member=member %}
     {% endif %}
     {% endfor %}
-  </div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <h3 class="page-header">Master students</h3>
+    <div class="col-lg-12 col-centered">
+      <h3 class="page-header compact">Master students</h3>
     </div>
     {% for member in members %}
     {% if member.role == "master" %}
     {% include member_summary.html member=member %}
     {% endif %}
     {% endfor %}
-  </div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <h3 class="page-header">Alumni<a id="alumni_button" style="float:right;font-size:medium;" data-toggle="collapse" href="#alumni">Show</a></h3>
+    <div class="col-lg-12 col-centered">
+      <h3 class="page-header compact">Alumni<a id="alumni_button" style="float:right;font-size:medium;" data-toggle="collapse" href="#alumni">Show</a></h3>
     </div>
     <div id="alumni" class="panel-collapse collapse" style="transition: none;">
     {% for member in members %}

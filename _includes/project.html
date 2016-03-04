@@ -3,21 +3,20 @@
     {% assign project = p %}
   {% endif %}
 {% endfor %}
+
+{% if project.url %}
+{% capture subtitle %}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle}} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{% endcapture %}
+{% else %}
+  {% capture subtitle %}<br/>{{project.longtitle}}{% endcapture %}
+{% endif %}
+{% if project.longtitle != project.title %}
+  {% capture bc %}{{project.title}} - {{project.longtitle}} {% endcapture %}
+{% else %}
+  {% capture bc %}{{project.title}}{% endcapture %}
+{% endif %}
+{% include breadcrumbs.html breadcrumbs=bc title=project.title subtitle=subtitle %}
 <!-- Page Content -->
 <div class="container">
-
-  {% if project.url %}
-  {% capture subtitle %}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle}} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{% endcapture %}
-  {% else %}
-    {% capture subtitle %}<br/>{{project.longtitle}}{% endcapture %}
-  {% endif %}
-  {% if project.longtitle != project.title %}
-    {% capture bc %}{{project.title}} - {{project.longtitle}} {% endcapture %}
-  {% else %}
-    {% capture bc %}{{project.title}}{% endcapture %}
-  {% endif %}
-  {% include breadcrumbs.html breadcrumbs=bc title=project.title subtitle=subtitle %}
-
   <!-- Portfolio Item Row -->
   <div class="row row-eq-height">
     {% capture project_assets %}/assets/projects/{{project.id}}/{% endcapture %}

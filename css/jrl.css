@@ -29,5 +29,79 @@
   margin: auto;
 }
 
+/* .row-centered and .col-centered class from http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns */
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
+
 .publications-members {
+}
+
+.breadcrumbs-container {
+  background:#222;
+  color: #9d9d9d;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs-container h1 {
+  border-bottom-color: #9d9d9d !important;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.breadcrumb {
+  background:#222;
+}
+
+.breadcrumb li {
+  color: #9d9d9d !important;
+}
+
+.navbar-inverse
+{
+  border-bottom: none;
+}
+
+.thumbnail {
+  border: none;
+}
+
+.thumbnail img {
+  width: 45%;
+}
+
+.thumbnail .caption {
+  padding: 0;
+  margin: 0;
+  text-align:center !important;
+}
+
+.thumbnail .caption h3 {
+  font-size: large;
+  vertical-align: middle;
+}
+.thumbnail .caption h3 .flag-icon {
+  vertical-align: middle;
+  font-size: x-small;
+  margin-left: 5px;
+}
+.thumbnail .caption li {
+  font-size: x-small;
+}
+
+.flag-icon {
+  box-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.compact {
+  margin: 0px !important;
 }
