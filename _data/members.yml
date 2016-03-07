@@ -77,6 +77,17 @@
     - title: "Multitask Humanoid Control with a Brain-Computer Interface: user experiment with HRP-2"
       url: "https://www.youtube.com/watch?v=6bynYqmVVck"
       img: "http://i1.ytimg.com/vi/6bynYqmVVck/mqdefault.jpg"
+- id: reboulsalze
+  given: Florian
+  family: ReboulSalze
+  role: engineer
+  nationality: fr
+  linkedin: "https://fr.linkedin.com/in/florian-reboul-salze-1909083"
+  bio: >
+    <h3>Bio</h3>
+    <p><b>Florian Reboul-Salze</b> graduated in Fluid Dynamics from Ecole Polytechnique and in Space Telecommunications from Institut National Superieur de l'Aeronautique et de l'Espace. He then worked in the Space field for 8 years for Alcatel Alenia Space and Airbus Defense &amp; Space. Since 2011 he has been working in Nuclear Safety Systems at Rolls-Royce, designing a new instrumentation system. </p>
+    <h3>Research interests</h3>
+    <p> Multi-sensors (like PDR) signal processing together with filters plugins integration into Choreonoid simulation software in C++.</p> 
 - id: brossette
   given: Stanislas
   family: Brossette
