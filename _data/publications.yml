@@ -1,3 +1,37 @@
+- id: demagistris:ras_shape:2016
+  year: 2016
+  title: "Design of optimized compliant soles for humanoid robots (Submitted)"
+  booktitle: "Robotics and Autonomous Systems"
+  authors:
+    - id: demagistris
+    - id: escande
+    - family: Miossec
+      given: Sylvain
+    - id: kheddar
+  projects: [koroibot]  
+- id: demagistris:opt_eng:2015
+  year: 2015
+  title: "Shape optimization of flexible soles for humanoid robots (Submitted)"
+  booktitle: "Optimization and Engineering"
+  authors:
+    - id: demagistris
+    - id: escande
+    - family: Miossec
+      given: Sylvain
+    - id: kheddar
+  projects: [koroibot]    
+- id: demagistris:ras_wpg:2016
+  year: 2016
+  title: "Optimized humanoid walking with compliant soles (Submitted)"
+  booktitle: "Robotics and Autonomous Systems"
+  authors:
+    - id: demagistris
+    - family: Pajon
+      given: Adrien
+    - family: Miossec
+      given: Sylvain
+    - id: kheddar
+  projects: [koroibot]  
 - id: chretien:tpds:2016
   year: 2016
   title: "GPU Robot Motion Planning using Semi-Infinite Nonlinear Programming"
@@ -24,6 +58,7 @@
   year: 2016
   title: "Humanoid walking with compliant soles using a deformation estimator"
   booktitle: "IEEE International Conference on Robotics and Automation (ICRA)"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01278856/document"
   authors:
     - id: demagistris
     - family: Pajon

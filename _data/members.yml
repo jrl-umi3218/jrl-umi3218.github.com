@@ -61,6 +61,20 @@
   nationality: it
   linkedin: "https://www.linkedin.com/in/giovanni-de-magistris-06a01772"
   scholar: "https://scholar.google.com/citations?user=KA6mj_0AAAAJ"
+  bio: >
+    <h3>Bio</h3>
+    <p><b>Giovanni De Magistris</b> received the M.S. degree in mechatronics engineer from Politecnico di Torino, Italy, and from École Nationale Supérieure de Mécanique et des Microtechniques, Besançon, France. He received the Ph.D. degree in Robotics and Mechanics in 2013 from the Université Pierre et Marie Curie, Paris, France. He worked at the Systems and Technologies Integration Laboratory, French Atomic Energy Commission from 2010 to 2013. He is currently PostDoc Researcher at CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/RL, Tsukuba, Japan.</p>
+    <h3>Research interests</h3>
+    <ul>
+      <li>Shape optimization and mechanical/mechatronics design of robotics mechanisms</li>
+      <li>Whole-body control for virtual humans and humanoid robots</li>
+      <li>Digital Human Model for ergonomics assessment</li>	  
+      <li>Human learning</li>
+    </ul>	
+  videos:
+    - title: "Humanoid walking with compliant soles using a deformation estimator"
+      url: "https://youtu.be/YGhJDXUlApM"
+      img: "http://i1.ytimg.com/vi/YGhJDXUlApM/mqdefault.jpg"
 - id: gergondet
   given: Pierre
   family: Gergondet
