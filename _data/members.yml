@@ -186,7 +186,7 @@
   videos:
     - title: "Towards Force Sensing from Vision: Observing Hand-Object Interactions to Infer Manipulation Forces (CVPR 2015)"
       url: "https://www.youtube.com/watch?v=mtWwkOJkeXM"
-      img: "https://raw.githubusercontent.com/ph4m/homepage/master/media/fsv-overview.jpg"
+      img: "https://github.com/ph4m/homepage/blob/c920a946e589d30c2227d463a195ec9cc76b1b1e/media/fsv-overview.jpg"
 - id: vaillant
   given: Joris
   family: Vaillant
