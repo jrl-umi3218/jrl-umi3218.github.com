@@ -1,3 +1,14 @@
+- id: audren:humanoids:2016
+  year: 2016
+  title: "Stability polygons reshaping and morphing for smooth multi-contact transitions and force control of humanoid robots"
+  booktitle: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2016"
+  authors:
+    - id: audren
+    - id: kheddar
+    - id: gergondet
+  pdf: "https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512v2/document"
+  bib: "https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512v2/bibtex"
+  projects: [comanoid]
 - id: demagistris:ras_shape:2016
   year: 2016
   title: "Design of optimized compliant soles for humanoid robots (Submitted)"
