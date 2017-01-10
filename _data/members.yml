@@ -105,7 +105,7 @@
 - id: brossette
   given: Stanislas
   family: Brossette
-  role: phd
+  role: alumni
   nationality: fr
   scholar: "https://scholar.google.com/citations?user=aq1XI7UAAAAJ"
   website: "https://sites.google.com/site/stanislasbrossette/"
@@ -133,7 +133,7 @@
 - id: chretien
   given: Benjamin
   family: Chrétien
-  role: phd
+  role: alumni
   nationality: fr
   scholar: "http://scholar.google.com/citations?user=RuokHdYAAAAJ"
   github: "https://github.com/bchretien"
