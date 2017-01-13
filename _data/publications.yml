@@ -241,7 +241,7 @@
   title: "Towards Force Sensing From Vision: Observing Hand-Object Interactions to Infer Manipulation Forces"
   booktitle: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
   bib: "https://raw.githubusercontent.com/ph4m/homepage/master/bibtex/cvpr.pham.2015.bib"
-  pdf: "http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pham_Towards_Force_Sensing_2015_CVPR_paper.pdf"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01356136/document"
   authors:
     - id: pham
     - id: kheddar
@@ -250,6 +250,34 @@
     - family: Argyros
       given: Antonis A.
   projects: [robohow]
+- id: pham:iccvw:2015
+  year: 2015
+  title: "Capturing and Reproducing Hand-Object Interactions Through Vision-Based Force Sensing"
+  booktitle: "IEEE ICCV Workshop on Object Understanding for Interaction (OUI)"
+  bib: "https://raw.githubusercontent.com/ph4m/homepage/master/bibtex/oui.pham.2015.bib"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01372238/document"
+  authors:
+    - id: pham
+    - id: kheddar
+    - family: Qammaz
+      given: Ammar
+    - family: Argyros
+      given: Antonis A.
+  projects: [robohow]
+- id: pham:sii:2016
+  year: 2016
+  title: "Whole-Body Contact Force Sensing From Motion Capture"
+  booktitle: "IEEE/SICE International Symposium on System Integration (SII)"
+  bib: "https://raw.githubusercontent.com/ph4m/homepage/master/bibtex/sii.pham.2016.bib"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01372531/document"
+  authors:
+    - id: pham
+    - family: Bufort
+      given: Adrien
+    - family: Caron
+      given: Stéphane
+    - id: kheddar
+  projects: [comanoid]
 - id: gergondet:robio:2011
   year: 2011
   title: "Using brain-computer interface to steer a humanoid robot"
