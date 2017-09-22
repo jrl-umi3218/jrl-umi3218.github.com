@@ -4,3 +4,4 @@ name: CNRS-AIST JRL
 # highlighter: pygments
 gems:
     - jekyll-sitemap
+exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md']

@@ -11,7 +11,11 @@
         <li>{{cr}}</li>
         {% endfor %}
         {% endif %}
+        {% if include.breadcrumbs %}
         <li class="active">{{include.breadcrumbs}}</li>
+        {% else %}
+        <li class="active">{{include.title}}</li>
+        {% endif %}
       </ol>
       <h1 class="page-header">{{include.title}}
         {% if include.subtitle %}<small>{{include.subtitle}}</small>{% endif %}
