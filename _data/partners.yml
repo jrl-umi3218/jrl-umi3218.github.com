@@ -14,9 +14,8 @@
   website: "http://en.uniroma1.it/"
 - id: airbus-gi
   logo: "/assets/logos/airbus.png"
-  name: "Airbus Group Innovations"
-  shortname: "AGI"
-  website: "http://www.airbusgroup.com/int/en/corporate-social-responsibility/airbus-group-innovations.html"
+  name: "Airbus"
+  website: "http://www.airbus.com/"
 - id: heidelberg
   logo: "/assets/logos/heidelberg.png"
   name: "Universität Heidelberg"
