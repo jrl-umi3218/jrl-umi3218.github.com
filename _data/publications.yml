@@ -1,3 +1,18 @@
+- id: pajon:humanoids:2017
+  year: 2017
+  title: "Walking on Gravel with Soft Soles using Linear Inverted Pendulum Tracking and Reaction Force Distribution"
+  booktitle: "IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2017"
+  authors:
+    - family: Pajon
+      given: Adrien
+    - family: Caron
+      given: Stéphane
+    - id: demagistris
+    - family: Miossec
+      given: Sylvain
+    - id: kheddar
+  pdf: https://hal.archives-ouvertes.fr/hal-01576516/document
+  bib: https://hal.archives-ouvertes.fr/hal-01576516v1/bibtex
 - id: audren:humanoids:2016
   year: 2016
   title: "Stability polygons reshaping and morphing for smooth multi-contact transitions and force control of humanoid robots"
@@ -9,9 +24,9 @@
   pdf: "https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512v2/document"
   bib: "https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512v2/bibtex"
   projects: [comanoid]
-- id: demagistris:ras_shape:2016
-  year: 2016
-  title: "Design of optimized compliant soles for humanoid robots (Submitted)"
+- id: demagistris:ras_shape:2017
+  year: 2017
+  title: "Design of Optimized Soft Soles for Humanoid Robots  "
   booktitle: "Robotics and Autonomous Systems"
   authors:
     - id: demagistris
@@ -19,21 +34,12 @@
     - family: Miossec
       given: Sylvain
     - id: kheddar
-  projects: [koroibot]  
-- id: demagistris:opt_eng:2015
-  year: 2015
-  title: "Shape optimization of flexible soles for humanoid robots (Submitted)"
-  booktitle: "Optimization and Engineering"
-  authors:
-    - id: demagistris
-    - id: escande
-    - family: Miossec
-      given: Sylvain
-    - id: kheddar
-  projects: [koroibot]    
+  projects: [koroibot]
+  pdf: https://hal.archives-ouvertes.fr/hal-01526014v2/document
+  bib: https://hal.archives-ouvertes.fr/hal-01526014v2/bibtex
 - id: demagistris:ras_wpg:2016
-  year: 2016
-  title: "Optimized humanoid walking with compliant soles (Submitted)"
+  year: 2017
+  title: "Optimized Humanoid Walking with Soft Soles"
   booktitle: "Robotics and Autonomous Systems"
   authors:
     - id: demagistris
@@ -42,7 +48,9 @@
     - family: Miossec
       given: Sylvain
     - id: kheddar
-  projects: [koroibot]  
+  projects: [koroibot]
+  pdf: https://hal.archives-ouvertes.fr/hal-01526033/document
+  bib: https://hal.archives-ouvertes.fr/hal-01526033v2/bibtex
 - id: chretien:tpds:2016
   year: 2016
   title: "GPU Robot Motion Planning using Semi-Infinite Nonlinear Programming"
@@ -70,6 +78,7 @@
   title: "Humanoid walking with compliant soles using a deformation estimator"
   booktitle: "IEEE International Conference on Robotics and Automation (ICRA)"
   pdf: "https://hal.archives-ouvertes.fr/hal-01278856/document"
+  bib: "https://hal.archives-ouvertes.fr/hal-01278856/bibtex"
   authors:
     - id: demagistris
     - family: Pajon
@@ -77,7 +86,7 @@
     - family: Miossec
       given: Sylvain
     - id: kheddar
-  projects: [koroibot]  
+  projects: [koroibot]
 - id: vaillant:ar:2016
   year: 2016
   title: "Multi-Contact Vertical Ladder Climbing with an HRP-2 Humanoid"
@@ -132,7 +141,8 @@
   year: 2015
   title: "A humanoid walking pattern generator for sole design optimization"
   booktitle: "17th International Conference on Advanced Robotics (ICAR)"
-  pdf: "https://www.researchgate.net/profile/Giovanni_Magistris/publication/281112900_A_Humanoid_Walking_Pattern_Generator_for_Sole_Design_Optimization/links/55d679f708ae9d65948bde6c.pdf"
+  pdf: "https://hal.archives-ouvertes.fr/hal-01278857/document"
+  bib: "https://hal.archives-ouvertes.fr/hal-01278857/bibtex"
   authors:
     - family: Pajon
       given: Adrien
@@ -142,7 +152,7 @@
     - family: Kaneko
       given: Kenji
     - id: kheddar
-  projects: [koroibot]    
+  projects: [koroibot]
 - id: samy:humanoids:2015
   year: 2015
   title: "Falls control using posture reshaping and active compliance"
@@ -533,7 +543,7 @@
     - given: Tsuyoshi
       family: Ikegami
     - id: ganesh
-  projects: [kakenhiG_2013] 
+  projects: [kakenhiG_2013]
 - id: ganesh:NATCOM:2014
   year: 2014
   title: "Immediate tool incorporation processes determine human motor planning with tools."
@@ -553,7 +563,7 @@
   pdf: "http://www.nature.com/articles/srep03824"
   booktitle: "Nature Scientific Reports"
   authors:
-     - id: ganesh 
+     - id: ganesh
      - given: Atsushi
        family: Takagi
      - given: Rieko
@@ -570,7 +580,7 @@
   pdf: "http://www.nature.com/articles/srep02648 "
   booktitle: "Nature Scientific Reports"
   authors:
-     - id: ganesh 
+     - id: ganesh
      - given: Rieko
        family: Osu
      - given: Eiichi
@@ -680,7 +690,7 @@
   booktitle: "Pacific Rim Symposium on Image and Video Technology"
   authors:
     - family: Sagawa
-      given: Ryusuke 
+      given: Ryusuke
     - family: Yoshiyasu
       given: Yusuke
     - family: Alspach
