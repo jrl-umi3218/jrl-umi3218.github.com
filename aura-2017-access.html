@@ -8,7 +8,6 @@ active: access
 <div class="btn-group btn-group-justified" role="group" aria-label="...">
   <a href="#embassy" class="btn btn-default">French Embassy<br/>Tokyo</a>
   <a href="#jrl" class="btn btn-default">CNRS-AIST JRL<br/>Tsukuba</a>
-  <a href="#happo-en" class="btn btn-default">HAPPO-EN<br/>Tokyo</a>
 </div>
 
 <hr />
@@ -36,22 +35,7 @@ active: access
     <div class="well">
       <div id="jrlMap" style="width:100%;height:400px">Map to the jrl</div>
     </div>
-    <a name="happo-en"></a>
     <a href="https://www.google.co.jp/maps/place/Tsukuba+Center,+AIST:+National+Institute+of+Advanced+Industrial+Science+and+Technology/@36.0624571,140.1328832,16.32z/data=!4m8!1m2!2m1!1s%E3%80%92305-8560+AIST+Central+1,+1-1-1+Umezono,+Tsukuba!3m4!1s0x0:0xecc14922713a4044!8m2!3d36.0622873!4d140.135639" target="blank_">See in Google Maps <span class="glyphicon glyphicon-map-marker"></span></a>
-  </div>
-</div>
-
-<hr />
-
-<h4>HAPPO-EN, Tokyo</h4>
-
-<div class="panel panel-info">
-  <div class="panel-heading"><strong>〒108-8631<br/>1-1-1 Shirokanedai, Minato-ku, Tokyo</strong></div>
-  <div class="panel-body">
-    <div class="well">
-      <div id="happoenMap" style="width:100%;height:400px">Map to the happoen</div>
-    </div>
-    <a href="https://www.google.co.jp/maps/place/Happ%C5%8Den/@35.6382746,139.7289987,15z/data=!4m2!3m1!1s0x0:0x3489d1083c510d40?sa=X&ved=0ahUKEwjng-uvg7jWAhUBvLwKHUw3AF0Q_BIIkwEwDg" target="blank_">See in Google Maps <span class="glyphicon glyphicon-map-marker"></span></a>
   </div>
 </div>
 
@@ -72,15 +56,6 @@ var jrlMapProp= {
 var jrlMap=new google.maps.Map(document.getElementById("jrlMap"),jrlMapProp);
 var jrlMarker = new google.maps.Marker({position: jrlMapProp.center});
 jrlMarker.setMap(jrlMap);
-
-var happoenMapProp= {
-    center:new google.maps.LatLng(35.638273, 139.728990),
-    zoom:15,
-};
-var happoenMap=new google.maps.Map(document.getElementById("happoenMap"),happoenMapProp);
-var happoenMarker = new google.maps.Marker({position: happoenMapProp.center});
-happoenMarker.setMap(happoenMap);
-}
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhFnGpBg9amc28Y3o0OvhA1C6cIzGzupg&callback=myMap"></script>
 
