@@ -1,0 +1,30 @@
+---
+layout: aura-2017
+active: none
+---
+<h4>Gonpachi, Tokyo</h4>
+
+<div class="panel panel-info">
+  <div class="panel-heading"><strong>〒150-0044<br/>14F, E. Space Tower<br/>3-6 Maruyamacho, Shibuya, Tokyo</strong></div>
+  <div class="panel-body">
+    <div class="well">
+      <div id="gonpachiMap" style="width:100%;height:400px">Map to gonpachi</div>
+    </div>
+    <a href="https://www.google.com/maps/place/Sushi+Gonpachi+Shibuya/@35.65763,139.695378,19z/data=!4m5!3m4!1s0x0:0x4cd2db6201420535!8m2!3d35.6575109!4d139.6955237?hl=en-US" target="blank_">See in Google Maps <span class="glyphicon glyphicon-map-marker"></span></a><br/>
+    <a href="http://www.gonpachi.jp/shibuya/?lang=en" target="blank_">Website <span class="glyphicon glyphicon-globe"></span></a>
+  </div>
+</div>
+
+<script>
+function myMap() {
+var gonpachiMapProp= {
+    center:new google.maps.LatLng(35.65763,139.695378),
+    zoom:15,
+};
+var gonpachiMap=new google.maps.Map(document.getElementById("gonpachiMap"),gonpachiMapProp);
+var gonpachiMarker = new google.maps.Marker({position: gonpachiMapProp.center});
+gonpachiMarker.setMap(gonpachiMap);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhFnGpBg9amc28Y3o0OvhA1C6cIzGzupg&callback=myMap"></script>
+
