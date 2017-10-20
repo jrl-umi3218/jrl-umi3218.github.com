@@ -1,0 +1,89 @@
+---
+layout: default
+header: '<link href="css/humanoids-2017.css" rel="stylesheet">
+<link rel="stylesheet" id="dynamicnewslite-default-fonts-css"  href="//fonts.googleapis.com/css?family=Droid+Sans%3A400%2C700%7CFrancois+One&#038;subset=latin%2Clatin-ext" type="text/css" media="all" />'
+title: CNRS-AIST JRL
+---
+
+<div class="container">
+
+<div class="row" style="margin-top:26px;">
+  <div class="col-xs-8 col-xs-offset-2">
+    <h1>Humanoid Robot for Real Applications Use</h1>
+    <span style="text-align:right;">
+      <h3 class="humanoids-title">HUMANOIDS 2017</h3>
+      <h6>IEEE RAS International Conference on Humanoid Robots &ndash; November 15-17, 2017, Birmingham (UK)</h6>
+    </span>
+  </div>
+</div> <!-- row -->
+
+{% capture home_assets %}/assets/workshops/humanoids2017/carousel/{% endcapture %}
+{% for f in site.static_files %}
+  {% assign f_base = f.path | remove_first: home_assets %}
+  {% if f_base != f.path %}
+    {% if carousel_files %}
+    {% capture carousel_files %}{{carousel_files}},{{f.path}}{% endcapture %}
+    {% else %}
+      {% assign carousel_files = f.path %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign carousel_files = carousel_files | split: "," %}
+{% assign carousel_files_size = carousel_files | size %}
+
+<div class="row" style="margin-top:30px;">
+<div class="col-xs-8 col-xs-offset-2">
+   <div class="alert alert-warning text-center" role="alert">This page is still being updated regularly, please check back later for more information.</div>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    {% if carousel_files_size != 1 %}
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+    {% for f in carousel_files %}
+      {% if forloop.index0 == 0 %}
+        <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}" class="active"></li>
+      {% else %}
+        <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}"></li>
+      {% endif %}
+    {% endfor %}
+    </ol>
+    {% endif %}
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+    {% for f in carousel_files %}
+      {% if forloop.index0 == 0 %}
+        {% assign class = "item active" %}
+      {% else %}
+        {% assign class = "item" %}
+      {% endif %}
+      <div class="{{class}}">
+        <img class="img-responsive img-rounded" src="{{f}}" alt="carousel {{forloop.index}}">
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+
+<a id="content"></a>
+
+<div class="row" style="padding-top:60px;">
+  <div class="col-xs-3">
+    <div class="list-group">
+      <a href="workshop-humanoids-2017.html#content" class="list-group-item {% if page.active == "overview" %}active{% endif %}">Overview</a>
+      <a href="workshop-humanoids-2017-speakers.html#content" class="list-group-item {% if page.active == "speakers" %}active{% endif %}">Speakers</a>
+      <a href="workshop-humanoids-2017-schedule.html#content" class="list-group-item {% if page.active == "schedule" %}active{% endif %}">Schedule</a>
+      <a href="workshop-humanoids-2017-contact.html#content" class="list-group-item {% if page.active == "contact" %}active{% endif %}">Organizers/Contact</a>
+    </div>
+  </div>
+
+  <div class="col-xs-9">
+{{content}}
+  </div>
+
+  <div class="col-xs-12" style="text-align:right;">
+    <img src="/assets/workshops/humanoids2017/ieee-ras.png" alt="IEEE and IEEE RAS" />
+  </div>
+</div>
+
+</div>

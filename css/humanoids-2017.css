@@ -1,0 +1,17 @@
+.humanoids-title
+{
+  color: #e84747;
+  font-weight: bold;
+  font-family: 'Francois One', Tahoma, Arial;
+}
+
+p
+{
+  text-align: justify;
+}
+
+.img-grayscale
+{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
