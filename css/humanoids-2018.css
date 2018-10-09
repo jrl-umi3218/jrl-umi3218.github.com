@@ -1,0 +1,22 @@
+body
+{
+  padding-top: 0px;
+}
+
+.humanoids-title
+{
+  color: #004f76;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+p
+{
+  text-align: justify;
+}
+
+.img-grayscale
+{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}

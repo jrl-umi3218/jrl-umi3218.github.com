@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Humanoids 2018 Workshop - Humanoid Robot for Real Applications Use</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom on top of custom CSS -->
+    <link href="css/jrl.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Flag CSS -->
+    <link href="css/flag-icon.min.css" rel="stylesheet">
+
+    <!-- Ekko lightbox -->
+    <link href="css/ekko-lightbox.min.css" rel="stylesheet">
+
+    <link href="css/humanoids-2018.css" rel="stylesheet">
+    <link rel="stylesheet" id="dynamicnewslite-default-fonts-css"  href="//fonts.googleapis.com/css?family=Droid+Sans%3A400%2C700%7CFrancois+One&#038;subset=latin%2Clatin-ext" type="text/css" media="all" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/favicons/manifest.json">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+
+<div class="container">
+
+<div class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+    <h1>Humanoid Robot for Real Applications Use</h1>
+    <span style="text-align:right;">
+      <h3 class="humanoids-title">HUMANOIDS 2017</h3>
+      <h6>IEEE RAS International Conference on Humanoid Robots &ndash; November 6-9, 2018, Beijing, China</h6>
+    </span>
+  </div>
+</div> <!-- row -->
+
+{% capture home_assets %}/assets/workshops/humanoids2018/carousel/{% endcapture %}
+{% for f in site.static_files %}
+  {% assign f_base = f.path | remove_first: home_assets %}
+  {% if f_base != f.path %}
+    {% if carousel_files %}
+    {% capture carousel_files %}{{carousel_files}},{{f.path}}{% endcapture %}
+    {% else %}
+      {% assign carousel_files = f.path %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign carousel_files = carousel_files | split: "," %}
+{% assign carousel_files_size = carousel_files | size %}
+
+<div class="row" style="margin-top:30px;">
+<div class="col-xs-8 col-xs-offset-2">
+   <div class="alert alert-warning text-center" role="alert">This page is still being updated regularly, please check back later for more information.</div>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    {% if carousel_files_size != 1 %}
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+    {% for f in carousel_files %}
+      {% if forloop.index0 == 0 %}
+        <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}" class="active"></li>
+      {% else %}
+        <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}"></li>
+      {% endif %}
+    {% endfor %}
+    </ol>
+    {% endif %}
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+    {% for f in carousel_files %}
+      {% if forloop.index0 == 0 %}
+        {% assign class = "item active" %}
+      {% else %}
+        {% assign class = "item" %}
+      {% endif %}
+      <div class="{{class}}">
+        <img class="img-responsive img-rounded" src="{{f}}" alt="carousel {{forloop.index}}">
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+
+<a id="content"></a>
+
+<div class="row" style="padding-top:60px;">
+  <div class="col-xs-3">
+    <div class="list-group">
+      <a href="workshop-humanoids-2018.html#content" class="list-group-item {% if page.active == "overview" %}active{% endif %}">Overview</a>
+      <a href="workshop-humanoids-2018-speakers.html#content" class="list-group-item {% if page.active == "speakers" %}active{% endif %}">Speakers</a>
+      <a href="workshop-humanoids-2018-schedule.html#content" class="list-group-item {% if page.active == "schedule" %}active{% endif %}">Schedule</a>
+      <a href="workshop-humanoids-2018-contact.html#content" class="list-group-item {% if page.active == "contact" %}active{% endif %}">Organizers/Contact</a>
+    </div>
+  </div>
+
+  <div class="col-xs-9">
+{{content}}
+  </div>
+
+  <div class="col-xs-12" style="text-align:right;">
+    <img src="/assets/workshops/humanoids2017/ieee-ras.png" alt="IEEE and IEEE RAS" />
+  </div>
+</div>
+
+</div>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+$('.carousel').carousel({
+  interval: 5000 //changes the speed
+})
+    </script>
+
+    <!-- Ekko lightbox js -->
+    <script src="js/ekko-lightbox.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+
+        // delegate calls to data-toggle="lightbox"
+        $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
+          event.preventDefault();
+          return $(this).ekkoLightbox({
+            onShown: function() {
+              if (window.console) {
+                return console.log('onShown event fired');
+              }
+            },
+            onContentLoaded: function() {
+              if (window.console) {
+                return console.log('onContentLoaded event fired');
+              }
+            },
+            onNavigate: function(direction, itemIndex) {
+              if (window.console) {
+                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+              }
+            }
+          });
+        });
+
+        //Programatically call
+        $('#open-image').click(function (e) {
+          e.preventDefault();
+          $(this).ekkoLightbox();
+        });
+        $('#open-youtube').click(function (e) {
+          e.preventDefault();
+          $(this).ekkoLightbox();
+        });
+
+        $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
+          event.preventDefault();
+          return $(this).ekkoLightbox({
+            onShown: function() {
+              var lb = this;
+              $(lb.modal_content).on('click', '.modal-footer a', function(e) {
+                e.preventDefault();
+                lb.navigateTo(2);
+              });
+            }
+          });
+        });
+
+      });
+    </script>
+
+  </body>
+
+</html>
