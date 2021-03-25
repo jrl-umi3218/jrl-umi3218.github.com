@@ -3,7 +3,7 @@
   longtitle: "Multi-Contact Collaborative Humanoids in Aircraft Manufacturing"
   year-start: 2015
   year-end: 2019
-  active: true
+  active: false
   url: "http://www.comanoid.eu"
   partners: [cnrs, dlr, inria, sapienza, airbus-gi]
   description: "<p>COMANOID stands for -Multi-Contact Collaborative Humanoids in Aircraft Manufacturing- is a RIA four-year European research project that started in January 2015 as part of the Horizon H2020 program.</p>
@@ -19,7 +19,7 @@
   longtitle: "Improving humanoid walking capabilities by human-inspired mathematical models, optimization and learning"
   year-start: 2013
   year-end: 2016
-  active: true
+  active: false
   url: "http://www.koroibot.eu/"
   partners: [heidelberg,cnrs,kit,iit,tudelft,wis,utubingen]
   description: "<p>Teaching two-legged robots a stable, robust “human” way of walking – this is the goal of the international research project KoroiBot, which is named after Koroibos of Elis, the first recorded Olympic champion in history. KoroiBot is funded by the European Union from October 2013 on for three years and gathers an interdisciplinary consortium from the areas of robotics, mathematics and cognitive sciences.</p>
@@ -33,7 +33,7 @@
   longtitle: "RoboHow"
   year-start: 2012
   year-end: 2016
-  active: true
+  active: false
   url: "https://robohow.eu/"
   partners: [bremen,cnrs,epfl,kth,kul,forth,ul,aldebaran,tum]
   description: "<p>Robohow is a four-year European research project that started in February 2012. It aims at enabling robots to competently perform everyday human-scale manipulation activities - both in human working and living environments.</p>
@@ -51,7 +51,7 @@
   longtitle: "Virtual Embodiment and Robotic Re-Embodiment"
   year-start: 2010
   year-end: 2015
-  active: true
+  active: false
   url: "http://www.vereproject.eu/"
   description: "<p>This Integrated Project aims at dissolving the boundary between the human body and surrogate representations in immersive virtual reality and physical reality. Dissolving the boundary means that people have the illusion that their surrogate representation is their own body, and act and have thoughts that correspond to this. The work in VERE may be thought of as applied presence research and applied cognitive neuroscience, and it would also significantly add to scientific knowledge in these areas.</p>"
   videos:
@@ -73,7 +73,7 @@
   longtitle: "Towards natural learning of an additional effector by the human brain"
   year-start: 2015
   year-end: 2017
-  active: true
+  active: false
   description: >
     <p>Our brain can readily learn to control new actions with our effectors/limbs, but can it also learn to control new limbs in addition to our current ones? Answering this question will clarify an individual brain’s neuronal limits, for functional augmentation with brain-machine interface (BMI) systems and of plasticity after brain damage. This JSPS (Kakenhi 'houga')multi-disciplinary project with the University of Electro-communication in Tokyo will provide a crucial understanding of the <i>unused capabilities</i> of the human brain in regard to effector control and will enable a human to use this capability to incorporate an additional artificial limb naturally into his body schema.</p>
 - id: kakenhiG_2013
@@ -81,6 +81,6 @@
   longtitle: "Understanding and controlling the effects of anxiety on motor behavior"
   year-start: 2013
   year-end: 2016
-  active: true
+  active: false
   description: >
     <p>This JSPS ('Kakenhi Kiban B') project investigates the effects of cognitive anxiety associated with observation of other individuals and competition on one's own motor behavior. In Collboration with <a href="https://cinet.jp/english/" target="_self">Centre for Information and Neural Networks (CINET)</a> in Osaka, <a href="http://www.nifs-k.ac.jp/" target="_self">National Institute of Fitness and Sports</a> in Kanoya, and <a href="http://www.chukyo-u.ac.jp/" target="_self">Nagoya Chukyo University</a>, we are using cognitive neuroscience experiments and computational modelling to acquire a quantitative measure of motor deteriorations due to anxiety, and investigate how non-human agents like robots may be used to influence human behaviors.</p>
