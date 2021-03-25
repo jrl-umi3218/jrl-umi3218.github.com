@@ -33,6 +33,13 @@
             {% break %}
           {% endif %}
         {% endfor %}
+      {% elsif include.lab_id %}
+        {% for l_id in publication.lab %}
+          {% if l_id == include.lab_id %}
+            {% include publications_row.html publication=publication %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
       {% else %}
         {% include publications_row.html publication=publication %}
       {% endif %}
