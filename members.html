@@ -49,6 +49,15 @@ title: CNRS-AIST JRL - Members
     {% include member_summary.html member=member %}
     {% endif %}
     {% endfor %}
+    
+    <div class="col-lg-12 col-centered">
+      <h3 class="page-header compact">Adjunct Members</h3>
+    </div>
+    {% for member in members %}
+    {% if member.role == "adjunct" %}
+    {% include member_summary.html member=member %}
+    {% endif %}
+    {% endfor %}
 
     <div class="col-lg-12 col-centered">
       <h3 class="page-header compact">Postdoctoral fellows</h3>
