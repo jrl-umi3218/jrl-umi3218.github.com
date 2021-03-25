@@ -426,8 +426,7 @@
   title: Robust humanoid control using a QP solver with integral gains
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   authors:
-  - family: Cisneros
-    given: Rafael
+  - id: cisneros
   - id: benallegueb
   - id: benalleguea
   - id: morisawa
@@ -866,8 +865,7 @@
     Humanoid Robot: A 3D Targeted Kicking Motion Generator'
   booktitle: International Journal of Humanoid Robotics
   authors:
-  - family: Cisneros
-    given: Rafael
+  - id: cisneros
   - family: Yokoi
     given: Kazuhito
   - id: yoshida
@@ -3029,8 +3027,7 @@
   authors:
   - id: morisawa
   - id: benallegueb
-  - family: Cisneros-Limon
-    given: Rafael
+  - id: cisneros
   - id: kumagai
   - id: escande
   - id: kaneko
@@ -3125,8 +3122,7 @@
     high stiction
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   authors:
-  - family: Cisneros
-    given: Rafael
+  - id: cisneros
   - id: benallegueb
   - family: Kikuuwe
     given: Ryo
@@ -3139,8 +3135,7 @@
     joint torque feedback
   booktitle: Advanced Robotics
   authors:
-  - family: Cisneros-Limon
-    given: Rafael
+  - id: cisneros
   - id: morisawa
   - id: benallegueb
   - id: escande
@@ -3152,8 +3147,7 @@
     Point Search on the Body Surface
   booktitle: IEEE Robotics and Automation Letters
   authors:
-  - family: Murooka
-    given: Masaki
+  - id: murooka
   - family: Okada
     given: Kei
   - family: Inaba
@@ -3188,8 +3182,7 @@
   authors:
   - family: Noda
     given: Shintaro
-  - family: Murooka
-    given: Masaki
+  - id: murooka
   - family: Asano
     given: Yuki
   - family: Ishizaki
@@ -3213,8 +3206,7 @@
     given: Fan
   - family: Zhao
     given: Moju
-  - family: Murooka
-    given: Masaki
+  - id: murooka
   - family: Okada
     given: Kei
   - family: Inaba
@@ -3238,8 +3230,7 @@
   booktitle: IEEE Robotics and Automation Letters
   authors:
   - id: benallegueb
-  - family: Cisneros
-    given: Rafael
+  - id: cisneros
   - id: benalleguea
   - family: Chitour
     given: Yacine
@@ -3350,8 +3341,7 @@
   booktitle: International Journal of Humanoid Robotics
   authors:
   - id: morisawa
-  - family: Cisneros
-    given: Rafael
+  - id: cisneros
   - id: benallegueb
   - id: kumagai
   - id: escande
