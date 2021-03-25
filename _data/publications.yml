@@ -101,8 +101,7 @@
     given: Hao
   - family: Benes
     given: Bedrich
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - family: Guibas
     given: Leonidas
   pdf: http://www.pirk.info/projects/interaction_landscapes/
@@ -179,8 +178,7 @@
   title: More than just co-worker influences human performance
   booktitle: PLoS One
   authors:
-  - family: Vasalya
-    given: Ashesh
+  - id: vasalya
   - id: ganesh
   - id: kheddar
   pdf: http://www.comanoid.cnrs.fr/publications_files/2018/vasalya-plone-2018.pdf
@@ -191,8 +189,7 @@
     and Gyro-bias
   booktitle: IEEE Transactions on Automatic Control
   authors:
-  - family: Benallegue
-    given: Abdelaziz
+  - id: benalleguea
   - family: Chitour
     given: Yacine
   - family: Taybi
@@ -207,8 +204,7 @@
   authors:
   - family: Tsuchiya
     given: Yoshio
-  - family: Imamura
-    given: Yumeko
+  - id: imamura
   - family: Tanaka
     given: Takayuki
   - family: Kusaka
@@ -231,8 +227,7 @@
     task-space control by adaptive non-linear least-squares
   booktitle: IEEE Robotics and Automation Letters
   authors:
-  - family: Pfeiffer
-    given: Kai
+  - id: pfeiffer
   - id: escande
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8410418
@@ -270,8 +265,7 @@
     using a Human Robot
   booktitle: Advanced Robotics
   authors:
-  - family: Ito
-    given: Takahiro
+  - id: ito
   - id: ayusawa
   - id: yoshida
   - family: Kobayashi
@@ -354,8 +348,7 @@
   authors:
   - family: Paolillo
     given: Antonio
-  - family: Chappellet
-    given: Kevin
+  - id: Chappellet
   - family: Bolotnikova
     given: Anastasia
   - id: kheddar
@@ -371,8 +364,7 @@
     given: Enric
   - family: Alenya
     given: Guillem
-  - family: Gabas
-    given: Antonio
+  - id: gabas
   - family: Torras
     given: Carme
   pdf: http://www.iri.upc.edu/files/scidoc/1952-Active-garment-recognition-and-target-grasping-point-detection-using-deep-learning.pdf
@@ -384,8 +376,7 @@
   authors:
   - id: ayusawa
   - id: yoshida
-  - family: Imamura
-    given: Yumeko
+  - id: imamura
   - family: Tanaka
     given: Takayuki
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2016_AR.pdf
@@ -401,8 +392,7 @@
   - id: ayusawa
   - id: yoshida
   - id: kheddar
-  - family: Venture
-    given: Gentiane
+  - id: venture
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Jovic-identificaiton-ieee-tro2016.pdf
   lab: jrl
 - id: sreenivasa:nsre:2016
@@ -438,17 +428,14 @@
   authors:
   - family: Cisneros
     given: Rafael
-  - family: Benallegue
-    given: Mehdi
-  - family: Benallegue
-    given: Abdelaziz
+  - id: benallegueb
+  - id: benalleguea
   - id: morisawa
   - id: audren
   - id: gergondet
   - id: escande
   - id: kheddar
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   pdf: http://www.comanoid.cnrs.fr/publications_files/2018/cisneros-hal-01845489.pdf
   lab: jrl
 - id: escande:ima:2016
@@ -486,14 +473,12 @@
   - id: escande
   - family: Bouyarmane
     given: Karim
-  - family: Kaneko
-    given: Kenji
+  - id: kaneko
   - id: morisawa
   - id: gergondet
   - family: Kajita
     given: Suuji
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   pdf: https://hal.archives-ouvertes.fr/hal-01276931/document
   lab: jrl
   bib: https://hal.archives-ouvertes.fr/hal-01276931v1/bibtex
@@ -506,8 +491,7 @@
   - id: escande
   - family: Miossec
     given: Sylvain
-  - family: Benallegue
-    given: Mehdi
+  - id: benallegueb
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01079783/file/06710113.pdf
   lab: jrl
@@ -574,8 +558,7 @@
     IEEE Transactions on Pattern Analysis and Machine Intelligence
   booktitle: IEEE Transactions on Pattern Analysis and Machine Intelligence
   authors:
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Furukawa
     given: Ryo
   - family: Kawasaki
@@ -595,8 +578,7 @@
     given: Ngo
   - family: Nagahara
     given: Hajime
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Mukaigawa
     given: Yasuhiro
   - family: Yagi
@@ -610,8 +592,7 @@
   authors:
   - family: Sakashita
     given: Kazuhiro
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Furukawa
     given: Ryo
   - family: Kawasaki
@@ -628,8 +609,7 @@
   authors:
   - family: Furukawa
     given: Ryuo
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Kawasaki
     given: Hiroshi
   - family: Sakashita
@@ -650,8 +630,7 @@
     given: Ismael
   - family: Furukawa
     given: Ryo
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Kawasaki
     given: Hiroshi
   - family: Hiura
@@ -672,8 +651,7 @@
     given: Yuichiro
   - family: Nagahara
     given: Hajime
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Mukaigawa
     given: Yasuhiro
   - family: Yachida
@@ -691,8 +669,7 @@
     given: Ngo
   - family: Nagahara
     given: Hajime
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Mukaigawa
     given: Yasuhiro
   - family: Masahiko
@@ -710,8 +687,7 @@
     given: Ryo
   - family: Kawasaki
     given: Hiroshi
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Yagi
     given: Yasushi
   pdf: http://www.am.sanken.osaka-u.ac.jp/publications/static/files/0483/furukawa09:_shape_from_grid.pdf
@@ -723,8 +699,7 @@
   authors:
   - family: Makihara
     given: Yasushi
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Mukaigawa
     given: Yasuhiro
   - family: Echigo
@@ -743,8 +718,7 @@
     given: Hai
   - family: Echigo
     given: Tomio
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Yagi
     given: Keiko
   - family: Shiba
@@ -766,8 +740,7 @@
     given: Hai
   - family: Echigo
     given: Tomio
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Yagi
     given: Keiko
   - family: Shiba
@@ -786,8 +759,7 @@
     Adaptive Resolution
   booktitle: IEEE Transactions on Pattern Analysis and Machine Intelligence
   authors:
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Ikeuchi
     given: Katsushi
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4359341
@@ -797,8 +769,7 @@
   title: Adaptively Merging Large-Scale Range Data with Reflectance Properties ",
   booktitle: IEEE Transactions on Pattern Analysis and Machine Intelligence
   authors:
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Nishino
     given: Ko
   - family: Ikeuchi
@@ -814,8 +785,7 @@
     given: Yasushi
   - family: Echigo
     given: Tomio
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Yagi
     given: Keiko
   - family: Shiba
@@ -833,8 +803,7 @@
   authors:
   - family: Mannami
     given: Hidetoshi
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Mukaigawa
     given: Yasuhiro
   - family: Echigo
@@ -855,8 +824,7 @@
     given: Takeshi
   - family: Takamatsu
     given: Jun
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Nakazawa
     given: Atsushi
   - family: Kurazume
@@ -886,8 +854,7 @@
   title: Symmetry Aware Embedding for Shape Correspondence
   booktitle: Computer&Graphics
   authors:
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - id: yoshida
   - family: Guibas
     given: Leonidas
@@ -939,8 +906,7 @@
     humanoid robots
   booktitle: Advanced Robotics
   authors:
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   - id: yoshida
   - family: Yokoi
     given: Kazuhito
@@ -951,13 +917,11 @@
   title: As-Conformal-As-Possible Surface Registration
   booktitle: Computer Graphics Forum
   authors:
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - family: Ma
     given: Wan-Chun
   - id: yoshida
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu-SGP14.pdf
   lab: jrl
 - id: moulard:rsj:2014
@@ -1000,8 +964,7 @@
     given: Kensuke
   - family: Onda
     given: Hiromu
-  - family: Yamanobe
-    given: Natsuki
+  - id: yamanobe
   - id: yoshida
   - family: Nagata
     given: Kazuyuki
@@ -1048,8 +1011,7 @@
   authors:
   - family: Sulelman
     given: Wael
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   - family: Miura
     given: Kanako
   - id: yoshida
@@ -1067,8 +1029,7 @@
   - family: Hirukawa
     given: Hirohisa
   - id: morisawa
-  - family: Kajita
-    given: Shuuji
+  - id: kajita
   - id: yoshida
   pdf: http://lars.mec.ua.pt/public/LAR%20Projects/Humanoid/2011_WilliamLage/Alguns%20papers/Two-Stage%20Time-Parametrized%20Gait%20Planning%20for%20Humanoid%20Robots.pdf
   lab: jrl
@@ -1092,8 +1053,7 @@
   authors:
   - family: Suleiman
     given: Wael
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   - id: yoshida
   - family: Laumond
     given: Jean-Paul
@@ -1148,8 +1108,7 @@
     given: Oussama
   - family: Mallet
     given: Anthony
-  - family: Sakaguchi
-    given: Takeshi
+  - id: sakaguchi
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/e.yoshida/papers/cavw_yoshida_2009.pdf
@@ -1166,8 +1125,7 @@
     given: Igor
   - family: Laumond
     given: Jean-Paul
-  - family: Sakaguchi
-    given: Takeshi
+  - id: sakaguchi
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/e.yoshida/papers/TRO-yoshida-08.pdf
@@ -1665,8 +1623,7 @@
   authors:
   - family: Guiatni
     given: Mohamed
-  - family: Benallegue
-    given: Abdelaziz
+  - id: benalleguea
   - id: kheddar
   lab: jrl
 - id: vidal:ast:2008
@@ -1839,10 +1796,8 @@
   authors:
   - family: Kato
     given: Saki
-  - family: Yamanobe
-    given: Natsuki
-  - family: Venture
-    given: Gentiane
+  - id: yamanobe
+  - id: venture
   - id: yoshida
   - id: ganesh
   pdf: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0217129&type=printable
@@ -1910,8 +1865,7 @@
   authors:
   - family: Murai
     given: Akihiko
-  - family: Endo
-    given: Yui
+  - id: endoy
   - family: Tada
     given: Mitsunori
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7396939
@@ -2148,8 +2102,7 @@
   booktitle: The International Journal of Robotics Research
   authors:
   - id: ayusawa
-  - family: Venture
-    given: Gentiane
+  - id: venture
   - family: Nakamura
     given: Yoshihiko
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2014_IJRR.pdf
@@ -2159,8 +2112,7 @@
   title: Evaluation Framework for Passive Assistive Device Based on Humanoid Experiments
   booktitle: International Journal of Humanoid Robotics
   authors:
-  - family: Imamura
-    given: Yumeko
+  - id: imamura
   - id: ayusawa
   - id: yoshida
   - family: Tanaka
@@ -2190,8 +2142,7 @@
   - id: gergondet
   - family: Comport
     given: Andrew
-  - family: Tanguy
-    given: Arnaud
+  - id: tanguy
   - family: Ott
     given: Christian
   - family: Henze
@@ -2215,8 +2166,7 @@
   - id: escande
   - family: Cappellet
     given: Kevin
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   - family: Rabate
     given: Patrice
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8889461
@@ -2298,8 +2248,7 @@
     of a Reduced Model
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Samy
-    given: Vincent
+  - id: samy
   - family: Caron
     given: Stéphane
   - family: Bouyarmane
@@ -2340,8 +2289,7 @@
     Assistive Device Evaluation
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Ito
-    given: Takahiro
+  - id: ito
   - id: ayusawa
   - id: yoshida
   - family: Kobayashi
@@ -2365,8 +2313,7 @@
   authors:
   - family: Bolotnikova
     given: Anastasia
-  - family: Chappellet
-    given: Kevin
+  - id: Chappellet
   - family: Paolillo
     given: Antonio
   - id: escande
@@ -2395,8 +2342,7 @@
   title: Nut Fastening with a Humanoid Robot
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   authors:
-  - family: Pfeiffer
-    given: Kai
+  - id: pfeiffer
   - id: escande
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-02189053/document
@@ -2407,8 +2353,7 @@
     of nursing-care workers
   booktitle: International Conference on Social Robotics
   authors:
-  - family: Imamura
-    given: Yumeko
+  - id: imamura
   - family: Tanaka
     given: Takayuki
   - family: Takizawa
@@ -2438,8 +2383,7 @@
   title: QP-based Adaptive-Gains Compliance Control in Humanoid Falls
   booktitle: IEEE International Conference on Robotics and Automation
   authors:
-  - family: Samy
-    given: Vincent
+  - id: samy
   - family: Bouyarmane
     given: Karim
   - id: kheddar
@@ -2474,8 +2418,7 @@
   booktitle: International Conference of the IEEE Engineering in Medicine and Biology
     Society
   authors:
-  - family: Imamura
-    given: Yumeko
+  - id: imamura
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/EMBC17_Imamura.pdf
@@ -2486,11 +2429,9 @@
     Transfer Support Robot'
   booktitle: International Conference on Rehabilitation Robotics
   authors:
-  - family: Imamura
-    given: Yumeko
+  - id: imamura
   - id: ayusawa
-  - family: Endo
-    given: Yui
+  - id: endoy
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ICORR17_Imamura.pdf
   lab: jrl
@@ -2499,8 +2440,7 @@
   title: 3D Convolutional Neural Networks by Modal Fusion
   booktitle: IEEE International Conference on Image Processing
   authors:
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - id: yoshida
   - family: Pirk
     given: Soeren
@@ -2517,8 +2457,7 @@
   - family: Rioux
     given: Antoine
   - id: yoshida
-  - family: Venture
-    given: Gentiane
+  - id: venture
   - family: Gautier
     given: Maxime
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2017_ICRA.pdf
@@ -2533,8 +2472,7 @@
     given: Haruma
   - family: Tsutiya
     given: Yoshio
-  - family: Imamura
-    given: Yumeko
+  - id: imamura
   - family: Kusaka
     given: Takashi
   - family: Tanaka
@@ -2550,8 +2488,7 @@
     given: Antonio
   - family: Bolotnikova
     given: Anastasia
-  - family: Chappellet
-    given: Kevin
+  - id: Chappellet
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01646158/document
   lab: jrl
@@ -2582,8 +2519,7 @@
     given: Suren
   - family: Kang
     given: Hao
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - family: Benes
     given: Bedrich
   - family: Guibas
@@ -2618,10 +2554,8 @@
   authors:
   - family: Toshilombo
     given: Kalenga-Bimpambu
-  - family: Yoshiyasu
-    given: Yusuke
-  - family: Gabas
-    given: Antonio
+  - id: yoshiyasu
+  - id: gabas
   - family: Suzui
     given: Kota
   pdf: https://www.researchgate.net/publication/329334784_Automatic_dataset_generation_for_object_pose_estimation
@@ -2632,10 +2566,8 @@
     RGB Image
   booktitle: Asian Conference on Computer Vision
   authors:
-  - family: Yoshiyasu
-    given: Yusuke
-  - family: Sagawa
-    given: Ryusuke
+  - id: yoshiyasu
+  - id: sagawa
   - id: ayusawa
   - family: Murai
     given: Akihiko
@@ -2672,8 +2604,7 @@
     proportional contact force estimation
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Wong
-    given: Christopher
+  - id: wong
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Wong_2018_Humanoids.pdf
@@ -2687,8 +2618,7 @@
     given: Soya
   - id: ayusawa
   - id: yoshida
-  - family: Venture
-    given: Gentiane
+  - id: venture
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Shimizu_2018_Humanoids.pdf
   lab: jrl
 - id: masuda:humanoids:2018
@@ -2724,8 +2654,7 @@
     given: Yosuke
   - family: Murai
     given: Akihiko
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - id: yoshida
   - family: Oota
     given: Satoshi
@@ -2784,8 +2713,7 @@
   booktitle: IEEE International Conference on Simulation, Modeling, and Programming
     for Autonomous Robots
   authors:
-  - family: Samy
-    given: Vincent
+  - id: samy
   - family: Bouyarmane
     given: Karim
   - id: kheddar
@@ -2815,8 +2743,7 @@
   authors:
   - family: Wang
     given: Yuquan
-  - family: Tanguy
-    given: Arnaud
+  - id: tanguy
   - id: gergondet
   - id: kheddar
   pdf: https://arxiv.org/pdf/2001.08454.pdf
@@ -2837,8 +2764,7 @@
   title: Closed-Loop MPC with Dense Visual SLAM - Stability through Reactive Stepping
   booktitle: IEEE International Conference on Robotics and Automation
   authors:
-  - family: Tanguy
-    given: Arnaud
+  - id: tanguy
   - family: De Simone
     given: Daniele
   - family: Comport
@@ -2867,8 +2793,7 @@
     direct measurement
   booktitle: IEEE International Conference on Robotics and Automation
   authors:
-  - family: Benallegue
-    given: Mehdi
+  - id: benallegueb
   - id: gergondet
   - id: audren
   - family: Mifsud
@@ -2878,8 +2803,7 @@
     given: Florent
   - family: Kheddar
     given: Abderahmane
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   lab: jrl
 - id: su:humanoids:2018
   year: 2018
@@ -2898,8 +2822,7 @@
   booktitle: IEEE International Conference on Simulation, Modeling, and Programming
     for Autonomous Robots
   authors:
-  - family: Tanguy
-    given: Arnaud
+  - id: tanguy
   - id: kheddar
   - family: Comport
     given: Andrew
@@ -2942,8 +2865,7 @@
     given: Nagamatsu
   - family: Furukawa
     given: Ryo
-  - family: Sagawa
-    given: Ryusuke
+  - id: sagawa
   - family: Kawasaki
     given: Hiroshi
   pdf: http://www.cvg.ait.kyushu-u.ac.jp/papers/2018/37-paper.pdf
@@ -2954,8 +2876,7 @@
     with Wire-Driven Assist
   booktitle: IEEE International Conference on Advanced Robotics and its Social Impacts
   authors:
-  - family: Imamura
-    given: Yumeko
+  - id: imamura
   - family: Murakami
     given: Kenta
   - family: Hanzawa
@@ -2972,13 +2893,10 @@
   title: Fusion of Multiple Motion Capture Systems for Musculoskeletal Analysis
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - family: Samy
-    given: Vincent
+  - id: samy
   - id: ayusawa
-  - family: Yoshiyasu
-    given: Yusuke
-  - family: Sagawa
-    given: Ryusuke
+  - id: yoshiyasu
+  - id: sagawa
   - id: yoshida
   pdf: https://hal.archives-ouvertes.fr/hal-02433191/document
   lab: jrl
@@ -2988,8 +2906,7 @@
     Robot
   booktitle: IEEE International Conference on Advanced Robotics and its Social Impacts
   authors:
-  - family: Ito
-    given: Takahiro
+  - id: ito
   - id: ayusawa
   - id: yoshida
   - id: kheddar
@@ -3012,10 +2929,8 @@
   title: Simulation–based Design of Transfer Support Robot and Experimental Verification
   booktitle: IEEE International Conference on soft Robotics
   authors:
-  - family: Imamura
-    given: Yumeko
-  - family: Endo
-    given: Yui
+  - id: imamura
+  - id: endoy
   - id: yoshida
   lab: jrl
 - id: samy:arso:2019
@@ -3024,11 +2939,9 @@
     Image
   booktitle: IEEE International Conference on Advanced Robotics and its Social Impacts
   authors:
-  - family: Samy
-    given: Vincent
+  - id: samy
   - id: ayusawa
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - family: Sagaw
     given: Ryusuke
   - id: yoshida
@@ -3054,8 +2967,7 @@
     Humanoid robots
   booktitle: International Conference on Artificial Life and Robotics
   authors:
-  - family: Tsuru
-    given: Masato
+  - id: tsuru
   - id: gergondet
   - family: Motoda
     given: Tomohiro
@@ -3075,17 +2987,13 @@
   authors:
   - family: Catalano
     given: Manuel
-  - family: Frizza
-    given: Irene
-  - family: Morandi
-    given: Cecilia
+  - id: frizza
+  - id: morandi
   - family: Grioli
     given: Giorgio
   - id: ayusawa
-  - family: Ito
-    given: Takahiro
-  - family: Venture
-    given: Gentiane
+  - id: ito
+  - id: venture
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9028201
   lab: jrl
 - id: ito:icra:2020
@@ -3094,8 +3002,7 @@
     Interacting Wearable Assistive Device
   booktitle: IEEE International Conference on Robotics and Automation
   authors:
-  - family: Ito
-    given: Takahiro
+  - id: ito
   - id: ayusawa
   - id: yoshida
   - family: Kobayashi
@@ -3109,8 +3016,7 @@
   authors:
   - id: yoshida
   - id: ayusawa
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - id: escande
   - id: kheddar
   pdf: https://www.springer.com/gp/book/9783030286187
@@ -3122,25 +3028,20 @@
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   authors:
   - id: morisawa
-  - family: Benallegue
-    given: Mehdi
+  - id: benallegueb
   - family: Cisneros-Limon
     given: Rafael
-  - family: Kumagai
-    given: Iori
+  - id: kumagai
   - id: escande
-  - family: Kaneko
-    given: Kenji
-  - family: Kanehiro
-    given: Fumio
+  - id: kaneko
+  - id: kanehiro
   lab: jrl
 - id: qin:sii:2019
   year: 2020
   title: Cable Installation by a Humanoid Integrating Dual-Arm Manipulation and Walking
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - family: Qin
-    given: Yili
+  - id: qin
   - id: escande
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Qin-SII2019.pdf
@@ -3151,8 +3052,7 @@
     Forces
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - family: Samy
-    given: Vincent
+  - id: samy
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Samy-SII2019.pdf
@@ -3162,32 +3062,22 @@
   title: Instance-specific 6-DoF Object Pose Estimation from Minimal Annotations
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - family: Singh
-    given: Rohan
-  - family: Kumagai
-    given: Iori
-  - family: Gabas
-    given: Antonio
-  - family: Benallegue
-    given: Mehdi
-  - family: Yoshiyasu
-    given: Yusuke
-  - family: Kanehiro
-    given: Fumio
+  - id: singh
+  - id: kumagai
+  - id: gabas
+  - id: benallegueb
+  - id: yoshiyasu
+  - id: kanehiro
   lab: jrl
 - id: sun:sii:2020
   year: 2020
   title: Multi-purpose SLAM framework for Dynamic Environment
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - family: Sun
-    given: Leyuan
-  - family: Kanehiro
-    given: Fumio
-  - family: Kumagai
-    given: Iori
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: sun
+  - id: kanehiro
+  - id: kumagai
+  - id: yoshiyasu
   lab: jrl
 - id: yoshida:abb:2006
   year: 2006
@@ -3210,8 +3100,7 @@
   title: Quotient-Space Motion Planning
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   authors:
-  - family: Orthey
-    given: Andreas
+  - id: orthey
   - id: escande
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Orthey-IROS2018.pdf
@@ -3223,10 +3112,8 @@
   authors:
   - family: Suzui
     given: Kota
-  - family: Yoshiyasu
-    given: Yusuke
-  - family: Gabas
-    given: Antonio
+  - id: yoshiyasu
+  - id: gabas
   - family: Kanhiro
     given: Fumio
   - id: yoshida
@@ -3240,13 +3127,11 @@
   authors:
   - family: Cisneros
     given: Rafael
-  - family: Benallegue
-    given: Mehdi
+  - id: benallegueb
   - family: Kikuuwe
     given: Ryo
   - id: morisawa
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   lab: jrl
 - id: cisneros:ar:2020
   year: 2020
@@ -3257,11 +3142,9 @@
   - family: Cisneros-Limon
     given: Rafael
   - id: morisawa
-  - family: Benallegue
-    given: Mehdi
+  - id: benallegueb
   - id: escande
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   lab: jrl
 - id: murooka:ral:2020
   year: 2020
@@ -3289,8 +3172,7 @@
     given: Tianyi
   - family: Kazuya
     given: Murotani
-  - family: Kaminaga
-    given: Hiroshi
+  - id: kaminaga
   - family: Tatano
     given: Mamoru
   - family: Yamamoto
@@ -3343,32 +3225,26 @@
     Contact Graph With Local Contact Modification
   booktitle: IEEE Robotics and Automation Letters
   authors:
-  - family: Kumagai
-    given: Iori
+  - id: kumagai
   - id: morisawa
   - family: Hattori
     given: Shizuko
-  - family: Benallegue
-    given: Mehdi
-  - family: Kanehiro
-    given: Fumio
+  - id: benallegueb
+  - id: kanehiro
   lab: jrl
 - id: benallegue:ral:2020
   year: 2020
   title: Lyapunov-Stable Orientation Estimator for Humanoid Robots
   booktitle: IEEE Robotics and Automation Letters
   authors:
-  - family: Benallegue
-    given: Mehdi
+  - id: benallegueb
   - family: Cisneros
     given: Rafael
-  - family: Benallegue
-    given: Abdelaziz
+  - id: benalleguea
   - family: Chitour
     given: Yacine
   - id: morisawa
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   lab: jrl
 - id: hu:ral:2020
   year: 2020
@@ -3376,12 +3252,9 @@
     Physical Human-Robot Interaction'
   booktitle: IEEE Robotics and Automation Letters
   authors:
-  - family: Hu
-    given: Yue
-  - family: Benallegue
-    given: Mehdi
-  - family: Venture
-    given: Gentiane
+  - id: hu
+  - id: benallegueb
+  - id: venture
   - id: yoshida
   lab: jrl
 - id: druon:ral:2020
@@ -3391,8 +3264,7 @@
   authors:
   - family: Druon
     given: Raphael
-  - family: Yoshiyasu
-    given: Yusuke
+  - id: yoshiyasu
   - family: Kanezaki
     given: Asako
   - family: Watt
@@ -3404,8 +3276,7 @@
     Interacting Wearable Assistive Device
   booktitle: IEEE Robotics and Automation Letters
   authors:
-  - family: Ito
-    given: Takahiro
+  - id: ito
   - id: ayusawa
   - id: yoshida
   - family: Kobayashi
@@ -3448,8 +3319,7 @@
     given: Sarah
   - family: Morbidi
     given: Fabio
-  - family: Caron
-    given: Guillaume
+  - id: carong
   - family: Albrand
     given: Julien
   - family: Jeanne-Rose
@@ -3465,12 +3335,9 @@
   title: Benchmarking Cameras for OpenVSLAM Indoors
   booktitle: IAPR/IEEE International Conference on Pattern Recognition
   authors:
-  - family: Chappellet
-    given: Kevin
-  - family: Caron
-    given: Guillaume
-  - family: Kanehiro
-    given: Fumio
+  - id: Chappellet
+  - id: carong
+  - id: kanehiro
   - family: Sakurada
     given: Ken
   - id: kheddar
@@ -3485,24 +3352,19 @@
   - id: morisawa
   - family: Cisneros
     given: Rafael
-  - family: Benallegue
-    given: Mehdi
-  - family: Kumagai
-    given: Iori
+  - id: benallegueb
+  - id: kumagai
   - id: escande
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   lab: jrl
 - id: qin:iros:2020
   year: 2020
   title: Vision-based Belt Manipulation by Humanoid Robot
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   authors:
-  - family: Qin
-    given: Yili
+  - id: qin
   - id: escande
-  - family: Tanguy
-    given: Arnaud
+  - id: tanguy
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Qin_IROS2020.pdf
   lab: jrl
@@ -3512,10 +3374,8 @@
     and gyrometer
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Benallegue
-    given: Mehdi
-  - family: Benallegue
-    given: Abdelaziz
+  - id: benallegueb
+  - id: benalleguea
   - family: Chitour
     given: Yacine
   lab: jrl
@@ -3528,8 +3388,7 @@
     given: Jaouad
   - family: Caracotte
     given: Jordan
-  - family: Caron
-    given: Guillaume
+  - id: carong
   - family: Napoleon
     given: Thibault
   lab: jrl
@@ -3538,8 +3397,7 @@
   title: Physical edge detection in clothing items for robotic manipulation
   booktitle: International Conference on Advanced Robotics
   authors:
-  - family: Gabas
-    given: Antonio
+  - id: gabas
   - family: Kita
     given: Yasuyo
   lab: jrl
@@ -3548,14 +3406,10 @@
   title: 'APE: A More Practical Approach To 6-Dof Pose Estimation'
   booktitle: IEEE International Conference on Image Processing
   authors:
-  - family: Gabas
-    given: Antonio
-  - family: Yoshiyasu
-    given: Yusuke
-  - family: Singh
-    given: Rohan
-  - family: Sagawa
-    given: Ryusuke
+  - id: gabas
+  - id: yoshiyasu
+  - id: singh
+  - id: sagawa
   - id: yoshida
   lab: jrl
 - id: endo:ihsi:2018
@@ -3563,10 +3417,8 @@
   title: Karate e-learning system using real-time motion capture
   booktitle: International Conference on Intelligent Human Systems Integration
   authors:
-  - family: Endo
-    given: Seiko
-  - family: Endo
-    given: Yui
+  - id: endos
+  - id: endoy
   - id: yoshida
   lab: jrl
 - id: shimizu:rs:2020
@@ -3577,16 +3429,14 @@
   - family: Shimizu
     given: Soya
   - id: ayusawa
-  - family: Venture
-    given: Gentiane
+  - id: venture
   lab: jrl
 - id: yamanobe:jrnl:rsj:2019
   year: 2019
   title: ロボットによる心地の良い手渡しのための人動作の解析
   booktitle: Journal of the Robotics Society of Japan
   authors:
-  - family: Yamanobe
-    given: Natsuki
+  - id: yamanobe
   lab: jrl
 - id: matsumoto:jrnl:ieice:2017
   year: 2017
@@ -3608,8 +3458,7 @@
   - family: Suleiman
     given: Wael
   - id: ayusawa
-  - family: Kanehiro
-    given: Fumio
+  - id: kanehiro
   - id: yoshida
   lab: jrl
 - id: shimizu:romansy:2020
@@ -3621,8 +3470,7 @@
   - family: Shimizu
     given: Soya
   - id: ayusawa
-  - family: Venture
-    given: Gentiane
+  - id: venture
   lab: jrl
 - id: djeha:ral:2020
   year: 2020
@@ -3631,8 +3479,7 @@
   authors:
   - family: Djeha
     given: Mohamed
-  - family: Tanguy
-    given: Arnaud
+  - id: tanguy
   - id: kheddar
   lab: jrl
 - id: samadi:icra:2020
@@ -3644,8 +3491,7 @@
     given: Saeid
   - family: Caron
     given: Stéphane
-  - family: Tanguy
-    given: Arnaud
+  - id: tanguy
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-02297879/document
   lab: jrl
@@ -3666,10 +3512,8 @@
     and gyrometer
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Benallegue
-    given: Mehdi
-  - family: Benallegue
-    given: Abdelaziz
+  - id: benallegueb
+  - id: benalleguea
   - family: Chitour
     given: Yacine
   lab: jrl
@@ -3679,8 +3523,7 @@
     a reduce model
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Samy
-    given: Vincent
+  - id: samy
   - family: Caron
     given: Stéphane
   - id: kheddar
