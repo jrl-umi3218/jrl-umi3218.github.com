@@ -22,9 +22,13 @@ describe the data expected by the website for each data types.
 | webiste  | Link to the member's personal website      |  |
 | scholar  | Link to the member's google scholar prefix |  |
 | github   | Link to the member's github profile        |  |
-| bio | The member's bio (HTML) |  |
+| bio | The member's bio (see 1) |  |
+| rawbio | The member's bio (raw HTML) |  |
+| research | A list of reseach interests (HTML) |  |
 | selected_publications | A subset of publications-id |  |
 | videos | A list of video entries (see [Video entry](#video_entry)) |  |
+
+Note 1: Biography given through `bio` will start with a title `Bio` and `firstname` `lastname` (in bold). `rawbio` is included as is.
 
 ###### Optional asset
 

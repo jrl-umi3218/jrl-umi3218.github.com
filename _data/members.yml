@@ -7,8 +7,7 @@
   website: "http://www.lirmm.fr/lirmm_eng/users/utilisateurs-lirmm/equipes/idh/abderrahmane-kheddar"
   scholar: "https://scholar.google.com/citations?user=yd4xmlcAAAAJ"
   bio: >
-    <h3>Bio</h3>
-    <p><b>Abderrahmane Kheddar&nbsp;</b>received the BSCS degree from the <a href="http://www.esi.dz/" target="_self">Institut National d’Informatique</a> (INI), Algiers, the MSc and PhD degrees in robotics, both from the <a href="http://www.upmc.fr/en/index.html" target="_self">University of Pierre and Marie Curie</a>, Paris 6. He is presently Directeur de Recherche at <a href="http://www.cnrs.fr/" target="_self">CNRS</a>. He is the Director of the <a href="https://unit.aist.go.jp/is/jrl/ci/" target="_self">CNRS-AIST Joint Robotic Laboratory</a> (JRL), UMI3218/CRT, Tsukuba, Japan; and team leader of the <a href="http://www.lirmm.fr/lirmm_eng/research/teams/idh" target="_self">Interactive Digital Humans</a> (IDH) team at CNRS-UM&nbsp;<a href="http://www.lirmm.fr/lirmm_eng/" target="_self">LIRMM</a> at Montpellier, France. Prior to this, he was (1999-2003) assistant professor and (2004-2008) full professor at the <a href="http://www.univ-evry.fr/en/index.html" target="_self">University of Evry</a> where he created and headed the virtual reality and haptics group. His current research interests include humanoid robotics, haptics, and thought-based control using brain machine interfaces en physical re-embodiment. He is a founding member of the <a href="http://www.worldhaptics.org/" target="_self">IEEE/RAS chapter on haptics</a> (acting also as a senior advisor), the co-chair and co-founding member of the <a href="https://www.ieee-ras.org/model-based-optimization-for-robotics" target="_self">IEEE/RAS Technical committee on model-based optimization</a>. He is presently Editor of the IEEE Transactions on Robotics and the Journal of Intelligent and Robotic Systems, and Frontiers in Bionics; he is a founding member of the IEEE Transactions on Haptics and served in its editorial board during three years (2007-2010) and served as AE also the&nbsp;MIT Press PRESENCE journal (2013-2014). He also coordinated or acted as a PI for several EU projects and <a href="https://www.jsps.go.jp/english/" target="_self">JSPS</a> Kakenhi projects.</p>
+    received the BSCS degree from the <a href="http://www.esi.dz/" target="_self">Institut National d’Informatique</a> (INI), Algiers, the MSc and PhD degrees in robotics, both from the <a href="http://www.upmc.fr/en/index.html" target="_self">University of Pierre and Marie Curie</a>, Paris 6. He is presently Directeur de Recherche at <a href="http://www.cnrs.fr/" target="_self">CNRS</a>. He is the Director of the <a href="https://unit.aist.go.jp/is/jrl/ci/" target="_self">CNRS-AIST Joint Robotic Laboratory</a> (JRL), UMI3218/CRT, Tsukuba, Japan; and team leader of the <a href="http://www.lirmm.fr/lirmm_eng/research/teams/idh" target="_self">Interactive Digital Humans</a> (IDH) team at CNRS-UM&nbsp;<a href="http://www.lirmm.fr/lirmm_eng/" target="_self">LIRMM</a> at Montpellier, France. Prior to this, he was (1999-2003) assistant professor and (2004-2008) full professor at the <a href="http://www.univ-evry.fr/en/index.html" target="_self">University of Evry</a> where he created and headed the virtual reality and haptics group. His current research interests include humanoid robotics, haptics, and thought-based control using brain machine interfaces en physical re-embodiment. He is a founding member of the <a href="http://www.worldhaptics.org/" target="_self">IEEE/RAS chapter on haptics</a> (acting also as a senior advisor), the co-chair and co-founding member of the <a href="https://www.ieee-ras.org/model-based-optimization-for-robotics" target="_self">IEEE/RAS Technical committee on model-based optimization</a>. He is presently Editor of the IEEE Transactions on Robotics and the Journal of Intelligent and Robotic Systems, and Frontiers in Bionics; he is a founding member of the IEEE Transactions on Haptics and served in its editorial board during three years (2007-2010) and served as AE also the&nbsp;MIT Press PRESENCE journal (2013-2014). He also coordinated or acted as a PI for several EU projects and <a href="https://www.jsps.go.jp/english/" target="_self">JSPS</a> Kakenhi projects.
 #  selected_publications: ["samy:humanoids:2015"]
 - id: yoshida
   given: Eiichi
@@ -17,8 +16,7 @@
   nationality: jp
   linkedin: "https://www.linkedin.com/in/eiichi-yoshida-615107"
   bio: >
-    <h3>Bio</h3>
-    <p><b>Eiichi Yoshida&nbsp;</b> received M.E and Ph.D degrees on Precision Machinery Engineering from Graduate School of Engineering, the University of Tokyo in 1993 and 1996 respectively. In 1996 he joined former Mechanical Engineering Laboratory, later reorganized as National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan. He served as Co-Director of AIST/IS-CNRS/ST2I Joint French-Japanese Robotics Laboratory (JRL) at LAAS-CNRS, Toulouse, France, from 2004 to 2008. Since 2009, he is Co-Director of CNRS-AIST JRL (Joint Robotics Laboratory), UMI3218/RL, and since 2015 he serves as Deputy-Director of Intelligent Systems Research Institute (IS-AIST), AIST, Tsukuba, Japan. His research interests include robot task and motion planning, human modeling, and humanoid robots.</p>
+    received M.E and Ph.D degrees on Precision Machinery Engineering from Graduate School of Engineering, the University of Tokyo in 1993 and 1996 respectively. In 1996 he joined former Mechanical Engineering Laboratory, later reorganized as National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan. He served as Co-Director of AIST/IS-CNRS/ST2I Joint French-Japanese Robotics Laboratory (JRL) at LAAS-CNRS, Toulouse, France, from 2004 to 2008. Since 2009, he is Co-Director of CNRS-AIST JRL (Joint Robotics Laboratory), UMI3218/RL, and since 2015 he serves as Deputy-Director of Intelligent Systems Research Institute (IS-AIST), AIST, Tsukuba, Japan. His research interests include robot task and motion planning, human modeling, and humanoid robots.
 - id: escande
   given: Adrien
   family: Escande
@@ -28,8 +26,7 @@
   website: "https://sites.google.com/site/adrienescandehomepage/"
   linkedin: "https://www.linkedin.com/in/adrien-escande-663399113"
   bio: >
-    <h3>Bio</h3>
-    <p><b>Adrien  Escande</b> received the MSc degree from ́École des Mines de Paris, France (2005) and the PhD  degree in robotics from Université d'Évry Val-d’Essonne (2008), France after spending three years in the CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/CRT, Tsukuba, Japan. He then worked as a research scientist in  CEA-LIST at  Fontenay-aux-Roses, France (2009-2012), before coming back to JRL (2012). He is now permanent research at AIST, co-chair of the <a href="https://www.ieee-ras.org/model-based-optimization-for-robotics" target="_self">IEEE/RAS Technical committee on model-based optimization</a>, and AE for RAL. His current research interests include whole-body planning and control for humanoid robots and numerical optimization for robotics.</p>
+    received the MSc degree from ́École des Mines de Paris, France (2005) and the PhD  degree in robotics from Université d'Évry Val-d’Essonne (2008), France after spending three years in the CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/CRT, Tsukuba, Japan. He then worked as a research scientist in  CEA-LIST at  Fontenay-aux-Roses, France (2009-2012), before coming back to JRL (2012). He is now permanent research at AIST, co-chair of the <a href="https://www.ieee-ras.org/model-based-optimization-for-robotics" target="_self">IEEE/RAS Technical committee on model-based optimization</a>, and AE for RAL. His current research interests include whole-body planning and control for humanoid robots and numerical optimization for robotics.
 - id: ganesh
   given: Gowrishankar
   family: Ganesh
@@ -37,9 +34,8 @@
   nationality: in
   website: "https://staff.aist.go.jp/g.ganesh/"
   bio: >
-    <h3>Bio</h3>
-    <p><b>Ganesh Gowrishankar&nbsp;</b> received his Bachelor of Engineering (first-class, Hons.) degree from the Delhi College of Engineering, India, in 2002 and his Master of Engineering from the National University of Singapore, in 2005, both in Mechanical Engineering. He received his Ph.D. in Bioengineering from Imperial College London, U.K., in 2010. He worked as a Researcher in Human Motor Control in the Lab of Dr. Mitsuo Kawato at the Advanced Telecommunication Research (ATR), Kyoto, Japan, from 2004 and through his PhD. Following his PhD, he worked at the National Institute of Information and Communications Technology (NICT) as a Specialist Researcher in Motor Neuroscience and Robotics till December 2013. Since January 2014, he has joined as a CR1 Researcher at the Centre National de la Recherché Scientifique (CNRS). He is a visiting researcher at the <a href="https://cinet.jp/english/" target="_self">Centre for Information and Neural Networks (CINET)</a> in Osaka, <a href="http://www.atr.jp/index_e.html" target="_self">ATR</a> in Kyoto and the <a href="http://www.lirmm.fr/lirmm_eng/research/teams/idh" target="_self">Interactive Digital Humans</a> (IDH) team at the Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier (LIRMM) in Montpellier. His research interests include human sensori-motor control and learning, robot control, social neuroscience and robot-human interactions.</p>
-    <h3>Research interests</h3>
+    received his Bachelor of Engineering (first-class, Hons.) degree from the Delhi College of Engineering, India, in 2002 and his Master of Engineering from the National University of Singapore, in 2005, both in Mechanical Engineering. He received his Ph.D. in Bioengineering from Imperial College London, U.K., in 2010. He worked as a Researcher in Human Motor Control in the Lab of Dr. Mitsuo Kawato at the Advanced Telecommunication Research (ATR), Kyoto, Japan, from 2004 and through his PhD. Following his PhD, he worked at the National Institute of Information and Communications Technology (NICT) as a Specialist Researcher in Motor Neuroscience and Robotics till December 2013. Since January 2014, he has joined as a CR1 Researcher at the Centre National de la Recherché Scientifique (CNRS). He is a visiting researcher at the <a href="https://cinet.jp/english/" target="_self">Centre for Information and Neural Networks (CINET)</a> in Osaka, <a href="http://www.atr.jp/index_e.html" target="_self">ATR</a> in Kyoto and the <a href="http://www.lirmm.fr/lirmm_eng/research/teams/idh" target="_self">Interactive Digital Humans</a> (IDH) team at the Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier (LIRMM) in Montpellier. His research interests include human sensori-motor control and learning, robot control, social neuroscience and robot-human interactions.
+  research: >
     <p>How should rehabilitation, biomedical and social robots behave such that an interacting human is comfortable with them, feels safe with them and is willing to coexist and learn from them? The answer to this questions is not trivial because human interactions, both with their environment and other humans, have complex dynamics that change not only with an interacting individual’s physiology, age and pathology, but also emotional factors like fear and anxiety, and cognitive factors like the Theory of Mind. The reason we can intuitively interact with a fellow human is because we understand his/her behaviour in all these aspects and respond accordingly, and correspondingly he/she does the same. My research aims to endow machines and robots with similar capabilities to understand humans through the development of _Human Centric Robotics_**. You can read more <a href="https://staff.aist.go.jp/g.ganesh/index_files/Page1890.html" target="_self">here</a>.<p> and see the full list of publications <a href="https://staff.aist.go.jp/g.ganesh/index_files/Page1711.html" target="_self">here</a>.<p> 
 - id: ayusawa
   given: Ko
@@ -48,8 +44,7 @@
   nationality: jp
   website: "http://dblp.uni-trier.de/pers/hd/a/Ayusawa:Ko"
   bio: >
-    <h3>Bio</h3>
-    <p><b>Ko Ayusawa&nbsp;</b> received the B.S. degree in mechanical engineering, and the M.S. and Ph.D. degrees in mechano-informatics from the University of Tokyo, Japan, in 2006, 2008, and 2011, respectively. He worked with the Department of Mechano-Informatics at the University of Tokyo, as a postdoctoral researcher from 2011 to 2012, and as a project assistant processor in 2013. He is currently a researcher of Intelligent Systems Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan, and a researcher of CNRS-AIST JRL (Joint Robotics Laboratory), UMI3218/RL. His research interests include identification of human/humanoid dynamics, motion control for humanoid robots, and kinematics and dynamics simulation for human musculoskeletal models. </p>
+    received the B.S. degree in mechanical engineering, and the M.S. and Ph.D. degrees in mechano-informatics from the University of Tokyo, Japan, in 2006, 2008, and 2011, respectively. He worked with the Department of Mechano-Informatics at the University of Tokyo, as a postdoctoral researcher from 2011 to 2012, and as a project assistant processor in 2013. He is currently a researcher of Intelligent Systems Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan, and a researcher of CNRS-AIST JRL (Joint Robotics Laboratory), UMI3218/RL. His research interests include identification of human/humanoid dynamics, motion control for humanoid robots, and kinematics and dynamics simulation for human musculoskeletal models.
 - id: morisawa
   given: Mitsuharu
   family: Morisawa
@@ -57,6 +52,8 @@
   nationality: jp
   linkedin: "https://www.linkedin.com/in/mitsuharu-morisawa-99475249"
   website: "http://dblp.uni-trier.de/pers/hd/m/Morisawa:Mitsuharu"
+  bio: >
+    received the Ph.D. degree in engineering from Keio University, Japan, in 2004. Researcher of the Intelligent Systems Research Institute, AIST from 2004. He was visiting researcher at the LAAS-CNRS, France from 2009 to 2010, and invited researcher at INRIA rhone-alples, France in 2011. Since 2020, he is deputy director of  the Cooperative Research Laboratory at the CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST. His research interests include whole body and multi-contact locomotion and its stabilization control of humanoid robots.
 - id: demagistris
   given: Giovanni
   family: "De Magistris"
@@ -65,15 +62,14 @@
   linkedin: "https://www.linkedin.com/in/giovanni-de-magistris-06a01772"
   scholar: "https://scholar.google.com/citations?user=KA6mj_0AAAAJ"
   bio: >
-    <h3>Bio</h3>
-    <p><b>Giovanni De Magistris</b> received the M.S. degree in mechatronics engineer from Politecnico di Torino, Italy, and from École Nationale Supérieure de Mécanique et des Microtechniques, Besançon, France. He received the Ph.D. degree in Robotics and Mechanics in 2013 from the Université Pierre et Marie Curie, Paris, France. He worked at the Systems and Technologies Integration Laboratory, French Atomic Energy Commission from 2010 to 2013. He is currently PostDoc Researcher at CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/RL, Tsukuba, Japan.</p>
-    <h3>Research interests</h3>
+    received the M.S. degree in mechatronics engineer from Politecnico di Torino, Italy, and from École Nationale Supérieure de Mécanique et des Microtechniques, Besançon, France. He received the Ph.D. degree in Robotics and Mechanics in 2013 from the Université Pierre et Marie Curie, Paris, France. He worked at the Systems and Technologies Integration Laboratory, French Atomic Energy Commission from 2010 to 2013. He is currently PostDoc Researcher at CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/RL, Tsukuba, Japan.
+  research: >
     <ul>
       <li>Shape optimization and mechanical/mechatronics design of robotics mechanisms</li>
       <li>Whole-body control for virtual humans and humanoid robots</li>
       <li>Digital Human Model for ergonomics assessment</li>	  
       <li>Human learning</li>
-    </ul>	
+    </ul>
   videos:
     - title: "Humanoid walking with compliant soles using a deformation estimator"
       url: "https://youtu.be/YGhJDXUlApM"
@@ -87,9 +83,8 @@
   scholar: "https://scholar.google.com/citations?user=PaxwF6sAAAAJ"
   github: "https://github.com/gergondet"
   bio: >
-    <h3>Bio</h3>
-    <p><b>Pierre Gergondet</b> graduated from Ecole Centrale de Paris with a master in embedded systems. He obtained a Ph.D. degree from the University of Montpellier and conducted his
-    thesis in CNRS-AIST JRL, UMI3218/CRT, Tsukuba, Japan where is is now a research associate working on embedded software for humanoids. His research interest includes humanoid robotics and the usage of brain-computer interfaces to control a humanoid robot.</p>
+    graduated from Ecole Centrale de Paris with a master in embedded systems. He obtained a Ph.D. degree from the University of Montpellier and conducted his
+    thesis in CNRS-AIST JRL, UMI3218/CRT, Tsukuba, Japan where is is now a research associate working on embedded software for humanoids. His research interest includes humanoid robotics and the usage of brain-computer interfaces to control a humanoid robot.
   videos:
     - title: "Multitask Humanoid Control with a Brain-Computer Interface: user experiment with HRP-2"
       url: "https://www.youtube.com/watch?v=6bynYqmVVck"
@@ -101,8 +96,8 @@
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/florian-reboul-salze-1909083"
   bio: >
-    <h3>Bio</h3>
-    <p><b>Florian Reboul-Salze</b> graduated in Fluid Dynamics from Ecole Polytechnique and in Space Telecommunications from Institut National Superieur de l'Aeronautique et de l'Espace. He then worked in the Space field for 8 years for Alcatel Alenia Space and Airbus Defense &amp; Space. Since 2011 he has been working in Nuclear Safety Systems at Rolls-Royce, designing a new instrumentation system. </p>
+    graduated in Fluid Dynamics from Ecole Polytechnique and in Space Telecommunications from Institut National Superieur de l'Aeronautique et de l'Espace. He then worked in the Space field for 8 years for Alcatel Alenia Space and Airbus Defense &amp; Space. Since 2011 he has been working in Nuclear Safety Systems at Rolls-Royce, designing a new instrumentation system.
+  research: >
     <h3>Research interests</h3>
     <p> Multi-sensors (like PDR) signal processing together with filters plugins integration into Choreonoid simulation software in C++.</p> 
 - id: brossette
@@ -114,12 +109,12 @@
   website: "https://sites.google.com/site/stanislasbrossette/"
   linkedin: "https://www.linkedin.com/in/brossette"
   github: "https://github.com/stanislas-brossette"
-  bio: >
-    <h3>Bio</h3>
-    <ul>
-      <li>Masters Degree in Computational Mechanics from Ecole Normale Superieure of Cachan</li>
-    </ul>
-    <h3>Research interests</h3>
+  #bio: >
+  #  <h3>Bio</h3>
+  #  <ul>
+  #    <li>Masters Degree in Computational Mechanics from Ecole Normale Superieure of Cachan</li>
+  #  </ul>
+  research: >
     <ul>
       <li>Full-body posture generation (generalized inverse kinematics)</li>
       <li>Development of a dedicated nonlinear optimization solver specialized for robotics problems</li>
@@ -141,11 +136,11 @@
   scholar: "http://scholar.google.com/citations?user=RuokHdYAAAAJ"
   github: "https://github.com/bchretien"
   bio: >
-    <h3>Bio</h3>
-    <ul>
-      <li>Masters Degree in Aerospace Engineering from ISAE SUPAERO, Toulouse</li>
-    </ul>
-    <h3>Research interests</h3>
+#    <h3>Bio</h3>
+#    <ul>
+#      <li>Masters Degree in Aerospace Engineering from ISAE SUPAERO, Toulouse</li>
+#    </ul>
+  research: >
     <ul>
       <li>Motion planning</li>
       <li>High-performance computing, GPGPU</li>
@@ -161,11 +156,9 @@
   github: "https://github.com/haudren"
   linkedin: "https://www.linkedin.com/in/haudren"
   bio: >
-    <h3>Bio</h3>
-    I got my master's degree in Science and Executive Engineering in 2013 from Mines ParisTech, France. I subsequently
-    started my Ph.D. in JRL. My research interests include multi-contact stability and motion, optimization and safe
-    human-robot interaction. I am mostly developing in C++ and Python, and contributing to a full-stack control solution
-    from planning to real-time control. Outside of work, I like to go biking or rock climbing.
+    got his master's degree in Science and Executive Engineering in 2013 from Mines ParisTech, France. He subsequently
+    started his Ph.D. in JRL. His research interests include multi-contact stability and motion, optimization and safe
+    human-robot interaction. He is mostly developing in C++ and Python, and contributing to a full-stack control solution from planning to real-time control. Outside of work, he likes to go biking or rock climbing.
 - id: galdeano
   given: David
   family: Galdeano
@@ -183,14 +176,14 @@
   website: "http://hoa.pm/"
   linkedin: "https://www.linkedin.com/in/tuhoapham"
   github: "https://github.com/ph4m"
-  bio: >
+  rawbio: >
     <h3>Bio</h3>
     <ul>
       <li>M.Sc. Aerospace Engineering, SUPAERO, 2013</li>
       <li>M.Sc. Applied Mathematics, University of Toulouse, 2013</li>
       <li>Ph.D. Robotics, University of Montpellier, 2016</li>
     </ul>
-    <h3>Research interests</h3>
+  research:
     <ul>
       <li>Unobtrusive monitoring of human interactions with the environment</li>
       <li>Physics-based optimization and learning for contact force sensing from vision</li>
@@ -292,26 +285,36 @@
   family: Benallegue
   role: permanent
   nationality: fr
+  bio: >
+    received the ingénieur degree from the Institut National d’Informatique (INI), Algeria, in 2007, the M.Sc. degree from the University of Paris 7, Paris, France, in 2008 and the Ph.D. degree from Université de Montpellier 2, France, in 2011. He has been a postdoctoral researcher in a neurophysiology laboratory in Collège de France and in LAAS CNRS. He is currently a Research Associate with the CNRS-AIST Joint Robotics Laboratory in National Institute of Advanced Industrial Science and Technology, Japan. His research interests include estimation and control of humanoid robots, biomechanics, neuroscience and computational geometry.
 - id: cisneros
   given: Rafael
   family: Cisneros-Limón
   role: permanent
   nationality: mx
+  bio: >
+    received the B.Eng. degree from the University of the Americas - Puebla (UDLA-P), Mexico in 2006, the M.Sc. degree from the Center of Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN), Mexico in 2009, and the Ph.D. degree from the University of Tsukuba, Japan in 2015. Since then, he has been working at the National Institute of Advanced Industrial Science and Technology (AIST), Japan, from 2015 to 2018 as a post-doc and from 2018 until now as a researcher. He is currently a member of CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST. His research interests include torque control, whole-body multi-contact motion control of humanoid robots, multi-body collision dynamics, teleoperation, and tactile feedback.
 - id: kaneko
   given: Kenji
   family: Kaneko
   role: permanent
   nationality: jp
+  bio: >
+    received the B.E., M.E., and Ph.D. in electrical engineering from Keio University in 1988, 1990, and 1997, respectively. In 1990, he joined the Mechanical Engineering Laboratory, Agency of Industrial Science and Technology, Ministry of Industrial Science and Technology (AIST-MITI). From September 1995, he was a visiting researcher at the Carnegie Mellon University, U.S.A. for half a year. From October 1999, he was also a visiting researcher at the Paris Robotics Laboratory(LRP), CNRS, France for one year. He is currently the chief senior researcher of the Intelligent Systems Research Institute, AIST. His research interests include motion control and humanoid robot. He received the best video award of the IEEE International Conference on Robotics and Automation in 2004, the best paper award (oral category) of the IEEE-RAS International Conference on Humanoid Robots in 2009, and others.
 - id: kaminaga
   given: Hiroshi
   family: Kaminaga
   role: permanent
   nationality: jp
+  bio: >
+    received M.E. from Kyoto University in Mechanical Engineering in 1999. He joined Hewlett-Packard Japan Co. Ltd. in 1999 and ZMP Inc. in 2002. In 2009, he received Ph.D. in Information Science and Technology from The University of Tokyo. JSPS Research Fellow from 2008. Assistant Professor at The University of Tokyo from 2009. Visiting Researcher in DLR (German Aerospace Center) in 2012. He joined Intelligent Systems Research Institute in National Institute of Advanced Industrial Science and Technology (AIST) in 2017 as Senior Researcher. His research interest includes mechatronics system design and control of force sensitive actuators and its applications to humanoid robots.
 - id: kajita
   given: Shuuji
   family: Kajita
   role: permanent
   nationality: jp
+  bio: >
+    received the master's degree (1985) and the doctor of engineering degree (1996) from Tokyo Institute of Technology, Japan. In 1985, he joined the Mechanical Engineering Laboratory, Agency of Industrial Science and Technology, Ministry of International Trade and Industry (AIST-MITI). Meanwhile he was a visiting researcher at California Institute of Technology, 1996-1997. Currently he is a chief senior researcher at the National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan, which was reorganized from AIST-MITI in April 2001.His research interests include robotics and control theory. He is a member of Society of Instrument and Control Engineers, Robotics Society of Japan and IEEE (Robotics and Automation Society). Received the best paper award of the Society of Instrument and Control Engineers in 1996, and the best paper award of the Robotics Society of Japan in 2005.
 - id: murooka
   given: Masaki
   family: Murooka
@@ -321,17 +324,23 @@
   given: Iori
   family: Kumagai
   role: permanent
+  bio: >
+    received the Ph.D. degree in information science and technology from The University of Tokyo, Japan, in 2017. He joined Intelligent Systems Research Institute in National Institute of Advanced Industrial Science and Technology (AIST) in 2017 as a researcher. His research interest includes perception, locomotion planning and system integration for humanoid robots.
   nationality: jp
 - id: sakaguchi
   given: Takeshi
   family: Sakaguchi
   role: permanent
   nationality: jp
+  bio: >
+    received the BS, MS, and PhD degrees in Mechanical Engineering in 1987, 1989, and 1993, respectively, all from Osaka University, Osaka, Japan. In 1993, he joined the Mechanical Engineering Laboratory, MITI, Tsukuba, Japan. From 2001, he was a senior researcher of Intelligent Systems Research Institute (ISRI), the National Institute of Advanced Industrial Science and Technology (AIST). His current research interests are robotics including humanoids, ambient intelligence, and manipulation. He is a member of the Robotics Society of Japan (RSJ), the Japan Society of Mechanical Engineers (JSME), the Society of Instrument and Control Engineers (SICE, Japan) and IEEE.
 - id: kanehiro
   given: Fumio
-  family: kanehiro
-  role: co-director
+  family: Kanehiro
+  role: director
   nationality: jp
+  bio: >
+    received the BE, ME, and PhD in engineering from The University of Tokyo, Japan, in 1994, 1996, and 1999, respectively. He was a Research Fellow of the Japan Society for the Promotion of Science in 1998-1999. In 2000, he joined the Electrotechnical Laboratory, Agency of Industrial Science and Technology, Ministry of Industrial Science and Technology (AIST-MITI), later reorganized as National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan. From April 2007, he was a visiting researcher at the LAAS- CNRS for one year and three months. He is currently Director of CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST. His research interests include the software platform development and whole body motion planning of the humanoid robot.
 - id: endoy
   given: Yui
   family: Endo
@@ -342,6 +351,8 @@
   family: Nakaoka
   role: permanent
   nationality: jp
+  bio: >
+    received his Ph.D degree in computer science from the University of Tokyo, Japan, in 2006. Since 2006, he has been with the Intelligent Systems Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), where he is currently a Senior Researcher. From 2011 to 2012, he was a Visiting Researcher at the University of Edinburgh. His research interests include humanoid robots and robotics software systems. He received the Best Paper Award of the Robotics Society of Japan in 2008, and the Best Paper Award (Robotics) of the 2012 IEEE/SICE International Symposium on System Integration.
 - id: yamanobe
   given: Natsuki
   family: Yamanobe

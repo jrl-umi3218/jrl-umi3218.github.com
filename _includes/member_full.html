@@ -100,7 +100,19 @@
     </div>
 
     <div class="col-md-6 col-xs-6 col-middle">
-      {{member.bio}}
+      {% if member.bio %}
+      <h3>Bio</h3>
+      <p>
+      <b>{{member_full_name}}&nbsp;</b>{{member.bio}}
+      </p>
+      {% endif %}
+      {% if member.rawbio %}
+      {{member.rawbio}}
+      {% endif %}
+      {% if member.research %}
+      <h3>Research interests</h3>
+      {{member.research}}
+      {% endif %}
     </div>
 
   </div>
