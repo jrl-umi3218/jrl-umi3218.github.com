@@ -292,6 +292,8 @@
   family: Cisneros-Limón
   role: permanent
   nationality: mx
+  website: "https://researchmap.jp/rcisneros/?lang=english"
+  scholar: "https://scholar.google.com/citations?user=yErNnAUAAAAJ"
   bio: >
     received the B.Eng. degree from the University of the Americas - Puebla (UDLA-P), Mexico in 2006, the M.Sc. degree from the Center of Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN), Mexico in 2009, and the Ph.D. degree from the University of Tsukuba, Japan in 2015. Since then, he has been working at the National Institute of Advanced Industrial Science and Technology (AIST), Japan, from 2015 to 2018 as a post-doc and from 2018 until now as a researcher. He is currently a member of CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST. His research interests include torque control, whole-body multi-contact motion control of humanoid robots, multi-body collision dynamics, teleoperation, and tactile feedback.
 - id: kaneko
