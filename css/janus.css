@@ -13,3 +13,8 @@ h3 {
     font-weight: bold;
     font-family: Arial;
 }
+
+a.member {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
