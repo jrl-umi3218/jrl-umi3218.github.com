@@ -26,7 +26,7 @@
   website: "https://sites.google.com/site/adrienescandehomepage/"
   linkedin: "https://www.linkedin.com/in/adrien-escande-663399113"
   bio: >
-    received the MSc degree from ́École des Mines de Paris, France (2005) and the PhD  degree in robotics from Université d'Évry Val-d’Essonne (2008), France after spending three years in the CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/CRT, Tsukuba, Japan. He then worked as a research scientist in  CEA-LIST at  Fontenay-aux-Roses, France (2009-2012), before coming back to JRL (2012). He is now permanent research at AIST, co-chair of the <a href="https://www.ieee-ras.org/model-based-optimization-for-robotics" target="_self">IEEE/RAS Technical committee on model-based optimization</a>, and AE for RAL. His current research interests include whole-body planning and control for humanoid robots and numerical optimization for robotics.
+    received the MSc degree from École des Mines de Paris, France (2005) and the PhD  degree in robotics from Université d'Évry Val-d’Essonne (2008), France after spending three years in the CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/CRT, Tsukuba, Japan. He then worked as a research scientist in  CEA-LIST at  Fontenay-aux-Roses, France (2009-2012), before coming back to JRL (2012). He is now permanent researcher at AIST, co-chair of the <a href="https://www.ieee-ras.org/model-based-optimization-for-robotics" target="_self">IEEE/RAS Technical committee on model-based optimization</a>, and AE for RAL. His current research interests include whole-body planning and control for humanoid robots and numerical optimization for robotics.
 - id: ganesh
   given: Gowrishankar
   family: Ganesh
@@ -83,7 +83,7 @@
   scholar: "https://scholar.google.com/citations?user=PaxwF6sAAAAJ"
   github: "https://github.com/gergondet"
   bio: >
-    graduated from Ecole Centrale de Paris with a master in embedded systems. He obtained a Ph.D. degree from the University of Montpellier and conducted his
+    graduated from École Centrale de Paris with a master in embedded systems. He obtained a Ph.D. degree from the University of Montpellier and conducted his
     thesis in CNRS-AIST JRL, UMI3218/CRT, Tsukuba, Japan where is is now a research associate working on embedded software for humanoids. His research interest includes humanoid robotics and the usage of brain-computer interfaces to control a humanoid robot.
   videos:
     - title: "Multitask Humanoid Control with a Brain-Computer Interface: user experiment with HRP-2"
