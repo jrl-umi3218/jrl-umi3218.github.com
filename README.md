@@ -165,7 +165,7 @@ The page will display:
 ## Testing locally
 
 In order to test your modifications locally before pushing to GitHub, install
-`jekyll`, and run the following command at the root of the project folder:
+`jekyll` according to the instructions in `https://jekyllrb.com/docs/installation/`, and run the following command at the root of the project folder:
 
 ```sh
 $ jekyll server --safe --trace
