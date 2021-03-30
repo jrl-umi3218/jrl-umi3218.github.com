@@ -260,6 +260,11 @@
   family: Caron
   role: permanent
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/guillaume-caron-62b9b031"
+  website: "http://mis.u-picardie.fr/~g-caron"
+  scholar: "https://scholar.google.ca/citations?user=UhuEP40AAAAJ"
+  bio: >
+    is Associate Professor since 2011 at Universite de Picardie Jules Verne (UPJV), MIS laboratory, France, and a CNRS delegate at CNRS-AIST Joint Robotics Laboratory, Japan since 2019. From 2016 to 2020, he was heading the Robotic Perception group of the MIS laboratory (UPJV). He received the Ph.D. degree in robotics and the Habilitation degree from UPJV in 2010 and 2019, respectively. He was a postdoc fellow at Inria Rennes/IRISA, France (2010-2011) and a visiting research at the University of Osaka, Japan (Apr.-May 2013). His research interests include artificial vision for robotics, real-time visual 3D tracking and servoing and digital heritage. He is the Chair of the IAPR <a href="https://www.cvl.iis.u-tokyo.ac.jp/IAPR-TC19" target="_self">TC 19 on "Computer vision for cultural heritage applications"</a> since 2018. 
 - id: sagawa
   given: Ryusuke
   family: Sagawa
