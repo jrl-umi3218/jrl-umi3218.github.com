@@ -18,6 +18,8 @@ describe the data expected by the website for each data types.
 | family | Family name | ✔ |
 | role | One of: co-director/permanent/adjunct/postdoc/phd/master/alumni | ✔ |
 | nationality | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality | ✔ |
+| nationality2 | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality |  |
+| nationality3 | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality |  |
 | linkedin | Link to the member's linkedin profile      |  |
 | webiste  | Link to the member's personal website      |  |
 | scholar  | Link to the member's google scholar prefix |  |

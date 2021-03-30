@@ -18,7 +18,7 @@
   <div class="thumbnail" id="summary-{{include.member.id}}">
     {%- if member_has_page -%}<a href="{{member_page}}">{%- endif -%}<img class="img-responsive img-rounded" src="{{member_picture}}" alt="{{include.member.given}} {{include.member.family}} photo">{%- if member_has_page -%}</a>{%- endif -%}
     <div class="caption">
-      <h3>{%- if member_has_page -%}<a href="{{member_page}}">{%- endif -%}{{include.member.given}} {{include.member.family}}{%- if member_has_page -%}</a>{%- endif -%}&nbsp;<span class="flag-icon flag-icon-{{include.member.nationality}}"></span></h3>
+      <h3>{%- if member_has_page -%}<a href="{{member_page}}">{%- endif -%}{{include.member.given}} {{include.member.family}}{%- if member_has_page -%}</a>{%- endif -%}&nbsp;<span class="flag-icon flag-icon-{{include.member.nationality}}"></span>{%- if member.nationality2 -%}<span class="flag-icon flag-icon-{{include.member.nationality2}}"></span>{%- endif -%}{%- if member.nationality3 -%}<span class="flag-icon flag-icon-{{include.member.nationality3}}"></span>{%- endif -%}</h3>
       <ul class="list-inline">
         {%- assign has_no_details = true -%}
         {%- if include.member.website -%}
