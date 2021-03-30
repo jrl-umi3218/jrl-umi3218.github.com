@@ -349,6 +349,9 @@
   family: Kanehiro
   role: director
   nationality: jp
+  linkedin: "https://jp.linkedin.com/in/%E6%96%87%E7%94%B7-%E9%87%91%E5%BA%83-0a58a546/en-us?trk=public_profile_locale-url"
+  github: "https://github.com/fkanehiro"
+  scholar: "https://scholar.google.com/citations?user=VsmhlM8AAAAJ"
   bio: >
     received the BE, ME, and PhD in engineering from The University of Tokyo, Japan, in 1994, 1996, and 1999, respectively. He was a Research Fellow of the Japan Society for the Promotion of Science in 1998-1999. In 2000, he joined the Electrotechnical Laboratory, Agency of Industrial Science and Technology, Ministry of Industrial Science and Technology (AIST-MITI), later reorganized as National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan. From April 2007, he was a visiting researcher at the LAAS- CNRS for one year and three months. He is currently Director of CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST. His research interests include the software platform development and whole body motion planning of the humanoid robot.
 - id: endoy
