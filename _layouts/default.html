@@ -78,7 +78,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="/assets/cnrs-aist.png" alt="logos"/>{% if page.title %}{{page.title}}{% elsif layout.title %}{{layout.title}}{% else %}CNRS-AIST JRL{% endif %}</a>
+          <a class="navbar-brand" href="index.html"><img src="/assets/cnrs-aist.png" alt="logos"/>{%- if page.title -%}{{page.title}}{%- elsif layout.title -%}{{layout.title}}{%- else -%}CNRS-AIST JRL{%- endif -%}</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -89,14 +89,14 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                {% assign sorted_projects = site.data.projects | sort: 'id' %}
-                {% for project in sorted_projects %}
-                {% if project.active == true %}
+                {%- assign sorted_projects = site.data.projects | sort: 'id' -%}
+                {%- for project in sorted_projects -%}
+                {%- if project.active == true -%}
                 <li>
                 <a href="project-{{ project.id }}.html">{{project.title}}</a>
                 </li>
-                {% endif %}
-                {% endfor %}
+                {%- endif -%}
+                {%- endfor -%}
                 <li role=separator class=divider></li>
                 <li>
                   <a href="past-projects.html">Past projects</a>

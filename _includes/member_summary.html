@@ -1,40 +1,40 @@
-{% assign member_has_page = false %}
-{% capture member_page %}member-{{include.member.id}}.html{% endcapture %}
-{% for page in site.html_pages %}
-  {% if page.path == member_page %}
-    {% assign member_has_page = true %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-{% assign member_picture = '/assets/members/nopicture.png' %}
- {% capture search_picture %}/assets/members/{{include.member.id}}.jpg{% endcapture %}
-{% for file in site.static_files %}
-  {% if file.path == search_picture %}
-    {% assign member_picture = file.path %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{%- assign member_has_page = false -%}
+{%- capture member_page -%}member-{{include.member.id}}.html{%- endcapture -%}
+{%- for page in site.html_pages -%}
+  {%- if page.path == member_page -%}
+    {%- assign member_has_page = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign member_picture = '/assets/members/nopicture.png' -%}
+ {%- capture search_picture -%}/assets/members/{{include.member.id}}.jpg{%- endcapture -%}
+{%- for file in site.static_files -%}
+  {%- if file.path == search_picture -%}
+    {%- assign member_picture = file.path -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
 <div class="col-md-3 col-centered text-center">
   <div class="thumbnail" id="summary-{{include.member.id}}">
-    {% if member_has_page %}<a href="{{member_page}}">{% endif %}<img class="img-responsive img-rounded" src="{{member_picture}}" alt="{{include.member.given}} {{include.member.family}} photo">{% if member_has_page %}</a>{% endif %}
+    {%- if member_has_page -%}<a href="{{member_page}}">{%- endif -%}<img class="img-responsive img-rounded" src="{{member_picture}}" alt="{{include.member.given}} {{include.member.family}} photo">{%- if member_has_page -%}</a>{%- endif -%}
     <div class="caption">
-      <h3>{% if member_has_page %}<a href="{{member_page}}">{% endif %}{{include.member.given}} {{include.member.family}}{% if member_has_page %}</a>{% endif %}&nbsp;<span class="flag-icon flag-icon-{{include.member.nationality}}"></span></h3>
+      <h3>{%- if member_has_page -%}<a href="{{member_page}}">{%- endif -%}{{include.member.given}} {{include.member.family}}{%- if member_has_page -%}</a>{%- endif -%}&nbsp;<span class="flag-icon flag-icon-{{include.member.nationality}}"></span></h3>
       <ul class="list-inline">
-        {% if include.member.website %}
+        {%- if include.member.website -%}
         <li><a href="{{include.member.website}}" target="_blank"><i class="fa fa-2x fa-external-link-square"></i></a>
         </li>
-        {% endif %}
-        {% if include.member.linkedin %}
+        {%- endif -%}
+        {%- if include.member.linkedin -%}
         <li><a href="{{include.member.linkedin}}" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
         </li>
-        {% endif %}
-        {% if include.member.scholar %}
+        {%- endif -%}
+        {%- if include.member.scholar -%}
         <li><a href="{{include.member.scholar}}" target="_blank"><i class="fa fa-2x fa-google-plus-square"></i></a>
         </li>
-        {% endif %}
-        {% if include.member.github %}
+        {%- endif -%}
+        {%- if include.member.github -%}
         <li><a href="{{include.member.github}}" target="_blank"><i class="fa fa-2x fa-github-square"></i></a>
-        {% endif %}
+        {%- endif -%}
       </ul>
     </div>
   </div>

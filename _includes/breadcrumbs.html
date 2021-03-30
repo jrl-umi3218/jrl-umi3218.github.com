@@ -6,19 +6,19 @@
       <ol class="breadcrumb">
         <li><a href="index.html">Home</a>
         </li>
-        {% if include.crumbs %}
-        {% for cr in include.crumbs %}
+        {%- if include.crumbs -%}
+        {%- for cr in include.crumbs -%}
         <li>{{cr}}</li>
-        {% endfor %}
-        {% endif %}
-        {% if include.breadcrumbs %}
+        {%- endfor -%}
+        {%- endif -%}
+        {%- if include.breadcrumbs -%}
         <li class="active">{{include.breadcrumbs}}</li>
-        {% else %}
+        {%- else -%}
         <li class="active">{{include.title}}</li>
-        {% endif %}
+        {%- endif -%}
       </ol>
       <h1 class="page-header">{{include.title}}
-        {% if include.subtitle %}<small>{{include.subtitle}}</small>{% endif %}
+        {%- if include.subtitle -%}<small>{{include.subtitle}}</small>{%- endif -%}
       </h1>
     </div>
   </div>
