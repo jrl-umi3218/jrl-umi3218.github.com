@@ -187,6 +187,14 @@ Configuration file: /path/to/jrl-umi3218.github.com/_config.yml
 Then simply type the server address in your browser (`http://0.0.0.0:4000/`
 here).
 
+### With Docker
+
+1. Install Docker on your system
+2. Create the image, e.g. `docker build -t jekyll`
+3. Serve `docker run --rm -p 4000:4000 -v $(pwd):/site jekyll serve --trace -H 0.0.0.0`
+
+You can now browse the website in your browser at http://localhost:4000
+
 ## Jekyll theme
 
 We use the [startbootstrap-modern-business](https://github.com/BlackrockDigital/startbootstrap-modern-business).
