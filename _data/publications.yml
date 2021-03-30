@@ -1679,7 +1679,7 @@
   - family: Arioui
     given: Hichem
   - family: Espie
-    given: Stephane
+    given: Stéphane
   - id: kheddar
   pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.594.1341&rep=rep1&type=pdf
   lab: jrl
@@ -3593,6 +3593,19 @@
     given: Ganesh
   pdf: https://dl.acm.org/doi/pdf/10.1145/3173386.3177033
   lab: jrl
+- id: morishima:humanoids:2016
+  year: 2016
+  title: Whole-body motion retargeting using constrained smoothing and functional
+    principle component analysis
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Morishima
+    given: Saori
+  - id: ayusawa
+  - id: yoshida
+  - id: venture
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids16_morishima.pdf
+  lab: jrl
 - id: agravante:icra:2014
   year: 2014
   title: Collaborative human-humanoid carrying using vision and haptic sensing
@@ -3620,6 +3633,57 @@
     given: Andrew
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01568048/document
+  lab: jrl
+- id: difava:humanoids:2016
+  year: 2016
+  title: Multi-Contact Motion Retargeting from Human to Humanoid Robot
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Di Fava
+    given: Alessandro
+  - family: Bouyarmane
+    given: Karim
+  - id: Chappellet
+  - family: Ruffaldi
+    given: Emanuele
+  - id: kheddar
+  pdf: https://hal.archives-ouvertes.fr/hal-01414986/file/root.pdf
+  lab: jrl
+- id: audren:humanoids:2016
+  year: 2016
+  title: Stability polygons reshaping and morphing for smooth multi-contact transitions
+    and force control of humanoid robots
+  booktitle: IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2016
+  authors:
+  - id: audren
+  - id: kheddar
+  - id: gergondet
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512v2/document
+  lab: jrl
+  bib: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512v2/bibtex
+  projects:
+  - comanoid
+- id: caron:humanoids:2016
+  year: 2016
+  title: Multi-Contact Walking Pattern Generation Based on Model Preview Control of
+    3D COM Accelerations
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Caron
+    given: Stéphane
+  - family: Abderrahmane
+    given: Kheddar
+  pdf: https://hal.archives-ouvertes.fr/hal-01349880/document
+- id: imamura:humanoids:2016
+  year: 2016
+  title: Analysis of Robotic Care Devices using Human Dynamics Simulator
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: imamura
+  - id: ayusawa
+  - id: endoy
+  - id: yoshida
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/ICORR17_Imamura.pdf
   lab: jrl
 - id: ayusawa:iros:2016
   year: 2016
@@ -3791,8 +3855,7 @@
   - id: cisneros
   - id: benalleguem
   - id: morisawa
-  - family: Yosida
-    given: Eiichi
+  - id: yoshida
   - family: Yokoi
     given: Kazuhito
   - id: kanehiro
@@ -4120,6 +4183,23 @@
   - id: yoshida
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8036320
   lab: jrl
+- id: hagiwara:iscience:2020
+  year: 2020
+  title: Individuals Prioritize the Reach Straightness and Hand Jerk of a Shared Avatar
+    over Their Own
+  booktitle: iScience
+  authors:
+  - family: Hagiwara
+    given: Takayoshi
+  - id: ganesh
+  - family: Sugimoto
+    given: Maki
+  - family: Inami
+    given: Masahiko
+  - family: Kitazaki
+    given: Mitchiteru
+  pdf: https://reader.elsevier.com/reader/sd/pii/S2589004220309299?token=DA6D0918CBE3E06CDFF63F63452B25CD3C63BB659F71AB3FECF9FE6B148B1DADC40B4356137236D4E090EB9AE1397AF4
+  lab: jrl
 - id: tsuru:ral:2021
   year: 2021
   title: Online Object Searching by a Humanoid Robot in an Unknown Environment
@@ -4245,6 +4325,29 @@
     given: Fabio
   - id: carong
   pdf: https://hal.archives-ouvertes.fr/hal-02492460/document
+- id: ahmine:ivc:2019
+  year: 2019
+  title: Adaptive Lucas-Kanade tracking
+  booktitle: Image and Vision Computing
+  authors:
+  - family: Ahmine
+    given: Yassine
+  - id: carong
+  - family: Mouaddib
+    given: El
+  - family: Chouireb
+    given: Fatima
+  pdf: https://reader.elsevier.com/reader/sd/pii/S026288561930054X?token=45F232B6615FD753CDA27D2AB25B5E7B1D319B571321B62BAEA9CF5A3FE378905ADA872FDEF306E4021914BD3EC77024
+- id: bretagne:ijprs:2018
+  year: 2018
+  title: Spherical target-based calibration of terrestrial laser scanner intensity.
+    Application to colour information computation
+  booktitle: ISPRS Journal of Photogrammetry and Remote Sensing
+  authors:
+  - family: Bretagne
+    given: Estelle Nad Dassonvalle
+  - id: carong
+  pdf: https://reader.elsevier.com/reader/sd/pii/S0924271618301771?token=1134717A44BDDFA37DFA2BFD64A3E1E4190ACB7E6ACC983D68C8F7F39CBC3FCA9435E775F2115417F1E5232B181F0848
 - id: caron:icra:2018
   year: 2018
   title: Spherical Visual Gyroscope for Autonomous Robots using the Mixture of Photometric
@@ -4303,19 +4406,19 @@
     given: Marie
   pdf: https://home.mis.u-picardie.fr/~fabio/Eng/documenti/articoli/DeMoCaAlJeDeBa_SII21.pdf
   lab: jrl
-- id: audren:humanoids:2016
-  year: 2016
-  title: Stability polygons reshaping and morphing for smooth multi-contact transitions
-    and force control of humanoid robots
-  booktitle: IEEE-RAS International Conference on Humanoid Robots (Humanoids), 2016
+- id: martinez:isj:2020
+  year: 2020
+  title: Photometric-Planner for Visual Path Following
+  booktitle: IEEE Sensors Journal
   authors:
-  - id: audren
-  - id: kheddar
-  - id: gergondet
-  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512v2/document
-  bib: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512v2/bibtex
-  projects:
-  - comanoid
+  - family: Martinez
+    given: Rodriguez
+  - id: carong
+  - family: Pégard
+    given: Claude
+  - family: Lara-Alabazares
+    given: David
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9210085
 - id: demagistris:ras:2017
   projects:
   - koroibot
