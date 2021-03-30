@@ -8,10 +8,10 @@
   {%- endif -%}
 {%- endfor -%}
 {%- capture member_picture -%}{{site.baseurl}}/en/assets/members/nopicture.png{%- endcapture -%}
- {%- capture search_picture -%}en/assets/members/{{include.member.id}}.jpg{%- endcapture -%}
+ {%- capture search_picture -%}/en/assets/members/{{include.member.id}}.jpg{%- endcapture -%}
 {%- for file in site.static_files -%}
   {%- if file.path == search_picture -%}
-    {%- capture member_picture -%} {{site.baseurl}}/file.path{%- endcapture -%}
+    {%- capture member_picture -%} {{site.baseurl}}{{file.path}}{%- endcapture -%}
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}

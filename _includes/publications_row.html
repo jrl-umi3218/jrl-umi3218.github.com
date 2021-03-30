@@ -9,8 +9,8 @@
             {%- assign role = member.role -%}
             {%- assign given = member.given -%}
             {%- assign family = member.family -%}
-            {%- capture member_page -%}member-{{member.id}}.html{%- endcapture -%}
-            {%- capture member_summary -%}members.html#summary-{{member.id}}{%- endcapture -%}
+            {%- capture member_page -%}en/members/member-{{member.id}}.html{%- endcapture -%}
+            {%- capture member_summary -%}{{site.baseurl}}/en/members.html#summary-{{member.id}}{%- endcapture -%}
             {%- for page in site.html_pages -%}
               {%- if page.path == member_page -%}
                 {%- assign member_has_page = true -%}
@@ -37,7 +37,7 @@
       {%- endcapture -%}
       {%- capture author_fullname -%}{{author_initials}} {{family}}{%- endcapture%}
       {%- if member_has_page == true -%}
-        {%- capture author_fullname -%}<a href="{{member_page}}">{{author_fullname}}</a>{%- endcapture -%}
+        {%- capture author_fullname -%}<a href="{{site.baseurl}}/{{member_page}}">{{author_fullname}}</a>{%- endcapture -%}
       {%- elsif author.id and role != "alumni" -%}
         {%- capture author_fullname -%}<a href="{{member_summary}}">{{author_fullname}}</a>{%- endcapture -%}
       {%- endif -%}
