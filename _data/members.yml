@@ -291,8 +291,10 @@
   family: Benallegue
   role: permanent
   nationality: fr
+  website: "http://mehdi.benallegue.com"
+  scholar: "https://scholar.google.fr/citations?user=TjWNmAQAAAAJ"
   bio: >
-    received the ingénieur degree from the Institut National d’Informatique (INI), Algeria, in 2007, the M.Sc. degree from the University of Paris 7, Paris, France, in 2008 and the Ph.D. degree from Université de Montpellier 2, France, in 2011. He has been a postdoctoral researcher in a neurophysiology laboratory in Collège de France and in LAAS CNRS. He is currently a Research Associate with the CNRS-AIST Joint Robotics Laboratory in National Institute of Advanced Industrial Science and Technology, Japan. His research interests include estimation and control of humanoid robots, biomechanics, neuroscience and computational geometry.
+    received the ingénieur degree from the Institut National d’Informatique (INI), Algeria, in 2007, the M.Sc. degree from the University of Paris 7, Paris, France, in 2008 and the Ph.D. degree from Université de Montpellier 2, France, in 2011. He has been a postdoctoral researcher in a neurophysiology laboratory in Collège de France and in LAAS CNRS. He is currently a Research Associate with the CNRS-AIST Joint Robotics Laboratory in National Institute of Advanced Industrial Science and Technology (AIST), Japan. His research interests include estimation and control of robots, biomechanics, neuroscience and computational geometry.
 - id: cisneros
   given: Rafael
   family: Cisneros-Limón
