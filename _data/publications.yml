@@ -2050,7 +2050,7 @@
   - id: vaillant
   - id: yoshida
   - id: kheddar
-  pdf: https://staff.aist.go.jp/e.yoshida/papers/ijrr-lengagne-2013.pd
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/ijrr-lengagne-2013.pdf
   lab: jrl
 - id: kanoun:ijrr:2011
   year: 2011
@@ -2393,7 +2393,7 @@
   authors:
   - id: ayusawa
   - id: yoshida
-  pdf: www.roboticsproceedings.org/rss13/p63.pdf
+  pdf: https://www.roboticsproceedings.org/rss13/p63.pdf
   lab: jrl
 - id: hsu:aim:2017
   year: 2017
@@ -4668,7 +4668,7 @@
   title: 'Online replanning for reactive robot motion: Practical aspects'
   booktitle: Intelligent Robots and Systems (IROS)
   bib: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5649645&tag=1
-  pdf: http://www.ivtinternational.com/downloads/alt11/page_one/kineo/one.pdf
+  pdf: https://www.researchgate.net/publication/221066886_Online_replanning_for_reactive_robot_motion_Practical_aspects
   authors:
   - id: yoshida
   - given: Kazuhito
