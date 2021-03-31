@@ -38,7 +38,7 @@
 {%- else -%}
 {%- capture subtitle -%}<br/>{{subtitle}}{%- endcapture -%}
 {%- endif -%}
-{%- capture crumbs -%}<a href="members.html">Members</a>{%- endcapture -%}
+{%- capture crumbs -%}<a href="{{site.baseurl}}/en/members.html">Members</a>{%- endcapture -%}
 {%- assign crumbs = crumbs | split: "," -%}
 {%- include breadcrumbs.html crumbs=crumbs breadcrumbs=member_full_name title=member_full_name subtitle=subtitle -%}
 
