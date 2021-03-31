@@ -5,3 +5,5 @@ name: CNRS-AIST JRL
 plugins:
     - jekyll-sitemap
 exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'vendor']
+gems:
+  - jekyll-redirect-from

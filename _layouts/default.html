@@ -83,41 +83,7 @@
           </button>
           <a class="navbar-brand" href="index.html"><img src="/assets/cnrs-aist.png" alt="logos"/>{%- if page.title -%}{{page.title}}{%- elsif layout.title -%}{{layout.title}}{%- else -%}CNRS-AIST JRL{%- endif -%}</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="news.html">News</a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                {%- assign sorted_projects = site.data.projects | sort: 'id' -%}
-                {%- for project in sorted_projects -%}
-                {%- if project.active == true -%}
-                <li>
-                <a href="project-{{ project.id }}.html">{{project.title}}</a>
-                </li>
-                {%- endif -%}
-                {%- endfor -%}
-                <li role=separator class=divider></li>
-                <li>
-                  <a href="past-projects.html">Past projects</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="members.html">Members</a>
-            </li>
-            <li>
-              <a href="publications.html">Publications</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+        
       </div>
       <!-- /.container -->
     </nav>
