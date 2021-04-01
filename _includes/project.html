@@ -19,7 +19,7 @@
 <div class="container">
   <!-- Portfolio Item Row -->
   <div class="row row-eq-height">
-    {%- capture project_assets -%}/assets/projects/{{project.id}}/{%- endcapture -%}
+    {%- capture project_assets -%}{{site.baseurl}}/en/assets/projects/{{project.id}}/{%- endcapture -%}
     {%- for f in site.static_files -%}
       {%- assign f_base = f.path | remove_first: project_assets -%}
       {%- if f_base != f.path -%}
@@ -31,7 +31,7 @@
       {%- endif -%}
     {%- endfor -%}
     {%- unless carousel_files -%}
-      {%- capture carousel_files -%}/assets/projects/{{project.id}}.png{%- endcapture -%}
+      {%- capture carousel_files -%}{{site.baseurl}}/en/assets/projects/{{project.id}}.png{%- endcapture -%}
     {%- endunless -%}
     {%- assign carousel_files = carousel_files | split: "," -%}
     {%- assign carousel_files_size = carousel_files | size -%}
@@ -126,8 +126,8 @@
         {%- if partner.id == p_id -%}
         <div class="col-lg-4 col-sm-3 col-xs-6" style="text-align:center;">
             <a href="{{partner.website}}">
-              {{partner.name}}{%- if partner.shortname -%} ({{ partner.shortname }}){%- endif -%}<br/>
-              <img class="center-block img-responsive img-hover img-related" src="{{partner.logo}}" alt="{{partner.name}} logo" style="width:50%;"><br/><br/>
+              {{partner.name}}{%- if partner.shortname -%}&nbsp;({{ partner.shortname }}){%- endif -%}<br/>
+              <img class="center-block img-responsive img-hover img-related" src="{{site.baseurl}}{{partner.logo}}" alt="{{partner.name}} logo" style="width:50%;"><br/><br/>
             </a>
           </div>
           {%- if bla == 3 -%}
