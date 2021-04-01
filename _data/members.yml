@@ -435,6 +435,10 @@
   family: Qin
   role: phd
   nationality: cn
+  website: "https://yiliqin.github.io"
+  linkedin: "www.linkedin.com/in/yili-qin"
+  bio: >
+    received the M.S. degree from the University of Tsukuba in 2017. He is now Ph.D. student in the University of Tsukuba and research assistant at AIST, Japan. His research interests include whole-body motion planning and control for humanoid robots, robotic manipulation for deformable objects.
 - id: tanaka
   given: Ryodo
   family: Tanaka
