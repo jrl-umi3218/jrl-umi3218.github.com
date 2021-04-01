@@ -472,6 +472,9 @@
   family: Chappellet
   role: phd
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/kevin-chappellet-a3a87936/"
+  bio: >
+    received the Master’s degree in computer sciences and applied mathematics (Geometry, Image, and CAD) from Joseph Fourier University, Grenoble, France, in 2014. From November 2014 to March 2019, he was a Research Engineer with the Interactive Digital Human Group, CNRS-UM Laboratory of Informatics, Robotics, and Microelectronics, where he was responsible for the software development and experiments on the HRP-4 humanoid robot. He was involved in numerous European projects such as VERE (dissolves the boundary between the human body and surrogate representations in immersive virtual reality and physical reality), Robohow (enable robots to competently perform everyday human-scale manipulation activities) and Comanoid (deploy humanoid robots to achieve non-added value tasks that have been identified by Airbus Group in aircraft assembly operations). Moreover, following his Master’s degree direction he worked on robot-objects manipulation based on vision and haptics feedback that lead to publications as co-author. He is currently pursuing a Ph.D. degree in vision applied to humanoid-objects manipulation from the CNRS-AIST JRL (Joint Robotics Laboratory) Tsukuba, Japan since March 2019. His work investigates the different camera modalities available on the market in order to answer to the constraints imposed by object manipulation. These modalities are evaluated in a VSLAM (Visual Simultaneous Localization And Mapping) context before to be used to perform real-time object tracking and objects manipulation.
 - id: dallard
   given: Antonin
   family: Dallard
