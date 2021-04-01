@@ -51,10 +51,11 @@
   family: Morisawa
   role: deputy-director
   nationality: jp
+  scholar: "https://scholar.google.com/citations?user=AiQCd44AAAAJ&hl=ja&oi=sra"
+  website: "https://researchmap.jp/mm-?lang=en"
   linkedin: "https://www.linkedin.com/in/mitsuharu-morisawa-99475249"
-  website: "http://dblp.uni-trier.de/pers/hd/m/Morisawa:Mitsuharu"
   bio: >
-    received the Ph.D. degree in engineering from Keio University, Japan, in 2004. Researcher of the Intelligent Systems Research Institute, AIST from 2004. He was visiting researcher at the LAAS-CNRS, France from 2009 to 2010, and invited researcher at INRIA rhone-alples, France in 2011. Since 2020, he is deputy director of  the Cooperative Research Laboratory at the CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST. His research interests include whole body and multi-contact locomotion and its stabilization control of humanoid robots.
+    received the Ph.D. degree in engineering from Keio University, Japan, in 2004. Researcher of the Intelligent Systems Research Institute, AIST from 2004. He was visiting researcher at the LAAS-CNRS, France from 2009 to 2010, and invited researcher at INRIA rhone-alples, France in 2011. Since 2020, he is deputy director of the Cooperative Research Laboratory at the CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST, the co-chair the <a href="https://www.ieee-ras.org/humanoid-robotics" target="_self">IEEE/RAS Technical committee on humanoid robotics</a>. His research interests include whole body and multi-contact locomotion and its stabilization for humanoid robots.
 - id: demagistris
   given: Giovanni
   family: "De Magistris"
