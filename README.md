@@ -34,7 +34,7 @@ Note 1: Biography given through `bio` will start with a title `Bio` and `firstna
 
 ###### Optional asset
 
-If the user's id is `jrlmember`, the site expects to find a picture of the member at the following location: `assets/members/jrlmember.jpg`. Otherwise it will use an anonymous picture.
+If the user's id is `jrlmember`, the site expects to find a picture of the member at the following location: `/en/assets/members/jrlmember.jpg`. Otherwise it will use an anonymous picture.
 
 The image should be `150x200` for the sake of the website's layout.
 
@@ -74,7 +74,7 @@ While the `linkedin`, `website`, `scholar` and `github` are all optionals it is 
 ###### Mandatory asset
 
 For a project whose id is `jrlproject`, a logo is expected at
-`/assets/projects/jrlproject.png`.
+`/en/assets/projects/jrlproject.png`.
 
 The image resolution should be `700x450`.
 
@@ -119,7 +119,7 @@ Normally, providing the additional information is enough to display it on the we
 
 In the following example, the user id is `jrlmember`.
 
-- Create a new page named `member-jrlmember.html` at the root of the repository
+- Create a new page named `member-jrlmember.html` in `en/members/`
 - Put the following content
 
 ```
@@ -130,7 +130,7 @@ title: CNRS-AIST JRL
 {% include member_full.html id="jrlmember" %}
 ```
 
-- (optional) Add pictures to the carousel by puting pictures in the `assets/members/jrlmember/` folder (note: the picture wil appear in their alphabetical order)
+- (optional) Add pictures to the carousel by puting pictures in the `en/assets/members/jrlmember/` folder (note: the picture wil appear in their alphabetical order)
 
 The page will display:
 - A carousel including the member's picture and all pictures added in step 3
@@ -142,7 +142,7 @@ The page will display:
 
 In the following example, the project id is `jrlproject`.
 
-- Create a new page named `project-jrlproject.html` at the root of the repository
+- Create a new page named `project-jrlproject.html` in `/en/projects/`
 - Put the following content
 
 ```
@@ -153,7 +153,7 @@ title: CNRS-AIST JRL
 {% include project.html id="jrl-project" %}
 ```
 
-- (optional) Add pictures to the carousel by putting pictures in the `assets/projects/jrlproject/` folder (note: the picture will appear in their alphabetical order)
+- (optional) Add pictures to the carousel by putting pictures in the `en/assets/projects/jrlproject/` folder (note: the picture will appear in their alphabetical order)
 
 The page will display:
 - A carousel including ll pictures added in step 3 or the project logo if no pictures were added
