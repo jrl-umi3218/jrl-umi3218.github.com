@@ -1,7 +1,7 @@
 - id: kheddar
   given: Abderrahmane
   family: Kheddar
-  role: director
+  role: deputy-director
   nationality: fr
   linkedin: "https://www.linkedin.com/in/kheddar"
   website: "http://www.lirmm.fr/lirmm_eng/users/utilisateurs-lirmm/equipes/idh/abderrahmane-kheddar"
@@ -12,7 +12,7 @@
 - id: yoshida
   given: Eiichi
   family: Yoshida
-  role: co-director
+  role: director
   nationality: jp
   linkedin: "https://www.linkedin.com/in/eiichi-yoshida-615107"
   bio: >
@@ -30,7 +30,7 @@
 - id: ganesh
   given: Gowrishankar
   family: Ganesh
-  role: permanent
+  role: adjunct
   nationality: in
   scholar: "https://scholar.google.com/citations?user=NRjDuWgAAAAJ&hl=en"
   website: "https://www.lirmm.fr/~gowrishank/"
@@ -41,7 +41,7 @@
 - id: ayusawa
   given: Ko
   family: Ayusawa
-  role: permanent
+  role: adjunct
   nationality: jp
   website: "http://dblp.uni-trier.de/pers/hd/a/Ayusawa:Ko"
   bio: >
@@ -49,7 +49,7 @@
 - id: morisawa
   given: Mitsuharu
   family: Morisawa
-  role: permanent
+  role: deputy-director
   nationality: jp
   linkedin: "https://www.linkedin.com/in/mitsuharu-morisawa-99475249"
   website: "http://dblp.uni-trier.de/pers/hd/m/Morisawa:Mitsuharu"
@@ -274,7 +274,7 @@
 - id: imamura
   given: Yumeko
   family: Imamura
-  role: permanent
+  role: adjunct
   nationality: jp
 - id: yoshiyasu
   given: Yusuke
@@ -323,7 +323,7 @@
 - id: kajita
   given: Shuuji
   family: Kajita
-  role: permanent
+  role: alumni
   nationality: jp
   bio: >
     received the master's degree (1985) and the doctor of engineering degree (1996) from Tokyo Institute of Technology, Japan. In 1985, he joined the Mechanical Engineering Laboratory, Agency of Industrial Science and Technology, Ministry of International Trade and Industry (AIST-MITI). Meanwhile he was a visiting researcher at California Institute of Technology, 1996-1997. Currently he is a chief senior researcher at the National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan, which was reorganized from AIST-MITI in April 2001.His research interests include robotics and control theory. He is a member of Society of Instrument and Control Engineers, Robotics Society of Japan and IEEE (Robotics and Automation Society). Received the best paper award of the Society of Instrument and Control Engineers in 1996, and the best paper award of the Robotics Society of Japan in 2005.
@@ -344,7 +344,7 @@
 - id: sakaguchi
   given: Takeshi
   family: Sakaguchi
-  role: permanent
+  role: alumni
   nationality: jp
   bio: >
     received the BS, MS, and PhD degrees in Mechanical Engineering in 1987, 1989, and 1993, respectively, all from Osaka University, Osaka, Japan. In 1993, he joined the Mechanical Engineering Laboratory, MITI, Tsukuba, Japan. From 2001, he was a senior researcher of Intelligent Systems Research Institute (ISRI), the National Institute of Advanced Industrial Science and Technology (AIST). His current research interests are robotics including humanoids, ambient intelligence, and manipulation. He is a member of the Robotics Society of Japan (RSJ), the Japan Society of Mechanical Engineers (JSME), the Society of Instrument and Control Engineers (SICE, Japan) and IEEE.
@@ -366,7 +366,7 @@
 - id: nakaoke
   given: Shin'ichiro
   family: Nakaoka
-  role: permanent
+  role: adjunct
   nationality: jp
   bio: >
     received his Ph.D degree in computer science from the University of Tokyo, Japan, in 2006. Since 2006, he has been with the Intelligent Systems Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), where he is currently a Senior Researcher. From 2011 to 2012, he was a Visiting Researcher at the University of Edinburgh. His research interests include humanoid robots and robotics software systems. He received the Best Paper Award of the Robotics Society of Japan in 2008, and the Best Paper Award (Robotics) of the 2012 IEEE/SICE International Symposium on System Integration.
@@ -393,12 +393,12 @@
 - id: samy
   given: Vincent
   family: Samy
-  role: postdoc
+  role: alumni
   nationality: fr
 - id: tanguy
   given: Arnaud
   family: Tanguy
-  role: engineer
+  role: alumni
   nationality: fr
 - id: bui
   given: Ba
@@ -485,3 +485,13 @@
   family: Singh
   role: phd
   nationality: in
+- id: sakai
+  given: Naoko
+  family: Sakai
+  role: admin
+  nationality: jp
+- id: katom
+  given: Mitsuko
+  family: Kato
+  role: admin
+  nationality: jp
