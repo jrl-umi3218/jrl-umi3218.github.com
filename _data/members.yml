@@ -470,11 +470,17 @@
   family: Morandi
   role: phd
   nationality: it
+  bio: >
+    has completed her bachelor’s degree in Electronic Engineering and her master’s degree in Automation and Robotic Engineering, both at University of Pisa in 2016 and 2019 respectively. She carried out her thesis in Japan in collaboration with Centro Piaggio, GVLab TUAT (Tokyo University of Agriculture and Technology) and AIST (National Institute of Advanced Industrial Science and Technology). She is currently conducting research in JRL since January 2021 as a Ph.D candidate registered in University of Montpellier through a collaboration agreement with AIST. Her research is about human-like locomotion for humanoid robot and evaluation of assistive devices.
+  linkedin: https://www.linkedin.com/in/cecilia-morandi-801b4987/
 - id: frizza
   given: Irene
   family: Frizza
   role: phd
   nationality: it
+  bio: >
+    got her degree in Electronic Engineering in Pisa University in 2016. She next got her master’s degree in Automation and Robotic Engineering in Pisa University in 2019. She carried out her thesis project at GVLab, in Tokyo University of Agriculture and Technology (TUAT) and in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan. Currently, she is a PhD student in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan with Montpellier University, France. Her research interest includes soft robotic feet, biped locomotion, walking of humanoid robots.
+  linkedin: https://www.linkedin.com/in/irene-frizza-29128b185/
 - id: tsuru
   given: Masato
   family: Tsuru
