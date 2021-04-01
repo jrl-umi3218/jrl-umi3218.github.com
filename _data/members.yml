@@ -332,6 +332,11 @@
   family: Murooka
   role: permanent
   nationality: jp
+  website: https://mmurooka.github.io/
+  scholar: https://scholar.google.co.jp/citations?user=xcp8f3cAAAAJ
+  github: https://github.com/mmurooka
+  bio: >
+    received the BE, MS, and PhD degree in information science and technology from The University of Tokyo, Japan, in 2013, 2015, and 2018, respectively. He was a project assistant professor in the Department of Mechano-Informatics at The University of Tokyo from 2018 to 2020. He joined the CNRS-AIST Joint Robotics Laboratory in the National Institute of Advanced Industrial Science and Technology (AIST) in 2020 as a researcher. His research interest includes the motion planning and control of humanoid robots.
 - id: kumagai
   given: Iori
   family: Kumagai
