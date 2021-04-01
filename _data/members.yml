@@ -440,6 +440,13 @@
   family: Tanaka
   role: phd
   nationality: jp
+  scholar: "https://scholar.google.co.jp/citations?hl=ja&user=tDWyUmwAAAAJ"
+  linkedin: "https://www.linkedin.com/in/ryodo-tanaka/"
+  bio: >
+    received the MSc degree from Kyushu Institute of Technology, Japan (2018).
+    He is working in the CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/CRT, Tsukuba, Japan, as PhD student of University of Tsukuba, Tsukuba, Japan, and as a research assistant in JRL (2018-2021).
+    He is now student member of <a href="https://www.rsj.or.jp/en/" target="_self">the Robotics Society of Japan</a>.
+    His current research interests include multi-contact motion planning and control for leg robots including humanoid robots.
 - id: heraiz
   given: Daphné
   family: Heraiz-Bekkis
