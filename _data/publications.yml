@@ -1,3 +1,10 @@
+################################################################
+#                                                              #
+#                    W  A  R  N  I  N  G  !                    #
+#                                                              #
+# This is a automatically generated file, don't edit manually. #
+#                                                              #
+################################################################
 - id: ayusawa:tro:2017
   year: 2017
   title: Motion Retargeting for Humanoid Robots Based on Simultaneous Morphing Parameter
@@ -1901,8 +1908,7 @@
     given: Suyi
   - family: Mano
     given: Hiroaki
-  - family: Ganes
-    given: Gowrishankar
+  - id: ganesh
   - family: Robbins
     given: Trevor
   - family: Seymour
@@ -2161,8 +2167,7 @@
   - family: Leanari
     given: Leonardo
   - id: escande
-  - family: Cappellet
-    given: Kevin
+  - id: chappellet
   - id: kanehiro
   - family: Rabate
     given: Patrice
@@ -2212,8 +2217,7 @@
     due to anxiety
   booktitle: Nature Communications
   authors:
-  - family: Gowrishankar
-    given: Ganesh
+  - id: ganesh
   - family: Minamoto
     given: Takehiro
   - family: Haruno
@@ -2227,8 +2231,7 @@
   authors:
   - family: Li
     given: Yanan
-  - family: Gowrishankar
-    given: Ganesh
+  - id: ganesh
   - family: Jarrasse
     given: Narthanael
   - family: Haddadin
@@ -2371,8 +2374,7 @@
     given: Hannes
   - family: Van Der Smagt
     given: Patrick
-  - family: Gansh
-    given: Gowrishankar
+  - id: ganesh
   pdf: https://www.researchgate.net/publication/318489661_Hitting_the_sweet_spot_Automatic_optimization_of_energy_transfer_during_tool-held_hits
   lab: jrl
 - id: samy:icra:2017
@@ -3298,27 +3300,6 @@
     given: Chrisian
   pdf: https://hal.inria.fr/hal-02079151/document
   lab: jrl
-- id: delmas:sii:2020
-  year: 2021
-  title: 'SpheriCol: A Driving Assistance System for Power Wheelchairs Based on Spherical
-    Vision and Range Measurements'
-  booktitle: IEEE/SICE International Symposium on System Integration
-  authors:
-  - family: Delmas
-    given: Sarah
-  - family: Morbidi
-    given: Fabio
-  - id: carong
-  - family: Albrand
-    given: Julien
-  - family: Jeanne-Rose
-    given: Meven
-  - family: Devigne
-    given: Louise
-  - family: Babel
-    given: Marie
-  pdf: https://hal.archives-ouvertes.fr/hal-02958902/file/2021SII_Sphericol_final.pdf
-  lab: jrl
 - id: chappellet:conf:icpr:2021
   year: 2021
   title: Benchmarking Cameras for OpenVSLAM Indoors
@@ -3589,8 +3570,7 @@
     given: Saki
   - id: yamanobe
   - id: venture
-  - family: Gowrishankar
-    given: Ganesh
+  - id: ganesh
   pdf: https://dl.acm.org/doi/pdf/10.1145/3173386.3177033
   lab: jrl
 - id: morishima:humanoids:2016
@@ -3969,8 +3949,7 @@
   authors:
   - family: Abderrahmane
     given: Zineb
-  - family: Gansh
-    given: Gowrishankar
+  - id: ganesh
   - family: Crosnie
     given: André
   - family: Cherubini
@@ -4076,15 +4055,14 @@
   - id: gamez
   pdf: https://diglib.eg.org/bitstream/handle/10.2312/egs20201012/037-040.pdf?sequence=1&isAllowed=y
   lab: jrl
-- id: heraizbekkis:conf:iccar:2020
+- id: heraizbekkis:iccar:2020
   year: 2020
   title: Robot Movement Uncertainty Determines Human Discomfort in Co-worker Scenarios
   booktitle: IEEE International Conference on Control, Automation and Robotics
   authors:
   - family: Héraiz-Bekkis
     given: Daphné
-  - family: Gowrishankar
-    given: Ganesh
+  - id: ganesh
   - id: yoshida
   - id: yamanobe
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ICCAR2020_Heraiz-Bekkis.pdf
@@ -4285,11 +4263,11 @@
   - id: kheddar
   pdf: https://arxiv.org/pdf/2010.04573.pdf
   lab: jrl
-- id: ahmine:conf:icra:2021
+- id: ahmine:ral:2021
   year: 2021
   title: Continuous Scale-Space Direct Image Alignment for Visual Odometry from RGB-D
     Images
-  booktitle: IEEE International Conference on Robotics and Automation
+  booktitle: IEEE Robotics and Automation Letters
   authors:
   - family: Ahmine
     given: Yassine
@@ -4299,6 +4277,14 @@
   - family: Mouaddib
     given: El
   pdf: https://hal.archives-ouvertes.fr/hal-03130945/document
+  lab: jrl
+- id: caron:ral:2021
+  year: 2021
+  title: Defocus-based Direct Visual Servoing
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: carong
+  pdf: https://hal.archives-ouvertes.fr/hal-03155667/document
   lab: jrl
 - id: crombez:tro:2019
   year: 2019
@@ -4345,7 +4331,9 @@
   booktitle: ISPRS Journal of Photogrammetry and Remote Sensing
   authors:
   - family: Bretagne
-    given: Estelle Nad Dassonvalle
+    given: Estelle
+  - family: Dassonvalle
+    given: Pascal
   - id: carong
   pdf: https://reader.elsevier.com/reader/sd/pii/S0924271618301771?token=1134717A44BDDFA37DFA2BFD64A3E1E4190ACB7E6ACC983D68C8F7F39CBC3FCA9435E775F2115417F1E5232B181F0848
 - id: caron:icra:2018
@@ -4371,7 +4359,6 @@
   - family: Lara
     given: David
   pdf: http://www.lewissoft.com/pdf/ICRA2020/2989.pdf
-  lab: jrl
 - id: mohtaram:icip:2018
   year: 2018
   title: 'Amift: Affine-Mirror Invariant Feature Transform'
@@ -4419,6 +4406,18 @@
   - family: Lara-Alabazares
     given: David
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9210085
+- id: singh:cvpr:2020
+  year: 2020
+  title: Rapid Pose Label Generation through Sparse Representation of Unknown Objects
+  booktitle: Conference on Computer Vision and Pattern Recognition
+  authors:
+  - family: Singh
+    given: Pratap
+  - id: benalleguem
+  - id: yoshiyasu
+  - id: kanehiro
+  pdf: https://arxiv.org/pdf/2011.03790.pdf
+  lab: jrl
 - id: demagistris:ras:2017
   projects:
   - koroibot
@@ -5058,3 +5057,36 @@
   - family: Tanaka
     given: Takayuki
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids14_ayusawa_proc.pdf
+- id: ko:ar:2018
+  year: 2018
+  title: Key design parameters of a few types of electro-hydrostatic actuators for
+    humanoid robots
+  booktitle: Advanced Robotics
+  authors:
+  - family: Ko
+    given: Tianyi
+  - id: kaminaga
+  - family: Nakamura
+    given: Yoshihiko
+  pdf: https://www.tandfonline.com/doi/full/10.1080/01691864.2018.1545604
+- id: ko:ar:2018-2
+  year: 2018
+  title: Current-pressure-position triple-loop feedback control of electro-hydrostatic
+    actuators for humanoid robots
+  booktitle: Advanced Robotics
+  authors:
+  - family: Ko
+    given: Tianyi
+  - id: kaminaga
+  - family: Nakamura
+    given: Yoshihiko
+  pdf: https://www.tandfonline.com/doi/full/10.1080/01691864.2018.1555880
+- id: kaminaga:humanoids:2018
+  year: 2018
+  title: Redundant Strain Measurement of Link Structures for Improved Stability of
+    Light Weight Torque Controlled Robots
+  booktitle: Proceedings of IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: kaminaga
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/8624994
