@@ -167,7 +167,7 @@
   role: alumni
   nationality: fr
   linkedin: "https://www.linkedin.com/in/david-galdeano-733416110"
-  scholar: "https://scholar.google.co.jp/citations?user=fbE_0PYAAAAJ"
+  scholar: "https://scholar.google.com/citations?user=fbE_0PYAAAAJ"
   website: "https://sites.google.com/site/galdeanodavid/home"
 - id: pham
   given: Tu-Hoa
@@ -257,6 +257,8 @@
   nationality: fr
   scholar: "https://scholar.google.com/citations?user=RAOhaYYAAAAJ&hl=en"
   website: "http://web.tuat.ac.jp/~venture/"
+  bio: >
+    received her Engineer's degree from the École Centrale de Nantes (France) in 2000 in Robotics and Automation and a MSc and PhD from the University of Nantes (France) in 2000 and 2003 respectively. In 2004 she joined the French Nuclear Agency (Paris, France), to work on the control of a tele-operated micro-manipulator. Later in 2004 she joined Prof. Yoshihiko Nakamura's Lab. at the University of Tokyo (Japan) with the support of the JSPS. From 2006 to 2009, she was a Project Assistant Professor at University of Tokyo (Japan). In 2009, she becomes an Associate Professor and starts a new lab at the Tokyo University of Agriculture and Technology (Japan). Since July 2016 she is a Distinguished Professor with the Tokyo University of Agriculture and Technology. Since 2018 she is a cross-appointed fellow with the National Institute of Advanced Industrial Science &mp Technology. Since 2020 she is an Invited Professor at &ldquo;Robotics by design lab&rdquo;, Strate, France. Her main research interests include: Non-verbal communication, Human behavior understanding from motion, Human body modelling, Dynamics identification, Control of robot for human/robot interaction, Human affect recognition. She is presently Senior Editor with IEEE/RAS Robotics and Automation Letter, Associate Editor with IEEE/RAS Transactions in Robotics, Associate Editor with the Journal of Robotics and Mechatronics. She coordinates several <a href="https://www.jsps.go.jp/english/" target="_self">JSPS</a> Kakenhi projects and other domestic funding.
 - id: carong
   given: Guillaume
   family: Caron
@@ -287,6 +289,9 @@
   family: Benallegue
   role: permanent
   nationality: fr
+  scholar: "https://scholar.google.com/citations?user=fC6f6B4AAAAJ&hl=en"
+  bio: >
+    received his B. Sc. in Electronics from Ecole Nationale Polytechnique d'Alger, Algeria in 1986, his M.Sc. in Robotics and Ph.D. in Robotics and Automatic Control from Pierre & Marie Curie University, Paris, France, respectively in 1987 and 1991. <br> He was an associate professor of Automatic control and robotics at the University of Pierre and Marie Curie, Paris 6, France from 1992 to 2002. He joined the University of Versailles St Quentin in 2002 as Professor. His research interests are mainly related to linear and nonlinear control theory including adaptive control, robust control, and neural network learning control, with applications to robot manipulators, humanoids, and aerial vehicles. <br> He leads the Intelligent and Collaborative Mechatronic Systems team, one of the teams of the Systems Engineering Laboratory of the University of Versailles. As a board member of the Sensors and Robotics Section of the Sensors Journal, he is a guest editor of the Special Issue &ldquo;Applications of Multisensory Fusion for Automation and Control of Robotic Systems&rdquo;.
 - id: benalleguem
   given: Mehdi
   family: Benallegue
@@ -312,6 +317,7 @@
   family: Kaneko
   role: permanent
   nationality: jp
+  website: "https://staff.aist.go.jp/k.kaneko/index_e.html"
   bio: >
     received the B.E., M.E., and Ph.D. in electrical engineering from Keio University in 1988, 1990, and 1997, respectively. In 1990, he joined the Mechanical Engineering Laboratory, Agency of Industrial Science and Technology, Ministry of Industrial Science and Technology (AIST-MITI). From September 1995, he was a visiting researcher at the Carnegie Mellon University, U.S.A. for half a year. From October 1999, he was also a visiting researcher at the Paris Robotics Laboratory(LRP), CNRS, France for one year. He is currently the chief senior researcher of the Intelligent Systems Research Institute, AIST. His research interests include motion control and humanoid robot. He received the best video award of the IEEE International Conference on Robotics and Automation in 2004, the best paper award (oral category) of the IEEE-RAS International Conference on Humanoid Robots in 2009, and others.
 - id: kaminaga
@@ -334,7 +340,7 @@
   role: permanent
   nationality: jp
   website: https://mmurooka.github.io/
-  scholar: https://scholar.google.co.jp/citations?user=xcp8f3cAAAAJ
+  scholar: https://scholar.google.com/citations?user=xcp8f3cAAAAJ
   github: https://github.com/mmurooka
   bio: >
     received the BE, MS, and PhD degree in information science and technology from The University of Tokyo, Japan, in 2013, 2015, and 2018, respectively. He was a project assistant professor in the Department of Mechano-Informatics at The University of Tokyo from 2018 to 2020. He joined the CNRS-AIST Joint Robotics Laboratory in the National Institute of Advanced Industrial Science and Technology (AIST) in 2020 as a researcher. His research interest includes the motion planning and control of humanoid robots.
@@ -450,7 +456,7 @@
   family: Tanaka
   role: phd
   nationality: jp
-  scholar: "https://scholar.google.co.jp/citations?hl=ja&user=tDWyUmwAAAAJ"
+  scholar: "https://scholar.google.com/citations?hl=ja&user=tDWyUmwAAAAJ"
   linkedin: "https://www.linkedin.com/in/ryodo-tanaka/"
   bio: >
     received the MSc degree from Kyushu Institute of Technology, Japan (2018).
@@ -475,6 +481,8 @@
   family: Sun
   role: phd
   nationality: cn
+  bio: >
+    received the BE degree from Jiangsu University, China, in 2015 and his ME degree from The University of Tsukuba, Japan, in 2020. He is currently a second-year Ph.D. student in the Department of Intelligent and Mechanical Interaction Systems, Graduate School of Science and Technology, The University of Tsukuba, Japan. His research interests include computer vision for robotics and SLAM in a dynamic environment.
 - id: Chappellet
   given: Kevin
   family: Chappellet
