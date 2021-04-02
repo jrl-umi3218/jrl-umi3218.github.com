@@ -467,6 +467,9 @@
   family: Gamez
   role: phd
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/lucas-gamez"
+  bio: >
+    received the MS degree in Artificial Intelligence and Shape Recognition from Paul Sabatier University, France in 2018. He is now PhD student at the Unviversity of Montpellier and research assistant at AIST. His research topics include artificial intelligence, deep learning and multi-person tracking. 
 - id: sun
   given: Leyuan
   family: Sun
