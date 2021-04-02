@@ -347,7 +347,7 @@
   authors:
   - family: Paolillo
     given: Antonio
-  - id: Chappellet
+  - id: chappellet
   - family: Bolotnikova
     given: Anastasia
   - id: kheddar
@@ -2310,7 +2310,7 @@
   authors:
   - family: Bolotnikova
     given: Anastasia
-  - id: Chappellet
+  - id: chappellet
   - family: Paolillo
     given: Antonio
   - id: escande
@@ -2485,7 +2485,7 @@
     given: Antonio
   - family: Bolotnikova
     given: Anastasia
-  - id: Chappellet
+  - id: chappellet
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01646158/document
   lab: jrl
@@ -3324,7 +3324,7 @@
   title: Benchmarking Cameras for OpenVSLAM Indoors
   booktitle: IAPR/IEEE International Conference on Pattern Recognition
   authors:
-  - id: Chappellet
+  - id: chappellet
   - id: carong
   - id: kanehiro
   - family: Sakurada
@@ -3561,7 +3561,7 @@
   authors:
   - family: Bouyarmane
     given: Karim
-  - id: Chappellet
+  - id: chappellet
   - id: vaillant
   - family: Abderrahmane
     given: Kheddar
@@ -3643,7 +3643,7 @@
     given: Alessandro
   - family: Bouyarmane
     given: Karim
-  - id: Chappellet
+  - id: chappellet
   - family: Ruffaldi
     given: Emanuele
   - id: kheddar
@@ -4208,7 +4208,7 @@
   - id: tsuru
   - id: escande
   - id: tanguy
-  - id: Chappellet
+  - id: chappellet
   - family: Harada
     given: Kensuke
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9361266
