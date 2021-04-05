@@ -523,6 +523,13 @@
   family: Tsuru
   role: phd
   nationality: jp
+  scholar: "https://scholar.google.com/citations?user=ToS-6x0AAAAJ&hl=en&oi=sra"
+  bio: >
+    received the master's degree in engineering from Osaka University, Japan, in 2021. He started working as Research Assistant at the CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST in 2019. His research topic is combining humanoid robots with vision sensing and real-time action planning for automonous humanoid robots.
+  videos:
+    - title: "Online Object Searching by a Humanoid Robot in an Unknown Environment"
+      url: "https://youtu.be/2rr84jnez4k"
+      img: "http://i1.ytimg.com/vi/YGhJDXUlApM/mqdefault.jpg"
 - id: singh
   given: Rohan
   family: Singh
