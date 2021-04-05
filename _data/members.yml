@@ -282,6 +282,8 @@
   family: Imamura
   role: adjunct
   nationality: jp
+  bio: >
+    received the master degree of Information Science and Technology and Ph.D. in the field of Systems Science and Informatics from Hokkaido University, Japan, in 2011 and 2014 respectively. From 2014 to 2015, she served as a Research Fellow of Japan Society for the Promotion of Science at Hokkaido University. She is currently a researcher of Human Augmentation Research Center, National Institute of Advanced Industrial Science and Technology (AIST), and a researcher of CNRS-AIST Joint Robotics Laboratory, UMI3218/RL, Japan. Her research interests include biomechanics, human modeling, and power assistive technologies.
 - id: yoshiyasu
   given: Yusuke
   family: Yoshiyasu
