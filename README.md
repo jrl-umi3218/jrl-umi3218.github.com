@@ -45,6 +45,8 @@ While the `linkedin`, `website`, `scholar` and `github` are all optionals it is 
 
 #### Publications
 
+*Publications should not be entered by hand: the publication file is generated automatically from [here](https://gite.lirmm.fr/adrien_escande_at_gmail_com/jrl-publi) (private repository)*
+
 | Field | Description | Required |
 |-------|-------------|:--------:|
 | id | A unique publication id, typically `firstauthor:journal:year` | ✔ |
