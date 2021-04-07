@@ -56,7 +56,23 @@
       <span class='glyphicon glyphicon-file'></span>
     </a>
     {%- else -%}
+      {%- assign found_bib = false -%}
+      {%- assign bib_name = include.publication.id | replace: ':', '_'-%}
+      {%- capture search_bib -%}/en/assets/bib/{{bib_name}}.bib{%- endcapture -%}
+      {%- for file in site.static_files -%}
+        {%- if file.path == search_bib -%}
+          {%- capture bib_path -%} {{site.baseurl}}{{file.path}}{%- endcapture -%}
+          {%- assign found_bib = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if found_bib -%}
+    <a href="{{ bib_path }}" target="_blank">
+      <span class='glyphicon glyphicon-file'></span>
+    </a>
+      {%- else -%}
     <span class='glyphicon glyphicon-ban-circle'></span>
+      {%- endif -%}
     {%- endif -%}
   </td>
   <td id="{{ include.publication.id }}-pdf">

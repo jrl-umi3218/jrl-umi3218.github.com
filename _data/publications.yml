@@ -40,31 +40,32 @@
   lab: jrl
 - id: demagistris:ras:2017a
   year: 2017
-  title: Design of optimized soft soles for humanoid robot
+  title: Design of optimized soft soles for humanoid robots
   booktitle: Robotics and Autonomous Systems
   authors:
   - id: demagistris
   - family: Miossec
     given: Sylvain
   - id: escande
-  - id: kheddar
-  pdf: https://hal.archives-ouvertes.fr/hal-01526014v2
-  lab: jrl
-- id: demagistris:ras:2017b
-  year: 2017
-  title: 'Design of Optimized Soft Soles for Humanoid Robots  '
-  booktitle: Robotics and Autonomous Systems
-  authors:
-  - id: demagistris
-  - id: escande
-  - family: Miossec
-    given: Sylvain
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01526014v2/document
   lab: jrl
   projects:
   - koroibot
   bib: https://hal.archives-ouvertes.fr/hal-01526014v2/bibtex
+- id: demagistris:ras:2017b
+  year: 2017
+  title: Optimized humanoid walking with soft soles
+  booktitle: Robotics and Autonomous Systems
+  authors:
+  - id: demagistris
+  - family: Pajon
+    given: Adrien
+  - family: Miossec
+    given: Sylvain
+  - id: kheddar
+  pdf: https://www.sciencedirect.com/science/article/pii/S0921889016301245?via%3Dihub
+  lab: jrl
 - id: ramirez-alpizar:rb:2017
   year: 2017
   title: Human-based framework for the assembly of elastic objects by a dual-arm robot
