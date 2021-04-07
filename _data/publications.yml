@@ -96,7 +96,7 @@
   booktitle: ACM Transactions on Graphics
   authors:
   - family: Pirk
-    given: Soren
+    given: Sören
   - family: Krs
     given: Vojtech
   - family: Hu
@@ -246,8 +246,8 @@
   - family: Abderrahmane
     given: Zineb
   - id: ganesh
-  - family: Crosiner
-    given: Andre
+  - family: Crosnier
+    given: André
   - family: Cherubini
     given: Andrea
   pdf: https://www.researchgate.net/publication/324070508_Haptic_Zero-Shot_Learning_Recognition_of_objects_never_touched_before
@@ -472,8 +472,7 @@
   - id: vaillant
   - id: kheddar
   - id: audren
-  - family: Keith
-    given: Francois
+  - id: keith
   - id: brossette
   - id: escande
   - family: Bouyarmane
@@ -481,8 +480,7 @@
   - id: kaneko
   - id: morisawa
   - id: gergondet
-  - family: Kajita
-    given: Suuji
+  - id: kajita
   - id: kanehiro
   pdf: https://hal.archives-ouvertes.fr/hal-01276931/document
   lab: jrl
@@ -553,8 +551,7 @@
   - family: Wieber
     given: Pierre-Brice
   - id: escande
-  - family: Abderrahmane
-    given: Kheddar
+  - id: kheddar
   pdf: https://hal.inria.fr/file/index/docid/567850/filename/IJHRSpecialIssueSept2010_nbv.pdf
   lab: jrl
 - id: sagawa:tpami:2014
@@ -579,8 +576,8 @@
     given: Yasushi
   - family: Aqmar
     given: Muhammad
-  - family: Trung
-    given: Ngo
+  - family: Ngo
+    given: Trung
   - family: Nagahara
     given: Hajime
   - id: sagawa
@@ -589,7 +586,6 @@
   - family: Yagi
     given: Yasushi
   pdf: http://www.am.sanken.osaka-u.ac.jp/~makihara/pdf/tsp_2014Apr.pdf
-  lab: jrl
 - id: sakashita:tcva:2012
   year: 2012
   title: Capturing Textured 3D Shapes based on Infrared One-shot Grid Pattern
@@ -613,7 +609,7 @@
   booktitle: IPSJ Transactions on Computer Vision and Applications
   authors:
   - family: Furukawa
-    given: Ryuo
+    given: Ryo
   - id: sagawa
   - family: Kawasaki
     given: Hiroshi
@@ -644,14 +640,14 @@
     given: Naoki
   pdf: https://www.researchgate.net/publication/256104117_Efficient_rate-distortion_compression_of_dynamic_point_cloud_for_grid-pattern-based_3D_scanning_systems
   lab: jrl
-- id: trung:itis:2010
+- id: ngo:itis:2010
   year: 2010
   title: Real-time Estimation of Fast Egomotion with Feature Classification using
     Compound Omnidirectional Vision Sensor
   booktitle: IEICE Transactions on Information and Systems
   authors:
-  - family: Trung
-    given: Ngo
+  - family: Ngo
+    given: Trung
   - family: Kojima
     given: Yuichiro
   - family: Nagahara
@@ -664,25 +660,23 @@
   - family: Yagi
     given: Yasushi
   pdf: https://www.jstage.jst.go.jp/article/transinf/E93.D/1/E93.D_1_152/_pdf/-char/en
-  lab: jrl
-- id: thanh:tcva:2009
+- id: ngo:tcva:2009
   year: 2009
   title: Highly Robust Estimator Using a Casedependent Residual Distribution Model
   booktitle: IPSJ Transactions on Computer Vision and Applications
   authors:
-  - family: Thanh
-    given: Ngo
+  - family: Ngo
+    given: Trung
   - family: Nagahara
     given: Hajime
   - id: sagawa
   - family: Mukaigawa
     given: Yasuhiro
-  - family: Masahiko
-    given: Yachida
+  - family: Yachida
+    given: Masahiko
   - family: Yagi
     given: Yasushi
   pdf: http://omilab.naist.jp/~mukaigawa/papers/TCVA2009-RobustEstimator.pdf
-  lab: jrl
 - id: furukawa:tcva:2009
   year: 2009
   title: Shape from Grid Pattern Based on Coplanarity Constraints for One-shot Scanning
@@ -1013,7 +1007,7 @@
   title: 'Enhancing Zero Moment Point-Based Control Model: System Identification Approach'
   booktitle: Advanced Robotics
   authors:
-  - family: Sulelman
+  - family: Suleiman
     given: Wael
   - id: kanehiro
   - family: Miura
@@ -1037,13 +1031,13 @@
   - id: yoshida
   pdf: http://lars.mec.ua.pt/public/LAR%20Projects/Humanoid/2011_WilliamLage/Alguns%20papers/Two-Stage%20Time-Parametrized%20Gait%20Planning%20for%20Humanoid%20Robots.pdf
   lab: jrl
-- id: mambaur:ar:2010
+- id: mombaur:ar:2010
   year: 2010
   title: An Optimal Control-Based Formulation to Determine Natural Locomotor Paths
     for Humanoid Robots
   booktitle: Advanced Robotics
   authors:
-  - family: Mambaur
+  - family: Mombaur
     given: Katja
   - family: Laumond
     given: Jean-Paul
@@ -1361,7 +1355,7 @@
   - family: Murata
     given: Satoshi
   - family: Tomita
-    given: Kouji
+    given: Kohji
   - family: Kurokawa
     given: Haruhisa
   pdf: https://www.researchgate.net/publication/3828280_Miniaturized_self-reconfigurable_system_using_shape_memory_alloy
@@ -1482,8 +1476,7 @@
   - family: Tidoni
     given: Emmanuele
   - id: gergondet
-  - family: Kehddar
-    given: Abderrahmane
+  - id: kheddar
   - family: Aglioti
     given: Salvatore
   pdf: https://www.researchgate.net/publication/263356987_Audio-visual_feedback_improves_the_BCI_performance_in_the_navigational_control_of_a_humanoid_robot
@@ -1545,8 +1538,9 @@
   lab: jrl
 - id: vidal:pint:2010
   year: 2010
-  title: 'PEDOT containing semi-interpenetrating polymer networks: a versatile concept
-    for the design of optical or mechanical electroactive devices'
+  title: 'Poly(3,4-ethylenedioxythiophene)containing semi-interpenetrating polymer
+    networks: a versatile concept for the design of optical or mechanical electroactive
+    devices'
   booktitle: Polymer International
   authors:
   - family: Vidal
@@ -1558,15 +1552,15 @@
   - family: Beouch
     given: Layla
   - family: Tran-Van
-    given: Francois
+    given: François
   - family: Palaprat
     given: Guillaume
   - family: Verge
     given: Pierre
   - family: Yammine
     given: Paolo
-  - family: Viterin
-    given: Johanne
+  - family: Citerin
+    given: Johann
   - id: kheddar
   - family: Sauques
     given: Laurent
@@ -1632,12 +1626,12 @@
   lab: jrl
 - id: vidal:ast:2008
   year: 2008
-  title: Synthesis and Characterization of IPN’s for Electrochemical Actuators
+  title: Synthesis and Characterization of IPNs for Electrochemical Actuators
   booktitle: Advances in Science and Technology
   authors:
   - family: Vidal
     given: Frederic
-  - family: Pless
+  - family: Plesse
     given: Cedric
   - family: Palaprat
     given: Guillaume
@@ -1704,7 +1698,7 @@
     given: Guillaume
   - id: kheddar
   - family: Citerin
-    given: Johan
+    given: Johann
   - family: Teyssie
     given: Dominique
   - family: Chevrot
@@ -1925,8 +1919,7 @@
     given: Mohamed
   - family: Madani
     given: Tarek
-  - family: Daachi
-    given: Boubakar
+  - id: daachi
   - family: Djouani
     given: Karim
   pdf: https://pdf.sciencedirectassets.com/272229/1-s2.0-S1568494615X0007X/1-s2.0-S1568494615002616/main.pdf?X-Amz-Date=20200117T111220Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=e81558c895c9af2347322a2c420cbddabb6410eb8e4e7d28157743d30c1b0564&X-Amz-Credential=ASIAQ3PHCVTY72ICIDVY%2F20200117%2Fus-east-1%2Fs3%2Faws4_request&type=client&tid=prr-60fa4f26-d010-4f39-9434-61ac746b5b16&sid=275df8fa89b47642b73915e569e09c120ebagxrqa&pii=S1568494615002616&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBsaCXVzLWVhc3QtMSJHMEUCIA0VUvFWEOvp911idXI2aJVc92iFcXvNWW%2B6h1YNiCEqAiEAh6bg6oiMif%2Bjt%2F85RhX5hYF2YXXA3FPnBn09H7fiiOgqvQMIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwwNTkwMDM1NDY4NjUiDKEsAHgIHCr%2Bfn12RyqRA0m0knxFtkuQHYEQ2w8qvV46bd4AkIPdyfCq5SMrr0LTiUHzJWQDyOe1EyThReDIe%2Bqyuv%2BG6ARf4DyWgewsyntBCsSHwcBqhIBRv85dTkOEL%2Ffzm%2BB8j5chLWp7vPH0P7%2F47c1UgJdjelwW0YdIXRMwmCFsLZKPRN1jBpSicVPd3h619oDjePHLCtdj5qT47M4ogPgmuAbDR1kCz5TpdKHNCEZ8zqiT6KF%2BvkKSYWZ4AP37STFwSl53djH4lo5ImChTg2Qx8BE03c9Ra57U9llTdg4BlnXQDPe8JQf4EX%2BFf%2Bv8zWGeaD9qQ6912Imj8Ya3zkqJnY8yRsJkzst4W1vgcYjMV5iV8FV8%2B5MURbzGYQhY0uGHfsFN%2F4M%2Fjoyo2KYHmqnv8%2F4T1yUzg5jWhzU2tesJ%2Fk2kVJwV6SGXfKZyjK3RcHlO4KQEJKxCs%2BiCeilxbqESVf%2BLjlcaE%2Bl6QarJPtYcPtB0xLdEn%2FeD6BNGg0U1hWGcaHZTUMGgBhshWeq4mKOGkr%2BThvxxn0ZCoy%2F%2BMLiRhvEFOusBXHJ1tmvvGZ2yaF4Oljek6Ka2%2BRoFlZo8PAt74J5oIx%2BfFJTEvZ2QeozHWeV0fr3MYFTL3zYzdzD4DTMuxj3CmyIrrctDZ%2FWBfFvA3c6W0SKRr9Y5EmvUs7NNzf%2BLDgZQTQylLirXcZboCLcObW5uQcER1PfMsv38kRbQRcp9DUkUJ3vcKNH9%2Fg6WbiO8rzs4aC8orqOR5yNf0IcfiHjbFcUy2sE9D01D6CS82b5%2FN%2FMdPeCV5zw0F1AfFgtRP%2BARl0UhbIZFDlpKn8jPKHy2lnFHIr8djIVMyCHWBsjopY7watSrk6LFUZLXrQ%3D%3D&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&X-Amz-Expires=300&hash=dee8fa1cffde07da54305a2078cfc36633a456297191401d4713316b7330c073
@@ -1983,8 +1976,7 @@
   - id: vaillant
   - family: Sugimoto
     given: Norikazu
-  - family: Keith
-    given: Francois
+  - id: keith
   - family: Furukawa
     given: Junichiro
   - family: Morimoto
@@ -2022,7 +2014,7 @@
     given: Takahito
   - family: Kawato
     given: Mitsuo
-  - family: Burdget
+  - family: Burdet
     given: Etienne
   pdf: https://www.nature.com/articles/srep03824.pdf
   lab: jrl
@@ -2035,9 +2027,8 @@
   - family: Saab
     given: Layale
   - family: Ramos
-    given: E
-  - family: Keith
-    given: Francois
+    given: Oscar
+  - id: keith
   - family: Mansard
     given: Nicolas
   - family: Soueres
@@ -2159,12 +2150,12 @@
   - family: Wieber
     given: Pierre-Brice
   - family: Chaumette
-    given: Francois
+    given: François
   - family: Spindler
     given: Fabien
   - family: Oriolo
     given: Giuseppe
-  - family: Leanari
+  - family: Lanari
     given: Leonardo
   - id: escande
   - id: chappellet
@@ -2181,7 +2172,7 @@
   - family: Bolotnikova
     given: Anastasia
   - family: Courtois
-    given: Sebastien
+    given: Sébastien
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8873658
   lab: jrl
@@ -2201,12 +2192,12 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8720243
   lab: jrl
-- id: bouyamane:irs:2018
+- id: bouyarmane:irs:2018
   year: 2018
   title: Non-decoupled Locomotion and Manipulation Planning for Low-Dimensional Systems
   booktitle: Journal of Intelligent & Robotic Systems
   authors:
-  - family: Bouyamane
+  - family: Bouyarmane
     given: Karim
   - id: kheddar
   pdf: https://members.loria.fr/KBouyarmane/nondecoupled.pdf
@@ -2242,7 +2233,7 @@
     given: Etienne
   pdf: http://sro.sussex.ac.uk/id/eprint/74844/3/74844.pdf
   lab: jrl
-- id: samy:humanoids:2017
+- id: samy:humanoids:2017a
   year: 2017
   title: Post-Impact Adaptive Compliance for Humanoid Falls Using Predictive Control
     of a Reduced Model
@@ -2253,8 +2244,7 @@
     given: Stéphane
   - family: Bouyarmane
     given: Karim
-  - family: Abderrahmane
-    given: Kheddar
+  - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01569819v3/document
   lab: jrl
 - id: audren:humanoids:2017
@@ -2274,8 +2264,8 @@
   authors:
   - family: Pajon
     given: Adrien
-  - family: Stéphane
-    given: Caron
+  - family: Caron
+    given: Stéphane
   - id: demagistris
   - family: Miossec
     given: Sylvain
@@ -2503,28 +2493,6 @@
     given: Christian
   pdf: https://hal.inria.fr/hal-01500912/file/RAL2017.pdf
   lab: jrl
-- id: pirk:siggraph:2017
-  year: 2017
-  title: Understanding and Exploiting Object Interaction Landscapes
-  booktitle: SIGGRAPH
-  authors:
-  - family: Pirk
-    given: Soren
-  - family: Krs
-    given: Vojetch
-  - family: Hu
-    given: Kamio
-  - family: Rajasekaran
-    given: Suren
-  - family: Kang
-    given: Hao
-  - id: yoshiyasu
-  - family: Benes
-    given: Bedrich
-  - family: Guibas
-    given: Leonidas
-  pdf: https://arxiv.org/pdf/1609.08685.pdf
-  lab: jrl
 - id: yoshida:issr:2017
   year: 2017
   title: Towards Unified Framework for Trajectory Optimization using General Differential
@@ -2581,7 +2549,7 @@
   - family: Bolotnikova
     given: Anastasia
   - family: Courtois
-    given: Sebastien
+    given: Sébastien
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01895114v2/document
   lab: jrl
@@ -2626,7 +2594,7 @@
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
   - family: Masuda
-    given: Simpei
+    given: Shimpei
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Masuda_2018_Humanoids.pdf
@@ -2690,7 +2658,7 @@
   - family: Bolotnikova
     given: Anastasia
   - family: Courtois
-    given: Sebastien
+    given: Sébastien
   - id: kheddar
   lab: jrl
 - id: vasalya:ro-man:2018
@@ -2799,8 +2767,7 @@
   - id: morisawa
   - family: Lamiraux
     given: Florent
-  - family: Kheddar
-    given: Abderahmane
+  - id: kheddar
   - id: kanehiro
   lab: jrl
 - id: su:humanoids:2018
@@ -2833,8 +2800,7 @@
   authors:
   - family: Cohen
     given: Ori
-  - family: Keith
-    given: Francois
+  - id: keith
   - family: Koppel
     given: Moshe
   - id: kheddar
@@ -2940,8 +2906,7 @@
   - id: samy
   - id: ayusawa
   - id: yoshiyasu
-  - family: Sagaw
-    given: Ryusuke
+  - id: sagawa
   - id: yoshida
   pdf: https://hal.archives-ouvertes.fr/hal-02311483v2/document
   lab: jrl
@@ -2954,7 +2919,7 @@
     given: Zineb
   - id: ganesh
   - family: Crosnier
-    given: Andre
+    given: André
   - family: Cherubini
     given: Andrea
   pdf: https://hal.archives-ouvertes.fr/hal-01869015/document
@@ -2972,7 +2937,7 @@
   - id: escande
   - id: yoshida
   - family: Ramirez-Alpizar
-    given: Ixchelg
+    given: Ixchel
   - family: Wan
     given: Weiwei
   - family: Harada
@@ -3111,8 +3076,7 @@
     given: Kota
   - id: yoshiyasu
   - id: gabas
-  - family: Kanhiro
-    given: Fumio
+  - id: kanehiro
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Suzui-SII2019.pdf
   lab: jrl
@@ -3288,7 +3252,7 @@
     given: Bastien
   pdf: https://arxiv.org/abs/1801.07022
   lab: jrl
-- id: coevoet:conf:robosoft:2019
+- id: coevoet:robosoft:2019
   year: 2019
   title: Soft robots locomotion and manipulation control using FEM simulation and
     quadratic Programming
@@ -3297,7 +3261,7 @@
   - family: Coevoet
     given: Eulalie Abd Escande
   - family: Duriez
-    given: Chrisian
+    given: Christian
   pdf: https://hal.inria.fr/hal-02079151/document
   lab: jrl
 - id: chappellet:conf:icpr:2021
@@ -3473,7 +3437,7 @@
   - family: Bolotnikova
     given: Anastasia
   - family: Courtois
-    given: Sebastien
+    given: Sébastien
   - id: kheddar
   lab: jrl
 - id: benallegue:humanoids:2017
@@ -3487,7 +3451,7 @@
   - family: Chitour
     given: Yacine
   lab: jrl
-- id: samy:humanoids:2017
+- id: samy:humanoids:2017b
   year: 2017
   title: Adaptive compliance in post-impact humanoid falls using preview control of
     a reduce model
@@ -3535,7 +3499,7 @@
   - id: venture
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Shimizu_2018_Humanoids.pdf
   lab: jrl
-- id: bouyarmane:jrnl:tro:2019
+- id: bouyarmane:tro:2019
   year: 2019
   title: Quadratic Programming for Multirobot and Task-Space Force Control
   booktitle: IEEE Transactions on Robotics
@@ -3544,8 +3508,7 @@
     given: Karim
   - id: chappellet
   - id: vaillant
-  - family: Abderrahmane
-    given: Kheddar
+  - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8528498
   lab: jrl
 - id: guiatni:aim:2009
@@ -3558,8 +3521,7 @@
     given: Mohamed
   - family: Riboulet
     given: Vincent
-  - family: Abderrahmane
-    given: Kheddar
+  - id: kheddar
   lab: jrl
 - id: kato:hri:2018
   year: 2018
@@ -3651,8 +3613,7 @@
   authors:
   - family: Caron
     given: Stéphane
-  - family: Abderrahmane
-    given: Kheddar
+  - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01349880/document
 - id: imamura:humanoids:2016
   year: 2016
@@ -3743,23 +3704,6 @@
   - id: yoshiyasu
   - id: yoshida
   lab: jrl
-- id: tee:icra:2018
-  year: 2018
-  title: 'Towards Emergence of Tool Use in Robots: Automatic Tool Recognition and
-    Use without Prior Tool Learning'
-  booktitle: IEEE International Conference on Robotics and Automation
-  authors:
-  - family: Tee
-    given: Keng
-  - family: Li
-    given: Jun
-  - family: Chen
-    given: Larence
-  - family: Wan
-    given: Wah
-  - id: ganesh
-  pdf: https://oar.a-star.edu.sg/jspui/bitstream/123456789/2453/1/robot_tool_use_17.pdf
-  lab: jrl
 - id: ganesh:naco:2017
   year: 2017
   title: Activity in the dorsal ACC causes deterioration of sequential motor performance
@@ -3814,9 +3758,9 @@
   booktitle: International Journal of Humanoid Robotics
   authors:
   - family: Moro
-    given: L.
+    given: Federico
   - family: Gienger
-    given: Micheal
+    given: Michael
   - family: Goswami
     given: Ambarish
   - family: Khatib
@@ -3904,8 +3848,7 @@
   - id: samy
   - id: imamura
   - id: ayusawa
-  - family: Sagawa
-    given: Ryuusuke
+  - id: sagawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu-EMBC2020.pdf
   lab: jrl
@@ -3935,7 +3878,7 @@
     given: Naoki
   - family: Ito
     given: Hideaki
-  - family: Kada
+  - family: Okada
     given: Kei
   - family: Inaba
     given: Masayuki
@@ -3950,7 +3893,7 @@
   - family: Abderrahmane
     given: Zineb
   - id: ganesh
-  - family: Crosnie
+  - family: Crosnier
     given: André
   - family: Cherubini
     given: Andrea
@@ -3993,7 +3936,7 @@
   - family: Sasaki
     given: Yoko
   - family: Jha
-    given: K.
+    given: Devesh
   - id: yoshiyasu
   - family: Kanezaki
     given: Asako
@@ -4109,8 +4052,7 @@
   title: Social Robotics
   booktitle: International Conference on Social Robotics
   authors:
-  - family: Kheddar
-    given: Abderrahmande
+  - id: kheddar
   - id: yoshida
   - family: Ge
     given: Sam
@@ -4130,13 +4072,13 @@
   booktitle: IEEE Robotics & Automation Magazine
   authors:
   - family: Moro
-    given: L
+    given: Federico
   - family: Sentis
     given: Luis
   - family: Park
     given: Jaeheung
   - family: Atkeson
-    given: G
+    given: Christopher
   - family: Gienger
     given: Michael
   - family: Goswami
@@ -4147,11 +4089,11 @@
   - family: Kuffner
     given: James
   - family: Orin
-    given: E
+    given: David
   - family: Ott
     given: Christian
   - family: Pratt
-    given: E
+    given: Jerry
   - family: Righetti
     given: Ludovic
   - family: Sicilliano
@@ -4213,7 +4155,7 @@
   booktitle: IEEE International Conference on Image Processing
   authors:
   - family: Watt
-    given: M
+    given: Alassane
   - id: yoshiyasu
   pdf: https://cmsworkshops.com/ICIP2020/Papers/AcceptedPapers.asp
   lab: jrl
@@ -4226,7 +4168,7 @@
     given: Jean
   - id: carong
   - family: Mouaddib
-    given: Mustapha
+    given: El
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9359341
   lab: jrl
 - id: maekawa:siggraph:2020
@@ -4369,7 +4311,7 @@
   - family: Radgui
     given: Amina
   - id: carong
-  - family: Moudaddib
+  - family: Mouaddib
     given: El
   pdf: https://hal.archives-ouvertes.fr/hal-01907307/document
 - id: delmas:sii:2021
