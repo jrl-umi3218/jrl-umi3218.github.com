@@ -1,0 +1,13 @@
+@InProceedings{suzui:sii:2019,
+  author    = {Suzui,Kota and Yoshiyasu,Yusuke and Gabas,Antonio and Kanehiro,Fumio and Yoshida,Eiichi},
+  title     = {Toward 6 DOF Object Pose Estimation with Minimum Dataset},
+  booktitle = {IEEE/SICE International Symposium on System Integration},
+  year      = {2020},
+  pages     = {462--467},
+  address   = {Paris, France},
+  month     = {January 14-January 16},
+  url       = {https://staff.aist.go.jp/e.yoshida/papers/Suzui-SII2019.pdf},
+  keywords  = {Three-dimensional displays, Grasping, Tools, Pose estimation, Cameras, Service robots},
+  doi       = {10.1109/SII.2019.8700331},
+  abstract  = {In this research, we propose a method for estimating 6 DOF object pose (3D orientation and position), based on convolutional neural networks (CNN). We propose RotationCNN that predicts 3D orientation of the object. The position of the object is estimated using an object detection CNN that predicts the class of the object and bounding box around it. Unlike the method that trains CNNs using a largescale database, the proposed system is trained with minimum dataset obtained in a local environment that is similar to where the robot is used. With the proposed semi-automated dataset collection techniques based on a web camera and AR markers, users in different environment will be able to train the network suited for their own environment relatively easily and quickly. We believe that this approach is suitable for a practical robotic application. The results on 3D orientation prediction using RotationCNN show the average error of 18.9 degrees, which we empirically found that it is low enough as an initial solution to successfully run the iterative closest point (ICP) algorithm that uses depth data to refine the pose obtained with CNNs. The effectiveness of the proposed method is validated by applying the method to object grasping by a robot manipulator.}
+}

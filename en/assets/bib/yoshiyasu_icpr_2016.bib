@@ -1,0 +1,14 @@
+@InProceedings{yoshiyasu:icpr:2016,
+  author       = {Yoshiyasu,Yusuke and Yoshida,Eiichi},
+  title        = {Nonlinear Dimensionality Reduction by Curvature Minimization},
+  booktitle    = {IAPR/IEEE International Conference on Pattern Recognition},
+  year         = {2016},
+  volume       = {25},
+  pages        = {3590--3596},
+  address      = {Amsterdam, The Nertherlands},
+  month        = {June 3-June 5},
+  organization = {International Association of Pattern Recognition},
+  keywords     = {Optimization, Distortion, Laplace equations, Three-dimensional displays, Minimization, Manifolds, Transmission line matrix methods},
+  doi          = {10.1109/ICPR.2016.7900191},
+  abstract     = {In this paper, we introduce a nonlinear dimensionality reduction (NLDR) technique that can construct a low-dimensional embedding efficiently and accurately with low embedding distortions. The key idea is to divide NLDR into nonlinearity reduction and linear dimensionality reduction, which simplifies the overall NLDR process. Nonlinearity reduction is based on the elastic shell model that measures the in-plane stretching and bending energy. With this model, we minimize the curvature of the data, which is the source of nonlinearity, while preserving the original intrinsic property (i.e., local lengths) as-much-as possible. We discretize and linearize our nonlinearity reduction model such that it leads to an iterative deformation technique that alternates between two steps in order to flatten a manifold: the curvature minimization step that solves a bi-Laplace system and the local length restoration step that solves a Poisson system. We propose an efficient optimization technique for the both steps using a direct solver based on Cholesky decomposition, which exploits the fact that the system matrices stay constant; during iterations, we reuse the factorizations that are obtained once at the beginning and perform back substitutions only. Since our algorithm relies only on local geometric properties, it can accurately embed the data with complicated topology. Experimental results show that our algorithm is faster than the most of other state-of-the-art algorithms and preserves local areas and angles better than previous approaches.}
+}

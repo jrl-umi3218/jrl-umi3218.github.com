@@ -1,0 +1,16 @@
+@Article{sagawa:tpami:2008,
+  author    = {Sagawa,Ryusuke and Ikeuchi,Katsushi},
+  title     = {Hole Filling of a 3D Model by Flipping Signs of a Signed Distance Field in Adaptive Resolution},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year      = {2008},
+  volume    = {30},
+  number    = {4},
+  pages     = {686--699},
+  month     = {April},
+  doi       = {10.1109/TPAMI.2007.70726},
+  url       = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=\&arnumber=4359341},
+  keywords  = {partial differential equations, distance measurement, image representation,image resolution},
+  abstract  = {When we use range finders to observe the shape of an object, many occluded areas may occur. These become holes and gaps in the model and make it undesirable for various applications. We propose a novel method to fill holes and gaps to complete this incomplete model. As an intermediate representation, we use a signed distance field (SDF), which stores euclidean signed distances from a voxel to the nearest point of the mesh model. By using an SDF, we can obtain interpolating surfaces for holes and gaps. The proposed method generates an interpolating surface that becomes smoothly continuous with real surfaces by minimizing the area of the interpolating surface. Since the isosurface of an SDF can be identified as being a real or interpolating surface from the magnitude of signed distances, our method computes the area of an interpolating surface in the neighborhood of a voxel both before and after flipping the sign of the signed distance of the voxel. If the area is reduced by flipping the sign, then our method changes the sign for the voxel. Therefore, we minimize the area of the interpolating surface by iterating this computation until convergence. Unlike methods based on partial differential equations (PDEs), our method does not require any boundary condition and the initial state that we use is automatically obtained by computing the distance to the closest point of the real surface. Moreover, because our method can be applied to an SDF of adaptive resolution, our method efficiently interpolates large holes and gaps of high curvature. We tested the proposed method with both synthesized and real objects and evaluated the interpolating surfaces.},
+  publisher = {IEEE COMPUTER SOC},
+  address   = {10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA}
+}

@@ -1,0 +1,12 @@
+@InProceedings{ota:iros:2020,
+  author    = {Ota,Kei and Sasaki,Yoko and Jha, Devesh, K. and Yoshiyasu,Yusuke and Kanezaki,Asako},
+  title     = {Efficient Exploration in Constrained Environments with Goal-Oriented Reference Path},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  year      = {2020},
+  address   = {Las Vegas (NV), USA},
+  month     = {October 25-October 29},
+  url       = {http://ras.papercept.net/images/temp/IROS/files/1537.pdf},
+  keywords  = {Computer Science, Machine Learning, Computer Science-Robotics, Statistics-Machine Learning},
+  doi       = {10.1109/IROS45743.2020.9341620},
+  abstract  = {In this paper, we consider the problem of building learning agents that can efficiently learn to navigate in constrained environments. The main goal is to design agents that can efficiently learn to understand and generalize to different environments using high-dimensional inputs (a 2D map), while following feasible paths that avoid obstacles in obstacle-cluttered environment. To achieve this, we make use of traditional path planning algorithms, supervised learning, and reinforcement learning algorithms in a synergistic way. The key idea is to decouple the navigation problem into planning and control, the former of which is achieved by supervised learning whereas the latter is done by reinforcement learning. Specifically, we train a deep convolutional network that can predict collision-free paths based on a map of the environment-- this is then used by a reinforcement learning algorithm to learn to closely follow the path. This allows the trained agent to achieve good generalization while learning faster. We test our proposed method in the recently proposed Safety Gym suite that allows testing of safety-constraints during training of learning agents. We compare our proposed method with existing work and show that our method consistently improves the sample efficiency and generalization capability to novel environments.}
+}

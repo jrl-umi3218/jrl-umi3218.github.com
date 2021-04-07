@@ -1,0 +1,16 @@
+@Article{chretien:tpds:2016,
+  author    = {Chr{\'e}tien,Benjamin and Escande,Adrien and Kheddar,Abderrahmane},
+  title     = {GPU Robot Motion Planning Using Semi-Infinite Nonlinear Programming},
+  journal   = {IEEE Transactions on Parallel and Distributed Systems},
+  year      = {2016},
+  volume    = {27},
+  number    = {10},
+  pages     = {2926--2939},
+  month     = {October},
+  doi       = {10.1109/TPDS.2016.2521373},
+  url       = {https://hal.archives-ouvertes.fr/hal-01266581/document},
+  keywords  = {GPGPU, CUDA, nonlinear optimization, motion planning, robotics, parallel computing, HPC},
+  abstract  = {We propose a many-core GPU implementation of robotic motion planning formulated as a semi-infinite optimization program. Our approach computes the constraints and their gradients in parallel, and feeds the result to a nonlinear optimization solver running on the CPU. To ensure the continuous satisfaction of our constraints, we use polynomial approximations over time intervals. Because each constraint and its gradient can be evaluated independently for each time interval, we end up with a highly parallelizable problem that can take advantage of many-core architectures. Classic robotic computations (geometry, kinematics, and dynamics) can also benefit from parallel processors, and we carefully study their implementation in our context. This results in having a full constraint evaluator running on the GPU. We present several optimization examples with a humanoid robot. They reveal substantial improvements in terms of computation performance compared to a parallel CPU version.},
+  publisher = {IEEE COMPUTER SOC},
+  address   = {10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA}
+}
