@@ -448,6 +448,12 @@
   family: Gabas
   role: phd
   nationality: es
+  scholar: "https://scholar.google.com/citations?user=Q5KaFMMAAAAJ"
+  linkedin: "https://www.linkedin.com/in/toni-gabas-21b55558/"
+  bio: >
+    received the MSc degree from Universitat Politecnica de Catalunya (UPC), Spain (2013).
+    He is working in the CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/CRT, Tsukuba, Japan, as PhD student of University of Tsukuba, Tsukuba, Japan, and as a research assistant in JRL (2021-).
+    His research interests include 3D pose estimation, machine learning and reinforcement learning for robotics applications.    
 - id: qin
   given: Yili
   family: Qin
