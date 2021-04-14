@@ -537,10 +537,14 @@
       url: "https://youtu.be/2rr84jnez4k"
       img: "https://i1.ytimg.com/vi/2rr84jnez4k/hqdefault.jpg"
 - id: singh
-  given: Rohan
+  given: Rohan P.
   family: Singh
   role: phd
   nationality: in
+  github: "https://github.com/rohanpsingh"
+  linkedin: "https://www.linkedin.com/in/rohanpsingh"
+  bio: >
+    is a Ph.D. student (1st year) at the University of Tsukuba and works at the CNRS-AIST JRL (Joint Robotics Lab), AIST as a Research Assistant. He received his Masters from the University of Tsukuba, Japan in April, 2021. Earlier, he worked as a Robotics Engineer at JRL (then known as the Humanoid Robotics Group) from 2017 to 2019. His current research endevour focusses on developing reinforcement learning based locomotion controllers for humanoid robots.
 - id: sakai
   given: Naoko
   family: Sakai
