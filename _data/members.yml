@@ -508,6 +508,9 @@
   family: Dallard
   role: phd
   nationality: fr
+  linkedin: https://www.linkedin.com/in/antonin-dallard-b7096814a
+  bio: >
+    received a Master's degree in mechanical and industrial engineering at the Arts Et Métiers Graduate School of Mechanical Engineering and Industrial Process in Lille, France in 2020. He started in october 2020 a thesis with the CNRS at the LIRMM (Laboratory of Informatics, Robotics, and Microelectronics of Montpellier) and the JRL. His Ph.D topic tackles the transfer of human expertise towards humanoid robots.
 - id: morandi
   given: Cecilia
   family: Morandi
