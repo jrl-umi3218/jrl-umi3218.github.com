@@ -15,7 +15,7 @@
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
-<div class="col-md-3 col-centered text-center">
+<div class="col-xs-6 col-md-3 col-centered text-center">
   <div class="thumbnail" id="summary-{{include.member.id}}">
     {%- if member_has_page -%}<a href="{{member_page_url}}">{%- endif -%}<img class="img-responsive img-rounded" src="{{member_picture}}" alt="{{include.member.given}} {{include.member.family}} photo">{%- if member_has_page -%}</a>{%- endif -%}
     <div class="caption">
