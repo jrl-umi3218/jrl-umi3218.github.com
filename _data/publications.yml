@@ -3063,8 +3063,7 @@
   title: Instance-specific 6-DoF Object Pose Estimation from Minimal Annotations
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - family: Singh
-    given: Rohan
+  - id: singh
   - id: kumagai
   - id: gabas
   - id: benalleguem
@@ -3381,8 +3380,7 @@
   authors:
   - id: gabas
   - id: yoshiyasu
-  - family: Singh
-    given: Rohan
+  - id: singh
   - id: sagawa
   - id: yoshida
   lab: jrl
@@ -4446,8 +4444,7 @@
   title: Rapid Pose Label Generation through Sparse Representation of Unknown Objects
   booktitle: IEEE International Conference on Robotics and Automation
   authors:
-  - family: Singh
-    given: Rohan
+  - id: singh
   - id: benalleguem
   - id: yoshiyasu
   - id: kanehiro
@@ -5737,8 +5734,7 @@
   booktitle: Journal of Robotics and Mechatronics
   authors:
   - id: sun
-  - family: Singh
-    given: Rohan
+  - id: singh
   - id: kanehiro
   lab: jrl
 - id: bolotnikova:ral:2021
