@@ -5,6 +5,53 @@
 # This is a automatically generated file, don't edit manually. #
 #                                                              #
 ################################################################
+- id: shimizu:humanoids:2020
+  year: 2021
+  title: Pseudo Direct and Inverse Optimal Control Based on Motion Synthesis Using
+    FPCA
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Shimizu
+    given: Soya
+  - id: ayusawa
+  - id: venture
+  pdf: ''
+  lab: jrl
+- id: samy:rss:2021
+  year: 2021
+  title: Generalized Comprehensive Motion Theory for High-Order Differential Dynamics
+  booktitle: 'Robotics: Science and Systems'
+  authors:
+  - id: samy
+  - id: ayusawa
+  - id: yoshida
+  pdf: http://www.roboticsproceedings.org/rss17/p032.html
+  lab: jrl
+- id: dehio:icra:2021
+  year: 2021
+  title: Robot-Safe Impacts with Soft Contacts Based on Learned Deformations
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - family: Dehio
+    given: Niels
+  - id: kheddar
+  pdf: https://hal.archives-ouvertes.fr/hal-02973947v2/document
+  lab: jrl
+- id: samadi:ral:2021
+  year: 2021
+  title: Humanoid Control Under Interchangeable Fixed and Sliding Unilateral Contacts
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Samadi
+    given: Saeid
+  - family: Roux
+    given: Julien
+  - id: tanguy
+  - family: Caron
+    given: Stéphane
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/9380971
+  lab: jrl
 - id: ayusawa:tro:2017
   year: 2017
   title: Motion Retargeting for Humanoid Robots Based on Simultaneous Morphing Parameter
@@ -228,7 +275,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8360042
   lab: jrl
-- id: kai:ral:2018
+- id: pfeiffer:ral:2018
   year: 2018
   title: Singularity resolution in equality and inequality constrained hierarchical
     task-space control by adaptive non-linear least-squares
@@ -481,6 +528,7 @@
   - id: kaneko
   - id: morisawa
   - id: gergondet
+  - id: yoshida
   - id: kajita
   - id: kanehiro
   pdf: https://hal.archives-ouvertes.fr/hal-01276931/document
@@ -1454,7 +1502,7 @@
   lab: jrl
 - id: mombaur:ram:2014
   year: 2014
-  title: Model-based optimization for robotics,
+  title: Model-based optimization for robotics
   booktitle: IEEE Robotics & Automation Magazine
   authors:
   - family: Mombaur
@@ -2482,18 +2530,6 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01646158/document
   lab: jrl
-- id: coevoet:icra:2017
-  year: 2017
-  title: Optimization-Based Inverse Model of Soft Robots With Contact Handling
-  booktitle: IEEE International Conference on Robotics and Automation
-  authors:
-  - family: Coevoet
-    given: Eulalie
-  - id: escande
-  - family: Duriez
-    given: Christian
-  pdf: https://hal.inria.fr/hal-01500912/file/RAL2017.pdf
-  lab: jrl
 - id: yoshida:issr:2017
   year: 2017
   title: Towards Unified Framework for Trajectory Optimization using General Differential
@@ -2661,6 +2697,7 @@
   - family: Courtois
     given: Sébastien
   - id: kheddar
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01819692v3/document
   lab: jrl
 - id: vasalya:ro-man:2018
   year: 2018
@@ -2770,6 +2807,7 @@
     given: Florent
   - id: kheddar
   - id: kanehiro
+  pdf: https://hal.archives-ouvertes.fr/hal-01746095/file/benallegue2018ICRA-final.pdf
   lab: jrl
 - id: su:humanoids:2018
   year: 2018
@@ -2854,7 +2892,7 @@
     given: Masahiko
   lab: jrl
 - id: samy:sii:2019a
-  year: 2020
+  year: 2019
   title: Fusion of Multiple Motion Capture Systems for Musculoskeletal Analysis
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
@@ -3000,7 +3038,7 @@
   - id: kanehiro
   lab: jrl
 - id: qin:sii:2019
-  year: 2020
+  year: 2019
   title: Cable Installation by a Humanoid Integrating Dual-Arm Manipulation and Walking
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
@@ -3010,7 +3048,7 @@
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Qin-SII2019.pdf
   lab: jrl
 - id: samy:sii:2019b
-  year: 2020
+  year: 2019
   title: Real-Time Musculoskeletal Visualization of Muscle Tension and Joint Reaction
     Forces
   booktitle: IEEE/SICE International Symposium on System Integration
@@ -3025,7 +3063,8 @@
   title: Instance-specific 6-DoF Object Pose Estimation from Minimal Annotations
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - id: singh
+  - family: Singh
+    given: Rohan
   - id: kumagai
   - id: gabas
   - id: benalleguem
@@ -3069,7 +3108,7 @@
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Orthey-IROS2018.pdf
   lab: jrl
 - id: suzui:sii:2019
-  year: 2020
+  year: 2019
   title: Toward 6 DOF Object Pose Estimation with Minimum Dataset
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
@@ -3093,6 +3132,7 @@
     given: Ryo
   - id: morisawa
   - id: kanehiro
+  pdf: https://ras.papercept.net/proceedings/IROS20/1920.pdf
   lab: jrl
 - id: cisneros:ar:2020
   year: 2020
@@ -3117,6 +3157,7 @@
     given: Kei
   - family: Inaba
     given: Masayuki
+  lab: none
 - id: suzuki:ar:2020
   year: 2020
   title: Development of 3-DOF wrist mechanism for electro-hydrostatically driven robot
@@ -3162,6 +3203,7 @@
     given: Takahide
   - family: Inaba
     given: Masayuki
+  lab: none
 - id: shi:icra:2020
   year: 2020
   title: 'Aerial Regrasping: Pivoting with Transformable Multilink Aerial Robot'
@@ -3176,6 +3218,7 @@
     given: Kei
   - family: Inaba
     given: Masayuki
+  lab: none
 - id: kumagai:ral:2020
   year: 2020
   title: Multi-Contact Locomotion Planning for Humanoid Robot Based on Sustainable
@@ -3188,6 +3231,7 @@
     given: Shizuko
   - id: benalleguem
   - id: kanehiro
+  pdf: https://ras.papercept.net/proceedings/IROS20/3089.pdf
   lab: jrl
 - id: benallegue:ral:2020
   year: 2020
@@ -3201,6 +3245,7 @@
     given: Yacine
   - id: morisawa
   - id: kanehiro
+  pdf: https://ras.papercept.net/proceedings/IROS20/3072.pdf
   lab: jrl
 - id: hu:ral:2020
   year: 2020
@@ -3260,7 +3305,8 @@
   booktitle: IEEE International Conference on soft Robotics
   authors:
   - family: Coevoet
-    given: Eulalie Abd Escande
+    given: Eulalie
+  - id: escande
   - family: Duriez
     given: Christian
   pdf: https://hal.inria.fr/hal-02079151/document
@@ -3312,11 +3358,12 @@
   - id: benalleguea
   - family: Chitour
     given: Yacine
+  pdf: https://hal.archives-ouvertes.fr/hal-01499167/file/benallegue2017humnanoids-final.pdf
   lab: jrl
 - id: hajjami:cvpr:2020
   year: 2020
   title: 'ArUcOmni: detection of highly reliable fiducial markers in panoramic images'
-  booktitle: Conference on Computer Vision and Pattern Recognition
+  booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   authors:
   - family: Hajjami
     given: Jaouad
@@ -3327,15 +3374,6 @@
     given: Thibault
   pdf: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w38/Hajjami_ArUcOmni_Detection_of_Highly_Reliable_Fiducial_Markers_in_Panoramic_Images_CVPRW_2020_paper.pdf
   lab: jrl
-- id: gabas:icar:2017
-  year: 2017
-  title: Physical edge detection in clothing items for robotic manipulation
-  booktitle: International Conference on Advanced Robotics
-  authors:
-  - id: gabas
-  - family: Kita
-    given: Yasuyo
-  lab: jrl
 - id: gabas:icip:2020
   year: 2020
   title: 'APE: A More Practical Approach To 6-Dof Pose Estimation'
@@ -3343,7 +3381,8 @@
   authors:
   - id: gabas
   - id: yoshiyasu
-  - id: singh
+  - family: Singh
+    given: Rohan
   - id: sagawa
   - id: yoshida
   lab: jrl
@@ -3440,17 +3479,7 @@
   - family: Courtois
     given: Sébastien
   - id: kheddar
-  lab: jrl
-- id: benallegue:humanoids:2017
-  year: 2017
-  title: Tilt estimator for 3D non-rigid pendulum based on a tri-axial accelerometer
-    and gyrometer
-  booktitle: IEEE-RAS International Conference on Humanoid Robots
-  authors:
-  - id: benalleguem
-  - id: benalleguea
-  - family: Chitour
-    given: Yacine
+  pdf: https://hal.archives-ouvertes.fr/hal-02615390v3/document
   lab: jrl
 - id: samy:humanoids:2017b
   year: 2017
@@ -3744,7 +3773,7 @@
 - id: masuya:ar:2020
   year: 2020
   title: A review of state estimation of humanoid robot targeting the center of mass,
-    base kinematics, and external wrenc
+    base kinematics, and external wrench
   booktitle: Advanced Robotics
   authors:
   - family: Masuya
@@ -3915,8 +3944,8 @@
   lab: jrl
 - id: yamaguchi:ras:2020
   year: 2020
-  title: Selective grasp in occluded space by all-around proximity perceptible finge
-  booktitle: IEEE Robotics and Automation Letters
+  title: Selective grasp in occluded space by all-around proximity perceptible finger
+  booktitle: Robotics and Autonomous Systems
   authors:
   - family: Yamaguchi
     given: Naoya
@@ -3926,6 +3955,7 @@
   - family: Inaba
     given: Masayuki
   pdf: https://reader.elsevier.com/reader/sd/pii/S092188901930274X?token=5DA146BC76B4EBE5FF174749FD240F858E9411C3509AB843F08B6BDCC5ED6679B44D550DB3123337B9216907A2978CB7
+  lab: none
 - id: ota:iros:2020
   year: 2020
   title: Efficient Exploration in Constrained Environments with Goal-Oriented Reference
@@ -3945,14 +3975,14 @@
   lab: jrl
 - id: gabas:rb:2021
   year: 2021
-  title: Dual Edge Classifer for Robust Cloth Unfolding
+  title: Dual Edge Classifier for Robust Cloth Unfolding
   booktitle: Robomech Journal
   authors:
   - id: gabas
   - family: Kita
     given: Yasuyo
   - id: yoshida
-  pdf: https://assets.researchsquare.com/files/rs-151199/v1_stamped.pdf
+  pdf: https://robomechjournal.springeropen.com/articles/10.1186/s40648-021-00202-8
   lab: jrl
 - id: sakurada:robio:2018
   year: 2018
@@ -4033,6 +4063,32 @@
   - id: murooka
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1803128?needAccess=true
   lab: jrl
+- id: shibata:ar:2020
+  year: 2020
+  title: Task-board task for assembling a belt drive unit
+  booktitle: Advanced Robotics
+  authors:
+  - family: Shibata
+    given: Mizuho
+  - family: Dobashi
+    given: Hiroki
+  - family: Uemura
+    given: Wataru
+  - family: Kotosaka
+    given: Shinya
+  - family: Aiyama
+    given: Yasumichi
+  - id: sakaguchi
+  - family: Kawai
+    given: Yoshihiro
+  - family: Noda
+    given: Akio
+  - family: Yokoi
+    given: Kazuhito
+  - family: Yokokohji
+    given: Yasuyoshi
+  pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1717613?needAccess=true
+  lab: other
 - id: sanchez:ijhr:2020
   year: 2020
   title: 'Re-posing Objects Considering Bipedal Stability Constraints: An Approach
@@ -4133,6 +4189,34 @@
   - family: Harada
     given: Kensuke
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9361266
+  lab: jrl
+- id: murooka:ral:2021
+  year: 2021
+  title: Humanoid Loco-Manipulation Planning Based on Graph Search and Reachability
+    Maps
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: murooka
+  - id: kumagai
+  - id: morisawa
+  - id: kanehiro
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9359455
+  lab: jrl
+- id: murooka:ral:2021-2
+  year: 2021
+  title: Humanoid Loco-Manipulations Pattern Generation and Stabilization Control
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: murooka
+  - id: chappellet
+  - id: tanguy
+  - id: benalleguem
+  - id: kumagai
+  - id: morisawa
+  - id: kanehiro
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9424385
   lab: jrl
 - id: sagawa:accv:2020
   year: 2020
@@ -4242,6 +4326,7 @@
   - family: Chaumette
     given: François
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8519739
+  lab: none
 - id: bensesddik:ijrr:2020
   year: 2020
   title: 'PanoraMIS: An Ultra-wide Field of View Image Dataset for Vision-based Robot-Motion
@@ -4254,6 +4339,7 @@
     given: Fabio
   - id: carong
   pdf: https://hal.archives-ouvertes.fr/hal-02492460/document
+  lab: none
 - id: ahmine:ivc:2019
   year: 2019
   title: Adaptive Lucas-Kanade tracking
@@ -4267,6 +4353,7 @@
   - family: Chouireb
     given: Fatima
   pdf: https://reader.elsevier.com/reader/sd/pii/S026288561930054X?token=45F232B6615FD753CDA27D2AB25B5E7B1D319B571321B62BAEA9CF5A3FE378905ADA872FDEF306E4021914BD3EC77024
+  lab: none
 - id: bretagne:ijprs:2018
   year: 2018
   title: Spherical target-based calibration of terrestrial laser scanner intensity.
@@ -4279,6 +4366,7 @@
     given: Pascal
   - id: carong
   pdf: https://reader.elsevier.com/reader/sd/pii/S0924271618301771?token=1134717A44BDDFA37DFA2BFD64A3E1E4190ACB7E6ACC983D68C8F7F39CBC3FCA9435E775F2115417F1E5232B181F0848
+  lab: none
 - id: caron:icra:2018
   year: 2018
   title: Spherical Visual Gyroscope for Autonomous Robots using the Mixture of Photometric
@@ -4289,6 +4377,7 @@
   - family: Morbidi
     given: Fabio
   pdf: https://home.mis.u-picardie.fr/~fabio/Eng/documenti/articoli/CaMo_ICRA18.pdf
+  lab: none
 - id: martinez:icra:2020
   year: 2020
   title: Photometric Path Planning for Vision-Based Navigation
@@ -4302,6 +4391,7 @@
   - family: Lara
     given: David
   pdf: http://www.lewissoft.com/pdf/ICRA2020/2989.pdf
+  lab: none
 - id: mohtaram:icip:2018
   year: 2018
   title: 'Amift: Affine-Mirror Invariant Feature Transform'
@@ -4315,6 +4405,7 @@
   - family: Mouaddib
     given: El
   pdf: https://hal.archives-ouvertes.fr/hal-01907307/document
+  lab: none
 - id: delmas:sii:2021
   year: 2020
   title: 'SpheriCol: A Driving Assistance System for Power Wheelchairs Based on Spherical
@@ -4349,29 +4440,108 @@
   - family: Lara-Alabazares
     given: David
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9210085
-- id: singh:cvpr:2020
-  year: 2020
+  lab: other
+- id: singh:icra:2021
+  year: 2021
   title: Rapid Pose Label Generation through Sparse Representation of Unknown Objects
-  booktitle: Conference on Computer Vision and Pattern Recognition
+  booktitle: IEEE International Conference on Robotics and Automation
   authors:
   - family: Singh
-    given: Pratap
+    given: Rohan
   - id: benalleguem
   - id: yoshiyasu
   - id: kanehiro
   pdf: https://arxiv.org/pdf/2011.03790.pdf
   lab: jrl
-- id: demagistris:ras:2017
+- id: melingui:tm:2015
+  year: 2015
+  title: Adaptive Neural Net- work Control of a Compact Bionic Handling Arm
+  booktitle: IEEE-ASME Transactions on Mechatronics
+  authors:
+  - family: Melingui
+    given: Achille
+  - family: Lakhal
+    given: Othman
+  - id: daachi
+  - family: Mbede
+    given: Jean
+  - family: Merzouki
+    given: Rochdi
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7057549
+  lab: jrl
+- id: chenane:biorob:2016
+  year: 2016
+  title: 'Algorithms of control by thought in robotics: active and passive BMIs based
+    on prior knowledge'
+  booktitle: International Conference on Biomedical Robotics and Biomechatronics
+  authors:
+  - family: Chenane
+    given: Kathia
+  - family: Touati
+    given: Youcef
+  - family: Boubchir
+    given: Larbi
+  - id: daachi
+  - family: Ali-Cherif
+    given: A
+  pdf: file:///C:/Users/snkarc73/Downloads/Biorob_2016%20(1).pdf
+  lab: jrl
+- id: pham:iccv:2015
+  year: 2015
+  title: Capturing and Reproducing Hand-Object Interactions Through Vision-Based Force
+    Sensing
+  booktitle: IEEE International Conference on Computer Vision
+  authors:
+  - id: pham
+  - id: kheddar
+  - family: Qammaz
+    given: Ammar
+  - family: Argyros
+    given: Antonis
+  pdf: https://hal.archives-ouvertes.fr/hal-01372238/document
+  lab: jrl
+- id: suleiman:sii:2015
+  year: 2015
+  title: Infeasibility-free inverse kinematics method
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Suleiman
+    given: Wael
+  - family: Kanehiro.fumio
+    given: ''
+  - id: yoshida
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Suleiman-SII2015.pdf
+  lab: jrl
+- id: samy:humanoids:2015
+  year: 2015
+  title: Falls control using posture reshaping and active compliance
+  booktitle: IEEE-RAS International Conference on Humanoid Robots (Humanoids)
+  authors:
+  - family: Samy
+    given: Vincent
+  - id: kheddar
+  pdf: http://comanoid.cnrs.fr/publications_files/2015/Humanoids/T5OC-4.pdf
+  lab: jrl
+  bib: http://comanoid.cnrs.fr/publications_files/2015/Humanoids/T5OC-4.bib
   projects:
-  - koroibot
-  pdf: https://hal.archives-ouvertes.fr/hal-01526033/document
-  bib: https://hal.archives-ouvertes.fr/hal-01526033v2/bibtex
+  - comanoid
+- id: imamura:humanoids:2015
+  year: 2015
+  title: 'Verification of passive power-assist device using humanoid robot: Effect
+    on bending and twisting motion'
+  booktitle: IEEE/RAS International Conference on Humanoid Robots (Humanoids)
+  authors:
+  - family: Imamura
+    given: Yumeko
+  - family: Tanaka
+    given: Takayuki
+  - id: ayusawa
+  - id: yoshida
+  pdf: http://staff.aist.go.jp/e.yoshida/papers/humanoids2015_imamura.pdf
 - id: brossette:humanoids:2015
   year: 2015
   title: Humanoid posture generation on non-Euclidean manifolds
   booktitle: IEEE-RAS International Conference on Humanoid Robots (Humanoids)
-  bib: http://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.bib
-  pdf: http://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.pdf
   authors:
   - id: brossette
   - id: escande
@@ -4379,8 +4549,1214 @@
     given: Grégoire
   - id: chretien
   - id: kheddar
+  pdf: http://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.pdf
+  lab: jrl
+  bib: http://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.bib
   projects:
   - comanoid
+- id: jovic:iros:2015
+  year: 2015
+  title: 'Identification of dynamics of humanoids: Systematic exciting motion generation'
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  authors:
+  - family: Jovic
+    given: Jovana
+  - family: Philipp
+    given: Franck
+  - id: escande
+  - id: ayusawa
+  - id: yoshida
+  - id: kheddar
+  - family: Venture
+    given: Gentiane
+  pdf: http://staff.aist.go.jp/e.yoshida/papers/Jovic_IROS_2015.pdf
+  lab: jrl
+- id: chrétien:iros:2015
+  year: 2015
+  title: Continuously satisfying constraints with contact forces in trajectory optimization
+    for humanoid robots
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: chretien
+  - id: escande
+  - id: kheddar
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document
+  lab: jrl
+- id: boubchir:embc:2015
+  year: 2015
+  title: EEG error potentials detection and classi- fication using time-frequency
+    features for robot reinforcement learning
+  booktitle: International Conference of the IEEE Engineering in Medicine and Biology
+    Society
+  authors:
+  - family: Boubchir
+    given: Larbi
+  - family: Touati
+    given: Youcef
+  - id: daachi
+  - family: Chérif
+    given: Ali
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7318719
+  lab: jrl
+- id: imamura:embc:2015
+  year: 2015
+  title: 'Lumbar load estimation using a musculoskeletal model in consideration of
+    vertebral body displacement: Lumbar load simulation under static conditions'
+  booktitle: International Conference of the IEEE Engineering in Medicine and Biology
+    Society
+  authors:
+  - id: imamura
+  - family: Tanaka
+    given: Takayuki
+  - family: Kusaka
+    given: Takashi
+  - family: Tsuchiya
+    given: Yoshio
+  lab: jrl
+- id: yoshiyasu:embc:2015
+  year: 2015
+  title: Forward dynamics simulation of human figures on assistive devices using geometric
+    skin deformation model
+  booktitle: Annual International Conference of the IEEE Engineering in Medicine and
+    Biology Society (EMBC)
+  authors:
+  - family: Yoshiyasu
+    given: Yusuke
+  - id: ayusawa
+  - id: yoshida
+  - given: Matsumoto
+    family: Yoshio
+  - given: Endo
+    family: Yui
+  pdf: http://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu2015_EMBC.pdf
+- id: kapeller:embc:2015
+  year: 2015
+  title: Online control of a humanoid robot through hand movement imagination using
+    CSP and ECoG based features
+  booktitle: Annual International Conference of the IEEE Engineering in Medicine and
+    Biology Society (EMBC)
+  authors:
+  - given: Christoph
+    family: Kapeller
+  - id: gergondet
+  - given: K
+    family: Kamada
+  - given: Hiroshi
+    family: Ogawa
+  - given: F
+    family: Takeuchi
+  - given: Rupert
+    family: Ortner
+  - given: Robert
+    family: Pruckl
+  - id: kheddar
+  - given: J
+    family: Scharinger
+  - given: Christoph
+    family: Guger
+  lab: jrl
+  bib: http://www.ncbi.nlm.nih.gov/pubmed/26736620
+  projects:
+  - vere
+- id: daachi:icorr:2015
+  year: 2015
+  title: Expliciting SSVEP misclassifications with extra-brain activities using time-frequency
+    EEG analysis
+  booktitle: IEEE International Conference on Rehabilitation Robotics (ICORR)
+  authors:
+  - id: daachi
+  - id: gergondet
+  - given: Larbi
+    family: Boubchir
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7281338
+  bib: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7281338
+  projects:
+  - vere
+- id: gabas:icar:2017
+  year: 2017
+  title: Physical edge detection in clothing items for robotic manipulation
+  booktitle: International Conference on Advanced Robotics
+  authors:
+  - id: gabas
+  - family: Kita
+    given: Yasuyo
+  lab: jrl
+- id: daachi:icorr:2015
+  year: 2015
+  title: Model reference adaptive control using a neural compensator to drive an active
+    knee joint orthosis
+  booktitle: International Conference on Rehabilitation Robotics
+  authors:
+  - id: daachi
+  - family: Madani
+    given: Tarek
+  - family: Daachi
+    given: E.
+  - family: Djouani
+    given: Karim
+  pdf: https://drive.google.com/file/d/0B1VillHhAF_pa2RKaXo2VXNWcTg/view
+  lab: jrl
+- id: pajon:icar:2015
+  year: 2015
+  title: A humanoid walking pattern generator for sole design optimization
+  booktitle: 17th International Conference on Advanced Robotics (ICAR)
+  authors:
+  - family: Pajon
+    given: Adrien
+  - id: demagistris
+  - family: Miossec
+    given: Sylvain
+  - family: Kaneko
+    given: Kenji
+  - id: kheddar
+  pdf: https://hal.archives-ouvertes.fr/hal-01278857/document
+  lab: jrl
+  bib: https://hal.archives-ouvertes.fr/hal-01278857/bibtex
+  projects:
+  - koroibot
+- id: yoshida:arso:2015
+  year: 2015
+  title: Simulation-based optimal motion planning for deformable object
+  booktitle: IEEE International Workshop on Advanced Robotics and its Social Impacts
+    (ARSO)
+  authors:
+  - id: yoshida
+  - id: ayusawa
+  - given: Ixchel
+    family: G.Ramirez-Alpizar
+  - given: Harada
+    family: Kensuke
+  - given: Duriez
+    family: Christian
+  - id: kheddar
+  pdf: http://staff.aist.go.jp/e.yoshida/papers/Yoshida-ARSO15.pdf
+  lab: jrl
+- id: pham:cvpr:2015
+  year: 2015
+  title: 'Towards Force Sensing From Vision: Observing Hand-Object Interactions to
+    Infer Manipulation Forces'
+  booktitle: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  authors:
+  - id: pham
+  - id: kheddar
+  - family: Qammaz
+    given: Ammar
+  - family: Argyros
+    given: Antonis A.
+  pdf: https://hal.archives-ouvertes.fr/hal-01356136/document
+  lab: jrl
+  bib: https://raw.githubusercontent.com/ph4m/homepage/master/bibtex/cvpr.pham.2015.bib
+  projects:
+  - robohow
+- id: petit:icra:2015
+  year: 2015
+  title: An integrated framework for humanoid embodiment with a BCI
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - id: petit
+  - id: gergondet
+  - family: Cherubini
+    given: Andrea
+  - id: kheddar
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01222969/document
+  lab: jrl
+- id: kumar:aic:2014
+  year: 2014
+  title: 'Romeo2 Project: Humanoid Robot Assistant and Companion for Everyday Life:
+    I. Situation Assessment for Social Intelligence'
+  booktitle: International Workshop on Artificial Intelligence and Cognition
+  authors:
+  - family: Kumar Pandey
+    given: Amit
+  - family: Gelin
+    given: Rodolphe
+  - family: Alami
+    given: Rachid
+  - family: Viry
+    given: Renaud
+  - family: Buendia
+    given: Axel
+  - family: Meertens
+    given: Roland
+  - family: Chetouani
+    given: Mohamed
+  - family: Devillers
+    given: Laurence
+  - family: Tahon
+    given: Marie
+  - family: Filliat
+    given: David
+  - family: Grenier
+    given: Yves
+  - family: Maazaoui
+    given: Mounira
+  - id: kheddar
+  - family: Lerasle
+    given: Frédéric
+  pdf: https://hal.archives-ouvertes.fr/hal-01096094/document
+  lab: jrl
+- id: ramirez-alpizar:humanoids:2014
+  year: 2014
+  title: Motion Planning for Dual-arm Assembly of Ring-shaped Elastic Objects
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Ramirez-Alpizar
+    given: G.
+  - family: Harada
+    given: Kensuke
+  - id: yoshida
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/humanoids2014_Ixchel_proc.pdf
+  lab: jrl
+- id: ayusawa:humanoids:2014
+  year: 2014
+  title: Evaluation of assistive devices using humanoid robot with mechanical parameters
+    identification
+  booktitle: IEEE/RAS International Conference on Humanoid Robots (Humanoids)
+  authors:
+  - id: ayusawa
+  - family: Nakaoka
+    given: Shin'ichiro
+  - id: yoshida
+  - family: Imamura
+    given: Yumeko
+  - family: Tanaka
+    given: Takayuki
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids14_ayusawa_proc.pdf
+  lab: jrl
+- id: vaillant:humanoids:2014
+  year: 2014
+  title: Vertical Ladder Climbing by the HRP-2 Humanoid Robot
+  booktitle: IEEE/RAS International Conference on Humanoid Robots (Humanoids)
+  authors:
+  - id: vaillant
+  - id: kheddar
+  - id: audren
+  - id: keith
+  - id: brossette
+  - family: Kaneko
+    given: Kenji
+  - id: morisawa
+  - id: yoshida
+  - family: Kanehiro
+    given: Fumio
+  pdf: https://hal.archives-ouvertes.fr/hal-01276934/document
+  lab: jrl
+  bib: https://hal.archives-ouvertes.fr/hal-01276934v1/bibtex
+- id: cisneros:humanoids:2014
+  year: 2014
+  title: Partial yaw moment compensation through whole-body motion
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: cisneros
+  - id: yoshida
+  - family: Yokoi
+    given: Kazuhito
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids2014_Cisneros.pdf
+  lab: jrl
+- id: paolillo:humanoids:2014
+  year: 2014
+  title: Toward autonomous car driving by a humanoid robot- A sensor-based framework
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Paolillo
+    given: Antonio
+  - family: Cherubini
+    given: Andrea
+  - id: keith
+  - id: kheddar
+  - family: Vendittelli
+    given: Marilena
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01247234/document
+  lab: jrl
+- id: lópez:humanoids:2014
+  year: 2014
+  title: Compliant control of a humanoid robot helping a person stand up from a seated
+    position
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: López
+    given: Montellano
+  - id: vaillant
+  - id: keith
+  - family: Fraisse
+    given: Philippe
+  - id: kheddar
+  pdf: https://www.researchgate.net/profile/Philippe-Fraisse/publication/283594260_Compliant_control_of_a_humanoid_robot_helping_a_person_stand_up_from_a_seated_position/links/56ead18408aec6b500164b22/Compliant-control-of-a-humanoid-robot-helping-a-person-stand-up-from-a-seated-position.pdf
+  lab: jrl
+- id: gergondet:urai:2014
+  year: 2014
+  title: Combining 3D SLAM and visual tracking to reach and retrieve objects in daily-life
+    indoor environments
+  booktitle: International Conference on Ubiquitous Robots and Ambient Intelligence
+    (URAI)
+  authors:
+  - id: gergondet
+  - id: petit
+  - given: Maxime
+    family: Meilland
+  - id: kheddar
+  - given: Andrew
+    family: Comport
+  - given: Andréa
+    family: Cherubini
+  pdf: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01247142/document
+  lab: jrl
+  bib: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01247142
+  projects:
+  - vere
+- id: brossette:iros:2014
+  year: 2014
+  title: Integration of Non-Inclusive Contacts in Posture Generation
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: brossette
+  - id: escande
+  - id: vaillant
+  - id: keith
+  - id: moulard
+  - id: kheddar
+  pdf: https://hal.archives-ouvertes.fr/hal-01016319/document
+  lab: jrl
+  bib: https://hal.archives-ouvertes.fr/hal-01016319v1/bibtex
+  projects:
+  - robohow
+  - koroibot
+- id: audren:iros:2014
+  year: 2014
+  title: Model Preview Control in Multi-Contact Motion - Application to a Humanoid
+    Robot
+  booktitle: IEEE/RSJ Internation Conference on Intelligent Robots and Systems (IROS)
+  authors:
+  - id: audren
+  - id: vaillant
+  - id: kheddar
+  - id: escande
+  - family: Kaneko
+    given: Kenji
+  - id: yoshida
+  pdf: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01256511/document
+  lab: jrl
+  bib: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01256511v1/bibtex
+  projects:
+  - robohow
+  - koroibot
+- id: maamir:med:2014
+  year: 2014
+  title: PSO algorithm based thermal contact resistance estimation for variable force
+    hand/object interaction
+  booktitle: Mediterranean Conference on Control and Automation
+  authors:
+  - family: Maamir
+    given: Fouad
+  - family: Guiatni
+    given: Mohamed
+  - family: Morsly
+    given: Yacine
+  - id: kheddar
+- id: petit:cyber:2014
+  year: 2014
+  title: Navigation assistance for a bci-controlled humanoid robot
+  booktitle: Cyber Technology in Automation, Control, and Intelligent Systems (CYBER)
+  authors:
+  - id: petit
+  - id: gergondet
+  - given: Andréa
+    family: Cherubini
+  - given: Maxime
+    family: Meilland
+  - given: Andrew
+    family: Comport
+  - id: kheddar
+  pdf: https://saturne.lirmm.fr/content/download/9167/136428/file/Navigation%20assistance%20for%20a%20BCI-controlled%20humanoid%20robot.pdf
+  lab: jrl
+  projects:
+  - vere
+- id: cisneros:icma:2014
+  year: 2014
+  title: Yaw Moment Compensation By Using Full Body Motion
+  booktitle: IEEE International Conference on Mechatronics and Automation
+  authors:
+  - id: cisneros
+  - family: Yokoi
+    given: Kazuhito
+  - id: yoshida
+  pdf: file:///C:/Users/snkarc73/Downloads/ICMA2014-Rafael-proc.pdf
+  lab: jrl
+- id: mikami:ifac:2014
+  year: 2014
+  title: Study on Dynamics Identification of the Foot Viscoelasticity of a Humanoid
+    Robot
+  booktitle: 19th World Congress, The International Federation of Automatic Control
+  authors:
+  - family: Mikami
+    given: Yuya
+  - id: moulard
+  - id: yoshida
+  - id: venture
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Mikami_IFAC2014.pdf
+  lab: jrl
+- id: yoshiyasu:cvpr:2014
+  year: 2014
+  title: Symmetry-Aware Nonrigid Matching of Incomplete 3D Surfaces
+  booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  authors:
+  - id: yoshiyasu
+  - id: yoshida
+  - family: Yokoi
+    given: Kazuhito
+  - id: sagawa
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu2014CVPR.pdf
+  lab: jrl
+- id: rojas:icra:2014
+  year: 2014
+  title: Early Failure Characterization of Cantilever Snap Assemblies using the PA-RCBHT
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - family: Rojas
+    given: Juan
+  - family: Harada
+    given: Kensuke
+  - family: Onda
+    given: Hiromu
+  - id: yamanobe
+  - id: yoshida
+  - family: Nagata
+    given: Kazuyuki
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Rojas2014ICRA.pdf
+- id: bouyarmane:iconip:2013
+  year: 2013
+  title: BCI Control of Whole-Body Simulated Humanoid by Combining Motor Imagery Detection
+    and Autonomous Motion Planning
+  booktitle: International Conference on Neural Information Processing
+  authors:
+  - family: Bouyarmane
+    given: Karim
+  - id: vaillant
+  - family: Sugimoto
+    given: Norikazu
+  - family: Keith
+    given: Francois
+  - family: Furukawa
+    given: Jun-Ichiro
+  - family: Morimoto
+    given: Jun
+  pdf: https://members.loria.fr/kbouyarmane/iconip2013.pdf
+- id: agravante:ram:2013
+  year: 2013
+  title: Using vision and haptic sensing for human-humanoid haptic joint actions
+  booktitle: IEEE International Conference on Robotics, Automation and Mechatronics
+  authors:
+  - family: Agravante
+    given: Don
+  - family: Cherubini
+    given: Andrea
+  - id: kheddar
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00908439/document
+  lab: jrl
+- id: brossette:ram:2013
+  year: 2013
+  title: 'Point-Cloud Multi-Contact Planning for Humanoids: Preliminary Results'
+  booktitle: Cybernetics and Intelligent Systems Robotics, Automation and Mechatronics
+    (CISRAM)
+  authors:
+  - id: brossette
+  - id: vaillant
+  - id: keith
+  - id: escande
+  - id: kheddar
+  pdf: https://hal.archives-ouvertes.fr/lirmm-00863931/document
+  lab: jrl
+  bib: https://hal.archives-ouvertes.fr/lirmm-00863931v1/bibtex
+  projects:
+  - robohow
+- id: agravante:iros:2013
+  year: 2013
+  title: Human-Humanoid Joint Haptic Table Carrying Task with Height Stabilization
+    using Vision
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Agravante
+    given: Don
+  - family: Cherubini
+    given: Andrea
+  - id: bussy
+  - id: kheddar
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00857659/document
+  lab: jrl
+- id: agravante:hfr:2013
+  year: 2013
+  title: Visio-haptic control for Human-Humanoid Cooperative Carrying
+  booktitle: International Workshop on Human-Friendly Robotics
+  authors:
+  - family: Agravante
+    given: Don
+  - family: Cherubini
+    given: Andrea
+  - id: kheddar
+  pdf: https://hfr13.files.wordpress.com/2013/08/08agravante.pdf
+- id: moulard:isr:2013
+  year: 2013
+  title: Optimization-based motion retargeting integrating spatial and dynamic constraints
+    for humanoid
+  booktitle: International Symposium on Robotics
+  authors:
+  - id: moulard
+  - id: yoshida
+  - id: nakaoke
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/retargeting-isr2013.pdf
+  lab: jrl
+- id: jarquín:humanoids:2013
+  year: 2013
+  title: Real-time smooth task transitions for hierarchical inverse kinematics
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Jarquín
+    given: Gerardo
+  - id: escande
+  - family: Arechavaleta
+    given: Gustavo
+  - id: moulard
+  - id: yoshida
+  - family: Parra-Vega
+    given: Vicente
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Jarquin_smoothSwaps_humanoids2013.pdf
+  lab: jrl
+- id: cisneros:humanoids:2013
+  year: 2013
+  title: Impulsive pedipulation of a spherical object for reaching a 3D goal position
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: cisneros
+  - family: Yokoi
+    given: Kazuhito
+  - id: yoshida
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Cisneros-humanoids2013.pdf
+  lab: jrl
+- id: bouyarmane:humanoids:2012
+  year: 2012
+  title: Exploring humanoid robots locomotion capabilities in virtual disaster response
+    scenarios
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Bouyarmane
+    given: Karim
+  - id: vaillant
+  - id: keith
+  - id: kheddar
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00765817/document
+- id: bouyarmane:humanoids:2012
+  year: 2012
+  title: On the dynamics modeling of free-floating-base articulated mechanisms and
+    applications to humanoid whole-body dynamics and control
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Bouyarmane
+    given: Karim
+  - id: kheddar
+  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00765815/document/
+  lab: jrl
+- id: rojas:iros:2012
+  year: 2012
+  title: A relative-change-based hierarchical taxonomy for cantilever-snap assembly
+    verification
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Rojas
+    given: Juan
+  - family: Harada
+    given: Kensuke
+  - family: Onda
+    given: Hiromu
+  - id: yamanobe
+  - id: yoshida
+  - family: Nagata
+    given: Kazuyuki
+  - family: Kawai
+    given: Yoshihiro
+  pdf: http://juanrojas.net/wp-content/uploads/papers/2012IROS-Rojas-RelChangHierarchAsmblyVer-Final.pdf
+  lab: jrl
+- id: rojas:icma:2012
+  year: 2012
+  title: A constraint-based motion control strategy for cantilever snap assemblies
+  booktitle: IEEE International Conference on Mechatronics and Automation
+  authors:
+  - family: Rojas
+    given: Juan
+  - family: Harada
+    given: Kensuke
+  - family: Onda
+    given: Hiromu
+  - id: yamanobe
+  - id: yoshida
+  - family: Kawai
+    given: Yoshihiro
+  pdf: http://www.juanrojas.net/wp-content/uploads/papers/2012ICMA-Rojas-CnstrntMtnSnapAsmbly-Final.pdf
+- id: ko:ar:2018
+  year: 2018
+  title: Key design parameters of a few types of electro-hydrostatic actuators for
+    humanoid robots
+  booktitle: Advanced Robotics
+  authors:
+  - family: Ko
+    given: Tianyi
+  - id: kaminaga
+  - family: Nakamura
+    given: Yoshihiko
+  pdf: https://www.tandfonline.com/doi/full/10.1080/01691864.2018.1545604
+- id: ko:ar:2018
+  year: 2018
+  title: Key design parameters of a few types of electro-hydrostatic actuators for
+    humanoid robots
+  booktitle: Advanced Robotics
+  authors:
+  - family: Ko
+    given: Tianyi
+  - id: kaminaga
+  - family: Nakamura
+    given: Yoshihiko
+  pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2018.1545604?needAccess=true
+- id: morisawa:humanoids:2018
+  year: 2018
+  title: Online 3D CoM Trajectory Generation for Multi-Contact Locomotion Synchronizing
+    Contact
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: morisawa
+  - id: cisneros
+  - id: benalleguem
+  - id: kumagai
+  - id: escande
+  - id: kanehiro
+  pdf: http://crlab.cs.columbia.edu/humanoids_2018_proceedings/media/files/0111.pdf
+  lab: jrl
+- id: kumagai:humanoids:2018
+  year: 2018
+  title: Efficient Locomotion Planning for a Humanoid Robot with Whole-Body Collision
+    Avoidance Guided by Footsteps and Centroidal Sway Motion
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: kumagai
+  - id: morisawa
+  - id: nakaoke
+  - id: kanehiro
+- id: kajita:humanoids:2017
+  year: 2017
+  title: Biped walking pattern generation based on spatially quantized dynamics
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: kajita
+  - id: benalleguem
+  - id: cisneros
+  - id: sakaguchi
+  - id: nakaoke
+  - id: morisawa
+  - id: kaneko
+  - family: Kanehiro.fumio
+    given: ''
+  pdf: file:///C:/Users/snkarc73/Downloads/download.pdf
+  lab: hrg
+- id: laumond:ijrr:2017
+  year: 2017
+  title: The Yoyo-Man
+  booktitle: The International Journal of Robotics Research
+  authors:
+  - family: Laumond
+    given: Jean–paul
+  - id: benalleguem
+  - family: Carpentier
+    given: Justin
+  - family: Berthoz
+    given: Alain
+  pdf: file:///C:/Users/snkarc73/Downloads/17-ijrr-yoyoman.pdf
+- id: flayols:humanoids:2017
+  year: 2017
+  title: Experimental evaluation of simple estimators for humanoid robots
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Flayols
+    given: Thomas
+  - family: Del Prete
+    given: Andrea
+  - family: Wensing
+    given: Patrick
+  - family: Mifsud
+    given: Alexis
+  - id: benalleguem
+  - family: Stasse
+    given: Olivier
+  pdf: https://hal.archives-ouvertes.fr/hal-01574819/document
+- id: ko:icra:2017
+  year: 2017
+  title: Underactuated four-fingered hand with five electro hydrostatic actuators
+    in cluster
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - family: Ko
+    given: Tianyi
+  - id: kaminaga
+  - family: Nakamura
+    given: Yoshihiko
+- id: kumagai:humanoids:2017
+  year: 2017
+  title: Complementary Integration Framework of Localization and Recognition for a
+    Humanoid Robot Based on Task-Oriented Frequency and Accuracy Requirement
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: kumagai
+  - family: Sugai
+    given: Fumihito
+  - family: Nozawa
+    given: Shunnichi
+  - family: Kakiuchi
+    given: Youhei
+  - family: Okada
+    given: Kei
+  - family: Inaba
+    given: Masayuki
+  - id: kanehiro
+- id: kajita:humanoids:2017
+  year: 2017
+  title: Biped walking pattern generation based on spatially quantized dynamics
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: kajita
+  - id: benalleguem
+  - id: cisneros
+  - id: sakaguchi
+  - id: nakaoke
+  - id: morisawa
+  - id: kanehiro
+- id: carpentier:tro:2016
+  year: 2016
+  title: Center of Mass Estimation for Polyarticulated System in Contact - A Spectral
+    Approach
+  booktitle: IEEE Transactions on Robotics
+  authors:
+  - family: Carpentier
+    given: Justin
+  - id: benalleguem
+  - family: Mansard
+    given: Nicolas
+  - family: Laumond
+    given: Jean-Paul
+  pdf: https://hal.archives-ouvertes.fr/hal-01182734/file/15_tro_com_estimation.pdf
+- id: mifsud:iros:2016
+  year: 2016
+  title: Stabilization of a Compliant Humanoid Robot Using Only Inertial Measurement
+    Units with a Viscoelastic Reaction Mass Pendulum Model
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Mifsud
+    given: Alexis
+  - id: benalleguem
+  - family: Lamiraux
+    given: Florent
+  pdf: https://hal.archives-ouvertes.fr/hal-01285643/file/mifsud2016iros.pdf
+- id: nakaoka:arso:2017
+  year: 2017
+  title: Developing Semi-Autonomous Humanoid Robots that Perform Various Composite
+    Tasks via a Task Sequencer and Dynamics Simulator
+  booktitle: IEEE International Conference on Advanced Robotics and its Social Impacts
+  authors:
+  - id: nakaoke
+  - id: cisneros
+  - id: morisawa
+  - id: sakaguchi
+  - id: kaneko
+  - family: Kajita.shuuji
+    given: ''
+  - id: kanehiro
+- id: cisneros:ar:2016
+  year: 2016
+  title: 'Effective teleoperated manipulation for humanoid robots in partially unknown
+    real environments: team AIST-NEDO’s approach for performing the Plug Task during
+    the DRC Finals'
+  booktitle: Advanced Robotics
+  authors:
+  - id: cisneros
+  - family: Nakaoka
+    given: Shin’ichiro
+  - id: morisawa
+  - id: kaneko
+  - id: kajita
+  - id: sakaguchi
+  - id: kanehiro
+  pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2016.1250674?needAccess=true
+- id: kajita:humanoids:2016
+  year: 2016
+  title: Impact Acceleration of Falling Humanoid Robot with an Airbag
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: kajita
+  - id: cisneros
+  - id: benalleguem
+  - id: sakaguchi
+  - id: nakaoke
+  - id: morisawa
+  - id: kaneko
+  - id: kanehiro
+- id: kita:icpr:2016
+  year: 2016
+  title: Virtual Flattening of Clothing Item Held in the Air
+  booktitle: IAPR/IEEE International Conference on Pattern Recognition
+  authors:
+  - family: Kita
+    given: Yasuyo
+  - family: Kita
+    given: Nobuyuki
+  pdf: https://staff.aist.go.jp/y.kita/Papers/ICPR16_virtual.pdf
+- id: kita:dicta:2016
+  year: 2016
+  title: Evaluation of the Viewpoint Shift for a Fisheye Lens Based on Stereo Geometry
+  booktitle: 'International Conference on Digital Image Computing: Techniques and
+    Applications'
+  authors:
+  - family: Kita
+    given: Nobuyuki
+  pdf: https://staff.aist.go.jp/n.kita/work/publications/DICTA16.pdf
+- id: kita:sii:2015
+  year: 2015
+  title: 3D Shape Measurement of a Large Cloth Extremely Close to a Fisheye Stereo
+    Camera
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Kita
+    given: Nobuyuki
+  - id: kanehiro
+  - family: Kita
+    given: Yasuyo
+  pdf: https://staff.aist.go.jp/n.kita/work/publications/SII15.pdf
+- id: ayusawa:iros:2015
+  year: 2015
+  title: Motion retargeting for humanoid robots based on identification to preserve
+    and reproduce human motion features
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  authors:
+  - id: ayusawa
+  - id: morisawa
+  - id: yoshida
+  pdf: http://staff.aist.go.jp/e.yoshida/papers/IROS2015_Ayusawa.pdf
+  lab: jrl
+- id: nakaoka:humanoids:2015
+  year: 2015
+  title: Task Sequencer Integrated into a Teleoperation Interface for Biped Humanoid
+    Robots
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: nakaoke
+  - id: morisawa
+  - id: cisneros
+  - id: sakaguchi
+  - id: kajita
+  - id: kaneko
+  - id: kanehiro
+- id: sagawa:ro-man:2015
+  year: 2015
+  title: Modeling Dynamic Scenes by One-shot 3D Acquisition System for Moving Humanoid
+    Robot
+  booktitle: International Symposium on Robot and Human Interactive Communication
+  authors:
+  - id: sagawa
+  - family: Malleson
+    given: Charles
+  - id: morisawa
+  - id: kaneko
+  - id: kanehiro
+  - family: Matsumoto
+    given: Yoshio
+  - family: Hilton
+    given: Adrian
+- id: okamoto:itr:2014
+  year: 2014
+  title: 'Toward a Dancing Robot With Listening Capability: Keypose-Based Integration
+    of Lower-, Middle-, and Upper-Body Motions for Varying Music Tempos'
+  booktitle: IEEE Transactions on Robotics
+  authors:
+  - family: Okamoto
+    given: Takahiro
+  - family: Shiratori
+    given: Takaaki
+  - family: Kudoh
+    given: Shunsuke
+  - family: Nakaoka
+    given: Shin’ichiro
+  - family: Ikeuchi
+    given: Katsushi
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6730703
+- id: asano:rose:2014
+  year: 2014
+  title: Risk Evaluation of Ground Surface Using Multichannel Foot Sensors for Biped
+    Robots
+  booktitle: International Symposium on Robotic and Sensors Environments
+  authors:
+  - family: Asano
+    given: Futoshi
+  - family: Asoh
+    given: Hidek
+  - id: morisawa
+  - id: kajita
+  - family: Yokoi
+    given: Kazuhito
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6952984
+- id: kita:visapp:2014
+  year: 2014
+  title: Evaluation of 3D Analysis Error Caused by SVP Approximation of Fisheye Lens
+  booktitle: International Conference on Computer Vision Theory and Application
+  authors:
+  - family: Kita
+    given: Nobuyuki
+  pdf: https://staff.aist.go.jp/n.kita/work/publications/VISAPP15.pdf
+- id: ayusawa:humanoids:2014
+  year: 2014
+  title: Evaluation of Assistive Devices Using Humanoid Robot with Mechanical Parameters
+    Identification
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: ayusawa
+  - id: nakaoke
+  - id: yoshida
+  - id: imamura
+  - family: Tanaka
+    given: Takayuki
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids14_ayusawa_proc.pdf
+  lab: jrl
+- id: vaillant:humanoids:2014
+  year: 2014
+  title: Vertical ladder climbing by the HRP-2 humanoid robot
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: vaillant
+  - id: kheddar
+  - id: audren
+  - id: keith
+  - id: brossette
+  - id: kaneko
+  - id: morisawa
+  - id: yoshida
+  - id: kanehiro
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/Vaillant-Kheddar-Humanoids2014.pdf
+  lab: jrl
+- id: kulić:humanoids:2013
+  year: 2013
+  title: Quantitative Human and Robot Motion Comparison for Enabling Assistive Device
+    Evaluation
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Kulić
+    given: Dana
+  - family: Choudry
+    given: Muhammad
+  - id: venture
+  - family: Miura
+    given: Kanako
+  - id: yoshida
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/kulic-motion-comparison-humanoids2013.pdf
+  lab: jrl
+- id: kita:sii:2013
+  year: 2013
+  title: Obstacle Detection for a Bipedal Walking Robot by a Fisheye Stereo
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Kita
+    given: Nobuyuki
+  - id: kanehiro
+  - id: morisawa
+  - id: kaneko
+  pdf: https://staff.aist.go.jp/n.kita/work/publications/SII13.pdf
+- id: miura:icra:2013
+  year: 2013
+  title: Humanoid Robot as an Evaluator of Assistive Devices
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - family: Miura
+    given: Kanako
+  - id: yoshida
+  - family: Kobayashi
+    given: Yoshiyuki
+  - id: endoy
+  - family: Kanehioro
+    given: Fumio
+  - family: Homma
+    given: Keiko
+  - family: Kajitani.isamu
+    given: ''
+  - family: Matsumoto
+    given: Yoshio
+  - family: Tanaka
+    given: Takayuki
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/icra2013-miura-yoshida.pdf
+- id: kita:humanoids:2013
+  year: 2013
+  title: Foot Landing State Estimation from Point Cloud at a Landing Place
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Kita
+    given: Nobuyuki
+  - id: morisawa
+  - id: kanehiro
+  pdf: https://staff.aist.go.jp/n.kita/work/publications/Humanoids13.pdf
+- id: kajita:icra:2013
+  year: 2013
+  title: Vertical vibration suppression for a position controlled biped robot
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - id: kajita
+  - family: Asano
+    given: Futoshi
+  - family: Moriswa
+    given: Mitsuharu
+  - family: Miura
+    given: Kanako
+  - id: kaneko
+  - id: kanehiro
+  - family: Yokoi
+    given: Kazuhito
+  pdf: https://staff.aist.go.jp/k.kaneko/publications/2013_publications/ICRA2013-0371.pdf
+- id: enoch:humanoids:2012
+  year: 2013
+  title: 'BLUE: A Bipedal Robot with Variable Stiffness and Damping'
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Enoch
+    given: Alexander
+  - family: Sutas
+    given: Andrius
+  - id: nakaoke
+  - family: Vijayakumar
+    given: Sethu
+  pdf: https://homepages.inf.ed.ac.uk/svijayak/publications/enoch-Humanoids2012.pdf
+- id: kita:sii:2012
+  year: 2012
+  title: 3D Shape Measurement of a Large Cloth close to a Fisheye Stereo
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Kita
+    given: Nobuyuki
+  - id: kanehiro
+  - family: Kita
+    given: Yasuyo
+  pdf: https://staff.aist.go.jp/n.kita/work/publications/SII12.pdf
+- id: miura:icra:2012
+  year: 2012
+  title: Quick Slip-Turn of HRP-4C on its Toes
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - family: Miura
+    given: Kanako
+  - id: kanehiro
+  - id: kaneko
+  - id: kajita
+  - family: Yokoi
+    given: Kazuhito
+  pdf: https://staff.aist.go.jp/k.kaneko/publications/2012_publications/ICRA2012-0800.pdf
+- id: kanehiro:iros:2012
+  year: 2012
+  title: Efficient Reaching Motion Planning and Execution for Exploration by Humanoid
+    Robots
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: kanehiro
+  - id: yoshida
+  - family: Yokoi
+    given: Kazuhito
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/iros_kanehiro12.pdf
+- id: gamez:sii:2021
+  year: 2020
+  title: Multi-person pose tracking with occlusion solving using motion models
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: gamez
+  - id: yoshiyasu
+  - id: yoshida
+  lab: jrl
+- id: ikegami:pcb:2021
+  year: 2021
+  title: Hierarchical motor adaptations negotiate failures during force field learning
+  booktitle: PLOS Computational Biology
+  authors:
+  - family: Ikegami
+    given: Tsuyoshi
+  - id: ganesh
+  - family: Gibo
+    given: Tricia
+  - family: Yoshioka
+    given: Toshinori
+  - family: Osu
+    given: Rieko
+  - family: Kawato
+    given: Mitsuo
+  lab: jrl
+- id: shi:ijns:2021
+  year: 2021
+  title: Galvanic Vestibular Stimulation-Based Prediction Error Decoding and Channel
+    Optimization
+  booktitle: International Journal of Neural Systems
+  authors:
+  - family: Shi
+    given: Yuxi
+  - id: ganesh
+  - family: Ando
+    given: Hideyuki
+  - family: Koike
+    given: Yasuharu
+  - id: yoshida
+  - family: Yoshimura
+    given: Natsue
+  lab: jrl
+- id: Yoshimura:ccc:2021
+  year: 2021
+  title: Binary Semantic Classification using Cortical Activation with Pavlovian-conditioned
+    Vestibular Responses in Healthy and Locked-in Individuals
+  booktitle: Cerebral Cortex Communications
+  authors:
+  - family: Yoshimura
+    given: Natsue
+  - family: Umetsu
+    given: Kaito
+  - family: Tonin
+    given: Alessandro
+  - family: Maruyama
+    given: Yasuhisa
+  - family: Harada
+    given: Kyosuke
+  - family: Rana
+    given: Aygul
+  - id: ganesh
+  - family: Chaudhary
+    given: Ujwal
+  - family: Koike
+    given: Yasuharu
+  - family: Birbaumer
+    given: Niels
+  lab: jrl
+- id: sun:jrm::2021
+  year: 2021
+  title: Visual SLAM framework based on segmentation with the improvement of loop
+    closure detection in dynamic environments
+  booktitle: Journal of Robotics and Mechatronics
+  authors:
+  - id: sun
+  - family: Singh
+    given: Rohan
+  - id: kanehiro
+  lab: jrl
+- id: bolotnikova:ral:2021
+  year: 2021
+  title: Adaptive task-space force control for humanoid-to-human motion assistance
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Bolotnikova
+    given: Anastasia
+  - family: Sébastien
+    given: Courtois
+  - id: kheddar
+  lab: jrl
+- id: demagistris:ras:2017
+  projects:
+  - koroibot
+  pdf: https://hal.archives-ouvertes.fr/hal-01526033/document
+  bib: https://hal.archives-ouvertes.fr/hal-01526033v2/bibtex
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
@@ -4397,35 +5773,6 @@
   - CodyCo
   - koroibot
   - comanoid
-- id: pajon:icar:2015
-  year: 2015
-  title: A humanoid walking pattern generator for sole design optimization
-  booktitle: 17th International Conference on Advanced Robotics (ICAR)
-  pdf: https://hal.archives-ouvertes.fr/hal-01278857/document
-  bib: https://hal.archives-ouvertes.fr/hal-01278857/bibtex
-  authors:
-  - family: Pajon
-    given: Adrien
-  - id: demagistris
-  - family: Miossec
-    given: Sylvain
-  - family: Kaneko
-    given: Kenji
-  - id: kheddar
-  projects:
-  - koroibot
-- id: samy:humanoids:2015
-  year: 2015
-  title: Falls control using posture reshaping and active compliance
-  booktitle: IEEE-RAS International Conference on Humanoid Robots (Humanoids)
-  bib: http://comanoid.cnrs.fr/publications_files/2015/Humanoids/T5OC-4.bib
-  pdf: http://comanoid.cnrs.fr/publications_files/2015/Humanoids/T5OC-4.pdf
-  authors:
-  - family: Samy
-    given: Vincent
-  - id: kheddar
-  projects:
-  - comanoid
 - id: chretien:iros:2015
   year: 2015
   title: Continuously satisfying constraints with contact forces in trajectory optimization
@@ -4437,89 +5784,6 @@
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
   pdf: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document
   bib: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539v1/bibtex
-  projects:
-  - robohow
-- id: brossette:ram:2013
-  year: 2013
-  title: 'Point-Cloud Multi-Contact Planning for Humanoids: Preliminary Results'
-  booktitle: Cybernetics and Intelligent Systems Robotics, Automation and Mechatronics
-    (CISRAM)
-  bib: https://hal.archives-ouvertes.fr/lirmm-00863931v1/bibtex
-  pdf: https://hal.archives-ouvertes.fr/lirmm-00863931/document
-  authors:
-  - id: brossette
-  - id: vaillant
-  - id: keith
-  - id: escande
-  - id: kheddar
-  projects:
-  - robohow
-- id: brossette:iros:2014
-  year: 2014
-  title: Integration of Non-Inclusive Contacts in Posture Generation
-  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
-  bib: https://hal.archives-ouvertes.fr/hal-01016319v1/bibtex
-  pdf: https://hal.archives-ouvertes.fr/hal-01016319/document
-  authors:
-  - id: brossette
-  - id: escande
-  - id: vaillant
-  - id: keith
-  - id: moulard
-  - id: kheddar
-  projects:
-  - robohow
-  - koroibot
-- id: vaillant:humanoids:2014
-  year: 2014
-  title: Vertical Ladder Climbing by the HRP-2 Humanoid Robot
-  booktitle: IEEE/RAS International Conference on Humanoid Robots (Humanoids)
-  pdf: https://hal.archives-ouvertes.fr/hal-01276934/document
-  bib: https://hal.archives-ouvertes.fr/hal-01276934v1/bibtex
-  authors:
-  - id: vaillant
-  - id: kheddar
-  - id: audren
-  - id: keith
-  - id: brossette
-  - family: Kaneko
-    given: Kenji
-  - id: morisawa
-  - id: yoshida
-  - family: Kanehiro
-    given: Fumio
-- id: audren:iros:2014
-  year: 2014
-  title: Model Preview Control in Multi-Contact Motion - Application to a Humanoid
-    Robot
-  booktitle: IEEE/RSJ Internation Conference on Intelligent Robots and Systems (IROS)
-  pdf: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01256511/document
-  bib: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01256511v1/bibtex
-  projects:
-  - robohow
-  - koroibot
-  authors:
-  - id: audren
-  - id: vaillant
-  - id: kheddar
-  - id: escande
-  - family: Kaneko
-    given: Kenji
-  - id: yoshida
-- id: pham:cvpr:2015
-  year: 2015
-  title: 'Towards Force Sensing From Vision: Observing Hand-Object Interactions to
-    Infer Manipulation Forces'
-  booktitle: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-  bib: https://raw.githubusercontent.com/ph4m/homepage/master/bibtex/cvpr.pham.2015.bib
-  pdf: https://hal.archives-ouvertes.fr/hal-01356136/document
-  authors:
-  - id: pham
-  - id: kheddar
-  - family: Qammaz
-    given: Ammar
-  - family: Argyros
-    given: Antonis A.
   projects:
   - robohow
 - id: pham:iccvw:2015
@@ -4632,23 +5896,6 @@
     family: Aglioti
   projects:
   - vere
-- id: petit:cyber:2014
-  year: 2014
-  title: Navigation assistance for a bci-controlled humanoid robot
-  booktitle: Cyber Technology in Automation, Control, and Intelligent Systems (CYBER)
-  pdf: https://saturne.lirmm.fr/content/download/9167/136428/file/Navigation%20assistance%20for%20a%20BCI-controlled%20humanoid%20robot.pdf
-  authors:
-  - id: petit
-  - id: gergondet
-  - given: Andréa
-    family: Cherubini
-  - given: Maxime
-    family: Meilland
-  - given: Andrew
-    family: Comport
-  - id: kheddar
-  projects:
-  - vere
 - id: gergondet:roman:2012
   year: 2012
   title: 'Steering a robot with a brain-computer interface: impact of video feedback
@@ -4674,68 +5921,6 @@
   - given: Andréa
     family: Cherubini
   - id: kheddar
-  projects:
-  - vere
-- id: kapeller:embc:2015
-  year: 2015
-  title: Online control of a humanoid robot through hand movement imagination using
-    CSP and ECoG based features
-  booktitle: Annual International Conference of the IEEE Engineering in Medicine and
-    Biology Society (EMBC)
-  bib: http://www.ncbi.nlm.nih.gov/pubmed/26736620
-  authors:
-  - given: Christoph
-    family: Kapeller
-  - id: gergondet
-  - given: K
-    family: Kamada
-  - given: Hiroshi
-    family: Ogawa
-  - given: F
-    family: Takeuchi
-  - given: Rupert
-    family: Ortner
-  - given: Robert
-    family: Pruckl
-  - id: kheddar
-  - given: J
-    family: Scharinger
-  - given: Christoph
-    family: Guger
-  projects:
-  - vere
-- id: daachi:icorr:2015
-  year: 2015
-  title: Expliciting SSVEP misclassifications with extra-brain activities using time-frequency
-    EEG analysis
-  booktitle: IEEE International Conference on Rehabilitation Robotics (ICORR)
-  bib: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7281338
-  authors:
-  - id: daachi
-  - id: gergondet
-  - given: Larbi
-    family: Boubchir
-  - id: kheddar
-  projects:
-  - vere
-- id: gergondet:urai:2014
-  year: 2014
-  title: Combining 3D SLAM and visual tracking to reach and retrieve objects in daily-life
-    indoor environments
-  booktitle: International Conference on Ubiquitous Robots and Ambient Intelligence
-    (URAI)
-  bib: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01247142
-  pdf: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01247142/document
-  authors:
-  - id: gergondet
-  - id: petit
-  - given: Maxime
-    family: Meilland
-  - id: kheddar
-  - given: Andrew
-    family: Comport
-  - given: Andréa
-    family: Cherubini
   projects:
   - vere
 - id: ganesh:STAR:2016
@@ -4884,77 +6069,6 @@
   - family: Venture
     given: Gentiane
   pdf: http://staff.aist.go.jp/e.yoshida/papers/Morishima_icam2015.pdf
-- id: imamura:humanoids:2015
-  year: 2015
-  title: 'Verification of passive power-assist device using humanoid robot: Effect
-    on bending and twisting motion'
-  booktitle: IEEE/RAS International Conference on Humanoid Robots (Humanoids)
-  authors:
-  - family: Imamura
-    given: Yumeko
-  - family: Tanaka
-    given: Takayuki
-  - id: ayusawa
-  - id: yoshida
-  pdf: http://staff.aist.go.jp/e.yoshida/papers/humanoids2015_imamura.pdf
-- id: ayusawa:iros:2015
-  year: 2015
-  title: Motion retargeting for humanoid robots based on identification to preserve
-    and reproduce human motion features
-  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-  authors:
-  - id: ayusawa
-  - id: morisawa
-  - id: yoshida
-  pdf: http://staff.aist.go.jp/e.yoshida/papers/IROS2015_Ayusawa.pdf
-- id: jovic:iros:2015
-  year: 2015
-  title: 'Identification of dynamics of humanoids: Systematic exciting motion generation'
-  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-  authors:
-  - family: Jovic
-    given: Jovana
-  - family: Philipp
-    given: Franck
-  - id: escande
-  - id: ayusawa
-  - id: yoshida
-  - id: kheddar
-  - family: Venture
-    given: Gentiane
-  pdf: http://staff.aist.go.jp/e.yoshida/papers/Jovic_IROS_2015.pdf
-- id: yoshiyasu:embc:2015
-  year: 2015
-  title: Forward dynamics simulation of human figures on assistive devices using geometric
-    skin deformation model
-  booktitle: Annual International Conference of the IEEE Engineering in Medicine and
-    Biology Society (EMBC)
-  authors:
-  - family: Yoshiyasu
-    given: Yusuke
-  - id: ayusawa
-  - id: yoshida
-  - given: Matsumoto
-    family: Yoshio
-  - given: Endo
-    family: Yui
-  pdf: http://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu2015_EMBC.pdf
-- id: yoshida:arso:2015
-  year: 2015
-  title: Simulation-based optimal motion planning for deformable object
-  booktitle: IEEE International Workshop on Advanced Robotics and its Social Impacts
-    (ARSO)
-  authors:
-  - id: yoshida
-  - id: ayusawa
-  - given: Ixchel
-    family: G.Ramirez-Alpizar
-  - given: Harada
-    family: Kensuke
-  - given: Duriez
-    family: Christian
-  - id: kheddar
-  pdf: http://staff.aist.go.jp/e.yoshida/papers/Yoshida-ARSO15.pdf
 - id: sagawa:psivt:2015
   year: 2015
   title: Analyzing Muscle Activity and Force with Skin Shape Captured by Non-contact
@@ -4985,33 +6099,6 @@
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/imamrua-sii2014-proc.pdf
-- id: ayusawa:humanoids:2014
-  year: 2014
-  title: Evaluation of assistive devices using humanoid robot with mechanical parameters
-    identification
-  booktitle: IEEE/RAS International Conference on Humanoid Robots (Humanoids)
-  authors:
-  - id: ayusawa
-  - family: Nakaoka
-    given: Shin'ichiro
-  - id: yoshida
-  - family: Imamura
-    given: Yumeko
-  - family: Tanaka
-    given: Takayuki
-  pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids14_ayusawa_proc.pdf
-- id: ko:ar:2018
-  year: 2018
-  title: Key design parameters of a few types of electro-hydrostatic actuators for
-    humanoid robots
-  booktitle: Advanced Robotics
-  authors:
-  - family: Ko
-    given: Tianyi
-  - id: kaminaga
-  - family: Nakamura
-    given: Yoshihiko
-  pdf: https://www.tandfonline.com/doi/full/10.1080/01691864.2018.1545604
 - id: ko:ar:2018-2
   year: 2018
   title: Current-pressure-position triple-loop feedback control of electro-hydrostatic
