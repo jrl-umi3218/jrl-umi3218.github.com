@@ -27,7 +27,7 @@
   active: true
   partners: [inria,polytechlille,upjv]
   description: "
-<p>Visadapt is an exploratory project aiming at creating a new camera of highly non-linear field-of-view, enabled by soft robot mirror. The interest is to automatically adapt the resolution of the camera to the scene content, i.e. low in uniform or not interesting areas but high in informative areas or interesting regarding the application (e.g. body, face, geometric features, etc).</p>
+<p>Visadapt is an exploratory project funded by the PEPS &ldquo;Mechanics of the future&rdquo; program of CNRS&rsquo; Institute of Engineering and Systems Sciences (INSIS). In this project, CNRS-AIST JRL is partnering with Inria and Polytech Lille members of CRIStAL (France) and UPJV, MIS lab (France) with the aim of creating a new camera of highly non-linear field-of-view, enabled by soft robot mirror. The interest is to automatically adapt the resolution of the camera to the scene content, i.e. low in uniform or not interesting areas but high in informative areas or interesting regarding the application (e.g. body, face, geometric features, etc).</p>
     <h4>The goals are:</h4>
     <ul>
       <li>To design a new mirror material capable of deformations while keeping high quality reflection</li>
@@ -35,6 +35,41 @@
 			<li>To control the deformation from visual input</li>
     </ul>
 A realistic simulator and a first prototype are the expected results.
+</p>
+"
+- id: hadros
+  title: "HaDROs"
+  longtitle: "CNRS GDR ISIS HaDROs - HDR panoramic vision for SLAM in scenes of large range of radiance"
+  year-start: 2021
+  year-end: 2023
+  active: true
+  partners: [insarennes,upjv]
+  description: "
+<p>HaDROs is an exploratory project funded by CNRS&rsquo; Special Interest Group on Information, Signal, Image and Vision (GDR ISIS). In this project, CNRS-AIST JRL is partnering with INSA members of IRISA (France) and UPJV, MIS lab (France) with the aim of enabling visual Simultaneous Localization And Mapping (SLAM) in  envrionments of challenging lighting, i.e. where we can find both dark shadowed and very bright areas at once. HaDROs leverages the recently introduced panoramic High Dynamic Range (HDR) real-time camera <a href=https://hal.archives-ouvertes.fr/hal-03130948 target=_blank>HDROmni</a> and works on multi-exposure / multi-map SLAM.</p>
+    <h4>The goals are:</h4>
+    <ul>
+      <li>To accurately calibrate the HDROmni camera despite the various exposures acuired at once</li>
+      <li>To generalize the multi-map SLAM to multi-exposure</li>
+			<li>To enable assistive visual feedback for electric powered wheelchair users even when the surrounding illumination is challenging</li>
+    </ul>
+The HaDROs system will be integrated on an assistive wheelchair of INSA Rennes (France) and assessed with real users. 
+</p>
+"
+- id: dvsstraight
+  title: "DVS-Straight"
+  longtitle: "AIST ITH International Collaboration DVS-Straight - Direct Visual Servoing with optimal robot trajectories"
+  year-start: 2021
+  year-end: 2025
+  active: true
+  partners: [utbm,upjv]
+  description: "
+<p<a href=https://hal.archives-ouvertes.fr/hal-03130948 target=_blank>HDROmni</a></p>
+    <h4>The goals are:</h4>
+    <ul>
+      <li>To ...</li>
+      <li>To ...</li>
+			<li>To ...</li>
+    </ul>
 </p>
 "
 - id: comanoid
