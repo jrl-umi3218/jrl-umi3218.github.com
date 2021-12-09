@@ -87,3 +87,23 @@
   name: "Technische Universität München"
   shortname: "TUM"
   website: "http://www.tum.de/"
+- id: upjv
+  logo: "/en/assets/logos/upjv.png"
+  name: "University of Picardie Jules Verne"
+  shortname: "UPJV"
+  website: "http://www.u-picardie.fr"
+- id: polytechlille
+  logo: "/en/assets/logos/polytechlille.png"
+  name: "Polytech Lille"
+  shortname: "Polytech Lille"
+  website: "https://www.polytech-lille.fr"
+- id: insarennes
+  logo: "/en/assets/logos/insarennes.png"
+  name: "National Institute of Applied Sciences - Rennes"
+  shortname: "INSA Rennes"
+  website: "https://www.insa-rennes.fr"
+- id: utbm
+  logo: "/en/assets/logos/utbm.png"
+  name: "University of Technology Belfort Montebeliard"
+  shortname: "UTBM"
+  website: "https://www.utbm.fr/"
