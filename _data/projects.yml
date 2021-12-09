@@ -19,6 +19,24 @@
 
 <p>The biggest challenge is the seamless integration of existing and new technologies into a reliable architecture. Particularly, the transparency of the teleoperation is extremely challenging in anthropomorphic robotic systems. When using a humanoid robot as an avatar, the sensory feedback scales in complexity. For example, how do you provide the dynanmic balance awareness to the human operator? How do you alleviate the lack of degrees of freedom? How do you conceive a reliable loco-manipulation shared control?</p>
 "
+- id: visadapt
+  title: "Visadapt"
+  longtitle: "CNRS INSIS PEPS Visadapt - Adaptative Catadioptric Vision"
+  year-start: 2021
+  year-end: 2022
+  active: true
+  partners: [cnrs,inria,polytechlille,upjv]
+  description: "
+<p>Visadapt is an exploratory project aiming at creating a new camera of highly non-linear field-of-view, enabled by soft robot mirror. The interest is to automatically adapt the resolution of the camera to the scene content, i.e. low in uniform or not interesting areas but high in informative areas or interesting regarding the application (e.g. body, face, geometric features, etc).</p>
+    <h4>The goals are:</h4>
+    <ul>
+      <li>To design a new mirror material capable of deformations while keeping high quality reflection</li>
+      <li>To model and compute efficiently the desired shape of the mirror soft robot as function of a field-of-view distribution</li>
+			<li>To control the deformation from visual input</li>
+    </ul>
+A realistic simulator and a first prototype are the expected results.
+</p>
+"
 - id: comanoid
   title: "COMANOID"
   longtitle: "Multi-Contact Collaborative Humanoids in Aircraft Manufacturing"
