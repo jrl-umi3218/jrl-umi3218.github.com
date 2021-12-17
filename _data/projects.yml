@@ -162,3 +162,11 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   active: false
   description: >
     <p>This JSPS ('Kakenhi Kiban B') project investigates the effects of cognitive anxiety associated with observation of other individuals and competition on one's own motor behavior. In Collboration with <a href="https://cinet.jp/english/" target="_self">Centre for Information and Neural Networks (CINET)</a> in Osaka, <a href="http://www.nifs-k.ac.jp/" target="_self">National Institute of Fitness and Sports</a> in Kanoya, and <a href="http://www.chukyo-u.ac.jp/" target="_self">Nagoya Chukyo University</a>, we are using cognitive neuroscience experiments and computational modelling to acquire a quantitative measure of motor deteriorations due to anxiety, and investigate how non-human agents like robots may be used to influence human behaviors.</p>
+- id: jst_mirai
+  title: "CareAvatar"
+  longtitle: "Remotificationof physical interaction for resilient society"
+  year-start: 2021
+  year-end: 2023
+  active: true
+  description: >
+    <p>We aim to create a society that is resilient to infectious diseases, by using avatar robots to enable telework for essential workers whose work requires physical contact with people. ​<br>We will conduct research and development of a tele-physical caregiving service that enables telework in caregiving.​<br>In this service, a caregiver operates a nursing care avatar at the nursing care site from a remote location via a digital twin of the nursing care site built in cyberspace to perform nursing care tasks. To realize this service, we will conduct research and development on the following three technologies.​<br><ol><li>Haptic sensing technology that captures complex physical information as a distribution on a three-dimensional curved surface,</li><li>Technology for understanding and reproducing the movements of a remote caregiver, and</li><li>Safety standards that are essential for social acceptance.​</li></ol></p>
