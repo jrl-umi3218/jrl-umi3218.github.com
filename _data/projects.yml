@@ -164,7 +164,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
     <p>This JSPS ('Kakenhi Kiban B') project investigates the effects of cognitive anxiety associated with observation of other individuals and competition on one's own motor behavior. In Collboration with <a href="https://cinet.jp/english/" target="_self">Centre for Information and Neural Networks (CINET)</a> in Osaka, <a href="http://www.nifs-k.ac.jp/" target="_self">National Institute of Fitness and Sports</a> in Kanoya, and <a href="http://www.chukyo-u.ac.jp/" target="_self">Nagoya Chukyo University</a>, we are using cognitive neuroscience experiments and computational modelling to acquire a quantitative measure of motor deteriorations due to anxiety, and investigate how non-human agents like robots may be used to influence human behaviors.</p>
 - id: jst_mirai
   title: "CareAvatar"
-  longtitle: "Remotificationof physical interaction for resilient society"
+  longtitle: "Remotification of physical interaction for resilient society"
   year-start: 2021
   year-end: 2023
   active: true
