@@ -52,6 +52,18 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9380971
   lab: jrl
+- id: kumagai:ral:2021
+  year: 2021
+  title: Multi-Contact Locomotion Planning With Bilateral Contact Forces Considering
+    Kinematics and Statics During Contact Transition
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: kumagai
+  - id: murooka
+  - id: morisawa
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/9478184?source=authoralert
+  lab: jrl
 - id: ayusawa:tro:2017
   year: 2017
   title: Motion Retargeting for Humanoid Robots Based on Simultaneous Morphing Parameter
@@ -5747,6 +5759,57 @@
   - family: Sébastien
     given: Courtois
   - id: kheddar
+  lab: jrl
+- id: sun:jrm:2021
+  year: 2021
+  title: Visual SLAM framework based on segmentation with the improvement of loop
+    closure detection in dynamic environments
+  booktitle: Journal of Robotics and Mechatronics
+  authors:
+  - id: sun
+  - id: singh
+  - id: kanehiro
+  lab: jrl
+- id: medrano:chaos:2021
+  year: 2021
+  title: Radius selection using kernel density estimation for the computation of nonlinear
+    measures
+  booktitle: 'Chaos: An Interdisciplinary Journal of Nonlinear Science'
+  authors:
+  - family: Medrano
+    given: Johan
+  - id: kheddar
+  - family: Lesne
+    given: Annick
+  - family: Ramdani
+    given: Sofiane
+  lab: jrl
+- id: Benallegue:iros:2021
+  year: 2021
+  title: On compliance and safety with torque-control for robots with high reduction
+    gears and no joint-torque feedback
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: benalleguem
+  - id: cisneros
+  - id: benalleguea
+  - id: tanguy
+  - id: escande
+  - id: morisawa
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/9636081
+  lab: jrl
+- id: onishi:iros:2021
+  year: 2021
+  title: Knee-stretched Biped Gait Generation along Spatially Quantized Curves
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Onishi
+    given: Yuki
+  - family: Ibuki
+    given: Tatsuya
+  - id: kajita
+  pdf: https://ieeexplore.ieee.org/document/9636872
   lab: jrl
 - id: demagistris:ras:2017
   projects:
