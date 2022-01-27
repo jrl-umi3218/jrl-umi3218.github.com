@@ -1,0 +1,12 @@
+@InProceedings{kumagai:humanoids:2018,
+  author    = {Kumagai,Iori and Morisawa,Mitsuharu and Nakaoka,Shin\textquotesingle ichiro and Kanehiro,Fumio},
+  title     = {Efficient Locomotion Planning for a Humanoid Robot with Whole-Body Collision Avoidance Guided by Footsteps and Centroidal Sway Motion},
+  booktitle = {IEEE-RAS International Conference on Humanoid Robots},
+  year      = {2018},
+  pages     = {251--256},
+  address   = {Beijing, China},
+  month     = {November\textasciitilde 06--09},
+  keywords  = {Planning, Collision avoidance, Humanoid robots, Legged locomotion, Computational efficiency, Trajectory},
+  doi       = {10.1109/HUMANOIDS.2018.8624927},
+  abstract  = {In this paper, we propose a locomotion planning framework for a humanoid robot with an efficient footstep and whole-body collision avoidance planning, which enables the robot to traverse an unknown narrow space while utilizing its body structure like a human. The key idea of the proposed method is to reduce a large computational cost for the whole-body locomotion planning by executing global footstep planning first, which has a much smaller search space, and then performing a sequential whole-body posture planning while utilizing the resulting footsteps and a centroidal trajectory as a guide. In the global footstep planning phase, we modify bounding box of the robot based on the centroidal sway motion. This idea enables the planner to obtain appropriate footsteps for next whole-body motion planning. Then, we execute sequential whole-body collision avoidance motion planning by prioritized inverse kinematics based on the resulting footsteps and centroidal trajectory, which enables the robot to plan whole-body collision avoidance motion for each step within less than 100ms at worst. The major contribution of our paper is solving the problem of the increasing computational cost for whole-body motion planning and enabling a humanoid robot to execute adaptive locomotion planning on the spot in an unknown narrow space.}
+}
