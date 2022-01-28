@@ -78,14 +78,14 @@
   year: 2017
   title: Shared Mechanisms in the Estimation of Self-Generated Actions and the Prediction
     of Other's Actions by Humans
-  booktitle: Journal of Computer-Mediated Communication
+  booktitle: eNeuro
   authors:
   - family: Ikegami
     given: Tsuyoshi
   - id: ganesh
   pdf: https://www.eneuro.org/content/4/6/ENEURO.0341-17.2017.long
   lab: jrl
-- id: aymerich-franch:jsr:2017
+- id: aymerichfranch:jsr:2017
   year: 2017
   title: Non-human Looking Robot Arms Induce Illusion of Embodiment
   booktitle: International Journal of Social Robotics
@@ -125,7 +125,7 @@
   - id: kheddar
   pdf: https://www.sciencedirect.com/science/article/pii/S0921889016301245?via%3Dihub
   lab: jrl
-- id: ramirez-alpizar:rb:2017
+- id: ramirezalpizar:rb:2017
   year: 2017
   title: Human-based framework for the assembly of elastic objects by a dual-arm robot
   booktitle: Robomech Journal
@@ -137,7 +137,7 @@
   - id: yoshida
   pdf: https://robomechjournal.springeropen.com/track/pdf/10.1186/s40648-017-0088-0
   lab: jrl
-- id: aymerich-franch:cmc:2017
+- id: aymerichfranch:cmc:2017
   year: 2017
   title: Object Touch by a Humanoid Robot Avatar Induces Haptic Sensation in the Real
     Hand
@@ -150,7 +150,7 @@
   - id: kheddar
   pdf: https://academic.oup.com/jcmc/article/22/4/215/4666428
   lab: jrl
-- id: pirk:acm:2017
+- id: pirk:tg:2017
   year: 2017
   title: Understanding and Exploiting Object Interaction Landscapes
   booktitle: ACM Transactions on Graphics
@@ -447,7 +447,7 @@
     given: Takayuki
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2016_AR.pdf
   lab: jrl
-- id: jovana:tro:2016
+- id: jovic:tro:2016
   year: 2016
   title: Humanoid and Human Inertia Parameter Identification Using Hierarchical Optimization
   booktitle: IEEE Transactions on Robotics
@@ -768,7 +768,7 @@
     given: Yasushi
   pdf: http://www.am.sanken.osaka-u.ac.jp/~makihara/pdf/Elcvia2009Apr.pdf
   lab: jrl
-- id: hai:cbm:2009
+- id: vu:cbm:2009
   year: 2009
   title: Detection of Contractions in Adaptive Transit Time of the Small Bowel from
     Wireless Capsule Endoscopy Videos
@@ -909,7 +909,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Ixchel2017_AssemblyAuto.pdf
   lab: jrl
-- id: yoshiyasu:compt:2016
+- id: yoshiyasu:compg:2016
   year: 2016
   title: Symmetry Aware Embedding for Shape Correspondence
   booktitle: Computer&Graphics
@@ -1063,7 +1063,7 @@
   - id: yoshida
   pdf: http://homepages.laas.fr/florent/publi/2012ieee-tro-np.pdf
   lab: jrl
-- id: sulelman:ar:2011
+- id: suleiman:ar:2011
   year: 2011
   title: 'Enhancing Zero Moment Point-Based Control Model: System Identification Approach'
   booktitle: Advanced Robotics
@@ -1542,7 +1542,7 @@
     given: Salvatore
   pdf: https://www.researchgate.net/publication/263356987_Audio-visual_feedback_improves_the_BCI_performance_in_the_navigational_control_of_a_humanoid_robot
   lab: jrl
-- id: guitani:tm:2013
+- id: guiatni:tm:2013
   year: 2013
   title: A combined force and thermal feedback interface for minimally-invasive procedure
     simulation,
@@ -1727,7 +1727,7 @@
     given: Kazuhito
   pdf: http://www.cs.cmu.edu/~cga/ew/stasse-advrob08.pdf
   lab: jrl
-- id: nehoua:tvt:2008
+- id: nehaoua:tvt:2008
   year: 2008
   title: Design and control of small-clearance driving simulator
   booktitle: IEEE Transactions on Vehicular Technology
@@ -1875,7 +1875,7 @@
     given: Hiroki
   pdf: https://elifesciences.org/articles/33392#abstract
   lab: jrl
-- id: aymerich-franch:cac:2016
+- id: aymerichfranch:cac:2016
   year: 2016
   title: 'The second me: seeing the real body during humanoid embodiment produces
     an illusion of bi-location.'
@@ -1888,7 +1888,7 @@
   - id: kheddar
   pdf: https://www.sciencedirect.com/science/article/abs/pii/S1053810016303038
   lab: jrl
-- id: aymerich-franch:rsos:2016
+- id: aymerichfranch:rsos:2016
   year: 2016
   title: 'Forward modelling the rubber hand: illusion of ownership modifies motor-sensory
     predictions by the brain'
@@ -2162,7 +2162,7 @@
     given: Yoshihiko
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2014_IJRR.pdf
   lab: jrl
-- id: imamura:ijrr:2018
+- id: imamura:ijhr:2018
   year: 2018
   title: Evaluation Framework for Passive Assistive Device Based on Humanoid Experiments
   booktitle: International Journal of Humanoid Robotics
@@ -2263,7 +2263,7 @@
   - id: kheddar
   pdf: https://members.loria.fr/KBouyarmane/nondecoupled.pdf
   lab: jrl
-- id: gowrishankar:naco:2019
+- id: ganesh:naco:2019
   year: 2019
   title: Activity in the dorsal ACC causes deterioration of sequential motor performance
     due to anxiety
@@ -2360,7 +2360,7 @@
 - id: bolotnikova:case:2017
   year: 2017
   title: A Circuit-Breaker Use-Case Operated by a Humanoid in Aircraft Manufacturing
-  booktitle: International Symposium on Robot and Human Interactive Communication
+  booktitle: IEEE International Conference on Automation Science and Engineering
   authors:
   - family: Bolotnikova
     given: Anastasia
@@ -2411,7 +2411,7 @@
     given: Kazuki
   pdf: https://link.springer.com/content/pdf/10.1007%2F978-3-319-70022-9_14.pdf
   lab: jrl
-- id: vogel:icra2017
+- id: vogel:icra:2017
   year: 2017
   title: 'Hitting the sweet spot: automatic optimization of energy transfer during
     tool-held hits'
@@ -2542,7 +2542,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01646158/document
   lab: jrl
-- id: yoshida:issr:2017
+- id: yoshida:isrr:2017
   year: 2017
   title: Towards Unified Framework for Trajectory Optimization using General Differential
     Kinematics and Dynamics
@@ -2751,7 +2751,7 @@
     given: Kong
   - id: ganesh
   lab: jrl
-- id: wang:2019
+- id: wang:humanoids:2019
   year: 2019
   title: Impact-aware humanoid robot motion generation with a quadratic optimization
     controller
@@ -2876,8 +2876,8 @@
     robust active 3D reconstruction
   booktitle: International Conference on Machine Vision Applications
   authors:
-  - family: Genki
-    given: Nagamatsu
+  - family: Nagamatsu
+    given: Genki
   - family: Furukawa
     given: Ryo
   - id: sagawa
@@ -3322,7 +3322,7 @@
     given: Christian
   pdf: https://hal.inria.fr/hal-02079151/document
   lab: jrl
-- id: chappellet:conf:icpr:2021
+- id: chappellet:icpr:2021
   year: 2021
   title: Benchmarking Cameras for OpenVSLAM Indoors
   booktitle: IAPR/IEEE International Conference on Pattern Recognition
@@ -3371,7 +3371,7 @@
     given: Yacine
   pdf: https://hal.archives-ouvertes.fr/hal-01499167/file/benallegue2017humnanoids-final.pdf
   lab: jrl
-- id: hajjami:cvpr:2020
+- id: hajjami:cvprw:2020
   year: 2020
   title: 'ArUcOmni: detection of highly reliable fiducial markers in panoramic images'
   booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
@@ -3415,14 +3415,14 @@
   - id: ayusawa
   - id: venture
   lab: jrl
-- id: yamanobe:jrnl:rsj:2019
+- id: yamanobe:rsj:2019
   year: 2019
   title: ロボットによる心地の良い手渡しのための人動作の解析
   booktitle: Journal of the Robotics Society of Japan
   authors:
   - id: yamanobe
   lab: jrl
-- id: matsumoto:jrnl:ieice:2017
+- id: matsumoto:ieice:2017
   year: 2017
   title: 生活支援ロボットシステムを支えるエレクトロニクス
   booktitle: The Journal of the Institute of Electronics, Information and Communication
@@ -4030,7 +4030,7 @@
     given: Hiroshi
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9176417
   lab: jrl
-- id: yoshiyasu:conf:eurographics:2020
+- id: yoshiyasu:eurographics:2020
   year: 2020
   title: Learning Body Shape and Pose from Dense Correspondences
   booktitle: Conference of the European Association for Computer Graphics
@@ -4052,7 +4052,7 @@
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ICCAR2020_Heraiz-Bekkis.pdf
   lab: jrl
 - id: sagawa:eccv:2018
-  year: 2020
+  year: 2018
   title: Predicting Muscle Activity and Joint Angle from Skin Shape
   booktitle: European Conference on Computer Vision
   authors:
@@ -4200,7 +4200,7 @@
     given: Kensuke
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9361266
   lab: jrl
-- id: murooka:ral:2021
+- id: murooka:ral:2021a
   year: 2021
   title: Humanoid Loco-Manipulation Planning Based on Graph Search and Reachability
     Maps
@@ -4213,7 +4213,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9359455
   lab: jrl
-- id: murooka:ral:2021-2
+- id: murooka:ral:2021b
   year: 2021
   title: Humanoid Loco-Manipulations Pattern Generation and Stabilization Control
   booktitle: IEEE Robotics and Automation Letters
@@ -4337,7 +4337,7 @@
     given: François
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8519739
   lab: none
-- id: bensesddik:ijrr:2020
+- id: benseddik:ijrr:2020
   year: 2020
   title: 'PanoraMIS: An Ultra-wide Field of View Image Dataset for Vision-based Robot-Motion
     Estimation'
@@ -4580,17 +4580,20 @@
     given: Gentiane
   pdf: http://staff.aist.go.jp/e.yoshida/papers/Jovic_IROS_2015.pdf
   lab: jrl
-- id: chrétien:iros:2015
+- id: chretien:iros:2015
   year: 2015
   title: Continuously satisfying constraints with contact forces in trajectory optimization
     for humanoid robots
-  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
   authors:
   - id: chretien
   - id: escande
   - id: kheddar
-  pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document
+  pdf: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document
   lab: jrl
+  bib: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539v1/bibtex
+  projects:
+  - robohow
 - id: boubchir:embc:2015
   year: 2015
   title: EEG error potentials detection and classi- fication using time-frequency
@@ -4770,13 +4773,13 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01222969/document
   lab: jrl
-- id: kumar:aic:2014
+- id: pandey:aic:2014
   year: 2014
   title: 'Romeo2 Project: Humanoid Robot Assistant and Companion for Everyday Life:
     I. Situation Assessment for Social Intelligence'
   booktitle: International Workshop on Artificial Intelligence and Cognition
   authors:
-  - family: Kumar Pandey
+  - family: Pandey
     given: Amit
   - family: Gelin
     given: Rodolphe
@@ -4805,7 +4808,7 @@
     given: Frédéric
   pdf: https://hal.archives-ouvertes.fr/hal-01096094/document
   lab: jrl
-- id: ramirez-alpizar:humanoids:2014
+- id: ramirezalpizar:humanoids:2014
   year: 2014
   title: Motion Planning for Dual-arm Assembly of Ring-shaped Elastic Objects
   booktitle: IEEE-RAS International Conference on Humanoid Robots
@@ -4878,7 +4881,7 @@
     given: Marilena
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01247234/document
   lab: jrl
-- id: lópez:humanoids:2014
+- id: lopez:humanoids:2014
   year: 2014
   title: Compliant control of a humanoid robot helping a person stand up from a seated
     position
@@ -5115,7 +5118,7 @@
   - id: nakaoke
   pdf: https://staff.aist.go.jp/e.yoshida/papers/retargeting-isr2013.pdf
   lab: jrl
-- id: jarquín:humanoids:2013
+- id: jarquin:humanoids:2013
   year: 2013
   title: Real-time smooth task transitions for hierarchical inverse kinematics
   booktitle: IEEE-RAS International Conference on Humanoid Robots
@@ -5306,6 +5309,18 @@
   - id: kaminaga
   - family: Nakamura
     given: Yoshihiko
+- id: carpentier:ijac:2017
+  year: 2017
+  title: On the centre of mass motion in human walking
+  booktitle: International Journal of Automation and Computing
+  authors:
+  - family: Carpentier
+    given: Justin
+  - id: benalleguem
+  - family: Laumond
+    given: Jean-Paul
+  pdf: https://hal.archives-ouvertes.fr/hal-01377361v2/document
+  lab: hrg
 - id: kumagai:humanoids:2017
   year: 2017
   title: Complementary Integration Framework of Localization and Recognition for a
@@ -5546,7 +5561,7 @@
   - id: kanehiro
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Vaillant-Kheddar-Humanoids2014.pdf
   lab: jrl
-- id: kulić:humanoids:2013
+- id: kulic:humanoids:2013
   year: 2013
   title: Quantitative Human and Robot Motion Comparison for Enabling Assistive Device
     Evaluation
@@ -5623,7 +5638,7 @@
     given: Kazuhito
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2013_publications/ICRA2013-0371.pdf
 - id: enoch:humanoids:2012
-  year: 2013
+  year: 2012
   title: 'BLUE: A Bipedal Robot with Variable Stiffness and Damping'
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
@@ -5713,7 +5728,7 @@
   - family: Yoshimura
     given: Natsue
   lab: jrl
-- id: Yoshimura:ccc:2021
+- id: yoshimura:ccc:2021
   year: 2021
   title: Binary Semantic Classification using Cortical Activation with Pavlovian-conditioned
     Vestibular Responses in Healthy and Locked-in Individuals
@@ -5739,7 +5754,7 @@
   - family: Birbaumer
     given: Niels
   lab: jrl
-- id: sun:jrm::2021
+- id: sun:jrm:2021
   year: 2021
   title: Visual SLAM framework based on segmentation with the improvement of loop
     closure detection in dynamic environments
@@ -5784,7 +5799,7 @@
   - family: Ramdani
     given: Sofiane
   lab: jrl
-- id: Benallegue:iros:2021
+- id: benallegue:iros:2021
   year: 2021
   title: On compliance and safety with torque-control for robots with high reduction
     gears and no joint-torque feedback
@@ -5832,19 +5847,6 @@
   - CodyCo
   - koroibot
   - comanoid
-- id: chretien:iros:2015
-  year: 2015
-  title: Continuously satisfying constraints with contact forces in trajectory optimization
-    for humanoid robots
-  authors:
-  - id: chretien
-  - id: escande
-  - id: kheddar
-  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-  pdf: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document
-  bib: http://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539v1/bibtex
-  projects:
-  - robohow
 - id: pham:iccvw:2015
   year: 2015
   title: Capturing and Reproducing Hand-Object Interactions Through Vision-Based Force
