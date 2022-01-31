@@ -16,7 +16,7 @@ describe the data expected by the website for each data types.
 | id | A unique user id, all lower-case is prefered | ✔ |
 | given | Given name(s) | ✔ |
 | family | Family name | ✔ |
-| role | One of: co-director/permanent/adjunct/postdoc/phd/master/alumni | ✔ |
+| role | One of: director/deputy-director/permanent/adjunct/postdoc/phd/master/alumni | ✔ |
 | nationality | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality | ✔ |
 | nationality2 | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality |  |
 | nationality3 | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality |  |
