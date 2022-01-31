@@ -1,7 +1,7 @@
 - id: kheddar
   given: Abderrahmane
   family: Kheddar
-  role: deputy-director
+  role: permanent
   nationality: fr
   linkedin: "https://www.linkedin.com/in/kheddar"
   website: "http://www.lirmm.fr/lirmm_eng/users/utilisateurs-lirmm/equipes/idh/abderrahmane-kheddar"
@@ -12,7 +12,7 @@
 - id: yoshida
   given: Eiichi
   family: Yoshida
-  role: director
+  role: adjunct
   nationality: jp
   linkedin: "https://www.linkedin.com/in/eiichi-yoshida-615107"
   website: "https://staff.aist.go.jp/e.yoshida/"
@@ -265,7 +265,7 @@
 - id: carong
   given: Guillaume
   family: Caron
-  role: permanent
+  role: deputy-director
   nationality: fr
   linkedin: "https://www.linkedin.com/in/guillaume-caron-62b9b031"
   website: "http://mis.u-picardie.fr/~g-caron"
@@ -446,7 +446,7 @@
 - id: gabas
   given: Antonio
   family: Gabas
-  role: phd
+  role: alumni
   nationality: es
   scholar: "https://scholar.google.com/citations?user=Q5KaFMMAAAAJ"
   linkedin: "https://www.linkedin.com/in/toni-gabas-21b55558/"
@@ -558,3 +558,8 @@
   family: Kato
   role: admin
   nationality: jp
+- id: kang
+  given: Yufan
+  family: Kamg
+  role: master
+  nationality: cn
