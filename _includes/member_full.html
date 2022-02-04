@@ -139,7 +139,6 @@
 
   <!-- Publications row -->
   <div class="row">
-
     <div class="col-lg-12">
       {%- if member.selected_publications -%}
         <h3 class="page-header">Selected Publications</h3>
@@ -150,6 +149,7 @@
         </div>
       {%- else -%}
         <h3 class="page-header">Publications</h3>
+		<div class="alert alert-info">2022/02/04 The publication list may not be complete, especially for publications prior to 2017. We are working on updating it.</div>
         {%- include publications_table.html member_id=member.id%}
       {%- endif -%}
     </div>
