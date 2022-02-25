@@ -107,3 +107,8 @@
   name: "University of Technology Belfort Montebeliard"
   shortname: "UTBM"
   website: "https://www.utbm.fr/"
+- id: lirmm
+  logo: "/en/assets/logos/lirmm.jpg"
+  name: "The Laboratoire d’Informatique, de Robotique et de Microélectronique de Montpellier"
+  shortname: "LIRMM"
+  website: "https://www.lirmm.fr/lirmm_eng"
