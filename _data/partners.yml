@@ -112,3 +112,8 @@
   name: "The Laboratoire d’Informatique, de Robotique et de Microélectronique de Montpellier"
   shortname: "LIRMM"
   website: "https://www.lirmm.fr/lirmm_eng"
+- id: doublegiken
+  logo: "/en/assets/logos/doublegiken.jpg"
+  name: "Double Giken"
+  shortname: "Double Giken"
+  website: "https://j-d.co.jp"
