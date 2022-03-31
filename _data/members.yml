@@ -569,3 +569,8 @@
   role: postdoc
   nationality: fr
   linkedin: "https://www.linkedin.com/in/guillaume-lorthioir-663201194/"
+  bio: >
+    obtained a bachelor's degree in Mathematics and one in Computer Sciences from Sorbonne University, Paris, in 2016. He then received a Master's degree specializing in AI, Robotics, and Operational Research from the same University in 2018. After that, he was a research intern at the NII (National Institute of Informatics) in Tokyo and began a Ph.D. there under the affiliation of SOKENDAI University, from which he graduated in 2021. His thesis was about Plan Recognition in Real-Time Strategy Games, how to infer the opponent player's strategy in real-time.
+    He started a postdoc at JRL in 2022, focusing on using plan recognition during teleoperation. The idea behind it is to anticipate the moves of the teleoperator and provide assistance with the robot so that the actions are less clumsy. His research interest includes AI for robotics, Decision making, Multi-agent systems, and autonomous robots.
+    Otherwise, he is passionate about the progress AI makes every day and its impact on human society, passionate about space and all its mysteries,
+    he likes hiking, sport, and just enjoying time with friends.
