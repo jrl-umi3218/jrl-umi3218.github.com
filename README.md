@@ -201,9 +201,9 @@ You can now browse the website in your browser at http://localhost:4000
 
 ## Deploy
 
-To deploy to AIST server, first build the site with `baseurl` to `/jrl-2`:
+To deploy to AIST server, first build the site with `baseurl` to `/jrl-22022`:
 ```
-bundle exec jekyll build -b /jrl-2
+bundle exec jekyll build -b /jrl-22022
 ```
 Then upload the file `_site/index_en.html` and the folder `_site/en` using `FTP over Explicit SSL/TLS`
 
