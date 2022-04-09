@@ -12,7 +12,7 @@
 - id: yoshida
   given: Eiichi
   family: Yoshida
-  role: adjunct
+  role: alumni
   nationality: jp
   linkedin: "https://www.linkedin.com/in/eiichi-yoshida-615107"
   website: "https://staff.aist.go.jp/e.yoshida/"
@@ -466,7 +466,7 @@
 - id: tanaka
   given: Ryodo
   family: Tanaka
-  role: phd
+  role: alumni
   nationality: jp
   scholar: "https://scholar.google.com/citations?hl=ja&user=tDWyUmwAAAAJ"
   linkedin: "https://www.linkedin.com/in/ryodo-tanaka/"
@@ -498,7 +498,7 @@
 - id: chappellet
   given: Kevin
   family: Chappellet
-  role: phd
+  role: alumni
   nationality: fr
   linkedin: "https://www.linkedin.com/in/kevin-chappellet-a3a87936/"
   bio: >
