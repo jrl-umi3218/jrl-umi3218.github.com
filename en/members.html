@@ -135,6 +135,12 @@ title: CNRS-AIST JRL - Members
   </div>
   <div class="row row-centered">
     <div id="alumni" class="panel-collapse collapse" style="transition: none;">
+	{%- for member in members -%}
+    {%- if member.role == "alumni-star" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+	<br>
     {%- for member in members -%}
     {%- if member.role == "alumni" -%}
     {%- include member_summary.html member=member -%}

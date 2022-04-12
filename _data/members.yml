@@ -12,7 +12,7 @@
 - id: yoshida
   given: Eiichi
   family: Yoshida
-  role: alumni
+  role: alumni-star
   nationality: jp
   linkedin: "https://www.linkedin.com/in/eiichi-yoshida-615107"
   website: "https://staff.aist.go.jp/e.yoshida/"
@@ -336,7 +336,7 @@
 - id: kajita
   given: Shuuji
   family: Kajita
-  role: alumni
+  role: alumni-star
   nationality: jp
   bio: >
     received the master's degree (1985) and the doctor of engineering degree (1996) from Tokyo Institute of Technology, Japan. In 1985, he joined the Mechanical Engineering Laboratory, Agency of Industrial Science and Technology, Ministry of International Trade and Industry (AIST-MITI). Meanwhile he was a visiting researcher at California Institute of Technology, 1996-1997. Currently he is a chief senior researcher at the National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan, which was reorganized from AIST-MITI in April 2001.His research interests include robotics and control theory. He is a member of Society of Instrument and Control Engineers, Robotics Society of Japan and IEEE (Robotics and Automation Society). Received the best paper award of the Society of Instrument and Control Engineers in 1996, and the best paper award of the Robotics Society of Japan in 2005.
