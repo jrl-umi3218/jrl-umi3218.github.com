@@ -476,8 +476,8 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: http://www.cs.cmu.edu/~cga/ew/harada-ijhr04.pdf
-- id: kanehiro:ijrr:2006
-  year: 2006
+- id: kanehiro:ijrr:2004
+  year: 2004
   title: 'OpenHRP: A Software Platform for Humanoid Robotics'
   booktitle: The International Journal of Robotics Research
   authors:
@@ -869,6 +869,23 @@
   - id: yoshida
   pdf: https://www.researchgate.net/publication/220065756_Real-Time_Spoken-Language_Programming_for_Cooperative_Interaction_with_a_Humanoid_Apprentice
   lab: jrl
+- id: sakaguchi:ijra:2009
+  year: 2009
+  title: Design of common environmental information for door-closing tasks with various
+    robots
+  booktitle: International Journal of Robotics and Automation
+  authors:
+  - id: sakaguchi
+  - family: Yokoi
+    given: Kazuhito
+  - family: Uijiie
+    given: Takeshi
+  - family: Tsunoo
+    given: Shinichi
+  - family: Wada
+    given: Kazuyoshi
+  pdf: https://www.researchgate.net/profile/Takeshi-Sakaguchi/publication/220565645_Design_of_Common_Environmental_Information_for_Door-Closing_Tasks_with_Various_Robots/links/00b7d534e384a6c902000000/Design-of-Common-Environmental-Information-for-Door-Closing-Tasks-with-Various-Robots.pdf
+  lab: jrl
 - id: vu:ima:2009
   year: 2009
   title: Controlling the Display of Capsule Endoscopy Video for Diagnostic Assistance
@@ -1050,6 +1067,25 @@
   - id: kheddar
   pdf: https://hal.inria.fr/file/index/docid/567850/filename/IJHRSpecialIssueSept2010_nbv.pdf
   lab: jrl
+- id: kang:ijpem:2010
+  year: 2010
+  title: Control of Impulsive Contact Force between Mobile Manipulator and Environment
+    Using Effective Mass and Damping Controls
+  booktitle: International Journal of Precision Engineering and Manufacturing
+  authors:
+  - family: Kang
+    given: Shungchul
+  - family: Komoriya
+    given: Kiyoshi
+  - family: Yokoi
+    given: Kazuhito
+  - family: Koutoku
+    given: Tetsuo
+  - family: Kim
+    given: Byungchan
+  - family: Park
+    given: Shinsuk
+  pdf: https://link.springer.com/content/pdf/10.1007/s12541-010-0082-4.pdf
 - id: ngo:itis:2010
   year: 2010
   title: Real-time Estimation of Fast Egomotion with Feature Classification using
@@ -1381,6 +1417,35 @@
   - id: kheddar
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ijrr-lengagne-2013.pdf
   lab: jrl
+- id: ikeda:kbs:2013
+  year: 2013
+  title: Twitter user profiling based on text and community mining for market analysis
+  booktitle: Knowledge-Based Systems
+  authors:
+  - family: Ikeda
+    given: Kazushi
+  - family: Hattori
+    given: Gen
+  - family: Ono
+    given: Chihiro
+  - family: Asoh
+    given: Hideki
+  - family: Higashino
+    given: Teruo
+  pdf: https://isiarticles.com/bundles/Article/pre/pdf/47689.pdf
+- id: kwak:kros:2013
+  year: 2013
+  title: Strategic games for particle survival in Rao-Blacwellized particle filter
+    for SLAM
+  booktitle: Journal of Korea Robotics Society
+  authors:
+  - family: Kwak
+    given: Nosan
+  - family: Kita
+    given: Nobuyuki
+  - family: Yokoi
+    given: Kazuhito
+  pdf: http://www.koreascience.or.kr/article/JAKO200917161877595.pdf
 - id: escande:ras:2013
   year: 2013
   title: Planning contact points for humanoid robots
@@ -1507,6 +1572,22 @@
     given: Pierre-Brice
   pdf: https://hal.archives-ouvertes.fr/file/index/docid/751924/filename/m.pdf
   lab: jrl
+- id: wakasugi:jtpsj:2014
+  year: 2014
+  title: Verification of Effectiveness of a Probabilistic Algorithm for Latent Structure
+    Extraction Using an Associative Memory Mode
+  booktitle: Journal Of the Physical Society of Japan
+  authors:
+  - family: Wakasugi
+    given: Kensuke
+  - family: Kuwatani
+    given: Tatsu
+  - family: Nagata
+    given: Kenji
+  - family: Asoh
+    given: Hideki
+  - family: Okada
+    given: Masato
 - id: ayusawa:mmt:2014
   year: 2014
   title: Simultaneous global inverse kinematics and geometric parameter identification
@@ -2731,6 +2812,23 @@
     given: François
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8519739
   lab: none
+- id: kumagai:ram:2019
+  year: 2019
+  title: 'Toward Industrialization of Humanoid Robots: Autonomous Plasterboard Installation
+    to Improve Safety and Efficiency'
+  booktitle: IEEE Robotics & Automation Magazine
+  authors:
+  - id: kumagai
+  - id: morisawa
+  - id: sakaguchi
+  - id: nakaoke
+  - id: kaneko
+  - id: kaminaga
+  - id: kajita
+  - id: benalleguem
+  - id: cisneros
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/8867918
 - id: cisneros:ar:2020
   year: 2020
   title: An inverse dynamics-based multi-contact locomotion control framework without
@@ -3184,7 +3282,7 @@
   lab: jrl
 - id: bolotnikova:ral:2021
   year: 2021
-  title: Adaptive task-space force control for humanoid-to-human motion assistance
+  title: Adaptive task-space force control for humanoid-to-human assistance
   booktitle: IEEE Robotics and Automation Letters
   authors:
   - family: Bolotnikova
@@ -3523,7 +3621,7 @@
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2002_publications/02-3.pdf
 - id: fujiwara:iros:2002
   year: 2002
-  title: 'UKEMI: Falling Motion Control to Minimize Damage to Biped Humanoid Robot,'
+  title: 'UKEMI: Falling Motion Control to Minimize Damage to Biped Humanoid Robot'
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   authors:
   - family: Fujiwara
@@ -5291,21 +5389,6 @@
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
   - id: nakaoke
-- id: kobayashi:csa:2013
-  year: 2013
-  title: A Probabilistic Approach to Text Generation of Human Motions extracted from
-    Kinect Videos
-  booktitle: The International Conference on Computer Science and its Applications
-  authors:
-  - family: Kobayashi
-    given: Mizuki
-  - family: Kobayashi
-    given: Ichiro
-  - family: Asoh
-    given: Hideki
-  - family: Guadarrama
-    given: Sergio
-  pdf: http://www.iaeng.org/publication/WCECS2013/WCECS2013_pp18-22.pdf
 - id: agravante:hfr:2013
   year: 2013
   title: Visio-haptic control for Human-Humanoid Cooperative Carrying
@@ -5598,6 +5681,21 @@
     given: Takuichi
   - family: Motomura
     given: Yoichi
+- id: kobayashi:wcecs:2013
+  year: 2013
+  title: A Probabilistic Approach to Text Generation of Human Motions extracted from
+    Kinect Videos
+  booktitle: World Congress on Engineering and Computer Science
+  authors:
+  - family: Kobayashi
+    given: Mizuki
+  - family: Kobayashi
+    given: Ichiro
+  - family: Asoh
+    given: Hideki
+  - family: Guadarrama
+    given: Sergio
+  pdf: http://www.iaeng.org/publication/WCECS2013/WCECS2013_pp18-22.pdf
 - id: pandey:aic:2014
   year: 2014
   title: 'Romeo2 Project: Humanoid Robot Assistant and Companion for Everyday Life:
@@ -7955,21 +8053,6 @@
   lab: jrl
 - id: guerbas:icar:2021
   year: 2021
-  title: Direct 3D model-based tracking in omnidirectional images robust to large
-    inter-frame motion
-  booktitle: International Conference on Advanced Robotics
-  authors:
-  - family: Guerbas
-    given: Seif-Eddine
-  - family: Crombez
-    given: Nathan
-  - id: carong
-  - family: Mouaddib
-    given: El
-  pdf: https://hal.archives-ouvertes.fr/hal-03371352/file/2021_ICAR_Guerbas.pdf
-  lab: jrl
-- id: guerbas:icar:2021
-  year: 2021
   title: Direct 3D Model-Based Tracking in Omnidirectional Images Robust to Large
     Inter-Frame Motion
   booktitle: International Conference on Advanced Robotics
@@ -8130,6 +8213,48 @@
   - id: yoshiyasu
   - id: yoshida
   lab: jrl
+- id: funatomi:ijcv:2022
+  year: 2022
+  title: Eliminating Temporal Illumination Variations in Whisk-broom Hyperspectral
+    Imaging
+  booktitle: International Journal of Computer Vision
+  authors:
+  - family: Funatomi
+    given: Takuya
+  - family: Ogawa
+    given: Takehiro
+  - family: Tanaka
+    given: Kenichiro
+  - family: Kubo
+    given: Hiroyuki
+  - id: carong
+  - family: Mouaddib
+    given: El
+  - family: Matsushita
+    given: Yasuyuki
+  - family: Mukaigawa
+    given: Yasuhiro
+  pdf: https://link.springer.com/article/10.1007/s11263-022-01587-8
+  lab: jrl
+- id: caron:icpr:2022
+  year: 2022
+  title: Direct Visual Servoing in the non-linear scale space of camera pose
+  booktitle: IAPR/IEEE International Conference on Pattern Recognition
+  authors:
+  - id: carong
+  - id: yoshiyasu
+  lab: jrl
+- id: andre:cvprw:2022
+  year: 2022
+  title: Photometric Visual Gryscope for Full-View Spherical Camera
+  booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
+  authors:
+  - family: André
+    given: Antoine
+  - id: carong
+  lab: jrl
+  projects:
+  - dvsstraight
 - id: demagistris:ras:2017
   projects:
   - koroibot
