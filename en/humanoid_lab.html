@@ -169,20 +169,15 @@ title: CNRS-AIST JRL - Humanoid Lab
 			<td height="10"></td>
                       </tr>
                       <tr>
-			<td valign="top">In immersive humanoid robot teleoperation, there are three main shortcomings that can alter
-				the transparency of the visual feedback: (i) the lag between the motion of the operator’s and robot’s head.
-				This latency could cause a noticeable delay in the visual feedback, which jeopardize the embodiment quality,
-				can cause dizziness, and affects interactivity resulting in operator frequent motion pauses for the visual
-				feedback to settle; (ii) the mismatch between the real-camera and the headset field-of-views (FOV), the
-				robot camera having generally lower FOV; and (iii) a mismatch between the human and head head range of
-				motions, that of the robot is also generally lower. In order to leverage these drawbacks, we developed a
-				decoupled viewpoint control solution for humanoid platform which allows visual feedback with low-latency
-				in virtual reality and artificially increase the camera field-of-view range to match that of the operator
-				headset. Our novel solution uses SLAM technology to enhance and complement visual feedback from reconstructed
-				mesh and complements the areas that are not covered by the real-time robot’s point cloud visual feedback.
-				As a result, the operator is fed with real-time vision from the robot’s head orientation by observing the
-				pose of the point cloud. Balancing this kind of awareness and immersion is important in virtual reality
-				based teleoperation, considering the safety and robustness of control system.
+			<td valign="top">During humanoid robot teleoperation, there is a noticeable delay between the motion of the
+				operator’s and robot’s head. This latency could cause the lag in visual feedback, which decreases the
+				immersion of the system, may cause some dizziness and reduce the efficiency of interaction in teleoperation
+				since operator needs to wait for the real-time visual feedback. To solve this problem, we
+				developed a decoupled viewpoint control solution which allows the operator to
+				obtain the visual feedback changes with low-latency in VR and to increase the reachable
+				visibility range. Besides, we propose a complementary SLAM solution which uses the reconstructed mesh to
+				complement the blank area that is not covered by the real-time robot’s point cloud visual feedback. The
+				operator could sense the robot head’s real-time orientation by observing the pose of the point cloud.
 			</td>
 			<td width="50">&nbsp;</td>
                       </tr>
