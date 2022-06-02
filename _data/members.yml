@@ -104,7 +104,7 @@
     graduated in Fluid Dynamics from Ecole Polytechnique and in Space Telecommunications from Institut National Superieur de l'Aeronautique et de l'Espace. He then worked in the Space field for 8 years for Alcatel Alenia Space and Airbus Defense &amp; Space. Since 2011 he has been working in Nuclear Safety Systems at Rolls-Royce, designing a new instrumentation system.
   research: >
     <h3>Research interests</h3>
-    <p> Multi-sensors (like PDR) signal processing together with filters plugins integration into Choreonoid simulation software in C++.</p> 
+    <p> Multi-sensors (like PDR) signal processing together with filters plugins integration into Choreonoid simulation software in C++.</p>
 - id: brossette
   given: Stanislas
   family: Brossette
@@ -141,10 +141,10 @@
   scholar: "http://scholar.google.com/citations?user=RuokHdYAAAAJ"
   github: "https://github.com/bchretien"
   bio: >
-#    <h3>Bio</h3>
-#    <ul>
-#      <li>Masters Degree in Aerospace Engineering from ISAE SUPAERO, Toulouse</li>
-#    </ul>
+  #    <h3>Bio</h3>
+  #    <ul>
+  #      <li>Masters Degree in Aerospace Engineering from ISAE SUPAERO, Toulouse</li>
+  #    </ul>
   research: >
     <ul>
       <li>Motion planning</li>
@@ -188,10 +188,9 @@
       <li>M.Sc. Applied Mathematics, University of Toulouse, 2013</li>
       <li>Ph.D. Robotics, University of Montpellier, 2016</li>
     </ul>
-  research:
-    <ul>
-      <li>Unobtrusive monitoring of human interactions with the environment</li>
-      <li>Physics-based optimization and learning for contact force sensing from vision</li>
+  research: <ul>
+    <li>Unobtrusive monitoring of human interactions with the environment</li>
+    <li>Physics-based optimization and learning for contact force sensing from vision</li>
     </ul>
 
   videos:
@@ -271,7 +270,7 @@
   website: "http://mis.u-picardie.fr/~g-caron"
   scholar: "https://scholar.google.ca/citations?user=UhuEP40AAAAJ"
   bio: >
-    is Associate Professor since 2011 at Universite de Picardie Jules Verne (UPJV), MIS laboratory, France, and a CNRS delegate at CNRS-AIST Joint Robotics Laboratory, Japan since 2019. From 2016 to 2020, he was heading the Robotic Perception group of the MIS laboratory (UPJV). He received the Ph.D. degree in robotics and the Habilitation degree from UPJV in 2010 and 2019, respectively. He was a postdoc fellow at Inria Rennes/IRISA, France (2010-2011) and a visiting research at the University of Osaka, Japan (Apr.-May 2013). His research interests include artificial vision for robotics, real-time visual 3D tracking and servoing and digital heritage. He is the Chair of the IAPR <a href="https://www.cvl.iis.u-tokyo.ac.jp/IAPR-TC19" target="_self">TC 19 on "Computer vision for cultural heritage applications"</a> since 2018. 
+    is Associate Professor since 2011 at Universite de Picardie Jules Verne (UPJV), MIS laboratory, France, and a CNRS delegate at CNRS-AIST Joint Robotics Laboratory, Japan since 2019. From 2016 to 2020, he was heading the Robotic Perception group of the MIS laboratory (UPJV). He received the Ph.D. degree in robotics and the Habilitation degree from UPJV in 2010 and 2019, respectively. He was a postdoc fellow at Inria Rennes/IRISA, France (2010-2011) and a visiting research at the University of Osaka, Japan (Apr.-May 2013). His research interests include artificial vision for robotics, real-time visual 3D tracking and servoing and digital heritage. He is the Chair of the IAPR <a href="https://www.cvl.iis.u-tokyo.ac.jp/IAPR-TC19" target="_self">TC 19 on "Computer vision for cultural heritage applications"</a> since 2018.
 - id: sagawa
   given: Ryusuke
   family: Sagawa
@@ -394,7 +393,7 @@
   role: adjunct
   nationality: jp
 - id: hu
-  given: Yue 
+  given: Yue
   family: Hu
   role: alumni
   nationality: it
@@ -453,7 +452,7 @@
   bio: >
     received the MSc degree from Universitat Politecnica de Catalunya (UPC), Spain (2013).
     He is working in the CNRS-AIST Joint Robotics Laboratory (JRL), UMI3218/CRT, Tsukuba, Japan, as PhD student of University of Tsukuba, Tsukuba, Japan, and as a research assistant in JRL (2021-).
-    His research interests include 3D pose estimation, machine learning and reinforcement learning for robotics applications.    
+    His research interests include 3D pose estimation, machine learning and reinforcement learning for robotics applications.
 - id: qin
   given: Yili
   family: Qin
@@ -487,7 +486,7 @@
   nationality: fr
   linkedin: "https://www.linkedin.com/in/lucas-gamez"
   bio: >
-    received the MS degree in Artificial Intelligence and Shape Recognition from Paul Sabatier University, France in 2018. He is now PhD student at the Unviversity of Montpellier and research assistant at AIST. His research topics include artificial intelligence, deep learning and multi-person tracking. 
+    received the MS degree in Artificial Intelligence and Shape Recognition from Paul Sabatier University, France in 2018. He is now PhD student at the Unviversity of Montpellier and research assistant at AIST. His research topics include artificial intelligence, deep learning and multi-person tracking.
 - id: sun
   given: Leyuan
   family: Sun
@@ -575,3 +574,13 @@
     He started a postdoc at JRL in 2022, focusing on using plan recognition during teleoperation. The idea behind it is to anticipate the moves of the teleoperator and provide assistance with the robot so that the actions are less clumsy. His research interest includes AI for robotics, Decision making, Multi-agent systems, and autonomous robots.
     Otherwise, he is passionate about the progress AI makes every day and its impact on human society, passionate about space and all its mysteries,
     he likes hiking, sport, and just enjoying time with friends.
+- id: aandre
+  given: Antoine
+  family: André
+  role: postdoc
+  nationality: fr
+  website: "https://antoineandre.github.io/"
+  scholar: "https://scholar.google.fr/citations?user=iopU-RcAAAAJ&hl"
+  bio: >
+    obtained his Ph.D. in Automatics and Computer Vision in 2021 from University Burgundy Franche-Comté (Besançon, France), at the FEMTO-ST Institute of research, in the department of Mechanics and Mechatronics. His Ph.D. subject was focusing on the pose measurement at small scale, using encoded periodic patterns to obtain a range of measure larger than the field of view allowed in microscopy. These periodic patterns also allow a highly resolute retrieval of the position through the study of their phase evolution, with resolution up to 1 nm in translation and a few microradians in rotation. Prior to that, he received an engineering degree in robotics from the National Institute of Mechanics and Microtechnologies (Besançon, France).
+    He joined the JRL in 2022 as a postdoctoral fellow to study the visual servoing capabilities of large field of view cameras. The core idea of this study is to enhance the servoing capabilities in robotics and avoid self-collision and joints limits while providing both a large convergence domain and a high resolution in the final positioning.
