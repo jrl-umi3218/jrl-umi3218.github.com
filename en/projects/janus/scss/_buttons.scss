@@ -1,0 +1,69 @@
+/* :: 6.0 Buttons CSS */
+
+.uza-btn {
+    position: relative;
+    z-index: 1;
+    min-width: 160px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: $primary;
+    border: none;
+    border-radius: 50px;
+    background-color: $white;
+    @include transition-duration(500ms);
+    @include box-shadow($box-shadow);
+
+    &:focus,
+    &:hover {
+        @include box-shadow($box-shadow);
+        background-color: $primary;
+        color: $white;
+    }
+
+    &.btn-2 {
+        background-color: $primary;
+        color: $white;
+
+        &:focus,
+        &:hover {
+            background-color: $white;
+            color: $primary;
+        }
+    }
+
+    &.btn-3 {
+        border: 2px solid $primary;
+        line-height: 46px;
+    }
+}
+
+.login-register-btn {
+    a {
+        display: inline-block;
+
+        span {
+            @include transition-duration(500ms);
+            color: $secondary;
+
+            &:focus,
+            &:hover {
+                color: $primary;
+            }
+        }
+
+        &:focus,
+        &:hover {
+            color: $primary;
+        }
+        
+        @media #{$breakpoint-lg} {
+            font-size: 14px;
+        }
+    }
+}

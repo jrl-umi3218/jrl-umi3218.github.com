@@ -1,0 +1,406 @@
+/* :: 15.0 Blog CSS */
+
+.uza-blog-area {
+    position: relative;
+    z-index: 1;
+
+    .blog-bg-curve {
+        position: absolute;
+        width: auto;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.single-blog-post {
+    position: relative;
+    z-index: 1;
+    @include transition-duration(500ms);
+    box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.1);
+
+    .post-content {
+        position: relative;
+        z-index: 10;
+        padding: 40px;
+        background-color: $white;
+        @include transition-duration(500ms);
+
+        .post-date {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: $secondary;
+            display: block;
+            margin-bottom: 10px;
+
+            span {
+                font-size: 36px;
+                color: $primary;
+                margin-right: 5px;
+            }
+        }
+
+        .post-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: block;
+
+            &:focus,
+            &:hover {
+                color: $primary;
+            }
+
+            @media #{$breakpoint-lg} {
+                font-size: 18px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 20px;
+            }
+        }
+
+        .read-more-btn {
+            @include display-flex(flex);
+            @include align-items-center;
+
+            i {
+                color: $primary;
+                font-size: 20px;
+            }
+        }
+    }
+
+    &:focus,
+    &:hover {
+        @include box-shadow($box-shadow);
+
+        .post-content {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+    }
+}
+
+.blog-details-content {
+    position: relative;
+    z-index: 1;
+
+    .post-content {
+        .post-date {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: $secondary;
+            display: block;
+            font-weight: 600;
+
+            span {
+                font-size: 36px;
+                color: $primary;
+            }
+        }
+
+        h2 {
+            color: $heading;
+            font-size: 60px;
+            display: block;
+            margin-bottom: 15px;
+
+            @media #{$breakpoint-lg} {
+                font-size: 42px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 36px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 24px;
+            }
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        @media #{$breakpoint-xs} {
+            font-size: 24px;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        color: $secondary;
+        font-weight: 400;
+
+        @media #{$breakpoint-xs} {
+            font-size: 16px;
+        }
+    }
+}
+
+.uza-pagination {
+    position: relative;
+    z-index: 1;
+
+    .pagination .page-item .page-link {
+        width: 40px;
+        height: 40px;
+        border-radius: 3px;
+        padding: 0;
+        line-height: 38px;
+        margin: 0 5px;
+        text-align: center;
+        background-color: transparent;
+        color: $text;
+        font-size: 16px;
+
+        &:focus,
+        &:hover {
+            background-color: $primary;
+            border-color: $primary;
+            color: $white;
+        }
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: $primary;
+        border-color: $primary;
+        color: $white;
+    }
+}
+
+.comment_area {
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .title {
+        margin-bottom: 30px;
+        font-size: 30px;
+
+        @media #{$breakpoint-xs} {
+            font-size: 24px;
+        }
+    }
+
+    .comment-content {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 30px;
+
+        .comment-author {
+            @include flex(0 0 70px);
+            width: 70px;
+            max-width: 70px;
+            margin-right: 20px;
+            border-radius: 50%;
+
+            @media #{$breakpoint-xs} {
+                @include flex(0 0 50px);
+                width: 50px;
+                max-width: 50px;
+                margin-right: 10px;
+            }
+
+            img {
+                border-radius: 50%;
+            }
+        }
+
+        .comment-meta {
+            .post-date {
+                color: $primary;
+                font-size: 12px;
+                text-transform: uppercase;
+                display: block;
+                margin-bottom: 5px;
+                font-weight: 600;
+            }
+
+            h5 {
+                margin-bottom: 5px;
+
+                @media #{$breakpoint-xs} {
+                    font-size: 16px;
+                }
+            }
+
+            p {
+                color: $heading;
+                font-size: 16px;
+                font-weight: 500;
+
+                @media #{$breakpoint-xs} {
+                    font-size: 14px;
+                }
+            }
+
+            a.like,
+            a.reply {
+                display: inline-block;
+                padding: 5px 15px 3px;
+                font-size: 12px;
+                font-weight: 600;
+                border: 1px solid $border;
+                text-transform: uppercase;
+
+                &:focus,
+                &:hover {
+                    border-color: $primary;
+                    background-color: $primary;
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    .children {
+        margin-left: 50px;
+
+        @media #{$breakpoint-xs} {
+            margin-left: 20px;
+        }
+
+        .single_comment_area {
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.uza-blockquote {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    .icon {
+        @include flex(0 0 70px);
+        max-width: 70px;
+        width: 70px;
+
+        @media #{$breakpoint-xs} {
+            @include flex(0 0 50px);
+            max-width: 50px;
+            width: 50px;
+        }
+
+        i {
+            font-size: 60px;
+            color: $primary;
+
+            @media #{$breakpoint-xs} {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .text {
+        h5 {
+            font-size: 30px;
+            font-style: italic;
+            margin-bottom: 15px;
+            line-height: 1.6;
+            font-weight: 400;
+
+            @media #{$breakpoint-xs} {
+                font-size: 20px;
+            }
+        }
+
+        h6 {
+            font-size: 30px;
+            margin-bottom: 0;
+
+            @media #{$breakpoint-xs} {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.uza-post-share {
+    position: relative;
+    z-index: 1;
+
+    h6 {
+        @media #{$breakpoint-xs} {
+            font-size: 10px;
+            margin-right: 10px !important;
+        }
+    }
+
+    .social-info- {
+        a {
+            display: inline-block;
+            color: $heading;
+            font-size: 16px;
+            margin-right: 15px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &:focus,
+            &:hover {
+                color: $primary;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 12px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+.post-catagories {
+    position: relative;
+    z-index: 1;
+    margin: 50px 0;
+
+    ul {
+        li {
+            a {
+                display: inline-block;
+                padding: 8px 20px;
+                border: 1px solid $border;
+                background-color: $white;
+                color: $heading;
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: 600;
+                margin: 3px;
+
+                &:focus,
+                &:hover {
+                    background-color: $primary;
+                    color: $white;
+                }
+
+                @media #{$breakpoint-xs} {
+                    font-size: 10px;
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+}
+
+.related-news-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+    border-top: 1px solid $border;
+    margin-bottom: 20px;
+}

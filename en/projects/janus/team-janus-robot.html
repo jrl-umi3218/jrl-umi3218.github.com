@@ -1,59 +1,401 @@
----
-layout: janus
-title: Team Janus - Robot
----
+<!DOCTYPE html>
+<html lang="en-US">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Team Janus webpage">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+		<title>Team Janus</title>
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="https://unit.aist.go.jp/jrl-22022/en/assets/favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="https://unit.aist.go.jp/jrl-22022/en/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="https://unit.aist.go.jp/jrl-22022/en/assets/favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="https://unit.aist.go.jp/jrl-22022/en/assets/favicons/favicon-16x16.png" sizes="16x16">
+		
+		<!-- Core Stylesheet -->
+		<link href="style.css" rel="stylesheet">
+	</head>
+	
+	<body id="top">
+		<!-- Preloader -->
+		<div id="preloader">
+			<div class="wrapper">
+				<div class="cssload-loader"></div>
+			</div>
+		</div>
 
-<h3>Avatar robot</h3>
+		<!-- ***** Top Search Area Start ***** -->
+		<div class="top-search-area">
+			<!-- Search Modal -->
+			<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<!-- Close Button -->
+							<button type="button" class="btn close-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+							<!-- Form -->
+							<form action="team-janus.html" method="post">
+								<input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+								<button type="submit">Search</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ***** Top Search Area End ***** -->
 
-<p>We are using a bipedal humanoid robot as our avatar. Among all the geminoids existing worldwide, HRP-4C[1]  is  the  only  one  with  close-to-human  look  that  can effectively walk, manipulate objects, and realize facial expressions.  Therefore, we didn’t want to sacrifice the bipedal challenge with respect to efforts leaning moretoward  well-known  sensory  feedback  integration  in  anadvanced telepresence system.  Instead, we rather aim at demonstrating an avatar in the shape of human that is  (i)  easily  controllable,  (ii)  can  provide  rich  sensory feedback even with a reduced master station set-up, and (iii) can be an elegant solution in many applications.</p>
+		<!-- ***** Header Area Start ***** -->
+		<header class="header-area">
+			<!-- Main Header Start -->
+			<div class="main-header-area">
+				<div class="classy-nav-container breakpoint-off">
+					<!-- Classy Menu -->
+					<nav class="classy-navbar justify-content-between" id="uzaNav">
 
-{% capture home_assets %}/en/assets/projects/janus/carousel/{% endcapture %}
-{% for f in site.static_files %}
-  {% assign f_base = f.path | remove_first: home_assets %}
-  {% if f_base != f.path %}
-    {% if carousel_files %}
-    {% capture carousel_files %}{{carousel_files}},{{site.baseurl}}{{f.path}}{% endcapture %}
-    {% else %}
-      {%- capture carousel_files -%}{{site.baseurl}}{{f.path}}{%- endcapture -%}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-{% assign carousel_files = carousel_files | split: "," %}
-{% assign carousel_files_size = carousel_files | size %}
+						<!-- Logo -->
+						<a class="nav-brand" href="team-janus.html"><img src="./img/bg-img/logoJanus.png" alt="Janus" width="96"></a>
 
-<div class="row" style="margin-top:30px;">
-  <div class="col-xs-8 col-xs-offset-2">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      {% if carousel_files_size != 1 %}
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        {% for f in carousel_files %}
-        {% if forloop.index0 == 0 %}
-        <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}" class="active"></li>
-        {% else %}
-        <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}"></li>
-        {% endif %}
-        {% endfor %}
-      </ol>
-      {% endif %}
-      
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        {% for f in carousel_files %}
-        {% if forloop.index0 == 0 %}
-        {% assign class = "item active" %}
-        {% else %}
-        {% assign class = "item" %}
-        {% endif %}
-        <div class="{{class}}">
-          <img class="img-responsive img-rounded" src="{{f}}" alt="carousel {{forloop.index}}">
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
+						<!-- Navbar Toggler -->
+						<div class="classy-navbar-toggler">
+							<span class="navbarToggler"><span></span><span></span><span></span></span>
+						</div>
 
-<br/>
+						<!-- Menu -->
+						<div class="classy-menu">
+							<!-- Menu Close Button -->
+							<div class="classycloseIcon">
+								<div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+							</div>
 
-<p>[1] K. Kaneko et al. Cybernetic Human HRP-4C. In IEEE-RAS Humanoids, 2009.</p>
+							<!-- Nav Start -->
+							<div class="classynav">
+								<ul id="nav">
+									<li><a href="./team-janus.html">Home</a></li>
+									<li><a href="./team-janus.html#about">Who are we?</a></li>
+									<li><a href="./team-janus.html#vision">Our vision</a></li>
+									<li><a href="./team-janus-members.html">Team</a></li>
+									<li class="current-item"><a href="./team-janus-robot.html">Avatar robot</a></li>
+								</ul>
+							</div>
+							<!-- Nav End -->
+
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- ***** Header Area End ***** -->
+		
+		<!-- ***** Breadcrumb Area Start ***** -->
+		<div class="breadcrumb-area">
+			<div class="container h-100">
+				<div class="row h-100 align-items-end">
+					<div class="col-12">
+						<div class="breadcumb--con">
+							<h2 class="title">Avatar Robot</h2>
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Avatar Robot</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Background Curve -->
+			<div class="breadcrumb-bg-curve">
+				<img src="./img/core-img/curve-5.png" alt="">
+			</div>
+		</div>
+		<!-- ***** Breadcrumb Area End ***** -->
+
+		<!-- ****** Gallery Area Start ****** -->
+		<section class="uza-portfolio-area section-padding-80-0">
+
+			<!-- Portfolio Menu -->
+			<div class="portfolio-menu text-center mb-80">
+				<button class="btn active" data-filter="*">All Pictures</button>
+				<button class="btn" data-filter=".janus">Janus</button>
+				<button class="btn" data-filter=".teleoperation">Teleoperation</button>
+				<button class="btn" data-filter=".hrp4cr">HRP-4CR</button>
+				<button class="btn" data-filter=".dhands">D-Hands</button>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row uza-portfolio">
+
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item janus">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/DSC_7106.jpg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>Janus</h4>
+								<p>Right after the semifinals testing @ LIRMM</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/DSC_7106.jpg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item teleoperation">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/HRP4CR-Operator.png" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>Teleoperation</h4>
+								<p>Natural upper-body motion</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/HRP4CR-Operator.png" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item teleoperation">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/DSC_7090.jpg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>Teleoperation</h4>
+								<p>Grasping the mug</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/DSC_7090.jpg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item teleoperation">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/DSC_7088.jpg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>Teleoperation</h4>
+								<p>Ready to solve the puzzle</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/DSC_7088.jpg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item dhands">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/DSC_7076.jpg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>D-Hands</h4>
+								<p>A close-up on the underactuated hand developed by Double R &#38 D</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/DSC_7076.jpg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item hrp4cr">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/_DSC1774.jpeg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>HRP-4CR (Miim)</h4>
+								<p>Posing...</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/_DSC1774.jpeg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item hrp4cr">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/_DSC1770.jpeg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>HRP-4CR (Miim)</h4>
+								<p>Posing...</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/_DSC1770.jpeg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item hrp4cr">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/_DSC1764.jpeg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>HRP-4CR (Miim)</h4>
+								<p>Posing...</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/_DSC1764.jpeg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item hrp4cr">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/_DSC1754.jpeg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>HRP-4CR (Miim)</h4>
+								<p>Posing...</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/_DSC1754.jpeg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item hrp4cr">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/_DSC1750.jpeg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>HRP-4CR (Miim)</h4>
+								<p>Posing...</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/_DSC1750.jpeg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item hrp4cr">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/Img6270.jpeg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>HRP-4CR (Miim)</h4>
+								<p>Posing...</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/Img6270.jpeg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item hrp4cr">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/Img6265.jpeg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>HRP-4CR (Miim)</h4>
+								<p>Posing...</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/Img6265.jpeg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Single Portfolio Item -->
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item hrp4cr">
+						<div class="single-portfolio-slide">
+							<img src="./img/bg-img/Img6255.jpeg" alt="">
+							<!-- Overlay Effect -->
+							<div class="overlay-effect">
+								<h4>HRP-4CR (Miim)</h4>
+								<p>Posing...</p>
+							</div>
+							<!-- View More -->
+							<div class="view-more-btn">
+								<a href="./img/bg-img/Img6255.jpeg" class="photo-show-btn"><i class="arrow_right"></i></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- ****** Gallery Area End ****** -->
+		
+		<!-- ***** Footer Area Start ***** -->
+		<footer class="footer-area section-padding-40-0">
+			<div class="container">
+			
+				<!-- Border -->
+				<div class="container">
+					<div class="border-line mt-80"></div>
+				</div>
+			
+				<!-- CTA Area Start -->
+				<div class="uza-cta-area section-padding-0-80">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-12 col-lg-8">
+								<div class="cta-content mb-80">
+									<h2>Interested in our research?</h2>
+									<h5>Send us an e-mail!</h5>
+								</div>
+							</div>
+							<div class="col-12 col-lg-4">
+								<div class="cta-content mb-80">
+									<div class="call-now-btn">
+										<h3 style="color:#1583e9">jrl-info-ml_*_aist.go.jp</h3>
+										<p>(Please convert "_*_" to "@")</p>
+									</div>
+								</div>
+							</div>								
+						</div>
+					</div>
+				</div>
+				<!-- CTA Area End -->
+				
+				<div class="row" style="margin-bottom: 30px;">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</div>
+			</div>
+		</footer>
+		<!-- ***** Footer Area End ***** -->
+		
+		<!-- ******* All JS Files ******* -->
+		<!-- jQuery js -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Popper js -->
+		<script src="js/popper.min.js"></script>
+		<!-- Bootstrap js -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- All js -->
+		<script src="js/uza.bundle.js"></script>
+		<!-- Active js -->
+		<script src="js/default-assets/active.js"></script>
+		
+	</body>
+</html>
