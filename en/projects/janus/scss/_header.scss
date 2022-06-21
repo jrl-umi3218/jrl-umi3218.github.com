@@ -1,0 +1,266 @@
+/* :: 7.0 Header CSS */
+
+.header-area {
+    position: fixed;
+    z-index: 600;
+    width: 100%;
+    left: 0;
+    top: 0;
+    @include transition-duration(500ms);
+
+    .main-header-area {
+        @media #{$breakpoint-md} {
+            border-top: 10px solid $heading;
+        }
+
+        @media #{$breakpoint-xs} {
+            border-top: 10px solid $heading;
+        }
+    }
+
+    .main-header-area.sticky {
+        @include transition-duration(500ms);
+        top: 0;
+        width: 100%;
+        position: fixed;
+        background-color: $bg-gray;
+        @include box-shadow((0 1px 6px 0 rgba(0, 0, 0, 0.1)));
+        border-bottom: none;
+        left: 0;
+        z-index: 650;
+    }
+
+    .search-icon {
+        position: relative;
+        z-index: 1;
+        margin-left: 14px;
+
+        @media #{$breakpoint-md} {
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+
+        @media #{$breakpoint-xs} {
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+
+        i {
+            font-size: 20px;
+            color: $heading;
+            cursor: pointer;
+        }
+    }
+}
+
+.classy-nav-container {
+    background-color: transparent;
+    padding: 0;
+
+    @media #{$breakpoint-xs} {
+        padding: 0 15px;
+    }
+
+    .classy-navbar {
+        height: 100px;
+        padding: 0 3%;
+
+        @media #{$breakpoint-md} {
+            height: 70px;
+            padding: 0 5%;
+        }
+
+        @media #{$breakpoint-xs} {
+            height: 70px;
+            padding: 0 5%;
+        }
+
+        .nav-brand {
+            @media #{$breakpoint-xs} {
+                max-width: 90px;
+                margin-right: 15px;
+            }
+        }
+
+        .classynav ul li {
+            a {
+                position: relative;
+                z-index: 1;
+                font-weight: normal;
+                font-size: 18px;
+                text-transform: capitalize;
+                color: $heading;
+
+                &:focus,
+                &:hover {
+                    color: $hover;
+                }
+
+                @media #{$breakpoint-lg} {
+                    font-size: 14px;
+                    padding: 0 10px;
+                }
+
+                @media #{$breakpoint-md} {
+                    font-size: 14px;
+                }
+
+                @media #{$breakpoint-xs} {
+                    font-size: 14px;
+                }
+            }
+
+            &.cn-dropdown-item {
+                ul li {
+                    a {
+                        font-size: 16px;
+                        text-transform: capitalize;
+                        height: 42px;
+                        line-height: 42px;
+                        padding: 0 30px;
+
+                        @media #{$breakpoint-lg} {
+                            font-size: 14px;
+                        }
+
+                        @media #{$breakpoint-md} {
+                            font-size: 14px;
+                        }
+
+                        @media #{$breakpoint-xs} {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            &.current-item {
+                a {
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 70%;
+                        height: 2px;
+                        background-color: $primary;
+                        bottom: 0;
+                        left: 50%;
+                        @include transform(translateX(-50%));
+                        z-index: 1;
+
+                        @media #{$breakpoint-md} {
+                            width: 100%;
+                            height: 1px;
+                        }
+
+                        @media #{$breakpoint-xs} {
+                            width: 100%;
+                            height: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.classynav ul li.has-down > a::after,
+.classynav ul li.has-down.active > a::after,
+.classynav ul li.megamenu-item > a::after {
+    color: $heading;
+}
+
+.breakpoint-off .classynav ul li .dropdown {
+    width: 210px;
+    @include box-shadow($box-shadow);
+    border-radius: 6px;
+}
+
+.top-search-area {
+    .modal-content {
+        border: none;
+
+        .modal-body {
+            padding: 50px;
+
+            @media #{$breakpoint-xs} {
+                padding: 50px 15px;
+            }
+
+            @media #{$breakpoint-sm} {
+                padding: 50px;
+            }
+
+            button.close-btn {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                z-index: 10;
+                font-size: 14px;
+
+                &.btn {
+                    padding: 0;
+                    background-color: transparent;
+
+                    &:focus,
+                    &:hover {
+                        box-shadow: none;
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+
+    form {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+
+        input {
+            width: 100%;
+            height: 50px;
+            border: none;
+            box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
+            border-radius: 6px;
+            font-size: 12px;
+            font-style: italic;
+            padding: 0 20px;
+
+            &:focus {
+                box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.08);
+            }
+        }
+
+        button {
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            top: 0;
+            right: 0;
+            z-index: 10;
+            border-radius: 0 6px 6px 0;
+            border: none;
+            background-color: $primary;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: center;
+            color: $white;
+            cursor: pointer;
+
+            @media #{$breakpoint-xs} {
+                width: 80px;
+            }
+        }
+    }
+}
+
+.get-a-quote {
+    @media #{$breakpoint-md} {
+        margin: 30px 15px !important;
+    }
+
+    @media #{$breakpoint-xs} {
+        margin: 30px 15px !important;
+    }
+}

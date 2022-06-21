@@ -1,0 +1,55 @@
+/* 13.0 Service CSS */
+
+.single-service-area {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+    .service-icon {
+        background-color: $bg-gray;
+        width: 145px;
+        height: 110px;
+        font-size: 42px;
+        color: $heading;
+        text-align: center;
+        line-height: 110px;
+        border-radius: 80px 200px 200px 362px;
+        margin: 0 auto 30px;
+        @include transition-duration(500ms);
+    }
+
+    h5 {
+        font-size: 22px;
+        display: block;
+        margin-bottom: 15px;
+        @include transition-duration(300ms);
+        font-weight: 600;
+    }
+
+    &:focus,
+    &:hover {
+        .service-icon {
+            background-color: $primary;
+            color: $white;
+            @include box-shadow($box-shadow);
+        }
+
+        h5 {
+            color: $primary;
+        }
+    }
+}
+
+.cta-testimonial-cfa-area {
+    position: relative;
+    z-index: 1;
+
+    .cta-testimonial-cfa-bg-curve {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: auto;
+        height: 100%;
+        z-index: -1;
+    }
+}

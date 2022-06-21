@@ -1,0 +1,30 @@
+/* :: 17.0 CFA CSS */
+
+.single-cf-area {
+    position: relative;
+    z-index: 1;
+
+    h2 {
+        margin-bottom: 0;
+        font-size: 60px;
+        color: $primary;
+        margin-right: 20px;
+    }
+
+    .cf-text {
+        h6 {
+            margin-bottom: 0;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+
+    .bg-icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        font-size: 60px;
+        color: #eaeaea;
+    }
+}

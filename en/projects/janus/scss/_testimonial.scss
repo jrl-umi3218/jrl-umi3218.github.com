@@ -1,0 +1,136 @@
+/* :: 10.0 Testimonial CSS */
+
+.testimonial-slides {
+    position: relative;
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    .owl-next,
+    .owl-prev {
+        position: absolute;
+        top: 50%;
+        width: 50px;
+        height: auto;
+        margin-top: -25px;
+        left: 0;
+        z-index: 10;
+        line-height: 50px;
+
+        i {
+            font-size: 50px;
+            color: #b7b7b7;
+
+            &:hover,
+            &:focus {
+                color: $primary;
+            }
+        }
+    }
+
+    .owl-next {
+        left: auto;
+        right: 0;
+    }
+}
+
+.border-line {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 1px;
+    background-color: $bg-gray;
+}
+
+.single-testimonial-slide {
+    position: relative;
+    z-index: 1;
+
+    @media #{$breakpoint-xs} {
+        @include flex-wrap(wrap);
+    }
+
+    .testimonial-thumbnail {
+        @include flex(0 0 170px);
+        max-width: 170px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        margin-right: 60px;
+
+        img {
+            border-radius: 50%;
+        }
+
+        @media #{$breakpoint-lg} {
+            margin-right: 30px;
+        }
+
+        @media #{$breakpoint-xs} {
+            @include flex(0 0 120px);
+            max-width: 120px;
+            width: 120px;
+            height: 120px;
+            margin-right: 0;
+            margin-bottom: 50px;
+        }
+    }
+
+    .testimonial-content {
+        position: relative;
+        z-index: 1;
+
+        h4 {
+            font-weight: normal;
+            font-style: italic;
+            margin-bottom: 30px;
+
+            @media #{$breakpoint-lg} {
+                font-size: 20px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 18px;
+            }
+        }
+
+        .ratings {
+            position: relative;
+            z-index: 1;
+            display: block;
+            margin-bottom: 10px;
+
+            i {
+                font-size: 16px;
+                color: #f3c612;
+            }
+        }
+
+        .author-info h5 {
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 0;
+
+            @media #{$breakpoint-xs} {
+                font-size: 14px;
+            }
+
+            span {
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #b7b7b7;
+
+                @media #{$breakpoint-xs} {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .quote-icon {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    }
+}
