@@ -5,7 +5,7 @@
   year-start: 2018
   year-end: 2022
   active: true
-  url: "https://unit.aist.go.jp/jrl-22022/en/projects/janus/team-janus.html"
+  url: "./janus/team-janus.html"
   partners: [cnrs,lirmm,doublegiken]
   description: "
 <p>In Roman mythology, Janus represents the transition from the past to the future, like the one we are seeing today with new technologies. It also represents bridges and connections, like the ones we are building between humans and robots: two entities into the same body.</p>

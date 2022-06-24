@@ -1,0 +1,92 @@
+/* :: 11.0 Newsletter CSS */
+
+.uza-newsletter-area {
+    position: relative;
+    z-index: 1;
+
+    .border-line {
+        width: 100%;
+        height: 1px;
+        background-color: $bg-gray;
+    }
+
+    .nl-content {
+        position: relative;
+        z-index: 1;
+
+        h2 {
+            font-size: 36px;
+            display: block;
+            margin-bottom: 0;
+
+            @media #{$breakpoint-lg} {
+                font-size: 30px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 24px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 24px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+
+            @media #{$breakpoint-lg} {
+                font-size: 14px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .nl-form {
+        form {
+            position: relative;
+            z-index: 1;
+
+            input {
+                width: 100%;
+                height: 50px;
+                border-radius: 50px;
+                background-color: $bg-gray;
+                border: none;
+                font-size: 16px;
+                padding: 0 30px;
+            }
+
+            button {
+                @include transition-duration(500ms);
+                position: absolute;
+                padding: 0 30px;
+                border-radius: 0 50px 50px 0;
+                background-color: $primary;
+                font-size: 16px;
+                color: $white;
+                height: 50px;
+                top: 0;
+                right: 0;
+                border: none;
+                cursor: pointer;
+
+                @media #{$breakpoint-md} {
+                    padding: 0 20px;
+                }
+
+                @media #{$breakpoint-xs} {
+                    padding: 0 20px;
+                }
+
+                &:hover,
+                &:focus {
+                    background-color: $heading;
+                }
+            }
+        }
+    }
+}

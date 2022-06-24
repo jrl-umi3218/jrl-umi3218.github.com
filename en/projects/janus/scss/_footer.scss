@@ -1,0 +1,148 @@
+/* :: 19.0 Footer CSS */
+
+.footer-area {
+    position: relative;
+    z-index: 1;
+}
+
+.single-footer-widget {
+    position: relative;
+    z-index: 1;
+
+    .widget-title {
+        color: $heading;
+        margin-bottom: 20px;
+        display: block;
+        font-weight: 600;
+    }
+
+    p {
+        @media #{$breakpoint-lg} {
+            font-size: 14px;
+        }
+    }
+
+    .footer-social-info {
+        a {
+            display: inline-block;
+            color: $white;
+            margin-right: 5px;
+            background-color: $primary;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            text-align: center;
+            line-height: 40px;
+
+            &.facebook {
+                background-color: #4c60ac;
+            }
+
+            &.twitter {
+                background-color: #00bae3;
+            }
+
+            &.pinterest {
+                background-color: #d91a18;
+            }
+
+            &.instagram {
+                background-color: #0085d7;
+            }
+
+            &.youtube {
+                background-color: #e20000;
+            }
+
+            @media #{$breakpoint-lg} {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .our-link {
+        position: relative;
+        z-index: 1;
+
+        li {
+            a {
+                position: relative;
+                z-index: 1;
+                font-size: 16px;
+                color: $text;
+                margin-bottom: 15px;
+                display: block;
+                font-weight: normal;
+
+                @media #{$breakpoint-lg} {
+                    font-size: 14px;
+                }
+
+                &::after {
+                    @include transition-duration(500ms);
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 0;
+                    height: 3px;
+                    background-color: $primary;
+                    content: '';
+                    @include transform(translateY(-50%));
+                }
+
+                &:focus,
+                &:hover {
+                    color: $primary;
+                    padding-left: 25px;
+
+                    &::after {
+                        width: 15px;
+                    }
+                }
+            }
+
+            &:last-child {
+                a {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .footer-content {
+        position: relative;
+        z-index: 1;
+
+        h3 {
+            color: $primary;
+
+            @media #{$breakpoint-lg} {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.copywrite-text {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+
+    p {
+        font-size: 16px;
+        color: $secondary;
+        margin-bottom: 0;
+
+        a {
+            color: $secondary;
+
+            &:focus,
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
