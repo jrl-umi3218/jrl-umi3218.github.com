@@ -585,3 +585,13 @@
   bio: >
     obtained his Ph.D. in Automatics and Computer Vision in 2021 from University Burgundy Franche-Comté (Besançon, France), at the FEMTO-ST Institute of research, in the department of Mechanics and Mechatronics. His Ph.D. subject was focusing on the pose measurement at small scale, using encoded periodic patterns to obtain a range of measure larger than the field of view allowed in microscopy. These periodic patterns also allow a highly resolute retrieval of the position through the study of their phase evolution, with resolution up to 1 nm in translation and a few microradians in rotation. Prior to that, he received an engineering degree in robotics from the National Institute of Mechanics and Microtechnologies (Besançon, France).
     He joined the JRL in 2022 as a postdoctoral fellow to study the visual servoing capabilities of large field of view cameras. The core idea of this study is to enhance the servoing capabilities in robotics and avoid self-collision and joints limits while providing both a large convergence domain and a high resolution in the final positioning.
+- id: chen
+  given: Yang
+  family: Chen
+  role: phd
+  nationality: cn
+  github: "https://github.com/robot-Yang"
+  linkedin: "https://www.linkedin.com/in/yang-chen-1004a9155/"
+  website: "https://robot-yang.github.io/"
+  bio: >
+    received the bachelor's degree in Mechanical Engineering from Jilin University, China, in 2017 and his master's degree in Human Informatics from the University of Tsukuba, Japan, in 2020 where he is currently working toward the Ph.D. degree. His doctoral studies mainly include a hands-free control interface and autonomous docking support system for assistive mobility devices. In 2019, from August to October, he visited Learning Algorithms and Systems Laboratory (LASA), EPFL, where he worked on the autonomous docking system for a standing mobility device. From 2022 to 2024, he is working as JSPS research fellow DC2. He joined JRL in Augest, 2021 as an internship student to work on the tele-visualization of Janus project. His research interests include assistive robotics, mobile robotics and teleoperation.
