@@ -590,9 +590,28 @@
   family: Demont
   role: master
   nationality: fr 
-  linkedin: https://www.linkedin.com/in/arnaud-demont
+  linkedin: "https://www.linkedin.com/in/arnaud-demont"
   bio: >
     obtained a master's degree in Mechanical Engineering with a specialization in Mechatronics and Systems from the National Institute of Applied Sciences of Lyon (INSA Lyon), in 2021.
     He completed his end-of-studies internship by Bosch Manufacturing Solutions GmbH in Stuttgart, Germany, where he worked on the design of stations composing the production line of stators for electric cars.
     He then joined a master in Automation and Robotics in Intelligent Systems at the University of Technology of Compiègne (UTC) and is now doing his master's internship within the JRL.
     His topic is to improve the estimation of the humanoid robot's state using an enhanced kinetic model.
+- id: chen
+  given: Yang
+  family: Chen
+  role: phd
+  nationality: cn
+  github: "https://github.com/robot-Yang"
+  linkedin: "https://www.linkedin.com/in/yang-chen-1004a9155/"
+  website: "https://robot-yang.github.io/"
+  bio: >
+    received the bachelor's degree in Mechanical Engineering from Jilin University, China, in 2017 and his master's degree in Human Informatics from the University of Tsukuba, Japan, in 2020 where he is currently working toward the Ph.D. degree. His doctoral studies mainly include a hands-free control interface and autonomous docking support system for assistive mobility devices. In 2019, from August to October, he visited Learning Algorithms and Systems Laboratory (LASA), EPFL, where he worked on the autonomous docking system for a standing mobility device. From 2022 to 2024, he is working as JSPS research fellow DC2. He joined JRL in Augest, 2021 as an internship student to work on the tele-visualization of Janus project. His research interests include assistive robotics, mobile robotics and teleoperation.
+- id: mcelerier
+  given: Mathieu
+  family: Celerier
+  role: phd
+  nationality: fr
+  linkedin: "https://fr.linkedin.com/in/mathieu-celerier"
+  github: "https://github.com/mathieu-celerier"
+  bio: >
+    obtained his M.Sc in Microelectronic and Automation Engineering in 2021 from Polytech Montpellier Engineering School. He carried out is final Engineering School Internship as Research Engineer, working on Dual Arm Manipulation of Deformable Objects at Laboratory of Informatics, Robotics and Microelectronics of Montpellier (LIRMM), France. Currently, he is a Ph.D. student in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan, with University of Montpellier (UM), France, through a collaboration between UM and AIST. His research interest includes Semi Collaborative Physical Human-Robot Interaction, Human centered perception of Physical Human-Robot Interaction.
