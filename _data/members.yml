@@ -29,6 +29,9 @@
   family: Escande
   role: alumni
   nationality: fr
+  past-roles:
+    - role: permanent
+      to: 2022-06-30
   scholar: "https://scholar.google.com/citations?user=c_64U7QAAAAJ"
   website: "https://sites.google.com/site/adrienescandehomepage/"
   linkedin: "https://www.linkedin.com/in/adrien-escande-663399113"
@@ -632,9 +635,12 @@
 - id: kodama
   given: Hiroto
   family: Kodama
-  role: engineer
-  from: 2022-02-28
+  role: alumni
   nationality: jp
+  past-roles:
+    - role: engineer
+      from: 2022-02-28
+      to: 2022-06-30
 - id: gao
   given: Xinchi
   family: Gao
@@ -660,4 +666,15 @@
   past-roles:
     - role: engineer
       to: 2022-03-31
+  nationality: jp
+- id: hirata
+  given: Tomoki
+  family: Hirata
+  role: engineer
+  from: 2022-07-01
+  nationality: jp
+- id: shimizu
+  given: Soya
+  family: Shimizu
+  role: phd
   nationality: jp
