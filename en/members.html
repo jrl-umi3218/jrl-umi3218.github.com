@@ -117,6 +117,19 @@ title: CNRS-AIST JRL - Members
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">Undergraduate students</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "undergraduate" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
       <h3 class="page-header compact">Administrative staff</h3>
     </div>
   </div>

@@ -13,6 +13,10 @@
   given: Eiichi
   family: Yoshida
   role: alumni-star
+  from: 2022-04-01
+  past-roles:
+    - role: adjunct
+      to: 2022-03-31
   nationality: jp
   linkedin: "https://www.linkedin.com/in/eiichi-yoshida-615107"
   website: "https://staff.aist.go.jp/e.yoshida/"
@@ -23,8 +27,11 @@
 - id: escande
   given: Adrien
   family: Escande
-  role: permanent
+  role: alumni
   nationality: fr
+  past-roles:
+    - role: permanent
+      to: 2022-06-30
   scholar: "https://scholar.google.com/citations?user=c_64U7QAAAAJ"
   website: "https://sites.google.com/site/adrienescandehomepage/"
   linkedin: "https://www.linkedin.com/in/adrien-escande-663399113"
@@ -467,6 +474,9 @@
   given: Ryodo
   family: Tanaka
   role: alumni
+  past-roles:
+    - role: phd
+      to: 2022-03-31
   nationality: jp
   scholar: "https://scholar.google.com/citations?hl=ja&user=tDWyUmwAAAAJ"
   linkedin: "https://www.linkedin.com/in/ryodo-tanaka/"
@@ -499,6 +509,9 @@
   given: Kevin
   family: Chappellet
   role: alumni
+  past-roles:
+    - role: phd
+      to: 2022-03-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/kevin-chappellet-a3a87936/"
   bio: >
@@ -568,6 +581,7 @@
   given: Guillaume
   family: Lorthioir
   role: postdoc
+  from: 2022-03-07
   nationality: fr
   linkedin: "https://www.linkedin.com/in/guillaume-lorthioir-663201194/"
   bio: >
@@ -579,6 +593,7 @@
   given: Antoine
   family: André
   role: postdoc
+  from: 2022-05-09
   nationality: fr
   website: "https://antoineandre.github.io/"
   scholar: "https://scholar.google.fr/citations?user=iopU-RcAAAAJ&hl"
@@ -589,6 +604,7 @@
   given: Arnaud
   family: Demont
   role: master
+  from: 2022-05-06
   nationality: fr 
   linkedin: "https://www.linkedin.com/in/arnaud-demont"
   bio: >
@@ -610,8 +626,55 @@
   given: Mathieu
   family: Celerier
   role: phd
+  from: 2022-05-06
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/mathieu-celerier"
   github: "https://github.com/mathieu-celerier"
   bio: >
     obtained his M.Sc in Microelectronic and Automation Engineering in 2021 from Polytech Montpellier Engineering School. He carried out is final Engineering School Internship as Research Engineer, working on Dual Arm Manipulation of Deformable Objects at Laboratory of Informatics, Robotics and Microelectronics of Montpellier (LIRMM), France. Currently, he is a Ph.D. student in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan, with University of Montpellier (UM), France, through a collaboration between UM and AIST. His research interest includes Semi Collaborative Physical Human-Robot Interaction, Human centered perception of Physical Human-Robot Interaction.
+- id: kodama
+  given: Hiroto
+  family: Kodama
+  role: alumni
+  nationality: jp
+  past-roles:
+    - role: engineer
+      from: 2022-02-28
+      to: 2022-06-30
+- id: gao
+  given: Xinchi
+  family: Gao
+  role: master
+  nationality: cn
+- id: osorio
+  given: Pablo
+  family: Osorio
+  role: phd
+  from: 2022-05-01
+  nationality: cr
+- id: guru
+  given: Nara
+  family: Guru
+  role: undergraduate
+  from: 2022-06-01
+  nationality: in
+- id: mashiko
+  given: Natsumi
+  family: Mashiko
+  role: alumni
+  from: 2022-04-01
+  past-roles:
+    - role: engineer
+      to: 2022-03-31
+  nationality: jp
+- id: hirata
+  given: Tomoki
+  family: Hirata
+  role: engineer
+  from: 2022-07-01
+  nationality: jp
+- id: shimizu
+  given: Soya
+  family: Shimizu
+  role: phd
+  nationality: jp
