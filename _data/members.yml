@@ -299,7 +299,10 @@
 - id: benalleguea
   given: Abdelaziz
   family: Benallegue
-  role: permanent
+  role: alumni
+  past-roles:
+    - role: permanent
+    - to: 2022-7-22
   nationality: fr
   scholar: "https://scholar.google.com/citations?user=fC6f6B4AAAAJ&hl=en"
   bio: >
@@ -652,9 +655,9 @@
   role: phd
   from: 2022-05-01
   nationality: cr
-- id: guru
-  given: Nara
-  family: Guru
+- id: nara
+  given: Guru
+  family: Nara
   role: undergraduate
   from: 2022-06-01
   nationality: in
@@ -678,3 +681,15 @@
   family: Shimizu
   role: phd
   nationality: jp
+- id: selim-cm
+  given: Sélim
+  family: Chefchaouni Moussaoui
+  role: master
+  from: 2022-7-1
+  nationality: fr
+- id: krishna
+  given: Bandi
+  family: Krishna
+  role: undergraduate
+  from: 2022-7-1
+  nationality: in
