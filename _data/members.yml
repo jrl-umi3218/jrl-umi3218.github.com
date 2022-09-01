@@ -682,7 +682,7 @@
   family: Shimizu
   role: phd
   nationality: jp
-- id: selim-cm
+- id: chefchaouni
   given: Sélim
   family: Chefchaouni Moussaoui
   role: master
@@ -694,3 +694,9 @@
   role: undergraduate
   from: 2022-7-1
   nationality: in
+- id: goichon
+  given: Eva
+  family: Goichon
+  role: master
+  from: 2022-8-17
+  nationality: fr
