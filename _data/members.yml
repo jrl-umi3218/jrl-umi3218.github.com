@@ -303,7 +303,7 @@
   role: alumni
   past-roles:
     - role: permanent
-    - to: 2022-7-22
+      to: 2022-07-22
   nationality: fr
   scholar: "https://scholar.google.com/citations?user=fC6f6B4AAAAJ&hl=en"
   bio: >
@@ -686,17 +686,17 @@
   given: Sélim
   family: Chefchaouni Moussaoui
   role: master
-  from: 2022-7-1
+  from: 2022-07-01
   nationality: fr
 - id: krishna
   given: Bandi
   family: Krishna
   role: undergraduate
-  from: 2022-7-1
+  from: 2022-07-01
   nationality: in
 - id: goichon
   given: Eva
   family: Goichon
   role: master
-  from: 2022-8-17
+  from: 2022-08-17
   nationality: fr
