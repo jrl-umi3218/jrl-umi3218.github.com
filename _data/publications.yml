@@ -1457,6 +1457,19 @@
     given: Sylvain
   pdf: https://hal-lirmm.ccsd.cnrs.fr/file/index/docid/800829/filename/2013_ras_escande-planning_contact_points_for_humanoid_robots.pdf
   lab: jrl
+- id: asano:taslp:2013
+  year: 2013
+  title: Sound Source Localization Using Joint Bayesian Estimation With a Hierarchical
+    Noise Model
+  booktitle: IEEE Transactions on Audio Speech and Language Processing
+  authors:
+  - family: Asano
+    given: Futoshi
+  - family: Asoh
+    given: Hideki
+  - family: Nakadai
+    given: Kazuhiro
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6516043
 - id: guiatni:tm:2013
   year: 2013
   title: A combined force and thermal feedback interface for minimally-invasive procedure
@@ -3350,6 +3363,17 @@
   - id: kanehiro
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9424385
+  lab: jrl
+- id: murooka:ral:2022
+  year: 2022
+  title: Centroidal Trajectory Generation and Stabilization Based on Preview Control
+    for Humanoid Multi-Contact Motion
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: murooka
+  - id: morisawa
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/9807369
   lab: jrl
 - id: samadi:ral:2021
   year: 2021
@@ -7211,8 +7235,7 @@
   title: Whole-Body Motion Blending under Physical Constraints using Functional PCA
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Shimizu
-    given: Soya
+  - id: shimizu
   - id: ayusawa
   - id: yoshida
   - id: venture
@@ -7812,8 +7835,7 @@
     FPCA
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Shimizu
-    given: Soya
+  - id: shimizu
   - id: ayusawa
   - id: venture
   pdf: ''
@@ -7994,8 +8016,7 @@
   title: 低次元特徴空間を利用した運動合成と逆最適制御への応用
   booktitle: Robotics Symposia
   authors:
-  - family: Shimizu
-    given: Soya
+  - id: shimizu
   - id: ayusawa
   - id: venture
   lab: jrl
@@ -8005,8 +8026,7 @@
     to Inverse Optimal Control
   booktitle: CISM IFToMM Symposium on Robot Design, Dynamics and Control
   authors:
-  - family: Shimizu
-    given: Soya
+  - id: shimizu
   - id: ayusawa
   - id: venture
   lab: jrl
@@ -8236,6 +8256,103 @@
     given: Yasuhiro
   pdf: https://link.springer.com/article/10.1007/s11263-022-01587-8
   lab: jrl
+- id: morbidi:ram:2022
+  year: 2022
+  title: 'Assistive Robotic Technologies for Next-Generation Smart Wheelchairs: Codesign
+    and Modularity to Improve Users'' Quality of Life'
+  booktitle: IEEE Robotics & Automation Magazine
+  authors:
+  - family: Morbidi
+    given: Fabio
+  - family: Devigne
+    given: Louise
+  - family: Teodorescu
+    given: Catalin
+  - family: Fraudet
+    given: Bastien
+  - family: Leblong
+    given: Emilie
+  - family: Carlson
+    given: Tom
+  - family: Babel
+    given: Marie
+  - id: carong
+  - family: Delmas
+    given: Sarah
+  - family: Pasteau
+    given: Francois
+  - family: Vailland
+    given: Guillaume
+  - family: Gouranton
+    given: Valerie
+  - family: Guegan
+    given: Sylvain
+  - family: Le Breton
+    given: Ronan
+  - family: Ragot
+    given: Nicolas
+  pdf: https://discovery.ucl.ac.uk/id/eprint/10151652/1/Assistive_Robotic_Technologies_for_Next-Generation_Smart_Wheelchairs_Codesign_and_Modularity_to_Improve_Users_Quality_of_Life.pdf
+  lab: jrl
+- id: caron:icpr:2022
+  year: 2022
+  title: Direct Visual Servoing in the non-linear scale space of camera pose
+  booktitle: IAPR/IEEE International Conference on Pattern Recognition
+  authors:
+  - id: carong
+  - id: yoshiyasu
+  pdf: https://hal.archives-ouvertes.fr/hal-03636579/document
+  lab: jrl
+  projects:
+  - dvsstraight
+- id: andre:cvprw:2022
+  year: 2022
+  title: Photometric Visual Gryscope for Full-View Spherical Camera
+  booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
+  authors:
+  - id: aandre
+  - id: carong
+  pdf: https://hal.archives-ouvertes.fr/hal-03636575/document
+  lab: jrl
+  projects:
+  - dvsstraight
+- id: caron:icip:2022
+  year: 2022
+  title: Direct alignment of narrow field-of-view hyperspectral data and full-view
+    RGB image
+  booktitle: IEEE International Conference on Image Processing
+  authors:
+  - id: carong
+  - family: Kessy
+    given: Suzan
+  - family: Mukaigawa
+    given: Yasuhiro
+  - family: Funatomi
+    given: Takuya
+  pdf: https://hal.archives-ouvertes.fr/hal-03715442/document
+  lab: jrl
+- id: funatomi:ijcv:2022
+  year: 2022
+  title: Eliminating Temporal Illumination Variations in Whisk-broom Hyperspectral
+    Imaging
+  booktitle: International Journal of Computer Vision
+  authors:
+  - family: Funatomi
+    given: Takuya
+  - family: Ogawa
+    given: Takehiro
+  - family: Tanaka
+    given: Kenichiro
+  - family: Kubo
+    given: Hiroyuki
+  - id: carong
+  - family: Mouaddib
+    given: El
+  - family: Matsushita
+    given: Yasuyuki
+  - family: Mukaigawa
+    given: Yasuhiro
+  pdf: https://link.springer.com/article/10.1007/s11263-022-01587-8
+  lab: jrl
 - id: caron:icpr:2022
   year: 2022
   title: Direct Visual Servoing in the non-linear scale space of camera pose
@@ -8249,12 +8366,136 @@
   title: Photometric Visual Gryscope for Full-View Spherical Camera
   booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   authors:
-  - family: André
-    given: Antoine
+  - id: aandre
   - id: carong
   lab: jrl
-  projects:
-  - dvsstraight
+- id: hu:thms:2022
+  year: 2022
+  title: 'Toward Active Physical Human-Robot Interaction: Quantifying the Human State
+    During Interactions'
+  booktitle: IEEE Transactions on Human-Machine Systems
+  authors:
+  - id: hu
+  - family: Abe
+    given: Naoko
+  - id: benalleguem
+  - id: yamanobe
+  - id: venture
+  - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/9698842
+  lab: jrl
+- id: frizza:ijhr:2022
+  year: 2022
+  title: 'Humanoids’ Feet: State-of-the-Art & Future Directions'
+  booktitle: International Journal of Humanoid Robotics
+  authors:
+  - id: frizza
+  - id: ayusawa
+  - family: Cherubini
+    given: Andrea
+  - id: kaminaga
+  - family: Fraisse
+    given: Philippe
+  - id: venture
+  pdf: https://doi.org/10.1142/S0219843622500013
+  lab: jrl
+- id: wang:ral:2022
+  year: 2022
+  title: On Inverse Inertia Matrix and Contact-Force Model for Robotic Manipulators
+    at Normal Impacts
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Wang
+    given: Yuquan
+  - family: Dehio
+    given: Niels
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/9691802
+  lab: jrl
+- id: wang:ral:2022-2
+  year: 2022
+  title: Predicting Impact-Induced Joint Velocity Jumps on Kinematic-Controlled Manipulator
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Wang
+    given: Yuquan
+  - family: Dehio
+    given: Niels
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/9757864
+  lab: jrl
+- id: dehio:ral:2022
+  year: 2022
+  title: Dual-Arm Box Grabbing With Impact-Aware MPC Utilizing Soft Deformable End-Effector
+    Pads
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Dehio
+    given: Niels
+  - family: Wang
+    given: Yuquan
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/9732679
+  lab: jrl
+- id: osawa:scir:2021
+  year: 2021
+  title: Soft robotic shell with active thermal display
+  booktitle: Scientific Reports
+  authors:
+  - family: Osawa
+    given: Yukiko
+  - family: Kinbara
+    given: Yuho
+  - family: Kageoka
+    given: Masakazu
+  - family: Iida
+    given: Kenji
+  - id: kheddar
+  pdf: https://doi.org/10.1038/s41598-021-99117-y
+  lab: jrl
+- id: osawa:sii:2022
+  year: 2022
+  title: Material Classification Using Active Temperature Controllable Robotic Gripper
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Osawa
+    given: Yukiko
+  - family: Kase
+    given: Kei
+  - family: Domae
+    given: Yukiyasu
+  - family: Furukawa
+    given: Yoshiyuki
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/9708761
+  lab: jrl
+- id: osawa:iser:2020
+  year: 2021
+  title: A Soft Robotic Cover with Dual Thermal Display and Sensing Capabilities
+  booktitle: International Symposium on Experimental Robotics
+  authors:
+  - family: Osawa
+    given: Yukiko
+  - id: kheddar
+  pdf: https://link.springer.com/chapter/10.1007/978-3-030-71151-1_23
+  lab: jrl
+- id: niu:joi:2022
+  year: 2022
+  title: Estimating Muscle Activity from the Deformation of a Sequential 3D Point
+    Cloud
+  booktitle: Journal of Imaging
+  authors:
+  - family: Niu
+    given: Hui
+  - id: ito
+  - family: Desclaux
+    given: Damien
+  - id: ayusawa
+  - id: yoshiyasu
+  - id: sagawa
+  - id: yoshida
+  pdf: https://www.mdpi.com/2313-433X/8/6/168
+  lab: jrl
 - id: demagistris:ras:2017
   projects:
   - koroibot
