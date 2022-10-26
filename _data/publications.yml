@@ -8306,7 +8306,7 @@
   - dvsstraight
 - id: andre:cvprw:2022
   year: 2022
-  title: Photometric Visual Gryscope for Full-View Spherical Camera
+  title: Photometric Visual Gyroscope for Full-View Spherical Camera
   booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   authors:
   - id: aandre
@@ -8329,45 +8329,6 @@
   - family: Funatomi
     given: Takuya
   pdf: https://hal.archives-ouvertes.fr/hal-03715442/document
-  lab: jrl
-- id: funatomi:ijcv:2022
-  year: 2022
-  title: Eliminating Temporal Illumination Variations in Whisk-broom Hyperspectral
-    Imaging
-  booktitle: International Journal of Computer Vision
-  authors:
-  - family: Funatomi
-    given: Takuya
-  - family: Ogawa
-    given: Takehiro
-  - family: Tanaka
-    given: Kenichiro
-  - family: Kubo
-    given: Hiroyuki
-  - id: carong
-  - family: Mouaddib
-    given: El
-  - family: Matsushita
-    given: Yasuyuki
-  - family: Mukaigawa
-    given: Yasuhiro
-  pdf: https://link.springer.com/article/10.1007/s11263-022-01587-8
-  lab: jrl
-- id: caron:icpr:2022
-  year: 2022
-  title: Direct Visual Servoing in the non-linear scale space of camera pose
-  booktitle: IAPR/IEEE International Conference on Pattern Recognition
-  authors:
-  - id: carong
-  - id: yoshiyasu
-  lab: jrl
-- id: andre:cvprw:2022
-  year: 2022
-  title: Photometric Visual Gryscope for Full-View Spherical Camera
-  booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
-  authors:
-  - id: aandre
-  - id: carong
   lab: jrl
 - id: hu:thms:2022
   year: 2022
