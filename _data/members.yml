@@ -579,7 +579,10 @@
 - id: kang
   given: Yufan
   family: Kang
-  role: master
+  past-roles:
+    - role: master
+      to: 2022-09-30
+  role: phd
   nationality: cn
 - id: glorthioir
   given: Guillaume
@@ -674,8 +677,11 @@
 - id: hirata
   given: Tomoki
   family: Hirata
-  role: engineer
-  from: 2022-07-01
+  role: alumni
+  past-roles:
+    - role: engineer
+      from: 2022-07-01
+      to: 2022-09-30
   nationality: jp
 - id: shimizu
   given: Soya
@@ -697,14 +703,21 @@
 - id: goichon
   given: Eva
   family: Goichon
-  role: master
-  from: 2022-08-17
+  past-roles:
+    - role: master
+      from: 2022-08-17
+      to: 2022-09-30
+  role: phd
+  from: 2022-10-01
   nationality: fr
 - id: ducrocq
   given: Julien
   family: Ducrocq
-  role: phd
-  from: 2022-09-09
+  role: alumni
+  past-roles:
+    - role: phd
+      from: 2022-09-09
+      to: 2022-10-28
   nationality: fr
 - id: miyake
   given: Hibiki
@@ -718,5 +731,21 @@
   role: undergraduate
   from: 2022-08-15
   nationality: jp
-
-  
+- id: naamani
+  given: Meriem
+  family: Naamani
+  role: phd
+  from: 2022-10-01
+  nationality: dz
+- id: toumi
+  given: Mohamed
+  family: Toumi
+  role: phd
+  from: 2022-10-14
+  nationality: dz
+- id: zhang
+  given: Yachen
+  family: Zhang
+  role: phd
+  from: 2022-10-31
+  nationality: ch
