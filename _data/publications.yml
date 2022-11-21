@@ -2314,6 +2314,8 @@
   - id: kheddar
   pdf: https://www.sciencedirect.com/science/article/pii/S0921889016301245?via%3Dihub
   lab: jrl
+  projects:
+  - koroibot
 - id: ramirezalpizar:rb:2017
   year: 2017
   title: Human-based framework for the assembly of elastic objects by a dual-arm robot
@@ -8330,6 +8332,66 @@
     given: Takuya
   pdf: https://hal.archives-ouvertes.fr/hal-03715442/document
   lab: jrl
+- id: chen:humanoids:2022
+  year: 2022
+  title: Enhanced Visual Feedback with Decoupled Viewpoint Control in Immersive Humanoid
+    Robot Teleoperation using SLAM
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: chen
+  - id: sun
+  - id: benalleguem
+  - id: cisneros
+  - id: singh
+  - id: kaneko
+  - id: tanguy
+  - id: carong
+  - family: Suzuki
+    given: Kenji
+  - id: kheddar
+  - id: kanehiro
+  lab: jrl
+- id: singh:humanoids:2022
+  year: 2022
+  title: Learning Bipedal Walking on Planned Footsteps for Humanoid Robots
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: singh
+  - id: benalleguem
+  - id: morisawa
+  - id: cisneros
+  - id: kanehiro
+  lab: jrl
+- id: frizza:humanoids:2022
+  year: 2022
+  title: A Study on the Benefits of Using Variable Stiffness Feet for Humanoid Walking
+    on Rough Terrains
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: frizza
+  - id: kaminaga
+  - id: ayusawa
+  - family: Fraisse
+    given: Phillipe
+  - id: venture
+  lab: jrl
+- id: erich:sii:2023
+  year: 2023
+  title: 'Neural Scanning : Rendering and determining geometry of household objects
+    using Neural Radiance Fields'
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Erich
+    given: Floris
+  - family: Bourreau
+    given: Baptiste
+  - family: Tan
+    given: Chun
+  - id: carong
+  - id: yoshiyasu
+  - family: Ando
+    given: Noriaki
+  lab: jrl
 - id: hu:thms:2022
   year: 2022
   title: 'Toward Active Physical Human-Robot Interaction: Quantifying the Human State
@@ -8457,9 +8519,90 @@
   - id: yoshida
   pdf: https://www.mdpi.com/2313-433X/8/6/168
   lab: jrl
-- id: demagistris:ras:2017
-  projects:
-  - koroibot
+- id: djeha:ro-man:2022
+  year: 2022
+  title: Human-Robot Handovers Using Task-Space Quadratic Programming
+  booktitle: International Symposium on Robot and Human Interactive Communication
+  authors:
+  - family: Djeha
+    given: Mohamed
+  - id: dallard
+  - family: Zermane
+    given: Ahmed
+  - id: gergondet
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/9900626
+  lab: jrl
+- id: guadarrama-olvera:ral:2022
+  year: 2022
+  title: Preemptive Foot Compliance to Lower Impact During Biped Robot Walking Over
+    Unknown Terrain
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Guadarrama-Olvera
+    given: J.
+  - id: kajita
+  - family: Cheng
+    given: Gordon
+  pdf: https://ieeexplore.ieee.org/document/9810342
+- id: osorio:syroco:2022
+  year: 2022
+  title: Control of a Robot Expressive Movements Using Non-Verbal Features
+  booktitle: IFAC Symposium on Robot Control
+  authors:
+  - id: osorio
+  - id: venture
+  pdf: ''
+  lab: jrl
+- id: kumagai:iros:2022
+  year: 2022
+  title: Reachability Based Trajectory Generation Combining Global Graph Search in
+    Task Space and Local Optimization in Configuration Space
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: kumagai
+  - id: murooka
+  - id: morisawa
+  - id: kanehiro
+  pdf: ''
+  lab: jrl
+- id: baradaran:iros:2022
+  year: 2022
+  title: Robust Cartesian Kinematics Estimation for Task-Space Control Systems
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Baradaran Birjandi
+    given: Seyed
+  - family: Dehio
+    given: Niels
+  - id: kheddar
+  - family: Haddadin
+    given: Sami
+  pdf: ''
+  lab: jrl
+- id: sun:robio:2022
+  year: 2022
+  title: 'CertainOdom: Uncertainty Weighted Multi-task Learning Model for LiDAR Odometry
+    Estimation'
+  booktitle: International Conference on Robotics and Biomimetics
+  authors:
+  - id: sun
+  - family: Ding
+    given: Guanqun
+  - id: yoshiyasu
+  - id: kanehiro
+  pdf: ''
+  lab: jrl
+- id: singh:sii:2023
+  year: 2023
+  title: 'Mc-Mujoco: Simulating Articulated Robots with FSM Controllers in MuJoCo'
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: singh
+  - id: gergondet
+  - id: kanehiro
+  pdf: ''
+  lab: jrl
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
