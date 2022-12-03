@@ -90,6 +90,7 @@
   given: Pierre
   family: Gergondet
   role: engineer
+  from: 2022-09-01
   nationality: fr
   linkedin: "https://www.linkedin.com/in/pierre-gergondet-9086092"
   scholar: "https://scholar.google.com/citations?user=PaxwF6sAAAAJ"
@@ -374,6 +375,9 @@
   given: Takeshi
   family: Sakaguchi
   role: alumni
+  past-roles:
+    - role: permanent
+      to: 2021-03-31
   nationality: jp
   bio: >
     received the BS, MS, and PhD degrees in Mechanical Engineering in 1987, 1989, and 1993, respectively, all from Osaka University, Osaka, Japan. In 1993, he joined the Mechanical Engineering Laboratory, MITI, Tsukuba, Japan. From 2001, he was a senior researcher of Intelligent Systems Research Institute (ISRI), the National Institute of Advanced Industrial Science and Technology (AIST). His current research interests are robotics including humanoids, ambient intelligence, and manipulation. He is a member of the Robotics Society of Japan (RSJ), the Japan Society of Mechanical Engineers (JSME), the Society of Instrument and Control Engineers (SICE, Japan) and IEEE.
@@ -497,7 +501,10 @@
 - id: gamez
   given: Lucas
   family: Gamez
-  role: phd
+  role: alumni
+  past-roles:
+    - role: phd
+      to: 2022-11-01
   nationality: fr
   linkedin: "https://www.linkedin.com/in/lucas-gamez"
   bio: >
@@ -610,8 +617,12 @@
 - id: demont
   given: Arnaud
   family: Demont
-  role: master
-  from: 2022-05-06
+  role: phd
+  from: 2022-11-01
+  past-roles:
+    - role: master
+      from: 2022-05-06
+      to: 2022-10-31
   nationality: fr 
   linkedin: "https://www.linkedin.com/in/arnaud-demont"
   bio: >
