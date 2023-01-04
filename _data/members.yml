@@ -538,7 +538,10 @@
 - id: morandi
   given: Cecilia
   family: Morandi
-  role: phd
+  role: alumni
+  past-roles:
+    - role: phd
+      to: 2022-12-28
   nationality: it
   bio: >
     has completed her bachelor’s degree in Electronic Engineering and her master’s degree in Automation and Robotic Engineering, both at University of Pisa in 2016 and 2019 respectively. She carried out her thesis in Japan in collaboration with Centro Piaggio, GVLab TUAT (Tokyo University of Agriculture and Technology) and AIST (National Institute of Advanced Industrial Science and Technology). She is currently conducting research in JRL since January 2021 as a Ph.D candidate registered in University of Montpellier through a collaboration agreement with AIST. Her research is about human-like locomotion for humanoid robot and evaluation of assistive devices.
@@ -673,8 +676,11 @@
 - id: nara
   given: Guru
   family: Nara
-  role: undergraduate
-  from: 2022-06-01
+  role: alumni
+  past-roles:
+    - role: undergraduate
+      from: 2022-06-01
+      to: 2022-12-20
   nationality: in
 - id: mashiko
   given: Natsumi
@@ -702,8 +708,11 @@
 - id: chefchaouni
   given: Sélim
   family: Chefchaouni Moussaoui
-  role: master
-  from: 2022-07-01
+  role: alumni
+  past-roles:
+    - role: master
+      from: 2022-07-01
+      to: 2022-12-28
   nationality: fr
 - id: krishna
   given: Bandi
@@ -757,6 +766,9 @@
 - id: zhang
   given: Yachen
   family: Zhang
-  role: phd
-  from: 2022-10-31
+  role: alumni
+  past-roles:
+    - role: phd
+      from: 2022-10-31
+      to: 2022-12-02
   nationality: ch
