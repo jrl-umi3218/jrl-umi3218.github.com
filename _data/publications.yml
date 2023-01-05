@@ -7840,7 +7840,7 @@
   - id: shimizu
   - id: ayusawa
   - id: venture
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/9555773
   lab: jrl
 - id: heraizbekkis:iccar:2020
   year: 2020
@@ -8351,6 +8351,8 @@
   - id: kheddar
   - id: kanehiro
   lab: jrl
+  projects:
+  - janus
 - id: singh:humanoids:2022
   year: 2022
   title: Learning Bipedal Walking on Planned Footsteps for Humanoid Robots
@@ -8564,7 +8566,7 @@
   - id: murooka
   - id: morisawa
   - id: kanehiro
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/9981906
   lab: jrl
 - id: baradaran:iros:2022
   year: 2022
@@ -8578,7 +8580,7 @@
   - id: kheddar
   - family: Haddadin
     given: Sami
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/9981233
   lab: jrl
 - id: sun:robio:2022
   year: 2022
@@ -8593,6 +8595,31 @@
   - id: kanehiro
   pdf: ''
   lab: jrl
+- id: orozco-soto:case:2022
+  year: 2022
+  title: Robust Position Regulation of a Seesaw Actuated by a Humanoid
+  booktitle: IEEE International Conference on Automation Science and Engineering
+  authors:
+  - family: Orozco-Soto
+    given: Santos
+  - family: Ibarra-Zannnatha
+    given: Juan
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/9926663
+  lab: jrl
+- id: wong:thms:2022
+  year: 2022
+  title: Touch Semantics for Intuitive Physical Manipulation of Humanoids
+  booktitle: IEEE Transactions on Human-Machine Systems
+  authors:
+  - id: wong
+  - family: Samadi
+    given: Saeid
+  - family: Suleiman
+    given: Wael
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/9911943
+  lab: jrl
 - id: singh:sii:2023
   year: 2023
   title: 'Mc-Mujoco: Simulating Articulated Robots with FSM Controllers in MuJoCo'
@@ -8602,6 +8629,18 @@
   - id: gergondet
   - id: kanehiro
   pdf: ''
+  lab: jrl
+- id: benallegue:tac:2023
+  year: 2023
+  title: Velocity-aided IMU-based Tilt and Attitude Estimation
+  booktitle: IEEE Transactions on Automatic Control
+  authors:
+  - id: benalleguem
+  - id: benalleguea
+  - id: cisneros
+  - family: Chitour
+    given: Yacine
+  pdf: https://ieeexplore.ieee.org/document/9966736
   lab: jrl
 - id: traversaro:iros:2016
   year: 2016
