@@ -28,6 +28,7 @@
   given: Adrien
   family: Escande
   role: alumni
+  from: 2022-07-01
   nationality: fr
   past-roles:
     - role: permanent
@@ -52,6 +53,10 @@
   given: Ko
   family: Ayusawa
   role: adjunct
+  from: 2021-04-01
+  past-roles:
+    - role: permanent
+      to: 2021-03-31
   nationality: jp
   website: "http://dblp.uni-trier.de/pers/hd/a/Ayusawa:Ko"
   bio: >
@@ -290,6 +295,10 @@
   given: Yumeko
   family: Imamura
   role: adjunct
+  from: 2021-04-01
+  past-roles:
+    - role: permanent
+      to: 2021-03-31
   nationality: jp
   bio: >
     received the master degree of Information Science and Technology and Ph.D. in the field of Systems Science and Informatics from Hokkaido University, Japan, in 2011 and 2014 respectively. From 2014 to 2015, she served as a Research Fellow of Japan Society for the Promotion of Science at Hokkaido University. She is currently a researcher of Human Augmentation Research Center, National Institute of Advanced Industrial Science and Technology (AIST), and a researcher of CNRS-AIST Joint Robotics Laboratory, UMI3218/RL, Japan. Her research interests include biomechanics, human modeling, and power assistive technologies.
@@ -302,6 +311,7 @@
   given: Abdelaziz
   family: Benallegue
   role: alumni
+  from: 2022-07-23
   past-roles:
     - role: permanent
       to: 2022-07-22
@@ -375,6 +385,7 @@
   given: Takeshi
   family: Sakaguchi
   role: alumni
+  from: 2021-04-01
   past-roles:
     - role: permanent
       to: 2021-03-31
@@ -482,6 +493,7 @@
   given: Ryodo
   family: Tanaka
   role: alumni
+  from: 2022-04-01
   past-roles:
     - role: phd
       to: 2022-03-31
@@ -502,6 +514,7 @@
   given: Lucas
   family: Gamez
   role: alumni
+  from: 2022-11-02
   past-roles:
     - role: phd
       to: 2022-11-01
@@ -520,6 +533,7 @@
   given: Kevin
   family: Chappellet
   role: alumni
+  from: 2022-04-01
   past-roles:
     - role: phd
       to: 2022-03-31
@@ -539,6 +553,7 @@
   given: Cecilia
   family: Morandi
   role: alumni
+  from: 2022-12-29
   past-roles:
     - role: phd
       to: 2022-12-28
@@ -593,6 +608,7 @@
     - role: master
       to: 2022-09-30
   role: phd
+  from: 2022-10-01
   nationality: cn
 - id: glorthioir
   given: Guillaume
@@ -637,6 +653,7 @@
   given: Yang
   family: Chen
   role: phd
+  from: 2021-08-09
   nationality: cn
   github: "https://github.com/robot-Yang"
   linkedin: "https://www.linkedin.com/in/yang-chen-1004a9155/"
@@ -657,6 +674,7 @@
   given: Hiroto
   family: Kodama
   role: alumni
+  from: 2022-07-01
   nationality: jp
   past-roles:
     - role: engineer
@@ -677,6 +695,7 @@
   given: Guru
   family: Nara
   role: alumni
+  from: 2022-12-21
   past-roles:
     - role: undergraduate
       from: 2022-06-01
@@ -695,6 +714,7 @@
   given: Tomoki
   family: Hirata
   role: alumni
+  from: 2022-10-01
   past-roles:
     - role: engineer
       from: 2022-07-01
@@ -709,6 +729,7 @@
   given: Sélim
   family: Chefchaouni Moussaoui
   role: alumni
+  from: 2022-12-29
   past-roles:
     - role: master
       from: 2022-07-01
@@ -734,6 +755,7 @@
   given: Julien
   family: Ducrocq
   role: alumni
+  from: 2022-10-29
   past-roles:
     - role: phd
       from: 2022-09-09
@@ -767,6 +789,7 @@
   given: Yachen
   family: Zhang
   role: alumni
+  from: 2022-12-03
   past-roles:
     - role: phd
       from: 2022-10-31
@@ -783,3 +806,15 @@
   bio: >
     Antoine Caillot obtained his Ph.D. in Automatic, Signal, Industrial Production, and Robotics in 2022 from the University of Rouen (France), at IRSEEM in ESIGELEC (Rouen, France). His Ph.D. subject was focused on cooperative perception for autonomous navigation in an automotive context. These works aim to create a map of a scene at a roundabout or an intersection using light data from vehicles and infrastructure. Before that, he received an engineering degree in embedded systems for autonomous vehicles from ESIGELEC (Rouen, France).
     He joined the JRL in 2023 as a postdoctoral fellow to study Simultaneous Localization And Mapping (SLAM) with emergent sensors. The goal is to improve the performances of SLAM algorithms using new image sensors such as High Dynamic Range (HDR) omniscient cameras, event-based cameras, or hyperspectral image sensors.
+- id: berenguel
+  given: Samuel Bruno
+  family: Barenguel Baeta
+  role: phd
+  from: 2023-01-13
+  nationality: es
+- id: tako
+  given: Taro
+  family: Tako
+  role: undergraduate
+  from: 2023-01-10
+  nationality: jp
