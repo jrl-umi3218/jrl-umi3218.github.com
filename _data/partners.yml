@@ -117,3 +117,28 @@
   name: "DOUBLE Research and Development Co., LTD"
   shortname: "DOUBLE R&D"
   website: "https://j-d.co.jp"
+- id: algoryx
+  logo: "/en/assets/logos/algoryx.png"
+  name: "Algoryx Simulation"
+  shortname: "Algoryx"
+  website: "https://www.algoryx.se/"
+- id: tue
+  logo: "/en/assets/logos/tue.png"
+  name: "Eindhoven University of Technology"
+  shortname: "Eindhoven University of Technology"
+  website: "http://www.tue.nl/"
+- id: frankaemika
+  logo: "/en/assets/logos/frankaemika.png"
+  name: "Franka Emika GmbH"
+  shortname: "Franka Emika"
+  website: "https://www.franka.de/"
+- id: smartrobotics
+  logo: "/en/assets/logos/smartrobotics.png"
+  name: "Smart Robotics BV"
+  shortname: "Smart Robotics"
+  website: "https://www.smart-robotics.nl/?lang=en"
+- id: vanderlande
+  logo: "/en/assets/logos/vanderlande.png"
+  name: "Vanderlande Industries B.V."
+  shortname: "Vanderlande"
+  website: "https://www.vanderlande.com/"
