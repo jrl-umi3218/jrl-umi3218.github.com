@@ -186,3 +186,14 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   active: true
   description: "
     <p> Controlling the dynamics of complex systems requires identifying and tuning more and more parameters, leading to increasing adaptation times for new tasks or new robots. In this project, we plan to make this process automatic and online to constantly improve the performance during the robot operation. Classical control techniques, together with statistical tools and machine learning will be exploited to this end.</p>"
+- id: iam
+  title: "I.AM."
+  longtitle: "Impact Aware Manipulation by Dexterous Robot Control and Learning in Dynamic Semi-Structured Logistic Environments"
+  year-start: 2020
+  year-end: 2023
+  active: true
+  partners: [tue, algoryx, frankaemika, smartrobotics, vanderlande, cnrs,epfl,tum]
+  description: >
+    <p> Europe is leading the market of torque-controlled robots. These robots can withstand physical interaction with the environment, including impacts, while providing accurate sensing and actuation capabilities. I.AM. leverages this technology and strengthens European leadership by endowing robots to exploit intentional impacts for manipulation. I.AM. focuses on impact aware manipulation in logistics, a new area of application for robotics which will grow exponentially in the coming years, due to socio-economical drivers such as booming of e-commerce and scarcity of labor.</p>
+
+    <p>Learn more about it on the <a href="https://i-am-project.eu/">project website</a>.
