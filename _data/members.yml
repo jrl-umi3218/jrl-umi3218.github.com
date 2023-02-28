@@ -65,6 +65,10 @@
   given: Mitsuharu
   family: Morisawa
   role: deputy-director
+  from: 2020-04-01
+  past-roles:
+    - role: adjunct
+      to: 2020-03-31
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=AiQCd44AAAAJ&hl=ja&oi=sra"
   website: "https://researchmap.jp/mm-?lang=en"
@@ -96,6 +100,9 @@
   family: Gergondet
   role: engineer
   from: 2022-09-01
+  past-roles:
+    - role: engineer
+      to: 2019-08-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/pierre-gergondet-9086092"
   scholar: "https://scholar.google.com/citations?user=PaxwF6sAAAAJ"
@@ -279,6 +286,11 @@
   given: Guillaume
   family: Caron
   role: deputy-director
+  from: 2022-01-01
+  past-roles:
+    - role: permanent
+      to: 2021-12-31
+      from: 2019-09-01
   nationality: fr
   linkedin: "https://www.linkedin.com/in/guillaume-caron-62b9b031"
   website: "http://mis.u-picardie.fr/~g-caron"
@@ -290,6 +302,10 @@
   given: Ryusuke
   family: Sagawa
   role: adjunct
+  from: 2020-04-01
+  past-roles:
+    - role: permanent
+      to: 2020-03-31
   nationality: jp
 - id: imamura
   given: Yumeko
@@ -306,6 +322,10 @@
   given: Yusuke
   family: Yoshiyasu
   role: adjunct
+  from: 2020-04-01
+  past-roles:
+    - role: permanent
+      to: 2020-03-31
   nationality: jp
 - id: benalleguea
   given: Abdelaziz
@@ -315,6 +335,7 @@
   past-roles:
     - role: permanent
       to: 2022-07-22
+      from: 2021-01-01
   nationality: fr
   scholar: "https://scholar.google.com/citations?user=fC6f6B4AAAAJ&hl=en"
   bio: >
@@ -323,6 +344,10 @@
   given: Mehdi
   family: Benallegue
   role: permanent
+  from: 2020-04-01
+  past-roles:
+    - role: adjunct
+      to: 2020-03-31
   nationality: fr
   nationality2: dz
   website: "http://mehdi.benallegue.com"
@@ -333,6 +358,10 @@
   given: Rafael
   family: Cisneros-Limón
   role: permanent
+  from: 2020-04-01
+  past-roles:
+    - role: adjunct
+      to: 2020-03-31
   nationality: mx
   linkedin: "https://www.linkedin.com/in/rafael-cisneros-limón-9607b220a"
   website: "https://staff.aist.go.jp/rafael.cisneros/"
@@ -343,6 +372,7 @@
   given: Kenji
   family: Kaneko
   role: permanent
+  from: 2020-04-01
   nationality: jp
   website: "https://staff.aist.go.jp/k.kaneko/index_e.html"
   bio: >
@@ -351,6 +381,7 @@
   given: Hiroshi
   family: Kaminaga
   role: permanent
+  from: 2020-04-01
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=tNGygrIAAAAJ&hl=en&oi=ao"
   bio: >
@@ -366,6 +397,7 @@
   given: Masaki
   family: Murooka
   role: permanent
+  from: 2020-04-01
   nationality: jp
   website: https://mmurooka.github.io/
   scholar: https://scholar.google.com/citations?user=xcp8f3cAAAAJ
@@ -376,6 +408,7 @@
   given: Iori
   family: Kumagai
   role: permanent
+  from: 2020-04-01
   bio: >
     received the Ph.D. degree in information science and technology from The University of Tokyo, Japan, in 2017. He joined Intelligent Systems Research Institute in National Institute of Advanced Industrial Science and Technology (AIST) in 2017 as a researcher. His research interest includes perception, locomotion planning and system integration for humanoid robots.
   nationality: jp
@@ -388,6 +421,7 @@
   from: 2021-04-01
   past-roles:
     - role: permanent
+      from: 2020-04-01
       to: 2021-03-31
   nationality: jp
   bio: >
@@ -396,6 +430,10 @@
   given: Fumio
   family: Kanehiro
   role: director
+  from: 2020-04-01
+  past-roles:
+    - role: adjunct
+      to: 2020-03-31
   nationality: jp
   linkedin: "https://jp.linkedin.com/in/%E6%96%87%E7%94%B7-%E9%87%91%E5%BA%83-0a58a546/en-us?trk=public_profile_locale-url"
   github: "https://github.com/fkanehiro"
@@ -411,6 +449,7 @@
   given: Shin'ichiro
   family: Nakaoka
   role: adjunct
+  from: 2020-04-01
   nationality: jp
   bio: >
     received his Ph.D degree in computer science from the University of Tokyo, Japan, in 2006. Since 2006, he has been with the Intelligent Systems Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), where he is currently a Senior Researcher. From 2011 to 2012, he was a Visiting Researcher at the University of Edinburgh. His research interests include humanoid robots and robotics software systems. He received the Best Paper Award of the Robotics Society of Japan in 2008, and the Best Paper Award (Robotics) of the 2012 IEEE/SICE International Symposium on System Integration.
@@ -484,6 +523,7 @@
   given: Yili
   family: Qin
   role: phd
+  to: 2024-03-31
   nationality: cn
   website: "https://yiliqin.github.io"
   linkedin: "https://www.linkedin.com/in/yili-qin"
@@ -526,6 +566,7 @@
   given: Leyuan
   family: Sun
   role: phd
+  to: 2023-03-31
   nationality: cn
   bio: >
     received the BE degree from Jiangsu University, China, in 2015 and his ME degree from The University of Tsukuba, Japan, in 2020. He is currently a second-year Ph.D. student in the Department of Intelligent and Mechanical Interaction Systems, Graduate School of Science and Technology, The University of Tsukuba, Japan. His research interests include computer vision for robotics and SLAM in a dynamic environment.
@@ -545,6 +586,7 @@
   given: Antonin
   family: Dallard
   role: phd
+  to: 2023-09-30
   nationality: fr
   linkedin: https://www.linkedin.com/in/antonin-dallard-b7096814a
   bio: >
@@ -565,6 +607,7 @@
   given: Irene
   family: Frizza
   role: phd
+  to: 2024-03-31
   nationality: it
   bio: >
     got her degree in Electronic Engineering in Pisa University in 2016. She next got her master’s degree in Automation and Robotic Engineering in Pisa University in 2019. She carried out her thesis project at GVLab, in Tokyo University of Agriculture and Technology (TUAT) and in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan. Currently, she is a PhD student in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan with Montpellier University, France. Her research interest includes soft robotic feet, biped locomotion, walking of humanoid robots.
@@ -573,6 +616,7 @@
   given: Masato
   family: Tsuru
   role: phd
+  to: 2024-03-31
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=ToS-6x0AAAAJ&hl=en&oi=sra"
   bio: >
@@ -585,6 +629,7 @@
   given: Rohan P.
   family: Singh
   role: phd
+  to: 2024-03-31
   nationality: in
   github: "https://github.com/rohanpsingh"
   linkedin: "https://www.linkedin.com/in/rohanpsingh"
@@ -609,12 +654,14 @@
       to: 2022-09-30
   role: phd
   from: 2022-10-01
+  to: 2025-09-30
   nationality: cn
 - id: glorthioir
   given: Guillaume
   family: Lorthioir
   role: postdoc
   from: 2022-03-07
+  to: 2024-03-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/guillaume-lorthioir-663201194/"
   bio: >
@@ -627,6 +674,7 @@
   family: André
   role: postdoc
   from: 2022-05-09
+  to: 2023-05-08
   nationality: fr
   website: "https://antoineandre.github.io/"
   scholar: "https://scholar.google.fr/citations?user=iopU-RcAAAAJ&hl"
@@ -638,6 +686,7 @@
   family: Demont
   role: phd
   from: 2022-11-01
+  to: 2025-10-31
   past-roles:
     - role: master
       from: 2022-05-06
@@ -654,6 +703,7 @@
   family: Chen
   role: phd
   from: 2021-08-09
+  to: 2023-03-31
   nationality: cn
   github: "https://github.com/robot-Yang"
   linkedin: "https://www.linkedin.com/in/yang-chen-1004a9155/"
@@ -665,6 +715,7 @@
   family: Celerier
   role: phd
   from: 2022-05-06
+  to: 2024-08-31
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/mathieu-celerier"
   github: "https://github.com/mathieu-celerier"
@@ -684,12 +735,14 @@
   given: Xinchi
   family: Gao
   role: master
+  to: 2023-03-31
   nationality: cn
 - id: osorio
   given: Pablo
   family: Osorio
   role: phd
   from: 2022-05-01
+  to: 2023-09-30
   nationality: cr
 - id: nara
   given: Guru
@@ -724,6 +777,7 @@
   given: Soya
   family: Shimizu
   role: phd
+  to: 2024-03-31
   nationality: jp
 - id: chefchaouni
   given: Sélim
@@ -740,6 +794,7 @@
   family: Krishna
   role: undergraduate
   from: 2022-07-01
+  to: 2023-05-31
   nationality: in
 - id: goichon
   given: Eva
@@ -750,6 +805,7 @@
       to: 2022-09-30
   role: phd
   from: 2022-10-01
+  to: 2025-09-30
   nationality: fr
 - id: ducrocq
   given: Julien
@@ -766,24 +822,34 @@
   family: Miyake
   role: undergraduate
   from: 2022-08-15
+  to: 2023-03-31
+  future-roles:
+    - role: master
+      from: 2023-04-01
   nationality: jp
 - id: fukumitsu
   given: Kensuke
   family: Fukumitsu
   role: undergraduate
   from: 2022-08-15
+  to: 2023-03-31
+  future-roles:
+    - role: master
+      from: 2023-04-01
   nationality: jp
 - id: naamani
   given: Meriem
   family: Naamani
   role: phd
   from: 2022-10-01
+  to: 2025-09-30
   nationality: dz
 - id: toumi
   given: Mohamed
   family: Toumi
   role: phd
   from: 2022-10-14
+  to: 2026-09-30
   nationality: dz
 - id: zhang
   given: Yachen
@@ -800,6 +866,7 @@
   family: Caillot
   role: postdoc
   from: 2023-01-09
+  to: 2025-01-08
   nationality: fr
   linkedin: "https://www.linkedin.com/in/caillotantoine"
   github: "https://github.com/caillotantoine"
@@ -811,10 +878,96 @@
   family: Barenguel Baeta
   role: phd
   from: 2023-01-13
+  to: 2023-04-12
   nationality: es
 - id: tako
   given: Taro
   family: Tako
   role: undergraduate
   from: 2023-01-10
+  to: 2023-06-06
+  nationality: jp
+- id: bwatier
+  given: Bruno
+  family: Watier
+  role: permanent
+  from: 2023-02-01
+  to: 2024-07-31
+  nationality: fr
+- id: duclusaud
+  given: Marc
+  family: Duclusaud
+  role: phd
+  from: 2023-03-01
+  to: 2023-03-31
+  nationality: fr
+- id: lembrez
+  given: Gabin
+  family: Lembrez
+  role: coming-master
+  from: 2023-03-07
+  to: 2023-08-31
+  nationality: fr
+- id: hadj-sassi
+  given: Sonia-Laure
+  family: Hadj-Sassi
+  role: coming-phd
+  from: 2023-05-01
+  to: 2023-07-31
+  nationality: fr
+- id: hwatier
+  given: Hortense
+  family: Watier
+  role: coming-master
+  from: 2023-06-12
+  to: 2023-07-10
+  nationality: fr
+- id: amiot
+  given: Noé
+  family: Amiot
+  role: master
+  from: 2023-03-01
+  to: 2023-08-31
+  nationality: fr
+- id: alaverdov
+  given: Antoine
+  family: Alaverdov
+  role: master
+  from: 2023-03-01
+  to: 2023-08-31
+  nationality: fr
+- id: quaccia
+  given: Matthieu
+  family: Quaccia
+  role: master
+  from: 2023-03-01
+  to: 2023-08-31
+  nationality: fr
+- id: foussereau
+  given: Virgile
+  family: Foussereau
+  role: coming-master
+  from: 2023-03-20
+  to: 2023-08-11
+  nationality: fr
+- id: barberteguy
+  given: Victor
+  family: Barberteguy
+  role: coming-master
+  from: 2023-03-27
+  to: 2023-08-04
+  nationality: fr
+- id: mariot
+  given: Pierre-Antoine
+  family: Mariot
+  role: coming-master
+  from: 2023-04-01
+  to: 2023-08-31
+  nationality: fr
+- id: masuda
+  given: Shimpei
+  family: Masuda
+  role: coming-phd
+  from: 2023-04-01
+  to: 2026-03-31
   nationality: jp
