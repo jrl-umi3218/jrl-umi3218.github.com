@@ -8350,6 +8350,7 @@
     given: Kenji
   - id: kheddar
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/9999740
   lab: jrl
   projects:
   - janus
@@ -8363,7 +8364,10 @@
   - id: morisawa
   - id: cisneros
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10000067
   lab: jrl
+  projects:
+  - ryouikikoubo_2021
 - id: frizza:humanoids:2022
   year: 2022
   title: A Study on the Benefits of Using Variable Stiffness Feet for Humanoid Walking
@@ -8376,6 +8380,7 @@
   - family: Fraisse
     given: Phillipe
   - id: venture
+  pdf: https://ieeexplore.ieee.org/document/10000240
   lab: jrl
 - id: erich:sii:2023
   year: 2023
@@ -8393,6 +8398,7 @@
   - id: yoshiyasu
   - family: Ando
     given: Noriaki
+  pdf: https://ieeexplore.ieee.org/document/10039147
   lab: jrl
 - id: hu:thms:2022
   year: 2022
@@ -8628,8 +8634,10 @@
   - id: singh
   - id: gergondet
   - id: kanehiro
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/10039218
   lab: jrl
+  projects:
+  - ryouikikoubo_2021
 - id: benallegue:tac:2023
   year: 2023
   title: Velocity-aided IMU-based Tilt and Attitude Estimation
@@ -8641,6 +8649,39 @@
   - family: Chitour
     given: Yacine
   pdf: https://ieeexplore.ieee.org/document/9966736
+  lab: jrl
+- id: pfeiffer:tcst:2023
+  year: 2023
+  title: The Hierarchical Newton’s Method for Numerically Stable Prioritized Dynamic
+    Control
+  booktitle: IEEE Transactions on Control Systems Technology
+  authors:
+  - id: pfeiffer
+  - id: escande
+  - id: gergondet
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10035484
+  lab: jrl
+- id: darvish:tro:2023
+  year: 2023
+  title: 'Teleoperation of Humanoid Robots: A Survey'
+  booktitle: IEEE Transactions on Robotics
+  authors:
+  - family: Darvish
+    given: Kourosh
+  - family: Penco
+    given: Luigi
+  - family: Ramos
+    given: Joao
+  - id: cisneros
+  - family: Pratt
+    given: Jerry
+  - id: yoshida
+  - family: Ivaldi
+    given: Serena
+  - family: Pucci
+    given: Daniele
+  pdf: https://ieeexplore.ieee.org/document/10035484
   lab: jrl
 - id: traversaro:iros:2016
   year: 2016
