@@ -8,10 +8,10 @@
   scholar: "https://scholar.google.com/citations?user=yd4xmlcAAAAJ"
   bio: >
     received the BSCS degree from the <a href="http://www.esi.dz/" target="_self">Institut National d’Informatique</a> (INI), Algiers, the MSc and PhD degrees in robotics, both from the <a href="http://www.upmc.fr/en/index.html" target="_self">University of Pierre and Marie Curie</a>, Paris 6. He is presently Directeur de Recherche at <a href="http://www.cnrs.fr/" target="_self">CNRS</a>. He is the Director of the <a href="https://unit.aist.go.jp/is/jrl/ci/" target="_self">CNRS-AIST Joint Robotic Laboratory</a> (JRL), UMI3218/CRT, Tsukuba, Japan; and team leader of the <a href="http://www.lirmm.fr/lirmm_eng/research/teams/idh" target="_self">Interactive Digital Humans</a> (IDH) team at CNRS-UM&nbsp;<a href="http://www.lirmm.fr/lirmm_eng/" target="_self">LIRMM</a> at Montpellier, France. Prior to this, he was (1999-2003) assistant professor and (2004-2008) full professor at the <a href="http://www.univ-evry.fr/en/index.html" target="_self">University of Evry</a> where he created and headed the virtual reality and haptics group. His current research interests include humanoid robotics, haptics, and thought-based control using brain machine interfaces en physical re-embodiment. He is a founding member of the <a href="http://www.worldhaptics.org/" target="_self">IEEE/RAS chapter on haptics</a> (acting also as a senior advisor), the co-chair and co-founding member of the <a href="https://www.ieee-ras.org/model-based-optimization-for-robotics" target="_self">IEEE/RAS Technical committee on model-based optimization</a>. He is presently Editor of the IEEE Transactions on Robotics and the Journal of Intelligent and Robotic Systems, and Frontiers in Bionics; he is a founding member of the IEEE Transactions on Haptics and served in its editorial board during three years (2007-2010) and served as AE also the&nbsp;MIT Press PRESENCE journal (2013-2014). He also coordinated or acted as a PI for several EU projects and <a href="https://www.jsps.go.jp/english/" target="_self">JSPS</a> Kakenhi projects.
-#  selected_publications: ["samy:humanoids:2015"]
 - id: yoshida
   given: Eiichi
   family: Yoshida
+  name-jp: 吉田 英一
   role: alumni-star
   from: 2022-04-01
   past-roles:
@@ -22,8 +22,11 @@
   website: "https://staff.aist.go.jp/e.yoshida/"
   scholar: "https://scholar.google.com/citations?user=XWZydeMAAAAJ&hl=ja&oi=ao"
   research: Task and motion planning for robots, Human modeling, Humanoid robotics and Advanced logistics technology
+  research-jp: ロボットのためのタスク・モーションプランニング、人間モデリング、ヒューマノイドロボット、高度な物流技術
   bio: >
     received M.E and Ph. D degrees on Precision Machinery Engineering from Graduate School of Engineering, the University of Tokyo in 1993 and 1996 respectively. In 1996 he joined former Mechanical Engineering Laboratory, later reorganized as National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan. He served as Co-Director of AIST/IS-CNRS/ST2I Joint French-Japanese Robotics Laboratory (JRL) at LAAS-CNRS, Toulouse, France, from 2004 to 2008. Since 2009, he has been serving as Co-Director of CNRS-AIST JRL (Joint Robotics Laboratory), IRL at Tsukuba, Japan, and appointed as Director since 2017 to date. He also served as Deputy Director of Intelligent Systems Research Institute (IS-AIST) from 2015 to 2018 and as Director of Planning Office, Department of Information Technology and Human Factors from 2018 to 2020, at AIST. He is currently Deputy Director of Industrial Cyber-Physical Systems Research Center, and TICO-AIST Cooperative Research Laboratory for Advanced Logistics in AIST.
+  bio-jp: >
+    1993年および1996年に東京大学大学院工学系研究科で精密機械工学のM.EおよびPh.D学位を取得しました。1996年には旧機械工学研究所に入所し、その後、日本産業技術総合研究所（AIST）に再編されました。2004年から2008年まで、彼はフランス・トゥールーズのLAAS-CNRSにあるAIST / IS-CNRS / ST2I合同フランス・日本ロボット研究所（JRL）の共同ディレクターを務めました。2009年以降、彼はつくばのCNRS-AIST JRL（共同ロボティクス研究所）、IRLの共同ディレクターを務め、2017年以降は所長に任命されています。また、2015年から2018年には知能システム研究所（IS-AIST）の副所長を務め、2018年から2020年にはAIST情報技術・人間工学部の企画室長を務めました。現在、彼はAIST産業サイバーフィジカルシステム研究センターの副センター長およびTICO-AIST先端ロジスティクス共同研究ラボの副所長を務めています。
 - id: escande
   given: Adrien
   family: Escande
@@ -52,6 +55,7 @@
 - id: ayusawa
   given: Ko
   family: Ayusawa
+  name-jp: 鮎澤 光
   role: adjunct
   from: 2021-04-01
   past-roles:
@@ -64,6 +68,7 @@
 - id: morisawa
   given: Mitsuharu
   family: Morisawa
+  name-jp: 森澤 光晴
   role: deputy-director
   from: 2020-04-01
   past-roles:
@@ -110,8 +115,11 @@
   bio: >
     graduated from École Centrale de Paris with a master in embedded systems. He obtained a Ph.D. degree from the University of Montpellier and conducted his
     thesis in CNRS-AIST JRL, UMI3218/CRT, Tsukuba, Japan where is is now a research associate working on embedded software for humanoids. His research interest includes humanoid robotics and the usage of brain-computer interfaces to control a humanoid robot.
+  bio-jp: >
+    エコール・サントラル・ド・パリで組み込みシステムの修士号を取得しました。モンペリエ大学で博士号を取得し、CNRS-AIST JRL、UMI3218/CRT、つくばで論文を執筆しました。現在、彼は同じ場所で研究員として働き、ヒューマノイドのための組み込みソフトウェアに取り組んでいます。彼の研究には、ヒューマノイドロボットと脳コンピュータインターフェイスの利用によるヒューマノイドロボットの制御が含まれます。
   videos:
     - title: "Multitask Humanoid Control with a Brain-Computer Interface: user experiment with HRP-2"
+      title-jp: BCIを用いたマルチタスク人型ロボット制御：HRP-2を用いたユーザー実験
       url: "https://www.youtube.com/watch?v=6bynYqmVVck"
       img: "http://i1.ytimg.com/vi/6bynYqmVVck/mqdefault.jpg"
 - id: reboulsalze
@@ -301,6 +309,7 @@
 - id: sagawa
   given: Ryusuke
   family: Sagawa
+  name-jp: 佐川 立昌
   role: adjunct
   from: 2020-04-01
   past-roles:
@@ -310,6 +319,7 @@
 - id: imamura
   given: Yumeko
   family: Imamura
+  name-jp: 今村 由芽子
   role: adjunct
   from: 2021-04-01
   past-roles:
@@ -321,6 +331,7 @@
 - id: yoshiyasu
   given: Yusuke
   family: Yoshiyasu
+  name-jp: 吉安 祐介
   role: adjunct
   from: 2020-04-01
   past-roles:
@@ -371,6 +382,7 @@
 - id: kaneko
   given: Kenji
   family: Kaneko
+  name-jp: 金子 健二
   role: permanent
   from: 2020-04-01
   nationality: jp
@@ -380,6 +392,7 @@
 - id: kaminaga
   given: Hiroshi
   family: Kaminaga
+  name-jp: 神永 拓
   role: permanent
   from: 2020-04-01
   nationality: jp
@@ -389,6 +402,7 @@
 - id: kajita
   given: Shuuji
   family: Kajita
+  name-jp: 梶田 秀司
   role: alumni-star
   nationality: jp
   bio: >
@@ -396,6 +410,7 @@
 - id: murooka
   given: Masaki
   family: Murooka
+  name-jp: 室岡 雅樹
   role: permanent
   from: 2020-04-01
   nationality: jp
@@ -407,6 +422,7 @@
 - id: kumagai
   given: Iori
   family: Kumagai
+  name-jp: 熊谷 伊織
   role: permanent
   from: 2020-04-01
   bio: >
@@ -429,6 +445,7 @@
 - id: kanehiro
   given: Fumio
   family: Kanehiro
+  name-jp: 金広 文男
   role: director
   from: 2020-04-01
   past-roles:
@@ -448,6 +465,7 @@
 - id: nakaoke
   given: Shin'ichiro
   family: Nakaoka
+  name-jp: 中岡 慎一郎
   role: adjunct
   from: 2020-04-01
   nationality: jp
@@ -456,6 +474,7 @@
 - id: yamanobe
   given: Natsuki
   family: Yamanobe
+  name-jp: 山野辺　夏樹
   role: adjunct
   nationality: jp
 - id: hu
@@ -522,6 +541,7 @@
 - id: qin
   given: Yili
   family: Qin
+  name-jp: 覃 毅力
   role: phd
   to: 2024-03-31
   nationality: cn
@@ -565,6 +585,7 @@
 - id: sun
   given: Leyuan
   family: Sun
+  name-jp: 孫 楽源
   role: phd
   to: 2023-03-31
   nationality: cn
@@ -615,6 +636,7 @@
 - id: tsuru
   given: Masato
   family: Tsuru
+  name-jp: 都留 将人
   role: phd
   to: 2024-03-31
   nationality: jp
@@ -639,11 +661,13 @@
 - id: sakai
   given: Naoko
   family: Sakai
+  name-jp: 酒井 直子
   role: admin
   nationality: jp
 - id: katom
   given: Mitsuko
   family: Kato
+  name-jp: 加藤 光子
   role: admin
   nationality: jp
 - id: kang
@@ -776,6 +800,7 @@
 - id: shimizu
   given: Soya
   family: Shimizu
+  name-jp: 清水 蒼椰
   role: phd
   to: 2024-03-31
   nationality: jp
@@ -820,6 +845,7 @@
 - id: miyake
   given: Hibiki
   family: Miyake
+  name-jp: 三宅　響
   role: undergraduate
   from: 2022-08-15
   to: 2023-03-31
@@ -830,6 +856,7 @@
 - id: fukumitsu
   given: Kensuke
   family: Fukumitsu
+  name-jp: 福光　健介
   role: undergraduate
   from: 2022-08-15
   to: 2023-03-31
@@ -883,6 +910,7 @@
 - id: tako
   given: Taro
   family: Tako
+  name-jp: 田光 太郎
   role: undergraduate
   from: 2023-01-10
   to: 2023-06-06

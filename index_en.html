@@ -1,6 +1,5 @@
 ---
 layout: default
-title: CNRS-AIST JRL
 ---
 <div class="breadcrumbs-container">
 <div class="container">
@@ -21,9 +20,9 @@ title: CNRS-AIST JRL
       {%- assign f_base = f.path | remove_first: home_assets -%}
       {%- if f_base != f.path -%}
         {%- if carousel_files -%}
-        {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl}}{{f.path}}{%- endcapture -%}
+        {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
         {%- else -%}
-          {%- capture carousel_files -%}{{site.baseurl}}{{f.path}}{%- endcapture -%}
+          {%- capture carousel_files -%}{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
@@ -67,21 +66,21 @@ title: CNRS-AIST JRL
 	  <tr>
 	    <td style="padding-bottom:10px">
 	      <a href="https://github.com/jrl-umi3218/">
-	      <img src="{{site.baseurl}}/en/assets/icons/GitHub-Mark-Light-64px.png" width="40" alt="GitHub">
+	      <img src="{{site.baseurl_root}}/en/assets/icons/GitHub-Mark-Light-64px.png" width="40" alt="GitHub">
 	      </a>
 	    </td>
 	  </tr>
 	  <tr>
 	    <td style="padding-bottom:10px">
 	      <a href="https://www.youtube.com/channel/UCYwHCdMHAKYZJ2MQIoTavVQ">
-	      <img src="{{site.baseurl}}/en/assets/icons/yt_icon_rgb.png" width="40" alt="YouTube Channel">
+	      <img src="{{site.baseurl_root}}/en/assets/icons/yt_icon_rgb.png" width="40" alt="YouTube Channel">
 	      </a>
 	    </td>
 	  </tr>
 	  <tr>
 	    <td style="padding-bottom:10px">
 	      <a href="https://jrl-umi3218.github.io/mc_rtc/">
-	      <img src="{{site.baseurl}}/en/assets/icons/mc_rtc.png" width="40" alt="mc-rtc">
+	      <img src="{{site.baseurl_root}}/en/assets/icons/mc_rtc.png" width="40" alt="mc-rtc">
 	      </a>
 	    </td>
 	  </tr>
@@ -96,20 +95,13 @@ title: CNRS-AIST JRL
 <!-- Page Content -->
 <div class="container">
   <div class="row" style="margin-top:25px;">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="alert alert-warning">2022/01/27 This website is being updated. Some sections are still incomplete.</div>
-      </div>
-    </div>
     <div class="col-md-12">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4>Overview</h4>
+          <h4>{% t index.overview %}</h4>
         </div>
         <div class="panel-body">
-          <p>The <b>CNRS-AIST JRL (Joint Robotics Laboratory), IRL</b> is a joint laboratory established between a French public organization CNRS (Centre National de la Recherche Scientifique) and AIST and located at <a href="https://www.aist.go.jp/aist_e/dept/en_dithf.html">Department of Information Technology and Human Factors of the AIST</a> at Tsukuba. The researchers from both countries are closely collaborating to pursue means of increasing robot’s functional autonomy, especially using the humanoid platform.</p>
-          <p>The main research subjects include: task and motion planning and control, multimodal interaction with human and surrounding environment through perception, and cognitive robotics. We host always more than ten foreign researchers, which characterizes the international atmosphere of this research group. We are actively conducting international collaborative research with French CNRS laboratories and also with research institutes through international research projects including EU projects.</p>
-          <p>The framework is identified as an International Research Laboratory (IRL) by both CNRS and  AIST.</p>
+          {% translate_file index-overview.html %}
         </div>
       </div>
     </div>
@@ -119,14 +111,14 @@ title: CNRS-AIST JRL
   <!-- Projects Section -->
   <div class="row row-centered">
     <div class="col-lg-12 col-centered">
-      <h2 class="page-header">Projects</h2>
+      <h2 class="page-header">{% t index.projects %}</h2>
     </div>
     {%- assign sorted_projects = site.data.projects | sort: 'id' -%}
     {%- for project in sorted_projects -%}
     {%- if project.active == true -%}
     <div class="col-md-3 col-xs-6 col-centered">
-      <a href="{{site.baseurl}}/en/projects/project-{{project.id}}.html" data-toggle="tooltip" title="{{project.title}} - {{project.longtitle}}">
-        <img class="img-responsive img-portfolio img-hover" src="{{site.baseurl}}/en/assets/projects/{{project.id}}.png" alt="{{project.title}} - {{project.longtitle}}">
+      <a href="{{site.baseurl_root}}/en/projects/project-{{project.id}}.html" data-toggle="tooltip" title="{{project.title}} - {{project.longtitle}}">
+        <img class="img-responsive img-portfolio img-hover" src="{{site.baseurl_root}}/en/assets/projects/{{project.id}}.png" alt="{{project.title}} - {{project.longtitle}}">
       </a>
     </div>
     {%- endif -%}

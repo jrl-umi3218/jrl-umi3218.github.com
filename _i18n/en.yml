@@ -1,0 +1,113 @@
+langs:
+  jp: Japanese
+pages:
+  home: Home
+  news: News
+  projects: Projects
+  past-projects: Past projects
+  members: Members
+  publications: Publications
+  HL: HL
+  join: Join us
+  contact: Contact
+index:
+  overview: Overview
+  projects: Projects
+member-page:
+  bio: Bio
+  personal-website: Personal website
+  research-interests: Research interests
+  videos: Videos
+  selected-publications: Selected publications
+  all-publications: All publications
+  show: Show
+  hide: Hide
+show: Show
+hide: Hide
+roles:
+  direction: Direction
+  director: Director
+  deputy-director: Deputy director
+  permanent-researchers: Permanent Researchers
+  permanent-researcher: Permanent researcher
+  adjunct-members: Adjunct Members
+  adjunct-member: Adjunct Member
+  postdoctoral-fellows: Postdoctoral fellows
+  postdoctoral-fellow: Postdoctoral fellow
+  research-engineers: Research engineers
+  research-engineer: Research engineer
+  phd-students: PhD students
+  phd-student: PhD student
+  master-students: Master students
+  master-student: Master student
+  undergraduate-students: Undergraduate students
+  undergraduate-student: Undergraduate student
+  administrative-staff: Administrative staff
+  alumni: Alumni
+publications:
+  title: Title
+  authors: Authors
+  conference: Conference/Book
+  year: Year
+  incomplete-warning: The publication list may not be complete, especially for publications prior to 2017. We are working on updating it.
+hl:
+  title: Humanoid Lab (University of Tsukuba)
+  title-short: Humanoid Lab
+  link: https://www.tsukuba.ac.jp/en/academics/g-courses-cooperative/
+  link-name: University of Tsukuba - Cooperative Graduate School System
+  professor: Professor
+  research-content: Research content
+  past-research: Past research
+  location: Location
+  student-members: Student Members
+  student-name: Name
+  student-grade: Grade
+  student-email: Email <br/> (replace the _*_ with @)
+  students:
+    - id: qin
+      name: Yili Qin
+      grade: Ph.D. 4th Year
+      email: yili.tan_*_aist.go.jp
+    - id: sun
+      name: Leyuan Sun
+      grade: Ph.D. 3rd Year
+      email: son.leyuansun_*_aist.go.jp
+    - id: singh
+      name: Rohan Pratap Singh
+      grade: Ph.D. 2nd Year
+      email: rohan-singh_*_aist.go.jp
+    - name: Xinchi Gao
+      grade: Master's 1st Year
+    - name: Okumiya Tomoya
+      grade: Master's 1st Year
+news:
+  - date: 29/11/2022
+    content: <a href="members/member-frizza.html">Irene Frizza</a> recevied the 2022 IEEE-RAS International Conference on Humanoid Robots (Humanoids) <a href="https://www.humanoids2022.org/travel/kanako-miura-award">Kanako Miura Award</a>.
+  - date: 07/12/2022
+    content: >
+      The paper co-authored by <a href="members/member-sun.html">Leyuan Sun</a>, Guanqun Ding, <a href="members/member-yoshiyasu.html">Yusuke Yoshiyasu</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>: CertainOdom: Uncertainty Weighted Multi-task Learning Model for LiDAR Odometry Estimation recevied the 2022 IEEE International Conference on Robotics and Biomimetics (ROBIO) Best Conference Paper Award.
+  - date: 25/05/2022
+    content: <a href="https://unit.aist.go.jp/jrl-22022/en/projects/janus/team-janus.html">Team Janus</a> advances to the <a href="https://www.xprize.org/prizes/avatar">ANA Avatar XPRIZE</a> Finals!
+  - date: 25/03/2022
+    content: <a href="https://www.naist.jp/pressrelease/2022/03/008826.html">A press release</a> was issued regarding "Eliminating temporal illumination variations in whisk-broom hyperspectral imaging".
+  - date: 12/03/2022
+    content: <a href="https://event.kawasakirobotics.com/jp/irex2022/jp/humanoid/kaleido-slim/">RHP Friends</a>, jointly developed with Kawasaki Heavy Industries, Ltd. was exhibited at <a href="https://biz.nikkan.co.jp/eve/irex/english/">the International Robot Exhibition</a>.
+  - date: 01/03/2022
+    content: The Technical Committee on Model-Based Optimization for Robotics, co-chaired by <a href="members/member-escande.html">Adrien Escande</a>, received <a href="https://www.ieee-ras.org/about-ras/latest-news/1927-2022-ieee-ras-award-recipients-announced">the RAS Most Active Technical Committee Award</a>.
+  - date: 07/06/2021
+    content: <a href="members/member-tsuru.html">Masato Tsuru</a> has received the <a href="https://www.ieee-jp.org/section/tokyo/chapter/RA-24/RASJPYoungAward_ICRA2021.html">IEEE Robotics and Automation Society Japan Joint Chapter Young Award (ICRA2021)</a>.
+  - date: 02/06/2021
+    content: >
+      The paper co-authored by Shuuji Kajita, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, <a href="members/member-kaneko.html">Kenji Kaneko</a>, Kiyoshi Fujiwara, Kensuke Harada, Kazuhito Yokoi, Hirohisa Hirukawa: Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point recevied <a href="https://www.ieee-ras.org/awards-recognition/society-awards/69-awards-recognition/society-awards/1790-ieee-icra-milestone-award">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>.
+  - date: 15/03/2021
+    content: <a href="members/member-kanehiro.html">Fumio Kanehiro</a> was interviewed by <a href="https://robotics.kawasaki.com/ja1/xyz/en/2104-01/index.htm">XYZ</a>.
+  - date: 12/03/2021
+    content: Daphné Héraïz-Bekkis was interviewed by <a href="https://jp.ambafrance.org/Entretien-avec-Daphne-Heraiz-Bekkis-doctorante-dans-le-domaine-des-interactions-homme-robot-entre-la-France-et-le-Japon">French Embassy</a>.
+  - date: 30/05/2020
+    content: >
+      The paper co-authored by <a href="members/member-kheddar.html">Abderrahmane Kheddar</a>, Stéphane Caron, <a href="members/member-gergondet.html">Pierre Gergondet</a>, Andrew Comport, <a href="members/member-tanguy.html">Arnaud Tanguy</a>, Christian Ott, Bernd Henze, George Mesesan, Johannes Englsberger, Máximo Roa, Pierre-Brice Wieber, François Chaumette, Fabien Spindler, Giuseppe Oriolo, Leonardo Lanari, <a href="members/member-escande.html">Adrien Escande</a>, <a href="members/member-chappellet.html">Kévin Chappellet</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, Patrice Rabate: Humanoid robots in aircraft manufacturing recevied <a href="https://www.ieee-ras.org/awards-recognition/publications-awards/70-awards-recognition/publication-awards/723-ieee-robotics-and-automation-magazine-best-paper-award">the 2020 IEEE Robotics and Automation Magazine Best Paper Award</a>.
+  - date: 01/04/2020
+    content: <a href="members/member-ayusawa.html">Ko Ayusawa</a> has received <a href="https://www.mext.go.jp/b_menu/houdou/mext_00187.html">the MEXT Award for Science and Technology for young scientists</a>.
+  - date: 13/01/2020
+    content: >
+      The paper co-authored by <a href="members/member-tsuru.html">Masato Tsuru</a>, <a href="members/member-gergondet.html">Pierre Gergondet</a>, Tomohiro Motoda, <a href="members/member-escande.html">Adrien Escande</a>, <a href="members/member-yoshida.html">Eiichi Yoshida</a>, Ixchel G. Ramirez-Alpizar, Weiwei Wan, Kensuke Harada: POMDP-based action planning for the recognition of occluded objects with Humanoid robots received <a href="https://alife-robotics.co.jp/ICAROB2020-YAA.pdf">the 2020 International Conference on Artificial Life and Robotics (ICAROB) Young Author Award</a>.

@@ -129,7 +129,6 @@ In the following example, the user id is `jrlmember`.
 ```
 ---
 layout: default
-title: CNRS-AIST JRL
 ---
 {% include member_full.html id="jrlmember" %}
 ```
@@ -152,7 +151,6 @@ In the following example, the project id is `jrlproject`.
 ```
 ---
 layout: default
-title: CNRS-AIST JRL
 ---
 {% include project.html id="jrl-project" %}
 ```

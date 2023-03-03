@@ -1,12 +1,12 @@
 ---
 layout: default
-title: CNRS-AIST JRL
 ---
-  {%- include breadcrumbs.html breadcrumbs="Publications" title="Publications" -%}
+{% capture crumbs %}{% t pages.publications %}{% endcapture %}
+{%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
 <!-- Page Content -->
 <div class="container">
   <div class="row">
-	<div class="alert alert-info">2022/02/04 The publication list may not be complete, especially for publications prior to 2017. We are working on updating it.</div>    
+    <div class="alert alert-info">{% t publications.incomplete-warning %}</div>
     {%- include publications_table.html lab_id="jrl" -%}
   </div>
 </div>
