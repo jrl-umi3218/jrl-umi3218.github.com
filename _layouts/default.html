@@ -125,6 +125,22 @@
             <li>
               <a href="{{site.baseurl}}/contact.html">{% t pages.contact %}</a>
             </li>
+            <li>
+              {% for lang in site.languages %}
+                {% capture lang_folder %}/{{lang}}{% endcapture %}
+                {% capture LANG %}{{ lang | upcase }}{% endcapture %}
+                {% if site.lang != lang %}
+                <a href="{{site.baseurl_root}}{{lang_folder}}{{page.url}}" style="display:inline;">{{LANG}}</a>
+                {% else %}
+                {{LANG}}
+                {% endif %}
+                {% if forloop.last %}
+                  &nbsp;
+                {% else %}
+                  |
+                {% endif %}
+              {% endfor %}
+            </li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
