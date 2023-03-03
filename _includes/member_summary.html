@@ -1,5 +1,5 @@
 {%- assign member_has_page = false -%}
-{%- capture member_page -%}en/members/member-{{include.member.id}}.html{%- endcapture -%}
+{%- capture member_page -%}members/member-{{include.member.id}}.html{%- endcapture -%}
 {%- for page in site.html_pages -%}
   {%- if page.path == member_page -%}
     {%- assign member_has_page = true -%}
@@ -7,8 +7,8 @@
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
-{%- capture member_picture -%}{{site.baseurl_root}}/en/assets/members/nopicture.png{%- endcapture -%}
- {%- capture search_picture -%}/en/assets/members/{{include.member.id}}.jpg{%- endcapture -%}
+{%- capture member_picture -%}{{site.baseurl_root}}/assets/members/nopicture.png{%- endcapture -%}
+ {%- capture search_picture -%}/assets/members/{{include.member.id}}.jpg{%- endcapture -%}
 {%- for file in site.static_files -%}
   {%- if file.path == search_picture -%}
     {%- capture member_picture -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}

@@ -20,17 +20,17 @@ title: hl.title-short
         <tbody>
           <tr>
             <td width="330" align="left" rowspan="2">
-	      <img src="{{site.baseurl_root}}/en/assets/humanoidlab/four_humanoids.jpg" width="300" style="border-radius:15px">
+	      <img src="{{site.baseurl_root}}/assets/humanoidlab/four_humanoids.jpg" width="300" style="border-radius:15px">
 	      <br>
 	      <br>
-	      <img src="{{site.baseurl_root}}/en/assets/humanoidlab/combined_logo.png" width="300" style="border-radius:15px">
+	      <img src="{{site.baseurl_root}}/assets/humanoidlab/combined_logo.png" width="300" style="border-radius:15px">
 	    </td>
       <td>
         {% translate_file hl-introduction.html %}
 	    </td>
 	    <td valign="top" align="center" style="padding-left: 20px;padding-bottom: 20px" width="150" >
-	      <a href="{{site.baseurl_root}}/en/members/member-kanehiro.html">
-	      <img src="{{site.baseurl_root}}/en/assets/members/kanehiro.jpg" width="100" style="border-radius:50px">
+	      <a href="{{site.baseurl}}/members/member-kanehiro.html">
+	      <img src="{{site.baseurl_root}}/assets/members/kanehiro.jpg" width="100" style="border-radius:50px">
 	      </a>
 	      <p align="center">KANEHIRO Fumio<br>
 		<b>金広 文男</b></p>
@@ -60,7 +60,7 @@ title: hl.title-short
 			<td><b><font size="+1">Vision-based Belt Manipulation by Humanoid Robot</font></b></td>
 			<td>&nbsp;</td>
 			<td rowspan="3" valign="top" width="200">&nbsp;
-			  <img src="{{site.baseurl_root}}/en/assets/humanoidlab/hl_03.jpg" height="227" border="0">
+			  <img src="{{site.baseurl_root}}/assets/humanoidlab/hl_03.jpg" height="227" border="0">
 			</td>
                       </tr>
                       <tr>
@@ -111,7 +111,7 @@ title: hl.title-short
                       <tr>
 			<td><b><font size="+1">Enhanced Visual Feedback with Decoupled Viewpoint Control in Immersive Teleoperation using SLAM</font></b></td>
 			<td>&nbsp;</td>
-			<td rowspan="3" width="312"><img src="{{site.baseurl_root}}/en/assets/humanoidlab/hl_cslam.png" width="311"  border="0"></td>
+			<td rowspan="3" width="312"><img src="{{site.baseurl_root}}/assets/humanoidlab/hl_cslam.png" width="311"  border="0"></td>
                       </tr>
                       <tr>
 			<td height="10"></td>
@@ -204,7 +204,7 @@ title: hl.title-short
                       <tr>
 			<td><b><font size="+1">Simultaneous localization and mapping(SLAM) in dynamic environment</font></b></td>
 			<td>&nbsp;</td>
-			<td rowspan="3" valign="top" width="200">&nbsp;<img src="{{site.baseurl_root}}/en/assets/humanoidlab/hl_01_slam.jpg" height="227" border="0"></td>
+			<td rowspan="3" valign="top" width="200">&nbsp;<img src="{{site.baseurl_root}}/assets/humanoidlab/hl_01_slam.jpg" height="227" border="0"></td>
                       </tr>
                       <tr>
 			<td height="10"></td>
@@ -241,7 +241,7 @@ title: hl.title-short
                       <tr>
 			<td><b><font size="+1">6-DoF Object Pose Estimation</font></b></td>
 			<td>&nbsp;</td>
-			<td rowspan="3" width="312"><img src="{{site.baseurl_root}}/en/assets/humanoidlab/hl_02.png" width="311" border="0"></td>
+			<td rowspan="3" width="312"><img src="{{site.baseurl_root}}/assets/humanoidlab/hl_02.png" width="311" border="0"></td>
                       </tr>
                       <tr>
 			<td height="10"></td>
@@ -281,7 +281,7 @@ title: hl.title-short
           {% for student in site.translations[site.lang].hl.students %}
             <tr>
             {% if student.id %}
-              <td><a href="{{site.baseurl}}/en/members/member-{{student.id}}.html">{{student.name}}</a></td>
+              <td><a href="{{site.baseurl}}/members/member-{{student.id}}.html">{{student.name}}</a></td>
             {% else %}
               <td>{{ student.name }}</td>
             {% endif %}

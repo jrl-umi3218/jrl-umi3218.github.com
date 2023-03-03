@@ -8,8 +8,8 @@
 {%- if site.lang == "jp" and member.name-jp -%}
   {%- capture member_full_name -%}{{member.name-jp}}{%- endcapture -%}
 {%- endif -%}
-{%- capture member_picture -%}{{site.baseurl_root}}/en/assets/members/nopicture.png{%- endcapture -%}
- {%- capture search_picture -%}/en/assets/members/{{member.id}}.jpg{%- endcapture -%}
+{%- capture member_picture -%}{{site.baseurl_root}}/assets/members/nopicture.png{%- endcapture -%}
+ {%- capture search_picture -%}/assets/members/{{member.id}}.jpg{%- endcapture -%}
 {%- for file in site.static_files -%}
   {%- if file.path == search_picture -%}
     {%- capture member_picture -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
@@ -47,7 +47,7 @@
 {%- else -%}
 {%- capture subtitle -%}<br/>{{subtitle}}{%- endcapture -%}
 {%- endif -%}
-{%- capture crumbs -%}<a href="{{site.baseurl}}/en/members.html">{% t pages.members %}</a>{%- endcapture -%}
+{%- capture crumbs -%}<a href="{{site.baseurl}}/members.html">{% t pages.members %}</a>{%- endcapture -%}
 {%- assign crumbs = crumbs | split: "," -%}
 {%- include breadcrumbs.html crumbs=crumbs breadcrumbs=member_full_name title=member_full_name subtitle=subtitle -%}
 
@@ -56,7 +56,7 @@
   <!-- Portfolio Item Row -->
   <div class="row row-eq-height">
     {%- capture carousel_files -%}{{member_picture}}{%- endcapture -%}
-    {%- capture member_assets -%}/en/assets/members/{{member.id}}/{%- endcapture -%}
+    {%- capture member_assets -%}/assets/members/{{member.id}}/{%- endcapture -%}
     {%- for f in site.static_files -%}
       {%- assign f_base = f.path | remove_first: member_assets -%}
       {%- if f_base != f.path -%}

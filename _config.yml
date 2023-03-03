@@ -7,6 +7,6 @@ plugins:
     - jekyll-redirect-from
     - jekyll-multiple-languages-plugin
 exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'vendor']
-index_name: index_en.html
 languages: ["en", "jp"]
-exclude_from_localizations: ["en/assets", "en/css", "en/font-awesome", "en/fonts", "en/js"]
+exclude_from_localizations: ["assets", "css", "font-awesome", "fonts", "js"]
+default_locale_in_subfolder: true

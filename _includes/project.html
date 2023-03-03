@@ -19,7 +19,7 @@
 <div class="container">
   <!-- Portfolio Item Row -->
   <div class="row row-eq-height">
-    {%- capture project_assets -%}{{site.baseurl_root}}/en/assets/projects/{{project.id}}/{%- endcapture -%}
+    {%- capture project_assets -%}{{site.baseurl_root}}/assets/projects/{{project.id}}/{%- endcapture -%}
     {%- for f in site.static_files -%}
       {%- assign f_base = f.path | remove_first: project_assets -%}
       {%- if f_base != f.path -%}
@@ -31,7 +31,7 @@
       {%- endif -%}
     {%- endfor -%}
     {%- unless carousel_files -%}
-      {%- capture carousel_files -%}{{site.baseurl_root}}/en/assets/projects/{{project.id}}.png{%- endcapture -%}
+      {%- capture carousel_files -%}{{site.baseurl_root}}/assets/projects/{{project.id}}.png{%- endcapture -%}
     {%- endunless -%}
     {%- assign carousel_files = carousel_files | split: "," -%}
     {%- assign carousel_files_size = carousel_files | size -%}
