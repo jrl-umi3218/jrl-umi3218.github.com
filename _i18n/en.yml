@@ -67,20 +67,18 @@ hl:
   students:
     - id: qin
       name: Yili Qin
-      grade: Ph.D. 4th Year
+      grade: Ph.D. 5th Year
       email: yili.tan_*_aist.go.jp
-    - id: sun
-      name: Leyuan Sun
-      grade: Ph.D. 3rd Year
-      email: son.leyuansun_*_aist.go.jp
     - id: singh
       name: Rohan Pratap Singh
-      grade: Ph.D. 2nd Year
+      grade: Ph.D. 3rd Year
       email: rohan-singh_*_aist.go.jp
+    - id: sun
+      name: Leyuan Sun
+      grade: Graduated (Ph.D.)
+      email: son.leyuansun_*_aist.go.jp
     - name: Xinchi Gao
-      grade: Master's 1st Year
-    - name: Okumiya Tomoya
-      grade: Master's 1st Year
+      grade: Graduated (Masters)
 news:
   - date: 07/12/2022
     content: >
