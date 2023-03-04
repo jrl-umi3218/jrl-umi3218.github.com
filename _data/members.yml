@@ -22,11 +22,11 @@
   website: "https://staff.aist.go.jp/e.yoshida/"
   scholar: "https://scholar.google.com/citations?user=XWZydeMAAAAJ&hl=ja&oi=ao"
   research: Task and motion planning for robots, Human modeling, Humanoid robotics and Advanced logistics technology
-  research-jp: ロボットのためのタスク・モーションプランニング、人間モデリング、ヒューマノイドロボット、高度な物流技術
+  research-jp: ロボットのためのタスク・モーションプランニング、人間モデリング、ヒューマノイドロボット、高度物流技術
   bio: >
     received M.E and Ph. D degrees on Precision Machinery Engineering from Graduate School of Engineering, the University of Tokyo in 1993 and 1996 respectively. In 1996 he joined former Mechanical Engineering Laboratory, later reorganized as National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan. He served as Co-Director of AIST/IS-CNRS/ST2I Joint French-Japanese Robotics Laboratory (JRL) at LAAS-CNRS, Toulouse, France, from 2004 to 2008. Since 2009, he has been serving as Co-Director of CNRS-AIST JRL (Joint Robotics Laboratory), IRL at Tsukuba, Japan, and appointed as Director since 2017 to date. He also served as Deputy Director of Intelligent Systems Research Institute (IS-AIST) from 2015 to 2018 and as Director of Planning Office, Department of Information Technology and Human Factors from 2018 to 2020, at AIST. He is currently Deputy Director of Industrial Cyber-Physical Systems Research Center, and TICO-AIST Cooperative Research Laboratory for Advanced Logistics in AIST.
   bio-jp: >
-    1993年および1996年に東京大学大学院工学系研究科で精密機械工学のM.EおよびPh.D学位を取得しました。1996年には旧機械工学研究所に入所し、その後、日本産業技術総合研究所（AIST）に再編されました。2004年から2008年まで、彼はフランス・トゥールーズのLAAS-CNRSにあるAIST / IS-CNRS / ST2I合同フランス・日本ロボット研究所（JRL）の共同ディレクターを務めました。2009年以降、彼はつくばのCNRS-AIST JRL（共同ロボティクス研究所）、IRLの共同ディレクターを務め、2017年以降は所長に任命されています。また、2015年から2018年には知能システム研究所（IS-AIST）の副所長を務め、2018年から2020年にはAIST情報技術・人間工学部の企画室長を務めました。現在、彼はAIST産業サイバーフィジカルシステム研究センターの副センター長およびTICO-AIST先端ロジスティクス共同研究ラボの副所長を務めています。
+    1993年および1996年に東京大学大学院工学系研究科で精密機械工学の修士号およびh博士号を取得しました。1996年に旧機械工学研究所に入所し、その後、産業技術総合研究所（産総研）に再編されました。2004年から2008年まで、フランス・トゥールーズのLAAS-CNRSにあるAIST / IS-CNRS / ST2I合同フランス・日本ロボット研究所（JRL）の共同ディレクターを務めました。2009年以降、つくばのCNRS-AIST JRL(Joint Robotics Laboratory),IRLの共同ディレクターを務め、2017年以降はディレクターに任命されています。また、2015年から2018年には知能システム研究部門（IS-AIST）の副部門長を務め、2018年から2020年には産総研情報・人間工学領域の研究企画室長を務めました。現在、産総研インダストリアルCPS研究センターの副センター長および豊田自動織機-産総研 アドバンスト・ロジスティクス連携研究ラボの副ラボ長を務めています。
 - id: escande
   given: Adrien
   family: Escande
@@ -116,7 +116,7 @@
     graduated from École Centrale de Paris with a master in embedded systems. He obtained a Ph.D. degree from the University of Montpellier and conducted his
     thesis in CNRS-AIST JRL, UMI3218/CRT, Tsukuba, Japan where is is now a research associate working on embedded software for humanoids. His research interest includes humanoid robotics and the usage of brain-computer interfaces to control a humanoid robot.
   bio-jp: >
-    エコール・サントラル・ド・パリで組み込みシステムの修士号を取得しました。モンペリエ大学で博士号を取得し、CNRS-AIST JRL、UMI3218/CRT、つくばで論文を執筆しました。現在、彼は同じ場所で研究員として働き、ヒューマノイドのための組み込みソフトウェアに取り組んでいます。彼の研究には、ヒューマノイドロボットと脳コンピュータインターフェイスの利用によるヒューマノイドロボットの制御が含まれます。
+    エコール・サントラル・ド・パリで組み込みシステムの修士号を取得しました。モンペリエ大学で博士号を取得し、CNRS-AIST JRL、UMI3218/CRT、つくばで論文を執筆しました。現在、同ラボで研究員として働き、ヒューマノイドのための組み込みソフトウェア開発に取り組んでいます。主な研究テーマは、ヒューマノイドロボット、ブレインコンピュータインターフェイスによるヒューマノイドロボットの制御です。
   videos:
     - title: "Multitask Humanoid Control with a Brain-Computer Interface: user experiment with HRP-2"
       title-jp: BCIを用いたマルチタスク人型ロボット制御：HRP-2を用いたユーザー実験
@@ -474,7 +474,7 @@
 - id: yamanobe
   given: Natsuki
   family: Yamanobe
-  name-jp: 山野辺　夏樹
+  name-jp: 山野辺 夏樹
   role: adjunct
   nationality: jp
 - id: hu
@@ -845,7 +845,7 @@
 - id: miyake
   given: Hibiki
   family: Miyake
-  name-jp: 三宅　響
+  name-jp: 三宅 響
   role: undergraduate
   from: 2022-08-15
   to: 2023-03-31
@@ -856,7 +856,7 @@
 - id: fukumitsu
   given: Kensuke
   family: Fukumitsu
-  name-jp: 福光　健介
+  name-jp: 福光 健介
   role: undergraduate
   from: 2022-08-15
   to: 2023-03-31
