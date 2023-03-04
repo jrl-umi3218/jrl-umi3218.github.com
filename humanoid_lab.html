@@ -98,6 +98,48 @@ title: hl.title-short
             </tbody>
 	  </table>
 
+    <br>
+    <br>
+
+    <!-- content -->
+    <table border="0" width="100%" cellpadding="17" cellspacing="0">
+      <tbody>
+        <tr valign="top">
+          <td style="padding: 20px;background-color:#e0f0fe; border-radius:15px">
+            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td><b><font size="+1">sim2real: Learning Humanoids Locomotion using RL</font></b></td>
+                  <td>&nbsp;</td>
+                  <td rowspan="3" valign="top" width="200">&nbsp;
+                    <img src="{{site.baseurl_root}}/assets/humanoidlab/sim2real.png" height="280" border="0">
+                  </td>
+                </tr>
+                <tr>
+                  <td height="10"></td>
+                  <td height="10"></td>
+                </tr>
+                <tr>
+                  <td valign="top">
+                    <p>Recent advances in deep reinforcement learning (RL) based techniques combined with training in
+                      simulation have offered a new approach to developing control policies for legged robots.
+                      However, the application of such approaches to real hardware has largely been limited to quadrupedal robots
+                      with direct-drive actuators and light-weight bipedal robots with low gear-ratio transmission systems.
+                      Application to life-sized humanoid robots has been elusive due to the large sim2real gap arising from
+                      their large size, heavier limbs, and a high gear-ratio transmission systems.</p>
+                    <p> In this work, we investigate methods for effectively overcoming the sim2real gap
+                      issue for large-humanoid robots for the goal of deploying RL policies trained in simulation
+                      to the real hardware.</p>
+                  </td>
+                  <td width="50">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
 	  <br>
 	  <br>
 
@@ -137,10 +179,16 @@ title: hl.title-short
             </tbody>
 	  </table>
 
-	  <br>
-	  <br>
+      </div>
 
-	  <!-- content -->
+      <div class="row">
+      <h3 class="page-header">{% t hl.past-research %}</h3>
+	<a href="#/" onclick="showHideButton()">Toggle list</a>
+	<br>
+	<br>
+
+	<div id="collapsible-div" style="display:none">
+	  <!-- old content -->
 	  <table border="0" width="100%" cellpadding="17" cellspacing="0">
             <tbody>
               <tr valign="top">
@@ -185,15 +233,9 @@ title: hl.title-short
             </tbody>
 	  </table>
 
-      </div>
+    <br>
+    <br>
 
-      <div class="row">
-      <h3 class="page-header">{% t hl.past-research %}</h3>
-	<a href="#/" onclick="showHideButton()">Toggle list</a>
-	<br>
-	<br>
-
-	<div id="collapsible-div" style="display:none">
 	  <!-- old content -->
 	  <table border="0" width="100%" cellpadding="17" cellspacing="0">
             <tbody>
