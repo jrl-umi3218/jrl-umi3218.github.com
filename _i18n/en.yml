@@ -82,11 +82,11 @@ hl:
     - name: Okumiya Tomoya
       grade: Master's 1st Year
 news:
-  - date: 29/11/2022
-    content: <a href="members/member-frizza.html">Irene Frizza</a> recevied the 2022 IEEE-RAS International Conference on Humanoid Robots (Humanoids) <a href="https://www.humanoids2022.org/travel/kanako-miura-award">Kanako Miura Award</a>.
   - date: 07/12/2022
     content: >
       The paper co-authored by <a href="members/member-sun.html">Leyuan Sun</a>, Guanqun Ding, <a href="members/member-yoshiyasu.html">Yusuke Yoshiyasu</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>: CertainOdom: Uncertainty Weighted Multi-task Learning Model for LiDAR Odometry Estimation recevied the 2022 IEEE International Conference on Robotics and Biomimetics (ROBIO) Best Conference Paper Award.
+  - date: 29/11/2022
+    content: <a href="members/member-frizza.html">Irene Frizza</a> recevied the 2022 IEEE-RAS International Conference on Humanoid Robots (Humanoids) <a href="https://www.humanoids2022.org/travel/kanako-miura-award">Kanako Miura Award</a>.
   - date: 25/05/2022
     content: <a href="https://unit.aist.go.jp/jrl-22022/en/projects/janus/team-janus.html">Team Janus</a> advances to the <a href="https://www.xprize.org/prizes/avatar">ANA Avatar XPRIZE</a> Finals!
   - date: 25/03/2022
