@@ -1,0 +1,16 @@
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy-website:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Deploy website
+      run: |
+        curl \
+          -H "Accept: application/vnd.github.everest-preview+json" \
+          -H "Authorization: token ${{ secrets.GH_TOKEN }}"  \
+          --request POST \
+          --data "{\"event_type\": \"deploy-website\"}" \
+          https://api.github.com/repos/isri-aist/Website-deployment/dispatches
