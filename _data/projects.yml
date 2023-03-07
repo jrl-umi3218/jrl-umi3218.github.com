@@ -4,7 +4,7 @@
   longtitle: "Team Janus - ANA Avatar XPRIZE"
   year-start: 2018
   year-end: 2022
-  active: true
+  active: false
   url: "./janus/team-janus.html"
   partners: [cnrs,lirmm,doublegiken]
   description: "
@@ -25,7 +25,7 @@
   longtitle: "CNRS INSIS PEPS Visadapt - Adaptative Catadioptric Vision"
   year-start: 2021
   year-end: 2022
-  active: true
+  active: false
   partners: [inria,polytechlille,upjv]
   description: "
 <p>Visadapt is an exploratory project funded by the PEPS &ldquo;Mechanics of the future&rdquo; program of CNRS&rsquo; Institute of Engineering and Systems Sciences (INSIS). In this project, CNRS-AIST JRL is partnering with Inria and Polytech Lille members of CRIStAL (France) and UPJV, MIS lab (France) with the aim of creating a new camera of highly non-linear field-of-view, enabled by soft robot mirror. The interest is to automatically adapt the resolution of the camera to the scene content, i.e. low in uniform or not interesting areas but high in informative areas or interesting regarding the application (e.g. body, face, geometric features, etc).</p>
