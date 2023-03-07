@@ -323,7 +323,13 @@ title: hl.title-short
           {% for student in site.translations[site.lang].hl.students %}
             <tr>
             {% if student.id %}
-              <td><a href="{{site.baseurl}}/members/member-{{student.id}}.html">{{student.name}}</a></td>
+              <td>
+              {% if student.website %}
+                <a href="{{student.website}}">{{student.name}}</a>
+              {% else %}
+                <a href="{{site.baseurl}}/members/member-{{student.id}}.html">{{student.name}}</a>
+              {% endif %}
+              </td>
             {% else %}
               <td>{{ student.name }}</td>
             {% endif %}
