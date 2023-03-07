@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% capture crumbs %}{% t pages.publications %}{% endcapture %}
+{%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <div class="alert alert-info">{% t publications.incomplete-warning %}</div>
+    {%- include publications_table.html lab_id="jrl" -%}
+  </div>
+</div>
+<!-- /.container -->

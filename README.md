@@ -129,7 +129,6 @@ In the following example, the user id is `jrlmember`.
 ```
 ---
 layout: default
-title: CNRS-AIST JRL
 ---
 {% include member_full.html id="jrlmember" %}
 ```
@@ -152,7 +151,6 @@ In the following example, the project id is `jrlproject`.
 ```
 ---
 layout: default
-title: CNRS-AIST JRL
 ---
 {% include project.html id="jrl-project" %}
 ```
@@ -207,7 +205,7 @@ To deploy to AIST server, first build the site with `baseurl` to `/jrl-22022`:
 ```
 bundle exec jekyll build -b /jrl-22022
 ```
-Then upload the file `_site/index_en.html` and the folder `_site/en` using `FTP over Explicit SSL/TLS`
+Then upload the folder `_site/jp` and the folder `_site/en` using `FTP over Explicit SSL/TLS`
 
 ## Jekyll theme
 

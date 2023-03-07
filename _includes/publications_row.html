@@ -9,8 +9,8 @@
             {%- assign role = member.role -%}
             {%- assign given = member.given -%}
             {%- assign family = member.family -%}
-            {%- capture member_page -%}en/members/member-{{member.id}}.html{%- endcapture -%}
-            {%- capture member_summary -%}{{site.baseurl}}/en/members.html#summary-{{member.id}}{%- endcapture -%}
+            {%- capture member_page -%}members/member-{{member.id}}.html{%- endcapture -%}
+            {%- capture member_summary -%}{{site.baseurl}}/members.html#summary-{{member.id}}{%- endcapture -%}
             {%- for page in site.html_pages -%}
               {%- if page.path == member_page -%}
                 {%- assign member_has_page = true -%}
@@ -58,10 +58,10 @@
     {%- else -%}
       {%- assign found_bib = false -%}
       {%- assign bib_name = include.publication.id | replace: ':', '_'-%}
-      {%- capture search_bib -%}/en/assets/bib/{{bib_name}}.bib{%- endcapture -%}
+      {%- capture search_bib -%}/assets/bib/{{bib_name}}.bib{%- endcapture -%}
       {%- for file in site.static_files -%}
         {%- if file.path == search_bib -%}
-          {%- capture bib_path -%} {{site.baseurl}}{{file.path}}{%- endcapture -%}
+          {%- capture bib_path -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
           {%- assign found_bib = true -%}
           {%- break -%}
         {%- endif -%}

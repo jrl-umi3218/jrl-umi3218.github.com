@@ -1,0 +1,116 @@
+page-not-found: ページが見つかりません
+langs:
+  en: 英語
+pages:
+  home: ホーム
+  news: ニュース
+  projects: プロジェクト
+  past-projects: 過去のプロジェクト
+  members: メンバー
+  publications: 論文
+  HL: HL
+  join: 採用情報
+  contact: アクセス
+index:
+  overview: 概要
+  projects: プロジェクト
+member-page:
+  bio:  経歴
+  personal-website: 個人ウェブサイト
+  research-interests: 研究テーマ
+  videos: ビデオ
+  selected-publications: 選ばれた論文
+  all-publications: すべての論文
+  show: 表示
+  hide: 非表示
+show: 表示
+hide: 非表示
+roles:
+  direction: 幹部
+  director: 連携研究ラボ長
+  deputy-director: 連携研究副ラボ長
+  permanent-researchers: 主務研究員
+  permanent-researcher: 主務研究員
+  adjunct-members: 兼務研究員
+  adjunct-member: 兼務研究員
+  postdoctoral-fellows: ポスドク研究員
+  postdoctoral-fellow: ポスドク研究員
+  research-engineers: 研究開発エンジニア
+  research-engineer: 研究開発エンジニア
+  phd-students: 博士学生
+  phd-student: 博士学生
+  master-students: 修士学生
+  master-student: 修士学生
+  undergraduate-students: 学部生
+  undergraduate-student: 学部生
+  administrative-staff: アシスタント
+  alumni: 過去のメンバー
+publications:
+  title: タイトル
+  authors: 著者
+  conference: 学会/論文誌
+  year: 年
+  incomplete-warning: 論文リストは完全ではない場合があります。特に2017年以前の論文については、更新作業を進めています。
+hl:
+  title: ヒューマノイド研究室 (筑波大学連携大学院)
+  title-short: ヒューマノイド研究室
+  link: https://www.tsukuba.ac.jp/education/g-courses-g-list-prev-cooperatives/
+  link-name: 筑波大学 - 連携大学院
+  professor: 教授
+  research-content: 研究内容
+  past-research: 過去の研究
+  location: 連絡先
+  student-members: 構成メンバー
+  student-name: 氏名
+  student-grade: 学年
+  student-email: メールアドレス<br/>_*_を@に変えて送信してください
+  students:
+    - id: qin
+      name: 覃 毅力
+      grade: 博士課程5年
+      email: yili.tan_*_aist.go.jp
+    - id: singh
+      name: Rohan Pratap Singh
+      grade: 博士課程3年
+      email: rohan-singh_*_aist.go.jp
+      website: https://rohanpsingh.github.io
+    - id: sun
+      name: 孫 楽源
+      grade: 博士後期修了
+      email: son.leyuansun_*_aist.go.jp
+    - name: Xinchi Gao
+      grade: 博士前期修了
+news:
+  - date: 2022/12/07
+    content: >
+      <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"CertainOdom: Uncertainty Weighted Multi-task Learning Model for LiDAR Odometry Estimation"</a>が、the 2022 IEEE International Conference on Robotics and Biomimetics (ROBIO) Best Conference Paper Awardを受賞しました。
+  - date: 2022/11/29
+    content: <a href="members/member-frizza.html">Irene Frizza</a>がthe 2022 IEEE-RAS International Conference on Humanoid Robots (Humanoids) <a href="https://www.humanoids2022.org/travel/kanako-miura-award">Kanako Miura Award</a>を受賞しました。
+  - date: 2022/07/11
+    content: >
+      <a href="https://unit.aist.go.jp/jrl-22022/en/projects/janus/team-janus.html">Team Janus</a>の<a href="https://www.xprize.org/prizes/avatar">ANA Avatar XPIZE</a>決勝進出に関して開発パートナーであるダブル技研（株）から<a href="https://prtimes.jp/main/html/rd/p/000000001.000100048.html">プレスリリース</a>が出されました。 
+  - date: 2022/05/25
+    content: <a href="https://unit.aist.go.jp/jrl-22022/en/projects/janus/team-janus.html">Team Janus</a>が<a href="https://www.xprize.org/prizes/avatar">ANA Avatar XPIZE</a>の準決勝を通過し、決勝に進むことになりました。 
+  - date: 2022/03/25
+    content: 「自然光変動の影響を大幅に軽減できる分光撮影技術」に関する<a href="https://www.naist.jp/pressrelease/2022/03/008826.html ">プレスリリース</a>を行いました。
+  - date: 2022/03/12
+    content: <a href="https://biz.nikkan.co.jp/eve/irex/">国際ロボット展</a>にて川崎重工業（株）と共同開発した<a href="https://event.kawasakirobotics.com/jp/irex2022/jp/humanoid/kaleido-slim/">RHP Friends</a>を展示します。
+  - date: 2022/03/01
+    content: <a href="members/member-escande.html">Escande Adrien</a>主任研究員がco-chairを務める Technical Committee on Model-Based Optimization for Robotics が <a href="https://www.ieee-ras.org/about-ras/latest-news/1927-2022-ieee-ras-award-recipients-announced">RAS Most Active Technical Committee Award</a>を受賞しました。
+  - date: 2021/06/07
+    content: <a href="members/member-tsuru.html">都留将人</a>が<a href="https://www.ieee-jp.org/section/tokyo/chapter/RA-24/RASJPYoungAward_ICRA2021.html">IEEE Robotics and Automation Society Japan Joint Chapter Young Award (ICRA2021)</a>を受賞しました。
+  - date: 2021/06/02
+    content: >
+      <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point"</a>が、<a href="https://www.ieee-ras.org/awards-recognition/society-awards/69-awards-recognition/society-awards/1790-ieee-icra-milestone-award">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>を受賞しました。
+  - date: 2021/03/15
+    content: <a href="members/member-kanehiro.html">金広文男</a>連携研究ラボ長が<a href="https://robotics.kawasaki.com/ja1/xyz/jp/2012-02/index.htm">XYZ</a>のインタビューを受けました。
+  - date: 2021/03/12
+    content: ダフネ・ヘライズ＝ベッキスさんが<a href="https://jp.ambafrance.org/article16960">フランス大使館</a>のインタビューを受けました。
+  - date: 2020/05/30
+    content: >
+      <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"Humanoid robots in aircraft manufacturing"</a>が、<a href="https://www.ieee-ras.org/awards-recognition/publications-awards/70-awards-recognition/publication-awards/723-ieee-robotics-and-automation-magazine-best-paper-award">the 2020 IEEE Robotics and Automation Magazine Best Paper Award</a>を受賞しました。
+  - date: 2020/04/01
+    content: <a href="members/member-ayusawa.html">鮎澤光</a>主任研究員が<a href="https://www.mext.go.jp/b_menu/houdou/mext_00187.html">令和２年度科学技術分野の文部科学大臣表彰 若手科学者賞</a>を受賞しました。
+  - date: 2020/01/13
+    content: >
+      <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"POMDP-based action planning for recognition of occluded objects with Humanoid robots"</a>が、<a href="https://alife-robotics.co.jp/ICAROB2020-YAA.pdf">the 2020 International Conference on Artificial Life and Robotics (ICAROB) Young Author Award</a>を受賞しました。

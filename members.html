@@ -1,0 +1,175 @@
+---
+layout: default
+title: pages.members
+---
+
+{%- assign members = site.data.members | sort: 'id' -%}
+
+{%- capture crumbs -%}{%- t pages.members -%}{%- endcapture -%}
+{%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
+
+<!-- Page Content -->
+<div class="container">
+  <!-- Intro Content -->
+  <div class="row row-eq-height">
+    <div class="col-md-6 col-xs-6 col-middle">
+      <a href="{{site.baseurl_root}}/assets/pictures/jrl-team-picture.jpg" data-toggle="lightbox">
+        <img class="img-responsive img-rounded" src="{{site.baseurl_root}}/assets/pictures/jrl-team-picture.jpg" alt="JRL Team Picture">
+      </a>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Co-directors -->
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.direction %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "director" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+    {%- for member in members -%}
+    {%- if member.role == "deputy-director" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.permanent-researchers %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "permanent" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.adjunct-members %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "adjunct" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.postdoctoral-fellows %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "postdoc" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.research-engineers %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "engineer" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.phd-students %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "phd" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.master-students %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "master" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.undergraduate-students %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "undergraduate" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.administrative-staff %}</h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    {%- for member in members -%}
+    {%- if member.role == "admin" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <div class="row row-centered">
+    <div class="col-xs-12 col-centered">
+      <h3 class="page-header compact">{% t roles.alumni %}<a id="alumni_button" style="float:right;font-size:medium;" data-toggle="collapse" href="#alumni">{% t show %}</a></h3>
+    </div>
+  </div>
+  <div class="row row-centered">
+    <div id="alumni" class="panel-collapse collapse" style="transition: none;">
+	{%- for member in members -%}
+    {%- if member.role == "alumni-star" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+	<br>
+    {%- for member in members -%}
+    {%- if member.role == "alumni" -%}
+    {%- include member_summary.html member=member -%}
+    {%- endif -%}
+    {%- endfor -%}
+    </div>
+  </div>
+  <script type="text/javascript">
+    function handleClick()
+    {
+      this.text = (this.text == '{% t show %}' ? '{% t hide %}' : '{% t show %}');
+    }
+    document.getElementById('alumni_button').onclick = handleClick;
+  </script>
+
+</div>
+<!-- /.container -->
+

@@ -1,5 +1,5 @@
 {%- assign member_has_page = false -%}
-{%- capture member_page -%}en/members/member-{{include.member.id}}.html{%- endcapture -%}
+{%- capture member_page -%}members/member-{{include.member.id}}.html{%- endcapture -%}
 {%- for page in site.html_pages -%}
   {%- if page.path == member_page -%}
     {%- assign member_has_page = true -%}
@@ -7,19 +7,25 @@
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
-{%- capture member_picture -%}{{site.baseurl}}/en/assets/members/nopicture.png{%- endcapture -%}
- {%- capture search_picture -%}/en/assets/members/{{include.member.id}}.jpg{%- endcapture -%}
+{%- capture member_picture -%}{{site.baseurl_root}}/assets/members/nopicture.png{%- endcapture -%}
+ {%- capture search_picture -%}/assets/members/{{include.member.id}}.jpg{%- endcapture -%}
 {%- for file in site.static_files -%}
   {%- if file.path == search_picture -%}
-    {%- capture member_picture -%} {{site.baseurl}}{{file.path}}{%- endcapture -%}
+    {%- capture member_picture -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
+{%- capture member_name -%}{{include.member.given}} {{include.member.family}}{%- endcapture -%}
+{%- if site.lang == "jp" -%}
+  {%- if include.member.name-jp -%}
+    {%- capture member_name -%}{{ include.member.name-jp }}{%- endcapture -%}
+  {%- endif -%}
+{%- endif -%}
 <div class="col-xs-6 col-md-3 col-centered text-center">
   <div class="thumbnail" id="summary-{{include.member.id}}">
     {%- if member_has_page -%}<a href="{{member_page_url}}">{%- endif -%}<img class="img-responsive img-rounded" src="{{member_picture}}" alt="{{include.member.given}} {{include.member.family}} photo">{%- if member_has_page -%}</a>{%- endif -%}
     <div class="caption">
-      <h3>{%- if member_has_page -%}<a href="{{member_page_url}}">{%- endif -%}{{include.member.given}} {{include.member.family}}{%- if member_has_page -%}</a>{%- endif -%}&nbsp;<span class="flag-icon flag-icon-{{include.member.nationality}}"></span>{%- if member.nationality2 -%}<span class="flag-icon flag-icon-{{include.member.nationality2}}"></span>{%- endif -%}{%- if member.nationality3 -%}<span class="flag-icon flag-icon-{{include.member.nationality3}}"></span>{%- endif -%}</h3>
+      <h3>{%- if member_has_page -%}<a href="{{member_page_url}}">{%- endif -%}{{ member_name }}{%- if member_has_page -%}</a>{%- endif -%}&nbsp;<span class="flag-icon flag-icon-{{include.member.nationality}}"></span>{%- if member.nationality2 -%}<span class="flag-icon flag-icon-{{include.member.nationality2}}"></span>{%- endif -%}{%- if member.nationality3 -%}<span class="flag-icon flag-icon-{{include.member.nationality3}}"></span>{%- endif -%}</h3>
       <ul class="list-inline">
         {%- assign has_no_details = true -%}
         {%- if include.member.website -%}

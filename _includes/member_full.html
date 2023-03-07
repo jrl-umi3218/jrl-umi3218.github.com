@@ -5,42 +5,49 @@
   {%- endif -%}
 {%- endfor -%}
 {%- capture member_full_name -%}{{member.given}} {{member.family}}{%- endcapture -%}
-{%- capture member_picture -%}{{site.baseurl}}/en/assets/members/nopicture.png{%- endcapture -%}
- {%- capture search_picture -%}/en/assets/members/{{member.id}}.jpg{%- endcapture -%}
+{%- if site.lang == "jp" and member.name-jp -%}
+  {%- capture member_full_name -%}{{member.name-jp}}{%- endcapture -%}
+{%- endif -%}
+{%- capture member_picture -%}{{site.baseurl_root}}/assets/members/nopicture.png{%- endcapture -%}
+ {%- capture search_picture -%}/assets/members/{{member.id}}.jpg{%- endcapture -%}
 {%- for file in site.static_files -%}
   {%- if file.path == search_picture -%}
-    {%- capture member_picture -%} {{site.baseurl}}{{file.path}}{%- endcapture -%}
+    {%- capture member_picture -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
 {%- capture subtitle -%}
   {%- case member.role -%}
   {%- when "director" -%}
-  Director
+  {% t roles.director %}
   {%- when "deputy-director" -%}
-  Deputy director
+  {% t roles.deputy-director %}
   {%- when "permanent" -%}
-  Permanent researcher
+  {% t roles.permanent-researcher %}
   {%- when "adjunct" -%}
-  Adjunct member
+  {% t roles.adjunct-member %}
   {%- when "postdoc" -%}
-  Postdoctoral fellow
+  {% t roles.postdoctoral-fellow %}
   {%- when "engineer" -%}
-  Research engineer
+  {% t roles.research-engineer %}
   {%- when "phd" -%}
-  PhD student
+  {% t roles.phd-student %}
   {%- when "master" -%}
-  Master student
+  {% t roles.master-student %}
+  {%- when "undergraduate" -%}
+  {% t roles.undergraduate-student %}
   {%- when "alumni" -%}
-  Alumni
+  {% t roles.alumni %}
+  {%- when "alumni-star" -%}
+  {% t roles.alumni %}
   {%- endcase -%}
 {%- endcapture -%}
 {%- if member.website -%}
-{%- capture subtitle -%}<br/>{{subtitle}} &mdash; <a href="{{member.website}}" target="blank_">Personal website <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{%- endcapture -%}
+{%- capture subtitle -%}<br/>{{subtitle}} &mdash; <a href="{{member.website}}" target="blank_">{%t member-page.personal-website %} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{%- endcapture -%}
 {%- else -%}
 {%- capture subtitle -%}<br/>{{subtitle}}{%- endcapture -%}
 {%- endif -%}
-{%- capture crumbs -%}<a href="{{site.baseurl}}/en/members.html">Members</a>{%- endcapture -%}
+{%- capture crumbs -%}<a href="{{site.baseurl}}/members.html">{% t pages.members %}</a>{%- endcapture -%}
 {%- assign crumbs = crumbs | split: "," -%}
 {%- include breadcrumbs.html crumbs=crumbs breadcrumbs=member_full_name title=member_full_name subtitle=subtitle -%}
 
@@ -49,11 +56,11 @@
   <!-- Portfolio Item Row -->
   <div class="row row-eq-height">
     {%- capture carousel_files -%}{{member_picture}}{%- endcapture -%}
-    {%- capture member_assets -%}/en/assets/members/{{member.id}}/{%- endcapture -%}
+    {%- capture member_assets -%}/assets/members/{{member.id}}/{%- endcapture -%}
     {%- for f in site.static_files -%}
       {%- assign f_base = f.path | remove_first: member_assets -%}
       {%- if f_base != f.path -%}
-        {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl}}{{f.path}}{%- endcapture -%}
+        {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
       {%- endif -%}
     {%- endfor -%}
     {%- unless carousel_files -%}
@@ -103,17 +110,25 @@
 
     <div class="col-md-6 col-xs-6 col-middle">
       {%- if member.bio -%}
-      <h3>Bio</h3>
+      <h3>{% t member-page.bio %}</h3>
       <p>
+      {%- if site.lang == "jp" and member.bio-jp %}
+      <b>{{member_full_name}}は</b>{{member.bio-jp}}
+      {%- else -%}
       <b>{{member_full_name}}&nbsp;</b>{{member.bio}}
+      {%- endif -%}
       </p>
       {%- endif -%}
       {%- if member.rawbio -%}
       {{member.rawbio}}
       {%- endif -%}
       {%- if member.research -%}
-      <h3>Research interests</h3>
-      {{member.research}}
+        <h3>{% t member-page.research-interests %}</h3>
+        {%- if site.lang == "jp" and member.research-jp -%}
+          {{member.research-jp}}
+        {%- else -%}
+          {{member.research}}
+        {%- endif -%}
       {%- endif -%}
     </div>
 
@@ -124,12 +139,17 @@
   <!-- Videos -->
   <div class="row">
     <div class="col-lg-12">
-      <h3 class="page-header">Videos</h3>
+      <h3 class="page-header">{% t member-page.videos %}</h3>
     </div>
       {%- for video in member.videos -%}
         <div class="col-sm-3 text-center">
           <a href="{{video.url}}" data-toggle="lightbox" data-gallery="videos" data-title="{{video.title}}">
-            <img src="{{video.img}}" class="img-responsive" alt="{{video.title}} snapshot"><br/>{{video.title}}
+            {% if site.lang == "jp" and video.title-jp %}
+              {% capture video_title %}{{video.title-jp}}{% endcapture %}
+            {% else %}
+              {% capture video_title %}{{video.title}}{% endcapture %}
+            {% endif %}
+            <img src="{{video.img}}" class="img-responsive" alt="{{video.title}} snapshot"><br/>{{video_title}}
           </a>
         </div>
       {%- endfor -%}
@@ -141,22 +161,22 @@
   <div class="row">
     <div class="col-lg-12">
       {%- if member.selected_publications -%}
-        <h3 class="page-header">Selected Publications</h3>
+      <h3 class="page-header">{% t member-page.selected-publications %}</h3>
         {%- include publications_table.html publications_id=member.selected_publications -%}
-        <h3 class="page-header">All Publications<a id="all_pubs_button" style="float:right;font-size:medium;" data-toggle="collapse" href="#all_pubs">Show</a></h3>
+        <h3 class="page-header">{% t member-page.all-publications %}<a id="all_pubs_button" style="float:right;font-size:medium;" data-toggle="collapse" href="#all_pubs">{% t member-page.show %}</a></h3>
         <div id="all_pubs" class="panel-collapse collapse" style="transition: none;">
-        {%- include publications_table.html member_id=member.id%}
+          {%- include publications_table.html member_id=member.id%}
         </div>
       {%- else -%}
-        <h3 class="page-header">Publications</h3>
-		<div class="alert alert-info">2022/02/04 The publication list may not be complete, especially for publications prior to 2017. We are working on updating it.</div>
-        {%- include publications_table.html member_id=member.id%}
+        <h3 class="page-header">{% t pages.publications %}</h3>
+        <div class="alert alert-info">{% t publications.incomplete-warning %}</div>
+          {%- include publications_table.html member_id=member.id%}
       {%- endif -%}
     </div>
   <script type="text/javascript">
     function handleClick()
     {
-      this.text = (this.text == 'Show' ? 'Hide' : 'Show');
+      this.text = (this.text == '{% t member-page.show %}' ? '{% t member-page.hide %}' : '{% t member-page.show %}');
     }
     document.getElementById('all_pubs_button').onclick = handleClick;
   </script>

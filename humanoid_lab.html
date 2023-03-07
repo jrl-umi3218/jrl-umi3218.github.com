@@ -1,0 +1,375 @@
+---
+layout: default
+title: hl.title-short
+---
+
+{% capture crumbs %}{% t hl.title %}{% endcapture %}
+{% capture crumbs_title %}{% t hl.title-short %}{% endcapture %}
+{% capture crumbs_subtitle %}<br/><a href="{% t hl.link %}" target="blank_">{% t hl.link-name %} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{% endcapture %}
+
+{% include breadcrumbs.html breadcrumbs=crumbs title=crumbs_title subtitle=crumbs_subtitle %}
+
+<!-- Page Content -->
+<div class="container">
+
+  <table width="900" border="0" align="center" cellspacing="0" cellpadding="20">
+    <tbody>
+      <tr>
+	<td style="padding: 20px; border-radius:15px">
+      <table border="0" width="100%" cellpadding="7">
+        <tbody>
+          <tr>
+            <td width="330" align="left" rowspan="2">
+	      <img src="{{site.baseurl_root}}/assets/humanoidlab/four_humanoids.jpg" width="300" style="border-radius:15px">
+	      <br>
+	      <br>
+	      <img src="{{site.baseurl_root}}/assets/humanoidlab/combined_logo.png" width="300" style="border-radius:15px">
+	    </td>
+      <td>
+        {% translate_file hl-introduction.html %}
+	    </td>
+	    <td valign="top" align="center" style="padding-left: 20px;padding-bottom: 20px" width="150" >
+	      <a href="{{site.baseurl}}/members/member-kanehiro.html">
+	      <img src="{{site.baseurl_root}}/assets/members/kanehiro.jpg" width="100" style="border-radius:50px">
+	      </a>
+	      <p align="center">KANEHIRO Fumio<br>
+		<b>金広 文男</b></p>
+	      <p style="margin-top: -0.5em; font-size:80%"><i>
+	      f-kanehiro_*_aist.go.jp</i></p>
+        <p style="margin-top: -0.5em; background-color:#e0f0fe">{% t hl.professor %}</p>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td colspan="2">
+        {% translate_file hl-introduction-2.html %}
+      </td>
+	  </tr>
+        </tbody>
+      </table>
+
+      <div class="row">
+      <h3 class="page-header">{% t hl.research-content %}</h3>
+	  <!-- content -->
+	  <table border="0" width="100%" cellpadding="17" cellspacing="0">
+            <tbody>
+              <tr valign="top">
+		<td style="padding: 20px;background-color:#e0f0fe; border-radius:15px">
+		  <table border="0" width="100%" cellpadding="0" cellspacing="0" >
+		    <tbody>
+                      <tr>
+			<td><b><font size="+1">Vision-based Belt Manipulation by Humanoid Robot</font></b></td>
+			<td>&nbsp;</td>
+			<td rowspan="3" valign="top" width="200">&nbsp;
+			  <img src="{{site.baseurl_root}}/assets/humanoidlab/hl_03.jpg" height="227" border="0">
+			</td>
+                      </tr>
+                      <tr>
+			<td height="10"></td>
+			<td height="10"></td>
+                      </tr>
+                      <tr>
+			<td valign="top">Deformable objects are very
+			common around us in our daily life. Because
+			they have infinitely many degrees of freedom,
+			they present a challenging problem in
+			robotics. Inspired by practical industrial
+			applications, we present our research on using
+			a humanoid robot to take a long, thin and
+			flexible belt out of a bobbin and pick up the
+			bending part of the belt from the ground. By
+			proposing a novel non-prehensile manipulation
+			strategy “scraping” which utilizes the
+			friction between the gripper and the surface
+			of the belt, efficient manipulation can be
+			achieved. In addition, a 3D shape detection
+			algorithm for deformable objects is used
+			during manipulation process. By integrating
+			the novel “scraping” motion and the shape
+			detection algorithm into our multi-objective
+			QP-based controller, we show experimentally
+			humanoid robots can complete this complex
+			task.</td>
+			<td width="50">&nbsp;</td>
+                      </tr>
+		    </tbody>
+		  </table>
+		</td>
+              </tr>
+            </tbody>
+	  </table>
+
+    <br>
+    <br>
+
+    <!-- content -->
+    <table border="0" width="100%" cellpadding="17" cellspacing="0">
+      <tbody>
+        <tr valign="top">
+          <td style="padding: 20px;background-color:#e0f0fe; border-radius:15px">
+            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td><b><font size="+1">sim2real: Learning Humanoids Locomotion using RL</font></b></td>
+                  <td>&nbsp;</td>
+                  <td rowspan="3" valign="top" width="200">&nbsp;
+                    <img src="{{site.baseurl_root}}/assets/humanoidlab/sim2real.png" height="280" border="0">
+                  </td>
+                </tr>
+                <tr>
+                  <td height="10"></td>
+                  <td height="10"></td>
+                </tr>
+                <tr>
+                  <td valign="top">
+                    <p>Recent advances in deep reinforcement learning (RL) based techniques combined with training in
+                      simulation have offered a new approach to developing control policies for legged robots.
+                      However, the application of such approaches to real hardware has largely been limited to quadrupedal robots
+                      with direct-drive actuators and light-weight bipedal robots with low gear-ratio transmission systems.
+                      Application to life-sized humanoid robots has been elusive due to the large sim2real gap arising from
+                      their large size, heavier limbs, and a high gear-ratio transmission systems.</p>
+                    <p> In this work, we investigate methods for effectively overcoming the sim2real gap
+                      issue for large-humanoid robots for the goal of deploying RL policies trained in simulation
+                      to the real hardware.</p>
+                  </td>
+                  <td width="50">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+	  <br>
+	  <br>
+
+	  <!-- content -->
+	  <table border="0" width="100%" cellpadding="17" cellspacing="0">
+            <tbody>
+              <tr valign="top">
+		<td style="padding: 20px;background-color:#e0f0fe; border-radius:15px">
+		  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+		    <tbody>
+                      <tr>
+			<td><b><font size="+1">Enhanced Visual Feedback with Decoupled Viewpoint Control in Immersive Teleoperation using SLAM</font></b></td>
+			<td>&nbsp;</td>
+			<td rowspan="3" width="312"><img src="{{site.baseurl_root}}/assets/humanoidlab/hl_cslam.png" width="311"  border="0"></td>
+                      </tr>
+                      <tr>
+			<td height="10"></td>
+			<td height="10"></td>
+                      </tr>
+                      <tr>
+			<td valign="top">During humanoid robot teleoperation, there is a noticeable delay between the motion of the
+				operator’s and robot’s head. This latency could cause the lag in visual feedback, which decreases the
+				immersion of the system, may cause some dizziness and reduce the efficiency of interaction in teleoperation
+				since operator needs to wait for the real-time visual feedback. To solve this problem, we
+				developed a decoupled viewpoint control solution which allows the operator to
+				obtain the visual feedback changes with low-latency in VR and to increase the reachable
+				visibility range. Besides, we propose a complementary SLAM solution which uses the reconstructed mesh to
+				complement the blank area that is not covered by the real-time robot’s point cloud visual feedback. The
+				operator could sense the robot head’s real-time orientation by observing the pose of the point cloud.
+			</td>
+			<td width="50">&nbsp;</td>
+                      </tr>
+		    </tbody>
+		  </table>
+		</td>
+              </tr>
+            </tbody>
+	  </table>
+
+      </div>
+
+      <div class="row">
+      <h3 class="page-header">{% t hl.past-research %}</h3>
+	<a href="#/" onclick="showHideButton()">Toggle list</a>
+	<br>
+	<br>
+
+	<div id="collapsible-div" style="display:none">
+	  <!-- old content -->
+	  <table border="0" width="100%" cellpadding="17" cellspacing="0">
+            <tbody>
+              <tr valign="top">
+		<td style="padding: 20px;background-color:#e0f0fe; border-radius:15px">
+		  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+		    <tbody>
+                      <tr>
+			<td><b><font size="+1">Bipedal Walking With Footstep Plans via Reinforcement Learning</font></b></td>
+			<td>&nbsp;</td>
+			<td rowspan="3" width="312">
+			  <iframe width="311" src="https://www.youtube.com/embed/-mxaQ-f9Ee4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</td>
+                      </tr>
+                      <tr>
+			<td height="10"></td>
+			<td height="10"></td>
+                      </tr>
+                      <tr>
+			<td valign="top">
+                         To enable application of RL policy controller humanoid robots
+                         in real-world settings, it is crucial to build a system that can
+                         achieve robust walking in any direction, on 2D and 3D terrains,
+                         and be controllable by a user-command. In this paper, we
+                         tackle this problem by learning a policy to follow a given
+                         step sequence. The policy is trained with the help of a set
+			 of procedurally generated step sequences (also called footstep
+                         plans). We show that simply feeding the upcoming 2 steps to the
+                         policy is sufficient to achieve omindirectional walking, turning
+                         in place, standing, and climbing stairs. Our method employs
+                         curriculum learning on the objective function and on sample
+                         complexity, and circumvents the need for reference motions
+                         or pre-trained weights. We demonstrate the application of our
+                         proposed method to learn RL policies for 3 notably distinct
+                         robot platforms - HRP5P, JVRC-1, and Cassie, in the MuJoCo
+			</td>
+			<td width="50">&nbsp;</td>
+                      </tr>
+		    </tbody>
+		  </table>
+		</td>
+              </tr>
+            </tbody>
+	  </table>
+
+    <br>
+    <br>
+
+	  <!-- old content -->
+	  <table border="0" width="100%" cellpadding="17" cellspacing="0">
+            <tbody>
+              <tr valign="top">
+		<td style="padding: 20px;background-color:#e0f0fe; border-radius:15px">
+		  <table border="0" width="100%" cellpadding="0" cellspacing="0" >
+		    <tbody>
+                      <tr>
+			<td><b><font size="+1">Simultaneous localization and mapping(SLAM) in dynamic environment</font></b></td>
+			<td>&nbsp;</td>
+			<td rowspan="3" valign="top" width="200">&nbsp;<img src="{{site.baseurl_root}}/assets/humanoidlab/hl_01_slam.jpg" height="227" border="0"></td>
+                      </tr>
+                      <tr>
+			<td height="10"></td>
+			<td height="10"></td>
+                      </tr>
+                      <tr>
+			<td valign="top">Nowadays, SLAM in the dynamic environment has become a popular topic.
+			  This problem is called dynamic SLAM where many solutions have been proposed to segment
+			  out the dynamic objects that bring errors to camera tracking and subsequent 3D reconstruction.
+			  However, state-of-the-art dynamic SLAM methods face the problems of accuracy and speed, which
+			  is due to the fact that one segmentation algorithm cannot guarantee both points at the same time.
+			  We propose a multi-purpose dynamic SLAM framework to provide a variety of selections for segmentation,
+			  each has its applicable scene. Besides, if the user selects the semantic segmentation, the object-oriented
+			  semantic mapping is beneficial for high level robotic tasks. </td>
+			<td width="50">&nbsp;</td>
+                      </tr>
+		    </tbody>
+		  </table>
+		</td>
+              </tr>
+            </tbody>
+	  </table>
+
+	  <br>
+	  <br>
+
+	  <!-- old content -->
+	  <table border="0" width="100%" cellpadding="17" cellspacing="0">
+            <tbody>
+              <tr valign="top">
+		<td style="padding: 20px;background-color:#e0f0fe; border-radius:15px">
+		  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+		    <tbody>
+                      <tr>
+			<td><b><font size="+1">6-DoF Object Pose Estimation</font></b></td>
+			<td>&nbsp;</td>
+			<td rowspan="3" width="312"><img src="{{site.baseurl_root}}/assets/humanoidlab/hl_02.png" width="311" border="0"></td>
+                      </tr>
+                      <tr>
+			<td height="10"></td>
+			<td height="10"></td>
+                      </tr>
+                      <tr>
+			<td valign="top">For a humanoid robot to interact with objects in its surrounding environment,
+			  it is essential for the robot to find the position and orientation of the object relative to
+			  itself - often through the use of its vision sensors. The 3D position and roll, pitch, yaw
+			  rotation together comprise the 6 degrees-of-freedom pose of the object. For precise grasping
+			  and manipulation of tools, this pose needs to be estimated with a  high degree of accuracy.
+			  Further, we desire robustness against challenging lighting conditions, occlusions, and non-availability
+			  of dense and accurate object models. This work mainly involves the use of Deep Learning based strategies
+			  for solving problems in this sphere.
+			</td>
+			<td width="50">&nbsp;</td>
+                      </tr>
+		    </tbody>
+		  </table>
+		</td>
+              </tr>
+            </tbody>
+	  </table>
+
+	</div>
+      </div>
+
+      <div class="row">
+        <h3 class="page-header">{% t hl.student-members %}</h3>
+        <table width="100%" border="0" cellspacing="0" class="table table-striped">
+          <tbody>
+            <tr>
+              <th width="25%">{% t hl.student-name %}</th>
+              <th width="25%">{% t hl.student-grade %}</th>
+              <th width="25%">{% t hl.student-email %}</th>
+            </tr>
+          {% for student in site.translations[site.lang].hl.students %}
+            <tr>
+            {% if student.id %}
+              <td>
+              {% if student.website %}
+                <a href="{{student.website}}">{{student.name}}</a>
+              {% else %}
+                <a href="{{site.baseurl}}/members/member-{{student.id}}.html">{{student.name}}</a>
+              {% endif %}
+              </td>
+            {% else %}
+              <td>{{ student.name }}</td>
+            {% endif %}
+              <td>{{ student.grade }}</td>
+              <td width="25%">{% if student.email %}{{ student.email }}{% endif %}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="row">
+	<div class="col-lg-12">
+    <h3 class="page-header">{% t hl.location %}</h3>
+          <table width="100%">
+            <tbody>
+              <tr align="center">
+		<td>
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d25795.692830871016!2d140.1074103178154!3d36.082234076560354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x60220bff99f57b0b%3A0x1cad40e7632fb4b8!2zVW5pdmVyc2l0eSBvZiBUc3VrdWJhIOetkeazouWkpw!3m2!1d36.103866599999996!2d140.1020979!4m5!1s0x60220cc567b824f5%3A0xecc14922713a4044!2z44CSMzA1LTg1NjAgSWJhcmFraSwgVHN1a3ViYSwgVW1lem9ubywgMSBDaG9tZeKIkjEtMSDkuK3lpK7nrKwx44Gk44GP44Gw5pys6YOo5oOF5aCx5oqA6KGT5YWx5ZCM56CU56m25qOfIFRzdWt1YmEgQ2VudGVyLCBBSVNUOiBOYXRpb25hbCBJbnN0aXR1dGUgb2YgQWR2YW5jZWQgSW5kdXN0cmlhbCBTY2llbmNlIGFuZCBUZWNobm9sb2d5!3m2!1d36.0624307!2d140.1356783!5e0!3m2!1sen!2sjp!4v1650429789876!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</td>
+              </tr>
+            </tbody>
+          </table>
+	</div>
+      </div>
+
+      </td></tr>
+    <tbody>
+  </table>
+</div>
+
+<script>
+  function showHideButton() {
+  var x = document.getElementById("collapsible-div");
+  if (x.style.display === "none") {
+  x.style.display = "block";
+  } else {
+  x.style.display = "none";
+  }
+  }
+</script>
+<!-- /.container -->
+
