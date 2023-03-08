@@ -72,119 +72,14 @@
         </tr>
 	    </thead>
 	    <tbody>
+              {% for topic in site.data.topics %}
               <tr>
-		<td><b>Adaptive torque control</b></td>
-		<td>Usually the control of robots rely on precise models, however, these can be unavailable or drift over time. Adaptive control techniques will be expected to correct for these modeling errors and compensate for them during the motion. The student will be working on our humanoid robots.</td>
-		<td>Master (possibility to extend to PhD)</td>
-		<td>
-		  <p><i>Preferred</i>: C++, control theory, multibody dynamics</p>
-		  <p><i>Required</i>: basic calculus, spoken English language</p>
-		</td>
+		<td><b>{{topic.title}}</b></td>
+		<td>{{topic.description}}</td>
+		<td>{{topic.grade}}</td>
+		<td>{{topic.skills}}</td>
               </tr>
-              <tr>
-		<td><b>Humanoid robots force control for multi-contact locomotion</b></td>
-		<td>Locomotion control of legged robots requires force control that relies usually on contact force sensors, however humanoid or legged robot may use parts of their body that are not equipped with these sensors such as elbows and knees. In this work the student will develop and test a control of this kind of contact.</td>
-		<td>Master (possibility to extend to PhD)</td>
-		<td>
-		  <p><i>Preferred</i>: C++, ROS, control theory, multibody mechanics.</p>
-		  <p><i>Required</i>: basic geometry and calculus, spoken English language</p>
-		</td>
-              </tr>
-              <tr>
-		<td><b>Safe training of neural networks on real robotic platforms</b></td>
-		<td>In most cases the training of neural networks to control the motion of humanoid and legged robots, happen in numerical simulation and then transferred to the real robot. In this work the student will design a framework to train neural networks directly on the real robot. They need to ensure the safety and the autonomy of the learning pipeline.</td>
-		<td>Master/PhD</td>
-		<td>
-		  <p><i>Preferred</i>: C++, Deep learning, ROS, multibody mechanics.</p>
-		  <p><i>Required</i>: spoken English language</p>
-		</td>
-              </tr>
-              <tr>
-		<td><b>Direct Visual Servoing with optimal robot trajectories</b></td>
-		<td>
-		  <ul>
-		    <li>Robot motion control from camera image brightness</li>
-		    <li>Accuracy < 1 mm but 3D trajectories are not ideal</li>
-		    <li>Goals:
-		      <ul>
-			<li>Implement damping control near singularities</li>
-			<li>Multi-objective optimization to constrain the trajectory</li>
-			<li>Online selection of the camera field-of-view maximizing the motion perceptibility</li>
-		      </ul>
-		    </li>
-		  </ul>
-		</td>
-		<td>Master/PhD</td>
-		<td>C++ programming, mathematical background</td>
-              </tr>
-              <tr>
-		<td><b>Contact-Ready Robust Hydraulic Actuator for Mobile Robots</b></td>
-		<td>To vastly increase the use of robots, tasks with contacts are inevitable. In this research, we aim to develop robust and force sensitive hydraulic actuators to realize robust and dexterous manipulation on mobile robots.</td>
-		<td>Master</td>
-		<td>Mechanical design, 3D CAD, Basic fluid dynamics, Basic mechatronics</td>
-              </tr>
-              <tr>
-		<td><b>Optimal structural design and structural force sensing for robot systems</b></td>
-		<td>Force sensitivity is an important feature for robots that co-exist with humans. However, use of torque sensor was limited from increase in weight and size, and lowering of resonance frequency.  In this research, we study force sensing technique using structural materials and optimization of sensitivity and structural robustness.</td>
-		<td>Master</td>
-		<td>Mechanical design, Basic electronics, Basic numerical optimization</td>
-              </tr>
-              <tr>
-		<td><b>AR-based UI for Avatar teleoperation</b></td>
-		<td>
-		  <p><i>Project:</i> Immersive humanoid teleoperation using VR devices</p>
-		  <p><i>Goals:</i>
-		    <ul>
-			    <li>Develop immersive UI using AR elements</li>
-			    <li>Not only an intuitive HUD, but also object-recognition-based visual aids for semiautomatic manipulation</li>
-			    <li>Handheld controller-free</li>
-		    </ul>
-      <p>
-		</td>
-		<td>Master</td>
-		<td>
-		  <p>Development experience in Unity</p>
-		  <p>C++ programming</p>
-		</td>
-              </tr>
-              <tr>
-		<td><b>Teleoperated grasping and tactile sensing using underactuated hands and haptic gloves</b></td>
-		<td>
-		  <p><i>Project:</i> Immersive humanoid teleoperation using haptic devices</p>
-		  <p><i>Goals:</i> Develop haptic system that allows not only to grasp objects via teleoperation, but to transmit the tactile sensation to the operator via force / vibrotactile feedback</p>
-		</td>
-		<td>Master</td>
-		<td>
-		  Control theory, C++ programming, basic familiarity with Linux
-		  </ul>
-		</td>
-              </tr>
-              <tr>
-		<td><b>Responsive multi-contact locomotion</b></td>
-		<td>
-		  <ul>
-		    <li>Passing through narrow space using not only legs but also arms freely</li>
-		    <li>Efficient search for contact transition and whole-body motion</li>
-		    <li>Efficient solver for non-linear model predictive control</li>
-		  </ul>
-		</td>
-		<td>Master/PhD</td>
-		<td>Dynamics, Control theory, Optimization, Graph search, Programming(c++), (Machine learning)
-		</td>
-              </tr>
-              <tr>
-		<td><b>Data-driven quadruped controller toward outdoor exploration</b></td>
-		<td>
-		  <ul>
-		    <li>Data-driven controller for quadruped robot to traverse uneven outdoor environments</li>
-		    <li>Multimodal sensor fusion robust to environmental changes</li>
-		    <li>SimToReal that requires no parameter fine-tuning</li>
-		  </ul>
-		</td>
-		<td>Master</td>
-		<td>Reinforcement learning, RNN, DNN, Programming(python, c++)
-		</td>
-              </tr>
+	      {% endfor %}
 	    </tbody>
 	  </table>
       </td></tr>
