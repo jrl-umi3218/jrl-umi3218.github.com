@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>CNRS-AIST Joint Robotics Laboratory (JRL)</title>
+    <title>{% t lab-name %}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{site.baseurl_root}}/css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          {%- capture title -%}CNRS-AIST JRL{%- endcapture -%}
+          {%- capture title -%}{% t lab-name %}{%- endcapture -%}
           {%- if page.title -%}
             {%- capture title -%}{{title}} - {% t page.title %}{%- endcapture -%}
           {%- endif -%}
