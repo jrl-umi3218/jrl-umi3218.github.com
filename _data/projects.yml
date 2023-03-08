@@ -4,7 +4,7 @@
   longtitle: "Team Janus - ANA Avatar XPRIZE"
   year-start: 2018
   year-end: 2022
-  active: true
+  active: false
   url: "./janus/team-janus.html"
   partners: [cnrs,lirmm,doublegiken]
   description: "
@@ -25,7 +25,7 @@
   longtitle: "CNRS INSIS PEPS Visadapt - Adaptative Catadioptric Vision"
   year-start: 2021
   year-end: 2022
-  active: true
+  active: false
   partners: [inria,polytechlille,upjv]
   description: "
 <p>Visadapt is an exploratory project funded by the PEPS &ldquo;Mechanics of the future&rdquo; program of CNRS&rsquo; Institute of Engineering and Systems Sciences (INSIS). In this project, CNRS-AIST JRL is partnering with Inria and Polytech Lille members of CRIStAL (France) and UPJV, MIS lab (France) with the aim of creating a new camera of highly non-linear field-of-view, enabled by soft robot mirror. The interest is to automatically adapt the resolution of the camera to the scene content, i.e. low in uniform or not interesting areas but high in informative areas or interesting regarding the application (e.g. body, face, geometric features, etc).</p>
@@ -177,7 +177,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   year-end: 2022
   active: true
   description: >
-    <p>This project is a four-year research project founded by JSPS Kakenhi Grant-in-Aid for Early-Career Scientists (19K20380). Our ultimate goal is enabling a robot to autonomously generate and perform a sequence of target tasks considering task dependencies, constraints of a robot and the surrounding environment.​ To achieve this goal, we will conduct research and development on the following three topics.​<br><ol><li>Task management system which can perform error recovery and parallel processing of a task sequence based on the dependency of tasks.</li><li>Motion planning technology which can generate feasible whole-body motion for a robot to reach the destination and perform required tasks considering kinematics and dynamics constraints.</li><li>Semantic environmental memorization to find objects which are neccesary for task execution.​</li></ol></p>
+    <p>This project is a four-year research project funded by JSPS Kakenhi Grant-in-Aid for Early-Career Scientists (19K20380). Our ultimate goal is enabling a robot to autonomously generate and perform a sequence of target tasks considering task dependencies, constraints of a robot and the surrounding environment.​ To achieve this goal, we will conduct research and development on the following three topics.​<br><ol><li>Task management system which can perform error recovery and parallel processing of a task sequence based on the dependency of tasks.</li><li>Motion planning technology which can generate feasible whole-body motion for a robot to reach the destination and perform required tasks considering kinematics and dynamics constraints.</li><li>Semantic environmental memorization to find objects which are neccesary for task execution.​</li></ol></p>
 - id: ryouikikoubo_2021
   title: "Tuning-free control"
   longtitle: "Data-driven online adaptive model/control parameters for tuning-free motion generation."
