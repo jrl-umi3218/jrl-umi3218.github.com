@@ -24,6 +24,12 @@ member-page:
   all-publications: All publications
   show: Show
   hide: Hide
+project-page:
+  description: Project Description
+  period: Period
+  funding: Funded by
+  publications: Related Publications (including JRL contributions)
+  partners: Partners
 show: Show
 hide: Hide
 roles:

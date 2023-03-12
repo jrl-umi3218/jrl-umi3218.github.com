@@ -5,12 +5,24 @@
 {%- endfor -%}
 
 {%- if project.url -%}
-{%- capture subtitle -%}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle}} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{%- endcapture -%}
+{%- if site.lang == "jp" and project.longtitle-jp -%}
+{%- capture subtitle -%}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle-jp}} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{%- endcapture -%}
 {%- else -%}
+{%- capture subtitle -%}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle}} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{%- endcapture -%}
+{%- endif -%}
+{%- else -%}
+  {%- if site.lang == "jp" and project.longtitle-jp -%}
+  {%- capture subtitle -%}<br/>{{project.longtitle-jp}}{%- endcapture -%}
+  {%- else -%}
   {%- capture subtitle -%}<br/>{{project.longtitle}}{%- endcapture -%}
+  {%- endif -%}
 {%- endif -%}
 {%- if project.longtitle != project.title -%}
+  {%- if site.lang == "jp" and project.longtitle-jp -%}
+  {%- capture bc -%}{{project.title}} - {{project.longtitle-jp}} {%- endcapture -%}
+  {%- else -%}
   {%- capture bc -%}{{project.title}} - {{project.longtitle}} {%- endcapture -%}
+  {%- endif -%}
 {%- else -%}
   {%- capture bc -%}{{project.title}}{%- endcapture -%}
 {%- endif -%}
@@ -78,8 +90,22 @@
     </div>
 
     <div class="col-md-6 col-xs-6 col-middle">
-      <h3>Project Description</h3>
+      <h3>{% t project-page.description %}</h3>
+      {% if site.lang == "jp" and project.description-jp %}
+      {{project.description-jp}}
+      {% else %}
       {{project.description}}
+      {%- endif -%}
+      <h4>{% t project-page.period %}</h4>
+      {{project.year-start}}-{{project.year-end}}
+      {%- if project.funding -%}
+      <h4>{% t project-page.funding %}</h4>
+      {% if site.lang == "jp" and project.funding-jp %}
+      {{project.funding-jp}}
+      {% else %}
+      {{project.funding}}
+      {%- endif -%}
+      {%- endif -%}
     </div>
 
   </div>
@@ -106,7 +132,7 @@
   <div class="row">
 
     <div class="col-lg-12">
-      <h3 class="page-header">Related Publications (including JRL contributions)</h3>
+      <h3 class="page-header">{% t project-page.publications %}</h3>
 
       {%- include publications_table.html project_id=include.id -%}
     </div>
@@ -117,7 +143,7 @@
   <!-- Partners row -->
   <div class="row">
     <div class="col-lg-12">
-      <h3 class="page-header">Partners</h3>
+      <h3 class="page-header">{% t project-page.partners %}</h3>
     </div>
 
     {%- for p_id in project.partners -%}
