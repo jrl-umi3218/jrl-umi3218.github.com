@@ -40,9 +40,10 @@ A realistic simulator and a first prototype are the expected results.
 "
 - id: hadros
   title: "HaDROs"
-  longtitle: "CNRS GDR ISIS HaDROs - HDR panoramic vision for SLAM in scenes of large range of radiance"
+  longtitle: "HaDROs - HDR panoramic vision for SLAM in scenes of large range of radiance"
   year-start: 2021
   year-end: 2023
+  funding: CNRS GDR ISIS
   active: true
   partners: [insarennes,upjv]
   description: "
@@ -58,9 +59,10 @@ The HaDROs system will be integrated on an assistive wheelchair of INSA Rennes (
 "
 - id: dvsstraight
   title: "DVS-Straight"
-  longtitle: "AIST ITH International Collaboration DVS-Straight - Direct Visual Servoing with optimal robot trajectories"
-  year-start: 2021
-  year-end: 2025
+  longtitle: "DVS-Straight: Direct Visual Servoing of robot with optimal 3D trajectories"
+  year-start: "2021.10"
+  year-end: 2025.3
+  funding: AIST ITH
   active: true
   partners: [utbm,upjv]
   description: "
@@ -165,24 +167,33 @@ all for better behavior of DVS-based control laws and hence applicability in a m
 - id: jst_mirai
   title: "CareAvatar"
   longtitle: "Remotification of physical interaction for resilient society"
-  year-start: 2021
-  year-end: 2023
+  longtitle-jp: "物理的接触の遠隔化によるレジリエントな社会の実現"
+  year-start: "2021.10"
+  year-end: 2024.3
+  funding: JST-Mirai Program
+  funding-jp: JST未来社会創造事業
   active: true
   description: >
     <p>We aim to create a society that is resilient to infectious diseases, by using avatar robots to enable telework for essential workers whose work requires physical contact with people. ​<br>We will conduct research and development of a tele-physical caregiving service that enables telework in caregiving.​<br>In this service, a caregiver operates a nursing care avatar at the nursing care site from a remote location via a digital twin of the nursing care site built in cyberspace to perform nursing care tasks. To realize this service, we will conduct research and development on the following three technologies.​<br><ol><li>Haptic sensing technology that captures complex physical information as a distribution on a three-dimensional curved surface,</li><li>Technology for understanding and reproducing the movements of a remote caregiver, and</li><li>Safety standards that are essential for social acceptance.​</li></ol></p>
+  description-jp: >
+    <p>介護のテレワーク化を可能とする遠隔物理介護サービスの研究開発を行う。このサービスは、介護者が遠隔地からサイバー空間に構築された介護現場のデジタルツインを介して、介護現場にある介護アバターを操作して介護業務を実施するものである。このサービス実現のため、<br><ol><li>接触状態をデジタルツインに反映するための複合的な物理情報を３次元曲面上の分布として捉える触覚センシング技術、</li><li>サイバー空間を介して、遠隔にいる介護者の動作を理解し、介護現場にある介護アバターで再現する動作理解・再現技術、</li><li>介護アバターが社会に受容される上で不可欠な安全基準の研究開発</li></ol>を実施する。</p>
 - id: kakenhi_wakate2019_kumagai
-  title: "JSPS TaskPlanning"
+  title: "TaskPlanning"
   longtitle: "Development of task planning system for autonomous task execution"
-  year-start: 2019
-  year-end: 2022
+  longtitle-jp: "半未知環境の環境構成物記憶と作業依存関係に基づくヒューマノイドの作業手順計画法"
+  year-start: 2019.4
+  year-end: 2023.3
+  funding: JSPS Grant-in-Aid for Early-Career Scientists
+  funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 若手研究
   active: true
   description: >
     <p>This project is a four-year research project funded by JSPS Kakenhi Grant-in-Aid for Early-Career Scientists (19K20380). Our ultimate goal is enabling a robot to autonomously generate and perform a sequence of target tasks considering task dependencies, constraints of a robot and the surrounding environment.​ To achieve this goal, we will conduct research and development on the following three topics.​<br><ol><li>Task management system which can perform error recovery and parallel processing of a task sequence based on the dependency of tasks.</li><li>Motion planning technology which can generate feasible whole-body motion for a robot to reach the destination and perform required tasks considering kinematics and dynamics constraints.</li><li>Semantic environmental memorization to find objects which are neccesary for task execution.​</li></ol></p>
 - id: ryouikikoubo_2021
   title: "Tuning-free control"
-  longtitle: "Data-driven online adaptive model/control parameters for tuning-free motion generation."
+  longtitle: "Data-driven online adaptive model/control parameters for tuning-free motion generation"
   year-start: 2021
   year-end: 2023
+  funding: AIST ITH
   active: true
   description: "
     <p> Controlling the dynamics of complex systems requires identifying and tuning more and more parameters, leading to increasing adaptation times for new tasks or new robots. In this project, we plan to make this process automatic and online to constantly improve the performance during the robot operation. Classical control techniques, together with statistical tools and machine learning will be exploited to this end.</p>"
@@ -191,9 +202,66 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   longtitle: "Impact Aware Manipulation by Dexterous Robot Control and Learning in Dynamic Semi-Structured Logistic Environments"
   year-start: 2020
   year-end: 2023
+  funding: H2020
   active: true
+  url: "https://i-am-project.eu/"
   partners: [tue, algoryx, frankaemika, smartrobotics, vanderlande, cnrs,epfl,tum]
   description: >
     <p> Europe is leading the market of torque-controlled robots. These robots can withstand physical interaction with the environment, including impacts, while providing accurate sensing and actuation capabilities. I.AM. leverages this technology and strengthens European leadership by endowing robots to exploit intentional impacts for manipulation. I.AM. focuses on impact aware manipulation in logistics, a new area of application for robotics which will grow exponentially in the coming years, due to socio-economical drivers such as booming of e-commerce and scarcity of labor.</p>
 
     <p>Learn more about it on the <a href="https://i-am-project.eu/">project website</a>.
+- id: icph
+  title: "iCPH"
+  longtitle: "Interactive cyber-physical human: Generating contact-rich whole-body motions"
+  longtitle-jp: "サイバーフィジカルヒューマンによる全身接触運動の包括的データ駆動学習・予測・生成"
+  year-start: 2022.4
+  year-end: 2027.3
+  funding: JSPS Grant-in-Aid for Scientific Research (S)
+  funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 基盤研究(S)
+  active: true
+  partners: [tus]
+  description: >
+    <p>The project details are described in <a href="https://www.jsps.go.jp/file/storage/grants/j-grantsinaid/12_kiban/ichiran_r04/j-data/r_4_jp_22h05002.pdf">this PDF file</a> (in Japanese).</p>
+  description-jp: >
+    <p>接触こそが人型システムの運動記述の鍵であるとの新視点から、接触運動の継続学習・予測・生成を行う統一的な方法論の確立を目指す。人は環境と接触を伴う運動を自然に行うのに対し、その機序の解明や工学的利用に関する未解決課題は多い。それへの挑戦の一環として、申請者らは解析微分により人型システムの運動理解・最適化を行う革新的な理論基盤を構築してきた。本課題では、新たに ①サイバーフィジカルヒューマン（シミュレーション・実世界の人間・ロボット統合モデル）によるデータ取得・拡張の枠組と接触運動の一般的表現の提案、②運動逆最適化に基づく接触運動ネットワークの継続学習とデータベース構築、③逆予見制御とベクトル量子化学習の融合によるシンボル体系化と予測に包括的に取り組み、接触を伴う任意の運動の理解と生成に挑む。データベース公開により内外機関と連携を推進するとともに、分布型衣服埋め込みセンサによる作業者負担の実時間モニタリング、ロボットと人の遠隔協調による重量物運搬・組付け作業など、各種産業での生産性やQoWの向上にインパクトをもたらす実問題で成果を検証し、複雑な人の運動を予測し自然に支援するシステムを創出する。</p>
+- id: icps
+  title: "ICPS"
+  longtitle: "Industrial Cyber-Physical Systems"
+  longtitle-jp: "インダストリアルCPS"
+  year-start: 2020.4
+  year-end: 2025.3
+  funding: AIST
+  active: true
+  description: >
+    <p>This project aims to develop technologies that contributes to the improvement of labor productivity and the transfer and advancement of skills in all industrial sectors.</p>
+  description-jp: >
+    <p>全ての産業分野での労働生産性の向上と技能の継承・高度化に資する技術の研究開発を行う。</p>
+- id: kakenhi_kibanb2021_morisawa
+  title: "ACLoMa"
+  longtitle: "Toward autonomous and continuous locomotion and manipulation in confined environments"
+  longtitle-jp: "複雑未知環境下における即時動作を可能とする多点接触運動システムの実現"
+  year-start: 2021.4
+  year-end: 2024.3
+  funding: JSPS Grant-in-Aid for Scientific Research (B)
+  funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 基盤研究(B)
+  active: true
+  description: >
+    <p>The aim of this project is to develop an unified framework of autonomous and continuous locomotion and manipulation in a constrained environment by robots which can work in repetitive, tedious, or a heavy task for humans in large-scale manufacturing.
+    <p>Due to a huge search space and many constraints in such an environment, it is hard to find a feasible motion.</p>
+    <p>In order to solve this problem, the motion libraries of locomotion and manipulation will be prepared from the environment primitives and the whole body trajectories corresponding to enriched contact conditions (e.g. sliding) from a virtual environment in a dynamics simulator in advance by using a sort of machine learning.</p>
+    <p>Then the continuous locomotion and manipulation without interruption will be archived by executing environment measurement/recognition, a whole-body motion planning and its controller in frequent cycle from the motion libraries and sensing data.</p>
+    <p>A whole-body controller will be also developed in order to adapt a real-environment by considering measurement and unmodeled errors under the constraints by introducing the knowledge of non-linear control schemes.</p>
+    <p>In this way, we propose a new framework of locomotion and manipulation for robots to expand the reachable area and acquire the skills to perform new tasks.</p>
+  description-jp: >
+    <p>本研究課題では、ロボットが狭隘度の高い複雑未知環境における3次元自律移動を実現する。このような環境は探索空間が広いため、計算コストの面から環境計測情報から逐次的に接触位置計画や全身動作生成を行うことが困難である。本研究では、これまでに我々のチームで開発してきた多点接触運動計画・制御技術を応用して、様々な仮想環境からロボットの接触状態に対応した環境のプリミティブや全身軌道を事前に動力学シミュレータで機械学習の手法を用いてモーションライブラリを構築する。実環境において環境計測情報やロボットの状態を基にモーションライブラリから即時的に全身軌道を生成する。また重心動力学方程式に着目し、全ての運動を統一的に扱うことのできる多点接触運動制御フレームワークを開発し、狭隘環境を含む実環境で自律移動を実証する。</p>
+- id: jrp_khi
+  title: "Friends"
+  longtitle: "Joint Research on Airplane Manufacturing Humanoid Robot"
+  year-start: 2020.4
+  year-end: 2025.3
+  active: true
+  partners: [khi]
+  description: >
+    <p>This Joint Research aims to develop a humanoid-type robot for airplane manufacturing which can relieve human workers from non-added-value tasks.</p>
+    <p>Under this Joint Research, the humanoid-type robot for airplane manufacturing will be developed by customizing KHI's current humanoid-type robot ("KHI's humanoid robot") for an airplane manufacturing purpose and the objective of this Joint Research is such customization.</p>
+    <p>The humanoid-type robot for airplane manufacturing will be designed based on requirements obtained in previous researches with an airplane manufacturing company. It must be a slim, lightweight and multi-limbed body such that it can maneuver in confined and cluttered spaces and conduct precision tasks with high-norm of safety and certifications. The developed humanoid-type robot for airplane manufacturing will be evaluated through use-cases given by potential users and remodeled several times to meet the requirements.</p>

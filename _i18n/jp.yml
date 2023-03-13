@@ -24,6 +24,12 @@ member-page:
   all-publications: すべての論文
   show: 表示
   hide: 非表示
+project-page:
+  description: <b>概要</b>
+  period: <b>実施期間</b>
+  funding: <b>資金提供</b>
+  publications: 発表論文
+  partners: パートナー
 show: 表示
 hide: 非表示
 roles:

@@ -142,3 +142,13 @@
   name: "Vanderlande Industries B.V."
   shortname: "Vanderlande"
   website: "https://www.vanderlande.com/"
+- id: tus
+  logo: "/assets/logos/tus.png"
+  name: "Tokyo University of Science"
+  shortname: "TUS"
+  website: "https://www.tus.ac.jp/"
+- id: khi
+  logo: "/assets/logos/khi.png"
+  name: "Kawasaki Heavy Industries, Ltd."
+  shortname: "KHI"
+  website: "https://www.khi.co.jp/"
