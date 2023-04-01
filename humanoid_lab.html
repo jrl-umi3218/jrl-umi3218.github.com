@@ -312,6 +312,11 @@ layout: default
       </div>
 
       <div class="row">
+        <h3 class="page-header">{% t pages.publications %}</h3>
+        {%- include publications_table.html project_id="humanoid_lab" -%}
+      </div>
+
+      <div class="row">
         <h3 class="page-header">{% t hl.student-members %}</h3>
         <table width="100%" border="0" cellspacing="0" class="table table-striped">
           <tbody>
