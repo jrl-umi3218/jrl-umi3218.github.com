@@ -411,8 +411,11 @@
   given: Masaki
   family: Murooka
   name-jp: 室岡 雅樹
-  role: permanent
-  from: 2020-04-01
+  role: adjunct
+  from: 2023-04-01
+  past-roles:
+    - role: permanent
+      to: 2023-03-31
   nationality: jp
   website: https://mmurooka.github.io/
   scholar: https://scholar.google.com/citations?user=xcp8f3cAAAAJ
@@ -586,8 +589,11 @@
   given: Leyuan
   family: Sun
   name-jp: 孫 楽源
-  role: phd
-  to: 2023-03-31
+  role: alumni
+  from: 2023-04-01
+  past-roles:
+    - role: phd
+      to: 2023-03-31
   nationality: cn
   bio: >
     received the BE degree from Jiangsu University, China, in 2015 and his ME degree from The University of Tsukuba, Japan, in 2020. He is currently a second-year Ph.D. student in the Department of Intelligent and Mechanical Interaction Systems, Graduate School of Science and Technology, The University of Tsukuba, Japan. His research interests include computer vision for robotics and SLAM in a dynamic environment.
@@ -725,9 +731,12 @@
 - id: chen
   given: Yang
   family: Chen
-  role: phd
-  from: 2021-08-09
-  to: 2023-03-31
+  role: postdoc
+  from: 2023-04-01
+  past-roles:
+    - role: phd
+      from: 2021-08-09
+      to: 2023-03-31
   nationality: cn
   github: "https://github.com/robot-Yang"
   linkedin: "https://www.linkedin.com/in/yang-chen-1004a9155/"
@@ -758,8 +767,11 @@
 - id: gao
   given: Xinchi
   family: Gao
-  role: master
-  to: 2023-03-31
+  role: alumni
+  from: 2023-04-01
+  past-roles:
+    - role: master
+      to: 2023-03-31
   nationality: cn
 - id: osorio
   given: Pablo
@@ -817,9 +829,13 @@
 - id: krishna
   given: Bandi
   family: Krishna
-  role: undergraduate
-  from: 2022-07-01
+  role: master
+  from: 2023-01-01
   to: 2023-05-31
+  past-roles:
+    - role: undergraduate
+      from: 2022-07-01
+      to: 2022-12-31
   nationality: in
 - id: goichon
   given: Eva
@@ -846,23 +862,23 @@
   given: Hibiki
   family: Miyake
   name-jp: 三宅 響
-  role: undergraduate
-  from: 2022-08-15
-  to: 2023-03-31
-  future-roles:
-    - role: master
-      from: 2023-04-01
+  role: master
+  from: 2023-04-01
+  past-roles:
+    - role: undergraduate
+      from: 2022-08-15
+      to: 2023-03-31
   nationality: jp
 - id: fukumitsu
   given: Kensuke
   family: Fukumitsu
   name-jp: 福光 健介
-  role: undergraduate
-  from: 2022-08-15
-  to: 2023-03-31
-  future-roles:
-    - role: master
-      from: 2023-04-01
+  role: master
+  from: 2023-04-01
+  past-roles:
+    - role: undergraduate
+      from: 2022-08-15
+      to: 2023-03-31
   nationality: jp
 - id: naamani
   given: Meriem
@@ -911,9 +927,12 @@
   given: Taro
   family: Tako
   name-jp: 田光 太郎
-  role: undergraduate
-  from: 2023-01-10
-  to: 2023-06-06
+  role: master
+  from: 2023-04-01
+  past-roles:
+    - role: undergraduate
+      from: 2023-01-10
+      to: 2023-06-06
   nationality: jp
 - id: bwatier
   given: Bruno
@@ -925,14 +944,17 @@
 - id: duclusaud
   given: Marc
   family: Duclusaud
-  role: phd
-  from: 2023-03-01
-  to: 2023-03-31
+  role: alumni
+  from : 2023-04-01
+  past-roles:
+    - role: phd
+      from: 2023-03-01
+      to: 2023-03-31
   nationality: fr
 - id: lembrez
   given: Gabin
   family: Lembrez
-  role: coming-master
+  role: master
   from: 2023-03-07
   to: 2023-08-31
   nationality: fr
@@ -974,28 +996,48 @@
 - id: foussereau
   given: Virgile
   family: Foussereau
-  role: coming-master
+  role: master
   from: 2023-03-20
   to: 2023-08-11
   nationality: fr
 - id: barberteguy
   given: Victor
   family: Barberteguy
-  role: coming-master
+  role: master
   from: 2023-03-27
   to: 2023-08-04
   nationality: fr
 - id: mariot
   given: Pierre-Antoine
   family: Mariot
-  role: coming-master
+  role: master
   from: 2023-04-01
   to: 2023-08-31
   nationality: fr
 - id: masuda
   given: Shimpei
   family: Masuda
-  role: coming-phd
+  role: phd
   from: 2023-04-01
   to: 2026-03-31
   nationality: jp
+- id: hamze
+  given: Marwan
+  family: Hamze
+  role: phd
+  from: 2023-03-09
+  nationality: lb
+- id: houhou
+  given: Younes
+  family: Houhou
+  role: coming-master
+  from: 2023-05-08
+  to: 2023-08-04
+  nationality: fr
+- id: menendez
+  given: Claudia
+  family: Menéndez Cárdenes
+  role: coming-undergraduate
+  from: 2023-06-01
+  to: 2023-08-31
+  nationality: es
