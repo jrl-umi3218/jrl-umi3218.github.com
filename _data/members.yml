@@ -63,6 +63,7 @@
       to: 2021-03-31
   nationality: jp
   website: "http://dblp.uni-trier.de/pers/hd/a/Ayusawa:Ko"
+  scholar: "https://scholar.google.co.jp/citations?hl=en&user=rTzN0OsAAAAJ"
   bio: >
     received the B.S. degree in mechanical engineering, and the M.S. and Ph.D. degrees in mechano-informatics from the University of Tokyo, Japan, in 2006, 2008, and 2011, respectively. He worked with the Department of Mechano-Informatics at the University of Tokyo, as a postdoctoral researcher from 2011 to 2012, and as a project assistant processor in 2013. He is currently a researcher of Intelligent Systems Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan, and a researcher of CNRS-AIST JRL (Joint Robotics Laboratory), UMI3218/RL. His research interests include identification of human/humanoid dynamics, motion control for humanoid robots, and kinematics and dynamics simulation for human musculoskeletal models.
 - id: morisawa
@@ -286,7 +287,7 @@
   family: Venture
   role: adjunct
   nationality: fr
-  scholar: "https://scholar.google.com/citations?user=RAOhaYYAAAAJ&hl=en"
+  scholar: "https://scholar.google.co.jp/citations?user=37DGuDUAAAAJ"
   website: "http://web.tuat.ac.jp/~venture/"
   bio: >
     received her Engineer's degree from the École Centrale de Nantes (France) in 2000 in Robotics and Automation and a MSc and PhD from the University of Nantes (France) in 2000 and 2003 respectively. In 2004 she joined the French Nuclear Agency (Paris, France), to work on the control of a tele-operated micro-manipulator. Later in 2004 she joined Prof. Yoshihiko Nakamura's Lab. at the University of Tokyo (Japan) with the support of the JSPS. From 2006 to 2009, she was a Project Assistant Professor at University of Tokyo (Japan). In 2009, she becomes an Associate Professor and starts a new lab at the Tokyo University of Agriculture and Technology (Japan). Since July 2016 she is a Distinguished Professor with the Tokyo University of Agriculture and Technology. Since 2018 she is a cross-appointed fellow with the National Institute of Advanced Industrial Science &mp Technology. Since 2020 she is an Invited Professor at &ldquo;Robotics by design lab&rdquo;, Strate, France. Her main research interests include: Non-verbal communication, Human behavior understanding from motion, Human body modelling, Dynamics identification, Control of robot for human/robot interaction, Human affect recognition. She is presently Senior Editor with IEEE/RAS Robotics and Automation Letter, Associate Editor with IEEE/RAS Transactions in Robotics, Associate Editor with the Journal of Robotics and Mechatronics. She coordinates several <a href="https://www.jsps.go.jp/english/" target="_self">JSPS</a> Kakenhi projects and other domestic funding.
@@ -316,6 +317,7 @@
     - role: permanent
       to: 2020-03-31
   nationality: jp
+  scholar: "https://scholar.google.co.jp/citations?hl=en&user=aqKxVlQAAAAJ"
 - id: imamura
   given: Yumeko
   family: Imamura
@@ -326,6 +328,7 @@
     - role: permanent
       to: 2021-03-31
   nationality: jp
+  scholar: "https://scholar.google.co.jp/citations?hl=en&user=CeHQRb8AAAAJ"
   bio: >
     received the master degree of Information Science and Technology and Ph.D. in the field of Systems Science and Informatics from Hokkaido University, Japan, in 2011 and 2014 respectively. From 2014 to 2015, she served as a Research Fellow of Japan Society for the Promotion of Science at Hokkaido University. She is currently a researcher of Human Augmentation Research Center, National Institute of Advanced Industrial Science and Technology (AIST), and a researcher of CNRS-AIST Joint Robotics Laboratory, UMI3218/RL, Japan. Her research interests include biomechanics, human modeling, and power assistive technologies.
 - id: yoshiyasu
@@ -387,6 +390,7 @@
   from: 2020-04-01
   nationality: jp
   website: "https://staff.aist.go.jp/k.kaneko/index_e.html"
+  scholar: "https://scholar.google.co.jp/citations?hl=en&user=vaXY3QMAAAAJ"
   bio: >
     received the B.E., M.E., and Ph.D. in electrical engineering from Keio University in 1988, 1990, and 1997, respectively. In 1990, he joined the Mechanical Engineering Laboratory, Agency of Industrial Science and Technology, Ministry of Industrial Science and Technology (AIST-MITI). From September 1995, he was a visiting researcher at the Carnegie Mellon University, U.S.A. for half a year. From October 1999, he was also a visiting researcher at the Paris Robotics Laboratory(LRP), CNRS, France for one year. He is currently the chief senior researcher of the Intelligent Systems Research Institute, AIST. His research interests include motion control and humanoid robot. He received the best video award of the IEEE International Conference on Robotics and Automation in 2004, the best paper award (oral category) of the IEEE-RAS International Conference on Humanoid Robots in 2009, and others.
 - id: kaminaga
@@ -480,6 +484,7 @@
   name-jp: 山野辺 夏樹
   role: adjunct
   nationality: jp
+  scholar: "https://scholar.google.co.jp/citations?hl=en&user=gjIe_FcAAAAJ"
 - id: hu
   given: Yue 
   family: Hu
