@@ -21,6 +21,7 @@
     given: Kazuo
   pdf: https://www.tandfonline.com/doi/pdf/10.1163/156855398X00343?needAccess=true
   lab: jrl
+  month: october
 - id: yoshida:ar:1998
   year: 1998
   title: 'Local Communication of Multiple Mobile Robots: Design of Group Behavior
@@ -33,7 +34,6 @@
   - family: Ota
     given: Jun
   pdf: https://staff.aist.go.jp/e.yoshida/papers/adv-robo98.pdf
-  lab: jrl
 - id: yoshida:jrs:1998
   year: 1998
   title: 'Local Communication of Multiple Mobile Robots: Design of Optimal Communication
@@ -48,7 +48,7 @@
   - family: Ota
     given: Jun
   pdf: https://staff.aist.go.jp/e.yoshida/papers/jrs98.pdf
-  lab: jrl
+  month: july
 - id: yoshida:ar:1999
   year: 1999
   title: A Distributed Method for Reconfiguration of 3-D Homogeneous Structure
@@ -64,7 +64,7 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://staff.aist.go.jp/e.yoshida/papers/adv-robo99.pdf
-  lab: jrl
+  month: january
 - id: yoshida:ras:1999
   year: 1999
   title: An Experimental Study on a Self-repairing Modular Machine
@@ -80,7 +80,7 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://staff.aist.go.jp/e.yoshida/papers/robauto98.pdf
-  lab: jrl
+  month: october
 - id: tomita:tra:1999
   year: 1999
   title: A Self-Assembly and Self-Repair Method for a Distributed Mechanical System
@@ -96,7 +96,7 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://staff.aist.go.jp/e.yoshida/papers/TRA99.pdf
-  lab: jrl
+  month: january
 - id: yoshida:itc:2000
   year: 2000
   title: Performance Analysis of Local Communication by Cooperating Mobile Robots
@@ -106,7 +106,7 @@
   - family: Arai
     given: Tamio
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ieice-2000.pdf
-  lab: jrl
+  month: may
 - id: yoshida:jrm:2000
   year: 2000
   title: Miniaturization of Self-reconfigurable Robotic System using Shape Memory
@@ -123,7 +123,7 @@
   - family: Kurokawa
     given: Haruhisa
   pdf: https://www.researchgate.net/publication/3828280_Miniaturized_self-reconfigurable_system_using_shape_memory_alloy
-  lab: jrl
+  month: april
 - id: murata:aiie:2001
   year: 2001
   title: Concept of Self-Reconfigurable Modular Robotic System
@@ -138,7 +138,7 @@
     given: Kohji
   - family: Kokaji
     given: Shigeru
-  lab: jrl
+  month: october
 - id: murata:ar:2001
   year: 2001
   title: Self-Repairing Mechanical Systems
@@ -154,7 +154,7 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://www.researchgate.net/publication/220474469_Self-Repairing_Mechanical_Systems
-  lab: jrl
+  month: january
 - id: yoshida:jrm:2001
   year: 2001
   title: Micro Self-Reconfigurable Modular Robot Using Shape Memory Alloy
@@ -170,7 +170,6 @@
   - family: Kurokawa
     given: Haruhisa
   pdf: https://staff.aist.go.jp/e.yoshida/smaunit/papers/rm00.pdf
-  lab: jrl
 - id: huang:tra:2001
   year: 2001
   title: Planning Walking Patterns for a Biped Robot
@@ -189,6 +188,7 @@
   - family: Tanie
     given: Kazuo
   pdf: http://groups.csail.mit.edu/drl/journal_club/papers/Huang01.pdf
+  month: june
 - id: kheddar:tsmc:2001
   year: 2001
   title: Teleoperation based on the hidden robot concept
@@ -196,7 +196,7 @@
   authors:
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=903862
-  lab: jrl
+  month: january
 - id: redon:cgf:2002
   year: 2002
   title: Fast continuous collision detection between rigid bodies
@@ -208,7 +208,7 @@
   - family: Coquillart
     given: Sabine
   pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.19.5430&rep=rep1&type=pdf
-  lab: jrl
+  month: may
 - id: yoshida:ijrr:2002
   year: 2002
   title: 'A Self-Reconfigurable Modular Robot : Reconfiguration Planning and Experiments'
@@ -226,7 +226,7 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://unit.aist.go.jp/is/frrg/dsysd/mtran3/papers/IROS2001kami.pdf
-  lab: jrl
+  month: october
 - id: yoshida:jrm:2002
   year: 2002
   title: A Motion Generation Method for a Modular Robot
@@ -244,7 +244,7 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://staff.aist.go.jp/e.yoshida/papers/rm02.pdf
-  lab: jrl
+  month: january
 - id: arioui:irs:2003
   year: 2003
   title: A model-based controller for interactive force reflecting virtual environment
@@ -257,6 +257,7 @@
   - family: Mammar
     given: Said
   pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.100.6585&rep=rep1&type=pdf
+  month: june
 - id: yoshida:jrm:2003
   year: 2003
   title: Evolutionary Motion Synthesis for a Modular Robot using Genetic Algorithm
@@ -274,7 +275,7 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://staff.aist.go.jp/e.yoshida/papers/rm03.pdf
-  lab: jrl
+  month: july
 - id: kamimura:jsme:2003
   year: 2003
   title: Research on Self-Reconfigurable Modular Robot System
@@ -293,7 +294,6 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://www.jstage.jst.go.jp/article/jsmec/46/4/46_4_1490/_pdf/-char/en
-  lab: jrl
 - id: yoshida:ram:2003
   year: 2003
   title: Get Back In Shape! A Hardware Prototype Self-Reconfigurable Modular Microrobot
@@ -312,7 +312,6 @@
   - family: Kurokawa
     given: Haruhisa
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ramag02.pdf
-  lab: jrl
 - id: kurokawa:tm:2003
   year: 2003
   title: 'M-TRAN II: Metamorphosis from a Four-Legged Walker to a Caterpillar'
@@ -328,7 +327,7 @@
   - family: Kokaji
     given: Shigeru
   pdf: https://unit.aist.go.jp/is/frrg/dsysd/mtran3/papers/IROS2003.pdf
-  lab: jrl
+  month: november
 - id: kanehiro:ijrr:2004
   year: 2004
   title: 'OpenHRP: A Software Platform for Humanoid Robotics'
@@ -339,6 +338,7 @@
     given: Hirohisa
   - id: kajita
   pdf: https://journals.sagepub.com/doi/pdf/10.1177/0278364904041324?casa_token=3rxP9SFtPt4AAAAA:wH6FDbOpKJ09FMXtgl8roqY9PRDNRuQ8J1hLcRefE31UB7r93Ho1MlE3eJOzLbRu6TYBz5oF1OXn
+  month: february
 - id: yokoi:ijrr:2004
   year: 2004
   title: Experimental Study of Humanoid Robot HRP-1S
@@ -354,6 +354,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: file:///C:/Users/snkarc73/Downloads/Experimental_study_of_humanoid_robot_HRP-1S.pdf
+  month: april
 - id: hirukawa:ras:2004
   year: 2004
   title: Humanoid robotics platforms developed in HRP
@@ -397,6 +398,7 @@
   - family: Inoue
     given: Hirochika
   pdf: http://www.tachilab.org/content/files/publication/tp/hirukawa200409RAS.pdf
+  month: october
 - id: bresciani:ebr:2005
   year: 2005
   title: 'Feeling what you hear: auditory signals can modulate tactile tap perception'
@@ -415,6 +417,7 @@
   - id: kheddar
   pdf: http://perso.unifr.ch/jean-pierre.bresciani/publications/Bresciani05a.pdf
   lab: jrl
+  month: may
 - id: hirukawa:ijrr:2005
   year: 2005
   title: The Human-Size Humanoid Robot That Can Walk, Lie Down and Get Up
@@ -428,6 +431,7 @@
   - family: Isozumi
     given: Takakatsu
   pdf: https://journals.sagepub.com/doi/pdf/10.1177/0278364905057217?casa_token=x-WSzPFpvEQAAAAA:p3POc-tEpJ3zZIhSBH_ygHRPCC4Xvuldxguo_tW983Sp5VHcCScmSGORrrdYOiRCoCKPeekL4tBx
+  month: september
 - id: kamimura:tm:2005
   year: 2005
   title: Automatic Locomotion Design and Experiments for a Modular Robotic System
@@ -446,6 +450,7 @@
     given: Shigeru
   pdf: https://staff.aist.go.jp/e.yoshida/papers/TransMech05.pdf
   lab: jrl
+  month: june
 - id: sagawa:tpami:2005
   year: 2005
   title: Adaptively Merging Large-Scale Range Data with Reflectance Properties ",
@@ -458,6 +463,7 @@
     given: Katsushi
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1388265
   lab: jrl
+  month: march
 - id: yoshida:abb:2006
   year: 2006
   title: 'Pivoting a large object: whole-body manipulation by a humanoid robot'
@@ -474,6 +480,7 @@
     given: Kensuke
   pdf: http://downloads.hindawi.com/journals/abb/2006/683746.pdf
   lab: jrl
+  month: april
 - id: harada:ijhr:2006
   year: 2006
   title: An Analytical Method on Real-time Gait Planning for a Humanoid Robot", Journal
@@ -486,6 +493,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: http://www.cs.cmu.edu/~cga/ew/harada-ijhr04.pdf
+  month: march
 - id: kurokawa:ras:2006
   year: 2006
   title: Self-reconfigurable M-TRAN structures and walker generation
@@ -525,6 +533,7 @@
     given: Claude
   pdf: https://www.sciencedirect.com/science/article/abs/pii/S0379677906002189
   lab: jrl
+  month: december
 - id: duriez:tm:2006
   year: 2006
   title: Realistic haptic rendering of interactive deformable objects in virtual environments
@@ -539,6 +548,7 @@
     given: Claude
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1541998
   lab: jrl
+  month: january
 - id: harada:tro:2006
   year: 2006
   title: Dynamics and Balance of a Humanoid Robot during Manipulation Tasks
@@ -551,6 +561,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://www.researchgate.net/profile/Kensuke-Harada/publication/3450308_Dynamics_and_balance_of_a_humanoid_robot_during_manipulation_tasks/links/53d612a80cf220632f3d756d/Dynamics-and-balance-of-a-humanoid-robot-during-manipulation-tasks.pdf
+  month: june
 - id: benalikhoudja:dis:2007
   year: 2007
   title: 'VITAL: an electromagnetic integrated tactile display'
@@ -563,6 +574,7 @@
   - id: kheddar
   pdf: https://www.sciencedirect.com/science/article/abs/pii/S014193820700025X
   lab: jrl
+  month: july
 - id: ikeuchi:ijcv:2007
   year: 2007
   title: 'The Great Buddha Project: Digitally Archiving, Restoring, and Analyzing
@@ -605,6 +617,7 @@
   - family: Ikeuchi
     given: Katsushi
   pdf: https://www.cvl.iis.u-tokyo.ac.jp/~ki/papers/nakaoka-07.pdf
+  month: august
 - id: yagi:infla:2007
   year: 2007
   title: A diagnosis support system for capsule endoscopy
@@ -625,6 +638,7 @@
     given: Tetsuo
   pdf: https://www.mica.edu.vn/perso/Vu-Hai/Inflammopharmacology2007.pdf
   lab: jrl
+  month: april
 - id: hirukawa:ram:2007
   year: 2007
   title: Dinosaur Robotics for Entertainment Applications
@@ -637,6 +651,7 @@
   - id: kajita
   - id: morisawa
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4337966
+  month: september
 - id: kajita:ram:2007
   year: 2007
   title: ZMP-based Biped Running Control (The HRP-2LR Humanoid Biped Robot)
@@ -649,6 +664,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2007_publications/ICRA2007-0248.pdf
+  month: july
 - id: neo:tro:2007
   year: 2007
   title: Whole-Body Motion Generation Integrating Operator's Intention and Robot's
@@ -664,6 +680,7 @@
     given: Kazuo
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4285856
   lab: jrl
+  month: august
 - id: mannami:vcir:2007
   year: 2007
   title: Adaptive dynamic range camera with reflective liquid crystal
@@ -680,6 +697,7 @@
     given: Yasushi
   pdf: http://omilab.naist.jp/~mukaigawa/papers/MIRU2006-WDRI.pdf
   lab: jrl
+  month: october
 - id: stasse:ar:2008
   year: 2008
   title: Modular architecture for humanoid walking pattern prototyping and experiments
@@ -700,6 +718,7 @@
     given: Kazuhito
   pdf: http://www.cs.cmu.edu/~cga/ew/stasse-advrob08.pdf
   lab: jrl
+  month: june
 - id: vidal:ast:2008
   year: 2008
   title: Synthesis and Characterization of IPNs for Electrochemical Actuators
@@ -722,6 +741,7 @@
     given: Dominique
   pdf: https://www.sciencedirect.com/science/article/abs/pii/S0032386105004921
   lab: jrl
+  month: september
 - id: hauser:ijrr:2008
   year: 2008
   title: Motion Planning for Legged Robots on Varied Terrain
@@ -738,6 +758,7 @@
   - family: Wilcox
     given: Brian
   pdf: http://ai.stanford.edu/~latombe/papers/ijrr-08/paper.pdf
+  month: november
 - id: sagawa:tpami:2008
   year: 2008
   title: Hole Filling of a 3D Model by Flipping Signs of a Signed Distance Field in
@@ -749,6 +770,7 @@
     given: Katsushi
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4359341
   lab: jrl
+  month: april
 - id: yoshida:tro:2008
   year: 2008
   title: Planning 3D Collision-Free Dynamic Robotic Motion through Iterative Reshaping
@@ -766,6 +788,7 @@
     given: Kazuhito
   pdf: https://staff.aist.go.jp/e.yoshida/papers/TRO-yoshida-08.pdf
   lab: jrl
+  month: october
 - id: nehaoua:tvt:2008
   year: 2008
   title: Design and control of small-clearance driving simulator
@@ -784,6 +807,7 @@
   - id: kheddar
   pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.594.1341&rep=rep1&type=pdf
   lab: jrl
+  month: march
 - id: kawk:ar:2009
   year: 2009
   title: Analysis of Rank-Based Resampling Based on Particle Diversity in the Rao-Blackwellized
@@ -798,6 +822,7 @@
     given: Beom-Hee
   pdf: https://www.tandfonline.com/doi/pdf/10.1163/016918610X487126
   lab: jrl
+  month: april
 - id: yoshida:cavw:2009
   year: 2009
   title: 'Motion Autonomy for Humanoids: Experiments on HRP-2 No. 14'
@@ -817,6 +842,7 @@
     given: Kazuhito
   pdf: https://staff.aist.go.jp/e.yoshida/papers/cavw_yoshida_2009.pdf
   lab: jrl
+  month: february
 - id: vu:cbm:2009
   year: 2009
   title: Detection of Contractions in Adaptive Transit Time of the Small Bowel from
@@ -840,6 +866,7 @@
     given: Yasushi
   pdf: https://www.deepdyve.com/lp/elsevier/detection-of-contractions-in-adaptive-transit-time-of-the-small-bowel-BoQNHehmn7
   lab: jrl
+  month: january
 - id: makihara:elcvia:2009
   year: 2009
   title: Gait Identification Considering Body Tilt by Walking Direction Changes
@@ -856,6 +883,7 @@
     given: Yasushi
   pdf: http://www.am.sanken.osaka-u.ac.jp/~makihara/pdf/Elcvia2009Apr.pdf
   lab: jrl
+  month: april
 - id: dominey:ijhr:2009
   year: 2009
   title: Real-Time Spoken-Language Programming for Cooperative Interaction with a
@@ -869,6 +897,7 @@
   - id: yoshida
   pdf: https://www.researchgate.net/publication/220065756_Real-Time_Spoken-Language_Programming_for_Cooperative_Interaction_with_a_Humanoid_Apprentice
   lab: jrl
+  month: june
 - id: sakaguchi:ijra:2009
   year: 2009
   title: Design of common environmental information for door-closing tasks with various
@@ -886,6 +915,7 @@
     given: Kazuyoshi
   pdf: https://www.researchgate.net/profile/Takeshi-Sakaguchi/publication/220565645_Design_of_Common_Environmental_Information_for_Door-Closing_Tasks_with_Various_Robots/links/00b7d534e384a6c902000000/Design-of-Common-Environmental-Information-for-Door-Closing-Tasks-with-Various-Robots.pdf
   lab: jrl
+  month: january
 - id: vu:ima:2009
   year: 2009
   title: Controlling the Display of Capsule Endoscopy Video for Diagnostic Assistance
@@ -908,6 +938,7 @@
     given: Yasushi
   pdf: http://www.am.sanken.osaka-u.ac.jp/~vhai/documents/e92-d_3_512.pdf
   lab: jrl
+  month: march
 - id: stasse:isr:2009
   year: 2009
   title: 'Integration of humanoid robots in collaborative working environment: a case
@@ -927,6 +958,7 @@
     given: Wolfgang
   pdf: https://link.springer.com/content/pdf/10.1007/s11370-009-0045-8.pdf
   lab: jrl
+  month: june
 - id: harada:jrm:2009
   year: 2009
   title: Kinodynamic Planning for Humanoid Robots walking on Uneven Terrain
@@ -939,6 +971,7 @@
   - id: kaneko
   - id: kajita
   pdf: http://www.cs.cmu.edu/~cga/ew/harada1.pdf
+  month: june
 - id: tsunoo:jrm:2009
   year: 2009
   title: Intelligent Ambience that can Influence Robot Behavior
@@ -952,6 +985,7 @@
   - family: Wada
     given: Kazuyoshi
   pdf: https://www.fujipress.jp/main/wp-content/themes/Fujipress/pdf_subscribed.php
+  month: october
 - id: guiatni:ptve:2009
   year: 2009
   title: Thermal display for telepresence based on neural identification and heat
@@ -963,6 +997,7 @@
   - id: benalleguea
   - id: kheddar
   lab: jrl
+  month: april
 - id: furukawa:tcva:2009
   year: 2009
   title: Shape from Grid Pattern Based on Coplanarity Constraints for One-shot Scanning
@@ -977,6 +1012,7 @@
     given: Yasushi
   pdf: http://www.am.sanken.osaka-u.ac.jp/publications/static/files/0483/furukawa09:_shape_from_grid.pdf
   lab: jrl
+  month: september
 - id: ngo:tcva:2009
   year: 2009
   title: Highly Robust Estimator Using a Casedependent Residual Distribution Model
@@ -994,6 +1030,7 @@
   - family: Yagi
     given: Yasushi
   pdf: http://omilab.naist.jp/~mukaigawa/papers/TCVA2009-RobustEstimator.pdf
+  month: november
 - id: mansard:tro:2009
   year: 2009
   title: A unified approach to integrate unilateral constraints in the stack of tasks
@@ -1006,6 +1043,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4926146
   lab: jrl
+  month: june
 - id: mohellebi:tvt:2009
   year: 2009
   title: Adaptive haptic feedback steering wheel for driving simulators,
@@ -1018,6 +1056,7 @@
     given: Stéphane
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4607237
   lab: jrl
+  month: june
 - id: mombaur:ar:2010
   year: 2010
   title: An Optimal Control-Based Formulation to Determine Natural Locomotor Paths
@@ -1031,6 +1070,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/AR10_final.pdf
   lab: jrl
+  month: march
 - id: yoshida:auro:2010
   year: 2010
   title: Pivoting based manipulation by a humanoid robot
@@ -1051,6 +1091,7 @@
     given: Kazuhito
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshida09AURO.pdf
   lab: jrl
+  month: january
 - id: foissotte:ijhr:2010
   year: 2010
   title: Autonomous 3d Object Modeling by a Humanoid Using an Optimization-Driven
@@ -1067,6 +1108,7 @@
   - id: kheddar
   pdf: https://hal.inria.fr/file/index/docid/567850/filename/IJHRSpecialIssueSept2010_nbv.pdf
   lab: jrl
+  month: september
 - id: kang:ijpem:2010
   year: 2010
   title: Control of Impulsive Contact Force between Mobile Manipulator and Environment
@@ -1086,6 +1128,7 @@
   - family: Park
     given: Shinsuk
   pdf: https://link.springer.com/content/pdf/10.1007/s12541-010-0082-4.pdf
+  month: october
 - id: ngo:itis:2010
   year: 2010
   title: Real-time Estimation of Fast Egomotion with Feature Classification using
@@ -1106,6 +1149,7 @@
   - family: Yagi
     given: Yasushi
   pdf: https://www.jstage.jst.go.jp/article/transinf/E93.D/1/E93.D_1_152/_pdf/-char/en
+  month: january
 - id: tsuji:jrm:2010
   year: 2010
   title: Grasp Planning for a Multi-fingered Hand with a Humanoid Robot
@@ -1120,6 +1164,7 @@
   - family: Maruyama
     given: Kenichi
   pdf: https://www.fujipress.jp/main/wp-content/themes/Fujipress/pdf_subscribed.php
+  month: april
 - id: yamanobe:jrm:2010
   year: 2010
   title: Integration of Manipulation, Locomotion, and Communication Intelligent RT
@@ -1140,6 +1185,7 @@
   - family: Takano
     given: Yosuke
   pdf: https://www.fujipress.jp/main/wp-content/themes/Fujipress/pdf_subscribed.php
+  month: june
 - id: vidal:pint:2010
   year: 2010
   title: 'Poly(3,4-ethylenedioxythiophene)containing semi-interpenetrating polymer
@@ -1174,6 +1220,7 @@
     given: Dominique
   pdf: https://www.onlinelibrary.wiley.com/doi/epdf/10.1002/pi.2772
   lab: jrl
+  month: january
 - id: harada:tm:2010
   year: 2010
   title: Two-Stage Time-Parametrized Gait Planning for Humanoid Robots
@@ -1190,6 +1237,7 @@
   - id: yoshida
   pdf: http://lars.mec.ua.pt/public/LAR%20Projects/Humanoid/2011_WilliamLage/Alguns%20papers/Two-Stage%20Time-Parametrized%20Gait%20Planning%20for%20Humanoid%20Robots.pdf
   lab: jrl
+  month: november
 - id: suleiman:tro:2010
   year: 2010
   title: Time Parameterization of Humanoid-Robot Paths
@@ -1205,6 +1253,7 @@
     given: André
   pdf: https://staff.aist.go.jp/e.yoshida/papers/TRO_TimePlanner_Final_Submission.pdf
   lab: jrl
+  month: july
 - id: suleiman:ar:2011
   year: 2011
   title: 'Enhancing Zero Moment Point-Based Control Model: System Identification Approach'
@@ -1218,6 +1267,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/AR2863.pdf
   lab: jrl
+  month: february
 - id: guiatni:dsmc:2011
   year: 2011
   title: Modelling, identification and control of Peltier thermoelectric modules for
@@ -1230,6 +1280,7 @@
   - id: kheddar
   pdf: https://pdfs.semanticscholar.org/b2d4/7cd051f5dfbd51ea9ef81038ab0164d7d35c.pdf
   lab: jrl
+  month: may
 - id: kanoun:ijrr:2011
   year: 2011
   title: 'Planning Foot Placements for a Humanoid Robot: a Problem of Inverse Kinematics'
@@ -1242,6 +1293,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ijrr2011-kanoun.pdf
   lab: jrl
+  month: april
 - id: peterlik:toh:2011
   year: 2011
   title: Constraint-based haptic rendering of multirate compliant mechanisms
@@ -1258,6 +1310,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5963670
   lab: jrl
+  month: july
 - id: bouyarmane:ar:2012
   year: 2012
   title: Humanoid robot locomotion and manipulation step planning
@@ -1268,6 +1321,7 @@
   - id: kheddar
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2012.686345?needAccess=true
   lab: jrl
+  month: june
 - id: hayet:ijhr:2012
   year: 2012
   title: Humanoid Locomotion Planning for Visually-Guided Tasks
@@ -1284,6 +1338,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/hayet-ijhr12.pdf
   lab: jrl
+  month: june
 - id: daribo:res:2012
   year: 2012
   title: Efficient Rate-Distortion Compression of Dynamic Point Cloud for Grid-Pattern-Based
@@ -1303,6 +1358,7 @@
     given: Naoki
   pdf: https://www.researchgate.net/publication/256104117_Efficient_rate-distortion_compression_of_dynamic_point_cloud_for_grid-pattern-based_3D_scanning_systems
   lab: jrl
+  month: january
 - id: furukawa:tcva:2012
   year: 2012
   title: Entire Shape Acquisition Technique Using Multiple Projectors and Cameras
@@ -1322,6 +1378,7 @@
     given: Naoki
   pdf: https://www.jstage.jst.go.jp/article/ipsjtcva/4/0/4_0_40/_pdf/-char/en
   lab: jrl
+  month: march
 - id: sakashita:tcva:2012
   year: 2012
   title: Capturing Textured 3D Shapes based on Infrared One-shot Grid Pattern
@@ -1338,6 +1395,7 @@
     given: Yasushi
   pdf: https://www.jstage.jst.go.jp/article/imt/7/4/7_1556/_pdf/-char/en
   lab: jrl
+  month: october
 - id: liu:tro:2012
   year: 2012
   title: 'Interactive Virtual Humans: A Two-Level Prioritized Control Framework with
@@ -1355,6 +1413,7 @@
     given: Claude
   pdf: https://raw.githubusercontent.com/aescande/website/955bc5638f85f4d030c0ea141c50861dcb927ce8/papers/2012_ITRO_Liu.pdf
   lab: jrl
+  month: december
 - id: perrin:tro:2012
   year: 2012
   title: Fast Humanoid Robot Collision-free Footstep Planning using Swept Volume Approximations
@@ -1371,6 +1430,7 @@
   - id: yoshida
   pdf: http://homepages.laas.fr/florent/publi/2012ieee-tro-np.pdf
   lab: jrl
+  month: january
 - id: perrin:ar:2013
   year: 2013
   title: 'Humanoid motion generation and swept volumes: theoretical bounds for safe
@@ -1386,6 +1446,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Perrin-AR2013.pdf
   lab: jrl
+  month: october
 - id: rojas:ijma:2013
   year: 2013
   title: Towards Snap Sensing
@@ -1405,6 +1466,7 @@
     given: Yoshihiro
   pdf: https://staff.aist.go.jp/e.yoshida/papers/IJMA030201%20HARADA.pdf
   lab: jrl
+  month: january
 - id: lengagne:ijrr:2013
   year: 2013
   title: Generation of Whole-body Optimal Dynamic Multi-contact Motions
@@ -1417,6 +1479,7 @@
   - id: kheddar
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ijrr-lengagne-2013.pdf
   lab: jrl
+  month: august
 - id: ikeda:kbs:2013
   year: 2013
   title: Twitter user profiling based on text and community mining for market analysis
@@ -1433,6 +1496,7 @@
   - family: Higashino
     given: Teruo
   pdf: https://isiarticles.com/bundles/Article/pre/pdf/47689.pdf
+  month: october
 - id: kwak:kros:2013
   year: 2013
   title: Strategic games for particle survival in Rao-Blacwellized particle filter
@@ -1446,6 +1510,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: http://www.koreascience.or.kr/article/JAKO200917161877595.pdf
+  month: may
 - id: escande:ras:2013
   year: 2013
   title: Planning contact points for humanoid robots
@@ -1457,6 +1522,7 @@
     given: Sylvain
   pdf: https://hal-lirmm.ccsd.cnrs.fr/file/index/docid/800829/filename/2013_ras_escande-planning_contact_points_for_humanoid_robots.pdf
   lab: jrl
+  month: october
 - id: asano:taslp:2013
   year: 2013
   title: Sound Source Localization Using Joint Bayesian Estimation With a Hierarchical
@@ -1470,6 +1536,7 @@
   - family: Nakadai
     given: Kazuhiro
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6516043
+  month: september
 - id: guiatni:tm:2013
   year: 2013
   title: A combined force and thermal feedback interface for minimally-invasive procedure
@@ -1487,6 +1554,7 @@
     given: Stéphane
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6209433
   lab: jrl
+  month: june
 - id: saab:tro:2013
   year: 2013
   title: Dynamic whole-body motion generation under rigid contacts and other unilateral
@@ -1506,6 +1574,7 @@
     given: Jean-Yves
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6482266
   lab: jrl
+  month: april
 - id: kanehiro:ar:2014
   year: 2014
   title: Efficient reaching motion planning method for low-level autonomy of teleoperated
@@ -1530,6 +1599,7 @@
   - id: kanehiro
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu-SGP14.pdf
   lab: jrl
+  month: august
 - id: tidoni:fin:2014
   year: 2014
   title: Audio-visual feedback improves the BCI performance in the navigational control
@@ -1544,6 +1614,7 @@
     given: Salvatore
   pdf: https://www.researchgate.net/publication/263356987_Audio-visual_feedback_improves_the_BCI_performance_in_the_navigational_control_of_a_humanoid_robot
   lab: jrl
+  month: june
 - id: bouyarmane:fsn:2014
   year: 2014
   title: Brain-machine interfacing control of whole-body humanoid motion
@@ -1561,6 +1632,7 @@
     given: Jun
   pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4122163/pdf/fnsys-08-00138.pdf/?tool=EBI
   lab: jrl
+  month: august
 - id: ayusawa:ijrr:2014
   year: 2014
   title: Identifiability and identification of inertial parameters using the underactuated
@@ -1585,6 +1657,7 @@
     given: Pierre-Brice
   pdf: https://hal.archives-ouvertes.fr/file/index/docid/751924/filename/m.pdf
   lab: jrl
+  month: may
 - id: wakasugi:jtpsj:2014
   year: 2014
   title: Verification of Effectiveness of a Probabilistic Algorithm for Latent Structure
@@ -1601,6 +1674,7 @@
     given: Hideki
   - family: Okada
     given: Masato
+  month: october
 - id: ayusawa:mmt:2014
   year: 2014
   title: Simultaneous global inverse kinematics and geometric parameter identification
@@ -1614,6 +1688,7 @@
     given: Yoshihiko
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2014_IJRR.pdf
   lab: jrl
+  month: april
 - id: ganesh:naco:2014
   year: 2014
   title: Immediate tool incorporation processes determine human motor planning with
@@ -1629,6 +1704,7 @@
     given: Takashi
   pdf: https://www.nature.com/articles/ncomms5524.pdf
   lab: jrl
+  month: july
 - id: cohen:pvar:2014
   year: 2014
   title: 'fMRI-based robotic embodiment: Controlling a humanoid robot by thought using
@@ -1648,6 +1724,7 @@
     given: Doron
   pdf: https://www.idc.ac.il/he/research/arl/Documents/publications/fMRI-based_robotic_embodiment.pdf
   lab: jrl
+  month: october
 - id: mombaur:ram:2014
   year: 2014
   title: Model-based optimization for robotics
@@ -1664,6 +1741,7 @@
     given: Chris
   pdf: https://www.researchgate.net/publication/265555860_Model-Based_Optimization_for_Robotics_TC_Spotlight
   lab: jrl
+  month: september
 - id: dimitrov:rsj:2014
   year: 2014
   title: Multi-objective control of robots
@@ -1708,6 +1786,7 @@
     given: Etienne
   pdf: https://www.nature.com/articles/srep03824.pdf
   lab: jrl
+  month: january
 - id: ikegami:scir:2014
   year: 2014
   title: Watching novice action degrades expert's performance -- Evidence that the
@@ -1719,6 +1798,7 @@
   - id: ganesh
   pdf: https://www.nature.com/articles/srep06989.pdf
   lab: jrl
+  month: november
 - id: pistohl:tnsre:2014
   year: 2014
   title: Artificial proprioceptive feedback for myoelectric control
@@ -1735,6 +1815,7 @@
     given: Kianoush
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6894608
   lab: jrl
+  month: september
 - id: sagawa:tpami:2014
   year: 2014
   title: Dense 3D Reconstruction from High Frame-Rate Video using a Static Grid Pattern",
@@ -1748,6 +1829,7 @@
     given: Hiroshi
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6714483
   lab: jrl
+  month: january
 - id: escande:tro:2014
   year: 2014
   title: A Strictly Convex Hull for Computing Proximity Distances with Continuous
@@ -1761,6 +1843,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01079783/file/06710113.pdf
   lab: jrl
+  month: june
 - id: okamoto:tro:2014
   year: 2014
   title: 'Toward a Dancing Robot With Listening Capability: Keypose-Based Integration
@@ -1777,6 +1860,7 @@
   - family: Ikeuchi
     given: Katsushi
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6730703
+  month: june
 - id: makihara:tsp:2014
   year: 2014
   title: Phase Estimation of a Single Quasi-Periodic Signal
@@ -1796,6 +1880,7 @@
   - family: Yagi
     given: Yasushi
   pdf: http://www.am.sanken.osaka-u.ac.jp/~makihara/pdf/tsp_2014Apr.pdf
+  month: april
 - id: mittendorfer:ar:2015
   year: 2015
   title: Realizing Whole-body Tactile Interactions with a Self-organizing, Multi-modal
@@ -1809,6 +1894,7 @@
     given: Gordon
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Mittendorfer_2014AR.pdf
   lab: jrl
+  month: january
 - id: daachi:asc:2015
   year: 2015
   title: A radial basis function neural network adaptive controller to drive a powered
@@ -1824,6 +1910,7 @@
     given: Karim
   pdf: https://www.sciencedirect.com/science/article/pii/S1568494615002616
   lab: jrl
+  month: september
 - id: gergondet:bci:2015
   year: 2015
   title: SSVEP stimuli design for object-centric BCI
@@ -1832,6 +1919,7 @@
   - id: gergondet
   - id: kheddar
   lab: jrl
+  month: january
   projects:
   - vere
 - id: hobara:jek:2015
@@ -1848,6 +1936,7 @@
     given: Masaaki
   pdf: https://staff.aist.go.jp/e.yoshida/papers/JEK2015Hobara.pdf
   lab: jrl
+  month: february
 - id: melingui:tm:2015
   year: 2015
   title: Adaptive Neural Net- work Control of a Compact Bionic Handling Arm
@@ -1864,6 +1953,7 @@
     given: Rochdi
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7057549
   lab: jrl
+  month: december
 - id: ayusawa:ar:2016
   year: 2016
   title: New evaluation framework for human-assistive devices based on humanoid robotics
@@ -1876,6 +1966,7 @@
     given: Takayuki
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2016_AR.pdf
   lab: jrl
+  month: february
 - id: cisneros:ar:2016
   year: 2016
   title: 'Effective teleoperated manipulation for humanoid robots in partially unknown
@@ -1891,6 +1982,7 @@
   - id: sakaguchi
   - id: kanehiro
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2016.1250674?needAccess=true
+  month: november
 - id: vaillant:auro:2016
   year: 2016
   title: Multi-Contact Vertical Ladder Climbing with a HRP-2 Humanoid
@@ -1912,6 +2004,7 @@
   - id: kanehiro
   pdf: https://members.loria.fr/kbouyarmane/auton_robots.pdf
   lab: jrl
+  month: march
 - id: aymerichfranch:cac:2016
   year: 2016
   title: 'The second me: seeing the real body during humanoid embodiment produces
@@ -1925,6 +2018,7 @@
   - id: kheddar
   pdf: https://www.sciencedirect.com/science/article/abs/pii/S1053810016303038
   lab: jrl
+  month: november
 - id: yoshiyasu:compg:2016
   year: 2016
   title: Symmetry Aware Embedding for Shape Correspondence
@@ -1936,6 +2030,7 @@
     given: Leonidas
   pdf: https://www.researchgate.net/publication/305750848_Symmetry_Aware_Embedding_for_Shape_Correspondence
   lab: jrl
+  month: november
 - id: zhang:curb:2016
   year: 2016
   title: Dissociable learning processes underlie human pain conditioning
@@ -1952,6 +2047,7 @@
     given: Ben
   pdf: https://www.cell.com/current-biology/pdf/S0960-9822(15)01360-3.pdf
   lab: jrl
+  month: january
 - id: cisneros:ijhr:2016
   year: 2016
   title: 'Impulsive Pedipulation of a Spherical Object with 3D Goal Position by a
@@ -1964,6 +2060,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Cisneros_IJHR2016.pdf
   lab: jrl
+  month: march
 - id: escande:ima:2016
   year: 2016
   title: Fast closest logarithm algorithm in the special orthogonal group
@@ -1972,6 +2069,7 @@
   - id: escande
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2016_IMAJNA_Escande.pdf
   lab: jrl
+  month: april
 - id: madani:mech:2016
   year: 2016
   title: 'Non-singular terminal sliding mode controller: Application to an actuated
@@ -1985,6 +2083,7 @@
     given: Karim
   pdf: https://www.sciencedirect.com/science/article/pii/S0957415815001737
   lab: jrl
+  month: february
 - id: aymerichfranch:neur:2016
   year: 2016
   title: The role of functionality in the body model for self-attribution
@@ -1995,6 +2094,7 @@
   - id: ganesh
   pdf: https://www.sciencedirect.com/science/article/pii/S0168010215002655
   lab: jrl
+  month: march
   projects:
   - kakenhiG_2015
 - id: borghesan:ral:2016
@@ -2012,6 +2112,7 @@
     given: Herman
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7348670
   lab: jrl
+  month: july
 - id: murai:ral:2016
   year: 2016
   title: Anatomographic volumetric skin-musculoskeletal model and its kinematic deformation
@@ -2025,6 +2126,7 @@
     given: Mitsunori
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7396939
   lab: jrl
+  month: july
 - id: aymerichfranch:rsos:2016
   year: 2016
   title: 'Forward modelling the rubber hand: illusion of ownership modifies motor-sensory
@@ -2038,6 +2140,7 @@
   - id: ganesh
   pdf: https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.160407
   lab: jrl
+  month: august
 - id: sreenivasa:tnsre:2016
   year: 2016
   title: Modeling and identification of a realistic spiking neural network and musculoskeletal
@@ -2051,6 +2154,7 @@
     given: Yoshihiko
   pdf: http://ro.uow.edu.au/cgi/viewcontent.cgi?article=2572&context=eispapers1
   lab: jrl
+  month: may
 - id: tidoni:tnsre:2016
   year: 2016
   title: 'The role of audio-visual feedback in a thought-based control of a humanoid
@@ -2065,6 +2169,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/7530928
   lab: jrl
+  month: june
 - id: chretien:tpds:2016
   year: 2016
   title: GPU Robot Motion Planning Using Semi-Infinite Nonlinear Programming
@@ -2075,6 +2180,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01266581/document
   lab: jrl
+  month: october
   projects:
   - robohow
 - id: carpentier:tro:2016
@@ -2091,6 +2197,7 @@
   - family: Laumond
     given: Jean-Paul
   pdf: https://hal.archives-ouvertes.fr/hal-01182734/file/15_tro_com_estimation.pdf
+  month: august
 - id: jovic:tro:2016
   year: 2016
   title: Humanoid and Human Inertia Parameter Identification Using Hierarchical Optimization
@@ -2105,6 +2212,7 @@
   - id: venture
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Jovic-identificaiton-ieee-tro2016.pdf
   lab: jrl
+  month: june
 - id: vaillant:tvcg:2016
   year: 2016
   title: Multi-character physical and behavioral interactions controller
@@ -2116,6 +2224,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7433460
   lab: jrl
+  month: june
 - id: aymerichfranch:cmc:2017
   year: 2017
   title: Object Touch by a Humanoid Robot Avatar Induces Haptic Sensation in the Real
@@ -2129,6 +2238,7 @@
   - id: kheddar
   pdf: https://academic.oup.com/jcmc/article/22/4/215/4666428
   lab: jrl
+  month: july
 - id: ikegami:eneuro:2017
   year: 2017
   title: Shared Mechanisms in the Estimation of Self-Generated Actions and the Prediction
@@ -2140,6 +2250,7 @@
   - id: ganesh
   pdf: https://www.eneuro.org/content/4/6/ENEURO.0341-17.2017.long
   lab: jrl
+  month: november
 - id: matsumoto:ieice:2017
   year: 2017
   title: 生活支援ロボットシステムを支えるエレクトロニクス
@@ -2164,6 +2275,7 @@
     given: Jean-Paul
   pdf: https://hal.archives-ouvertes.fr/hal-01377361v2/document
   lab: hrg
+  month: may
 - id: moro:ijhr:2017
   year: 2017
   title: Guest Editorial of the Special Issue on Whole-Body Control for Robots in
@@ -2183,6 +2295,7 @@
   - id: yoshida
   pdf: https://www.worldscientific.com/doi/pdf/10.1142/S0219843616020011
   lab: jrl
+  month: march
 - id: laumond:ijrr:2017
   year: 2017
   title: The Yoyo-Man
@@ -2196,6 +2309,7 @@
   - family: Berthoz
     given: Alain
   pdf: file:///C:/Users/snkarc73/Downloads/17-ijrr-yoyoman.pdf
+  month: december
 - id: aymerichfranch:ijsr:2017
   year: 2017
   title: Non-human Looking Robot Arms Induce Illusion of Embodiment
@@ -2208,6 +2322,7 @@
   - id: kheddar
   pdf: https://link.springer.com/article/10.1007/s12369-017-0397-8
   lab: jrl
+  month: september
 - id: ganesh:naco:2017
   year: 2017
   title: Activity in the dorsal ACC causes deterioration of sequential motor performance
@@ -2221,6 +2336,7 @@
     given: Masahiko
   pdf: https://www.researchgate.net/publication/335914619_Activity_in_the_dorsal_ACC_causes_deterioration_of_sequential_motor_performance_due_to_anxiety
   lab: jrl
+  month: september
 - id: takagi:nhb:2017
   year: 2017
   title: Physically interacting individuals estimate the partner's goal to enhance
@@ -2238,6 +2354,7 @@
     given: Etienne
   pdf: https://www.nature.com/articles/s41562-017-0054
   lab: jrl
+  month: march
 - id: coevoet:ral:2017
   year: 2017
   title: Optimization-Based Inverse Model of Soft Robots With Contact Handling
@@ -2250,6 +2367,7 @@
     given: Christian
   pdf: https://hal.inria.fr/hal-01500912
   lab: jrl
+  month: february
 - id: moro:ram:2017
   year: 2017
   title: Whole-Body Control [TC Spotlight]
@@ -2287,6 +2405,7 @@
   - id: yoshida
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8036320
   lab: jrl
+  month: september
 - id: demagistris:ras:2017a
   year: 2017
   title: Design of optimized soft soles for humanoid robots
@@ -2299,6 +2418,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01526014v2
   lab: jrl
+  month: september
   projects:
   - koroibot
 - id: demagistris:ras:2017b
@@ -2314,6 +2434,7 @@
   - id: kheddar
   pdf: https://www.sciencedirect.com/science/article/pii/S0921889016301245?via%3Dihub
   lab: jrl
+  month: september
   projects:
   - koroibot
 - id: ramirezalpizar:rb:2017
@@ -2328,6 +2449,7 @@
   - id: yoshida
   pdf: https://robomechjournal.springeropen.com/track/pdf/10.1186/s40648-017-0088-0
   lab: jrl
+  month: august
 - id: pirk:tg:2017
   year: 2017
   title: Understanding and Exploiting Object Interaction Landscapes
@@ -2350,6 +2472,7 @@
     given: Leonidas
   pdf: https://storage.googleapis.com/pirk.io/papers/Pirk.etal-2017-InteractionLandscapes.pdf
   lab: jrl
+  month: june
 - id: pham:tii:2017
   year: 2017
   title: Multi-Contact Interaction Force Sensing from Whole-Body Motion Capture
@@ -2361,6 +2484,7 @@
   - id: kheddar
   pdf: https://www.researchgate.net/publication/320574925_Multi-Contact_Interaction_Force_Sensing_from_Whole-Body_Motion_Capture
   lab: jrl
+  month: october
 - id: pham:tpami:2017
   year: 2017
   title: Hand-object contact force estimation from markerless visual tracking
@@ -2374,6 +2498,7 @@
   - id: kheddar
   pdf: http://users.ics.forth.gr/~argyros/mypapers/2018_journal_PAMI_fsv.pdf
   lab: jrl
+  month: october
 - id: ayusawa:tro:2017
   year: 2017
   title: Motion Retargeting for Humanoid Robots Based on Simultaneous Morphing Parameter
@@ -2384,6 +2509,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2017_TRO.pdf
   lab: jrl
+  month: december
 - id: ito:ar:2018
   year: 2018
   title: Evaluation of Active wearable assistive devices with Human Posture Reproduction
@@ -2397,6 +2523,7 @@
     given: Hiroshi
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2018.1490200?needAccess=true
   lab: jrl
+  month: june
 - id: ko:ar:2018a
   year: 2018
   title: Current-pressure-position triple-loop feedback control of electro-hydrostatic
@@ -2410,6 +2537,7 @@
   - family: Nakamura
     given: Yoshihiko
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2018.1555880?needAccess=true
+  month: december
 - id: ko:ar:2018b
   year: 2018
   title: Key design parameters of a few types of electro-hydrostatic actuators for
@@ -2422,6 +2550,7 @@
   - family: Nakamura
     given: Yoshihiko
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2018.1545604?needAccess=true
+  month: november
 - id: ramirezalpizar:asst:2018
   year: 2018
   title: A Simple Assembly Planner for the Insertion of Ring-shaped Deformable Objects
@@ -2434,6 +2563,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Ixchel2017_AssemblyAuto.pdf
   lab: jrl
+  month: january
 - id: ikegami:eli:2018
   year: 2018
   title: Prediction error induced motor contagions in human behaviors
@@ -2448,6 +2578,7 @@
     given: Hiroki
   pdf: https://elifesciences.org/articles/33392#abstract
   lab: jrl
+  month: may
 - id: imamura:ijhr:2018
   year: 2018
   title: Evaluation Framework for Passive Assistive Device Based on Humanoid Experiments
@@ -2473,6 +2604,7 @@
   - id: carong
   pdf: https://reader.elsevier.com/reader/sd/pii/S0924271618301771?token=1134717A44BDDFA37DFA2BFD64A3E1E4190ACB7E6ACC983D68C8F7F39CBC3FCA9435E775F2115417F1E5232B181F0848
   lab: none
+  month: october
 - id: ayusawa:ijrr:2018
   year: 2018
   title: Comprehensive theory of differential kinematics and dynamics towards extensive
@@ -2483,6 +2615,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2018_IJRR.pdf
   lab: jrl
+  month: may
 - id: bouyarmane:irs:2018
   year: 2018
   title: Non-decoupled Locomotion and Manipulation Planning for Low-Dimensional Systems
@@ -2508,6 +2641,7 @@
   - id: kheddar
   pdf: https://www.onlinelibrary.wiley.com/doi/epdf/10.1002/rob.21731
   lab: jrl
+  month: march
 - id: tsuchiya:jrm:2018
   year: 2018
   title: Estimating Lumbar load during motion with an unknown external load based
@@ -2523,6 +2657,7 @@
     given: Takashi
   pdf: https://www.fujipress.jp/preview/
   lab: jrl
+  month: august
 - id: takagi:pcb:2018
   year: 2018
   title: Haptic communication between humans is tuned by the hard or soft mechanics
@@ -2540,6 +2675,7 @@
     given: Etienne
   pdf: https://www.researchgate.net/publication/323953678_Haptic_communication_between_humans_is_tuned_by_the_hard_or_soft_mechanics_of_interaction
   lab: jrl
+  month: march
 - id: vasalya:pn:2018
   year: 2018
   title: More than just co-worker influences human performance
@@ -2550,6 +2686,7 @@
   - id: kheddar
   pdf: http://www.comanoid.cnrs.fr/publications_files/2018/vasalya-plone-2018.pdf
   lab: jrl
+  month: november
 - id: corona:pr:2018
   year: 2018
   title: Active garment recognition and target grasping point detection using deep
@@ -2565,6 +2702,7 @@
     given: Carme
   pdf: http://www.iri.upc.edu/files/scidoc/1952-Active-garment-recognition-and-target-grasping-point-detection-using-deep-learning.pdf
   lab: jrl
+  month: february
 - id: nabeshima:ral:2018
   year: 2018
   title: Standard Performance test of Wearable Robots for Lumbar Support
@@ -2578,6 +2716,7 @@
   - id: yoshida
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8304776
   lab: jrl
+  month: february
 - id: paolillo:ral:2018
   year: 2018
   title: Interlinked Visual Tracking and Robotics Manipulation of Articulated Objects
@@ -2591,6 +2730,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01646158/document
   lab: jrl
+  month: october
 - id: pfeiffer:ral:2018
   year: 2018
   title: Singularity resolution in equality and inequality constrained hierarchical
@@ -2602,6 +2742,7 @@
   - id: kheddar
   pdf: https://hal.science/hal-01852576v1/file/2018_PfeifferEscandeKheddar_singularityResolution.pdf
   lab: jrl
+  month: october
 - id: abderrahmane:ras:2018
   year: 2018
   title: 'Haptic Zero-Shot Learning: Recognition of objects never touched before'
@@ -2616,6 +2757,7 @@
     given: Andrea
   pdf: https://www.researchgate.net/publication/324070508_Haptic_Zero-Shot_Learning_Recognition_of_objects_never_touched_before
   lab: jrl
+  month: july
 - id: ganesh:scieradv:2018
   year: 2018
   title: 'Utilizing sensory prediction errors for movement intention decoding: A new
@@ -2638,6 +2780,7 @@
     given: Yasuharu
   pdf: https://www.researchgate.net/publication/325058052_Utilizing_sensory_prediction_errors_for_movement_intention_decoding_A_new_methodology
   lab: jrl
+  month: may
 - id: benallegue:tac:2018
   year: 2018
   title: Adaptive attitude tracking control of rigid body systems with unknown inertia
@@ -2651,6 +2794,7 @@
     given: Abdelhamid
   pdf: https://hal.archives-ouvertes.fr/hal-01507341/file/Revised_paper_R3.pdf
   lab: jrl
+  month: november
 - id: bouyarmane:tac:2018
   year: 2018
   title: On Weight-Prioritized Multi-Task Control of Humanoid Robots
@@ -2661,6 +2805,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8036254
   lab: jrl
+  month: june
 - id: audren:tro:2018
   year: 2018
   title: 3-D Robust Stability Polyhedron in Multicontact
@@ -2670,6 +2815,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01477362/document
   lab: jrl
+  month: april
 - id: brossette:tro:2018
   year: 2018
   title: Multi-Contact postures computation on Manifolds
@@ -2680,6 +2826,7 @@
   - id: kheddar
   pdf: https://hal.science/hal-01781204/file/17-0537_02_MS.pdf
   lab: jrl
+  month: october
 - id: li:tro:2018
   year: 2018
   title: Force, Impedance and Trajectory Learning for Contact Tooling and Haptic Identification
@@ -2698,6 +2845,7 @@
     given: Etienne
   pdf: http://sro.sussex.ac.uk/id/eprint/74844/3/74844.pdf
   lab: jrl
+  month: may
 - id: ahmine:ivc:2019
   year: 2019
   title: Adaptive Lucas-Kanade tracking
@@ -2712,6 +2860,7 @@
     given: Fatima
   pdf: https://reader.elsevier.com/reader/sd/pii/S026288561930054X?token=45F232B6615FD753CDA27D2AB25B5E7B1D319B571321B62BAEA9CF5A3FE378905ADA872FDEF306E4021914BD3EC77024
   lab: none
+  month: august
 - id: ganesh:naco:2019
   year: 2019
   title: Activity in the dorsal ACC causes deterioration of sequential motor performance
@@ -2725,6 +2874,7 @@
     given: Masahiko
   pdf: https://www.nature.com/articles/s41467-019-12205-6.pdf
   lab: jrl
+  month: september
 - id: kato:pn:2019
   year: 2019
   title: 'The where of handovers by humans: Effect of partner characteristics, distance
@@ -2739,6 +2889,7 @@
   - id: ganesh
   pdf: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0217129&type=printable
   lab: jrl
+  month: june
 - id: kheddar:ram:2019
   year: 2019
   title: 'Humanoid robots in aircraft manufacturing: the Airbus use-cases'
@@ -2778,6 +2929,7 @@
     given: Patrice
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-02303117/file/ram2019.pdf
   lab: jrl
+  month: october
 - id: kumagai:ram:2019
   year: 2019
   title: 'Toward Industrialization of Humanoid Robots: Autonomous Plasterboard Installation
@@ -2795,6 +2947,7 @@
   - id: cisneros
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/8867918
+  month: december
 - id: yamanobe:rsj:2019
   year: 2019
   title: ロボットによる心地の良い手渡しのための人動作の解析
@@ -2802,6 +2955,7 @@
   authors:
   - id: yamanobe
   lab: jrl
+  month: december
 - id: agravante:tro:2019
   year: 2019
   title: Human-Humanoid Collaborative Carrying
@@ -2818,6 +2972,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8720243
   lab: jrl
+  month: may
 - id: bouyarmane:tro:2019
   year: 2019
   title: Quadratic Programming for Multirobot and Task-Space Force Control
@@ -2830,6 +2985,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8528498
   lab: jrl
+  month: february
 - id: crombez:tro:2019
   year: 2019
   title: Visual Servoing With Photometric Gaussian Mixtures as Dense Features
@@ -2844,6 +3000,7 @@
     given: François
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8519739
   lab: none
+  month: february
 - id: cisneros:ar:2020
   year: 2020
   title: An inverse dynamics-based multi-contact locomotion control framework without
@@ -2857,6 +3014,7 @@
   - id: kanehiro
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2020_AR_Cisneros.pdf
   lab: jrl
+  month: november
 - id: hiraoka:ar:2020
   year: 2020
   title: Online generation and control of quasi-static multi-contact motion by PWT
@@ -2874,6 +3032,7 @@
     given: Masayuki
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1838321?needAccess=true
   lab: jrl
+  month: october
 - id: masuya:ar:2020
   year: 2020
   title: A review of state estimation of humanoid robot targeting the center of mass,
@@ -2885,6 +3044,7 @@
   - id: ayusawa
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1835532
   lab: jrl
+  month: november
 - id: shibata:ar:2020
   year: 2020
   title: Task-board task for assembling a belt drive unit
@@ -2911,6 +3071,7 @@
     given: Yasuyoshi
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1717613?needAccess=true
   lab: other
+  month: january
 - id: sugihara:ar:2020
   year: 2020
   title: 'A survey: dynamics of humanoid Robots'
@@ -2921,6 +3082,7 @@
   - id: morisawa
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1778524
   lab: jrl
+  month: june
 - id: suzuki:ar:2020
   year: 2020
   title: Development of 3-DOF wrist mechanism for electro-hydrostatically driven robot
@@ -2944,6 +3106,7 @@
     given: Yoshihiko
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1778522?needAccess=true
   lab: jrl
+  month: june
 - id: tazaki:ar:2020
   year: 2020
   title: A survey of motion planning techniques for humanoid robots
@@ -2954,6 +3117,7 @@
   - id: murooka
   pdf: https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1803128?needAccess=true
   lab: jrl
+  month: august
 - id: morisawa:ijhr:2020
   year: 2020
   title: Sequential Trajectory Generation for Dynamic Multi-Contact Locomotion Synchronizing
@@ -2967,6 +3131,7 @@
   - id: escande
   - id: kanehiro
   lab: jrl
+  month: january
 - id: sanchez:ijhr:2020
   year: 2020
   title: 'Re-posing Objects Considering Bipedal Stability Constraints: An Approach
@@ -2982,6 +3147,7 @@
     given: Kensuke
   pdf: https://www.worldscientific.com/doi/abs/10.1142/S021984362050005X?journalCode=ijhr
   lab: jrl
+  month: april
 - id: benallegue:ijrr:2020
   year: 2020
   title: On the mechanical contribution of head stabilization to passive dynamics
@@ -2995,6 +3161,7 @@
     given: Alain
   pdf: https://journals.sagepub.com/doi/pdf/10.1177/0278364919894387
   lab: jrl
+  month: march
 - id: benseddik:ijrr:2020
   year: 2020
   title: 'PanoraMIS: An Ultra-wide Field of View Image Dataset for Vision-based Robot-Motion
@@ -3008,6 +3175,7 @@
   - id: carong
   pdf: https://hal.archives-ouvertes.fr/hal-02492460/document
   lab: none
+  month: march
 - id: hagiwara:iscience:2020
   year: 2020
   title: Individuals Prioritize the Reach Straightness and Hand Jerk of a Shared Avatar
@@ -3025,6 +3193,7 @@
     given: Mitchiteru
   pdf: https://reader.elsevier.com/reader/sd/pii/S2589004220309299?token=DA6D0918CBE3E06CDFF63F63452B25CD3C63BB659F71AB3FECF9FE6B148B1DADC40B4356137236D4E090EB9AE1397AF4
   lab: jrl
+  month: december
 - id: martinez:isj:2020
   year: 2021
   title: Photometric-Planner for Visual Path Following
@@ -3039,6 +3208,7 @@
     given: David
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9210085
   lab: other
+  month: september
 - id: benallegue:ral:2020
   year: 2020
   title: Lyapunov-Stable Orientation Estimator for Humanoid Robots
@@ -3053,6 +3223,7 @@
   - id: kanehiro
   pdf: https://ras.papercept.net/proceedings/IROS20/3072.pdf
   lab: jrl
+  month: october
 - id: bolotnikova:ral:2020
   year: 2020
   title: Multi-Contact Planning on Humans for Physical Assistance by Humanoids
@@ -3065,6 +3236,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8873658
   lab: jrl
+  month: january
 - id: catalano:ral:2020
   year: 2020
   title: HRP-4 walks on Soft Feet
@@ -3081,6 +3253,7 @@
   - id: venture
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9028201
   lab: jrl
+  month: may 31-june 4
 - id: djeha:ral:2020
   year: 2020
   title: Adaptive-Gains Enforcing Constraints in Closed-Loop QP Control
@@ -3091,6 +3264,7 @@
   - id: tanguy
   - id: kheddar
   lab: jrl
+  month: october
 - id: druon:ral:2020
   year: 2020
   title: Visual Object Search by Learning Spatial Context
@@ -3104,6 +3278,7 @@
   - family: Watt
     given: Alassane
   lab: jrl
+  month: april
 - id: hu:ral:2020
   year: 2020
   title: 'Interact With Me: An Exploratory Study on Interaction Factors for Active
@@ -3115,6 +3290,7 @@
   - id: venture
   - id: yoshida
   lab: jrl
+  month: october
 - id: ito:ral:2020
   year: 2020
   title: Simultaneous Control Framework for Humanoid Tracking Human Movement With
@@ -3128,6 +3304,7 @@
     given: Hiroshi
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ITO_RAL2020.pdf
   lab: jrl
+  month: april
 - id: kumagai:ral:2020
   year: 2020
   title: Multi-Contact Locomotion Planning for Humanoid Robot Based on Sustainable
@@ -3142,6 +3319,7 @@
   - id: kanehiro
   pdf: https://ras.papercept.net/proceedings/IROS20/3089.pdf
   lab: jrl
+  month: october
 - id: murooka:ral:2020
   year: 2020
   title: Optimization-Based Posture Generation for Whole-Body Contact Motion by Contact
@@ -3154,6 +3332,7 @@
   - family: Inaba
     given: Masayuki
   lab: none
+  month: april
 - id: yamaguchi:ras:2020
   year: 2020
   title: Selective grasp in occluded space by all-around proximity perceptible finger
@@ -3168,6 +3347,7 @@
     given: Masayuki
   pdf: https://reader.elsevier.com/reader/sd/pii/S092188901930274X?token=5DA146BC76B4EBE5FF174749FD240F858E9411C3509AB843F08B6BDCC5ED6679B44D550DB3123337B9216907A2978CB7
   lab: none
+  month: may
 - id: abderrahmane:tii:2020
   year: 2020
   title: A Deep Learning Framework for Tactile Recognition of Known as Well as Novel
@@ -3183,6 +3363,7 @@
     given: Andrea
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8637832
   lab: jrl
+  month: january
 - id: wan:tii:2020
   year: 2020
   title: Preparatory Manipulation Planning Using Automatically Determined Single and
@@ -3196,6 +3377,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8611208
   lab: jrl
+  month: january
 - id: caron:tro:2020
   year: 2020
   title: Capturability-Based Pattern Generation for Walking With Variable Height
@@ -3210,6 +3392,7 @@
     given: Bastien
   pdf: https://arxiv.org/abs/1801.07022
   lab: jrl
+  month: april
 - id: wan:tro:2020
   year: 2020
   title: Planning Grasps With Suction Cups and Parallel Grippers Using Superimposed
@@ -3223,6 +3406,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9170578
   lab: jrl
+  month: august
 - id: medrano:chaos:2021
   year: 2021
   title: Radius selection using kernel density estimation for the computation of nonlinear
@@ -3237,6 +3421,7 @@
   - family: Ramdani
     given: Sofiane
   lab: jrl
+  month: august
 - id: shi:ijns:2021
   year: 2021
   title: Galvanic Vestibular Stimulation-Based Prediction Error Decoding and Channel
@@ -3254,6 +3439,7 @@
   - family: Yoshimura
     given: Natsue
   lab: jrl
+  month: august
 - id: sun:jrm:2021
   year: 2021
   title: Visual SLAM framework based on segmentation with the improvement of loop
@@ -3264,6 +3450,7 @@
   - id: singh
   - id: kanehiro
   lab: jrl
+  month: december
   projects:
   - humanoid_lab
 - id: ikegami:pcb:2021
@@ -3283,6 +3470,7 @@
   - family: Kawato
     given: Mitsuo
   lab: jrl
+  month: april
 - id: ahmine:ral:2021
   year: 2021
   title: Continuous Scale-Space Direct Image Alignment for Visual Odometry from RGB-D
@@ -3298,6 +3486,7 @@
     given: El
   pdf: https://hal.archives-ouvertes.fr/hal-03130945/document
   lab: jrl
+  month: april
 - id: bolotnikova:ral:2021
   year: 2021
   title: Adaptive task-space force control for humanoid-to-human assistance
@@ -3309,6 +3498,7 @@
     given: Sébastien
   - id: kheddar
   lab: jrl
+  month: july
 - id: caron:ral:2021
   year: 2021
   title: Defocus-based Direct Visual Servoing
@@ -3317,6 +3507,7 @@
   - id: carong
   pdf: https://hal.archives-ouvertes.fr/hal-03155667/document
   lab: jrl
+  month: april
 - id: ducrocq:ral:2021
   year: 2021
   title: 'HDROmni: Optical extension of dynamic range for panoramic robot vision'
@@ -3329,6 +3520,7 @@
     given: El
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9359341
   lab: jrl
+  month: april
 - id: kumagai:ral:2021
   year: 2021
   title: Multi-Contact Locomotion Planning With Bilateral Contact Forces Considering
@@ -3341,6 +3533,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/9478184?source=authoralert
   lab: jrl
+  month: october
 - id: murooka:ral:2021a
   year: 2021
   title: Humanoid Loco-Manipulation Planning Based on Graph Search and Reachability
@@ -3354,6 +3547,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9359455
   lab: jrl
+  month: april
 - id: murooka:ral:2021b
   year: 2021
   title: Humanoid Loco-Manipulations Pattern Generation and Stabilization Control
@@ -3369,6 +3563,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9424385
   lab: jrl
+  month: july
 - id: samadi:ral:2021
   year: 2021
   title: Humanoid Control Under Interchangeable Fixed and Sliding Unilateral Contacts
@@ -3384,6 +3579,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9380971
   lab: jrl
+  month: april
 - id: tsuru:ral:2021
   year: 2021
   title: Online Object Searching by a Humanoid Robot in an Unknown Environment
@@ -3397,6 +3593,7 @@
     given: Kensuke
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2021_RAL_Tsuru.pdf
   lab: jrl
+  month: april
 - id: gabas:rb:2021
   year: 2021
   title: Dual Edge Classifier for Robust Cloth Unfolding
@@ -3408,6 +3605,7 @@
   - id: yoshida
   pdf: https://robomechjournal.springeropen.com/articles/10.1186/s40648-021-00202-8
   lab: jrl
+  month: april
 - id: osawa:scir:2021
   year: 2021
   title: Soft robotic shell with active thermal display
@@ -3424,6 +3622,7 @@
   - id: kheddar
   pdf: https://doi.org/10.1038/s41598-021-99117-y
   lab: jrl
+  month: october
 - id: funatomi:ijcv:2022
   year: 2022
   title: Eliminating Temporal Illumination Variations in Whisk-broom Hyperspectral
@@ -3447,6 +3646,7 @@
     given: Yasuhiro
   pdf: https://link.springer.com/article/10.1007/s11263-022-01587-8
   lab: jrl
+  month: march
 - id: frizza:ijhr:2022
   year: 2022
   title: 'Humanoids’ Feet: State-of-the-Art & Future Directions'
@@ -3462,6 +3662,7 @@
   - id: venture
   pdf: https://doi.org/10.1142/S0219843622500013
   lab: jrl
+  month: march
   projects:
   - ryouikikoubo_2022_sompo
 - id: niu:joi:2022
@@ -3481,6 +3682,7 @@
   - id: yoshida
   pdf: https://www.mdpi.com/2313-433X/8/6/168
   lab: jrl
+  month: june
 - id: dehio:ral:2022
   year: 2022
   title: Dual-Arm Box Grabbing With Impact-Aware MPC Utilizing Soft Deformable End-Effector
@@ -3494,6 +3696,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9732679
   lab: jrl
+  month: april
   projects:
   - iam
 - id: guadarramaolvera:ral:2022
@@ -3508,6 +3711,7 @@
   - family: Cheng
     given: Gordon
   pdf: https://ieeexplore.ieee.org/document/9810342
+  month: july
 - id: murooka:ral:2022
   year: 2022
   title: Centroidal Trajectory Generation and Stabilization Based on Preview Control
@@ -3519,6 +3723,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/9807369
   lab: jrl
+  month: june
   projects:
   - kakenhi_kibanb2021_morisawa
 - id: wang:ral:2022a
@@ -3534,6 +3739,9 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9691802
   lab: jrl
+  month: april
+  projects:
+  - iam
 - id: morbidi:ram:2022
   year: 2022
   title: 'Assistive Robotic Technologies for Next-Generation Smart Wheelchairs: Codesign
@@ -3586,6 +3794,7 @@
   - id: yoshida
   pdf: https://ieeexplore.ieee.org/document/9698842
   lab: jrl
+  month: june
   projects:
   - jsps_fellow_hu
 - id: wong:thms:2022
@@ -3601,6 +3810,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9911943
   lab: jrl
+  month: december
 - id: wang:ral:2022b
   year: 2022
   title: Predicting Impact-Induced Joint Velocity Jumps on Kinematic-Controlled Manipulator
@@ -3613,6 +3823,22 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9757864
   lab: jrl
+  month: july
+  projects:
+  - iam
+- id: katayama:ar:2023
+  year: 2023
+  title: 'Model predictive control of legged and humanoid robots: models and algorithms'
+  booktitle: Advanced Robotics
+  authors:
+  - family: Katayama
+    given: Sotaro
+  - id: murooka
+  - family: Tazaki
+    given: Yuichi
+  pdf: https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2168134
+  lab: jrl
+  month: february
 - id: benallegue:tac:2023
   year: 2023
   title: Velocity-aided IMU-based Tilt and Attitude Estimation
@@ -3625,6 +3851,7 @@
     given: Yacine
   pdf: https://ieeexplore.ieee.org/document/9966736
   lab: jrl
+  month: january
 - id: pfeiffer:tcst:2023
   year: 2023
   title: The Hierarchical Newton’s Method for Numerically Stable Prioritized Dynamic
@@ -3658,6 +3885,23 @@
     given: Daniele
   pdf: https://ieeexplore.ieee.org/document/10035484
   lab: jrl
+- id: delmas:tmrb:2023
+  year: 2023
+  title: 'SpheriCol: A Driving Assistant for Power Wheelchairs based on Spherical
+    Vision'
+  booktitle: IEEE Transactions on Medical Robotics and Bionics
+  authors:
+  - family: Delmas
+    given: Sarah
+  - family: Morbidi
+    given: Fabio
+  - id: carong
+  - family: Babel
+    given: Marie
+  - family: Pasteau
+    given: François
+  pdf: https://ieeexplore.ieee.org/document/10075531
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -3674,6 +3918,7 @@
     given: Haruhisa
   pdf: https://www.researchgate.net/publication/3828280_Miniaturized_self-reconfigurable_system_using_shape_memory_alloy
   lab: jrl
+  month: october 17-october 21
 - id: kajita:icra:2001a
   year: 2001
   title: Real-time 3D walking patttern generation for a biped robot with telescopic
@@ -3686,6 +3931,7 @@
   - family: Saigo
     given: Muneharu
   pdf: http://users.dimi.uniud.it/~antonio.dangelo/Robotica/dissertations/helper/K0529.pdf
+  month: may 21-may 26
 - id: kajita:icra:2001b
   year: 2001
   title: Balancing a Humanoid Robot Using Backdrive Concerned Torque Control and Direct
@@ -3700,6 +3946,7 @@
   - family: Tanie
     given: Kazuo
   pdf: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.474.7812&rep=rep1&type=pdf
+  month: may 21-may 26
 - id: kanehiro:icra:2001
   year: 2001
   title: Developmental Software Environment that is applicable to Small-size Humanoids
@@ -3715,6 +3962,7 @@
     given: Hirohisa
   - family: Hirai
     given: Shigeoki
+  month: may 21-may 26
 - id: kang:icra:2001
   year: 2001
   title: Utilization of Inertial Effect in Damping-based Posture Control of Mobile
@@ -3732,6 +3980,7 @@
   - family: Tanie
     given: Kazuo
   pdf: https://www.researchgate.net/profile/Sungchul-Kang-2/publication/3902427_Utilization_of_inertial_effect_in_damping-based_posture_control_of_mobile_manipulator/links/5580225c08ae47ede114e1ea/Utilization-of-inertial-effect-in-damping-based-posture-control-of-mobile-manipulator.pdf
+  month: may 21-may 26
 - id: kajita:iros:2001
   year: 2001
   title: 'The 3D Linear Inverted Pendulum Mode: A simple modeling for a biped walking
@@ -3746,6 +3995,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: http://users.dimi.uniud.it/~antonio.dangelo/Robotica/dissertations/helper/3D_Linear_Inverted_Pendulum_Model.pdf
+  month: october 29-november 3
 - id: kanehiro:iros:2001
   year: 2001
   title: Virtual Humanoid Robot Platform to Develop Controllers of Real Humanoid Robots
@@ -3770,6 +4020,7 @@
     given: Yuichiro
   - family: Sankai
     given: Yoshiyuki
+  month: october 29-november 3
 - id: kang:iros:2001
   year: 2001
   title: Reduced Inertial Effect in Damping-based Posture Control of Mobile Manipulator
@@ -3785,6 +4036,7 @@
     given: Tetsuo
   - family: Tanie
     given: Kazuo
+  month: october 29-november 3
 - id: komoriya:ro-man:2001
   year: 2001
   title: Motion Control of Omni-directional Mobile Manipulator for Indoor Environment
@@ -3796,6 +4048,7 @@
     given: Kazuhito
   - family: Kotoku
     given: Tetsuo
+  month: september 18-september 21
 - id: hasunuma:icra:2002
   year: 2002
   title: A Tele-operated Humanoid Robot Drives a Lift Truck
@@ -3818,6 +4071,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://www.aist.go.jp/Portals/0/resource_images/aist_e/aist_today/2002_06/2002_06_p15.pdf
+  month: may 11-may 15
 - id: kajita:icra:2002a
   year: 2002
   title: Running Pattern Generation for a Humanoid Robot
@@ -3832,6 +4086,7 @@
   - family: Tanie
     given: Kazuo
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2002_publications/02-5.pdf
+  month: may 11-may 15
 - id: kajita:icra:2002b
   year: 2002
   title: A Realtime Pattern Generator for Biped Walking
@@ -3847,6 +4102,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://unit.aist.go.jp/is/humanoid/m_projects/PDF/02-2.pdf
+  month: may 11-may 15
 - id: kanehiro:icra:2002
   year: 2002
   title: Open Architecture Humanoid Robot Platform
@@ -3866,6 +4122,7 @@
   - family: Yamane
     given: Katsu
   pdf: https://unit.aist.go.jp/is/humanoid/m_projects/PDF/02-1.pdf
+  month: may 11-may 15
 - id: kaneko:icra:2002
   year: 2002
   title: Design of Advanced Leg Module for Humanoid Robotics Project of METI
@@ -3887,6 +4144,7 @@
   - family: Isozumi
     given: Takakatsu
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2002_publications/02-3.pdf
+  month: may 11-may 15
 - id: fujiwara:iros:2002
   year: 2002
   title: 'UKEMI: Falling Motion Control to Minimize Damage to Biped Humanoid Robot'
@@ -3902,6 +4160,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2002_publications/02-9.pdf
+  month: september 30-october 4
 - id: harada:iros:2002
   year: 2002
   title: Manipulation of 3D Enveloped Object
@@ -3911,6 +4170,7 @@
     given: Kensuke
   - family: Kaneko
     given: Makoto
+  month: september 30-october 4
 - id: kanehira:iros:2002
   year: 2002
   title: Design and Experiments of Advanced Leg Module(HRP-2L)for Humanoid Robot(HRP-2)Development
@@ -3930,6 +4190,7 @@
   - id: kajita
   - id: kaneko
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2002_publications/02-7.pdf
+  month: september 30-october 4
 - id: kaneko:iros:2002a
   year: 2002
   title: Torque distribution for achieving a Hugging Walk
@@ -3942,6 +4203,7 @@
   - family: Harada
     given: Kensuke
   pdf: https://www.researchgate.net/profile/Kensuke-Harada/publication/3972183_Torque_distribution_for_achieving_a_Hugging_Walk/links/54038ab80cf23d9765a5cf02/Torque-distribution-for-achieving-a-Hugging-Walk.pdf
+  month: september 30-october 4
 - id: kaneko:iros:2002b
   year: 2002
   title: Design of Prototype Humanoid Robotics Platform for HRP
@@ -3961,6 +4223,7 @@
   - family: Isozumi
     given: Takakatsu
   pdf: https://unit.aist.go.jp/is/humanoid/m_projects/PDF/02-6.pdf
+  month: september 30-october 4
 - id: nakazawa:iros:2002
   year: 2002
   title: Imitating Human Dance Motions through Motion StructureAnalysis
@@ -3974,6 +4237,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://www.cvl.iis.u-tokyo.ac.jp/papers/all/0052.pdf
+  month: september 30-october 4
 - id: okada:iros:2002
   year: 2002
   title: Rapid Development System for Humanoid Vision-based Behaviors with Real-Virtual
@@ -3992,6 +4256,7 @@
   - family: Inoue
     given: Hirochika
   pdf: http://www.jsk.t.u-tokyo.ac.jp/~k-okada/paper/2002_iros_okada_fast.pdf
+  month: september 30-october 4
 - id: harada:icra:2003
   year: 2003
   title: Pushing manipulation by humanoid considering two-kinds of ZMPs
@@ -4004,6 +4269,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2003_publications/ICRA2003-1627.pdf
+  month: september 14-september 19
 - id: hirukawa:icra:2003
   year: 2003
   title: Experimental Evaluation of the Dynamics Simulation of Biped Walking of Humanoid
@@ -4022,6 +4288,7 @@
   - family: Harada
     given: Kensuke
   pdf: file:///C:/Users/snkarc73/Downloads/ICRA2003-Experimental%20Evaluation%20of%20the%20Dynamic%20Simulation%20.pdf
+  month: september 14-september 19
 - id: kajita:icra:2003
   year: 2003
   title: Biped walking pattern generation by using preview control of zero-moment
@@ -4039,6 +4306,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2003_publications/ICRA2003-1620.pdf
+  month: september 14-september 19
 - id: kanehiro:icra:2003
   year: 2003
   title: The First Humanoid Robot that has the Same Size as a Human and that can Lie
@@ -4061,6 +4329,7 @@
   - family: Isozumi
     given: Takakatsu
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2003_publications/ICRA2003-1633.pdf
+  month: september 14-september 19
 - id: nakaoka:icra:2003
   year: 2003
   title: Generating Whole Body Motions for a Biped Humanoid Robot from Captured Human
@@ -4077,6 +4346,7 @@
   - family: Ikeuchi
     given: Katsushi
   pdf: https://www.cvl.iis.u-tokyo.ac.jp/papers/all/0094.pdf
+  month: september 14-september 19
 - id: fujiwara:iros:2003
   year: 2003
   title: The First Human-Size Humanoid that can Fall Over Safely and Stand-up Again
@@ -4096,6 +4366,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2003_publications/IROS2003-847.pdf
+  month: october 27-october 31
 - id: harada:iros:2003
   year: 2003
   title: ZMP Analysis for Arm/Leg Coordination
@@ -4108,6 +4379,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2003_publications/IROS2003-244.pdf
+  month: october 27-october 31
 - id: neo:iros:2003
   year: 2003
   title: Whole Body Teleoperation of a Humanoid Robot Integrating Operator's Intention
@@ -4121,6 +4393,7 @@
   - id: kajita
   - family: Tanie
     given: Kazuo
+  month: october 27-october 31
 - id: yokoi:iros:2003
   year: 2003
   title: A tele-operated humanoid robot drives a backhoe in the open air
@@ -4144,6 +4417,7 @@
     given: Takuya
   - family: Endou
     given: Ken
+  month: october 27-october 31
 - id: fujiwara:icra:2004
   year: 2004
   title: Falling motion control of a humanoid robot trained by virtual supplementary
@@ -4161,6 +4435,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: file:///C:/Users/snkarc73/Downloads/2004-ICRAFKSKHH.pdf
+  month: april 26-may 1
 - id: harada:icra:2004
   year: 2004
   title: Real-Time Planning of Humanoid Robot's Gait for Force Controlled Manipulation
@@ -4178,6 +4453,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2004_publications/ICRA2004-098_WM-5_3.pdf
+  month: april 26-may 1
 - id: kajita:icra:2004
   year: 2004
   title: A Hop towards Running Humanoid Biped
@@ -4192,6 +4468,7 @@
   - family: Tanie
     given: Kazuo
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2004_publications/ICRA2004-100_WM-5_5.pdf
+  month: april 26-may 1
 - id: kanehiro:icra:2004
   year: 2004
   title: Locomotion Planning of Humanoid Robots to Pass through Narrow Spaces
@@ -4209,6 +4486,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2004_publications/ICRA2004-096_WM-5_1.pdf
+  month: april 26-may 1
 - id: kaneko:icra:2004
   year: 2004
   title: Humanoid Robot HRP-2
@@ -4228,6 +4506,7 @@
   - family: Isozumi
     given: Takakatsu
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2004_publications/ICRA2004-175_WE-5_5.pdf
+  month: april 26-may 1
 - id: neo:icra:2004
   year: 2004
   title: A stable foot teleoperation method for humanoid robots
@@ -4243,6 +4522,7 @@
   - family: Tanie
     given: Kazuo
   pdf: https://www.academia.edu/1488832/A_Stable_Foot_Teleoperation_Method_for_Humanoid_Robots
+  month: april 26-may 1
 - id: harada:iros:2004
   year: 2004
   title: Dynamical Balance of a Humanoid Robot Grasping an Environment
@@ -4260,6 +4540,7 @@
   - family: Nakamura
     given: Masaru
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2004_publications/IROS2004-445.pdf
+  month: september 28-october 2
 - id: kajita:iros:2004
   year: 2004
   title: Biped Walking on a Low Friction Floor,
@@ -4275,6 +4556,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2004_publications/IROS2004-1282.pdf
+  month: september 28-october 2
 - id: nagasaki:iros:2004
   year: 2004
   title: A Running Experiment of Humanoid Biped
@@ -4289,6 +4571,7 @@
   - family: Tanie
     given: Kazuo
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2004_publications/IROS2004-1763.pdf
+  month: september 28-october 2
 - id: harada:icra:2005
   year: 2005
   title: A Humanoid Robot Carrying a Heavy Object
@@ -4307,6 +4590,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2005_publications/ICRA2005-a1469_WeA2-01_2.pdf
+  month: april 18-april 22
 - id: kajita:icra:2005
   year: 2005
   title: A Running Controller of Humanoid Bipd HRP-2LR
@@ -4321,6 +4605,7 @@
   - family: Tanie
     given: Kazuo
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2005_publications/ICRA2005-a523_TuP1-01_4.pdf
+  month: april 18-april 22
 - id: kanehiro:icra:2005
   year: 2005
   title: Whole Body Locomotion Planning of Humanoid Robots based on a 3D Grid Map
@@ -4341,6 +4626,7 @@
   - family: Tomita
     given: Fumiaki
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2005_publications/ICRA2005-a505_TuP2-01_4.pdf
+  month: april 18-april 22
 - id: morisawa:icra:2005
   year: 2005
   title: Pattern Generation of Biped Walking Constrained on Parametric Surface
@@ -4357,6 +4643,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2005_publications/ICRA2005-a588_WeP2-01_5.pdf
+  month: april 18-april 22
 - id: kaneko:iros:2005
   year: 2005
   title: Slip Observer for Walking on a Low Friction Floor
@@ -4373,6 +4660,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2005_publications/IROS2005-0186.pdf
+  month: august 2-august 6
 - id: morisawa:iros:2005
   year: 2005
   title: Emergency stop algorithm for walking humanoid robots
@@ -4389,6 +4677,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2005_publications/IROS2005-0637.pdf?origin=publication_detail
+  month: august 2-august 6
 - id: nakaoka:iros:2005
   year: 2005
   title: Task Model of Lower Body Motion for a Biped Humanoid Robot to Imitate Human
@@ -4404,6 +4693,7 @@
   - family: Ikeuchi
     given: Katsushi
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2005_publications/IROS2005-0928.pdf
+  month: august 2-august 6
 - id: matsui:rtcsa:2005
   year: 2005
   title: Distributed Real-Time Processing for Humanoid Robots
@@ -4426,6 +4716,7 @@
   - family: Inamura
     given: Tetsuya
   pdf: http://www.jsk.t.u-tokyo.ac.jp/~inamura/research/paper/IROS2004_matsui.pdf
+  month: august 17-august 19
 - id: fujiwara:humanoids:2006
   year: 2006
   title: Towards an Optimal Falling Motion for a Humanoid Robot
@@ -4442,6 +4733,7 @@
   - id: nakaoke
   - family: Hirukawa
     given: Hirohisa
+  month: december 4-december 6
 - id: hasunuma:humanoids:2006
   year: 2006
   title: The Tele-operation of the Humanoid Robot -Whole Body Operation for Humanoid
@@ -4454,6 +4746,7 @@
     given: Kensuke
   - family: Hirukawa
     given: Hirohisa
+  month: december 4-december 6
 - id: morisawa:humanoids:2006
   year: 2006
   title: A Biped Pattern Generation Allowing Immediate Modification of Foot Placement
@@ -4471,6 +4764,7 @@
   - id: nakaoke
   - family: Hirukawa
     given: Hirohisa
+  month: december 4-december 6
 - id: hirukawa:icra:2006
   year: 2006
   title: A Universal Stability Criterion of the Foot Contact of Legged Robots ? Adios
@@ -4490,6 +4784,7 @@
     given: Kiyoshi
   - id: morisawa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2006_publications/ICRA2006-436_We-AM2-03-4.pdf
+  month: may 15-may 19
 - id: escande:iros:2006
   year: 2006
   title: Planning support contact-points for humanoid robots and experiments on HRP-2
@@ -4501,6 +4796,7 @@
     given: Sylvain
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2006_IROS_Escande.pdf
   lab: jrl
+  month: october 9-october 15
 - id: harada:iros:2006
   year: 2006
   title: Natural Motion Generation for Humanoid Robots
@@ -4515,6 +4811,7 @@
   - family: Latombe
     given: Jean-Claude
   pdf: https://www.researchgate.net/profile/Kensuke-Harada/publication/221064315_Natural_Motion_Generation_for_Humanoid_Robots/links/53d202b60cf2a7fbb2e95db0/Natural-Motion-Generation-for-Humanoid-Robots.pdf
+  month: october 9-october 15
 - id: kajita:iros:2006
   year: 2006
   title: Biped Walking Pattern Generator allowing Auxiliary ZMP Control
@@ -4531,6 +4828,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: http://www.cs.cmu.edu/~jkh/gnhm_08/2008_04_14.Biped%20Walking%20Pattern%20Generator%20allowing%20Auxiliary%20ZMP%20Control.pdf
+  month: october 9-october 15
 - id: kanehiro:iros:2006
   year: 2006
   title: Distributed Control System of Humanoid Robots based on Real-time Ethernet
@@ -4551,6 +4849,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2006_publications/IROS2006-402.pdf
+  month: october 9-october 15
 - id: kaneko:iros:2006
   year: 2006
   title: Motion Suspension System for Humanoids in case of Emergency - Real-time Motion
@@ -4568,6 +4867,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2006_publications/IROS2006-895.pdf
+  month: october 9-october 15
 - id: morisawa:iros:2006
   year: 2006
   title: Motion Planning of Emergency Stop for Humanoid Robot by State Space Approach
@@ -4584,6 +4884,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2006_publications/IROS2006-485.pdf
+  month: october 9-october 15
 - id: sellaouti:iros:2006
   year: 2006
   title: Faster and Smoother Walking of Humanoid HRP-2 with Passive Toe Joints
@@ -4599,6 +4900,7 @@
   - id: kheddar
   pdf: https://homepages.laas.fr/ostasse/IROS2006Ramzi.pdf
   lab: jrl
+  month: october 9-october 15
 - id: watanabe:iros:2006
   year: 2006
   title: Towards Whole Arm Manipulation by Contact State Transition
@@ -4613,6 +4915,7 @@
   - family: Jiang
     given: Zhongwei
   pdf: https://zkks.w3.kanazawa-u.ac.jp/papers/IROS06.pdf
+  month: october 9-october 15
 - id: hauser:wafr:2006
   year: 2006
   title: Using motion primitives in probabilistic sample-based planning for humanoid
@@ -4628,6 +4931,7 @@
   - family: Latombe
     given: Jean-Claude
   pdf: http://motion.pratt.duke.edu/papers/Hauser-2006-Primitives.pdf
+  month: july 16-july 18
 - id: escande:humanoids:2007
   year: 2007
   title: Continuous gradient proximity distance for humanoids free-collision optimized-postures
@@ -4639,6 +4943,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2007_Humanoids_Escande.pdf
   lab: jrl
+  month: november 29-december 1
 - id: stasse:humanoids:2007
   year: 2007
   title: Towards Autonomous Object Reconstruction for Visual Search by the Humanoid
@@ -4661,6 +4966,7 @@
     given: Frederic
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2007_Humanoids_Stasse.pdf
   lab: jrl
+  month: november 29-december 1
 - id: kajita:icra:2007
   year: 2007
   title: ZMP-based Biped Running Enchanced by Toe Springs
@@ -4671,6 +4977,7 @@
   - id: morisawa
   - id: nakaoke
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2007_publications/ICRA2007-0248.pdf
+  month: april 10-april 14
 - id: kanehiro:icra:2007
   year: 2007
   title: Getting up Motion Planning using Mahalanobis Distance
@@ -4684,6 +4991,7 @@
   - id: nakaoke
   - id: morisawa
   pdf: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1067.4111&rep=rep1&type=pdf
+  month: april 10-april 14
 - id: kaneko:icra:2007
   year: 2007
   title: Development of Multi-fingered Hand for Life-size Humanoid Robots
@@ -4694,6 +5002,7 @@
     given: Kensuke
   - id: kanehiro
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2007_publications/ICRA2007-0060.pdf
+  month: april 10-april 14
 - id: morisawa:icra:2007
   year: 2007
   title: Experimentation of Humanoid Walking Allowing Immediate Modification of Foot
@@ -4712,6 +5021,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2007_publications/ICRA2007-1562.pdf
+  month: april 10-april 14
 - id: fujiwara:iros:2007
   year: 2007
   title: An Optimal Planning of Falling Motions of a Humanoid Robot
@@ -4729,6 +5039,7 @@
   - family: Hirukawa
     given: Hirohisa
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2007_publications/IROS2007-0761.pdf
+  month: october 29-november 2
 - id: harada:iros:2007
   year: 2007
   title: Motion Planning for Walking Pattern Generation of Humanoid Robots
@@ -4744,6 +5055,7 @@
   - id: kajita
   - id: yoshida
   pdf: https://www.researchgate.net/profile/Kensuke-Harada/publication/224296467_Motion_planning_for_walking_pattern_generation_of_humanoid/links/53d6125c0cf2a7fbb2ea7867/Motion-planning-for-walking-pattern-generation-of-humanoid.pdf
+  month: october 29-november 2
 - id: koyanagi:iros:2007
   year: 2007
   title: A Pattern Generator of Humanoid Robots Walking on a Rough Terrain
@@ -4761,6 +5073,7 @@
     given: Kensuke
   - id: kajita
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2007_publications/ICRA2007-0079.pdf
+  month: october 29-november 2
 - id: nakaoka:iros:2007
   year: 2007
   title: Constraint-based Dynamics Simulator for Humanoid Robots with Shock Absorbing
@@ -4774,6 +5087,7 @@
   - id: kajita
   - family: Hirukawa
     given: Hirohisa
+  month: october 29-november 2
 - id: saidi:iros:2007
   year: 2007
   title: Online object search with a humanoid robot
@@ -4788,6 +5102,7 @@
   - id: kanehiro
   pdf: https://homepages.laas.fr/ostasse/IROS2007.pdf
   lab: jrl
+  month: october 29-november 2
 - id: david:humanoids:2008
   year: 2008
   title: Study of an External Passive Shock-absorbing Mechanism for Walking Robots
@@ -4803,6 +5118,7 @@
     given: Kazuhito
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00536303/document
   lab: jrl
+  month: december 1-december 3
 - id: foissotte:humanoids:2008
   year: 2008
   title: A Next-Best-View Algorithm for Autonomous 3D Object Modeling by a Humanoid
@@ -4817,6 +5133,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2008_Humanoids_Foissotte.pdf
   lab: jrl
+  month: december 1-december 3
 - id: miura:humanoids:2008
   year: 2008
   title: A Friction Based ``Twirl'' for Biped Robots
@@ -4830,6 +5147,7 @@
     given: Kensuke
   - id: kajita
   pdf: http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_ICRA_2010/data/papers/2010.pdf
+  month: december 1-december 3
 - id: tsuji:humanoids:2008
   year: 2008
   title: Selecting a Suitable Grasping Motion for Humanoid Robots with Multi-Fingered
@@ -4843,6 +5161,7 @@
   - id: kanehiro
   - family: Kawai
     given: Yoshihiro
+  month: december 1-december 3
 - id: harada:icra:2008
   year: 2008
   title: Fast Grasp Planning for Hand/Arm Systems Based on Convex Model
@@ -4853,6 +5172,7 @@
   - id: kaneko
   - id: kanehiro
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2008_publications/ICRA2008-0301.pdf
+  month: may 19-may 23
 - id: stasse:icra:2008
   year: 2008
   title: Real-time (self)-collision avoidance task on a HRP-2 humanoid robot
@@ -4870,6 +5190,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2008_ICRA_Stasse.pdf
   lab: jrl
+  month: may 19-may 23
 - id: suleiman:icra:2008
   year: 2008
   title: On Human Motion Imitation by Humanoid Robot
@@ -4885,6 +5206,7 @@
     given: André
   pdf: https://hal.archives-ouvertes.fr/hal-00166838/file/ICRA08_final.pdf
   lab: jrl
+  month: may 19-may 23
 - id: harada:iros:2008
   year: 2008
   title: Kinodynamic gait planning for full-body humanoid robots
@@ -4901,6 +5223,7 @@
   - id: kaneko
   - id: kajita
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2008_publications/IROS2008-0640.pdf
+  month: september 22-september 26
 - id: kanehiro:iros:2008
   year: 2008
   title: Integrating Dynamics into Motion Planning for Humanoid Robots
@@ -4916,6 +5239,7 @@
     given: Jean-Paul
   pdf: https://homepages.laas.fr/florent/publi/08iros-fumio.pdf
   lab: jrl
+  month: september 22-september 26
 - id: kaneko:iros:2008
   year: 2008
   title: Humanoid Robot HRP-3
@@ -4930,6 +5254,7 @@
   - family: Akachi
     given: Kazuhiko
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2008_publications/IROS2008-0075.pdf
+  month: september 22-september 26
 - id: escande:iser:2008
   year: 2008
   title: Planning support contact-points for acyclic motions and experiments on HRP-2
@@ -4943,6 +5268,7 @@
     given: Sylvain
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2008_ISER_Escande.pdf
   lab: jrl
+  month: july 13-july 16
 - id: kheddar:isr:2008
   year: 2008
   title: 'Planning of contact supports for acyclic motion of humanoids and androids:
@@ -4953,6 +5279,7 @@
   - id: escande
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2008_ISR_Kheddar.pdf
   lab: jrl
+  month: october 15-october 17
 - id: guiatni:aim:2009
   year: 2009
   title: Design and Evaluation of a Haptic Interface for Interactive Simulation of
@@ -4965,6 +5292,7 @@
     given: Vincent
   - id: kheddar
   lab: jrl
+  month: july 14-july 17
 - id: digioia:humanoids:2009
   year: 2009
   title: Trajectory Planner for a Humanoid Robot To Pass Through a Door
@@ -4977,6 +5305,7 @@
   - family: Yokoi
     given: Kazuhito
   lab: jrl
+  month: december 7-december 10
 - id: kanehiro:humanoids:2009
   year: 2009
   title: Feasible Pattern Generation Method for Humanoid Robots
@@ -4990,6 +5319,7 @@
   - id: morisawa
   - id: yoshida
   lab: jrl
+  month: december 7-december 10
 - id: kaneko:humanoids:2009
   year: 2009
   title: Cybernetic Human HRP-4C
@@ -5003,6 +5333,7 @@
   - id: nakaoke
   - id: kajita
   pdf: file:///C:/Users/snkarc73/Downloads/2009-ISRRKKKHMNMFNHYH.pdf
+  month: december 7-december 10
 - id: kwak:humanoids:2009
   year: 2009
   title: 3D Grid and Particle based SLAM for a Humanoid Robot
@@ -5017,6 +5348,7 @@
   - family: Yokoi
     given: Kazuhito
   lab: jrl
+  month: december 7-december 10
 - id: miura:humanoids:2009
   year: 2009
   title: Robot Motion Remix based on Motion Capture Data - Towards Human-like Locomotion
@@ -5032,6 +5364,7 @@
     given: Kensuke
   - id: kaneko
   - id: kajita
+  month: december 7-december 10
 - id: morisawa:humanoids:2009
   year: 2009
   title: Reactive Stepping to Prevent Falling for Humanoids
@@ -5052,6 +5385,7 @@
   - family: Laumond
     given: Jean-Paul
   pdf: http://www.iri.upc.edu/people/jsola/JoanSola/objectes/papers/Humanoids2009/Humanoids2009_Morisawa.pdf
+  month: december 7-december 10
 - id: nakaoka:humanoids:2009
   year: 2009
   title: Creating Facial Motions of Cybernetic Human HRP-4C
@@ -5070,6 +5404,7 @@
   - id: kajita
   - family: Hirukawa
     given: Hirohisa
+  month: december 7-december 10
 - id: pierro:humanoids:2009
   year: 2009
   title: Humanoid feet trajectory generation for the reduction of the dynamical effects
@@ -5086,6 +5421,7 @@
     given: Carlos
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00796738/document
   lab: jrl
+  month: december 7-december 10
 - id: suleiman:humanoids:2009
   year: 2009
   title: Improving ZMP-based Control Model Using System Identification Techniques
@@ -5099,6 +5435,7 @@
   - id: yoshida
   pdf: https://www.researchgate.net/profile/Wael-Suleiman-3/publication/224099045_Improving_ZMP-based_control_model_using_system_identification_techniques/links/02e7e51a51a5e69fb1000000/Improving-ZMP-based-control-model-using-system-identification-techniques.pdf
   lab: jrl
+  month: december 7-december 10
 - id: benallegue:icra:2009
   year: 2009
   title: Fast C1 Proximity Queries using Support Mapping of Sphere-Torus-Patches Bounding
@@ -5112,6 +5449,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2009_ICRA_Benallegue.pdf
   lab: jrl
+  month: may 12-may 17
 - id: bouyarmane:icra:2009
   year: 2009
   title: Potential field guide for humanoid multicontacts acyclic motion planning
@@ -5125,6 +5463,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2009_ICRA_Bouyarmane.pdf
   lab: jrl
+  month: may 12-may 17
 - id: foissotte:icra:2009
   year: 2009
   title: A two-steps next-best-view algorithm for autonomous 3D object modeling by
@@ -5141,6 +5480,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2009_ICRA_Foissotte.pdf
   lab: jrl
+  month: may 12-may 17
 - id: kanoun:icra:2009
   year: 2009
   title: 'Prioritizing linear equality and inequality systems: application to local
@@ -5159,6 +5499,7 @@
     given: Jean-Paul
   pdf: https://homepages.laas.fr/florent/publi/09icra-oussama.pdf
   lab: jrl
+  month: may 12-may 17
 - id: kita:icra:2009
   year: 2009
   title: Clothes state recognition using 3D observed data
@@ -5173,6 +5514,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://staff.aist.go.jp/y.kita/Japanese/Research/Action/StageII/ICRA09-1350.pdf
+  month: may 12-may 17
 - id: yokoi:icra:2009
   year: 2009
   title: Unified Motion Planning of Passing under Obstacles with Humanoid Robots
@@ -5184,6 +5526,7 @@
   - family: Sanada
     given: Hiroki
   lab: jrl
+  month: may 12-may 17
 - id: yoshida:icra:2009
   year: 2009
   title: Regrasp Planning for Pivoting Manipulation by a Humanoid RobotFlorent
@@ -5201,6 +5544,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/e.yoshida/papers/icra2009-multirdm-final.pdf
+  month: may 12-may 17
 - id: arisumi:iros:2009
   year: 2009
   title: Whole-body motion of a Humanoid robot for passing through a door - Opening
@@ -5215,6 +5559,7 @@
     given: Kazuhito
   pdf: http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_IROS_2009/papers/1377.pdf
   lab: jrl
+  month: october 11-october 15
 - id: battaglia:iros:2009
   year: 2009
   title: Combining Haptic Sensing with Safe Interaction
@@ -5230,6 +5575,7 @@
     given: Kazuhito
   pdf: http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_IROS_2009/papers/1310.pdf
   lab: jrl
+  month: october 11-october 15
 - id: escande:iros:2009
   year: 2009
   title: Contact planning for acyclic motion with tasks constraints
@@ -5239,6 +5585,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2009_IROS_Escande.pdf
   lab: jrl
+  month: october 11-october 15
 - id: escande:iros:2009b
   year: 2009
   title: Contact planning for acyclic motion with task constraints and experiments
@@ -5248,6 +5595,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2009_IROS_video_Escande.pdf
   lab: jrl
+  month: october 11-october 15
 - id: harada:iros:2009
   year: 2009
   title: Toward Human-Like Walking Pattern Generator
@@ -5266,6 +5614,7 @@
   - family: Kajita.shuuji
     given: ''
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2009_publications/IROS2009-0744.pdf
+  month: october 11-october 15
 - id: kita:iros:2009
   year: 2009
   title: A method for handling a specific part of clothes by dual arms
@@ -5280,6 +5629,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: file:///C:/Users/snkarc73/Downloads/IROS09-1202.pdf
+  month: october 11-october 15
 - id: tsuji:iros:2009
   year: 2009
   title: Easy and Fast Evaluation of Grasp Stability by using Ellipsoidal Approximation
@@ -5292,6 +5642,7 @@
     given: Kensuke
   - id: kaneko
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2009_publications/IROS2009-0768.pdf
+  month: october 11-october 15
 - id: escande:syroco:2009
   year: 2009
   title: Planning contact supports for acyclic motion with task constraints and experiment
@@ -5302,6 +5653,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2009_Syroco_Escande.pdf
   lab: jrl
+  month: september 9-september 12
 - id: suleiman:aim:2010
   year: 2010
   title: Generating Dynamically Stable Walking Patterns for Humanoid Robots Using
@@ -5316,6 +5668,7 @@
   - id: yoshida
   pdf: https://www.researchgate.net/profile/Wael-Suleiman-3/publication/251986848_Generating_dynamically_stable_walking_patterns_for_humanoid_robots_using_quadratic_system_model/links/543be8770cf2d6698be3500f/Generating-dynamically-stable-walking-patterns-for-humanoid-robots-using-quadratic-system-model.pdf
   lab: jrl
+  month: july 6-july 9
 - id: miura:clawar:2010
   year: 2010
   title: Slip turn generation of humanoid robots based on an analysis of friction
@@ -5331,6 +5684,7 @@
   - family: Yokoi
     given: Kazuhito
   - id: kajita
+  month: august 31-september 3
 - id: escande:icra:2010
   year: 2010
   title: Fast Resolution of Hierarchized Inverse Kinematics with Inequality Constraints
@@ -5342,6 +5696,7 @@
   - family: Wieber
     given: Pierre-Brice
   pdf: http://hal.archives-ouvertes.fr/docs/00/48/48/53/PDF/2010_icra_escande.pdf
+  month: may 3-may 8
 - id: miura:icra:2010
   year: 2010
   title: Analysis on a Friction Based ``Twirl" for Biped Robots
@@ -5356,6 +5711,7 @@
     given: Kensuke
   - id: kajita
   pdf: http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_ICRA_2010/data/papers/2010.pdf
+  month: may 3-may 8
 - id: sakaguchi:icra:2010
   year: 2010
   title: Intelligent Ambience That Can Lead Robot's Actions--System Design Concept
@@ -5372,6 +5728,7 @@
   - family: Wada
     given: Kazuyoshi
   pdf: https://www.researchgate.net/profile/Takeshi-Sakaguchi/publication/221068204_Intelligent_Ambience_That_Can_Lead_Robot's_Actions-System_Design_Concept_and_Experimental_Evaluation_of_Intelligent_Ambience-/links/02e7e52a0080b0df42000000/Intelligent-Ambience-That-Can-Lead-Robots-Actions-System-Design-Concept-and-Experimental-Evaluation-of-Intelligent-Ambience.pdf
+  month: may 3-may 8
 - id: dune:iros:2010
   year: 2010
   title: Cancelling the sway motion of dynamic walking in visual servoing
@@ -5390,6 +5747,7 @@
   - id: yoshida
   pdf: https://hal.inria.fr/inria-00567664/file/iros2010.pdf
   lab: jrl
+  month: october 18-october 22
 - id: kajita:iros:2010
   year: 2010
   title: Biped Walking Stabilization Based on Linear Inverted Pendulum Tracking
@@ -5407,6 +5765,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2010_publications/IROS2010-0872.pdf
+  month: october 18-october 22
 - id: kanehiro:iros:2010
   year: 2010
   title: Integrating Geometric Constraints into Reactive Leg Motion Generation
@@ -5420,6 +5779,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2010_publications/IROS2010-0703.pdf
   lab: jrl
+  month: october 18-october 22
 - id: yoshida:iros:2010
   year: 2010
   title: 'Online Replanning for Reactive Robot Motion: Practical Aspects'
@@ -5431,6 +5791,7 @@
   - id: gergondet
   pdf: https://staff.aist.go.jp/e.yoshida/papers/iros2010-rea-final.pdf
   lab: jrl
+  month: october 18-october 22
 - id: qiu:dhm:2011
   year: 2011
   title: Human motions analysis and simulation based on a general criterion of stability
@@ -5444,6 +5805,7 @@
   - family: Robert
     given: Thomas
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2011_DHM_Qiu.pdf
+  month: june 13-june 16
 - id: kita:humanoids:2011a
   year: 2011
   title: Direct floor height measurement for biped walking robot by fisheye stereo
@@ -5452,6 +5814,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://staff.aist.go.jp/n.kita/work/publications/Humanoids11.pdf
+  month: october 26-october 28
 - id: kita:humanoids:2011b
   year: 2011
   title: Clothes handling based on recognition by strategic observation
@@ -5465,6 +5828,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://staff.aist.go.jp/y.kita/Japanese/Research/Action/Papers/Humanoids11-YKita.pdf
+  month: october 26-october 28
 - id: mansour:humanoids:2011
   year: 2011
   title: A new optimization based approach for push recovery in case of multiple noncoplanar
@@ -5479,6 +5843,7 @@
   - family: Lemerle
     given: Pierre
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2011_Humanoids_Mansour.pdf
+  month: october 26-october 28
 - id: morisawa:humanoids:2011
   year: 2011
   title: Reactive biped walking control for a collision of a swinging foot on uneven
@@ -5491,6 +5856,7 @@
   - id: kajita
   - family: Yokoi
     given: Kazuhito
+  month: october 26-october 28
 - id: tsuji:humanoids:2011
   year: 2011
   title: Humanoid Robot that Achieves Bipedal Walk, Visual Recognition, and Multiple
@@ -5505,6 +5871,7 @@
   - id: kanehiro
   - id: morisawa
   pdf: file:///C:/Users/snkarc73/Downloads/Humanoids_Tsuji.pdf
+  month: october 26-october 28
 - id: goto:icassp:2011
   year: 2011
   title: 'VocaListener and VocaWatcher: Imitating a Human Singer by Using Signal Processing'
@@ -5521,6 +5888,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/t.nakano/PAPER/ICASSP2012goto.pdf
+  month: may 22-may 27
 - id: arisumi:icra:2011
   year: 2011
   title: Systematic Touch Scheme for a Humanoid Robot to Grasp a Door Knob
@@ -5533,6 +5901,7 @@
   - family: Yokoi
     given: Kazuhito
   lab: jrl
+  month: may 9-may 13
 - id: kwak:icra:2011
   year: 2011
   title: Visual Recognition of a Door and Its Knob for a Humanoid Robot
@@ -5545,6 +5914,7 @@
   - family: Yokoi
     given: Kazuhito
   lab: jrl
+  month: may 9-may 13
 - id: liu:icra:2011
   year: 2011
   title: Interactive Dynamics and Balance of a Virtual Character During Manipulation
@@ -5561,6 +5931,7 @@
   - family: Andriot
     given: Claude
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2011_ICRA_Liu.pdf
+  month: may 9-may 13
 - id: yoshida:icra:2011
   year: 2011
   title: Reactive Robot Motion using Path Replanning and Deformation
@@ -5570,6 +5941,7 @@
   - id: kanehiro
   pdf: https://staff.aist.go.jp/e.yoshida/papers/icra2011-yoshida.pdf
   lab: jrl
+  month: may 9-may 13
 - id: kajita:iros:2011
   year: 2011
   title: 'VocaWatcher: Natural Singing Motion Generator for a Humanoid Robot'
@@ -5586,6 +5958,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/t.nakano/PAPER/IROS2011kajita.pdf
+  month: september 25-september 30
 - id: kaneko:iros:2011a
   year: 2011
   title: Humanoid Robot HRP-4- Humanoid Robotics Platform with Lightweight and Slim
@@ -5604,6 +5977,7 @@
   - family: Kanehira
     given: Noriyuki
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2011_publications/IROS2011-0164.pdf
+  month: september 25-september 30
 - id: kaneko:iros:2011b
   year: 2011
   title: Hardware Improvement of Cybernetic Human HRP-4C for Entertainment Use
@@ -5621,6 +5995,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2011_publications/IROS2011-0107.pdf
+  month: september 25-september 30
 - id: miura:iros:2011
   year: 2011
   title: Human-like Walking with Toe Supporting for Humanoids
@@ -5635,6 +6010,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2011_publications/IROS2011-1450.pdf
+  month: september 25-september 30
 - id: robert:isb:2011
   year: 2011
   title: A dynamic stability analysis of the sit-to-stand transfer
@@ -5650,6 +6026,7 @@
   - family: Micaelli
     given: Alain
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2011_ISB_Robert.pdf
+  month: july 3-july 7
 - id: kita:mva:2011
   year: 2011
   title: Dense 3D Measurement of the Near Surroundings by Fisheye Stereo
@@ -5658,6 +6035,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://staff.aist.go.jp/n.kita/work/publications/MVA11.pdf
+  month: june 13-june 15
 - id: liu:robio:2011
   year: 2011
   title: An Energy Based Two Level Prioritized Control for Virtual Humans
@@ -5673,6 +6051,7 @@
   - family: Andriot
     given: Claude
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2011_ROBIO_Liu.pdf
+  month: december 7-december 11
 - id: kaneko:amc:2012
   year: 2012
   title: Disturbance Observer that estimates External Force acting on Humanoid Robots
@@ -5684,6 +6063,7 @@
   - id: yoshida
   - family: Laumond
     given: Jean-Paul
+  month: march 25-march 27
 - id: kamishima:ecml-pkdd:2012
   year: 2012
   title: Fairness-aware Classifier with Prejudice Remover Regularize
@@ -5699,6 +6079,7 @@
   - family: Sakuma
     given: Jun
   pdf: https://link.springer.com/content/pdf/10.1007%2F978-3-642-33486-3_3.pdf
+  month: september 24-september 28
 - id: asano:eusipco:2012
   year: 2012
   title: Estimation of the number of sources and their locations in colored noise
@@ -5712,6 +6093,7 @@
   - family: Nakadai
     given: Kazuhiro
   pdf: https://www.eurasip.org/Proceedings/Eusipco/Eusipco2012/Conference/papers/1569571875.pdf
+  month: august 27-august 31
 - id: bouyarmane:humanoids:2012a
   year: 2012
   title: Exploring humanoid robots locomotion capabilities in virtual disaster response
@@ -5724,6 +6106,7 @@
   - id: keith
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00765817/document
+  month: november 29-december 1
 - id: bouyarmane:humanoids:2012b
   year: 2012
   title: On the dynamics modeling of free-floating-base articulated mechanisms and
@@ -5735,6 +6118,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00765815/document/
   lab: jrl
+  month: november 29-december 1
 - id: enoch:humanoids:2012
   year: 2012
   title: 'BLUE: A Bipedal Robot with Variable Stiffness and Damping'
@@ -5748,6 +6132,7 @@
   - family: Vijayakumar
     given: Sethu
   pdf: https://homepages.inf.ed.ac.uk/svijayak/publications/enoch-Humanoids2012.pdf
+  month: november 29-december 1
 - id: kajita:humanoids:2012
   year: 2012
   title: Evaluation of a Stabilizer for Biped Walk with Toe Support Phase
@@ -5761,6 +6146,7 @@
   - id: kanehiro
   - family: Yokoi
     given: Kazuhito
+  month: november 29-december 1
 - id: morisawa:humanoids:2012
   year: 2012
   title: Balance Control based on Capture Point Error Compensation for Biped Walking
@@ -5775,6 +6161,7 @@
     given: Kanako
   - family: Yokoi
     given: Kazuhito
+  month: november 29-december 1
 - id: nakaoka:humanoids:2012
   year: 2012
   title: Interaction Mesh Based Motion Adaptation for Biped Humanoid Robots
@@ -5784,6 +6171,7 @@
   - family: Komura
     given: Taku
   pdf: http://web.tuat.ac.jp/~gvlab/ronbun/ReadingGroupHCR/Interaction_Mesh_Based_Motion_Adaptation_for_Biped_Humanoid_Robots.pdf
+  month: november 29-december 1
 - id: qiu:humanoids:2012
   year: 2012
   title: A Hierarchical Framework for Realizing Dynamically-stable Motions of Humanoid
@@ -5798,6 +6186,7 @@
   - family: Robert
     given: Thomas
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2012_Humanoids_Qiu.pdf
+  month: november 29-december 1
 - id: yonekura:humanoids:2012
   year: 2012
   title: Whole-body motion input method for bipedal humanoid robot with support leg
@@ -5809,6 +6198,7 @@
   - id: nakaoke
   - family: Yokoi
     given: Kazuhito
+  month: november 29-december 1
 - id: kamishima:icdmw:2012
   year: 2012
   title: Considerations on Fairness-Aware Data Mining
@@ -5823,6 +6213,7 @@
   - family: Sakuma
     given: Jun
   pdf: https://www.kamishima.net/archive/2012-ws-icdm-HN.pdf
+  month: december 10
 - id: rojas:icma:2012
   year: 2012
   title: A constraint-based motion control strategy for cantilever snap assemblies
@@ -5839,6 +6230,7 @@
   - family: Kawai
     given: Yoshihiro
   pdf: http://www.juanrojas.net/wp-content/uploads/papers/2012ICMA-Rojas-CnstrntMtnSnapAsmbly-Final.pdf
+  month: august 5-august 8
 - id: miura:icra:2012
   year: 2012
   title: Quick Slip-Turn of HRP-4C on its Toes
@@ -5852,6 +6244,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2012_publications/ICRA2012-0800.pdf
+  month: may 14-may 18
 - id: kanehiro:iros:2012
   year: 2012
   title: Efficient Reaching Motion Planning and Execution for Exploration by Humanoid
@@ -5863,6 +6256,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/e.yoshida/papers/iros_kanehiro12.pdf
+  month: october 7-october 12
 - id: rojas:iros:2012
   year: 2012
   title: A relative-change-based hierarchical taxonomy for cantilever-snap assembly
@@ -5883,6 +6277,7 @@
     given: Yoshihiro
   pdf: http://juanrojas.net/wp-content/uploads/papers/2012IROS-Rojas-RelChangHierarchAsmblyVer-Final.pdf
   lab: jrl
+  month: october 7-october 12
 - id: asoh:muse:2012
   year: 2012
   title: A fast and simple method for profiling a population of Twitter users
@@ -5895,6 +6290,7 @@
   - family: Ono
     given: Chihiro
   pdf: https://d1wqtxts1xzle7.cloudfront.net/30835991/proceedings-with-cover-page-v2.pdf?Expires=1625631849&Signature=IRxa5B-ljcMsis1nQKCwYcRuptNa5NJaGqfwZ~c5azzBnALiqWn3o5a-D5E9gUpXyOPOXqV61ilDYIRcbRvNhLXFBW9~1h4hPL0E6-dBHVhNHlz4JZu~4czqUzHporpKc4ASNXyPnQaQDs9Y30Q5KyQ4ZVVhbrZJRdECugc3RxK1lRWZ7x2blo6~xS71~AYPVkXf9q1qss12rN8sHmV32raauxcBTvynuqOTkdNArkuPVHRaqmziPHDf7A9Zd-rdhZhCZK~lzCHgxUofrMJFVxAWKitm~w76yPUQwY75M3stP0xN7XDu675DjbCnaxkCDzn~yABHNKSXTUoRwTsZ9g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA#page=25
+  month: september 24
 - id: cisneros:robio:2012
   year: 2012
   title: Ball dynamics simulation on OpenHRP3
@@ -5905,6 +6301,7 @@
   - family: Yokoi
     given: Kazuhito
   lab: jrl
+  month: december 11-december 14
 - id: liu:sca:2012
   year: 2012
   title: Task-driven Posture Optimization for Virtual Characters
@@ -5920,6 +6317,7 @@
   - family: Andriot
     given: Claude
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2012_Eurographics_Liu.pdf
+  month: july 29-july 31
 - id: kita:sii:2012
   year: 2012
   title: 3D Shape Measurement of a Large Cloth close to a Fisheye Stereo
@@ -5931,6 +6329,7 @@
   - family: Kita
     given: Yasuyo
   pdf: https://staff.aist.go.jp/n.kita/work/publications/SII12.pdf
+  month: december 16-december 18
 - id: nakaoka:sii:2012
   year: 2012
   title: 'Choreonoid: Extensible Virtual Robot Environment Built on an Integrated
@@ -5938,6 +6337,7 @@
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
   - id: nakaoke
+  month: december 16-december 18
 - id: agravante:hfr:2013
   year: 2013
   title: Visio-haptic control for Human-Humanoid Cooperative Carrying
@@ -5950,6 +6350,7 @@
   - id: kheddar
   pdf: https://hfr13.files.wordpress.com/2013/08/08agravante.pdf
   lab: jrl
+  month: september 25-september 26
 - id: cisneros:humanoids:2013
   year: 2013
   title: Impulsive pedipulation of a spherical object for reaching a 3D goal position
@@ -5961,6 +6362,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Cisneros-humanoids2013.pdf
   lab: jrl
+  month: october 15-october 17
 - id: jarquin:humanoids:2013
   year: 2013
   title: Real-time smooth task transitions for hierarchical inverse kinematics
@@ -5977,6 +6379,7 @@
     given: Vicente
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Jarquin_smoothSwaps_humanoids2013.pdf
   lab: jrl
+  month: october 15-october 17
 - id: kita:humanoids:2013a
   year: 2013
   title: Foot Landing State Estimation from Point Cloud at a Landing Place
@@ -5987,6 +6390,7 @@
   - id: morisawa
   - id: kanehiro
   pdf: https://staff.aist.go.jp/n.kita/work/publications/Humanoids13.pdf
+  month: october 15-october 17
 - id: kita:humanoids:2013b
   year: 2013
   title: Recognizing clothing states using 3D data observed from multiple directions
@@ -6000,6 +6404,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://www.researchgate.net/profile/Nobuyuki-Kita/publication/282255047_Recognizing_clothing_states_using_3D_data_observed_from_multiple_directions/links/56a1b62a08ae24f6270212f5/Recognizing-clothing-states-using-3D-data-observed-from-multiple-directions.pdf
+  month: october 15-october 17
 - id: kulic:humanoids:2013
   year: 2013
   title: Quantitative Human and Robot Motion Comparison for Enabling Assistive Device
@@ -6016,6 +6421,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/kulic-motion-comparison-humanoids2013.pdf
   lab: jrl
+  month: october 15-october 17
 - id: noguchi:icast:2013
   year: 2013
   title: Generating a Variety of Expressions from Visual Information and User-Designated
@@ -6040,6 +6446,7 @@
     given: Hideki
   - family: Kobayashi
     given: Ichiro
+  month: november 2-november 4
 - id: kamishima:icdmw:2013
   year: 2013
   title: The Independence of the Fairness-aware Classifier
@@ -6054,6 +6461,7 @@
   - family: Sakuma
     given: Jun
   pdf: https://www.kamishima.net/archive/2013-ws-icdm-HN.pdf
+  month: december 7-december 10
 - id: bouyarmane:iconip:2013
   year: 2013
   title: BCI Control of Whole-Body Simulated Humanoid by Combining Motor Imagery Detection
@@ -6072,6 +6480,7 @@
     given: Jun
   pdf: https://members.loria.fr/kbouyarmane/iconip2013.pdf
   lab: jrl
+  month: november 3-november 7
 - id: kajita:icra:2013
   year: 2013
   title: Vertical vibration suppression for a position controlled biped robot
@@ -6088,6 +6497,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://staff.aist.go.jp/k.kaneko/publications/2013_publications/ICRA2013-0371.pdf
+  month: may 6-may 10
 - id: miura:icra:2013
   year: 2013
   title: Humanoid Robot as an Evaluator of Assistive Devices
@@ -6109,6 +6519,7 @@
   - family: Tanaka
     given: Takayuki
   pdf: https://staff.aist.go.jp/e.yoshida/papers/icra2013-miura-yoshida.pdf
+  month: may 6-may 10
 - id: agravante:iros:2013
   year: 2013
   title: Human-Humanoid Joint Haptic Table Carrying Task with Height Stabilization
@@ -6123,6 +6534,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00857659/document
   lab: jrl
+  month: november 3-november 7
 - id: yang:ivcnz:2013
   year: 2013
   title: Deformation Transfer based on Stretchiness Ratio
@@ -6135,6 +6547,7 @@
   - id: yoshiyasu
   - family: Ouhyoung
     given: Ming
+  month: november 27-november 29
 - id: noguchi:paclic:2013
   year: 2013
   title: Event Sequence Model for Semantic Analysis of Time and Location in Dialogue
@@ -6158,6 +6571,7 @@
   - family: Itoh
     given: Yukihiro
   pdf: https://core.ac.uk/download/pdf/144459188.pdf
+  month: november 21-november 24
 - id: agravante:ram:2013
   year: 2013
   title: Using vision and haptic sensing for human-humanoid haptic joint actions
@@ -6170,6 +6584,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00908439/document
   lab: jrl
+  month: november 12-november 15
 - id: brossette:ram:2013
   year: 2013
   title: 'Point-Cloud Multi-Contact Planning for Humanoids: Preliminary Results'
@@ -6182,6 +6597,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00863931/document/
   lab: jrl
+  month: november 12-november 15
   projects:
   - robohow
 - id: kita:sii:2013
@@ -6195,6 +6611,7 @@
   - id: morisawa
   - id: kaneko
   pdf: https://staff.aist.go.jp/n.kita/work/publications/SII13.pdf
+  month: december 15-december 17
 - id: tanikawa:urai:2013
   year: 2013
   title: Support model for living on temporary houses in disaster area based on smart
@@ -6219,6 +6636,7 @@
     given: Takuichi
   - family: Motomura
     given: Yoichi
+  month: october 30-november 2
 - id: kobayashi:wcecs:2013
   year: 2013
   title: A Probabilistic Approach to Text Generation of Human Motions extracted from
@@ -6234,6 +6652,7 @@
   - family: Guadarrama
     given: Sergio
   pdf: http://www.iaeng.org/publication/WCECS2013/WCECS2013_pp18-22.pdf
+  month: october 23-october 25
 - id: pandey:aic:2014
   year: 2014
   title: 'Romeo2 Project: Humanoid Robot Assistant and Companion for Everyday Life:
@@ -6269,6 +6688,7 @@
     given: Frédéric
   pdf: https://hal.archives-ouvertes.fr/hal-01096094/document
   lab: jrl
+  month: november 26-november 27
 - id: asoh:apsipa:2014
   year: 2014
   title: Zero-Shot Learning of Language Models for Describing Human Actions Based
@@ -6281,6 +6701,7 @@
   - family: Kobayashi
     given: Ichiro
   pdf: https://www.aclweb.org/anthology/Y14-1012.pdf
+  month: december 12-december 14
 - id: yoshiyasu:cvpr:2014
   year: 2014
   title: Symmetry-Aware Nonrigid Matching of Incomplete 3D Surfaces
@@ -6293,6 +6714,7 @@
   - id: sagawa
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu2014CVPR.pdf
   lab: jrl
+  month: june 23-june 28
 - id: petit:cyber:2014
   year: 2014
   title: Navigation assistance for a BCI-controlled humanoid robot
@@ -6310,6 +6732,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01222966/document
   lab: jrl
+  month: june 4-june 7
   projects:
   - vere
 - id: ayusawa:humanoids:2014
@@ -6326,6 +6749,7 @@
     given: Takayuki
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids14_ayusawa_proc.pdf
   lab: jrl
+  month: november 18-november 20
 - id: cisneros:humanoids:2014
   year: 2014
   title: Partial yaw moment compensation through whole-body motion
@@ -6337,6 +6761,7 @@
     given: Kazuhito
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids2014_Cisneros.pdf
   lab: jrl
+  month: november 18-november 20
 - id: lopez:humanoids:2014
   year: 2014
   title: Compliant control of a humanoid robot helping a person stand up from a seated
@@ -6352,6 +6777,7 @@
   - id: kheddar
   pdf: https://www.researchgate.net/profile/Philippe-Fraisse/publication/283594260_Compliant_control_of_a_humanoid_robot_helping_a_person_stand_up_from_a_seated_position/links/56ead18408aec6b500164b22/Compliant-control-of-a-humanoid-robot-helping-a-person-stand-up-from-a-seated-position.pdf
   lab: jrl
+  month: november 18-november 20
 - id: paolillo:humanoids:2014
   year: 2014
   title: Toward autonomous car driving by a humanoid robot- A sensor-based framework
@@ -6367,6 +6793,7 @@
     given: Marilena
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01247234/document
   lab: jrl
+  month: november 18-november 20
 - id: ramirezalpizar:humanoids:2014
   year: 2014
   title: Motion Planning for Dual-arm Assembly of Ring-shaped Elastic Objects
@@ -6379,6 +6806,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/humanoids2014_Ixchel_proc.pdf
   lab: jrl
+  month: november 18-november 20
 - id: vaillant:humanoids:2014
   year: 2014
   title: Vertical ladder climbing by the HRP-2 humanoid robot
@@ -6395,6 +6823,7 @@
   - id: kanehiro
   pdf: https://hal.archives-ouvertes.fr/hal-01276934/document
   lab: jrl
+  month: november 18-november 20
 - id: cisneros:icma:2014
   year: 2014
   title: Yaw Moment Compensation By Using Full Body Motion
@@ -6406,6 +6835,7 @@
   - id: yoshida
   pdf: file:///C:/Users/snkarc73/Downloads/ICMA2014-Rafael-proc.pdf
   lab: jrl
+  month: august 3-august 6
 - id: agravante:icra:2014
   year: 2014
   title: Collaborative Human-Humanoid Carrying Using Vision and Haptic Sensing
@@ -6420,6 +6850,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/file/index/docid/950727/filename/2014_icra_agravante-collaborative_human_humanoid_carrying_using_vision.pdf
   lab: jrl
+  month: may 31-june 5
   projects:
   - robohow
 - id: rojas:icra:2014
@@ -6438,6 +6869,7 @@
   - family: Nagata
     given: Kazuyuki
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Rojas2014ICRA.pdf
+  month: may 31-june 7
 - id: mikami:ifac:2014
   year: 2014
   title: Study on Dynamics Identification of the Foot Viscoelasticity of a Humanoid
@@ -6451,6 +6883,7 @@
   - id: venture
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Mikami_IFAC2014.pdf
   lab: jrl
+  month: august 24-august 29
 - id: audren:iros:2014
   year: 2014
   title: Model preview control in multi-contact motion -- Application to a humanoid
@@ -6465,6 +6898,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Audren_iros2014.pdf
   lab: jrl
+  month: september 14-september 18
   projects:
   - robohow
   - koroibot
@@ -6481,6 +6915,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01016319/file/iros2014.pdf
   lab: jrl
+  month: september 14-september 18
   projects:
   - robohow
   - koroibot
@@ -6497,6 +6932,7 @@
   - family: Morsly
     given: Yacine
   - id: kheddar
+  month: june 16-june 19
 - id: asano:rose:2014
   year: 2014
   title: Risk Evaluation of Ground Surface Using Multichannel Foot Sensors for Biped
@@ -6512,6 +6948,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6952984
+  month: october 16-october 18
 - id: morisawa:sii:2014
   year: 2014
   title: Biped Locomotion Control for Uneven Terrain with Narrow Support Region
@@ -6524,6 +6961,7 @@
   - id: kaneko
   - id: kajita
   - id: kanehiro
+  month: december 13-december 15
 - id: nakaoka:sii:2014
   year: 2014
   title: Development of an Indirect-type Teleoperation Interface for Biped Humanoid
@@ -6535,6 +6973,7 @@
   - id: kaneko
   - id: kajita
   - id: kanehiro
+  month: december 13-december 15
 - id: gergondet:urai:2014
   year: 2014
   title: Combining 3D SLAM and visual tracking to reach and retrieve objects in daily-life
@@ -6552,6 +6991,7 @@
     given: Andrea
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01247142/document
   lab: jrl
+  month: november 12-november 15
   projects:
   - vere
 - id: kita:visapp:2014
@@ -6562,6 +7002,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://staff.aist.go.jp/n.kita/work/publications/VISAPP15.pdf
+  month: january 5-january 8
 - id: asano:apsipa:2015
   year: 2015
   title: Sound source localization using a single-point stereo microphone for robots
@@ -6575,6 +7016,7 @@
   - family: Yokoi
     given: Kazuhito
   pdf: http://www.apsipa.org/proceedings_2015/pdf/27.pdf
+  month: december 16-december 19
 - id: aymerichfranch:arso:2015
   year: 2015
   title: Embodiment of a humanoid robot is preserved during partial and delayed control
@@ -6587,6 +7029,7 @@
   - id: kheddar
   pdf: http://www.aymerichfranch.com/wp-content/uploads/2015/06/ARSO15_0038_FI.pdf
   lab: jrl
+  month: june 30-july 2
   projects:
   - kakenhiG_2015
 - id: yoshida:arso:2015
@@ -6605,6 +7048,7 @@
   - id: kheddar
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshida-ARSO15.pdf
   lab: jrl
+  month: june 30-july 2
 - id: pham:cvpr:2015
   year: 2015
   title: 'Towards force sensing from vision: Observing hand-object interactions to
@@ -6619,6 +7063,7 @@
     given: A.
   pdf: https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pham_Towards_Force_Sensing_2015_CVPR_paper.pdf
   lab: jrl
+  month: june 7-june 12
   projects:
   - robohow
 - id: boubchir:embc:2015
@@ -6637,6 +7082,7 @@
     given: Ali
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7318719
   lab: jrl
+  month: august 25-august 29
 - id: imamura:embc:2015
   year: 2015
   title: 'Lumbar load estimation using a musculoskeletal model in consideration of
@@ -6652,6 +7098,7 @@
   - family: Tsuchiya
     given: Yoshio
   lab: jrl
+  month: august 25-august 29
 - id: kapeller:embc:2015
   year: 2015
   title: Online control of a humanoid robot through hand movement imagination using
@@ -6678,6 +7125,7 @@
   - family: Guger
     given: Christoph
   lab: jrl
+  month: august 25-august 29
   projects:
   - vere
 - id: yoshiyasu:embc:2015
@@ -6694,6 +7142,7 @@
     given: Yoshio
   - id: endoy
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu2015_EMBC.pdf
+  month: august 25-august 29
 - id: brossette:humanoids:2015
   year: 2015
   title: Humanoid posture generation on non-Euclidian manifolds
@@ -6707,6 +7156,7 @@
   - id: kheddar
   pdf: https://comanoid.cnrs.fr/publications_files/2015/Humanoids/W6IA-4.pdf
   lab: jrl
+  month: november 3-november 5
   projects:
   - comanoid
 - id: cisneros:humanoids:2015
@@ -6721,6 +7171,7 @@
   - id: morisawa
   - id: kaneko
   - id: kanehiro
+  month: november 3-november 5
 - id: imamura:humanoids:2015
   year: 2015
   title: 'Verification of passive power-assist device using humanoid robot: Effect
@@ -6733,6 +7184,7 @@
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/humanoids2015_imamura.pdf
+  month: november 3-november 5
 - id: kaneko:humanoids:2015
   year: 2015
   title: Humanoid Robot HRP-2Kai - Improvement of HRP-2 towards Disaster Response
@@ -6746,6 +7198,7 @@
   - id: sakaguchi
   - id: cisneros
   - id: kanehiro
+  month: november 3-november 5
 - id: nakaoka:humanoids:2015
   year: 2015
   title: Task Sequencer Integrated into a Teleoperation Interface for Biped Humanoid
@@ -6759,6 +7212,7 @@
   - id: kajita
   - id: kaneko
   - id: kanehiro
+  month: november 3-november 5
 - id: samy:humanoids:2015
   year: 2015
   title: Falls control using posture reshaping and active compliance
@@ -6768,6 +7222,7 @@
   - id: kheddar
   pdf: https://www.researchgate.net/profile/Vincent-Samy/publication/308835404_Falls_control_using_posture_reshaping_and_active_compliance/links/58eb86db0f7e9b6b274b8679/Falls-control-using-posture-reshaping-and-active-compliance.pdf
   lab: jrl
+  month: november 3-november 5
   projects:
   - comanoid
 - id: pajon:icar:2015
@@ -6784,6 +7239,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01278857/document
   lab: jrl
+  month: july 27-july 31
   projects:
   - koroibot
 - id: daachi:icorr:2015a
@@ -6798,6 +7254,7 @@
     given: Larbi
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7281338
+  month: august 11-august 14
   projects:
   - vere
 - id: daachi:icorr:2015b
@@ -6815,6 +7272,7 @@
     given: Karim
   pdf: https://drive.google.com/file/d/0B1VillHhAF_pa2RKaXo2VXNWcTg/view
   lab: jrl
+  month: august 11-august 14
 - id: petit:icra:2015
   year: 2015
   title: An integrated framework for humanoid embodiment with a BCI
@@ -6827,6 +7285,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01222969/document
   lab: jrl
+  month: may 26-may 30
 - id: ayusawa:iros:2015
   year: 2015
   title: Motion Retargeting for Humanoid Robots Based on Identification to Preserve
@@ -6838,6 +7297,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/IROS2015_Ayusawa.pdf
   lab: jrl
+  month: september 28-october 2
 - id: chretien:iros:2015
   year: 2015
   title: Continuously satisfying constraints with contact forces in trajectory optimization
@@ -6849,6 +7309,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document
   lab: jrl
+  month: september 28-october 2
   projects:
   - robohow
 - id: jovic:iros:2015
@@ -6867,6 +7328,7 @@
   - id: venture
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Jovic_IROS_2015.pdf
   lab: jrl
+  month: september 28-october 2
 - id: kajitani:ro-man:2015
   year: 2015
   title: A survey report on information costs in introducing technology to care services
@@ -6882,6 +7344,7 @@
     given: Tamio
   - family: Kotoku
     given: Tetsuo
+  month: august 31-september 4
 - id: sagawa:ro-man:2015
   year: 2015
   title: Modeling Dynamic Scenes by One-shot 3D Acquisition System for Moving Humanoid
@@ -6898,6 +7361,7 @@
     given: Yoshio
   - family: Hilton
     given: Adrian
+  month: august 31-september 4
 - id: kita:sii:2015
   year: 2015
   title: 3D Shape Measurement of a Large Cloth Extremely Close to a Fisheye Stereo
@@ -6907,6 +7371,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://staff.aist.go.jp/n.kita/work/publications/SII15.pdf
+  month: december 11-december 13
 - id: suleiman:sii:2015
   year: 2015
   title: Infeasibility-free inverse kinematics method
@@ -6918,6 +7383,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Suleiman-SII2015.pdf
   lab: jrl
+  month: december 11-december 13
 - id: chenane:biorob:2016
   year: 2016
   title: 'Algorithms of control by thought in robotics: active and passive BMIs based
@@ -6935,6 +7401,7 @@
     given: Arab
   pdf: https://www.researchgate.net/profile/Younes-Youcef-Touati/publication/305908314_Algorithms_of_control_by_thought_in_robotics_Active_and_passive_BMIs_based_on_prior_knowledge/links/5e8f5628299bf130798d82c9/Algorithms-of-control-by-thought-in-robotics-Active-and-passive-BMIs-based-on-prior-knowledge.pdf
   lab: jrl
+  month: june 26-june 29
 - id: pajon:biorob:2016
   year: 2016
   title: Adaptation of walking ground reaction forces to abrupt changes in ground
@@ -6952,6 +7419,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01740865/document
   lab: jrl
+  month: june 26-june 29
 - id: kita:dicta:2016
   year: 2016
   title: Evaluation of the Viewpoint Shift for a Fisheye Lens Based on Stereo Geometry
@@ -6961,6 +7429,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://staff.aist.go.jp/n.kita/work/publications/DICTA16.pdf
+  month: november 30-december 2
 - id: audren:humanoids:2016
   year: 2016
   title: Stability Polygons Reshaping and Morphing for Smooth Multi-Contact Transitions
@@ -6972,6 +7441,7 @@
   - id: gergondet
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01256512/file/ra_letters.pdf
   lab: jrl
+  month: november 15-november 17
   projects:
   - comanoid
 - id: ayusawa:humanoids:2016
@@ -6982,6 +7452,7 @@
   - id: ayusawa
   - id: yoshida
   lab: jrl
+  month: november 15-november 17
 - id: caron:humanoids:2016
   year: 2016
   title: Multi-Contact Walking Pattern Generation Based on Model Preview Control of
@@ -6992,6 +7463,7 @@
     given: Stéphane
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01349880/document
+  month: november 15-november 17
 - id: cisneros:humanoids:2016
   year: 2016
   title: Enabling a teleoperated humanoid robot to pass through debris-filled terrain
@@ -7005,6 +7477,7 @@
   - id: kajita
   - id: sakaguchi
   - id: kanehiro
+  month: november 15-november 17
 - id: difava:humanoids:2016
   year: 2016
   title: Multi-Contact Motion Retargeting from Human to Humanoid Robot
@@ -7020,6 +7493,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01414986/file/root.pdf
   lab: jrl
+  month: november 15-november 17
 - id: flacco:humanoids:2016
   year: 2016
   title: Residual-Based Contacts Estimation for Humanoid Robots
@@ -7032,6 +7506,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01546332/document
   lab: jrl
+  month: november 15-november 17
 - id: ito:humanoids:2016
   year: 2016
   title: Stationary Torque Replacement for Evaluation of Active Assistive Devices
@@ -7045,6 +7520,7 @@
     given: Hiroshi
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ito_2016_HUMANOIDS.pdf
   lab: jrl
+  month: november 15-november 17
 - id: kajita:humanoids:2016
   year: 2016
   title: Impact Acceleration of Falling Humanoid Robot with an Airbag
@@ -7058,6 +7534,7 @@
   - id: morisawa
   - id: kaneko
   - id: kanehiro
+  month: november 15-november 17
 - id: morishima:humanoids:2016
   year: 2016
   title: Whole-body motion retargeting using constrained smoothing and functional
@@ -7071,6 +7548,7 @@
   - id: venture
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Humanoids16_morishima.pdf
   lab: jrl
+  month: november 15-november 17
 - id: kita:icpr:2016
   year: 2016
   title: Virtual Flattening of Clothing Item Held in the Air
@@ -7081,6 +7559,7 @@
   - family: Kita
     given: Nobuyuki
   pdf: https://staff.aist.go.jp/y.kita/Papers/ICPR16_virtual.pdf
+  month: december 4-december 8
 - id: yoshiyasu:icpr:2016
   year: 2016
   title: Nonlinear Dimensionality Reduction by Curvature Minimization
@@ -7089,6 +7568,7 @@
   - id: yoshiyasu
   - id: yoshida
   lab: jrl
+  month: june 3-june 5
 - id: agravante:icra:2016
   year: 2016
   title: Walking pattern generators designed for physical collaboration
@@ -7105,6 +7585,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01274791/file/2016-icra-agravante.pdf
   lab: jrl
+  month: may 16-may 21
 - id: demagistris:icra:2016
   year: 2016
   title: Humanoid walking with compliant soles using a deformation estimator
@@ -7118,6 +7599,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01278856/document
   lab: jrl
+  month: may 16-may 21
   projects:
   - koroibot
 - id: escande:icra:2016
@@ -7130,6 +7612,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01275693/document
   lab: jrl
+  month: may 16-may 21
   projects:
   - comanoid
 - id: mifsud:iros:2016
@@ -7144,6 +7627,7 @@
   - family: Lamiraux
     given: Florent
   pdf: https://hal.archives-ouvertes.fr/hal-01285643/file/mifsud2016iros.pdf
+  month: october 9-october 14
 - id: tanguy:sii:2016
   year: 2016
   title: Closed-loop RGB-D SLAM multi-contact control for humanoid robots
@@ -7156,6 +7640,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01568048/document
   lab: jrl
+  month: december 13-december 15
 - id: cisneros:simpar:2016
   year: 2016
   title: Stable simulation of flexible cable-like objects by using serial kinematic
@@ -7168,6 +7653,7 @@
     given: Ryo
   - id: nakaoke
   - id: kanehiro
+  month: december 13-december 16
 - id: kita:visapp:2016
   year: 2016
   title: Reference Plane Based Fisheye Stereo Epipolar Rectification
@@ -7178,6 +7664,7 @@
   - family: Kita
     given: Yasuyo
   pdf: https://staff.aist.go.jp/n.kita/work/publications/VISAPP17.pdf
+  month: february 27-february 29
 - id: hsu:aim:2017
   year: 2017
   title: Self-locking Underactuated Mechanism for Robotic Gripper
@@ -7191,6 +7678,7 @@
   - id: kheddar
   pdf: https://staff.aist.go.jp/e.yoshida/papers/AIM2017_Hsu.pdf
   lab: jrl
+  month: june 26-june 30
 - id: nakaoka:arso:2017
   year: 2017
   title: Developing Semi-Autonomous Humanoid Robots that Perform Various Composite
@@ -7205,6 +7693,7 @@
   - family: Kajita.shuuji
     given: ''
   - id: kanehiro
+  month: march 8-march 10
 - id: bolotnikova:case:2017
   year: 2017
   title: A Circuit-Breaker Use-Case Operated by a Humanoid in Aircraft Manufacturing
@@ -7225,6 +7714,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01565060/document
   lab: jrl
+  month: august 20-august 23
 - id: imamura:embc:2017
   year: 2017
   title: Risk Estimation for Intervertebral Disc Pressure through Musculoskeletal
@@ -7237,6 +7727,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/EMBC17_Imamura.pdf
   lab: jrl
+  month: july 11-july 15
 - id: cohen:gbci:2017
   year: 2017
   title: 'Real-time fMRI control of a humanoid robot using two brain networks: a pilot
@@ -7254,6 +7745,7 @@
   - family: Friedman
     given: Doron
   lab: jrl
+  month: september 18-september 22
 - id: audren:humanoids:2017
   year: 2017
   title: Model-predictive control in multi-contact based on stability polyhedrons
@@ -7263,6 +7755,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01624017/document
   lab: jrl
+  month: november 15-november 17
 - id: benallegue:humanoids:2017
   year: 2017
   title: Tilt estimator for 3D non-rigid pendulum based on a tri-axial accelerometer
@@ -7275,6 +7768,7 @@
     given: Yacine
   pdf: https://hal.archives-ouvertes.fr/hal-01499167/file/benallegue2017humnanoids-final.pdf
   lab: jrl
+  month: november 15-november 17
 - id: flayols:humanoids:2017
   year: 2017
   title: Experimental evaluation of simple estimators for humanoid robots
@@ -7292,6 +7786,7 @@
   - family: Stasse
     given: Olivier
   pdf: https://hal.archives-ouvertes.fr/hal-01574819/document
+  month: november 15-november 17
 - id: ito:humanoids:2017
   year: 2017
   title: Human Motion Reproduction by Torque-based Humanoid Tracking Control for Active
@@ -7305,6 +7800,7 @@
     given: Hiroshi
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ito_2017_Humanoids.pdf
   lab: jrl
+  month: november 15-november 17
 - id: kajita:humanoids:2017
   year: 2017
   title: Biped walking pattern generation based on spatially quantized dynamics
@@ -7319,6 +7815,7 @@
   - id: kaneko
   - id: kanehiro
   lab: hrg
+  month: november 15-november 17
 - id: kumagai:humanoids:2017
   year: 2017
   title: Complementary Integration Framework of Localization and Recognition for a
@@ -7337,6 +7834,7 @@
   - family: Inaba
     given: Masayuki
   - id: kanehiro
+  month: november 15-november 17
 - id: pajon:humanoids:2017
   year: 2017
   title: Walking on Gravel with Soft Soles using Linear Inverted Pendulum Tracking
@@ -7353,6 +7851,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01576516/document
   lab: jrl
+  month: november 15-november 17
   bib: https://hal.archives-ouvertes.fr/hal-01576516v1/bibtex
 - id: samy:humanoids:2017a
   year: 2017
@@ -7368,6 +7867,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01569819v3/document
   lab: jrl
+  month: november 15-november 17
 - id: samy:humanoids:2017b
   year: 2017
   title: Adaptive compliance in post-impact humanoid falls using preview control of
@@ -7380,6 +7880,7 @@
   - id: kheddar
   pdf: https://hal.univ-lorraine.fr/hal-01569819v1
   lab: jrl
+  month: november 15-november 17
 - id: gabas:icar:2017
   year: 2017
   title: Physical edge detection in clothing items for robotic manipulation
@@ -7389,6 +7890,7 @@
   - family: Kita
     given: Yasuyo
   lab: jrl
+  month: july 10-july 12
 - id: yoshiyasu:icip:2017
   year: 2017
   title: 3D Convolutional Neural Networks by Modal Fusion
@@ -7402,6 +7904,7 @@
     given: Leonidas
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ICIP17_Yoshiyasu.pdf
   lab: jrl
+  month: september 17-september 20
 - id: imamura:icorr:2017
   year: 2017
   title: 'Simulation-based Design for Robotic Care Device: Optimizing Trajectory of
@@ -7414,6 +7917,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ICORR17_Imamura.pdf
   lab: jrl
+  month: july 17-july 20
 - id: ayusawa:icra:2017
   year: 2017
   title: Generating persistently exciting trajectory based on condition number optimization
@@ -7428,6 +7932,7 @@
     given: Maxime
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2017_ICRA.pdf
   lab: jrl
+  month: may 29-june 2
 - id: ko:icra:2017
   year: 2017
   title: Underactuated four-fingered hand with five electro hydrostatic actuators
@@ -7439,6 +7944,7 @@
   - id: kaminaga
   - family: Nakamura
     given: Yoshihiko
+  month: may 29-june 3
 - id: samy:icra:2017
   year: 2017
   title: QP-based Adaptive-Gains Compliance Control in Humanoid Falls
@@ -7450,6 +7956,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01365108v2/document
   lab: jrl
+  month: may 29-june 2
 - id: vogel:icra:2017
   year: 2017
   title: 'Hitting the sweet spot: automatic optimization of energy transfer during
@@ -7467,6 +7974,7 @@
   - id: ganesh
   pdf: https://www.researchgate.net/publication/318489661_Hitting_the_sweet_spot_Automatic_optimization_of_energy_transfer_during_tool-held_hits
   lab: jrl
+  month: may 29-june 2
 - id: imamura:icsr:2017
   year: 2017
   title: Field testing of the influence of assistive wear on the physical fitness
@@ -7480,6 +7988,7 @@
     given: Kazuki
   pdf: https://link.springer.com/content/pdf/10.1007%2F978-3-319-70022-9_14.pdf
   lab: jrl
+  month: november 22-november 24
 - id: caron:iros:2017
   year: 2017
   title: Dynamic Walking over Rough Terrains by Nonlinear Predictive Control of the
@@ -7491,6 +8000,7 @@
   - id: kheddar
   pdf: https://arxiv.org/pdf/1703.00688.pdf
   lab: jrl
+  month: september 24-september 28
 - id: pfeiffer:iros:2017
   year: 2017
   title: Nut Fastening with a Humanoid Robot
@@ -7501,6 +8011,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-02189053/document
   lab: jrl
+  month: september 24-september 28
 - id: yoshida:isrr:2017
   year: 2017
   title: Towards Unified Framework for Trajectory Optimization using General Differential
@@ -7510,6 +8021,7 @@
   - id: yoshida
   - id: ayusawa
   lab: jrl
+  month: december 11-december 14
 - id: akimoto:lsc:2017
   year: 2017
   title: Design of a simple three-dimensional musculoskeletal model for a wearable
@@ -7526,6 +8038,7 @@
   - family: Tanaka
     given: Takayuki
   lab: jrl
+  month: december 13-december 15
 - id: flacco:ro-man:2017
   year: 2017
   title: Contact Detection and Physical Interaction on Low Cost Personal Robot
@@ -7536,6 +8049,7 @@
   - id: kheddar
   pdf: https://www.cs.cmu.edu/~cga/tmp-public/ral.pdf
   lab: jrl
+  month: august 28-september 1
 - id: ayusawa:rss:2017
   year: 2017
   title: Comprehensive Theory of Differential Kinematics and Dynamics for Motion Optimization
@@ -7545,6 +8059,7 @@
   - id: yoshida
   pdf: https://www.roboticsproceedings.org/rss13/p63.pdf
   lab: jrl
+  month: july 12-july 16
 - id: ikegami:sfn:2017
   year: 2017
   title: Presence and absence of prediction errors during action observation induce
@@ -7557,6 +8072,7 @@
   - family: Nakamoto
     given: Hiroki
   lab: jrl
+  month: november 11-november 15
 - id: paolillo:sii:2017
   year: 2017
   title: Visual Estimation of Articulated Objects Configuration During Manipulation
@@ -7571,6 +8087,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01646158/document
   lab: jrl
+  month: december 11-december 14
 - id: yoshiyasu:accv:2018
   year: 2018
   title: Skeleton Transformer Networks:3D Human Pose and Skinned Mesh from single
@@ -7584,6 +8101,7 @@
     given: Akihiko
   pdf: https://www.researchgate.net/publication/330036375_Skeleton_Transformer_Networks_3D_Human_Pose_and_Skinned_Mesh_from_Single_RGB_Image
   lab: jrl
+  month: december 2-december 6
 - id: suleiman:amc:2018
   year: 2018
   title: 'On prioritized inverse kinematics tasks: Time-space decoupling'
@@ -7595,6 +8113,7 @@
   - id: kanehiro
   - id: yoshida
   lab: jrl
+  month: march 9-march 11
 - id: sagawa:eccv:2018
   year: 2018
   title: Predicting Muscle Activity and Joint Angle from Skin Shape
@@ -7607,6 +8126,7 @@
     given: Akihiko
   pdf: https://openaccess.thecvf.com/content_ECCVW_2018/papers/11129/Sagawa_Predicting_Muscle_Activity_and_Joint_Angle_from_Skin_Shape_ECCVW_2018_paper.pdf
   lab: jrl
+  month: september 8-september 14
 - id: kato:hri:2018
   year: 2018
   title: Humans Can Predict Where Their Partner Would Make a Handover
@@ -7619,6 +8139,7 @@
   - id: ganesh
   pdf: https://dl.acm.org/doi/pdf/10.1145/3173386.3177033
   lab: jrl
+  month: march 5-march 8
 - id: bolotnikova:humanoids:2018
   year: 2018
   title: Compliant Robot Motion Regulated via Proprioceptive Sensor Based Contact
@@ -7632,6 +8153,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01895114v2/document
   lab: jrl
+  month: november 6-november 9
 - id: cisneros:humanoids:2018
   year: 2018
   title: Partial Yaw Moment Compensation using an Optimization-based Multi-Objective
@@ -7647,6 +8169,7 @@
   - id: kanehiro
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Cisneros-Humanoids2018.pdf
   lab: jrl
+  month: november 6-november 9
 - id: grimm:humanoids:2018
   year: 2018
   title: Generation of Walking Motions Based on Whole-Body Poses and QP control
@@ -7659,6 +8182,7 @@
     given: Tamim
   pdf: https://h2t.anthropomatik.kit.edu/pdf/Grimm2018.pdf
   lab: jrl
+  month: november 6-november 9
 - id: kajita:humanoids:2018
   year: 2018
   title: Biped Gait Control Based on Spatially Quantized Dynamics
@@ -7675,6 +8199,7 @@
   - id: kaneko
   - id: kanehiro
   pdf: http://crlab.cs.columbia.edu/humanoids_2018_proceedings/media/files/0042.pdf
+  month: november 6-november 9
 - id: kaminaga:humanoids:2018
   year: 2018
   title: Redundant Strain Measurement of Link Structures for Improved Stability of
@@ -7684,6 +8209,7 @@
   - id: kaminaga
   - id: kanehiro
   pdf: http://crlab.cs.columbia.edu/humanoids_2018_proceedings/media/files/0199.pdf
+  month: november 6-november 9
 - id: kumagai:humanoids:2018
   year: 2018
   title: Efficient Locomotion Planning for a Humanoid Robot with Whole-Body Collision
@@ -7694,6 +8220,7 @@
   - id: morisawa
   - id: nakaoke
   - id: kanehiro
+  month: november 6-november 9
 - id: masuda:humanoids:2018
   year: 2018
   title: Optimization Framework of Humanoid Walking Pattern for Human Motion Retargeting
@@ -7705,6 +8232,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Masuda_2018_Humanoids.pdf
   lab: jrl
+  month: november 6-november 9
 - id: mori:humanoids:2018
   year: 2018
   title: Online Center of Mass and Momentum Estimation for a Humanoid Robot Based
@@ -7717,6 +8245,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Mori_2018_Humanoids.pdf
   lab: jrl
+  month: november 6-november 9
 - id: morisawa:humanoids:2018
   year: 2018
   title: Online 3D CoM Trajectory Generation for Multi-Contact Locomotion Synchronizing
@@ -7731,6 +8260,7 @@
   - id: kanehiro
   pdf: http://crlab.cs.columbia.edu/humanoids_2018_proceedings/media/files/0111.pdf
   lab: jrl
+  month: november 6-november 9
 - id: sanchez:humanoids:2018
   year: 2018
   title: Regrasp Planning Considering Bipedal Stability Constraints
@@ -7744,18 +8274,19 @@
     given: Kensuke
   - id: kanehiro
   pdf: https://arxiv.org/pdf/1810.06128.pdf
+  month: november 6-november 9
 - id: shimizu:humanoids:2018
   year: 2018
   title: Whole-Body Motion Blending under Physical Constraints using Functional PCA
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Shimizu
-    given: Soya
+  - id: shimizu
   - id: ayusawa
   - id: yoshida
   - id: venture
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Shimizu_2018_Humanoids.pdf
   lab: jrl
+  month: november 6-november 9
 - id: su:humanoids:2018
   year: 2018
   title: Sample-efficient learning of task weights through Bayesian optimization
@@ -7767,6 +8298,7 @@
     given: Yuquan
   - id: kheddar
   lab: jrl
+  month: november 6-november 9
 - id: wong:humanoids:2018
   year: 2018
   title: Gravity compensation for impedance control of legged robots using optimizationless
@@ -7778,6 +8310,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Wong_2018_Humanoids.pdf
   lab: jrl
+  month: november 6-november 9
 - id: abderrahmane:icarcv:2018
   year: 2018
   title: Visuo-Tactile Recognition of Daily-Life Objects Never Seen or Touched Before
@@ -7792,6 +8325,7 @@
     given: Andrea
   pdf: https://hal.archives-ouvertes.fr/hal-01869015/document
   lab: jrl
+  month: november 18-november 21
 - id: mohtaram:icip:2018
   year: 2018
   title: 'Amift: Affine-Mirror Invariant Feature Transform'
@@ -7806,6 +8340,7 @@
     given: El
   pdf: https://hal.archives-ouvertes.fr/hal-01907307/document
   lab: none
+  month: october 7-october 10
 - id: benallegue:icra:2018
   year: 2018
   title: Model-based external force/moment estimation for humanoid robots with no
@@ -7824,6 +8359,7 @@
   - id: kanehiro
   pdf: https://hal.archives-ouvertes.fr/hal-01746095/file/benallegue2018ICRA-final.pdf
   lab: jrl
+  month: may 21-may 26
 - id: caron:icra:2018
   year: 2018
   title: Spherical Visual Gyroscope for Autonomous Robots using the Mixture of Photometric
@@ -7835,6 +8371,7 @@
     given: Fabio
   pdf: https://home.mis.u-picardie.fr/~fabio/Eng/documenti/articoli/CaMo_ICRA18.pdf
   lab: none
+  month: may 21-may 26
 - id: tee:icra:2018
   year: 2018
   title: 'Towards Emergence of Tool Use in Robots: Automatic Tool Recognition and
@@ -7851,6 +8388,7 @@
     given: Kong
   - id: ganesh
   lab: jrl
+  month: may 21-may 25
 - id: endo:ihsi:2018
   year: 2018
   title: Karate e-learning system using real-time motion capture
@@ -7860,6 +8398,7 @@
   - id: endoy
   - id: yoshida
   lab: jrl
+  month: january 7-january 9
 - id: ayusawa:iros:2018
   year: 2018
   title: Interspecies Retargeting of Homologous Body Posture Based on Skeletal Morphing
@@ -7878,6 +8417,7 @@
     given: Yoshihiko
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2018_IROS.pdf
   lab: jrl
+  month: october 1-october 5
 - id: cisneros:iros:2018
   year: 2018
   title: Robust humanoid control using a QP solver with integral gains
@@ -7894,6 +8434,7 @@
   - id: kanehiro
   pdf: http://www.comanoid.cnrs.fr/publications_files/2018/cisneros-hal-01845489.pdf
   lab: jrl
+  month: october 1-october 5
 - id: kumagai:iros:2018
   year: 2018
   title: Perception Based Locomotion System For a Humanoid Robot with Adaptive Footstep
@@ -7908,6 +8449,7 @@
   - id: kaneko
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593553
+  month: october 1-october 5
 - id: oota:iros:2018
   year: 2018
   title: Neurorobotic approach to study Humtington disease based on a mouse neuromusculoskeletal
@@ -7928,6 +8470,7 @@
     given: Yoshihiko
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Oota_2018_IROS.pdf
   lab: jrl
+  month: october 1-october 5
 - id: orthey:iros:2018
   year: 2018
   title: Quotient-Space Motion Planning
@@ -7938,6 +8481,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Orthey-IROS2018.pdf
   lab: jrl
+  month: october 1-october 5
 - id: inoue:qrs:2018
   year: 2018
   title: Detecting Errors in A Humanoid Robot
@@ -7949,6 +8493,7 @@
   - id: morisawa
   - family: Mori
     given: Akira
+  month: july 16-july 20
 - id: bolotnikova:ro-man:2018
   year: 2018
   title: Contact Observer for Humanoid Robot Pepper based on Tracking Joint Position
@@ -7962,6 +8507,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-01819692v3/document
   lab: jrl
+  month: august 27-august 31
 - id: vasalya:ro-man:2018
   year: 2018
   title: Distinct motor contagions during and after observation of actions by a humanoid
@@ -7973,6 +8519,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-01819774/file/Distinct%20motor%20contagions%20during%20and%20after%20observation%20of%20actions%20by%20a%20humanoid%20co-worker.pdf
   lab: jrl
+  month: august 27-august 31
 - id: sakurada:robio:2018
   year: 2018
   title: Accurate Decoding of Material Textures Using a finger Mounted Accelerometer
@@ -7987,6 +8534,7 @@
     given: Kahori
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-02158999/document
   lab: jrl
+  month: december 12-december 15
 - id: toshilombo:siggraph:2018
   year: 2018
   title: Automatic dataset generation for object pose estimation
@@ -8000,6 +8548,7 @@
     given: Kota
   pdf: https://www.researchgate.net/publication/329334784_Automatic_dataset_generation_for_object_pose_estimation
   lab: jrl
+  month: august 12-august 16
 - id: samy:simpar:2018
   year: 2018
   title: Analysis of a simple model for post-impact dynamics active compliance in
@@ -8013,6 +8562,7 @@
   - id: kheddar
   pdf: https://members.loria.fr/kbouyarmane/08376272.pdf
   lab: jrl
+  month: may 16-may 19
 - id: tanguy:simpar:2018
   year: 2018
   title: Online eye-robot self-calibration
@@ -8024,6 +8574,7 @@
   - family: Comport
     given: Andrew
   lab: jrl
+  month: may 16-may 19
 - id: imamura:arso:2019
   year: 2019
   title: Kinematic Analysis of Effect on Walking Motion by Assistive Powered Wear
@@ -8042,6 +8593,7 @@
   - family: Sumitani
     given: Masahiko
   lab: jrl
+  month: october 31-november 2
 - id: ito:arso:2019
   year: 2019
   title: Experimental Study for Controller-Friendly Contact Estimation for Humanoid
@@ -8054,6 +8606,7 @@
   - id: kheddar
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-02304148/document
   lab: jrl
+  month: october 31-november 2
 - id: samy:arso:2019
   year: 2019
   title: Musculoskeletal Estimation Using Inertial Measurement Units and Single Video
@@ -8067,6 +8620,7 @@
   - id: yoshida
   pdf: https://hal.archives-ouvertes.fr/hal-02311483v2/document
   lab: jrl
+  month: october 31-november 2
 - id: wang:humanoids:2019
   year: 2019
   title: Impact-aware humanoid robot motion generation with a quadratic optimization
@@ -8080,6 +8634,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-02446116v2/file/paper_R2.pdf
   lab: jrl
+  month: october 15-october 17
 - id: tsuru:icarob:2019
   year: 2019
   title: POMDP-based action planning for the recognition of occluded objects with
@@ -8099,6 +8654,7 @@
   - family: Harada
     given: Kensuke
   lab: jrl
+  month: january 10-january 13
 - id: caron:icra:2019
   year: 2019
   title: Stair Climbing Stabilization of the HRP-4 Humanoid Robot Using Whole-Body
@@ -8112,6 +8668,7 @@
     given: Olivier
   pdf: https://arxiv.org/pdf/1809.07073.pdf
   lab: jrl
+  month: may 20-may 24
 - id: lee:icra:2019
   year: 2019
   title: Continuous Signed Distance Computation for Polygonal Robots in 3D
@@ -8123,6 +8680,7 @@
   - family: J.kim
     given: Young
   lab: jrl
+  month: may 20-may 24
 - id: tanguy:icra:2019
   year: 2019
   title: Closed-Loop MPC with Dense Visual SLAM - Stability through Reactive Stepping
@@ -8138,6 +8696,7 @@
   - id: kheddar
   pdf: https://www.dis.uniroma1.it/~labrob/pub/papers/ICRA19_CLMPC.pdf
   lab: jrl
+  month: may 20-may 24
 - id: ayusawa:iros:2019
   year: 2019
   title: 'Predictive Inverse Kinematics: Optimizing Future Trajectory through Implicit
@@ -8150,6 +8709,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Ayusawa_2019_IROS.pdf
   lab: jrl
+  month: november 4-november 8
 - id: morisawa:iros:2019
   year: 2019
   title: Multi-Contact Stabilization of a Humanoid Robot for Realizing Dynamic Contact
@@ -8164,6 +8724,7 @@
   - id: kaneko
   - id: kanehiro
   lab: jrl
+  month: november 3-november 8
 - id: yoshida:isrr:2019
   year: 2019
   title: Toward a Human(oid) Motion Planner
@@ -8176,6 +8737,7 @@
   - id: kheddar
   pdf: https://www.springer.com/gp/book/9783030286187
   lab: jrl
+  month: october 6-october 10
 - id: nagamatsu:mva:2019
   year: 2019
   title: Single-wavelength and multi-parallel dotted- and solid-lines for dense and
@@ -8191,6 +8753,7 @@
     given: Hiroshi
   pdf: http://www.cvg.ait.kyushu-u.ac.jp/papers/2018/37-paper.pdf
   lab: jrl
+  month: may 27-may 31
 - id: coevoet:robosoft:2019
   year: 2019
   title: Soft robots locomotion and manipulation control using FEM simulation and
@@ -8204,6 +8767,7 @@
     given: Christian
   pdf: https://hal.inria.fr/hal-02079151/document
   lab: jrl
+  month: april 14-april 18
 - id: imamura:robosoft:2019
   year: 2019
   title: Simulation-based Design of Transfer Support Robot and Experimental Verification
@@ -8213,6 +8777,7 @@
   - id: endoy
   - id: yoshida
   lab: jrl
+  month: april 14-april 18
 - id: wang:rss:2019
   year: 2019
   title: Impact-friendly robust control design with task-space quadratic optimization
@@ -8223,6 +8788,7 @@
   - id: kheddar
   pdf: http://www.roboticsproceedings.org/rss15/p32.pdf
   lab: jrl
+  month: june 22-june 26
 - id: qin:sii:2019
   year: 2019
   title: Cable Installation by a Humanoid Integrating Dual-Arm Manipulation and Walking
@@ -8233,6 +8799,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Qin-SII2019.pdf
   lab: jrl
+  month: january 14-january 16
 - id: samy:sii:2019a
   year: 2019
   title: Fusion of Multiple Motion Capture Systems for Musculoskeletal Analysis
@@ -8245,6 +8812,7 @@
   - id: yoshida
   pdf: https://hal.archives-ouvertes.fr/hal-02433191/document
   lab: jrl
+  month: january 14-january 16
 - id: samy:sii:2019b
   year: 2019
   title: Real-Time Musculoskeletal Visualization of Muscle Tension and Joint Reaction
@@ -8256,6 +8824,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Samy-SII2019.pdf
   lab: jrl
+  month: january 14-january 16
 - id: suzui:sii:2019
   year: 2019
   title: Toward 6 DOF Object Pose Estimation with Minimum Dataset
@@ -8269,6 +8838,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Suzui-SII2019.pdf
   lab: jrl
+  month: january 14-january 16
 - id: sagawa:accv:2020
   year: 2020
   title: Dense Pixel-Wise Micro-motion Estimation of Object Surface by Using Low Dimensional
@@ -8285,6 +8855,7 @@
   - id: ito
   pdf: https://arxiv.org/pdf/2011.00174.pdf
   lab: jrl
+  month: november 30-december 4
 - id: hajjami:cvprw:2020
   year: 2020
   title: 'ArUcOmni: detection of highly reliable fiducial markers in panoramic images'
@@ -8299,6 +8870,7 @@
     given: Thibault
   pdf: https://openaccess.thecvf.com/content_CVPRW_2020/papers/w38/Hajjami_ArUcOmni_Detection_of_Highly_Reliable_Fiducial_Markers_in_Panoramic_Images_CVPRW_2020_paper.pdf
   lab: jrl
+  month: june 14-june 19
 - id: furukawa:embc:2020
   year: 2020
   title: Fully Auto-calibrated Active-stereo-based 3D Endoscopic System using Correspondence
@@ -8321,6 +8893,7 @@
     given: Hiroshi
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9176417
   lab: jrl
+  month: july 20-july 24
 - id: yoshiyasu:embc:2020
   year: 2020
   title: Statistical Human Body Shape Model including Elderly People
@@ -8335,6 +8908,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu-EMBC2020.pdf
   lab: jrl
+  month: july 20-july 24
 - id: yoshiyasu:eurographics:2020
   year: 2020
   title: Learning Body Shape and Pose from Dense Correspondences
@@ -8344,18 +8918,19 @@
   - id: gamez
   pdf: https://diglib.eg.org/bitstream/handle/10.2312/egs20201012/037-040.pdf?sequence=1&isAllowed=y
   lab: jrl
+  month: may 25-may 29
 - id: shimizu:humanoids:2020
   year: 2021
   title: Pseudo Direct and Inverse Optimal Control Based on Motion Synthesis Using
     FPCA
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Shimizu
-    given: Soya
+  - id: shimizu
   - id: ayusawa
   - id: venture
   pdf: https://ieeexplore.ieee.org/document/9555773
   lab: jrl
+  month: july 19-july 21
 - id: heraizbekkis:iccar:2020
   year: 2020
   title: Robot Movement Uncertainty Determines Human Discomfort in Co-worker Scenarios
@@ -8368,6 +8943,7 @@
   - id: yamanobe
   pdf: https://staff.aist.go.jp/e.yoshida/papers/ICCAR2020_Heraiz-Bekkis.pdf
   lab: jrl
+  month: april 20-april 23
 - id: gabas:icip:2020
   year: 2020
   title: 'APE: A More Practical Approach To 6-Dof Pose Estimation'
@@ -8379,6 +8955,7 @@
   - id: sagawa
   - id: yoshida
   lab: jrl
+  month: october 25-october 28
   projects:
   - humanoid_lab
 - id: watt:icip:2020
@@ -8391,6 +8968,7 @@
   - id: yoshiyasu
   pdf: https://cmsworkshops.com/ICIP2020/Papers/AcceptedPapers.asp
   lab: jrl
+  month: october 25-october 28
 - id: martinez:icra:2020
   year: 2020
   title: Photometric Path Planning for Vision-Based Navigation
@@ -8405,6 +8983,7 @@
     given: David
   pdf: http://www.lewissoft.com/pdf/ICRA2020/2989.pdf
   lab: none
+  month: may
 - id: noda:icra:2020
   year: 2020
   title: Learning of Key Pose Evaluation for Efficient Multi-Contact Motion Planner
@@ -8428,6 +9007,7 @@
   - family: Inaba
     given: Masayuki
   lab: none
+  month: may
 - id: samadi:icra:2020
   year: 2020
   title: Balance of Humanoid Robots in a Mix of Fixed and Sliding Multi-Contact Scenarios
@@ -8441,6 +9021,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-02297879/document
   lab: jrl
+  month: may
 - id: shi:icra:2020
   year: 2020
   title: 'Aerial Regrasping: Pivoting with Transformable Multilink Aerial Robot'
@@ -8456,6 +9037,7 @@
   - family: Inaba
     given: Masayuki
   lab: none
+  month: may
 - id: cisneros:iros:2020
   year: 2020
   title: Reliable chattering-free simulation of friction torque in joints presenting
@@ -8470,6 +9052,7 @@
   - id: kanehiro
   pdf: https://ras.papercept.net/proceedings/IROS20/1920.pdf
   lab: jrl
+  month: october 25-october 29
 - id: kawamura:iros:2020
   year: 2020
   title: Learning of Tool Force Adjustment Skills by a Life-sized Humanoid using Deep
@@ -8489,6 +9072,7 @@
     given: Masayuki
   pdf: https://ras.papercept.net/proceedings/IROS20/1467.pdf
   lab: jrl
+  month: october 25-october 29
 - id: ota:iros:2020
   year: 2020
   title: Efficient Exploration in Constrained Environments with Goal-Oriented Reference
@@ -8506,6 +9090,7 @@
     given: Asako
   pdf: http://ras.papercept.net/images/temp/IROS/files/1537.pdf
   lab: jrl
+  month: october 25-october 29
 - id: qin:iros:2020
   year: 2020
   title: Vision-based Belt Manipulation by Humanoid Robot
@@ -8517,6 +9102,7 @@
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/Qin_IROS2020.pdf
   lab: jrl
+  month: october 25-october 29
 - id: osawa:iser:2020
   year: 2021
   title: A Soft Robotic Cover with Dual Thermal Display and Sensing Capabilities
@@ -8527,6 +9113,7 @@
   - id: kheddar
   pdf: https://link.springer.com/chapter/10.1007/978-3-030-71151-1_23
   lab: jrl
+  month: march
 - id: bolotnikova:ro-man:2020
   year: 2020
   title: Autonomous Initiation of Human Physical Assistance by a Humanoid
@@ -8539,27 +9126,28 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-02615390v3/document
   lab: jrl
+  month: august 31-september 4
 - id: shimizu:robsym:2020
   year: 2020
   title: 低次元特徴空間を利用した運動合成と逆最適制御への応用
   booktitle: Robotics Symposia
   authors:
-  - family: Shimizu
-    given: Soya
+  - id: shimizu
   - id: ayusawa
   - id: venture
   lab: jrl
+  month: march 15-march 16
 - id: shimizu:romansy:2020
   year: 2020
   title: Motion Synthesis Using Low-Dimensional Feature Space and Its Application
     to Inverse Optimal Control
   booktitle: CISM IFToMM Symposium on Robot Design, Dynamics and Control
   authors:
-  - family: Shimizu
-    given: Soya
+  - id: shimizu
   - id: ayusawa
   - id: venture
   lab: jrl
+  month: september 20-september 24
 - id: maekawa:siggraph:2020
   year: 2020
   title: 'The Tight Game: Implicit Force Intervention in Inter-personal Physical Interactions
@@ -8579,6 +9167,7 @@
     given: Masahiko
   pdf: https://hal.archives-ouvertes.fr/hal-03009636/document
   lab: jrl
+  month: august 17-august 28
 - id: singh:sii:2020
   year: 2020
   title: Instance-specific 6-DoF Object Pose Estimation from Minimal Annotations
@@ -8591,6 +9180,7 @@
   - id: yoshiyasu
   - id: kanehiro
   lab: jrl
+  month: january 12-january 15
   projects:
   - humanoid_lab
 - id: sun:sii:2020
@@ -8603,6 +9193,7 @@
   - id: kumagai
   - id: yoshiyasu
   lab: jrl
+  month: january 12-january 15
   projects:
   - humanoid_lab
 - id: guerbas:icar:2021
@@ -8620,6 +9211,7 @@
     given: El
   pdf: https://ieeexplore.ieee.org/document/9659324
   lab: jrl
+  month: december 6-december 10
 - id: roux:icar:2021
   year: 2021
   title: Control of Humanoid in Multiple Fixed and Moving Unilateral Contacts
@@ -8636,6 +9228,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9659359
   lab: jrl
+  month: december 6-december 10
 - id: chappellet:icpr:2021
   year: 2021
   title: Benchmarking Cameras for OpenVSLAM Indoors
@@ -8649,6 +9242,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-02970830/document
   lab: jrl
+  month: january 10-january 15
 - id: dehio:icra:2021
   year: 2021
   title: Robot-Safe Impacts with Soft Contacts Based on Learned Deformations
@@ -8659,6 +9253,7 @@
   - id: kheddar
   pdf: https://hal.archives-ouvertes.fr/hal-02973947v2/document
   lab: jrl
+  month: may 30-june 5
   projects:
   - iam
 - id: singh:icra:2021
@@ -8672,6 +9267,7 @@
   - id: kanehiro
   pdf: https://arxiv.org/pdf/2011.03790.pdf
   lab: jrl
+  month: may 30-june 5
   projects:
   - humanoid_lab
 - id: benallegue:iros:2021
@@ -8689,6 +9285,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/9636081
   lab: jrl
+  month: september 27-october 1
 - id: onishi:iros:2021
   year: 2021
   title: Knee-stretched Biped Gait Generation along Spatially Quantized Curves
@@ -8701,6 +9298,7 @@
   - id: kajita
   pdf: https://ieeexplore.ieee.org/document/9636872
   lab: jrl
+  month: september 27-october 1
 - id: guerbas:orasis:2021
   year: 2021
   title: Mélange de Gaussiennes Photométriques pour l'Asservissement Visuel Virtuel
@@ -8716,6 +9314,7 @@
     given: El
   pdf: https://hal.archives-ouvertes.fr/hal-03339652/file/Photometric_Gaussian_Mixtures_for_Direct_Virtual_Visual_Servoing_of_Omnidirectional_Camera.pdf
   lab: jrl
+  month: september 13-september 17
 - id: samy:rss:2021
   year: 2021
   title: Generalized Comprehensive Motion Theory for High-Order Differential Dynamics
@@ -8726,6 +9325,7 @@
   - id: yoshida
   pdf: http://www.roboticsproceedings.org/rss17/p032.html
   lab: jrl
+  month: july 12-july 16
 - id: bolotnikova:sii:2021
   year: 2021
   title: Task-Space Control Interface for SoftBank Humanoid Robots and its Human-Robot
@@ -8741,6 +9341,7 @@
   - id: kheddar
   pdf: https://arxiv.org/pdf/2010.04573.pdf
   lab: jrl
+  month: january 11-january 14
 - id: delmas:sii:2021
   year: 2021
   title: 'SpheriCol: A Driving Assistance System for Power Wheelchairs Based on Spherical
@@ -8762,6 +9363,7 @@
     given: Marie
   pdf: https://home.mis.u-picardie.fr/~fabio/Eng/documenti/articoli/DeMoCaAlJeDeBa_SII21.pdf
   lab: jrl
+  month: january 11-january 14
 - id: gamez:sii:2021
   year: 2021
   title: Multi-person pose tracking with occlusion solving using motion models
@@ -8771,6 +9373,7 @@
   - id: yoshiyasu
   - id: yoshida
   lab: jrl
+  month: january 11-january 14
 - id: orozcosoto:case:2022
   year: 2022
   title: Robust Position Regulation of a Seesaw Actuated by a Humanoid
@@ -8783,6 +9386,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9926663
   lab: jrl
+  month: august 20-august 24
 - id: andre:cvprw:2022
   year: 2022
   title: Photometric Visual Gyroscope for Full-View Spherical Camera
@@ -8792,6 +9396,7 @@
   - id: carong
   pdf: https://hal.archives-ouvertes.fr/hal-03636575/document
   lab: jrl
+  month: june 19-june 20
   projects:
   - dvsstraight
 - id: chen:humanoids:2022
@@ -8814,6 +9419,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/9999740
   lab: jrl
+  month: november 28-november 30
   projects:
   - janus
   - humanoid_lab
@@ -8831,6 +9437,7 @@
   - id: venture
   pdf: https://ieeexplore.ieee.org/document/10000240
   lab: jrl
+  month: november 28-november 30
   projects:
   - ryouikikoubo_2022_sompo
 - id: singh:humanoids:2022
@@ -8845,6 +9452,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/10000067
   lab: jrl
+  month: november 28-november 30
   projects:
   - ryouikikoubo_2021
   - humanoid_lab
@@ -8863,6 +9471,7 @@
     given: Takuya
   pdf: https://hal.archives-ouvertes.fr/hal-03715442/document
   lab: jrl
+  month: october 16-october 19
 - id: caron:icpr:2022
   year: 2022
   title: Direct Visual Servoing in the non-linear scale space of camera pose
@@ -8872,6 +9481,7 @@
   - id: yoshiyasu
   pdf: https://hal.archives-ouvertes.fr/hal-03636579/document
   lab: jrl
+  month: august 21-august 25
   projects:
   - dvsstraight
 - id: baradaranbirjandi:iros:2022
@@ -8888,6 +9498,9 @@
     given: Sami
   pdf: https://ieeexplore.ieee.org/document/9981233
   lab: jrl
+  month: september 24-september 27
+  projects:
+  - iam
 - id: kumagai:iros:2022
   year: 2022
   title: Reachability Based Trajectory Generation Combining Global Graph Search in
@@ -8900,6 +9513,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/9981906
   lab: jrl
+  month: september 24-september 27
   projects:
   - icps
 - id: djeha:ro-man:2022
@@ -8916,6 +9530,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9900626
   lab: jrl
+  month: august 29-september 2
 - id: sun:robio:2022
   year: 2022
   title: 'CertainOdom: Uncertainty Weighted Multi-task Learning Model for LiDAR Odometry
@@ -8929,6 +9544,7 @@
   - id: kanehiro
   pdf: ''
   lab: jrl
+  month: december 5-december 9
   projects:
   - humanoid_lab
 - id: osawa:sii:2022
@@ -8947,6 +9563,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/9708761
   lab: jrl
+  month: january 9-january 12
 - id: osorio:syroco:2022
   year: 2022
   title: Control of a Robot Expressive Movements Using Non-Verbal Features
@@ -8956,6 +9573,7 @@
   - id: venture
   pdf: https://www.sciencedirect.com/science/article/pii/S2405896323001465
   lab: jrl
+  month: october 17-october 20
 - id: erich:sii:2023
   year: 2023
   title: 'Neural Scanning : Rendering and determining geometry of household objects
@@ -8974,6 +9592,7 @@
     given: Noriaki
   pdf: https://ieeexplore.ieee.org/document/10039147
   lab: jrl
+  month: january 17-january 20
 - id: singh:sii:2023
   year: 2023
   title: 'Mc-Mujoco: Simulating Articulated Robots with FSM Controllers in MuJoCo'
@@ -8984,6 +9603,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/10039218
   lab: jrl
+  month: january 17-january 20
   projects:
   - humanoid_lab
 - id: traversaro:iros:2016
@@ -9255,12 +9875,3 @@
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/imamrua-sii2014-proc.pdf
-- id: wang:ral:2022
-  projects:
-  - iam
-- id: wang:ral:2022-2
-  projects:
-  - iam
-- id: baradaran:iros:2022
-  projects:
-  - iam
