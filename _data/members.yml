@@ -946,6 +946,12 @@
   from: 2023-02-01
   to: 2024-07-31
   nationality: fr
+  from: 2022-01-01
+  nationality: fr
+  website: "https://www.researchgate.net/profile/Bruno-Watier"
+  github: "https://github.com/watierb"
+  bio: >
+    Bruno Watier is full-time professor.He joined JRL as CNRS delegate in 2023. Since 1999, he has been Associate Professor at Universite de Toulouse 3 (UT3), LAAS-CNRS laboratory, France, in the Gepetto team. He received the Ph.D. degree in mechanics from ENSAM in 1997 and the Habilitation degree from UT3 in 2015, respectively. His research focuses on human movement analalysis, motion control and human-robot interaction. He organized several conferences and workshops related to biomechanics. Bruno Watier currently leads 4 french national ANR project. He is president of the Société de Biomécanique and lead a major degree in sport performance.
 - id: duclusaud
   given: Marc
   family: Duclusaud
