@@ -1011,6 +1011,10 @@
   from: 2023-03-20
   to: 2023-08-11
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/virgile-foussereau"
+  github: "https://github.com/Virgile-Foussereau"
+  bio: >
+   is an engineering student specializing in Image, Vision & Learning at Ecole Polytechnique (France). He completed a previous internship on maneuver recognition & prediction for autonomous driving at Einride (Sweden) in 2022. He is currently doing his research internship within the JRL on 6-DOF Object Pose Estimation of Household Objects for Robotic Manipulation. He will pursue a second master at the Electrical Engineering & Computer Science (EECS) department of UC Berkeley (USA) next year.
 - id: barberteguy
   given: Victor
   family: Barberteguy
