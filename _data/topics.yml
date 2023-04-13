@@ -86,3 +86,9 @@
     </ul>
   grade: Master
   skills: Reinforcement learning, RNN, DNN, Programming(python, c++)
+- id: nsslam
+  title: Direct 3D-3D and 2D-3D dense registration of heterogeneous data
+  description: >
+    We are offering a PhD thesis topic in perception for robotics, funded by the ANR SAMURAI project at the MIS laboratory in Amiens and the AIST at JRL to be filled immediately. The subject will be about direct 3D-3D and 2D-3D registration of heterogeneous data in non-static environments for robot localization and navigation. 
+  grade: PhD
+  skills: robot vision, point clouds processing, C++ programming
