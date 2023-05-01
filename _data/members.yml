@@ -408,6 +408,11 @@
   family: Kajita
   name-jp: 梶田 秀司
   role: alumni-star
+  from: 2021-04-01
+  past-roles:
+    - role: permanent
+      from: 2020-04-01
+      to: 2021-03-31
   nationality: jp
   bio: >
     received the master's degree (1985) and the doctor of engineering degree (1996) from Tokyo Institute of Technology, Japan. In 1985, he joined the Mechanical Engineering Laboratory, Agency of Industrial Science and Technology, Ministry of International Trade and Industry (AIST-MITI). Meanwhile he was a visiting researcher at California Institute of Technology, 1996-1997. Currently he is a chief senior researcher at the National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan, which was reorganized from AIST-MITI in April 2001.His research interests include robotics and control theory. He is a member of Society of Instrument and Control Engineers, Robotics Society of Japan and IEEE (Robotics and Automation Society). Received the best paper award of the Society of Instrument and Control Engineers in 1996, and the best paper award of the Robotics Society of Japan in 2005.
@@ -473,8 +478,12 @@
   given: Shin'ichiro
   family: Nakaoka
   name-jp: 中岡 慎一郎
-  role: adjunct
-  from: 2020-04-01
+  role: alumni
+  from: 2023-04-15
+  past-roles:
+    - role: adjunct
+      from: 2020-04-01
+      to: 2023-04-14
   nationality: jp
   bio: >
     received his Ph.D degree in computer science from the University of Tokyo, Japan, in 2006. Since 2006, he has been with the Intelligent Systems Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), where he is currently a Senior Researcher. From 2011 to 2012, he was a Visiting Researcher at the University of Edinburgh. His research interests include humanoid robots and robotics software systems. He received the Best Paper Award of the Robotics Society of Japan in 2008, and the Best Paper Award (Robotics) of the 2012 IEEE/SICE International Symposium on System Integration.
@@ -488,8 +497,15 @@
 - id: hu
   given: Yue 
   family: Hu
-  role: alumni
+  role: adjunct
   nationality: it
+  website: "https://hu-yue.github.io/"
+- id: abe
+  given: Naoko
+  family: Abe
+  role: adjunct
+  nationality: jp
+  scholar: "https://scholar.google.com/citations?user=bhj90uAAAAAJ"
 - id: orthey
   given: Andreas
   family: Orthey
@@ -924,9 +940,11 @@
 - id: berenguel
   given: Samuel Bruno
   family: Barenguel Baeta
-  role: phd
-  from: 2023-01-13
-  to: 2023-04-12
+  role: alumni
+  past-roles:
+    - role: phd
+      from: 2023-01-13
+      to: 2023-04-12
   nationality: es
 - id: tako
   given: Taro
@@ -1042,8 +1060,12 @@
 - id: hamze
   given: Marwan
   family: Hamze
-  role: phd
-  from: 2023-03-09
+  role: alumni
+  from: 2023-04-27
+  past-roles:
+    - role: phd
+      from: 2023-03-09
+      to: 2023-04-26
   nationality: lb
 - id: houhou
   given: Younes
@@ -1052,10 +1074,3 @@
   from: 2023-05-08
   to: 2023-08-04
   nationality: fr
-- id: menendez
-  given: Claudia
-  family: Menéndez Cárdenes
-  role: coming-undergraduate
-  from: 2023-06-01
-  to: 2023-08-31
-  nationality: es
