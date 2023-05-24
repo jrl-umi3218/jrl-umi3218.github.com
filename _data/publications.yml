@@ -3786,8 +3786,7 @@
   booktitle: IEEE Transactions on Human-Machine Systems
   authors:
   - id: hu
-  - family: Abe
-    given: Naoko
+  - id: abe
   - id: benalleguem
   - id: yamanobe
   - id: venture
@@ -8226,8 +8225,7 @@
   title: Optimization Framework of Humanoid Walking Pattern for Human Motion Retargeting
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Masuda
-    given: Shimpei
+  - id: masuda
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Masuda_2018_Humanoids.pdf
@@ -9606,6 +9604,39 @@
   month: january 17-january 20
   projects:
   - humanoid_lab
+- id: berenguel:cvprw:2023
+  year: 2023
+  title: 'Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment
+    for Panoramic Stabilization'
+  booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
+  authors:
+  - family: Berenguel-Baeta
+    given: Bruno
+  - id: aandre
+  - id: carong
+  - family: Bermudez-Cameo
+    given: Jesus
+  - family: Guerrero
+    given: Josechu
+  pdf: https://hal.science/hal-04066957
+  lab: jrl
+  month: june 19
+  projects:
+  - dvsstraight
+- id: goichon:orasis:2023
+  year: 2023
+  title: Evaluation de localisation et cartographie simultanées de robot mobile par
+    caméra couleur-profondeur embarquée
+  booktitle: Congrès des Jeunes Chercheurs en Vision par Ordinateur
+  authors:
+  - id: goichon
+  - id: kanehiro
+  - family: Vasseur
+    given: Pascal
+  - id: carong
+  pdf: ''
+  lab: jrl
+  month: may 22-may 26
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
