@@ -3742,8 +3742,8 @@
   month: april
   projects:
   - iam
-- id: morbidi:ram:2023
-  year: 2023
+- id: morbidi:ram:2022
+  year: 2022
   title: 'Assistive Robotic Technologies for Next-Generation Smart Wheelchairs: Codesign
     and Modularity to Improve Users'' Quality of Life'
   booktitle: IEEE Robotics & Automation Magazine
@@ -3779,7 +3779,6 @@
     given: Nicolas
   pdf: https://hal.science/hal-03709574v1/file/Morbidi%20et%20al-2022-Assistive%20Robotic%20Technologies%20for%20Next-Generation%20Smart%20Wheelchairs.pdf
   lab: jrl
-  month: march
 - id: hu:thms:2022
   year: 2022
   title: 'Toward Active Physical Human-Robot Interaction: Quantifying the Human State
@@ -3839,27 +3838,6 @@
   pdf: https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2168134
   lab: jrl
   month: february
-- id: chefchaounimoussaoui:sensors:2023
-  year: 2023
-  title: Spatial Calibration of Humanoid Robot Flexible Tactile Skin for Human-Robot
-    Interaction
-  booktitle: Sensors
-  authors:
-  - family: Chefchaouni Moussaoui
-    given: Srélim
-  - id: cisneros
-  - id: kaminaga
-  - id: benalleguem
-  - family: Nobeshima
-    given: Taiki
-  - family: Kanazawa
-    given: Shusuke
-  - id: kanehiro
-  pdf: https://www.mdpi.com/1424-8220/23/9/4569
-  lab: jrl
-  month: may
-  projects:
-  - jst_mirai
 - id: benallegue:tac:2023
   year: 2023
   title: Velocity-aided IMU-based Tilt and Attitude Estimation
@@ -3923,21 +3901,6 @@
     given: François
   pdf: https://ieeexplore.ieee.org/document/10075531
   lab: jrl
-- id: qin:ral:2023
-  year: 2023
-  title: Dual-Arm Mobile Manipulation Planning of a Long Deformable Object in Industrial
-    Installation
-  booktitle: IEEE Robotics and Automation Letters
-  authors:
-  - id: qin
-  - id: escande
-  - id: kanehiro
-  - id: yoshida
-  pdf: https://ieeexplore.ieee.org/document/10093024
-  lab: jrl
-  month: may
-  projects:
-  - humanoid_lab
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
