@@ -1007,6 +1007,8 @@
   role: master
   from: 2023-03-01
   to: 2023-08-31
+  github: "https://github.com/noeamiot"
+  website: "https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0x50d3ea6583d84ca9"
   nationality: fr
 - id: alaverdov
   given: Antoine
