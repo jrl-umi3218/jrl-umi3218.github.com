@@ -1007,7 +1007,11 @@
   role: master
   from: 2023-03-01
   to: 2023-08-31
+  github: "https://github.com/noeamiot"
+  website: "https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0x50d3ea6583d84ca9"
   nationality: fr
+  bio: >
+    is a dual degree Master's and engineering student in Computer Sciences at Université de Technologie de Compiègne (UTC) in France. He is currently a Research Assistant at CNRS-AIST Joint Robotics Laboratory (JRL). His main topics include embedded systems and real-time applications.
 - id: alaverdov
   given: Antoine
   family: Alaverdov
