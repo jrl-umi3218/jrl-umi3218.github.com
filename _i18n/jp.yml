@@ -92,6 +92,9 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2023/06/01
+    content: >
+      <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"Humanoid robot HRP-2"</a>が、<a href="https://www.ieee-ras.org/awards-recognition/society-awards?view=article&id=1790:ieee-icra-milestone-award&catid=69">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>を受賞しました。
   - date: 2022/12/07
     content: >
       <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"CertainOdom: Uncertainty Weighted Multi-task Learning Model for LiDAR Odometry Estimation"</a>が、the 2022 IEEE International Conference on Robotics and Biomimetics (ROBIO) Best Conference Paper Awardを受賞しました。
@@ -112,7 +115,7 @@ news:
     content: <a href="members/member-tsuru.html">都留将人</a>が<a href="https://www.ieee-jp.org/section/tokyo/chapter/RA-24/RASJPYoungAward_ICRA2021.html">IEEE Robotics and Automation Society Japan Joint Chapter Young Award (ICRA2021)</a>を受賞しました。
   - date: 2021/06/02
     content: >
-      <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point"</a>が、<a href="https://www.ieee-ras.org/awards-recognition/society-awards/69-awards-recognition/society-awards/1790-ieee-icra-milestone-award">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>を受賞しました。
+      <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point"</a>が、<a href="https://www.ieee-ras.org/awards-recognition/society-awards?view=article&id=1790:ieee-icra-milestone-award&catid=69">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>を受賞しました。
   - date: 2021/03/15
     content: <a href="members/member-kanehiro.html">金広文男</a>連携研究ラボ長が<a href="https://robotics.kawasaki.com/ja1/xyz/jp/2012-02/index.htm">XYZ</a>のインタビューを受けました。
   - date: 2021/03/12
