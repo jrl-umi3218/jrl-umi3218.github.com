@@ -92,6 +92,9 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/06/2023
+    content: >
+      The paper co-authored by <a href="members/member-kaneko.html">Kenji Kaneko</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, Shuuji Kajita, Hirohisa Hirukawa, Toshikazu Kawasaki, Masaru Hirata, Kazuhiko Akachi, Takakatsu Isozumi: Humanoid robot HRP-2 recevied <a href="https://www.ieee-ras.org/awards-recognition/society-awards?view=article&id=1790:ieee-icra-milestone-award&catid=69">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>.
   - date: 07/12/2022
     content: >
       The paper co-authored by <a href="members/member-sun.html">Leyuan Sun</a>, Guanqun Ding, <a href="members/member-yoshiyasu.html">Yusuke Yoshiyasu</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>: CertainOdom: Uncertainty Weighted Multi-task Learning Model for LiDAR Odometry Estimation recevied the 2022 IEEE International Conference on Robotics and Biomimetics (ROBIO) Best Conference Paper Award.
@@ -109,7 +112,7 @@ news:
     content: <a href="members/member-tsuru.html">Masato Tsuru</a> has received the <a href="https://www.ieee-jp.org/section/tokyo/chapter/RA-24/RASJPYoungAward_ICRA2021.html">IEEE Robotics and Automation Society Japan Joint Chapter Young Award (ICRA2021)</a>.
   - date: 02/06/2021
     content: >
-      The paper co-authored by Shuuji Kajita, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, <a href="members/member-kaneko.html">Kenji Kaneko</a>, Kiyoshi Fujiwara, Kensuke Harada, Kazuhito Yokoi, Hirohisa Hirukawa: Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point recevied <a href="https://www.ieee-ras.org/awards-recognition/society-awards/69-awards-recognition/society-awards/1790-ieee-icra-milestone-award">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>.
+      The paper co-authored by Shuuji Kajita, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, <a href="members/member-kaneko.html">Kenji Kaneko</a>, Kiyoshi Fujiwara, Kensuke Harada, Kazuhito Yokoi, Hirohisa Hirukawa: Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point recevied <a href="https://www.ieee-ras.org/awards-recognition/society-awards?view=article&id=1790:ieee-icra-milestone-award&catid=69">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>.
   - date: 15/03/2021
     content: <a href="members/member-kanehiro.html">Fumio Kanehiro</a> was interviewed by <a href="https://robotics.kawasaki.com/ja1/xyz/en/2104-01/index.htm">XYZ</a>.
   - date: 12/03/2021

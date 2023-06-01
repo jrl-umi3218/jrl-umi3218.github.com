@@ -503,6 +503,7 @@
 - id: abe
   given: Naoko
   family: Abe
+  name-jp: 安部 直子
   role: adjunct
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=bhj90uAAAAAJ"
@@ -990,7 +991,7 @@
 - id: hadj-sassi
   given: Sonia-Laure
   family: Hadj-Sassi
-  role: coming-phd
+  role: phd
   from: 2023-05-01
   to: 2023-07-31
   nationality: fr
@@ -1074,7 +1075,23 @@
 - id: houhou
   given: Younes
   family: Houhou
-  role: coming-master
+  role: master
   from: 2023-05-08
   to: 2023-08-04
   nationality: fr
+- id: hoshi
+  given: Takahiro
+  family: Hoshi
+  name-jp: 星 崇宏
+  role: undergraduate
+  from: 2023-06-01
+  to: 2024-03-31
+  nationality: jp
+- id: wang
+  given: Shuang
+  family: Wang
+  name-jp: 王 爽
+  role: master
+  from: 2023-06-01
+  to: 2024-03-31
+  nationality: cn
