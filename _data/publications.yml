@@ -3950,6 +3950,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/10137734
   lab: jrl
+  month: july
   projects:
   - jst_mirai
 - id: yoshida:iros:1999
