@@ -3906,6 +3906,7 @@
     given: Daniele
   pdf: https://ieeexplore.ieee.org/document/10035484
   lab: jrl
+  month: june
 - id: delmas:tmrb:2023
   year: 2023
   title: 'SpheriCol: A Driving Assistant for Power Wheelchairs based on Spherical
