@@ -1937,6 +1937,19 @@
   pdf: https://staff.aist.go.jp/e.yoshida/papers/JEK2015Hobara.pdf
   lab: jrl
   month: february
+- id: imamura:jnse:2015
+  year: 2015
+  title: 介護作業用アシスト装具による軽労化効果と体力変化に関するフィールド試験結果
+  booktitle: 看護理工学会
+  authors:
+  - id: imamura
+  - family: Tanaka
+    given: Takayuki
+  - family: Takizawa
+    given: Kazuki
+  pdf: https://www.jstage.jst.go.jp/article/jnse/2/3/2_142/_pdf/-char/ja
+  lab: jrl
+  month: august
 - id: melingui:tm:2015
   year: 2015
   title: Adaptive Neural Net- work Control of a Compact Bionic Handling Arm
@@ -2070,6 +2083,21 @@
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2016_IMAJNA_Escande.pdf
   lab: jrl
   month: april
+- id: yamada:jst:2016
+  year: 2016
+  title: Ongoing studies on investigation into criteria into lumber strength and development
+    of a simulator for lumber stress evaluation
+  booktitle: 日本ロボット学会誌
+  authors:
+  - family: Yamada
+    given: Yoji
+  - family: Kudo
+    given: Naoki
+  - id: ayusawa
+  - id: yoshiyasu
+  - id: yoshida
+  pdf: https://www.jstage.jst.go.jp/article/jrsj/34/4/34_34_244/_pdf/-char/ja
+  month: june
 - id: madani:mech:2016
   year: 2016
   title: 'Non-singular terminal sliding mode controller: Application to an actuated
@@ -3407,6 +3435,33 @@
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9170578
   lab: jrl
   month: august
+- id: yoshimura:ccc:2021
+  year: 2021
+  title: Binary Semantic Classification using Cortical Activation with Pavlovian-conditioned
+    Vestibular Responses in Healthy and Locked-in Individuals
+  booktitle: Cerebral Cortex Communications
+  authors:
+  - family: Yoshimura
+    given: Natsue
+  - family: Umetsu
+    given: Kaito
+  - family: Tonin
+    given: Alessandro
+  - family: Maruyama
+    given: Yasuhisa
+  - family: Harada
+    given: Kyosuke
+  - family: Rana
+    given: Aygul
+  - id: ganesh
+  - family: Chaudhary
+    given: Ujwal
+  - family: Koike
+    given: Yasuharu
+  - family: Birbaumer
+    given: Niels
+  lab: jrl
+  month: july
 - id: medrano:chaos:2021
   year: 2021
   title: Radius selection using kernel density estimation for the computation of nonlinear
@@ -5168,6 +5223,21 @@
   pdf: https://homepages.laas.fr/ostasse/IROS2007.pdf
   lab: jrl
   month: october 29-november 2
+- id: bayart:lncs:2007
+  year: 2007
+  title: Visuo-haptic blending applied to a tele-touch-diagnosis Application
+  booktitle: Lecture Notes in Computer Science
+  authors:
+  - family: Bayart
+    given: Benjamin
+  - family: Drif
+    given: Abdelhamid
+  - id: kheddar
+  - family: Didier
+    given: Jean-Yves
+  pdf: https://link.springer.com/content/pdf/10.1007%2F978-3-540-73335-5.pdf
+  lab: jrl
+  month: july
 - id: david:humanoids:2008
   year: 2008
   title: Study of an External Passive Shock-absorbing Mechanism for Walking Robots
@@ -6600,6 +6670,18 @@
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00857659/document
   lab: jrl
   month: november 3-november 7
+- id: moulard:isr:2013
+  year: 2013
+  title: Optimization-based motion retargeting integrating spatial and dynamic constraints
+    for humanoid
+  booktitle: International Symposium on Robotics
+  authors:
+  - id: moulard
+  - id: yoshida
+  - id: nakaoke
+  pdf: https://staff.aist.go.jp/e.yoshida/papers/retargeting-isr2013.pdf
+  lab: jrl
+  month: october 24-october 26
 - id: yang:ivcnz:2013
   year: 2013
   title: Deformation Transfer based on Stretchiness Ratio
@@ -9703,6 +9785,51 @@
   pdf: ''
   lab: jrl
   month: may 22-may 26
+- id: kheddar:book:2017
+  year: 2017
+  title: Social Robotics
+  booktitle: Social Robotics
+  authors:
+  - family: Authors
+    given: Icsr
+  pdf: https://books.google.co.jp/books?hl=en&lr=&id=x2A-DwAAQBAJ&oi=fnd&pg=PR6&dq=info:CljuUL_JwTAJ:scholar.google.com&ots=GrCeAOn5uj&sig=TSH977L6rVPtlggfPQHJCOk4kdY&redir_esc=y#v=onepage&q&f=false
+  lab: jrl
+- id: ikeuchi:book:2020
+  year: 2020
+  title: Active Lighting and Its Application for Computer Vision
+  booktitle: Active Lighting and Its Application for Computer Vision
+  authors:
+  - family: Ikeuchi
+    given: Katsushi
+  - family: Matsushita
+    given: Yasuyuki
+  - id: sagawa
+  - family: Kawasaki
+    given: Hiroshi
+  - family: Mukaigawa
+    given: Yasuhiro
+  - family: Furukawa
+    given: Ryo
+  - family: Miyazaki
+    given: Daisuke
+  lab: jrl
+  month: january
+- id: kajita:book:2020
+  year: 2020
+  title: ヒューマノイドロボット（改訂2版
+  booktitle: ヒューマノイドロボット（改訂2版）
+  authors:
+  - id: kajita
+  month: october 23
+- id: book:msobw
+  year: 2013
+  title: Modeling, Simulation and Optimization of Bipedal Walking
+  booktitle: Modeling, Simulation and Optimization of Bipedal Walking
+  authors:
+  - family: Mombaur
+    given: Katja
+  - family: Berns
+    given: Karsten
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
