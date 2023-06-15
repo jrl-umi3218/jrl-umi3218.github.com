@@ -3954,6 +3954,19 @@
   month: july
   projects:
   - jst_mirai
+- id: chappellet:tase:2023
+  year: 2023
+  title: Humanoid Loco-Manipulations using Combined Fast Dense 3D Tracking and SLAM
+    with Wide-Angle Depth-Images
+  booktitle: IEEE Transactions on Automation Science and Engineering
+  authors:
+  - id: chappellet
+  - id: murooka
+  - id: carong
+  - id: kanehiro
+  - id: kheddar
+  pdf: https://hal.science/hal-04125159
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -9598,23 +9611,6 @@
   month: december 5-december 9
   projects:
   - humanoid_lab
-- id: osawa:sii:2022
-  year: 2022
-  title: Material Classification Using Active Temperature Controllable Robotic Gripper
-  booktitle: IEEE/SICE International Symposium on System Integration
-  authors:
-  - family: Osawa
-    given: Yukiko
-  - family: Kase
-    given: Kei
-  - family: Domae
-    given: Yukiyasu
-  - family: Furukawa
-    given: Yoshiyuki
-  - id: kheddar
-  pdf: https://ieeexplore.ieee.org/document/9708761
-  lab: jrl
-  month: january 9-january 12
 - id: osorio:syroco:2022
   year: 2022
   title: Control of a Robot Expressive Movements Using Non-Verbal Features
