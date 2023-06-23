@@ -3940,6 +3940,7 @@
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2023_TCST_Pfeiffer.pdf
   lab: jrl
+  month: july
 - id: darvish:tro:2023
   year: 2023
   title: 'Teleoperation of Humanoid Robots: A Survey'
