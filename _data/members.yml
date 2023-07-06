@@ -424,6 +424,7 @@
   from: 2023-04-01
   past-roles:
     - role: permanent
+      from: 2020-04-01
       to: 2023-03-31
   nationality: jp
   website: https://mmurooka.github.io/
@@ -568,7 +569,7 @@
   family: Qin
   name-jp: 覃 毅力
   role: phd
-  to: 2024-03-31
+  to: 2023-09-30
   nationality: cn
   website: "https://yiliqin.github.io"
   linkedin: "https://www.linkedin.com/in/yili-qin"
@@ -726,7 +727,7 @@
   family: André
   role: postdoc
   from: 2022-05-09
-  to: 2023-05-08
+  to: 2024-03-31
   nationality: fr
   website: "https://antoineandre.github.io/"
   scholar: "https://scholar.google.fr/citations?user=iopU-RcAAAAJ&hl"
@@ -851,13 +852,16 @@
 - id: krishna
   given: Bandi
   family: Krishna
-  role: master
-  from: 2023-01-01
-  to: 2023-05-31
+  role: engineer
+  from: 2023-07-01
+  to: 2024-03-31
   past-roles:
     - role: undergraduate
       from: 2022-07-01
       to: 2022-12-31
+    - role: master
+      from: 2023-01-01
+      to: 2023-05-31
   nationality: in
 - id: goichon
   given: Eva
@@ -942,6 +946,7 @@
   given: Samuel Bruno
   family: Barenguel Baeta
   role: alumni
+  from: 2023-04-13
   past-roles:
     - role: phd
       from: 2023-01-13
@@ -951,11 +956,14 @@
   given: Taro
   family: Tako
   name-jp: 田光 太郎
-  role: master
-  from: 2023-04-01
+  role: alumni
+  from: 2023-06-07
   past-roles:
     - role: undergraduate
       from: 2023-01-10
+      to: 2023-03-31
+    - role: master
+      from: 2023-04-01
       to: 2023-06-06
   nationality: jp
 - id: bwatier
@@ -998,7 +1006,7 @@
 - id: hwatier
   given: Hortense
   family: Watier
-  role: coming-master
+  role: master
   from: 2023-06-12
   to: 2023-07-10
   nationality: fr
@@ -1095,3 +1103,9 @@
   from: 2023-06-01
   to: 2024-03-31
   nationality: cn
+- id: imamoglu
+  given: Nevrez
+  family: Imamoglu
+  role: adjunct
+  from: 2023-07-01
+  nationality: tr
