@@ -86,3 +86,8 @@
     </ul>
   grade: Master
   skills: Reinforcement learning, RNN, DNN, Programming(python, c++)
+- id: motlib
+  title: <a href=topics/phd_thesis_offer_motion_library.pdf>Construction and Retrieval of Multi-contact Motion Library for Humanoid Robot</a>
+  description: We offer research about the methodology of construction and retrieval of motion library to achieve on-site multi-contact motion planning for a humanoid robot. We want to clarify the structure of the motion library, which can preserve the feasible whole-body motion of a humanoid robot. We also want to develop the online adaptation method to modify preserved motion to satisfy kinematics and dynamics constraints in an unknown environment.
+  grade: PhD
+  skills: Basic knowledge of robotics, Software development by C++ and Python with ROS
