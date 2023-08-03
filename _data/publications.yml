@@ -4023,6 +4023,20 @@
   - id: kheddar
   pdf: https://hal.science/hal-04125159
   lab: jrl
+- id: singh:access:2023
+  year: 2023
+  title: Learning Bipedal Walking for Humanoids with Current Feedback
+  booktitle: IEEE Access
+  authors:
+  - id: singh
+  - family: Xie
+    given: Zhaoming
+  - id: gergondet
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10201853
+  lab: jrl
+  projects:
+  - humanoid_lab
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
