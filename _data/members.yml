@@ -999,16 +999,22 @@
 - id: hadj-sassi
   given: Sonia-Laure
   family: Hadj-Sassi
-  role: phd
-  from: 2023-05-01
-  to: 2023-07-31
+  role: alumni
+  from: 2023-07-28
+  past-roles:
+    - role: phd
+      from: 2023-05-01
+      to: 2023-07-27
   nationality: fr
 - id: hwatier
   given: Hortense
   family: Watier
-  role: master
-  from: 2023-06-12
-  to: 2023-07-10
+  role: alumni
+  from: 2023-07-11
+  past-roles:
+    - role: master
+      from: 2023-06-12
+      to: 2023-07-10
   nationality: fr
 - id: amiot
   given: Noé
@@ -1041,9 +1047,12 @@
 - id: foussereau
   given: Virgile
   family: Foussereau
-  role: master
-  from: 2023-03-20
-  to: 2023-08-11
+  role: alumni
+  from: 2023-08-01
+  past-roles:
+    - role: master
+      from: 2023-03-20
+      to: 2023-07-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/virgile-foussereau"
   github: "https://github.com/Virgile-Foussereau"
@@ -1109,3 +1118,17 @@
   role: adjunct
   from: 2023-07-01
   nationality: tr
+- id: juloori
+  given: Amogh
+  family: Juloori
+  role: undergraduate
+  from: 2023-07-10
+  to: 2024-01-31
+  nationality: in
+- id: duvinage
+  given: Thomas
+  family: Duvinage
+  role: coming-master
+  from: 2023-10-02
+  to: 2024-03-29
+  nationality: fr
