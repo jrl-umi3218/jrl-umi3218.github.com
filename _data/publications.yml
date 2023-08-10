@@ -4035,6 +4035,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/10201853
   lab: jrl
+  month: august
   projects:
   - humanoid_lab
 - id: yoshida:iros:1999
