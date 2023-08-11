@@ -4038,6 +4038,20 @@
   month: august
   projects:
   - humanoid_lab
+- id: sun:isj:2023
+  year: 2023
+  title: 'TransFusionOdom: Transformer-based LiDAR-Inertial Fusion Odometry Estimation'
+  booktitle: IEEE Sensors Journal
+  authors:
+  - id: sun
+  - family: Ding
+    given: Guanqun
+  - family: Qiu
+    given: Yue
+  - id: yoshiyasu
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10214516
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
