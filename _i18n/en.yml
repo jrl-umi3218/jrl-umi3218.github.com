@@ -50,6 +50,8 @@ roles:
   master-student: Master student
   undergraduate-students: Undergraduate students
   undergraduate-student: Undergraduate student
+  non-degree-students: Non-degree students
+  non-degree-student: Non-degree student
   administrative-staff: Administrative staff
   alumni: Alumni
 publications:

@@ -50,6 +50,8 @@ roles:
   master-student: 修士学生
   undergraduate-students: 学部生
   undergraduate-student: 学部生
+  non-degree-students: 研究生
+  non-degree-student: 研究生
   administrative-staff: アシスタント
   alumni: 過去のメンバー
 publications:
