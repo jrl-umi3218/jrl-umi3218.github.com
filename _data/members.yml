@@ -727,7 +727,7 @@
   family: André
   role: postdoc
   from: 2022-05-09
-  to: 2024-03-31
+  to: 2023-09-30
   nationality: fr
   website: "https://antoineandre.github.io/"
   scholar: "https://scholar.google.fr/citations?user=iopU-RcAAAAJ&hl"
@@ -854,7 +854,7 @@
   family: Krishna
   role: engineer
   from: 2023-07-01
-  to: 2024-03-31
+  to: 2023-09-06
   past-roles:
     - role: undergraduate
       from: 2022-07-01
@@ -916,9 +916,9 @@
 - id: toumi
   given: Mohamed
   family: Toumi
-  role: phd
+  role: non-degree
   from: 2022-10-14
-  to: 2026-09-30
+  to: 2023-09-30
   nationality: dz
 - id: zhang
   given: Yachen
@@ -992,9 +992,12 @@
 - id: lembrez
   given: Gabin
   family: Lembrez
-  role: master
-  from: 2023-03-07
-  to: 2023-08-31
+  role: alumni
+  from: 2023-09-01
+  past-roles:
+    - role: master
+      from: 2023-03-07
+      to: 2023-08-31
   nationality: fr
 - id: hadj-sassi
   given: Sonia-Laure
@@ -1019,9 +1022,12 @@
 - id: amiot
   given: Noé
   family: Amiot
-  role: master
-  from: 2023-03-01
-  to: 2023-08-31
+  role: alumni
+  from: 2023-09-01
+  past-roles:
+    - role: master
+      from: 2023-03-01
+      to: 2023-08-31
   github: "https://github.com/noeamiot"
   website: "https://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0x50d3ea6583d84ca9"
   nationality: fr
@@ -1030,16 +1036,22 @@
 - id: alaverdov
   given: Antoine
   family: Alaverdov
-  role: master
-  from: 2023-03-01
-  to: 2023-08-31
+  role: alumni
+  from: 2023-09-01
+  past-roles:
+    - role: master
+      from: 2023-03-01
+      to: 2023-08-31
   nationality: fr
 - id: quaccia
   given: Matthieu
   family: Quaccia
-  role: master
-  from: 2023-03-01
-  to: 2023-08-31
+  role: alumni
+  from: 2023-09-01
+  past-roles:
+    - role: master
+      from: 2023-03-01
+      to: 2023-08-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/matthieu-quaccia/"
   bio: >
@@ -1061,16 +1073,22 @@
 - id: barberteguy
   given: Victor
   family: Barberteguy
-  role: master
-  from: 2023-03-27
-  to: 2023-08-04
+  role: alumni
+  from: 2023-08-05
+  past-roles:
+    - role: master
+      from: 2023-03-27
+      to: 2023-08-04
   nationality: fr
 - id: mariot
   given: Pierre-Antoine
   family: Mariot
-  role: master
-  from: 2023-04-01
-  to: 2023-08-31
+  role: alumni
+  from: 2023-09-01
+  past-roles:
+    - role: master
+      from: 2023-04-01
+      to: 2023-08-31
   nationality: fr
 - id: masuda
   given: Shimpei
@@ -1092,9 +1110,12 @@
 - id: houhou
   given: Younes
   family: Houhou
-  role: master
-  from: 2023-05-08
-  to: 2023-08-04
+  role: alumni
+  from: 2023-08-05
+  past-roles:
+    - role: master
+      from: 2023-05-08
+      to: 2023-08-04
   nationality: fr
 - id: hoshi
   given: Takahiro
@@ -1132,3 +1153,47 @@
   from: 2023-10-02
   to: 2024-03-29
   nationality: fr
+- id: kempf
+  given: Dorian
+  family: Kempf
+  role: phd
+  from: 2023-09-01
+  to: 2026-08-31
+  nationality: fr
+- id: hong
+  given: Cheng
+  family: Hong
+  role: coming-phd
+  from: 2023-10-01
+  to: 2026-09-30
+  nationality: cn
+- id: chunxin
+  given: Yang
+  family: Chunxin
+  role: coming-phd
+  from: 2023-10-01
+  to: 2026-09-30
+  nationality: cn
+- id: li
+  given: Yitong
+  family: Li
+  role: coming-non-degree
+  from: 2023-12-01
+  to: 2024-03-31
+  nationality: cn
+- id: ono
+  given: Tasuku
+  family: Ono
+  name-jp: 小野祐
+  role: coming-master
+  from: 2024-04-01
+  to: 2026-03-31
+  nationality: jp
+- id: nishijima
+  given: Yuu
+  family: Nishijima
+  name-jp: 西嶌優
+  role: coming-master
+  from: 2024-04-01
+  to: 2026-03-31
+  nationality: jp
