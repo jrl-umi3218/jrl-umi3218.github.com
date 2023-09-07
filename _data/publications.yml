@@ -4037,6 +4037,7 @@
   lab: jrl
   month: august
   projects:
+  - ryouikikoubo_2021
   - humanoid_lab
 - id: sun:isj:2023
   year: 2023
@@ -9781,6 +9782,7 @@
   lab: jrl
   month: january 17-january 20
   projects:
+  - ryouikikoubo_2021
   - humanoid_lab
 - id: berenguel:cvprw:2023
   year: 2023
