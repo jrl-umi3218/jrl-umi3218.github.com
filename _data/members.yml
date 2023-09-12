@@ -1139,6 +1139,12 @@
   role: adjunct
   from: 2023-07-01
   nationality: tr
+  website: "https://nevrez.github.io/"
+  linkedin: "https://linkedin.com/in/nevrez"
+  scholar: "https://scholar.google.fr/citations?user=VJgx61MAAAAJ"
+  github: "https://github.com/nevrez"
+  bio: >
+    is a Senior Researcher at National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Japan since April 2016. Before AIST, he was with RIKEN Brain Science Institute as a Researcher & JSPS Foreign Postdoctoral Fellow in 2015-2016. He received the Ph.D. degree from Chiba University (2015), Japan, with a Japanese Government scholarship (MEXT). He was also with School of Computer Eng., Nanyang Technbological University, Singapore as a Research Associate 2010-2011. His research interests include applications of computer vision and machine learning, recently with special interests on deep learning for multi-modal or multi-temporal signal/image analysis, visual attention (saliency detection), classification/object detection/segmentation on various sensory data (3D, optical, multispectral, hyperspectral). Short CV: <a href="https://nevrez.github.io/resume/" target="_blank">RESUME</a>.
 - id: juloori
   given: Amogh
   family: Juloori
