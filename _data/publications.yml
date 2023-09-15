@@ -4053,6 +4053,9 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/10214516
   lab: jrl
+  month: september
+  projects:
+  - humanoid_lab
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
