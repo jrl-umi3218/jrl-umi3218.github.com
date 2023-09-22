@@ -3158,6 +3158,7 @@
   - id: kumagai
   - id: escande
   - id: kanehiro
+  pdf: https://www.worldscientific.com/doi/10.1142/S0219843620500036
   lab: jrl
   month: january
 - id: sanchez:ijhr:2020
@@ -3317,6 +3318,7 @@
   - id: benalleguem
   - id: venture
   - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/9170777
   lab: jrl
   month: october
 - id: ito:ral:2020
@@ -3504,6 +3506,7 @@
   - id: sun
   - id: singh
   - id: kanehiro
+  pdf: https://www.jstage.jst.go.jp/article/jrobomech/33/6/33_1385/_pdf/-char/ja
   lab: jrl
   month: december
   projects:
@@ -9134,6 +9137,7 @@
   - id: singh
   - id: sagawa
   - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/9190664
   lab: jrl
   month: october 25-october 28
   projects:
@@ -9359,6 +9363,7 @@
   - id: benalleguem
   - id: yoshiyasu
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/9026239
   lab: jrl
   month: january 12-january 15
   projects:
@@ -9372,6 +9377,7 @@
   - id: kanehiro
   - id: kumagai
   - id: yoshiyasu
+  pdf: https://ieeexplore.ieee.org/abstract/document/9026299/
   lab: jrl
   month: january 12-january 15
   projects:
