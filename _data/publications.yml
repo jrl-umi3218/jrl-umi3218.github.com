@@ -9826,6 +9826,28 @@
   pdf: ''
   lab: jrl
   month: may 22-may 26
+- id: kessy:iccvw:2023
+  year: 2023
+  title: 'Hyperspectral Imaging of In-Site Stained Glasses: Illumination Variation
+    Compensation Using Two Perpendicular Scans'
+  booktitle: IEEE/CVF International Conference on Computer Vision Workshops
+  authors:
+  - family: Kessy
+    given: Suzan
+  - family: Funatomi
+    given: Takuya
+  - family: Kitano
+    given: Kazuya
+  - family: Fujimura
+    given: Yuki
+  - id: carong
+  - family: Mouaddib
+    given: El
+  - family: Mukaigawa
+    given: Yasuhiro
+  pdf: https://hal.science/hal-04203172
+  lab: jrl
+  month: october 3
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
