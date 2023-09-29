@@ -3930,7 +3930,7 @@
     given: Yacine
   pdf: https://ieeexplore.ieee.org/document/9966736
   lab: jrl
-  month: january
+  month: october
 - id: pfeiffer:tcst:2023
   year: 2023
   title: The Hierarchical Newton’s Method for Numerically Stable Prioritized Dynamic
@@ -4059,6 +4059,17 @@
   month: september
   projects:
   - humanoid_lab
+- id: djeha:tro:2023
+  year: 2023
+  title: Robust Task-Space Quadratic Programming for Kinematic-Controlled Robots
+  booktitle: IEEE Transactions on Robotics
+  authors:
+  - family: Djeha
+    given: Mohamed
+  - id: gergondet
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10189176
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
