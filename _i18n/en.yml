@@ -74,10 +74,6 @@ hl:
   student-grade: Grade
   student-email: Email <br/> (replace the _*_ with @)
   students:
-    - id: qin
-      name: Yili Qin
-      grade: Ph.D. 5th Year
-      email: yili.tan_*_aist.go.jp
     - id: singh
       name: Rohan Pratap Singh
       grade: Ph.D. 3rd Year
@@ -87,6 +83,13 @@ hl:
       name: Shimpei Masuda
       grade: Ph.D. 1st Year
       email: masuda.shimpei_*_aist.go.jp
+    - id: hong
+      name: Cheng Hong
+      grade: Ph.D. 1st Year
+    - id: qin
+      name: Yili Qin
+      grade: Graduated (Ph.D.)
+      email: yili.tan_*_aist.go.jp
     - id: sun
       name: Leyuan Sun
       grade: Graduated (Ph.D.)

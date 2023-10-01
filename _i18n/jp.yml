@@ -74,10 +74,6 @@ hl:
   student-grade: 学年
   student-email: メールアドレス<br/>_*_を@に変えて送信してください
   students:
-    - id: qin
-      name: 覃 毅力
-      grade: 博士課程5年
-      email: yili.tan_*_aist.go.jp
     - id: singh
       name: Rohan Pratap Singh
       grade: 博士課程3年
@@ -87,6 +83,13 @@ hl:
       name: 増田慎平
       grade: 博士課程1年
       email: masuda.shimpei_*_aist.go.jp
+    - id: hong
+      name: Cheng Hong
+      grade: 博士課程1年
+    - id: qin
+      name: 覃 毅力
+      grade: 博士後期修了
+      email: yili.tan_*_aist.go.jp
     - id: sun
       name: 孫 楽源
       grade: 博士後期修了
