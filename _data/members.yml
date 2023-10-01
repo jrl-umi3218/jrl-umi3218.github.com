@@ -568,8 +568,11 @@
   given: Yili
   family: Qin
   name-jp: 覃 毅力
-  role: phd
-  to: 2023-09-30
+  role: alumni
+  from: 2023-09-30
+  past-roles:
+    - role: phd
+      to: 2023-09-29
   nationality: cn
   website: "https://yiliqin.github.io"
   linkedin: "https://www.linkedin.com/in/yili-qin"
@@ -725,9 +728,12 @@
 - id: aandre
   given: Antoine
   family: André
-  role: postdoc
-  from: 2022-05-09
-  to: 2023-09-30
+  role: permanent
+  from: 2023-10-01
+  past-roles:
+    - role: postdoc
+      from: 2022-05-09
+      to: 2023-09-30
   nationality: fr
   website: "https://antoineandre.github.io/"
   scholar: "https://scholar.google.fr/citations?user=iopU-RcAAAAJ&hl"
@@ -799,9 +805,12 @@
 - id: osorio
   given: Pablo
   family: Osorio
-  role: phd
-  from: 2022-05-01
-  to: 2023-09-30
+  role: alumni
+  from: 2023-10-01
+  past-roles:
+    - role: phd
+      from: 2022-05-01
+      to: 2023-09-30
   nationality: cr
 - id: nara
   given: Guru
@@ -852,9 +861,8 @@
 - id: krishna
   given: Bandi
   family: Krishna
-  role: engineer
-  from: 2023-07-01
-  to: 2023-09-06
+  role: alumni
+  from: 2023-09-06
   past-roles:
     - role: undergraduate
       from: 2022-07-01
@@ -862,6 +870,9 @@
     - role: master
       from: 2023-01-01
       to: 2023-05-31
+    - role: engineer
+      from: 2023-07-01
+      to: 2023-09-05
   nationality: in
 - id: goichon
   given: Eva
@@ -1169,14 +1180,7 @@
 - id: hong
   given: Cheng
   family: Hong
-  role: coming-phd
-  from: 2023-10-01
-  to: 2026-09-30
-  nationality: cn
-- id: chunxin
-  given: Yang
-  family: Chunxin
-  role: coming-phd
+  role: phd
   from: 2023-10-01
   to: 2026-09-30
   nationality: cn
@@ -1190,7 +1194,7 @@
 - id: ono
   given: Tasuku
   family: Ono
-  name-jp: 小野祐
+  name-jp: 小野 祐
   role: coming-master
   from: 2024-04-01
   to: 2026-03-31
@@ -1198,8 +1202,30 @@
 - id: nishijima
   given: Yuu
   family: Nishijima
-  name-jp: 西嶌優
+  name-jp: 西嶌 優
   role: coming-master
   from: 2024-04-01
   to: 2026-03-31
   nationality: jp
+- id: mori
+  given: Kenya
+  family: Mori
+  name-jp: 森 賢哉
+  role: phd
+  from: 2023-09-19
+  to: 2025-03-31
+  nationality: jp
+- id: acevedo
+  given: Valeria
+  family: Acevedo Donato
+  role: coming-engineer
+  from: 2023-10-01
+  to: 2025-03-31
+  nationality: mx
+- id: liu
+  given: Zenong
+  family: Liu
+  role: coming-master
+  from: 2024-04-01
+  to: 2026-03-31
+  nationality: cn
