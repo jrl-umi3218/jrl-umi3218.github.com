@@ -4070,6 +4070,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/10189176
   lab: jrl
+  month: october
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -8433,8 +8434,7 @@
     on Identification of Inertial Parameters
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Mori
-    given: Kenya
+  - id: mori
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/k.ayusawa/pdf/Mori_2018_Humanoids.pdf
