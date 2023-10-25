@@ -97,6 +97,9 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 24/10/2023
+    content: >
+      Philippe Coiffet, co-founder of the JRL and pioneer of French robotics, passed away on 20 October 2023. He will be dearly missed but his legacy will live on through the work he initiated. If you wish to honor his memory or express your condolences, a webpage has been setup on <a href="https://www.lirmm.fr/philippe-coiffet/">LIRMM website</a>.
   - date: 01/06/2023
     content: >
       The paper co-authored by <a href="members/member-kaneko.html">Kenji Kaneko</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, Shuuji Kajita, Hirohisa Hirukawa, Toshikazu Kawasaki, Masaru Hirata, Kazuhiko Akachi, Takakatsu Isozumi: Humanoid robot HRP-2 recevied <a href="https://www.ieee-ras.org/awards-recognition/society-awards?view=article&id=1790:ieee-icra-milestone-award&catid=69">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>.

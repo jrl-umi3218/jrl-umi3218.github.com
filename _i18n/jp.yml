@@ -97,6 +97,9 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2023/10/24
+    content: >
+      JRLの共同創設者であり、フランス・ロボット工学のパイオニアであるフィリップ・コイフェ氏が2023年10月20日に逝去されました。大変残念ですが、彼の遺志は彼のロボット工学における功績を通じて生き続けることでしょう。ご冥福をお祈りいたします。彼の死を悼み、哀悼の意を表したい方は、<a href="https://www.lirmm.fr/philippe-coiffet/">LIRMMのウェブサイト</a>をご覧ください。
   - date: 2023/06/01
     content: >
       <a href="https://unit.aist.go.jp/jrl-2/en/publications.html">"Humanoid robot HRP-2"</a>が、<a href="https://www.ieee-ras.org/awards-recognition/society-awards?view=article&id=1790:ieee-icra-milestone-award&catid=69">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>を受賞しました。
