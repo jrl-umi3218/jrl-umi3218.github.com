@@ -639,7 +639,6 @@
   given: Antonin
   family: Dallard
   role: phd
-  to: 2023-09-30
   nationality: fr
   linkedin: https://www.linkedin.com/in/antonin-dallard-b7096814a
   bio: >
@@ -1166,7 +1165,7 @@
 - id: duvinage
   given: Thomas
   family: Duvinage
-  role: coming-master
+  role: master
   from: 2023-10-02
   to: 2024-03-29
   nationality: fr
@@ -1229,3 +1228,10 @@
   from: 2024-04-01
   to: 2026-03-31
   nationality: cn
+- id: ishida
+  given: hirokazu
+  family: ishida
+  name-jp: 石田 寛和
+  role: coming-postdoc
+  from: 2024-04-01
+  nationality: jp
