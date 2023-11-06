@@ -4071,6 +4071,21 @@
   pdf: https://ieeexplore.ieee.org/document/10189176
   lab: jrl
   month: october
+- id: tsuru:sensors:2023
+  year: 2023
+  title: 'Online Multi-Contact Motion Replanning for Humanoid Robots with Semantic
+    3D Voxel Mapping: ExOctomap'
+  booktitle: Sensors
+  authors:
+  - id: tsuru
+  - id: escande
+  - id: kumagai
+  - id: murooka
+  - family: Harada
+    given: Kensuke
+  pdf: https://www.mdpi.com/1424-8220/23/21/8837
+  lab: jrl
+  month: october
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
