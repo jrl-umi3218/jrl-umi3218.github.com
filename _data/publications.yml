@@ -4086,6 +4086,22 @@
   pdf: https://www.mdpi.com/1424-8220/23/21/8837
   lab: jrl
   month: october
+- id: watier:applsci:2023
+  year: 2023
+  title: 'Instability during Stepping and Distance between the Center of Mass and
+    the Minimal Moment Axis: Effect of Age and Speed '
+  booktitle: Applied Sciences
+  authors:
+  - id: bwatier
+  - family: Begue
+    given: Jeremie
+  - family: Pillet
+    given: Helene
+  - family: Caderby
+    given: Teddy
+  pdf: https://www.mdpi.com/2076-3417/13/19/10574
+  lab: jrl
+  month: september
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -9849,7 +9865,7 @@
   - family: Vasseur
     given: Pascal
   - id: carong
-  pdf: ''
+  pdf: https://hal.science/hal-04219455
   lab: jrl
   month: may 22-may 26
 - id: kessy:iccvw:2023
