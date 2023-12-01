@@ -928,7 +928,7 @@
   family: Toumi
   role: non-degree
   from: 2022-10-14
-  to: 2023-09-30
+  to: 2024-03-31
   nationality: dz
 - id: zhang
   given: Yachen
@@ -1186,7 +1186,7 @@
 - id: li
   given: Yitong
   family: Li
-  role: coming-non-degree
+  role: non-degree
   from: 2023-12-01
   to: 2024-03-31
   nationality: cn
@@ -1217,8 +1217,8 @@
 - id: acevedo
   given: Valeria
   family: Acevedo Donato
-  role: coming-engineer
-  from: 2023-10-01
+  role: engineer
+  from: 2023-11-21
   to: 2025-03-31
   nationality: mx
 - id: liu
@@ -1235,3 +1235,24 @@
   role: coming-postdoc
   from: 2024-04-01
   nationality: jp
+- id: muraccioli
+  given: Bastien
+  family: Muraccioli
+  role: coming-phd
+  from: 2024-01-01
+  to: 2026-12-31
+  nationality: fr
+- id: arslan
+  given: Mikael
+  family: Arslan
+  role: coming-master
+  from: 2024-02-01
+  to: 2024-07-31
+  nationality: fr
+- id: paula
+  given: Matheus
+  family: Paula
+  role: coming-master
+  from: 2024-04-01
+  to: 2024-09-30
+  nationality: fr
