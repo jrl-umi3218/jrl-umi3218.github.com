@@ -1,4 +1,33 @@
-
+- id: m2sv
+  title: "M2SV"
+  longtitle: "M2SV: Mobile Manipulator control based on Spherical Vision"
+  year-start: 2023
+  year-end: 2025
+  funding: CNRS GDR ISIS
+  active: true
+  partners: [utbm,upjv]
+  description: "
+<p>M2SV is an exploratory project funded by CNRS&rsquo; Special Interest Group on Information, Signal, Image and Vision (GDR ISIS). In this project led by UTBM, CIAD lab, CNRS-AIST JRL is a partner as UPJV, MIS lab (France) too. The aim is to enable the direct visual servoing of both the mobile base and the robot arm with a single spherical camera onboard the mobile base. Thus, a combined eye-in-hand / eye-t-hand visual servo is to be considered. This project emerges from <a href=https://unit.aist.go.jp/jrl-22022/en/projects/project-dvsstraight.html target=_blank>DVS-straight</a>.</p>
+    <h4>The goals are:</h4>
+    <ul>
+      <li>Optimal placement of the spherical camera</li>
+      <li>Eye-in-hand spherical vision-based control of the robot base</li>
+			<li>Eye-to-hand spherical vision-based control of the robot arm</li>
+    </ul>
+<p>M2SV system will be integrated on mobile manipulators of UTBM and JRL and assessed in experiments. 
+</p>
+"
+- id: zero
+  title: "Z"
+  longtitle: "Z: Zero-Shot Learning of Real-World AI Connecting Large-Scale Learning Models and 3D Virtual Space"
+  year-start: 2023
+  year-end: 2026
+  funding: JSPS
+  active: true
+  partners: [ttech]
+  description: "
+<p>This project, led by AIST's AIRC whose CNRS-AIST JRL is partner together with Tokyo Tech aims at leveraging the large learning models for 3D human learning, High-level object recognition and robot exploration, learned feature maps-based visual servoing.</p>
+"
 - id: janus
   title: "Janus"
   longtitle: "Team Janus - ANA Avatar XPRIZE"
@@ -35,7 +64,7 @@
       <li>To model and compute efficiently the desired shape of the mirror soft robot as function of a field-of-view distribution</li>
 			<li>To control the deformation from visual input</li>
     </ul>
-A realistic simulator and a first prototype are the expected results.
+<p>A realistic simulator and a first prototype are the expected results.
 </p>
 "
 - id: hadros
@@ -44,17 +73,17 @@ A realistic simulator and a first prototype are the expected results.
   year-start: 2021
   year-end: 2023
   funding: CNRS GDR ISIS
-  active: true
+  active: false
   partners: [insarennes,upjv]
   description: "
-<p>HaDROs is an exploratory project funded by CNRS&rsquo; Special Interest Group on Information, Signal, Image and Vision (GDR ISIS). In this project, CNRS-AIST JRL is partnering with INSA members of IRISA (France) and UPJV, MIS lab (France) with the aim of enabling visual Simultaneous Localization And Mapping (SLAM) in  envrionments of challenging lighting, i.e. where we can find both dark shadowed and very bright areas at once. HaDROs leverages the recently introduced panoramic High Dynamic Range (HDR) real-time camera <a href=https://hal.archives-ouvertes.fr/hal-03130948 target=_blank>HDROmni</a> and works on multi-exposure / multi-map SLAM.</p>
+<p>HaDROs is an exploratory project funded by CNRS&rsquo; Special Interest Group on Information, Signal, Image and Vision (GDR ISIS). In this project, CNRS-AIST JRL is partnering with INSA members of IRISA (France) and UPJV, MIS lab (France) with the aim of enabling visual Simultaneous Localization And Mapping (SLAM) in  environments of challenging lighting, i.e. where we can find both dark shadowed and very bright areas at once. HaDROs leverages the recently introduced panoramic High Dynamic Range (HDR) real-time camera <a href=https://hal.archives-ouvertes.fr/hal-03130948 target=_blank>HDROmni</a> and works on multi-exposure / multi-map SLAM.</p>
     <h4>The goals are:</h4>
     <ul>
       <li>To accurately calibrate the HDROmni camera despite the various exposures acuired at once</li>
       <li>To generalize the multi-map SLAM to multi-exposure</li>
 			<li>To enable assistive visual feedback for electric powered wheelchair users even when the surrounding illumination is challenging</li>
     </ul>
-The HaDROs system will be integrated on an assistive wheelchair of INSA Rennes (France) and assessed with real users. 
+<p>The HaDROs system will be integrated on an assistive wheelchair of INSA Rennes (France) and assessed with real users. 
 </p>
 "
 - id: dvsstraight
@@ -74,7 +103,7 @@ The HaDROs system will be integrated on an assistive wheelchair of INSA Rennes (
 			<li>To encapsulate DVS in multi-objective control frameworks for condisering explicit trajectory constraints</li>
 			<li>To research the optimal field-of-view maximizing the motion perceptibility</li>
     </ul>
-all for better behavior of DVS-based control laws and hence applicability in a much larger variety of scenarios and contexts. </p>
+all for better behavior of DVS-based control laws and hence applicability in a much larger variety of scenarios and contexts. 
 <p>A series of international workshops will be organized to share the research, the results and the open-source software as well as to develop the research community on these topics.
 </p>
 "

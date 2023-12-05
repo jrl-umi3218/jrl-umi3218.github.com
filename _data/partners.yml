@@ -152,3 +152,8 @@
   name: "Kawasaki Heavy Industries, Ltd."
   shortname: "KHI"
   website: "https://www.khi.co.jp/"
+- id: ttech
+  logo: "/assets/logos/ttech.png"
+  name: "Tokyo Institute of Technology"
+  shortname: "Tokyo Tech"
+  website: "https://www.titech.ac.jp/"
