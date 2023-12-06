@@ -4102,6 +4102,27 @@
   pdf: https://www.mdpi.com/2076-3417/13/19/10574
   lab: jrl
   month: september
+- id: ducrocq:applopt:2023
+  year: 2023
+  title: 'Visadapt: Catadioptric adaptive camera for scenes of variable density of
+    visual information'
+  booktitle: Applied Optics
+  authors:
+  - id: ducrocq
+  - id: carong
+  - family: Midavaine
+    given: Hervé
+  - family: Duriez
+    given: Christian
+  - family: Dequidt
+    given: Jérémie
+  - family: Mouaddib
+    given: E.
+  pdf: https://opg.optica.org/ao/fulltext.cfm?uri=ao-62-35-9207&id=542880
+  lab: jrl
+  month: november
+  projects:
+  - visadapt
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -9890,6 +9911,35 @@
   pdf: https://hal.science/hal-04203172
   lab: jrl
   month: october 3
+- id: quaccia:sii:2024
+  year: 2024
+  title: A Study on Learned Feature Maps Toward Direct Visual Servoing
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: quaccia
+  - id: aandre
+  - id: yoshiyasu
+  - id: carong
+  pdf: https://hal.science/hal-04306456
+  lab: jrl
+  month: january 8-january 11
+  projects:
+  - dvsstraight
+  - zero
+- id: foussereau:sii:2024
+  year: 2024
+  title: 'Towards Retail Stores Automation: 6-DOF Pose Estimation Combining Deep Learning
+    Object Detection and Dense Depth Alignment'
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: foussereau
+  - id: kumagai
+  - id: carong
+  pdf: https://hal.science/hal-04306460
+  lab: jrl
+  month: january 8-january 11
+  projects:
+  - icps
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
