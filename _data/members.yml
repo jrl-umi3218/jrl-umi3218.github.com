@@ -557,6 +557,9 @@
   given: Antonio
   family: Gabas
   role: alumni
+  past-roles:
+    - role: phd
+      to: 2021-09-30
   nationality: es
   scholar: "https://scholar.google.com/citations?user=Q5KaFMMAAAAJ"
   linkedin: "https://www.linkedin.com/in/toni-gabas-21b55558/"
@@ -658,8 +661,12 @@
 - id: frizza
   given: Irene
   family: Frizza
-  role: phd
+  role: engineer
+  from: 2024-01-01
   to: 2024-03-31
+  past-roles:
+    - role: phd
+      to: 2023-12-31
   nationality: it
   bio: >
     got her degree in Electronic Engineering in Pisa University in 2016. She next got her master’s degree in Automation and Robotic Engineering in Pisa University in 2019. She carried out her thesis project at GVLab, in Tokyo University of Agriculture and Technology (TUAT) and in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan. Currently, she is a PhD student in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan with Montpellier University, France. Her research interest includes soft robotic feet, biped locomotion, walking of humanoid robots.
