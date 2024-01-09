@@ -9940,6 +9940,65 @@
   month: january 8-january 11
   projects:
   - icps
+- id: figueroa:sii:2024
+  year: 2024
+  title: Reinforcement Learning-Based Parameter Optimization for Whole-Body Admittance
+    Control with IS-MPC
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Figueroa
+    given: Nícolas
+  - family: Tafur
+    given: Julio
+  - id: kheddar
+  pdf: ''
+  lab: jrl
+  month: january 8-january 11
+- id: barberteguy:sii:2024
+  year: 2024
+  title: Learning and Generalizing Tasks on Humanoid Robots with an Automatic Multisensory
+    Segmentation Method
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: barberteguy
+  - id: kanehiro
+  pdf: ''
+  lab: jrl
+  month: january 8-january 11
+- id: alaverdov:sii:2024
+  year: 2024
+  title: Sensor Anomaly Detection for Biped Robot Using the Dynamic Equation of a
+    Robotic System
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: alaverdov
+  - id: kanehiro
+  pdf: ''
+  lab: jrl
+  month: january 8-january 11
+- id: nara:sii:2024
+  year: 2024
+  title: 'Vision-Based Software System for Indoor Quadrupedal Locomotion: Integrated
+    with SLAM, Foothold Planning, and Multimodal Gait'
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: nara
+  - id: kanehiro
+  pdf: ''
+  lab: jrl
+  month: january 8-january 11
+- id: houhou:sii:2024
+  year: 2024
+  title: Learning to Classify Surface Roughness Using Tactile Force Sensors
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: houhou
+  - family: Cisneros Limon
+    given: Rafael
+  - id: singh
+  pdf: ''
+  lab: jrl
+  month: january 8-january 11
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
