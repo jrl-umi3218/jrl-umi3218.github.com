@@ -157,3 +157,8 @@
   name: "Tokyo Institute of Technology"
   shortname: "Tokyo Tech"
   website: "https://www.titech.ac.jp/"
+- id: cmu
+  logo: "/assets/logos/cmu.png"
+  name: "Carnegie Mellon University"
+  shortname: "CMU"
+  website: "https://www.cmu.edu/"
