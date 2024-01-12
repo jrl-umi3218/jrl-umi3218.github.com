@@ -294,3 +294,12 @@ all for better behavior of DVS-based control laws and hence applicability in a m
     <p>This Joint Research aims to develop a humanoid-type robot for airplane manufacturing which can relieve human workers from non-added-value tasks.</p>
     <p>Under this Joint Research, the humanoid-type robot for airplane manufacturing will be developed by customizing KHI's current humanoid-type robot ("KHI's humanoid robot") for an airplane manufacturing purpose and the objective of this Joint Research is such customization.</p>
     <p>The humanoid-type robot for airplane manufacturing will be designed based on requirements obtained in previous researches with an airplane manufacturing company. It must be a slim, lightweight and multi-limbed body such that it can maneuver in confined and cluttered spaces and conduct precision tasks with high-norm of safety and certifications. The developed humanoid-type robot for airplane manufacturing will be evaluated through use-cases given by potential users and remodeled several times to meet the requirements.</p>
+- id: sigrole
+  title: SIGRoLe
+  longtitle: "Self-Improving AI for seamless human-guided robot learning"
+  year-start: 2023.11
+  year-end: 2026.3
+  active: true
+  partners: [cmu]
+  description: >
+    <p>Robots can alleviate the burden of repetitive and dangerous tasks. Such robots need to be autonomous in a low-level but able to follow high-level human guidance. The interface must be such that tasks that take much burden can be semi-automatic (through shared control), leaving the high-level planning to the user through teleoperation. Collaboration of robot learning, and human guidance is necessary for solving unstructured problems. We propose a shared autonomy framework that will rely on Large Language Models (LLM) and propositional logic for action inference and predicting user intention prediction, relying on an AI framework for continuously learning how to perform tasks. Furthermore, tasks may need multiple robots and the user should be able to choose from several modalities for operation. Modalities and robotic units will be chosen with a super-organizational AI aiming for optimal resource allocation under constraints.</p>
