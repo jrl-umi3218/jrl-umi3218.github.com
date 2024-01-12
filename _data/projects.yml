@@ -303,3 +303,12 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   partners: [cmu]
   description: >
     <p>Robots can alleviate the burden of repetitive and dangerous tasks. Such robots need to be autonomous in a low-level but able to follow high-level human guidance. The interface must be such that tasks that take much burden can be semi-automatic (through shared control), leaving the high-level planning to the user through teleoperation. Collaboration of robot learning, and human guidance is necessary for solving unstructured problems. We propose a shared autonomy framework that will rely on Large Language Models (LLM) and propositional logic for action inference and predicting user intention prediction, relying on an AI framework for continuously learning how to perform tasks. Furthermore, tasks may need multiple robots and the user should be able to choose from several modalities for operation. Modalities and robotic units will be chosen with a super-organizational AI aiming for optimal resource allocation under constraints.</p>
+  id: hican
+  title: HICAN
+  longtitle: "Human-Inclusive Dynamic Control and Navigation for Next-Gen Robotics "
+  year-start: 2023.11
+  year-end: 2026.3
+  active: true
+  partners: [cmu]
+  description: >
+    <p>This study aims to bridge the gap between precise yet dangerous industrial robots and safer but less efficient collaboration counterparts by developing a unified advanced control and navigation framework. We aim to integrate this research into our existing mc_rtc control environment, building on our current control system used for various robots and tasks. Inspired by the need for industry certifications, our focus is on creating a complete system that enables robots to move and navigate more autonomously and safely in dynamic environments, including around humans. The foundation of this framework relies on theoretical guarantees of stability and convergence provided by control theory, those of optimality and performance provided by numerical optimization techniques, and the reliability provided by sensor fusion. We propose also to establish systematic benchmarking on actual robotic platforms. Finally, we aim for actual industrial applications in physical tasks and improved robot autonomy. The target robots are any multi-body robot (fixed and mobile manipulators, legged robots, etc.)</p>
