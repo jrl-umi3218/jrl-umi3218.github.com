@@ -4123,6 +4123,67 @@
   month: november
   projects:
   - visadapt
+- id: hauser:ijsr:2024
+  year: 2024
+  title: Analysis and Perspectives on the ANA Avatar XPRIZE Competition
+  booktitle: International Journal of Social Robotics
+  authors:
+  - family: Hauser
+    given: Kris
+  - family: Watson
+    given: Eleanor
+  - family: Bae
+    given: Joonbum
+  - family: Bankston
+    given: Josh
+  - family: Behnke
+    given: Sven
+  - family: Borgia
+    given: Bill
+  - family: G. Catalano
+    given: Manuel
+  - family: Dafarra
+    given: Stefano
+  - family: B.f. Van Erp
+    given: Jan
+  - family: Ferris
+    given: Thomas
+  - family: Fishel
+    given: Jeremy
+  - family: Hoffman
+    given: Guy
+  - family: Ivaldi
+    given: Serena
+  - id: kanehiro
+  - id: kheddar
+  - family: Lannuzel
+    given: Gaelle
+  - family: Ford Morie
+    given: Jacqueline
+  - family: Naughton
+    given: Patrick
+  - family: Nguyen
+    given: Steve
+  - family: Oh
+    given: Paul
+  - family: Padir
+    given: Taskin
+  - family: Pippine
+    given: Jim
+  - family: Park
+    given: Jaeheung
+  - family: Pucci
+    given: Daniele
+  - family: Vaz
+    given: Jean
+  - family: Whitney
+    given: Peter
+  - family: Wu
+    given: Peggy
+  - family: Locke
+    given: David
+  pdf: https://arxiv.org/abs/2401.05290
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
