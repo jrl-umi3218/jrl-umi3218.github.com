@@ -4184,6 +4184,48 @@
     given: David
   pdf: https://arxiv.org/abs/2401.05290
   lab: jrl
+- id: cisneros:ijsr:2024
+  year: 2024
+  title: A cybernetic avatar system to embody human telepresence for connectivity,
+    exploration, and skill transfer
+  booktitle: International Journal of Social Robotics
+  authors:
+  - id: cisneros
+  - id: dallard
+  - id: benalleguem
+  - id: kaneko
+  - id: kaminaga
+  - id: gergondet
+  - id: tanguy
+  - id: singh
+  - id: sun
+  - id: chen
+  - family: Fournier
+    given: Carole
+  - id: glorthioir
+  - id: tsuru
+  - family: Chefchaouni-Moussaoui
+    given: Śelim
+  - family: Osawa
+    given: Yukiko
+  - id: carong
+  - id: chappellet
+  - id: morisawa
+  - id: escande
+  - id: ayusawa
+  - id: houhou
+  - id: kumagai
+  - family: Ono
+    given: Michio
+  - family: Shirasaka
+    given: Koji
+  - family: Wada
+    given: Shiryu
+  - family: Wada
+    given: Hiroshi
+  - id: kanehiro
+  - id: kheddar
+  lab: jrl
 - id: abe:thri:2024
   year: 2024
   title: Human Understanding and Perception of Unanticipated Robot Action in the Context
