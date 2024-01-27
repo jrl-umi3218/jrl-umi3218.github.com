@@ -4239,6 +4239,21 @@
   - id: venture
   - id: yoshida
   lab: jrl
+- id: zermane:ral:2024
+  year: 2024
+  title: Planning Impact-Driven Logistic Tasks
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Zermane
+    given: Ahmed
+  - family: Dehio
+    given: Niels
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10400898
+  lab: jrl
+  month: march
+  projects:
+  - iam
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
