@@ -4123,6 +4123,15 @@
   month: november
   projects:
   - visadapt
+- id: kumagai:crr:2023
+  year: 2023
+  title: Multi-Contact Activities by Humanoids
+  booktitle: Current Robotics Reports
+  authors:
+  - id: kumagai
+  pdf: https://link.springer.com/article/10.1007/s43154-023-00108-w#citeas
+  lab: jrl
+  month: november
 - id: hauser:ijsr:2024
   year: 2024
   title: Analysis and Perspectives on the ANA Avatar XPRIZE Competition
