@@ -4247,6 +4247,7 @@
   - id: yamanobe
   - id: venture
   - id: yoshida
+  pdf: https://dl.acm.org/doi/10.1145/3643458
   lab: jrl
 - id: zermane:ral:2024
   year: 2024
