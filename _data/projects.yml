@@ -262,9 +262,16 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   funding: AIST
   active: true
   description: >
-    <p>This project aims to develop technologies that contributes to the improvement of labor productivity and the transfer and advancement of skills in all industrial sectors.</p>
+    <p>The target is to solve the problem of declining birthrate and aging population, which is one of the social issues. We aim to realize the following items in all industrial fields by using technology that integrates AI, robots, sensors, etc. to cooperate with humans.</p>
+    <ul>
+      <li>Optimization of labor input resources</li>
+      <li>Improvement of employee quality of work</li>
+      <li>Creation of new customer value, inheritance of skills and sophistication in anticipation of changes in the industrial structure</li>
+    </ul>
+    <p>We improve the technology of modeling, planning / control, system design, etc. for systems consisting of workers, sensors, robots, equipment, work environment, etc. in the manufacturing or service industry. By utilizing AI that cooperates with humans, we develop and demonstrate technology that optimizes from the viewpoint of workability and productivity while maintaining the safety and flexibility of the system. In order to develop new technologies in the real area, we have established a testbed environment in the Cyber Physical System research building at the AIST Tokyo Waterfront, including the factory environment in the manufacturing field and the retail store environment in the logistics field, and are promoting industry-academia-government collaboration activities through collaborative research and consortium partnerships.</p>
   description-jp: >
-    <p>全ての産業分野での労働生産性の向上と技能の継承・高度化に資する技術の研究開発を行う。</p>
+    <p>社会課題の一つである少子高齢化問題の解決をターゲットと定め、サービス業を含む全ての産業分野で労働等の投入資源の最適化、従業員のQuality of Work(QoW)の向上、産業構造の変化を先取する新たな顧客価値の創出、技能の継承・高度化に向けて、人と協調する人工知能（AI）、ロボット、センサ（IoT）等を融合した技術を開発することを目標としています。</p>
+    <p>本研究センターでは特に、製造業やサービス業等の現場における人、センシング、ロボット、機器、作業環境等から構成されるシステムに関して、サイバーフィジカルシステム（CPS）を基盤として、モデリング、計画・制御、システム設計等の技術を高度化・統合化するとともに、人と協調するAIを活用することにより、当該システムの安全性と柔軟性を保ちつつ作業性や生産性の観点から最適化する技術を開発し実証します。加えて、実現場での展開を目指す上で、臨海副都心センターCPS研究棟内に新たな技術を試すことを可能とするテストベッド環境として製造分野における工場環境、物流分野における小売店舗環境等を構築しており、共同研究、コンソーシアム連携による産学官連携活動を推進しています。</p>
 - id: kakenhi_kibanb2021_morisawa
   title: "ACLoMa"
   longtitle: "Toward autonomous and continuous locomotion and manipulation in confined environments"

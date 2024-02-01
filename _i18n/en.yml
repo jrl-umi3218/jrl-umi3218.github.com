@@ -86,10 +86,10 @@ hl:
     - id: hong
       name: Cheng Hong
       grade: Ph.D. 1st Year
+      email: cheng.hong_*_aist.go.jp
     - id: qin
       name: Yili Qin
       grade: Graduated (Ph.D.)
-      email: yili.tan_*_aist.go.jp
     - id: sun
       name: Leyuan Sun
       grade: Graduated (Ph.D.)

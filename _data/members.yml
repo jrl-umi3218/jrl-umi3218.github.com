@@ -1165,9 +1165,12 @@
 - id: juloori
   given: Amogh
   family: Juloori
-  role: undergraduate
-  from: 2023-07-10
-  to: 2024-01-31
+  role: alumni
+  from: 2024-01-20
+  past-roles:
+    - role: undergraduate
+      from: 2023-07-10
+      to: 2024-01-19
   nationality: in
 - id: duvinage
   given: Thomas
@@ -1245,14 +1248,14 @@
 - id: muraccioli
   given: Bastien
   family: Muraccioli
-  role: coming-phd
-  from: 2024-01-01
-  to: 2026-12-31
+  role: phd
+  from: 2024-01-15
+  to: 2027-01-14
   nationality: fr
 - id: arslan
   given: Mikael
   family: Arslan
-  role: coming-master
+  role: master
   from: 2024-02-01
   to: 2024-07-31
   nationality: fr
@@ -1261,5 +1264,61 @@
   family: Paula
   role: coming-master
   from: 2024-04-01
+  to: 2024-09-30
+  nationality: fr
+- id: leziart
+  given: Pierre-Alexandre
+  family: Léziart
+  role: coming-postdoc
+  from: 2024-05-06
+  to: 2026-03-31
+  nationality: fr
+- id: multi
+  given: Rachid
+  family: Multi
+  role: coming-permanent
+  from: 2024-09-01
+  to: 2026-08-31
+  nationality: fr
+- id: sevillano
+  given: Kimberly
+  family: Sevillano
+  role: master
+  from: 2024-02-01
+  to: 2024-07-31
+  nationality: pe
+- id: soucail
+  given: Martin
+  family: Soucail
+  role: coming-master
+  from: 2024-02-01
+  to: 2024-07-31
+  nationality: fr
+- id: chalanunt
+  given: Sirikorn
+  family: Chalanunt
+  role: coming-master
+  from: 2024-03-01
+  to: 2024-08-31
+  nationality: th
+- id: samson
+  given: Marie
+  family: Samson
+  role: coming-master
+  from: 2024-02-05
+  to: 2024-07-31
+  nationality: fr
+- id: crequer
+  given: Gwendal
+  family: Crequer
+  role: coming-master
+  from: 2024-03-18
+  to: 2024-09-17
+  nationality: fr
+- id: harle
+  given: Damien
+  family: Harlé
+  role: coming-master
+  from: 2024-06-03
   to: 2024-09-30
   nationality: fr
