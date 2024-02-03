@@ -4191,8 +4191,9 @@
     given: Peggy
   - family: Locke
     given: David
-  pdf: https://arxiv.org/abs/2401.05290
+  pdf: https://link.springer.com/article/10.1007/s12369-023-01095-w
   lab: jrl
+  month: january
 - id: cisneros:ijsr:2024
   year: 2024
   title: A cybernetic avatar system to embody human telepresence for connectivity,
@@ -4234,7 +4235,9 @@
     given: Hiroshi
   - id: kanehiro
   - id: kheddar
+  pdf: https://link.springer.com/article/10.1007/s12369-023-01096-9
   lab: jrl
+  month: january
 - id: abe:thri:2024
   year: 2024
   title: Human Understanding and Perception of Unanticipated Robot Action in the Context
