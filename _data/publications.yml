@@ -4267,6 +4267,18 @@
   month: march
   projects:
   - iam
+- id: osorio:sensors:2024
+  year: 2024
+  title: A Generative Model to Embed Human Expressivity into Robot Motions
+  booktitle: Sensors
+  authors:
+  - id: osorio
+  - id: sagawa
+  - id: abe
+  - id: venture
+  pdf: https://www.mdpi.com/1424-8220/24/2/569
+  lab: jrl
+  month: january
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
