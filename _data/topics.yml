@@ -45,27 +45,24 @@
   description: Force sensitivity is an important feature for robots that co-exist with humans. However, use of torque sensor was limited from increase in weight and size, and lowering of resonance frequency.  In this research, we study force sensing technique using structural materials and optimization of sensitivity and structural robustness.
   grade: Master
   skills: Mechanical design, Basic electronics, Basic numerical optimization
-- id: ar_ui
-  title: AR-based UI for Avatar teleoperation
+- id: shared_control
+  title: AI-aided teleoperation to achieve seamless telepresence for non-experts
+  grade: Master
   description: >
-    <p><i>Project:</i> Immersive humanoid teleoperation using VR devices</p>
-    <p><i>Goals:</i>
     <ul>
-      <li>Develop immersive UI using AR elements</li>
-      <li>Not only an intuitive HUD, but also object-recognition-based visual aids for semiautomatic manipulation</li>
-      <li>Handheld controller-free</li>
+      <li>Identify objects of interest in the visible field of view without prior knowledge</li>
+      <li>Identify major affordances and display them as AR visual aids</li>
     </ul>
+  skills: C++, Python, basic familiarity with Linux, some knwoledge related to computer vision
+- id: mobile_robot
+  title: Navigation and control of a mobile robot with mounted arm
   grade: Master
-  skills: >
-    <p>Development experience in Unity</p>
-    <p>C++ programming</p>
-- id: haptics
-  title: Teleoperated grasping and tactile sensing using underactuated hands and haptic gloves
   description: >
-    <p><i>Project:</i> Immersive humanoid teleoperation using haptic devices</p>
-    <p><i>Goals:</i> Develop haptic system that allows not only to grasp objects via teleoperation, but to transmit the tactile sensation to the operator via force / vibrotactile feedback</p>
-  grade: Master
-  skills: Control theory, C++ programming, basic familiarity with Linux
+    <ul>
+      <li>Develop autonomous/teleoperated navigation for a mobile robot</li>
+      <li>Develop controller for robotic arm mounted on the mobile robot to perform real-world tasks</li>
+    </ul>
+  skills: C++, Python, ROS, basic familiarity with Linux, some knowledge of robotics 
 - id: mcl
   title: Responsive multi-contact locomotion
   description: >
