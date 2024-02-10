@@ -10107,7 +10107,7 @@
   - family: Tafur
     given: Julio
   - id: kheddar
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/10417367
   lab: jrl
   month: january 8-january 11
 - id: barberteguy:sii:2024
@@ -10118,7 +10118,7 @@
   authors:
   - id: barberteguy
   - id: kanehiro
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/10417236
   lab: jrl
   month: january 8-january 11
 - id: alaverdov:sii:2024
@@ -10129,7 +10129,7 @@
   authors:
   - id: alaverdov
   - id: kanehiro
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/10417448
   lab: jrl
   month: january 8-january 11
 - id: nara:sii:2024
@@ -10140,7 +10140,7 @@
   authors:
   - id: nara
   - id: kanehiro
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/10417432
   lab: jrl
   month: january 8-january 11
 - id: houhou:sii:2024
@@ -10151,7 +10151,7 @@
   - id: houhou
   - id: cisneros
   - id: singh
-  pdf: ''
+  pdf: https://ieeexplore.ieee.org/document/10417621
   lab: jrl
   month: january 8-january 11
   projects:
