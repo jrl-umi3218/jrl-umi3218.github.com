@@ -4194,6 +4194,8 @@
   pdf: https://link.springer.com/article/10.1007/s12369-023-01095-w
   lab: jrl
   month: january
+  projects:
+  - janus
 - id: cisneros:ijsr:2024
   year: 2024
   title: A cybernetic avatar system to embody human telepresence for connectivity,
@@ -4238,6 +4240,8 @@
   pdf: https://link.springer.com/article/10.1007/s12369-023-01096-9
   lab: jrl
   month: january
+  projects:
+  - janus
 - id: abe:thri:2024
   year: 2024
   title: Human Understanding and Perception of Unanticipated Robot Action in the Context
@@ -10121,6 +10125,8 @@
   pdf: https://ieeexplore.ieee.org/document/10417236
   lab: jrl
   month: january 8-january 11
+  projects:
+  - icps
 - id: alaverdov:sii:2024
   year: 2024
   title: Sensor Anomaly Detection for Biped Robot Using the Dynamic Equation of a
@@ -10155,7 +10161,8 @@
   lab: jrl
   month: january 8-january 11
   projects:
-  - humanoid_lab
+  - janus
+  - icps
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
