@@ -4283,6 +4283,18 @@
   pdf: https://www.mdpi.com/1424-8220/24/2/569
   lab: jrl
   month: january
+- id: watier:ibm:2023
+  year: 2023
+  title: Use of adult anthropometric tables to estimate children body segment inertial
+    parameters
+  booktitle: International Biomechanics
+  authors:
+  - family: Sabrina Otmani
+    given: Guilhem
+  - id: bwatier
+  pdf: https://doi.org/10.1080/23335432.2023.2268686
+  lab: jrl
+  month: november
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
