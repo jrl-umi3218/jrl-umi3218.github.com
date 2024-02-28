@@ -10173,6 +10173,7 @@
   lab: jrl
   month: january 8-january 11
   projects:
+  - humanoid_lab
   - janus
   - icps
 - id: kheddar:book:2017
