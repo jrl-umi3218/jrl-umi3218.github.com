@@ -1818,8 +1818,7 @@
   month: september
 - id: sagawa:tpami:2014
   year: 2014
-  title: Dense 3D Reconstruction from High Frame-Rate Video using a Static Grid Pattern",
-    IEEE Transactions on Pattern Analysis and Machine Intelligence
+  title: Dense 3D Reconstruction from High Frame-Rate Video using a Static Grid Pattern
   booktitle: IEEE Transactions on Pattern Analysis and Machine Intelligence
   authors:
   - id: sagawa
