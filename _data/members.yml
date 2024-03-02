@@ -104,11 +104,14 @@
 - id: gergondet
   given: Pierre
   family: Gergondet
-  role: engineer
-  from: 2022-09-01
+  role: alumni
+  from: 2024-03-01
   past-roles:
     - role: engineer
       to: 2019-08-31
+    - role: engineer
+      from: 2022-09-01
+      to: 2024-02-29
   nationality: fr
   linkedin: "https://www.linkedin.com/in/pierre-gergondet-9086092"
   scholar: "https://scholar.google.com/citations?user=PaxwF6sAAAAJ"
@@ -907,6 +910,7 @@
   name-jp: 三宅 響
   role: master
   from: 2023-04-01
+  to: 2025-03-31
   past-roles:
     - role: undergraduate
       from: 2022-08-15
@@ -918,6 +922,7 @@
   name-jp: 福光 健介
   role: master
   from: 2023-04-01
+  to: 2025-03-31
   past-roles:
     - role: undergraduate
       from: 2022-08-15
@@ -973,8 +978,9 @@
   given: Taro
   family: Tako
   name-jp: 田光 太郎
-  role: alumni
-  from: 2023-06-07
+  role: master
+  from: 2024-03-01
+  to: 2025-03-31
   past-roles:
     - role: undergraduate
       from: 2023-01-10
@@ -1140,7 +1146,7 @@
   name-jp: 星 崇宏
   role: undergraduate
   from: 2023-06-01
-  to: 2024-03-31
+  to: 2025-03-31
   nationality: jp
 - id: wang
   given: Shuang
@@ -1229,7 +1235,7 @@
   family: Acevedo Donato
   role: engineer
   from: 2023-11-21
-  to: 2025-03-31
+  to: 2024-04-15
   nationality: mx
 - id: liu
   given: Zenong
@@ -1238,13 +1244,6 @@
   from: 2024-04-01
   to: 2026-03-31
   nationality: cn
-- id: ishida
-  given: hirokazu
-  family: ishida
-  name-jp: 石田 寛和
-  role: coming-postdoc
-  from: 2024-04-01
-  nationality: jp
 - id: muraccioli
   given: Bastien
   family: Muraccioli
@@ -1257,7 +1256,7 @@
   family: Arslan
   role: master
   from: 2024-02-01
-  to: 2024-07-31
+  to: 2024-08-21
   nationality: fr
 - id: paula
   given: Matheus
@@ -1273,9 +1272,9 @@
   from: 2024-05-06
   to: 2026-03-31
   nationality: fr
-- id: multi
+- id: malti
   given: Rachid
-  family: Multi
+  family: Malti
   role: coming-permanent
   from: 2024-09-01
   to: 2026-08-31
@@ -1304,7 +1303,7 @@
 - id: samson
   given: Marie
   family: Samson
-  role: coming-master
+  role: master
   from: 2024-02-05
   to: 2024-07-31
   nationality: fr
@@ -1321,4 +1320,25 @@
   role: coming-master
   from: 2024-06-03
   to: 2024-09-30
+  nationality: fr
+- id: racine
+  given: Isaac
+  family: Racine
+  role: coming-master
+  from: 2024-09-01
+  to: 2025-03-31
+  nationality: ca
+- id: schulte
+  given: Sinta
+  family: Schulte
+  role: coming-undergraduate
+  from: 2024-05-01
+  to: 2024-10-31
+  nationality: de
+- id: aymes
+  given: Malo
+  family: Aymes
+  role: coming-master
+  from: 2024-04-22
+  to: 2024-09-02
   nationality: fr
