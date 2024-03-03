@@ -3902,8 +3902,7 @@
     Interaction
   booktitle: Sensors
   authors:
-  - family: Chefchaouni Moussaoui
-    given: Srélim
+  - id: chefchaouni
   - id: cisneros
   - id: kaminaga
   - id: benalleguem
