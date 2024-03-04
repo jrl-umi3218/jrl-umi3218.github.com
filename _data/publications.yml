@@ -4281,6 +4281,16 @@
   pdf: https://www.mdpi.com/1424-8220/24/2/569
   lab: jrl
   month: january
+- id: ducrocq:ijcv:2024
+  year: 2024
+  title: A Survey on Adaptive Cameras
+  booktitle: International Journal of Computer Vision
+  authors:
+  - id: ducrocq
+  - id: carong
+  pdf: https://hal.science/hal-04487038
+  lab: jrl
+  month: february
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
@@ -10218,6 +10228,9 @@
     given: Katja
   - family: Berns
     given: Karsten
+- id: crombez:ral:2024
+  projects:
+  - dvsstraight
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
