@@ -10116,6 +10116,23 @@
   projects:
   - dvsstraight
   - zero
+- id: circu:ro-man:2023
+  year: 2023
+  title: 'Dance, Dance, Dance With My Hands: Third-Party Human Robot-Human Interactions'
+  booktitle: International Symposium on Robot and Human Interactive Communication
+  authors:
+  - family: Cîrcu
+    given: Sorina-Silvia
+  - family: Yun
+    given: Bruno
+  - id: kheddar
+  - family: Chen
+    given: Chu-Yin
+  - family: Croitoru
+    given: Madalina
+  pdf: https://ieeexplore.ieee.org/document/10309353
+  lab: jrl
+  month: august 28-august 31
 - id: foussereau:sii:2024
   year: 2024
   title: 'Towards Retail Stores Automation: 6-DOF Pose Estimation Combining Deep Learning
