@@ -319,3 +319,14 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   partners: [cmu]
   description: >
     <p>This study aims to bridge the gap between precise yet dangerous industrial robots and safer but less efficient collaboration counterparts by developing a unified advanced control and navigation framework. We aim to integrate this research into our existing mc_rtc control environment, building on our current control system used for various robots and tasks. Inspired by the need for industry certifications, our focus is on creating a complete system that enables robots to move and navigate more autonomously and safely in dynamic environments, including around humans. The foundation of this framework relies on theoretical guarantees of stability and convergence provided by control theory, those of optimality and performance provided by numerical optimization techniques, and the reliability provided by sensor fusion. We propose also to establish systematic benchmarking on actual robotic platforms. Finally, we aim for actual industrial applications in physical tasks and improved robot autonomy. The target robots are any multi-body robot (fixed and mobile manipulators, legged robots, etc.)</p>
+- id: kakenhi_wakate2023_kumagai
+  title: "RLOptMCP"
+  longtitle: "Development of multi-contact motion planning based on learned future contact feasibility"
+  longtitle-jp: "接触の将来性学習に基づく多点接触動作計画の実現"
+  year-start: 2023.4
+  year-end: 2026.3
+  funding: JSPS Grant-in-Aid for Early-Career Scientists
+  funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 若手研究
+  active: true
+  description: >
+    <p>The goal of this project is to develop a framework to plan multi-contact motion for a humanoid robot to perform complex tasks such as those done by human workers in large-scale manufacturing. To achieve this goal, we need to efficiently find feasible contacts from an infinite number of candidates in a confined environment. We solve this issue by focusing on future contact feasibility, which quantitatively represents how much it improves the solvability of the optimization problems for motion planning and the quality of the resulting motion. We introduce the reinforcement learning approach to predict it over the future and integrate it with optimization-based motion planning that explicitly considers the kinematics and dynamics of a humanoid robot, which enables us to generate feasible whole-body motion that is advantageous to satisfy necessary constraints over the future. We consider that this research will clarify how a humanoid robot obtains empirical intelligence to interact with an environment considering the tasks and its body structures.</p>
