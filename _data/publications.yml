@@ -4254,6 +4254,7 @@
   - id: yoshida
   pdf: https://dl.acm.org/doi/10.1145/3643458
   lab: jrl
+  month: march
 - id: zermane:ral:2024
   year: 2024
   title: Planning Impact-Driven Logistic Tasks
