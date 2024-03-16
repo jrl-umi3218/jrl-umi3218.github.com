@@ -4303,6 +4303,7 @@
   - id: venture
   pdf: https://ieeexplore.ieee.org/document/10452756
   lab: jrl
+  month: april
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
