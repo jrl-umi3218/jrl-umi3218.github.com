@@ -4292,6 +4292,21 @@
   pdf: https://hal.science/hal-04487038
   lab: jrl
   month: february
+- id: crombez:ral:2024
+  year: 2024
+  title: Dual-Hemispherical Photometric Visual Servoing
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Crombez
+    given: Nathan
+  - family: Buisson
+    given: Jocelyn
+  - id: aandre
+  - id: carong
+  pdf: https://ieeexplore.ieee.org/document/10463090
+  lab: jrl
+  projects:
+  - dvsstraight
 - id: shimizu:ral:2024
   year: 2024
   title: Fast Direct Optimal Control for Humanoids Based on Dynamics Representation
@@ -10258,9 +10273,6 @@
     given: Katja
   - family: Berns
     given: Karsten
-- id: crombez:ral:2024
-  projects:
-  - dvsstraight
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
