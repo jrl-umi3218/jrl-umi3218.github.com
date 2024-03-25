@@ -32,6 +32,7 @@
           <li>Online selection of the camera field-of-view maximizing the motion perceptibility</li>
         </ul>
       </li>
+      <li>Related project: <a href="../en/projects/project-dvsstraight.html">DVS-straight</a></li>
     </ul>
   grade: Master/PhD
   skills: C++ programming, mathematical background
@@ -88,3 +89,52 @@
   description: We offer research about the methodology of construction and retrieval of motion library to achieve on-site multi-contact motion planning for a humanoid robot. We want to clarify the structure of the motion library, which can preserve the feasible whole-body motion of a humanoid robot. We also want to develop the online adaptation method to modify preserved motion to satisfy kinematics and dynamics constraints in an unknown environment.
   grade: PhD
   skills: Basic knowledge of robotics, Software development by C++ and Python with ROS
+- id: eveloc
+  title: Event-based visual registration to 3D point clouds
+  description: >
+    <ul>
+      <li>Event cameras: new vision sensors emitting asynchronously per pixel intensity variations</li>
+      <li>Low latency, high dynamic range</li>
+      <li>Goals:
+        <ul>
+          <li>Design visual information models and multi-modal cost/loss for alignment</li>
+          <li>High processing frequency to allow highly dynamic 3D tracking</li>
+          <li>Explore non-conventional optics to solve the registration problem</li>
+        </ul>
+      </li>
+      <li>Related publication: <a href="https://hal.science/hal-04519122" target="_blank">hal-04519122</a></li>
+    </ul>
+  grade: Master/PhD
+  skills: C++ / python programming, mathematical background in 3D geometry and optimization
+- id: manyvis
+  title: Vision-based deformation of human body deformation for safe robot interaction
+  description: >
+    <ul>
+      <li>Understanding the impact of a robot physical contact with a human is hard</li>
+      <li>Robot visual perception offers a potential of thoroughness and accuracy for such task</li>
+      <li>Goals:
+        <ul>
+          <li>Leverage physics-based modeling to train visual spatio-temporal features</li>
+          <li>Frugal and real-time processing</li>
+          <li>Integrate in human robot physical interaction (e.g. assistive robotics)</li>
+        </ul>
+      </li>
+    </ul>
+  grade: Master/PhD
+  skills: mathematical and mechanical background in 3D geometry, optimization, training, C++ / python programming
+- id: call
+  title: Human body visual tracking leveraging biomechanical modelling
+  description: >
+    <ul>
+      <li>State-of-the-art biomechanical human tracking is marker-based optical motion capture</li>
+      <li>Markerless human visual trackers are more flexible but with puppet-like models</li>
+      <li>Goals:
+        <ul>
+          <li>Leverage biomechanical models in markerless human visual tracking</li>
+          <li>Improve human dynamics prediction</li>
+          <li>Integrate in human robot physical interaction (e.g. load carrying)</li>
+        </ul>
+      </li>
+    </ul>
+  grade: Master
+  skills: mathematical and mechanical background, 3D geometry, optimization, training, C++ / python programming
