@@ -423,9 +423,12 @@
   given: Masaki
   family: Murooka
   name-jp: 室岡 雅樹
-  role: adjunct
-  from: 2023-04-01
+  role: permanent
+  from: 2024-04-01
   past-roles:
+    - role: adjunct
+      from: 2023-04-01
+      to: 2024-03-31
     - role: permanent
       from: 2020-04-01
       to: 2023-03-31
@@ -477,6 +480,10 @@
   given: Yui
   family: Endo
   role: alumni
+  from: 2019-04-01
+  past-roles:
+    - role: permanent
+      to: 2019-03-31
   nationality: jp
 - id: nakaoke
   given: Shin'ichiro
@@ -678,8 +685,11 @@
   given: Masato
   family: Tsuru
   name-jp: 都留 将人
-  role: phd
-  to: 2024-03-31
+  role: alumni
+  from: 2024-04-01
+  past-roles:
+    - role: phd
+      to: 2024-03-31
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=ToS-6x0AAAAJ&hl=en&oi=sra"
   bio: >
@@ -691,8 +701,11 @@
 - id: singh
   given: Rohan P.
   family: Singh
-  role: phd
-  to: 2024-03-31
+  role: postdoc
+  from: 2024-04-01
+  past-roles:
+    - role: phd
+      to: 2024-03-31
   nationality: in
   github: "https://github.com/rohanpsingh"
   linkedin: "https://www.linkedin.com/in/rohanpsingh"
@@ -769,7 +782,7 @@
 - id: chen
   given: Yang
   family: Chen
-  role: postdoc
+  role: adjunct
   from: 2023-04-01
   past-roles:
     - role: phd
@@ -854,8 +867,11 @@
   given: Soya
   family: Shimizu
   name-jp: 清水 蒼椰
-  role: phd
-  to: 2024-03-31
+  role: alumni
+  from: 2024-04-01
+  past-roles:
+    - role: phd
+      to: 2024-03-31
   nationality: jp
 - id: chefchaouni
   given: Sélim
@@ -938,9 +954,12 @@
 - id: toumi
   given: Mohamed
   family: Toumi
-  role: non-degree
-  from: 2022-10-14
-  to: 2024-03-31
+  role: alumni
+  from: 2024-04-01
+  past-roles:
+    - role: non-degree
+      from: 2022-10-14
+      to: 2024-03-31
   nationality: dz
 - id: zhang
   given: Yachen
@@ -965,8 +984,8 @@
     Antoine Caillot obtained his Ph.D. in Automatic, Signal, Industrial Production, and Robotics in 2022 from the University of Rouen (France), at IRSEEM in ESIGELEC (Rouen, France). His Ph.D. subject was focused on cooperative perception for autonomous navigation in an automotive context. These works aim to create a map of a scene at a roundabout or an intersection using light data from vehicles and infrastructure. Before that, he received an engineering degree in embedded systems for autonomous vehicles from ESIGELEC (Rouen, France).
     He joined the JRL in 2023 as a postdoctoral fellow to study Simultaneous Localization And Mapping (SLAM) with emergent sensors. The goal is to improve the performances of SLAM algorithms using new image sensors such as High Dynamic Range (HDR) omniscient cameras, event-based cameras, or hyperspectral image sensors.
 - id: berenguel
-  given: Samuel Bruno
-  family: Barenguel Baeta
+  given: Bruno
+  family: Berenguel-Baeta
   role: alumni
   from: 2023-04-13
   past-roles:
@@ -982,12 +1001,12 @@
   from: 2024-03-01
   to: 2025-03-31
   past-roles:
-    - role: undergraduate
-      from: 2023-01-10
-      to: 2023-03-31
     - role: master
       from: 2023-04-01
       to: 2023-06-06
+    - role: undergraduate
+      from: 2023-01-10
+      to: 2023-03-31
   nationality: jp
 - id: bwatier
   given: Bruno
@@ -1144,17 +1163,23 @@
   given: Takahiro
   family: Hoshi
   name-jp: 星 崇宏
-  role: undergraduate
-  from: 2023-06-01
-  to: 2025-03-31
+  role: master
+  from: 2024-04-01
+  past-roles:
+    - role: undergraduate
+      from: 2023-06-01
+      to: 2024-03-31
   nationality: jp
 - id: wang
   given: Shuang
   family: Wang
   name-jp: 王 爽
-  role: master
-  from: 2023-06-01
-  to: 2024-03-31
+  role: alumni
+  from: 2024-04-01
+  past-roles:
+    - role: master
+      from: 2023-06-01
+      to: 2024-03-31
   nationality: cn
 - id: imamoglu
   given: Nevrez
@@ -1181,11 +1206,14 @@
 - id: duvinage
   given: Thomas
   family: Duvinage
-  role: master
   linkedin: "https://www.linkedin.com/in/thomas-duvinage/"
   github: "https://github.com/ThomasDuvinage"
-  from: 2023-10-02
-  to: 2024-03-29
+  role: alumni
+  from: 2024-03-30
+  past-roles:
+    - role: master
+      from: 2023-10-02
+      to: 2024-03-29
   nationality: fr
 - id: kempf
   given: Dorian
@@ -1204,15 +1232,19 @@
 - id: li
   given: Yitong
   family: Li
-  role: non-degree
-  from: 2023-12-01
-  to: 2024-03-31
+  name-jp: 李 伊童
+  role: phd
+  from: 2024-04-01
+  past-roles:
+    - role: non-degree
+      from: 2023-12-01
+      to: 2024-03-31
   nationality: cn
 - id: ono
   given: Tasuku
   family: Ono
   name-jp: 小野 祐
-  role: coming-master
+  role: master
   from: 2024-04-01
   to: 2026-03-31
   nationality: jp
@@ -1220,7 +1252,7 @@
   given: Yuu
   family: Nishijima
   name-jp: 西嶌 優
-  role: coming-master
+  role: master
   from: 2024-04-01
   to: 2026-03-31
   nationality: jp
@@ -1242,7 +1274,7 @@
 - id: liu
   given: Zenong
   family: Liu
-  role: coming-master
+  role: master
   from: 2024-04-01
   to: 2026-03-31
   nationality: cn
@@ -1263,23 +1295,16 @@
 - id: paula
   given: Matheus
   family: Paula
-  role: coming-master
+  role: master
   from: 2024-04-01
   to: 2024-09-30
-  nationality: fr
+  nationality: br
 - id: leziart
   given: Pierre-Alexandre
   family: Léziart
   role: coming-postdoc
   from: 2024-05-06
   to: 2026-03-31
-  nationality: fr
-- id: malti
-  given: Rachid
-  family: Malti
-  role: coming-permanent
-  from: 2024-09-01
-  to: 2026-08-31
   nationality: fr
 - id: sevillano
   given: Kimberly
@@ -1291,14 +1316,14 @@
 - id: soucail
   given: Martin
   family: Soucail
-  role: coming-master
+  role: master
   from: 2024-02-01
   to: 2024-07-31
   nationality: fr
 - id: chalanunt
   given: Sirikorn
   family: Chalanunt
-  role: coming-master
+  role: master
   from: 2024-03-01
   to: 2024-08-31
   nationality: th
@@ -1312,7 +1337,7 @@
 - id: crequer
   given: Gwendal
   family: Crequer
-  role: coming-master
+  role: master
   from: 2024-03-18
   to: 2024-09-17
   nationality: fr
@@ -1334,7 +1359,7 @@
   given: Sinta
   family: Schulte
   role: coming-undergraduate
-  from: 2024-05-01
+  from: 2024-05-07
   to: 2024-10-31
   nationality: de
 - id: aymes
@@ -1343,4 +1368,32 @@
   role: coming-master
   from: 2024-04-22
   to: 2024-09-02
+  nationality: fr
+- id: aoyama
+  given: Yunosuke
+  family: Aoyama
+  name-jp: 青山 祐之介
+  role: master
+  from: 2024-04-01
+  to: 2026-03-31
+  nationality: jp
+- id: morisaki
+  given: Sunio
+  family: Morisaki
+  role: non-degree
+  from: 2024-04-01
+  nationality: pe
+- id: guillaume
+  given: Constantin
+  family: Guillaume
+  role: coming-master
+  from: 2024-05-27
+  to: 2024-10-04
+  nationality: fr
+- id: noel
+  given: Ocean
+  family: Noel
+  role: master
+  from: 2023-10-09
+  to: 2024-07-31
   nationality: fr
