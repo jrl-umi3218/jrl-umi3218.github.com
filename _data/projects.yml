@@ -201,7 +201,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   year-end: 2024.3
   funding: JST-Mirai Program
   funding-jp: JST未来社会創造事業
-  active: true
+  active: false
   description: >
     <p>We aim to create a society that is resilient to infectious diseases, by using avatar robots to enable telework for essential workers whose work requires physical contact with people. ​<br>We will conduct research and development of a tele-physical caregiving service that enables telework in caregiving.​<br>In this service, a caregiver operates a nursing care avatar at the nursing care site from a remote location via a digital twin of the nursing care site built in cyberspace to perform nursing care tasks. To realize this service, we will conduct research and development on the following three technologies.​<br><ol><li>Haptic sensing technology that captures complex physical information as a distribution on a three-dimensional curved surface,</li><li>Technology for understanding and reproducing the movements of a remote caregiver, and</li><li>Safety standards that are essential for social acceptance.​</li></ol></p>
   description-jp: >
@@ -223,7 +223,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   year-start: 2021
   year-end: 2023
   funding: AIST ITH
-  active: true
+  active: false
   description: "
     <p> Controlling the dynamics of complex systems requires identifying and tuning more and more parameters, leading to increasing adaptation times for new tasks or new robots. In this project, we plan to make this process automatic and online to constantly improve the performance during the robot operation. Classical control techniques, together with statistical tools and machine learning will be exploited to this end.</p>"
 - id: iam
@@ -232,7 +232,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   year-start: 2020
   year-end: 2024
   funding: H2020
-  active: true
+  active: false
   url: "https://i-am-project.eu/"
   partners: [tue, algoryx, frankaemika, smartrobotics, vanderlande, cnrs,epfl,tum]
   description: >
@@ -280,7 +280,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   year-end: 2024.3
   funding: JSPS Grant-in-Aid for Scientific Research (B)
   funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 基盤研究(B)
-  active: true
+  active: false
   description: >
     <p>The aim of this project is to develop an unified framework of autonomous and continuous locomotion and manipulation in a constrained environment by robots which can work in repetitive, tedious, or a heavy task for humans in large-scale manufacturing.
     <p>Due to a huge search space and many constraints in such an environment, it is hard to find a feasible motion.</p>
