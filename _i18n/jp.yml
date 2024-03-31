@@ -74,18 +74,42 @@ hl:
   student-grade: 学年
   student-email: メールアドレス<br/>_*_を@に変えて送信してください
   students:
-    - id: singh
-      name: Rohan Pratap Singh
-      grade: 博士課程3年
-      email: rohan-singh_*_aist.go.jp
-      website: https://rohanpsingh.github.io
     - id: masuda
       name: 増田慎平
-      grade: 博士課程1年
+      grade: 博士課程2年
       email: masuda.shimpei_*_aist.go.jp
     - id: hong
       name: Cheng Hong
       grade: 博士課程1年
+    - id: li
+      name: 李 伊童
+      grade: 博士課程1年
+      email:
+    - id: nishijima
+      name: 西嶌 優
+      grade: 修士課程1年
+      email:
+    - id: ono
+      name: 小野 祐
+      grade: 修士課程1年
+      email:
+    - id: aoyama
+      name: 青山 祐之介
+      grade: 修士課程1年
+      email:
+    - id: liu
+      name: Zenong Liu
+      grade: 修士課程1年
+      email:
+    - id: morisaki
+      name: Sunio Morisaki
+      grade: 研究生
+      email:
+    - id: singh
+      name: Rohan Pratap Singh
+      grade: 博士後期修了
+      email: rohan-singh_*_aist.go.jp
+      website: https://rohanpsingh.github.io
     - id: qin
       name: 覃 毅力
       grade: 博士後期修了

@@ -74,19 +74,43 @@ hl:
   student-grade: Grade
   student-email: Email <br/> (replace the _*_ with @)
   students:
-    - id: singh
-      name: Rohan Pratap Singh
-      grade: Ph.D. 3rd Year
-      email: rohan-singh_*_aist.go.jp
-      website: https://rohanpsingh.github.io
     - id: masuda
       name: Shimpei Masuda
-      grade: Ph.D. 1st Year
+      grade: Ph.D. 2nd Year
       email: masuda.shimpei_*_aist.go.jp
     - id: hong
       name: Cheng Hong
       grade: Ph.D. 1st Year
       email: cheng.hong_*_aist.go.jp
+    - id: li
+      name: Yitong Li
+      grade: Ph.D. 1st Year
+      email:
+    - id: nishijima
+      name: Yu Nishijima
+      grade: master 1st Year
+      email:
+    - id: ono
+      name: Tasuku Ono
+      grade: master 1st Year
+      email:
+    - id: aoyama
+      name: Yunosuke Aoyama
+      grade: master 1st Year
+      email:
+    - id: liu
+      name: Zenong Liu
+      grade: master 1st Year
+      email:
+    - id: morisaki
+      name: Sunio Morisaki
+      grade: research student
+      email:
+    - id: singh
+      name: Rohan Pratap Singh
+      grade: Graduated (Ph.D.)
+      email: rohan-singh_*_aist.go.jp
+      website: https://rohanpsingh.github.io
     - id: qin
       name: Yili Qin
       grade: Graduated (Ph.D.)
