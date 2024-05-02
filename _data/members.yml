@@ -509,6 +509,11 @@
   given: Yue 
   family: Hu
   role: adjunct
+  from: 2020-12-01
+  past-roles:
+    - role: postdoc
+      from: 2018-11-01
+      to: 2020-11-30
   nationality: it
   website: "https://hu-yue.github.io/"
 - id: abe
@@ -516,6 +521,7 @@
   family: Abe
   name-jp: 安部 直子
   role: adjunct
+  from: 2020-07-15
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=bhj90uAAAAAJ"
 - id: orthey
@@ -567,6 +573,7 @@
   given: Antonio
   family: Gabas
   role: alumni
+  from: 2021-10-01
   past-roles:
     - role: phd
       to: 2021-09-30
@@ -632,7 +639,11 @@
   from: 2023-04-01
   past-roles:
     - role: phd
+      from: 2020-04-01
       to: 2023-03-31
+    - role: master
+      from: 2019-04-01
+      to: 2021-03-31
   nationality: cn
   bio: >
     received the BE degree from Jiangsu University, China, in 2015 and his ME degree from The University of Tsukuba, Japan, in 2020. He is currently a second-year Ph.D. student in the Department of Intelligent and Mechanical Interaction Systems, Graduate School of Science and Technology, The University of Tsukuba, Japan. His research interests include computer vision for robotics and SLAM in a dynamic environment.
@@ -643,6 +654,7 @@
   from: 2022-04-01
   past-roles:
     - role: phd
+      from: 2019-03-11
       to: 2022-03-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/kevin-chappellet-a3a87936/"
@@ -652,6 +664,7 @@
   given: Antonin
   family: Dallard
   role: phd
+  from: 2020-10-01
   nationality: fr
   linkedin: https://www.linkedin.com/in/antonin-dallard-b7096814a
   bio: >
@@ -663,6 +676,7 @@
   from: 2022-12-29
   past-roles:
     - role: phd
+      from: 2021-01-04
       to: 2022-12-28
   nationality: it
   bio: >
@@ -673,9 +687,10 @@
   family: Frizza
   role: engineer
   from: 2024-01-01
-  to: 2024-03-31
+  to: 2024-06-30
   past-roles:
     - role: phd
+      from: 2021-01-04
       to: 2023-12-31
   nationality: it
   bio: >
@@ -689,7 +704,11 @@
   from: 2024-04-01
   past-roles:
     - role: phd
+      from: 2021-04-01
       to: 2024-03-31
+    - role: master
+      from: 2019-04-01
+      to: 2021-03-31
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=ToS-6x0AAAAJ&hl=en&oi=sra"
   bio: >
@@ -705,7 +724,11 @@
   from: 2024-04-01
   past-roles:
     - role: phd
+      from: 2021-04-01
       to: 2024-03-31
+    - role: master
+      from: 2019-04-01
+      to: 2021-03-31
   nationality: in
   github: "https://github.com/rohanpsingh"
   linkedin: "https://www.linkedin.com/in/rohanpsingh"
@@ -729,6 +752,7 @@
   family: Kang
   past-roles:
     - role: master
+      from: 2020-10-01
       to: 2022-09-30
   role: phd
   from: 2022-10-01
@@ -1012,10 +1036,15 @@
   given: Bruno
   family: Watier
   role: permanent
-  from: 2023-02-01
+  from: 2024-02-01
   to: 2024-07-31
-  nationality: fr
-  from: 2022-01-01
+  past-roles:
+    - role: adjunct
+      from: 2023-08-01
+      to: 2024-01-31
+    - role: permanent
+      from: 2023-02-01
+      to: 2023-07-31
   nationality: fr
   website: "https://www.researchgate.net/profile/Bruno-Watier"
   github: "https://github.com/watierb"
@@ -1267,9 +1296,12 @@
 - id: acevedo
   given: Valeria
   family: Acevedo Donato
-  role: engineer
-  from: 2023-11-21
-  to: 2024-04-15
+  role: alumni
+  from: 2024-04-13
+  past-roles:
+    - role: engineer
+      from: 2023-11-21
+      to: 2024-04-12
   nationality: mx
 - id: liu
   given: Zenong
@@ -1352,7 +1384,7 @@
   given: Isaac
   family: Racine
   role: coming-master
-  from: 2024-09-01
+  from: 2024-05-07
   to: 2025-03-31
   nationality: ca
 - id: schulte
@@ -1365,7 +1397,7 @@
 - id: aymes
   given: Malo
   family: Aymes
-  role: coming-master
+  role: master
   from: 2024-04-22
   to: 2024-09-02
   nationality: fr
@@ -1397,3 +1429,10 @@
   from: 2023-10-09
   to: 2024-07-31
   nationality: fr
+- id: flores
+  given: Jose
+  family: Flores Martinez
+  role: coming-undergraduate
+  from: 2024-08-05
+  to: 2024-12-13
+  nationality: mx
