@@ -81,26 +81,27 @@ hl:
     - id: hong
       name: Cheng Hong
       grade: 博士課程1年
+      email: cheng.hong_*_aist.go.jp
     - id: li
       name: 李 伊童
       grade: 博士課程1年
-      email:
+      email: li.cornel_*_aist.go.jp
     - id: nishijima
       name: 西嶌 優
       grade: 修士課程1年
-      email:
+      email: y.nishijima_*_aist.go.jp
     - id: ono
       name: 小野 祐
       grade: 修士課程1年
-      email:
+      email: ono.tasuku_*_aist.go.jp
     - id: aoyama
       name: 青山 祐之介
       grade: 修士課程1年
-      email:
+      email: aoyama.y0093_*_aist.go.jp
     - id: liu
       name: Zenong Liu
       grade: 修士課程1年
-      email:
+      email: zenong.liu_*_aist.go.jp
     - id: morisaki
       name: Sunio Morisaki
       grade: 研究生
@@ -113,7 +114,6 @@ hl:
     - id: qin
       name: 覃 毅力
       grade: 博士後期修了
-      email: yili.tan_*_aist.go.jp
     - id: sun
       name: 孫 楽源
       grade: 博士後期修了

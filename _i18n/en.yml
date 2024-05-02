@@ -85,23 +85,23 @@ hl:
     - id: li
       name: Yitong Li
       grade: Ph.D. 1st Year
-      email:
+      email: li.cornel_*_aist.go.jp
     - id: nishijima
       name: Yu Nishijima
       grade: master 1st Year
-      email:
+      email: y.nishijima_*_aist.go.jp
     - id: ono
       name: Tasuku Ono
       grade: master 1st Year
-      email:
+      email: ono.tasuku_*_aist.go.jp
     - id: aoyama
       name: Yunosuke Aoyama
       grade: master 1st Year
-      email:
+      email: aoyama.y0093_*_aist.go.jp
     - id: liu
       name: Zenong Liu
       grade: master 1st Year
-      email:
+      email: zenong.liu_*_aist.go.jp
     - id: morisaki
       name: Sunio Morisaki
       grade: research student
