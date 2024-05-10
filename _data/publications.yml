@@ -4132,6 +4132,37 @@
   month: november
   projects:
   - kakenhi_wakate2023_kumagai
+- id: cai:mech:2023
+  year: 2023
+  title: Self-protect falling trajectories for humanoids with resilient trunk
+  booktitle: Mechatronics
+  authors:
+  - family: Cai
+    given: Zhaoyang
+  - family: Yu
+    given: Zhangguo
+  - family: Chen
+    given: Xuechao
+  - family: Huang
+    given: Qiang
+  - id: kheddar
+  pdf: https://www.sciencedirect.com/science/article/pii/S0957415823001174
+  lab: jrl
+  month: november
+- id: wang:ijrr:2023
+  year: 2023
+  title: Impact-aware task-space quadratic-programming control
+  booktitle: The International Journal of Robotics Research
+  authors:
+  - family: Wang
+    given: Yuquan
+  - family: Dehio
+    given: Niels
+  - id: tanguy
+  - id: kheddar
+  pdf: https://doi.org/10.1177/02783649231198558
+  lab: jrl
+  month: december
 - id: hauser:ijsr:2024
   year: 2024
   title: Analysis and Perspectives on the ANA Avatar XPRIZE Competition
@@ -10072,8 +10103,7 @@
     for Panoramic Stabilization'
   booktitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   authors:
-  - family: Berenguel-Baeta
-    given: Bruno
+  - id: berenguel
   - id: aandre
   - id: carong
   - family: Bermudez-Cameo
@@ -10121,6 +10151,45 @@
   pdf: https://hal.science/hal-04203172
   lab: jrl
   month: october 3
+- id: osawa:robio:2023
+  year: 2023
+  title: Robotic Thermoregulation for Material Identification using Recycled Inner-Generated
+    Motor Heat
+  booktitle: International Conference on Robotics and Biomimetics
+  authors:
+  - family: Osawa
+    given: Yukiko
+  - family: Domae
+    given: Yukiyasu
+  - family: Ogura
+    given: Ichiro
+  - family: Furukawa
+    given: Yoshiyuki
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10354795
+  lab: jrl
+  month: december 4-december 9
+- id: fournier:icsr:2023
+  year: 2023
+  title: A Pilot Usability Study of a Humanoid Avatar to Assist Therapists of ASD
+    Children
+  booktitle: International Conference on Social Robotics
+  authors:
+  - family: Fournier
+    given: Carole
+  - family: Michelon
+    given: Cécile
+  - id: tanguy
+  - family: Audoyer
+    given: Paul
+  - family: Granit
+    given: Véronique
+  - family: Baghdadli
+    given: Amaria
+  - id: kheddar
+  pdf: https://link.springer.com/chapter/10.1007/978-981-99-8715-3_28
+  lab: jrl
+  month: december 3-december 7
 - id: quaccia:sii:2024
   year: 2024
   title: A Study on Learned Feature Maps Toward Direct Visual Servoing
