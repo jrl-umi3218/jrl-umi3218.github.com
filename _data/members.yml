@@ -934,6 +934,10 @@
   from: 2022-10-01
   to: 2025-09-30
   nationality: fr
+  linkedin: "www.linkedin.com/in/eva-goichon-123189195"
+  github: "https://github.com/EvaGoichon"
+  bio: >
+    graduated with a degree in Electrical Engineering from the National Institute of Applied Sciences de Strasbourg (INSA Strasbourg) in 2022, concurrently earning a master's degree in Robotic Imaging and Life Engineering from Telecom Physique Strasbourg (TPS). During her studies, she undertook internship at the National Institute of Applied Sciences de Rennes (INSA Rennes) in France and at the Joint Robotics Laboratory (JRL) in Japan. Her work focused on SLAM for multi-camera multi-exposure panoramic vision in high dynamic range scenes embedded on a wheelchair. Currently, she is a CNRS-AIST JRL Ph.D. student at the National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan, and with the Modeling, Information and Systems (MIS) laboratory in France. Her research revolves around Simultaneous Localization and Mapping (SLAM) utilizing a hybrid map that combines 3D point cloud and mesh data using a color-depth camera mounted on a mobile robot.
 - id: ducrocq
   given: Julien
   family: Ducrocq
