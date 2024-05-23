@@ -1321,6 +1321,11 @@
   from: 2024-01-15
   to: 2027-01-14
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/bastien-muraccioli-0b5b41174/"
+  scholar: "https://scholar.google.com/citations?user=8dq_c30AAAAJ&hl"
+  github: "https://github.com/bastien-muraccioli"
+  bio: >
+    obtained his M.Sc. in Engineering, specializing in Computer Science, Microelectronics, and Automated Systems from Polytech Montpellier Engineering School in 2022. He carried out an internship as a Robotics and AI Engineer at GrAI Matter Labs in Paris, France, where he developed end-to-end robotics applications based on computer vision and edge-AI. Before joining JRL, he worked on Social Human-Robot Interaction topics, including the application of Generative AI techniques aimed at developing socially autonomous agents based on LLM for robotics. Additionally, during his research internship at Tokyo University of Agriculture and Technology, Japan, he co-authored a conference paper for TEI 2022 on embodied interaction, focusing on using social robots to deliver speeches by analyzing human poses and facial expressions using deep learning. Currently, he is a Ph.D. researcher at JRL, where his research focuses on Safety Oriented Control in Physical Human-Robot Interaction.
 - id: arslan
   given: Mikael
   family: Arslan
