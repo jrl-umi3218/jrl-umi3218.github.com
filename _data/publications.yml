@@ -4341,6 +4341,7 @@
   month: may
   projects:
   - dvsstraight
+  - m2sv
 - id: shimizu:ral:2024
   year: 2024
   title: Fast Direct Optimal Control for Humanoids Based on Dynamics Representation
@@ -4351,6 +4352,51 @@
   - id: ayusawa
   - id: venture
   pdf: https://ieeexplore.ieee.org/document/10452756
+  lab: jrl
+  month: april
+- id: medrano:bspc:2024
+  year: 2024
+  title: 'Assessing time series correlation significance: A parametric approach with
+    application to physiological signals'
+  booktitle: Biomedical Signal Processing and Control
+  authors:
+  - family: Medrano
+    given: Johan
+  - id: kheddar
+  - family: Ramdani
+    given: Sofiane
+  pdf: https://www.sciencedirect.com/science/article/pii/S1746809424002933
+  lab: jrl
+  month: august
+- id: pfeiffer:oms:2024
+  year: 2024
+  title: Sequential hierarchical least-squares programming for prioritized non-linear
+    optimal control
+  booktitle: Optimization Methods and Software
+  authors:
+  - id: pfeiffer
+  - id: kheddar
+  pdf: https://doi.org/10.1080/10556788.2024.2307467
+  lab: jrl
+- id: zhu:tm:2024
+  year: 2024
+  title: The Development of a 7-DoF Humanoid Arm for Driving Using a Task-Driven Design
+    Method
+  booktitle: IEEE-ASME Transactions on Mechatronics
+  authors:
+  - family: Zhu
+    given: Xin
+  - id: gergondet
+  - family: Cai
+    given: Zhaoyang
+  - family: Chen
+    given: Xuechao
+  - family: Yu
+    given: Zhangguo
+  - family: Huang
+    given: Qiang
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10250896
   lab: jrl
   month: april
 - id: watier:ibm:2023
@@ -8478,18 +8524,6 @@
   pdf: https://link.springer.com/content/pdf/10.1007%2F978-3-319-70022-9_14.pdf
   lab: jrl
   month: november 22-november 24
-- id: caron:iros:2017
-  year: 2017
-  title: Dynamic Walking over Rough Terrains by Nonlinear Predictive Control of the
-    Floating-base Inverted Pendulum
-  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
-  authors:
-  - family: Caron
-    given: Stéphane
-  - id: kheddar
-  pdf: https://arxiv.org/pdf/1703.00688.pdf
-  lab: jrl
-  month: september 24-september 28
 - id: pfeiffer:iros:2017
   year: 2017
   title: Nut Fastening with a Humanoid Robot
@@ -10300,6 +10334,55 @@
   - humanoid_lab
   - janus
   - icps
+- id: goichon:icra:2024
+  year: 2024
+  title: On camera model conversions
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - id: goichon
+  - id: carong
+  - family: Vasseur
+    given: Pascal
+  - id: kanehiro
+  pdf: https://hal.science/hal-04528418
+  lab: jrl
+  month: may 13-may 17
+- id: kang:icra:2024
+  year: 2024
+  title: Direct 3D model-based object tracking with event camera by motion interpolation
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - id: kang
+  - id: carong
+  - family: Ishikawa
+    given: Ryoichi
+  - id: escande
+  - id: chappellet
+  - id: sagawa
+  - family: Oishi
+    given: Takeshi
+  pdf: https://hal.science/hal-04519122
+  lab: jrl
+  month: may 13-may 17
+- id: hong:isea:2024
+  year: 2024
+  title: 'A cross-temporal robotic dance performance: Dancing with a humanoid robot
+    and artificial life'
+  booktitle: International Symposium on Electronic Art
+  authors:
+  - family: Hong
+    given: H.-T.
+  - family: Teles De Castro E Costa
+    given: I.
+  - family: Tanguy
+    given: A.
+  - family: Kheddar
+    given: A.
+  - family: Chen
+    given: C-Y.
+  pdf: ''
+  lab: jrl
+  month: june 21-june 29
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
