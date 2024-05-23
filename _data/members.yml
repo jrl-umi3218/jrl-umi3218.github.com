@@ -801,8 +801,8 @@
   bio: >
     obtained a master's degree in Mechanical Engineering with a specialization in Mechatronics and Systems from the National Institute of Applied Sciences of Lyon (INSA Lyon), in 2021.
     He completed his end-of-studies internship by Bosch Manufacturing Solutions GmbH in Stuttgart, Germany, where he worked on the design of stations composing the production line of stators for electric cars.
-    He then joined a master in Automation and Robotics in Intelligent Systems at the University of Technology of Compiègne (UTC) and is now doing his master's internship within the JRL.
-    His topic is to improve the estimation of the humanoid robot's state using an enhanced kinetic model.
+    He then obtained a master in Automation and Robotics in Intelligent Systems at the University of Technology of Compiègne (UTC) and joined the JRL for his master's internship. He is now pursuing a PhD within the JRL as a student of the University Paris-Saclay.
+    His research focuses on the state estimation for legged robots and in particular for humanoid robots. He notably aims to improve this estimation using an enhanced kinetic model.
 - id: chen
   given: Yang
   family: Chen
