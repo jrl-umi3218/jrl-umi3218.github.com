@@ -1438,6 +1438,10 @@
   from: 2023-10-09
   to: 2024-07-31
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/oc%C3%A9an-noel-b5931b220"
+  github: "https://github.com/Noceo200"
+  bio: >
+    Currently a student at the Brittany National School of Advanced Techniques (ENSTA Bretagne) in France, pursuing a master's degree in Robotics. During his studies, he completed an internship at the University of Adelaide in Australia, where he worked on a Kangaroo Bio-Inspired Robot for space exploration. Presently, he is a CNRS-AIST JRL researcher assistant and intern at the National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan. His research focuses on Haptic Technology for Avatar Robot teleoperation, as well as the navigation and control of a mobile robot with a mounted arm.
 - id: flores
   given: Jose
   family: Flores Martinez
