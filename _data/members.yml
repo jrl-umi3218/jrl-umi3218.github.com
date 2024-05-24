@@ -1376,6 +1376,9 @@
   from: 2024-02-05
   to: 2024-07-31
   nationality: fr
+  linkedin: "http://www.linkedin.com/in/marie-samson-30953b226"
+  bio: >
+    is currently a student at Université de Technologie de Compiègne (UTC) in France, pursuing a master's degree in Computer sciences and Engineering, majoring in Artificial Intelligence and Data sciences. She is presently a Research Assistant and intern at CNRS-AIST Joint Robotics Laboratory (JRL) in Japan. Her research mainly focuses on LLM and robotics to enable natural laguage interaction with robots.
 - id: crequer
   given: Gwendal
   family: Crequer
