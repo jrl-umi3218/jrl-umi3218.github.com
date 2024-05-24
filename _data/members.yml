@@ -1351,7 +1351,7 @@
   website: "https://paleziart.github.io/"
   scholar: "https://scholar.google.com/citations?user=AzZwyIUAAAAJ"
   bio: >
-    received a Master's degree' in Mechatronics from École Normale Supérieure de Rennes, France, in 2019. He then received a Ph.D. in Robotics from the University of Toulouse, France, in 2022 after working 3 years at LAAS-CNRS, France, as part of the Gepetto team. His thesis focused on developping a model predictive control architecture able to exploit the dynamical capabilities of a lightweight quadruped robot. He continued working in the Gepetto team as a postdoc until April 2024. During that time he explored quadruped locomotion using reinforcement learning approaches. He started a postdoc at JRL in May 2024 through the JSPS program. His current work focuses on reinforcement learning locomotion for humanoid robots.
+    received a Master's degree in Mechatronics from École Normale Supérieure de Rennes, France, in 2019. He then received a Ph.D. in Robotics from the University of Toulouse, France, in 2022 after working 3 years at LAAS-CNRS, France, as part of the Gepetto team. His thesis focused on developping a model predictive control architecture able to exploit the dynamical capabilities of a lightweight quadruped robot. He continued working in the Gepetto team as a postdoc until April 2024. During that time he explored quadruped locomotion using reinforcement learning approaches. He started a postdoc at JRL in May 2024 through the JSPS program. His current work focuses on reinforcement learning locomotion for humanoid robots.
 - id: sevillano
   given: Kimberly
   family: Sevillano
