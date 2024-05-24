@@ -1362,6 +1362,9 @@
   from: 2024-02-01
   to: 2024-07-31
   nationality: fr
+  linkedin: "www.linkedin.com/in/martin-soucail-23aa28223"
+  bio: >
+    is currently a student at CentraleSupelec, Engineering School part of the University of Paris-Saclay in France, pursuing a master's degree in Engineering, majoring in Healtcare and Biomedical Devices. He is presently a Research Assistant and intern at CNRS-AIST Joint Robotics Laboratory (JRL) in Japan. His research mainly focuses on torque control on humanoid robots.
 - id: chalanunt
   given: Sirikorn
   family: Chalanunt
