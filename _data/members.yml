@@ -802,8 +802,8 @@
   bio: >
     obtained a master's degree in Mechanical Engineering with a specialization in Mechatronics and Systems from the National Institute of Applied Sciences of Lyon (INSA Lyon), in 2021.
     He completed his end-of-studies internship by Bosch Manufacturing Solutions GmbH in Stuttgart, Germany, where he worked on the design of stations composing the production line of stators for electric cars.
-    He then joined a master in Automation and Robotics in Intelligent Systems at the University of Technology of Compiègne (UTC) and is now doing his master's internship within the JRL.
-    His topic is to improve the estimation of the humanoid robot's state using an enhanced kinetic model.
+    He then obtained a master in Automation and Robotics in Intelligent Systems at the University of Technology of Compiègne (UTC) and joined the JRL for his master's internship. He is now pursuing a PhD within the JRL as a student of the University Paris-Saclay.
+    His research focuses on the state estimation for legged robots and in particular for humanoid robots. He notably aims to improve this estimation using an enhanced kinetic model.
 - id: chen
   given: Yang
   family: Chen
@@ -1322,6 +1322,11 @@
   from: 2024-01-15
   to: 2027-01-14
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/bastien-muraccioli-0b5b41174/"
+  scholar: "https://scholar.google.com/citations?user=8dq_c30AAAAJ&hl"
+  github: "https://github.com/bastien-muraccioli"
+  bio: >
+    obtained his M.Sc. in Engineering, specializing in Computer Science, Microelectronics, and Automated Systems from Polytech Montpellier Engineering School in 2022. He carried out an internship as a Robotics and AI Engineer at GrAI Matter Labs in Paris, France, where he developed end-to-end robotics applications based on computer vision and edge-AI. Before joining JRL, he worked on Social Human-Robot Interaction topics, including the application of Generative AI techniques aimed at developing socially autonomous agents based on LLM for robotics. Additionally, during his research internship at Tokyo University of Agriculture and Technology, Japan, he co-authored a conference paper for TEI 2022 on embodied interaction, focusing on using social robots to deliver speeches by analyzing human poses and facial expressions using deep learning. Currently, he is a Ph.D. researcher at JRL, where his research focuses on Safety Oriented Control in Physical Human-Robot Interaction.
 - id: arslan
   given: Mikael
   family: Arslan
@@ -1434,6 +1439,10 @@
   from: 2023-10-09
   to: 2024-07-31
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/oc%C3%A9an-noel-b5931b220"
+  github: "https://github.com/Noceo200"
+  bio: >
+    Currently a student at the Brittany National School of Advanced Techniques (ENSTA Bretagne) in France, pursuing a master's degree in Robotics. During his studies, he completed an internship at the University of Adelaide in Australia, where he worked on a Kangaroo Bio-Inspired Robot for space exploration. Presently, he is a CNRS-AIST JRL researcher assistant and intern at the National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan. His research focuses on Haptic Technology for Avatar Robot teleoperation, as well as the navigation and control of a mobile robot with a mounted arm.
 - id: flores
   given: Jose
   family: Flores Martinez
