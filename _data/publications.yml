@@ -10374,10 +10374,8 @@
     given: H.-T.
   - family: Teles De Castro E Costa
     given: I.
-  - family: Tanguy
-    given: A.
-  - family: Kheddar
-    given: A.
+  - id: tanguy
+  - id: kheddar
   - family: Chen
     given: C-Y.
   pdf: ''
