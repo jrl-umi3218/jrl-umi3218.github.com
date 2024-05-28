@@ -11,11 +11,14 @@ describe the data expected by the website for each data types.
 
 #### Members
 
+Data about members is stored in `/_data/members.yml`. If you do not already have an entry, feel free to add yours!
+
 | Field | Description | Required |
 |-------|-------------|:--------:|
 | id | A unique user id, all lower-case is prefered | ✔ |
 | given | Given name(s) | ✔ |
 | family | Family name | ✔ |
+| name-jp | Japanese name |  |
 | role | One of: director/deputy-director/permanent/adjunct/engineer/admin/postdoc/phd/master/undergraduate/non-degree/alumni-star/alumni | ✔ |
 | from | Start date of the role in ISO-8601 format | ✔ |
 | past-roles | past roles and periods |  |
@@ -23,7 +26,7 @@ describe the data expected by the website for each data types.
 | nationality2 | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality |  |
 | nationality3 | Lower-case [ISO 3166-1 alpha 2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) of the member's nationality |  |
 | linkedin | Link to the member's linkedin profile      |  |
-| webiste  | Link to the member's personal website      |  |
+| website  | Link to the member's personal website      |  |
 | scholar  | Link to the member's google scholar prefix |  |
 | github   | Link to the member's github profile        |  |
 | bio | The member's bio (see 1) |  |
