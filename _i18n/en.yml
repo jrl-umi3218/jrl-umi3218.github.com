@@ -121,6 +121,20 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 2024/6/1
+    content: >
+      Four members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-schulte.html">Sinta Schulte</a>, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, and <a href="members/member-guillaume.html">Constantin Guillaume</a> joined and one member, <a href="members/member-frizza.html">Irene Frizza</a> left the JRL in May.
+  - date: 2024/5/17
+    content: >
+      25 JRL members participated in the IEEE International Conference on Robotics and Automation (ICRA) and gave 15 presentations.
+      <ul>
+      <li>2 regular articles</li>
+      <li>3 journal article presentations</li>
+      <li>2 late breaking results poster presentations</li>
+      <li>4 invited talks in workshops (3) and cluster forum (1)</li>
+      <li>1 presentation in a workshop</li>
+      <li>3 posters in workshops</li>
+      </ul>
   - date: 24/10/2023
     content: >
       Philippe Coiffet, co-founder of the JRL and pioneer of French robotics, passed away on 20 October 2023. He will be dearly missed but his legacy will live on through the work he initiated. If you wish to honor his memory or express your condolences, a webpage has been setup on <a href="https://www.lirmm.fr/philippe-coiffet/">LIRMM website</a>.
