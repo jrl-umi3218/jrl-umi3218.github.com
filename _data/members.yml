@@ -685,10 +685,12 @@
 - id: frizza
   given: Irene
   family: Frizza
-  role: engineer
-  from: 2024-01-01
-  to: 2024-06-30
+  role: alumni
+  from: 2024-06-01
   past-roles:
+    - role: engineer
+      from: 2024-01-01
+      to: 2024-05-31
     - role: phd
       from: 2021-01-04
       to: 2023-12-31
@@ -763,7 +765,7 @@
   family: Lorthioir
   role: postdoc
   from: 2022-03-07
-  to: 2024-03-31
+  to: 2025-03-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/guillaume-lorthioir-663201194/"
   bio: >
@@ -1244,6 +1246,7 @@
   github: "https://github.com/ThomasDuvinage"
   role: alumni
   from: 2024-03-30
+  to: 2024-06-30
   past-roles:
     - role: master
       from: 2023-10-02
@@ -1345,8 +1348,8 @@
   given: Pierre-Alexandre
   family: Leziart
   role: postdoc
-  from: 2024-05-06
-  to: 2026-03-31
+  from: 2024-05-09
+  to: 2026-05-08
   nationality: fr
   website: "https://paleziart.github.io/"
   scholar: "https://scholar.google.com/citations?user=AzZwyIUAAAAJ"
@@ -1403,14 +1406,14 @@
 - id: racine
   given: Isaac
   family: Racine
-  role: coming-master
+  role: master
   from: 2024-05-07
   to: 2025-03-31
   nationality: ca
 - id: schulte
   given: Sinta
   family: Schulte
-  role: coming-undergraduate
+  role: undergraduate
   from: 2024-05-07
   to: 2024-10-31
   nationality: de
@@ -1438,7 +1441,7 @@
 - id: guillaume
   given: Constantin
   family: Guillaume
-  role: coming-master
+  role: master
   from: 2024-05-27
   to: 2024-10-04
   nationality: fr
@@ -1453,10 +1456,17 @@
   github: "https://github.com/Noceo200"
   bio: >
     Currently a student at the Brittany National School of Advanced Techniques (ENSTA Bretagne) in France, pursuing a master's degree in Robotics. During his studies, he completed an internship at the University of Adelaide in Australia, where he worked on a Kangaroo Bio-Inspired Robot for space exploration. Presently, he is a CNRS-AIST JRL researcher assistant and intern at the National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan. His research focuses on Haptic Technology for Avatar Robot teleoperation, as well as the navigation and control of a mobile robot with a mounted arm.
-- id: flores
-  given: Jose
-  family: Flores Martinez
-  role: coming-undergraduate
-  from: 2024-08-05
-  to: 2024-12-13
-  nationality: mx
+- id: cardot
+  given: Aymeric
+  family: Cardot
+  role: coming-master
+  from: 2024-09-01
+  to: 2025-02-28
+  nationality: fr
+- id: stefanell
+  given: Hélène
+  family: Stefanell
+  role: coming-master
+  from: 2024-11-01
+  to: 2025-03-28
+  nationality: fr
