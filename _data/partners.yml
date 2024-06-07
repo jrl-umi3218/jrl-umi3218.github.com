@@ -162,3 +162,8 @@
   name: "Carnegie Mellon University"
   shortname: "CMU"
   website: "https://www.cmu.edu/"
+- id: hu
+  logo: "/assets/logos/HU-emblem.jpg"
+  name: "Hiroshima University"
+  shortname: "HU"
+  website: "https://www.hiroshima-u.ac.jp/"

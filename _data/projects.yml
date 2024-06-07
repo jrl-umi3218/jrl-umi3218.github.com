@@ -330,3 +330,18 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   active: true
   description: >
     <p>The goal of this project is to develop a framework to plan multi-contact motion for a humanoid robot to perform complex tasks such as those done by human workers in large-scale manufacturing. To achieve this goal, we need to efficiently find feasible contacts from an infinite number of candidates in a confined environment. We solve this issue by focusing on future contact feasibility, which quantitatively represents how much it improves the solvability of the optimization problems for motion planning and the quality of the resulting motion. We introduce the reinforcement learning approach to predict it over the future and integrate it with optimization-based motion planning that explicitly considers the kinematics and dynamics of a humanoid robot, which enables us to generate feasible whole-body motion that is advantageous to satisfy necessary constraints over the future. We consider that this research will clarify how a humanoid robot obtains empirical intelligence to interact with an environment considering the tasks and its body structures.</p>
+- id: impadm
+  title: ImpAdm
+  longtitle: "Impact/Overload Management for Admittance-Type Mechatronic Devices Using Nonsmooth Controllers"
+  longtitle-jp: "アドミッタンス型メカトロ機器のための非平滑制御則を用いた撃力・過荷重マネジメント"
+  year-start: 2024.4
+  year-end: 2027.3
+  funding: JSPS Grant-in-Aid for Scientific Research (B)
+  funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 基盤研究(B)
+  active: true
+  partners: [hu]
+  description: >
+    <p>Many of today's industrial robotic equipment is controlled by dedicated servo amplifiers and operates based on position commands (or speed commands) from a higher-level controller. In applications where it's necessary to manipulate contact force, a method called admittance control, which modifies position commands based on information from force sensors or external force observers, is commonly used. Therefore, many industrial mechatronics devices can be described as "admittance-type," which means they are force-input and position-output systems. These devices are technically and cost-effectively mature, but they are not suited for situations where contact/non-contact changes frequently, especially where excessive force or impact might occur. This research project aims to establish a force control strategy for existing hardware of industrial and humanoid robots when subjected to overload or impact forces. To achieve this goal, a framework of nonsmooth control laws that can explicitly handle the saturation of state variables and control inputs will be utilized.</p>
+  description-jp: >
+    <p>今日の産業用ロボット機器の多くは専用のサーボアンプで制御されており，上位コントローラからの位置指令（あるいは速度指令）にもとづいて動作する．接触力を操作する用途においては，力センサや外力オブザーバからの情報にもとづいて位置指令を修正するアドミッタンス制御とよばれる手法がよく用いられる．このため，多くの産業用メカトロニクス機器は，力入力・位置出力型の「アドミッタンス型」であるといえる．これらの機器は技術的にもコスト的にも成熟しているが，接触・非接触が頻繁に変化する状況，特に，過大な力や撃力が加わりうる状況に不向きである．本研究課題では，産業用ロボットや人型ロボットの既存のハードウェアを対象として，過荷重や撃力が加わる際の力制御の戦略を確立する．この目的のために，状態量や制御入力の飽和を陽に扱える非平滑制御則の枠組みを活用する.</p>
+    
