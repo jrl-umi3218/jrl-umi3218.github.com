@@ -1175,6 +1175,9 @@
   from: 2023-04-01
   to: 2026-03-31
   nationality: jp
+  scholar: "https://scholar.google.com/citations?user=Ee4GB30AAAAJ"
+  bio: >
+    is a Ph.D. student at the University of Tsukuba and obtained his Master's degree in 2019. While pursuing his doctoral studies, he works at Preferred Networks, Inc., a Japanese startup. His research interests focus on applying machine learning to motion control and robotic manipulation.
 - id: hamze
   given: Marwan
   family: Hamze
