@@ -1293,13 +1293,15 @@
   bio: >
       is a master's student at the University of Tsukuba, and graduated from Yamagata University in 2023 with a Bachelor of Engineering degree. His research interests include calibration and mechanism parameters. 
 - id: nishijima
-  given: Yuu
+  given: Yu
   family: Nishijima
   name-jp: 西嶌 優
   role: master
   from: 2024-04-01
   to: 2026-03-31
   nationality: jp
+  bio: >
+    received his BE degree from the National Institute of Technology (KOSEN), Kumamoto College, Japan, in 2024. He is currently a master's student at the University of Tsukuba, Japan. His research interests include the whole-body motion planning and optimization of humanoid robots.
 - id: mori
   given: Kenya
   family: Mori
