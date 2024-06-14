@@ -1439,6 +1439,8 @@
   from: 2024-04-01
   to: 2026-03-31
   nationality: jp
+  bio: >
+      is master student at the University of Tsukuba. He obtained his bachelor's degree at Tokyo Institute of Technology in 2024. His current research focuses on the state estimation for legged robots and in paticular for humanoid robots. He is interested in humanoid robots walking optimization and its theory. He hate vegetables, but these days he eats them out of obligation.
 - id: morisaki
   given: Sunio
   family: Morisaki
