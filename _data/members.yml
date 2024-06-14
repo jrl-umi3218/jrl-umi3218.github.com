@@ -1280,6 +1280,8 @@
       from: 2023-12-01
       to: 2024-03-31
   nationality: cn
+  bio: >
+      abcadsfasdf
 - id: ono
   given: Tasuku
   family: Ono
