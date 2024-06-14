@@ -1321,6 +1321,8 @@
   from: 2024-04-01
   to: 2026-03-31
   nationality: cn
+  bio: >
+    is currently studying at the University of Tsukuba in Japan, specializing in Intelligent and Mechanical Interaction Systems. He is conducting his master's research at the CNRS-AIST Joint Robotics Laboratory (JRL), focusing on accelerated localization using non-homogeneous maps. His research interests lie in VSLAM (Visual Simultaneous Localization and Mapping) and deep learning, among other computer vision technologies. He aims to explore the intricacies of spatial computation by integrating deep learning with VSLAM.
 - id: muraccioli
   given: Bastien
   family: Muraccioli
