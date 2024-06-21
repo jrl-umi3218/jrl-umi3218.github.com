@@ -1451,6 +1451,8 @@
   role: non-degree
   from: 2024-04-01
   nationality: pe
+  bio: >
+      is pursuing a master's degree in Intelligent and Mechanical Interaction Systems at the University of Tsukuba. His research interests include autonomous navigation and path planning algorithms.
 - id: guillaume
   given: Constantin
   family: Guillaume
