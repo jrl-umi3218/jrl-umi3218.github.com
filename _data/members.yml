@@ -1269,6 +1269,8 @@
   from: 2023-10-01
   to: 2026-09-30
   nationality: cn
+  bio: >
+      is currently a PhD student at the University of Tsukuba. His research interests focus on the fusion of heterogeneous sensor data for scene perception tasks, with a particular emphasis on integrating hyperspectral and point cloud data.
 - id: li
   given: Yitong
   family: Li
