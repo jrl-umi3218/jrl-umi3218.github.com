@@ -1262,6 +1262,10 @@
   from: 2023-09-01
   to: 2026-08-31
   nationality: fr
+  linkedin: "www.linkedin.com/in/dorian-kempf-0b694b1b3"
+  github: "https://github.com/Doriankmf"
+  bio: >
+    obtained his Master's degree in Robotics from the Institut Supérieur des Sciences et Techniques (INSSET) of Saint-Quentin, France in 2022. He completed his studies with an internship as a research engineer working on Visual Odometry, followed by a position as a research engineer working on Visual SLAM in the Laboratoire des Technologies Innovantes of Amiens, France. In September 2023, he began a thesis with the MIS (Modélisation, Information & Systèmes, Amiens, France) and CNRS-AIST JRL (Joint Robotics Laboratory, Tsukuba, Japan) laboratories. His thesis focuses on the 3D-3D and 2D-3D point clouds registration that include non-static elements, aiming to improve their accuracy and completeness even when only a minority of the captured scene remains static. This approach will enable the application of 3D-3D and 2D-3D point cloud registration to robot localization and navigation within a common, unified paradigm. His research interests include robotic perception, especially 3D reconstruction, 3D computer vision, and SLAM. 
 - id: hong
   given: Cheng
   family: Hong
