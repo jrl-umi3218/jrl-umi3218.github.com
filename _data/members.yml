@@ -1441,6 +1441,8 @@
   from: 2024-04-22
   to: 2024-09-02
   nationality: fr
+  bio: >
+      Student in the Ingénieur Polytechnicien program at Ecole Polytechnique (Cycle Ingénieur polytechnicien) in Palaiseau, France, with a specialization in Artificial Intelligence and Data Science. Currently working as an intern and Research Assistant at the CNRS-AIST JRL in Tsukuba, Japan, on the subject of Skill Transfer from Human to Robot by Teleoperation, working with expert data obtained using teleoperation to train Deep Neural Networks using Imitation Learning.
 - id: aoyama
   given: Yunosuke
   family: Aoyama
