@@ -1354,6 +1354,7 @@
   from: 2024-02-01
   to: 2024-08-21
   nationality: fr
+  bio: Currently a student at Ecole Centrale de Nantes in France, pursuing a master's degree in Advanced Robotics. During his studies he completed an internship at Polytechnique Montreal in Canada, during which he worked on the design and control of a low cost planar cable driven robot. Presently, he is an intern at the CNRS-AIST Joint Robotics Laboratory (JRL) in Tsukuba, Japan. His research focuses on the design and control of robust hydraulic-pneumatic hybrid actuated grippers for use on humanoid robots.
 - id: paula
   given: Matheus
   family: Paula
