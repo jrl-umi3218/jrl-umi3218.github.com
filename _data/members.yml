@@ -1247,9 +1247,9 @@
   family: Duvinage
   linkedin: "https://www.linkedin.com/in/thomas-duvinage/"
   github: "https://github.com/ThomasDuvinage"
-  role: alumni
-  from: 2024-03-30
-  to: 2024-06-30
+  role: engineer
+  from: 2024-07-01
+  to: 2026-06-30
   past-roles:
     - role: master
       from: 2023-10-02
@@ -1378,7 +1378,7 @@
   family: Sevillano
   role: master
   from: 2024-02-01
-  to: 2024-07-31
+  to: 2024-09-30
   nationality: pe
 - id: soucail
   given: Martin
@@ -1417,7 +1417,7 @@
 - id: harle
   given: Damien
   family: Harlé
-  role: coming-master
+  role: master
   from: 2024-06-03
   to: 2024-09-30
   nationality: fr
@@ -1489,6 +1489,35 @@
   given: Hélène
   family: Stefanell
   role: coming-master
-  from: 2024-11-01
+  from: 2024-09-30
   to: 2025-03-28
   nationality: fr
+- id: taruf
+  given: Imane
+  family: Taruf
+  role: coming-engineer
+  from: 2024-08-01
+  to: 2026-03-31
+  nationality: fr
+- id: vazquez
+  given: David
+  family: Vázquez Leal
+  role: coming-engineer
+  from: 2024-09-01
+  to: 2025-01-31
+  nationality: mx
+- id: pinon
+  given: Pierre
+  family: Pinon
+  role: coming-phd
+  from: 2024-10-01
+  to: 2027-09-30
+  nationality: fr
+- id: vilfroy
+  given: Seanan
+  family: Vilfroy
+  role: coming-master
+  from: 2024-11-01
+  to: 2025-03-31
+  nationality: fr
+
