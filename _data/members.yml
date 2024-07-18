@@ -1374,12 +1374,16 @@
   bio: >
     received a Master's degree in Mechatronics from École Normale Supérieure de Rennes, France, in 2019. He then received a Ph.D. in Robotics from the University of Toulouse, France, in 2022 after working 3 years at LAAS-CNRS, France, as part of the Gepetto team. His thesis focused on developping a model predictive control architecture able to exploit the dynamical capabilities of a lightweight quadruped robot. He continued working in the Gepetto team as a postdoc until April 2024. During that time he explored quadruped locomotion using reinforcement learning approaches. He started a postdoc at JRL in May 2024 through the JSPS program. His current work focuses on reinforcement learning locomotion for humanoid robots.
 - id: sevillano
-  given: Kimberly
-  family: Sevillano
+  given: Kimberly Grace
+  family: Sevillano C.
   role: master
   from: 2024-02-01
   to: 2024-09-30
   nationality: pe
+  linkedin: "https://www.linkedin.com/in/grace-sevillano/"
+  website: "https://gracesevillano.github.io/"
+  bio: >
+    is currently pursuing a Master's degree in Signal and Image Processing with a specialization in Computer Vision and Robotics (VIBOT) at the University of Burgundy, France. She earned her B.Sc. in Electronics Engineering from the National University of Engineering (UNI), Peru. She is conducting her Master's thesis at the CNRS-AIST JRL (Joint Robotics Laboratory), IRL3218 in Tsukuba, Japan. Her research focuses on combining dual-fisheye and color-depth vision for real-time, full-scale spherical image depth imaging, covering areas such as 3D imaging and robotics.
 - id: soucail
   given: Martin
   family: Soucail
