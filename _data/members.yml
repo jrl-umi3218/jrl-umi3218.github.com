@@ -1042,10 +1042,12 @@
 - id: bwatier
   given: Bruno
   family: Watier
-  role: permanent
-  from: 2024-02-01
-  to: 2024-07-31
+  role: alumni
+  from: 2023-08-01
   past-roles:
+    - role: permanent
+      from: 2024-02-01
+      to: 2024-07-31
     - role: adjunct
       from: 2023-08-01
       to: 2024-01-31
@@ -1389,7 +1391,7 @@
   family: Soucail
   role: master
   from: 2024-02-01
-  to: 2024-07-31
+  to: 2024-08-31
   nationality: fr
   linkedin: "www.linkedin.com/in/martin-soucail-23aa28223"
   bio: >
@@ -1404,9 +1406,12 @@
 - id: samson
   given: Marie
   family: Samson
-  role: master
-  from: 2024-02-05
-  to: 2024-07-31
+  role: alumni
+  from: 2023-08-01
+  past-roles:
+    - role: master
+      from: 2024-02-05
+      to: 2024-07-31
   nationality: fr
   linkedin: "http://www.linkedin.com/in/marie-samson-30953b226"
   bio: >
@@ -1474,9 +1479,12 @@
 - id: noel
   given: Ocean
   family: Noel
-  role: master
-  from: 2023-10-09
-  to: 2024-07-31
+  role: alumni
+  from: 2023-08-01
+  past-roles:
+    - role: master
+      from: 2023-10-09
+      to: 2024-07-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/oc%C3%A9an-noel-b5931b220"
   github: "https://github.com/Noceo200"
@@ -1524,4 +1532,31 @@
   from: 2024-11-01
   to: 2025-03-31
   nationality: fr
-
+- id: nasir
+  given: Amneh
+  family: Nasir
+  role: coming-phd
+  from: 2024-10-01
+  to: 20207-09-30
+  nationality: jo
+- id: lannelongue
+  given: Elisa
+  family: Lannelongue
+  role: coming-phd
+  from: 2024-11-01
+  to: 2027-10-31
+  nationality: fr
+- id: decoster
+  given: Eloi
+  family: Decoster
+  role: coming-master
+  from: 2024-09-01
+  to: 2025-02-28
+  nationality: fr
+- id: vega
+  given: Piero
+  family: Vega-Gutierrez
+  role: coming-master
+  from: 2025-04-01
+  to: 2025-08-31
+  nationality: fr
