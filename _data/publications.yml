@@ -4399,6 +4399,17 @@
   pdf: https://ieeexplore.ieee.org/document/10250896
   lab: jrl
   month: april
+- id: hamze:ral:2024
+  year: 2024
+  title: Compliant Contacts Balance-Force Controller for Legged Robots
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: hamze
+  - id: benalleguem
+  - id: cisneros
+  - id: benalleguea
+  pdf: https://ieeexplore.ieee.org/abstract/document/10609486
+  lab: jrl
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
