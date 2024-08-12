@@ -4011,8 +4011,8 @@
   month: july
   projects:
   - jst_mirai
-- id: chappellet:tase:2023
-  year: 2023
+- id: chappellet:tase:2024
+  year: 2024
   title: Humanoid Loco-Manipulations using Combined Fast Dense 3D Tracking and SLAM
     with Wide-Angle Depth-Images
   booktitle: IEEE Transactions on Automation Science and Engineering
@@ -4024,6 +4024,7 @@
   - id: kheddar
   pdf: https://hal.science/hal-04125159
   lab: jrl
+  month: july
 - id: singh:access:2023
   year: 2023
   title: Learning Bipedal Walking for Humanoids with Current Feedback
