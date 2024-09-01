@@ -121,21 +121,27 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 2024/9/1
+    content: >
+      One member, <a href="members/member-lefevre.html">Hugo Lefevre</a> joined and three members, <a href="members/member-arslan.html">Mikael Arslan</a>, <a href="members/member-soucail.html">Martin Soucail</a> and <a href="members/member-chalanunt.html">Sirikorn Chalanunt</a> finished their internships at the JRL in August.<br>
+      "<a href="https://www.sciencedirect.com/science/article/pii/S1746809424002933">Assessing time series correlation significance: A parametric approach with application to physiological signals</a>" was published in Biomedical Signal Processing and Control.
   - date: 2024/8/1
     content: >
-      One member, <a href="members/member-duvinage.html">Thomas Duvinage</a> joined and three members, <a href="members/member-bwatier.html">Bruno Watier</a>, <a href="members/member-noel.html">Ocean Noel</a>, and <a href="members/member-samson.html">Marie Samson</a> left the JRL in July.
+      One member, <a href="members/member-duvinage.html">Thomas Duvinage</a> joined and three members, <a href="members/member-bwatier.html">Bruno Watier</a>, <a href="members/member-noel.html">Ocean Noel</a>, and <a href="members/member-samson.html">Marie Samson</a> left the JRL in July.<br>
+      "<a href="https://hal.science/hal-04125159">Humanoid Loco-Manipulations using Combined Fast Dense 3D Tracking and SLAM with Wide-Angle Depth-Images</a>" was published in the IEEE T-ASE.
   - date: 2024/7/1
     content: >
       <a href="members/member-harle.html">Damien Harlé</a> joined in June.<br>
       "A cross-temporal robotic dance performance: Dancing with a humanoid robot and artificial life" was presented at ISEA2024.
   - date: 2024/6/1
     content: >
-      Four members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-schulte.html">Sinta Schulte</a>, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, and <a href="members/member-guillaume.html">Constantin Guillaume</a> joined and one member, <a href="members/member-frizza.html">Irene Frizza</a> left the JRL in May.
+      Four members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-schulte.html">Sinta Schulte</a>, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, and <a href="members/member-guillaume.html">Constantin Guillaume</a> joined and one member, <a href="members/member-frizza.html">Irene Frizza</a> left the JRL in May.<br>
+      "<a href="https://ieeexplore.ieee.org/document/10463090">Dual-Hemispherical Photometric Visual Servoing</a>" was published in the IEEE RA-L.
   - date: 2024/5/17
     content: >
       25 JRL members participated in the IEEE International Conference on Robotics and Automation (ICRA) and gave 15 presentations.
       <ul>
-      <li>2 regular articles</li>
+      <li>2 regular articles (<a href="https://hal.science/hal-04528418">1</a>,<a href="https://hal.science/hal-04519122">2</a>)</li>
       <li>3 journal article presentations</li>
       <li>2 late breaking results poster presentations</li>
       <li>4 invited talks in workshops (3) and cluster forum (1)</li>
