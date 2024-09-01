@@ -347,8 +347,8 @@
 - id: benalleguea
   given: Abdelaziz
   family: Benallegue
-  role: alumni
-  from: 2022-07-23
+  role: permanent
+  from: 2024-09-01
   past-roles:
     - role: permanent
       to: 2022-07-22
@@ -826,7 +826,7 @@
   family: Celerier
   role: phd
   from: 2022-05-06
-  to: 2024-08-31
+  to: 2025-05-31
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/mathieu-celerier"
   github: "https://github.com/mathieu-celerier"
@@ -1352,9 +1352,12 @@
 - id: arslan
   given: Mikael
   family: Arslan
-  role: master
-  from: 2024-02-01
-  to: 2024-08-21
+  role: alumni
+  from: 2024-08-22
+  past-roles:
+    - role: master
+      from: 2024-02-01
+      to: 2024-08-21
   nationality: fr
   bio: Currently a student at Ecole Centrale de Nantes in France, pursuing a master's degree in Advanced Robotics. During his studies he completed an internship at Polytechnique Montreal in Canada, during which he worked on the design and control of a low cost planar cable driven robot. Presently, he is an intern at the CNRS-AIST Joint Robotics Laboratory (JRL) in Tsukuba, Japan. His research focuses on the design and control of robust hydraulic-pneumatic hybrid actuated grippers for use on humanoid robots.
 - id: paula
@@ -1389,9 +1392,12 @@
 - id: soucail
   given: Martin
   family: Soucail
-  role: master
-  from: 2024-02-01
-  to: 2024-08-31
+  role: alumni
+  from: 2024-09-01
+  past-roles:
+    - role: master
+      from: 2024-02-01
+      to: 2024-08-31
   nationality: fr
   linkedin: "www.linkedin.com/in/martin-soucail-23aa28223"
   bio: >
@@ -1399,9 +1405,12 @@
 - id: chalanunt
   given: Sirikorn
   family: Chalanunt
-  role: master
-  from: 2024-03-01
-  to: 2024-08-31
+  role: alumni
+  from: 2024-09-01
+  past-roles:
+    - role: master
+      from: 2024-03-01
+      to: 2024-08-31
   nationality: th
 - id: samson
   given: Marie
@@ -1508,7 +1517,7 @@
   given: Imane
   family: Taruf
   role: coming-engineer
-  from: 2024-08-01
+  from: 2024-09-09
   to: 2026-03-31
   nationality: fr
 - id: vazquez
@@ -1522,8 +1531,8 @@
   given: Pierre
   family: Pinon
   role: coming-phd
-  from: 2024-10-01
-  to: 2027-09-30
+  from: 2024-11-01
+  to: 2027-10-31
   nationality: fr
 - id: vilfroy
   given: Seanan
@@ -1537,7 +1546,7 @@
   family: Nasir
   role: coming-phd
   from: 2024-10-01
-  to: 20207-09-30
+  to: 2027-09-30
   nationality: jo
 - id: lannelongue
   given: Elisa
@@ -1560,3 +1569,24 @@
   from: 2025-04-01
   to: 2025-08-31
   nationality: fr
+- id: yada
+  given: Shori
+  family: Yada
+  role: undergraduate
+  from: 2024-09-01
+  to: 2025-03-31
+  nationality: jp
+- id: lefevre
+  given: Hugo
+  family: Lefevre
+  role: phd
+  from: 2024-08-26
+  to: 2024-10-25
+  nationality: fr
+- id: paik
+  given: Albert
+  family: Paik
+  role: coming-undergraduate
+  from: 2024-11-18
+  to: 2025-02-14
+  nationality: nz
