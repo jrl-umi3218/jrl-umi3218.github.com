@@ -10438,6 +10438,9 @@
     given: Katja
   - family: Berns
     given: Karsten
+- id: naamani:iros:2024
+  projects:
+  - dvsstraight
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
