@@ -10376,6 +10376,22 @@
   pdf: https://hal.science/hal-04519122
   lab: jrl
   month: may 13-may 17
+- id: naamani:iros:2024
+  year: 2024
+  title: A mathematical characterization of the convergence domain for Direct Visual
+    Servoing
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: naamani
+  - id: carong
+  - id: morisawa
+  - family: Mouaddib
+    given: El
+  pdf: https://hal.science/hal-04650438
+  lab: jrl
+  month: october 14-october 18
+  projects:
+  - dvsstraight
 - id: hong:isea:2024
   year: 2024
   title: 'A cross-temporal robotic dance performance: Dancing with a humanoid robot
@@ -10390,7 +10406,6 @@
   - id: kheddar
   - family: Chen
     given: C-Y.
-  pdf: ''
   lab: jrl
   month: june 21-june 29
 - id: kheddar:book:2017
@@ -10438,9 +10453,6 @@
     given: Katja
   - family: Berns
     given: Karsten
-- id: naamani:iros:2024
-  projects:
-  - dvsstraight
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
