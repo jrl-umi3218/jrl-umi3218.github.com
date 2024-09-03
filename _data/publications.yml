@@ -4411,6 +4411,28 @@
   - id: benalleguea
   pdf: https://ieeexplore.ieee.org/abstract/document/10609486
   lab: jrl
+- id: kessy:cvm:2024
+  year: 2024
+  title: Illumination Compensation using Perpendicular Whisk-broom Hyperspectral Scans
+  booktitle: Computational Visual Media
+  authors:
+  - family: Kessy
+    given: Suzan
+  - family: Funatomi
+    given: Takuya
+  - family: Kushida
+    given: Takahiro
+  - family: Kitano
+    given: Kazuya
+  - family: Fujimura
+    given: Yuki
+  - id: carong
+  - family: Mouaddib
+    given: El
+  - family: Mukaigawa
+    given: Yasuhiro
+  pdf: https://hal.science/hal-04651042
+  lab: jrl
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
