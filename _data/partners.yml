@@ -1,3 +1,8 @@
+- id: amu
+  logo: "/assets/logos/amu.png"
+  name: "Aix-Marseille Universite"
+  shortname: "amU"
+  website: "https://www.univ-amu.fr/en"
 - id: dlr
   logo: "/assets/logos/dlr.png"
   name: "German Aerospace Center"
