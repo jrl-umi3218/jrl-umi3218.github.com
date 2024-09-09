@@ -1,3 +1,16 @@
+- id: call
+  title: "CALL"
+  longtitle: "CALL: Cobotic AppLication for handover and Load transport"
+  year-start: 2025
+  year-end: 2028
+  funding: ANR
+  active: true
+  partners: [cnrs,tlse3,enit,uds]
+  description: "
+<p>CALL is a collaborative project funded by ANR (Agence Nationale de la Recherche / French national research agency). In this project led by <a href=https://www.laas.fr/en/>CNRS LAAS</a>, CNRS-AIST JRL is a partner with <a href=https://www.lgp.enit.fr/en/index.html>ENIT LGP</a> and <a href=https://www.usherbrooke.ca/3it/en/>UDS 3IT</a>. The aim is to combine the biomechanical modeling of humans with full-spherical visual perception and optimal robot control to enable the dynamic object handover between a human and a robot. </p>
+<p>CALL will be implemented on robot arm and mobile manipulator.  
+</p>
+"
 - id: antnoid
   title: "Ant'noid"
   longtitle: "Ant'noid: ant visual memory for humanoid robot autonomous navigation"

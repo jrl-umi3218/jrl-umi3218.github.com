@@ -1,3 +1,18 @@
+- id: uds
+  logo: "/assets/logos/uds.png"
+  name: "Universite de Sherbrooke"
+  shortname: "UDS"
+  website: "https://www.usherbrooke.ca/about/"
+- id: enit
+  logo: "/assets/logos/enit.png"
+  name: "Universite de Technologie Tarbes Occitanie Pyrenees"
+  shortname: "ENIT"
+  website: "https://www.enit.fr/en/index.html"
+- id: tlse3
+  logo: "/assets/logos/tlse3.png"
+  name: "Universite Toulouse III - Paul Sabatier"
+  shortname: "tlse3"
+  website: "https://www.univ-tlse3.fr/home"
 - id: amu
   logo: "/assets/logos/amu.png"
   name: "Aix-Marseille Universite"
