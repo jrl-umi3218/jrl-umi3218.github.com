@@ -1,3 +1,16 @@
+- id: antnoid
+  title: "Ant'noid"
+  longtitle: "Ant'noid: ant visual memory for humanoid robot autonomous navigation"
+  year-start: 2024
+  year-end: 2028
+  funding: ANR
+  active: true
+  partners: [cnrs,amu]
+  description: "
+<p>Ant'noid is a collaborative project funded by ANR (Agence Nationale de la Recherche / French national research agency). In this project led by CNRS-AIST JRL, we've partnered with CNRS-Aix-Marseille University <a href=https://ism.univ-amu.fr/en>Institute of Movement Science</a>. The aim is to leverage the knowledge on desert ants' visual familiarity capabilities to make a humanoid robot navigate both in bidimensional and tridimensional spaces with an extremely low memory usage from full-spherical visual perception. This project emerges from an International Emerging Action funded by CNRS.</p>
+<p>Ant'noid will be implemented on small size and human adult size humanoids such as HRP-5P. 
+</p>
+"
 - id: m2sv
   title: "M2SV"
   longtitle: "M2SV: Mobile Manipulator control based on Spherical Vision"
