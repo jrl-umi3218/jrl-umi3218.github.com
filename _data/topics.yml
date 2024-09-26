@@ -20,19 +20,18 @@
     <p><i>Preferred</i>: C++, Deep learning, ROS, multibody mechanics.</p>
     <p><i>Required</i>: spoken English language</p>
 - id: dvs
-  title: Direct Visual Servoing with optimal robot trajectories
+  title: Direct Visual Servoing from farther and faster
   description: >
     <ul>
       <li>Robot motion control from camera image brightness</li>
       <li>Accuracy < 1 mm but 3D trajectories are not ideal</li>
       <li>Goals:
         <ul>
-          <li>Implement damping control near singularities</li>
-          <li>Multi-objective optimization to constrain the trajectory</li>
-          <li>Online selection of the camera field-of-view maximizing the motion perceptibility</li>
+          <li>new Hessian construction algorithm</li>
+          <li>hybrid camera field-of-view desired / current images</li>
         </ul>
       </li>
-      <li>Related project: <a href="../en/projects/project-dvsstraight.html">DVS-straight</a></li>
+      <li>Related projects: <a href="../en/projects/project-dvsstraight.html">DVS-straight</a>, <a href="../en/projects/project-m2sv.html">M2SV</a></li>
     </ul>
   grade: Master/PhD
   skills: C++ programming, mathematical background
