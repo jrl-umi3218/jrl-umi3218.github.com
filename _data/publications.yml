@@ -10430,6 +10430,28 @@
     given: C-Y.
   lab: jrl
   month: june 21-june 29
+- id: sabbah:biorob:2024
+  year: 2024
+  title: Ground Reaction Forces and Moments Estimation from Embedded Insoles using
+    Machine Learning Regression Models
+  booktitle: International Conference on Biomedical Robotics and Biomechatronics
+  authors:
+  - family: Sabbah
+    given: Maxime
+  - family: Dumas
+    given: Raphael
+  - family: Pomarat
+    given: Zoe
+  - family: Robinet
+    given: Lucas
+  - family: Adjel
+    given: Mohamed
+  - family: Bruno
+    given: Watier
+  - family: Bonnet
+    given: Vincent
+  lab: jrl
+  month: september 1-september 4
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
