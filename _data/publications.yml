@@ -4411,6 +4411,7 @@
   - id: benalleguea
   pdf: https://ieeexplore.ieee.org/abstract/document/10609486
   lab: jrl
+  month: november
 - id: kessy:cvm:2024
   year: 2024
   title: Illumination Compensation using Perpendicular Whisk-broom Hyperspectral Scans
@@ -4432,6 +4433,21 @@
   - family: Mukaigawa
     given: Yasuhiro
   pdf: https://hal.science/hal-04651042
+  lab: jrl
+- id: roux:ral:2024
+  year: 2024
+  title: End-Effectors Changer Design for Humanoids
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Roux
+    given: Julien
+  - family: Izard
+    given: Jean-Baptiste
+  - id: tanguy
+  - id: kaminaga
+  - id: kanehiro
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10697271
   lab: jrl
 - id: watier:ibm:2023
   year: 2023
