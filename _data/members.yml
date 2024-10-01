@@ -1363,9 +1363,12 @@
 - id: paula
   given: Matheus
   family: Paula
-  role: master
-  from: 2024-04-01
-  to: 2024-09-30
+  role: alumni
+  from: 2024-10-01
+  past-roles:
+    - role: master
+      from: 2024-04-01
+      to: 2024-09-30
   nationality: br
 - id: leziart
   given: Pierre-Alexandre
@@ -1381,9 +1384,12 @@
 - id: sevillano
   given: Kimberly Grace
   family: Sevillano C.
-  role: master
-  from: 2024-02-01
-  to: 2024-09-30
+  role: alumni
+  from: 2024-10-01
+  past-roles:
+    - role: master
+      from: 2024-02-01
+      to: 2024-09-30
   nationality: pe
   linkedin: "https://www.linkedin.com/in/grace-sevillano/"
   website: "https://gracesevillano.github.io/"
@@ -1428,16 +1434,22 @@
 - id: crequer
   given: Gwendal
   family: Crequer
-  role: master
-  from: 2024-03-18
-  to: 2024-09-17
+  role: alumni
+  from: 2024-09-14
+  past-roles:
+    - role: master
+      from: 2024-03-18
+      to: 2024-09-13
   nationality: fr
 - id: harle
   given: Damien
   family: Harlé
-  role: master
-  from: 2024-06-03
-  to: 2024-09-30
+  role: alumni
+  from: 2024-10-01
+  past-roles:
+    - role: master
+      from: 2024-06-03
+      to: 2024-09-30
   nationality: fr
 - id: racine
   given: Isaac
@@ -1456,9 +1468,12 @@
 - id: aymes
   given: Malo
   family: Aymes
-  role: master
-  from: 2024-04-22
-  to: 2024-09-02
+  role: alumni
+  from: 2024-09-03
+  past-roles:
+    - role: master
+      from: 2024-04-22
+      to: 2024-09-02
   nationality: fr
   bio: >
       Student in the Ingénieur Polytechnicien program at Ecole Polytechnique (Cycle Ingénieur polytechnicien) in Palaiseau, France, with a specialization in Artificial Intelligence and Data Science. Currently working as an intern and Research Assistant at the CNRS-AIST JRL in Tsukuba, Japan, on the subject of Skill Transfer from Human to Robot by Teleoperation, working with expert data obtained using teleoperation to train Deep Neural Networks using Imitation Learning.
@@ -1502,29 +1517,29 @@
 - id: cardot
   given: Aymeric
   family: Cardot
-  role: coming-master
+  role: master
   from: 2024-09-01
   to: 2025-02-28
   nationality: fr
 - id: stefanell
   given: Hélène
   family: Stefanell
-  role: coming-master
+  role: master
   from: 2024-09-30
   to: 2025-03-28
   nationality: fr
 - id: taruf
   given: Imane
   family: Taruf
-  role: coming-engineer
+  role: engineer
   from: 2024-09-09
   to: 2026-03-31
   nationality: fr
 - id: vazquez
   given: David
   family: Vázquez Leal
-  role: coming-engineer
-  from: 2024-09-01
+  role: coming-undergraduate
+  from: 2024-10-01
   to: 2025-01-31
   nationality: mx
 - id: pinon
@@ -1538,8 +1553,8 @@
   given: Seanan
   family: Vilfroy
   role: coming-master
-  from: 2024-11-01
-  to: 2025-03-31
+  from: 2025-12-02
+  to: 2025-05-30
   nationality: fr
 - id: nasir
   given: Amneh
@@ -1555,13 +1570,6 @@
   from: 2024-11-01
   to: 2027-10-31
   nationality: fr
-- id: decoster
-  given: Eloi
-  family: Decoster
-  role: coming-master
-  from: 2024-09-01
-  to: 2025-02-28
-  nationality: fr
 - id: vega
   given: Piero
   family: Vega-Gutierrez
@@ -1572,6 +1580,7 @@
 - id: yada
   given: Shori
   family: Yada
+  name-jp: 矢田 頌理
   role: undergraduate
   from: 2024-09-01
   to: 2025-03-31
@@ -1598,3 +1607,32 @@
   to: 2025-2-28
   nationality: fr
   linkedin: https://www.linkedin.com/in/aymeric-cardot-46a20b255
+- id: pezet
+  given: Romain
+  family: Pezet
+  role: coming-master
+  from: 2025-04-01
+  to: 2025-08-31
+  nationality: fr
+- id: raut
+  given: Sahil
+  family: Raut
+  role: coming-engineer
+  from: 2024-11-01
+  to: 2025-03-31
+  nationality: in
+- id: bories
+  given: Maxime
+  family: Bories
+  role: coming-master
+  from: 2025-02-01
+  to: 2025-07-31
+  nationality: fr
+- id: durand
+  given: Hugo
+  family: Durand
+  role: coming-master
+  from: 2025-02-17
+  to: 2025-08-15
+  nationality: fr
+
