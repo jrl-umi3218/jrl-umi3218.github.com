@@ -4449,6 +4449,21 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/10697271
   lab: jrl
+- id: murooka:ral:2024
+  year: 2024
+  title: Whole-Body Multi-Contact Motion Control for Humanoid Robots Based on Distributed
+    Tactile Sensors
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: murooka
+  - id: fukumitsu
+  - id: hamze
+  - id: morisawa
+  - id: kaminaga
+  - id: kanehiro
+  - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/10706003
+  lab: jrl
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
