@@ -4465,6 +4465,7 @@
   - id: yoshida
   pdf: https://ieeexplore.ieee.org/document/10706003
   lab: jrl
+  month: november
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
