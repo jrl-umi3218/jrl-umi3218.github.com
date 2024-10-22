@@ -10303,6 +10303,7 @@
     given: Félix
   - family: Faupin
     given: Arnaud
+  pdf: https://hal.science/JRL/hal-04489352v1
   lab: jrl
   month: july 30-august 3
 - id: watier:isb:2023
@@ -10318,6 +10319,7 @@
     given: Teddy
   - family: Pillet
     given: Hélène
+  pdf: https://hal.science/JRL/hal-04489345v1
   lab: jrl
   month: july 30-august 3
 - id: deves:isb:2023
@@ -10332,6 +10334,7 @@
   - family: Faupin
     given: Arnaud
   - id: bwatier
+  pdf: https://hal.science/JRL/hal-04489340v1
   lab: jrl
   month: july 30-august 3
 - id: pillet:isb:2023
@@ -10345,6 +10348,7 @@
   - family: Bonnet
     given: Xavier
   - id: bwatier
+  pdf: https://hal.science/JRL/hal-04489336v1
   lab: jrl
   month: july 30-august 3
 - id: quaccia:sii:2024
