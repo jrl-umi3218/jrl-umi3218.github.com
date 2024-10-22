@@ -10291,6 +10291,62 @@
   pdf: https://link.springer.com/chapter/10.1007/978-981-99-8715-3_28
   lab: jrl
   month: december 3-december 7
+- id: alberca:isb:2023
+  year: 2023
+  title: COMPARISON BETWEEN BACKWARD AND FORWARD PROPULSION IN WHEELCHAIR BADMINTON
+  booktitle: International Society of Biomechanics
+  authors:
+  - family: Alberca
+    given: Ilona
+  - id: bwatier
+  - family: Chénier
+    given: Félix
+  - family: Faupin
+    given: Arnaud
+  lab: jrl
+  month: july 30-august 3
+- id: watier:isb:2023
+  year: 2023
+  title: BODY CENTER OF MASS TO MINIMAL MOMENT AXIS DISTANCE IS DETERMINANT OF AGE-RELATED
+    EVOLUTION IN STEPPING
+  booktitle: International Society of Biomechanics
+  authors:
+  - id: bwatier
+  - family: Begue
+    given: Jérémie
+  - family: Caderby
+    given: Teddy
+  - family: Pillet
+    given: Hélène
+  lab: jrl
+  month: july 30-august 3
+- id: deves:isb:2023
+  year: 2023
+  title: IN SITU VALIDATION OF POWER QUANTIFICATION FOR DYNAMIC WHEELCHAIR SPORTS
+  booktitle: International Society of Biomechanics
+  authors:
+  - family: Deves
+    given: Mathieu
+  - family: Marsan
+    given: Thibault
+  - family: Faupin
+    given: Arnaud
+  - id: bwatier
+  lab: jrl
+  month: july 30-august 3
+- id: pillet:isb:2023
+  year: 2023
+  title: INFLUENCE OF NEGLECTING FREE MOMENT AND TRANSVERSE GROUND REACTION FORCES
+    IN THE DETECTION OF THE INSTABILITY OF GAIT
+  booktitle: International Society of Biomechanics
+  authors:
+  - family: Pillet
+    given: Hélène
+  - family: Bonnet
+    given: Xavier
+  - id: bwatier
+  lab: jrl
+  month: july 30-august 3
 - id: quaccia:sii:2024
   year: 2024
   title: A Study on Learned Feature Maps Toward Direct Visual Servoing
