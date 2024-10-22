@@ -10447,6 +10447,32 @@
   month: october 14-october 18
   projects:
   - dvsstraight
+- id: miyake:iros:2024
+  year: 2024
+  title: 'Contacts from Motion: Learning Discrete Features for Automatic Contact Detection
+    and Estimation from Human Movements'
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: miyake
+  - id: ayusawa
+  - id: sagawa
+  - id: yoshida
+  lab: jrl
+  month: october 14-october 18
+- id: guadarramaolvera:iros:2024
+  year: 2024
+  title: Contact Stability Control of Stepping Over Partial Footholds Using Plantar
+    Tactile Feedback
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Guadarrama-Olvera
+    given: J.
+  - id: kajita
+  - id: kanehiro
+  - family: Cheng
+    given: Gordon
+  lab: jrl
+  month: october 14-october 18
 - id: hong:isea:2024
   year: 2024
   title: 'A cross-temporal robotic dance performance: Dancing with a humanoid robot
