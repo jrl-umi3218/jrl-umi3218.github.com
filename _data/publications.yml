@@ -10505,8 +10505,7 @@
     given: Lucas
   - family: Adjel
     given: Mohamed
-  - family: Bruno
-    given: Watier
+  - id: bwatier
   - family: Bonnet
     given: Vincent
   lab: jrl
