@@ -96,6 +96,18 @@
       {% else %}
       {{project.description}}
       {%- endif -%}
+      {%- if project.pi -%}
+      <h4>PI</h4>
+      {%- for m in site.data.members -%}
+        {%- if m.id == project.pi -%}
+          {%- assign member = m -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- capture member_page -%}members/member-{{member.id}}.html{%- endcapture -%}
+      {%- capture member_page_url -%}{{site.baseurl}}/{{member_page}}{%- endcapture -%}
+      <a href={{member_page_url}}>{{member.given}} {{member.family}}</a>
+      {%- endif -%}
       <h4>{% t project-page.period %}</h4>
       {{project.year-start}}-{{project.year-end}}
       {%- if project.funding -%}
