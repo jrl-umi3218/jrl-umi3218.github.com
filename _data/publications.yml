@@ -4478,6 +4478,23 @@
   pdf: https://doi.org/10.1080/23335432.2023.2268686
   lab: jrl
   month: november
+- id: pomarat:dart:2024
+  year: 2024
+  title: Wheelchair caster power losses due to rolling resistance on sports surfaces
+  booktitle: 'Disability and Rehabilitation: Assistive Technology'
+  authors:
+  - family: Pomarat
+    given: Z.
+  - family: Marsan
+    given: T.
+  - family: Faupin
+    given: A.
+  - family: Landon
+    given: Y.
+  - id: bwatier
+  pdf: https://laas.hal.science/hal-04725578
+  lab: jrl
+  month: september
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
