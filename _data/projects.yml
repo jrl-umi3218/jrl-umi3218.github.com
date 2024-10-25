@@ -1,6 +1,7 @@
 - id: call
   title: "CALL"
   longtitle: "CALL: Cobotic AppLication for handover and Load transport"
+  pi: carong
   year-start: 2025
   year-end: 2028
   funding: ANR
@@ -14,6 +15,7 @@
 - id: antnoid
   title: "Ant'noid"
   longtitle: "Ant'noid: ant visual memory for humanoid robot autonomous navigation"
+  pi: carong
   year-start: 2024
   year-end: 2028
   funding: ANR
@@ -27,6 +29,7 @@
 - id: m2sv
   title: "M2SV"
   longtitle: "M2SV: Mobile Manipulator control based on Spherical Vision"
+  pi: carong
   year-start: 2023
   year-end: 2025
   funding: CNRS GDR ISIS
@@ -46,6 +49,7 @@
 - id: zero
   title: "Z"
   longtitle: "Z: Zero-Shot Learning of Real-World AI Connecting Large-Scale Learning Models and 3D Virtual Space"
+  pi: yoshiyasu
   year-start: 2023
   year-end: 2026
   funding: JSPS
@@ -115,6 +119,7 @@
 - id: dvsstraight
   title: "DVS-Straight"
   longtitle: "DVS-Straight: Direct Visual Servoing of robot with optimal 3D trajectories"
+  pi: carong
   year-start: "2021.10"
   year-end: 2025.3
   funding: AIST ITH
@@ -269,6 +274,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   title: "iCPH"
   longtitle: "Interactive cyber-physical human: Generating contact-rich whole-body motions"
   longtitle-jp: "サイバーフィジカルヒューマンによる全身接触運動の包括的データ駆動学習・予測・生成"
+  pi: morisawa
   year-start: 2022.4
   year-end: 2027.3
   funding: JSPS Grant-in-Aid for Scientific Research (S)
@@ -283,6 +289,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   title: "ICPS"
   longtitle: "Industrial Cyber-Physical Systems"
   longtitle-jp: "インダストリアルCPS"
+  pi: kanehiro
   year-start: 2020.4
   year-end: 2025.3
   funding: AIST
@@ -319,6 +326,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
 - id: jrp_khi
   title: "Friends"
   longtitle: "Joint Research on Airplane Manufacturing Humanoid Robot"
+  pi: kanehiro
   year-start: 2020.4
   year-end: 2025.3
   active: true
@@ -330,6 +338,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
 - id: sigrole
   title: SIGRoLe
   longtitle: "Self-Improving AI for seamless human-guided robot learning"
+  pi: cisneros
   year-start: 2023.11
   year-end: 2026.3
   active: true
@@ -339,6 +348,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
 - id: hican
   title: HICAN
   longtitle: "Human-Inclusive Dynamic Control and Navigation for Next-Gen Robotics "
+  pi: benalleguem
   year-start: 2023.11
   year-end: 2026.3
   active: true
@@ -349,6 +359,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   title: "RLOptMCP"
   longtitle: "Development of multi-contact motion planning based on learned future contact feasibility"
   longtitle-jp: "接触の将来性学習に基づく多点接触動作計画の実現"
+  pi: kumagai
   year-start: 2023.4
   year-end: 2026.3
   funding: JSPS Grant-in-Aid for Early-Career Scientists
@@ -360,6 +371,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   title: ImpAdm
   longtitle: "Impact/Overload Management for Admittance-Type Mechatronic Devices Using Nonsmooth Controllers"
   longtitle-jp: "アドミッタンス型メカトロ機器のための非平滑制御則を用いた撃力・過荷重マネジメント"
+  pi: cisneros
   year-start: 2024.4
   year-end: 2027.3
   funding: JSPS Grant-in-Aid for Scientific Research (B)
