@@ -47,13 +47,34 @@
   skills: Mechanical design, Basic electronics, Basic numerical optimization
 - id: shared_control
   title: AI-aided teleoperation to achieve seamless telepresence for non-experts
+  grade: Master/PhD
+  description: >
+    <ul>
+      <li>Development of semi-automatic grasping and user intention recognition technologies</li>
+      <li>Efficient combination of machine learning and human guidance to achieve AI-aided teleoperation</li>
+      <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
+    </ul>
+  skills: C++, Python, Linux, machine learning
+- id: objects_wild
+  title: Pose estimation and mesh reconstruction of objects in the wild
   grade: Master
   description: >
     <ul>
       <li>Identify objects of interest in the visible field of view without prior knowledge</li>
       <li>Identify major affordances and display them as AR visual aids</li>
+      <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
     </ul>
-  skills: C++, Python, basic familiarity with Linux, some knwoledge related to computer vision
+  skills: C++, Python, Linux, computer vision for object pose detection
+- id: immersive_teleoperation
+  title: Enhanced visual feedback for immersive humanod robot teleoperation
+  grade: Master
+  description: >
+    <ul>
+      <li>Achieve an immersive experience for the operator of an avatar in a remote location</li>
+      <li>Use of SLAM and AR to complement visual information outside of the field of view of the robot</li>
+      <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
+    </ul>
+  skills: Unity/Unreal, computer vision, SLAM
 - id: mobile_robot
   title: Navigation and control of a mobile robot with mounted arm
   grade: Master
@@ -61,8 +82,29 @@
     <ul>
       <li>Develop autonomous/teleoperated navigation for a mobile robot</li>
       <li>Develop controller for robotic arm mounted on the mobile robot to perform real-world tasks</li>
+      <li>Related project: <a href="../en/projects/project-icps.html">ICPS</a></li>
     </ul>
-  skills: C++, Python, ROS, basic familiarity with Linux, some knowledge of robotics 
+  skills: C++, Python, ROS2, Linux, planning and control of mobile robots and manipulators
+- id: impact_management
+  title: Impact management for humanoid robots using nonsmooth controllers
+  grade: Master/PhD
+  description: >
+    <ul>
+      <li>Develop and implement non-smooth controllers for dealing with impacts</li>
+      <li>Realize hammering, nail-gun and jumping tasks using humanoid robots</li>
+      <li>Related project: <a href="../en/projects/project-impadm.html">ImpAdm</a></li>
+    </ul>
+  skills: C++, Linux, dynamics, non-linear control theory
+- id: inflatable_module
+  title: Simulation and control of an inflatable module mockup
+  grade: Master
+  description: >
+    <ul>
+      <li>Simulate the dynamics of a cylindric inflatable module</li>
+      <li>Control the inflation sequence of the chambers of the module to achieve controlled rolling</li>
+      <li>Validate control using a small mockup</li>
+    </ul>
+  skills: C++, Linux, CAD design, FEM-based simulation, fluid mechanics, non-linear control theory
 - id: mcl
   title: Responsive multi-contact locomotion
   description: >
