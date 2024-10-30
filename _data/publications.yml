@@ -10587,6 +10587,80 @@
     given: Vincent
   lab: jrl
   month: september 1-september 4
+- id: singh:humanoids:2024
+  year: 2024
+  title: Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement
+    Learning
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: singh
+  - id: morisawa
+  - id: benalleguem
+  - family: Xie
+    given: Zhaoming
+  - id: kanehiro
+  lab: jrl
+  month: november 22-november 24
+- id: wang:humanoids:2024
+  year: 2024
+  title: Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: wang
+  - id: ayusawa
+  - id: yoshida
+  lab: jrl
+  month: november 22-november 24
+- id: tako:humanoids:2024
+  year: 2024
+  title: Tactile Sensor-Based Detection of Partial Foothold for Balance Control in
+    Humanoid Robots
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: tako
+  - family: Cisneros Limon
+    given: Rafael
+  - id: kaminaga
+  - id: kaneko
+  - id: murooka
+  - id: kumagai
+  - family: Masuzawa
+    given: Hiroaki
+  - family: Kakiuchi
+    given: Yohei
+  lab: jrl
+  month: november 22-november 24
+- id: chalabi:humanoids:2024
+  year: 2024
+  title: Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine
+    Learning
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Chalabi
+    given: Kahina
+  - family: Adjel
+    given: Mohamed
+  - family: Bousquet
+    given: Thomas
+  - family: Sabbah
+    given: Maxime
+  - id: bwatier
+  - family: Bonnet
+    given: Vincent
+  lab: jrl
+  month: november 22-november 24
+- id: chefchaounimoussaoui::humanoids:2024
+  year: 2024
+  title: Motion Accuracy and Computational Effort in QP-Based Robot Control
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: chefchaouni
+  - id: benalleguem
+  - id: escande
+  - family: Wieber
+    given: Pierre-Brice
+  lab: jrl
+  month: november 22-november 24
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
