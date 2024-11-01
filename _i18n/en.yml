@@ -121,6 +121,21 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 2024/11/1
+    content: >
+      Three members, <a href="members/member-nasir.html">Amneh Nasir</a>, <a href="members/member-vazquez.html">David Vázquez Leal</a>, and <a href="members/member-kikuchi.html">Misaki Kikuchi</a> joined and three members, <a href="members/member-lefevre.html">Hugo Lefevre</a>, <a href="members/member-guillaume.html">Constantin Guillaume</a> and <a href="members/member-schulte.html">Sinta Schulte</a> finished their stays at the JRL.<br>
+      Two papers were presented at the ICRA@40<br>
+      <ul>
+      <li>Impact-Aware Dual-Arm Manipulation</li>
+      <li><a href="https://ieeexplore.ieee.org/document/10463090">Dual-Hemispherical Photometric Visual Servoing</a></li>
+      </ul>
+      Four papers were presented at the IROS 2024<br>
+      <ul>
+      <li>Contact Stability Control of Stepping Over Partial Footholds Using Plantar Tactile Feedback</li>
+      <li><a href="https://ieeexplore.ieee.org/document/10400898">Planning Impact-Driven Logistic Tasks</a></li>
+      <li>Contacts from Motion: Learning Discrete Features for Automatic Contact Detection and Estimation from Human Movements</li>
+      <li><a href="https://hal.science/hal-04650438">A Mathematical Characterization of the Convergence Domain for Direct Visual Servoing</a></li>
+      </ul>
   - date: 2024/10/1
     content: >
       Five members, <a href="members/member-benalleguea.html">Abdelaziz Benallegue</a>, <a href="members/member-taruf.html">Imane Taruf</a>, <a href="members/member-cardot.html">Aymeric Cardot</a>, <a href="members/member-stefanell.html">Hélène Stefanell</a>, and <a href="memebers/member-yada.html">Shori Yada</a> joined and five members, <a href="members/member-aymes.html">Malo Aymes</a>, <a href="members/member-crequer.html">Gwendal Crequer</a>, <a href="members/member-paula.html">Matheus Paula</a>, <a href="members/member-sevillano.html">Kimbery Grace Sevillano C.</a> and <a href="members/member-harle.html">Damien Harlé</a> finished their internships at the JRL.<br>
