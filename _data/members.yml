@@ -442,8 +442,12 @@
   given: Iori
   family: Kumagai
   name-jp: 熊谷 伊織
-  role: permanent
-  from: 2020-04-01
+  role: adjunct
+  from: 2024-11-01
+  to: 2025-10-31
+  past-roles:
+    - role: permanent
+      to: 2024-10-31
   bio: >
     received the Ph.D. degree in information science and technology from The University of Tokyo, Japan, in 2017. He joined Intelligent Systems Research Institute in National Institute of Advanced Industrial Science and Technology (AIST) in 2017 as a researcher. His research interest includes perception, locomotion planning and system integration for humanoid robots.
   nationality: jp
@@ -1043,7 +1047,7 @@
   given: Bruno
   family: Watier
   role: alumni
-  from: 2023-08-01
+  from: 2024-08-01
   past-roles:
     - role: permanent
       from: 2024-02-01
@@ -1422,7 +1426,7 @@
   given: Marie
   family: Samson
   role: alumni
-  from: 2023-08-01
+  from: 2024-08-01
   past-roles:
     - role: master
       from: 2024-02-05
@@ -1461,9 +1465,12 @@
 - id: schulte
   given: Sinta
   family: Schulte
-  role: undergraduate
-  from: 2024-05-07
-  to: 2024-10-31
+  role: alumni
+  from: 2024-11-01
+  past-roles:
+    - role: undergraduate
+      from: 2024-05-07
+      to: 2024-10-31
   nationality: de
 - id: aymes
   given: Malo
@@ -1496,15 +1503,18 @@
 - id: guillaume
   given: Constantin
   family: Guillaume
-  role: master
-  from: 2024-05-27
-  to: 2024-10-04
+  role: alumni
+  from: 2024-10-05
+  past-roles:
+    - role: master
+      from: 2024-05-27
+      to: 2024-10-04
   nationality: fr
 - id: noel
   given: Ocean
   family: Noel
   role: alumni
-  from: 2023-08-01
+  from: 2024-08-01
   past-roles:
     - role: master
       from: 2023-10-09
@@ -1539,7 +1549,7 @@
 - id: vazquez
   given: David
   family: Vázquez Leal
-  role: coming-undergraduate
+  role: undergraduate
   from: 2024-10-01
   to: 2025-01-31
   nationality: mx
@@ -1547,8 +1557,8 @@
   given: Pierre
   family: Pinon
   role: coming-phd
-  from: 2024-11-01
-  to: 2027-10-31
+  from: 2024-12-01
+  to: 2027-11-30
   nationality: fr
 - id: vilfroy
   given: Seanan
@@ -1560,7 +1570,7 @@
 - id: nasir
   given: Amneh
   family: Nasir
-  role: coming-phd
+  role: phd
   from: 2024-10-01
   to: 2027-09-30
   nationality: jo
@@ -1568,8 +1578,8 @@
   given: Elisa
   family: Lannelongue
   role: coming-phd
-  from: 2024-11-01
-  to: 2027-10-31
+  from: 2024-11-18
+  to: 2027-11-30
   nationality: fr
 - id: vega
   given: Piero
@@ -1589,9 +1599,12 @@
 - id: lefevre
   given: Hugo
   family: Lefevre
-  role: phd
-  from: 2024-08-26
-  to: 2024-10-25
+  role: alumni
+  from: 2024-10-26
+  past-roles:
+    - role: phd
+      from: 2024-08-26
+      to: 2024-10-25
   nationality: fr
 - id: paik
   given: Albert
@@ -1607,18 +1620,11 @@
   from: 2025-04-01
   to: 2025-08-31
   nationality: fr
-- id: raut
-  given: Sahil
-  family: Raut
-  role: coming-engineer
-  from: 2024-11-01
-  to: 2025-03-31
-  nationality: in
 - id: bories
   given: Maxime
   family: Bories
   role: coming-master
-  from: 2025-02-01
+  from: 2025-02-03
   to: 2025-07-31
   nationality: fr
 - id: durand
@@ -1628,4 +1634,46 @@
   from: 2025-02-17
   to: 2025-08-15
   nationality: fr
-
+- id: kikuchi
+  given: Misaki
+  family: Kikuchi
+  name-jp: 菊池 美咲
+  role: engineer
+  from: 2024-10-01
+  to: 2025-03-31
+  nationality: jp
+- id: dhaene
+  given: Mathis
+  family: D'Haene
+  role: phd
+  from: 2024-11-01
+  to: 2027-10-31
+  nationality: fr
+- id: cariou
+  given: Alice
+  family: Cariou
+  role: coming-master
+  from: 2025-02-01
+  to: 2025-08-31
+  nationality: fr
+- id: leroy
+  given: Hippolyte
+  family: Leroy
+  role: coming-phd
+  from: 2025-01-01
+  to: 2027-12-31
+  nationality: fr
+- id: moussafir
+  given: Léo
+  family: Moussafir
+  role: coming-postdoc
+  from: 2025-01-01
+  to: 2025-12-31
+  nationality: fr
+- id: daligault
+  given: Celian
+  family: Daligault
+  role: coming-master
+  from: 2025-03-01
+  to: 2025-08-31
+  nationality: fr
