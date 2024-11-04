@@ -10618,8 +10618,7 @@
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
   - id: tako
-  - family: Cisneros Limon
-    given: Rafael
+  - id: cisneros
   - id: kaminaga
   - id: kaneko
   - id: murooka
