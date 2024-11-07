@@ -1,3 +1,30 @@
+- id: foundation
+  title: "RoboticsFoundationModel"
+  longtitle: "Research and Development on Generative AI Foundation Model in Physical Domain"
+  longtitle-jp: "フィジカル領域の生成AI基盤モデルに関する研究開発"
+  pi: murooka
+  year-start: 2024.4
+  year-end: 2027.3
+  funding: AIST
+  active: true
+  description: >
+    <p>We aim to develop and integrate AI foundation models of various modalities such as language, images, acoustics, and 3D point clouds to build robotics foundation models that enables motion planning and control of robots in the real world. The CNRS-AIST JRL, in collaboration with the Industrial CPS Research Center and the Artificial Intelligence Research Center, is working to develop robotics foundation models through the development of imitation learning methods that can realize difficult manipulation tasks in a data-driven manner.</p>
+  description-jp: >
+    <p>言語・画像・音響・三次元点群等の多様なモダリティのAI基盤モデルを開発し統合することでロボットの実世界における動作計画・制御を可能とするロボット基盤モデルを構築することを目指す。AIST-CNRSロボット工学連携研究ラボでは、インダストリアルCPS研究センターや人工知能研究センターと協力しながら、センサ計測に応じた繊細なロボットの運動が必要となる難易度の高いマニピュレーションタスクをデータドリブンに実現可能な模倣学習の開発を通してロボット基盤モデルの構築に取り組んでいる。</p>
+- id: kakenhi_wakate2022_murooka
+  title: "InteractivePlanning"
+  longtitle: "Interactive Robot Motion Planning System Capable of Acquiring Information by Human Instruction"
+  longtitle-jp: "人間からの教示により情報獲得可能な対話型ロボット動作計画システム"
+  pi: murooka
+  year-start: 2022.4
+  year-end: 2025.3
+  funding: JSPS Grant-in-Aid for Early-Career Scientists
+  funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 若手研究
+  active: true
+  description: >
+    <p>We aim to build a robotic system that enables humanoid robots and mobile manipulators to perform tasks that are difficult to execute fully autonomously with conventional planning methods by making complementary use of human teaching through demonstrations, gestures, and speech. In planning methods based on search and optimization, on-site human teaching of task-specific unknown information or information that requires exploration time enables the robot to immediately adapt to a new task and realize its behavior without the need for software modification.</p>
+  description-jp: >
+    <p>人型ロボットや移動型マニピュレータが、複雑環境三次元移動、大型物体運搬、複雑組み立て作業などの従来の計画手法では完全自律実行の困難であったタスクを、人間による実演・身振り・発話による教示を補完的に活用することで実現するためのロボットシステムを構築する。探索・最適化に基づいた計画手法において、タスク固有の未知情報や探索に時間を要する情報を人間がオンサイトで教示することで、ソフトウェアの変更を必要とせずに、ロボットが新しいタスクに即座に適応し動作を実現することを可能とする。</p>
 - id: call
   title: "CALL"
   longtitle: "CALL: Cobotic AppLication for handover and Load transport"
