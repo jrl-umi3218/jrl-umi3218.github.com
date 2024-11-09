@@ -4379,6 +4379,7 @@
   - id: kheddar
   pdf: https://doi.org/10.1080/10556788.2024.2307467
   lab: jrl
+  month: november
 - id: zhu:tm:2024
   year: 2024
   title: The Development of a 7-DoF Humanoid Arm for Driving Using a Task-Driven Design
@@ -4494,7 +4495,22 @@
   - id: bwatier
   pdf: https://laas.hal.science/hal-04725578
   lab: jrl
-  month: september
+- id: sabbah:isj:2024
+  year: 2024
+  title: Concurrent validity of embedded solutions for whole body dynamics analysis
+  booktitle: IEEE Sensors Journal
+  authors:
+  - family: Sabbah
+    given: Maxime
+  - id: bwatier
+  - family: Dumas
+    given: Raphael
+  - family: Gautier
+    given: Maxime
+  - family: Bonnet
+    given: Vincent
+  pdf: https://ieeexplore.ieee.org/document/10738286
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
