@@ -4467,6 +4467,20 @@
   pdf: https://ieeexplore.ieee.org/document/10706003
   lab: jrl
   month: november
+- id: zermane:ral:2024
+  year: 2024
+  title: Minimal Impact Pokes to Place Objects on Planar Surfaces
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Zermane
+    given: Ahmed
+  - id: moussafir
+  - family: Yan
+    given: Youcan
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10742560
+  lab: jrl
+  month: november
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
