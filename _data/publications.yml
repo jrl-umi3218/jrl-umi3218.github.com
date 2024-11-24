@@ -4467,6 +4467,8 @@
   pdf: https://ieeexplore.ieee.org/document/10706003
   lab: jrl
   month: november
+  projects:
+  - icph
 - id: zermane:ral:2024
   year: 2024
   title: Minimal Impact Pokes to Place Objects on Planar Surfaces
@@ -10566,6 +10568,8 @@
   - id: yoshida
   lab: jrl
   month: october 14-october 18
+  projects:
+  - icph
 - id: guadarramaolvera:iros:2024
   year: 2024
   title: Contact Stability Control of Stepping Over Partial Footholds Using Plantar
@@ -10631,6 +10635,8 @@
   - id: kanehiro
   lab: jrl
   month: november 22-november 24
+  projects:
+  - icph
 - id: wang:humanoids:2024
   year: 2024
   title: Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors
@@ -10641,6 +10647,8 @@
   - id: yoshida
   lab: jrl
   month: november 22-november 24
+  projects:
+  - icph
 - id: tako:humanoids:2024
   year: 2024
   title: Tactile Sensor-Based Detection of Partial Foothold for Balance Control in
