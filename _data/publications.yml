@@ -4527,6 +4527,21 @@
     given: Vincent
   pdf: https://ieeexplore.ieee.org/document/10738286
   lab: jrl
+- id: yan:nmi:2024
+  year: 2024
+  title: A soft skin with self-decoupled three-axis force-sensing taxels
+  booktitle: Nature Machine Intelligence
+  authors:
+  - family: Yan
+    given: Youcan
+  - family: Zermane
+    given: Ahmed
+  - family: Pan
+    given: Jia
+  - id: kheddar
+  pdf: https://www.nature.com/articles/s42256-024-00904-9
+  lab: jrl
+  month: november
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
