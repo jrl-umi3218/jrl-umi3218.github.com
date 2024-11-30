@@ -667,8 +667,12 @@
 - id: dallard
   given: Antonin
   family: Dallard
-  role: phd
-  from: 2020-10-01
+  role: alumni
+  from: 2024-11-16
+  past-roles:
+    - role: phd
+      from: 2020-10-01
+      to: 2024-11-15
   nationality: fr
   linkedin: https://www.linkedin.com/in/antonin-dallard-b7096814a
   bio: >
@@ -1577,7 +1581,7 @@
 - id: lannelongue
   given: Elisa
   family: Lannelongue
-  role: coming-phd
+  role: phd
   from: 2024-11-18
   to: 2027-11-30
   nationality: fr
@@ -1609,7 +1613,7 @@
 - id: paik
   given: Albert
   family: Paik
-  role: coming-undergraduate
+  role: undergraduate
   from: 2024-11-18
   to: 2025-02-14
   nationality: nz
@@ -1676,4 +1680,40 @@
   role: coming-master
   from: 2025-03-01
   to: 2025-08-31
+  nationality: fr
+- id: debbah
+  given: Anis
+  family: Debbah
+  role: coming-phd
+  from: 2025-03-01
+  to: 2028-02-29
+  nationality: dz
+- id: kajitsuka
+  given: Kotaro
+  family: Kajitsuka
+  name-jp: 梶塚 幸太朗
+  role: coming-master
+  from: 2025-04-01
+  to: 2027-03-31
+  nationality: jp
+- id: joyapaez
+  given: Sebastian
+  family: Joya Paez
+  role: coming-master
+  from: 2025-04-01
+  to: 2027-03-31
+  nationality: mx
+- id: tazeroualttlamcani
+  given: Ghita
+  family: Tazeroualt-Tlamcani
+  role: coming-master
+  from: 2025-05-05
+  to: 2025-09-14
+  nationality: ma
+- id: louapre
+  given: Ferdinand
+  family: Louapre
+  role: coming-master
+  from: 2025-02-17
+  to: 2025-07-31
   nationality: fr
