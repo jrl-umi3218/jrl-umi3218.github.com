@@ -121,6 +121,26 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2024/12/1
+    content: >
+      11月には<a href="members/member-dhaene.html">Mathis D'Haene</a>, <a href="members/member-lannelongue.html">Elisa Lannelongue</a> and <a href="members/member-paik.html">Albert Paik</a>の3名がメンバーとなり、<a href="members/member-dallard.html">Antonin Dallard</a>が博士号を取得しました。<br>
+      Nature Machine Intelligenceに"<a href=https://www.nature.com/articles/s42256-024-00904-9>A soft skin with self-decoupled three-axis force-sensing taxels</a>"が掲載されました。<br>
+      Optimization Methods and Softwareに"<a href=https://doi.org/10.1080/10556788.2024.2307467>Sequential hierarchical least-squares programming for prioritized non-linear optimal control</a>"が掲載されました。<br>
+      RA-Lettersに4本の論文が掲載されました。<br>
+      <ul>
+      <li><a href=https://ieeexplore.ieee.org/abstract/document/10609486>Compliant Contacts Balance-Force Controller for Legged Robots</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10706003>Whole-Body Multi-Contact Motion Control for Humanoid Robots Based on Distributed Tactile Sensors</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10742560>Minimal Impact Pokes to Place Objects on Planar Surfaces</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10697271>End-Effectors Changer Design for Humanoids</a></li>
+      </ul>
+      Humanoids2024で5件の発表を行いました。<br>
+      <ul>
+      <li>Motion Accuracy and Computational Effort in QP-Based Robot Control</li>
+      <li>Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</li>
+      <li>Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</li>
+      <li>Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors</li>
+      <li>Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</li>
+      </ul>
   - date: 2024/11/1
     content: >
       10月には<a href="members/member-nasir.html">Amneh Nasir</a>, <a href="members/member-vazquez.html">David Vázquez Leal</a>, <a href="members/member-kikuchi.html">菊池 美咲</a>の3名がメンバーとなり、<a href="members/member-lefevre.html">Hugo Lefevre</a>, <a href="members/member-guillaume.html">Constantin Guillauem</a>, <a href="members/member-shulte.html">Sinta Schulte</a>の3名がJRLでの活動を終了しました.<br>

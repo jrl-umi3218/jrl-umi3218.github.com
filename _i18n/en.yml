@@ -121,7 +121,27 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
-  - date: 2024/11/1
+  - date: 01/12/2024
+    content: >
+      Three members, <a href="members/member-dhaene.html">Mathis D'Haene</a>, <a href="members/member-lannelongue.html">Elisa Lannelongue</a> and <a href="members/member-paik.html">Albert Paik</a> joined and <a href="members/member-dallard.html">Antonin Dallard</a> defended this PhD thesis.<br>
+      "<a href=https://www.nature.com/articles/s42256-024-00904-9>A soft skin with self-decoupled three-axis force-sensing taxels</a>" was published in the Nature Machine Intelligence.<br>
+      "<a href=https://doi.org/10.1080/10556788.2024.2307467>Sequential hierarchical least-squares programming for prioritized non-linear optimal control</a>" was published in the Optimization Methods and Software.<br>
+      Four papers were published in the RA-Letters.<br>
+      <ul>
+      <li><a href=https://ieeexplore.ieee.org/abstract/document/10609486>Compliant Contacts Balance-Force Controller for Legged Robots</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10706003>Whole-Body Multi-Contact Motion Control for Humanoid Robots Based on Distributed Tactile Sensors</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10742560>Minimal Impact Pokes to Place Objects on Planar Surfaces</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10697271>End-Effectors Changer Design for Humanoids</a></li>
+      </ul>
+      Five papers were presented at the Humanoids2024.<br>
+      <ul>
+      <li>Motion Accuracy and Computational Effort in QP-Based Robot Control</li>
+      <li>Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</li>
+      <li>Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</li>
+      <li>Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors</li>
+      <li>Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</li>
+      </ul>
+  - date: 01/11/2024
     content: >
       Three members, <a href="members/member-nasir.html">Amneh Nasir</a>, <a href="members/member-vazquez.html">David Vázquez Leal</a>, and <a href="members/member-kikuchi.html">Misaki Kikuchi</a> joined and three members, <a href="members/member-lefevre.html">Hugo Lefevre</a>, <a href="members/member-guillaume.html">Constantin Guillaume</a> and <a href="members/member-schulte.html">Sinta Schulte</a> finished their stays at the JRL.<br>
       Two papers were presented at the ICRA@40<br>
@@ -136,26 +156,26 @@ news:
       <li>Contacts from Motion: Learning Discrete Features for Automatic Contact Detection and Estimation from Human Movements</li>
       <li><a href="https://hal.science/hal-04650438">A Mathematical Characterization of the Convergence Domain for Direct Visual Servoing</a></li>
       </ul>
-  - date: 2024/10/1
+  - date: 01/10/2024
     content: >
       Five members, <a href="members/member-benalleguea.html">Abdelaziz Benallegue</a>, <a href="members/member-taruf.html">Imane Taruf</a>, <a href="members/member-cardot.html">Aymeric Cardot</a>, <a href="members/member-stefanell.html">Hélène Stefanell</a>, and <a href="memebers/member-yada.html">Shori Yada</a> joined and five members, <a href="members/member-aymes.html">Malo Aymes</a>, <a href="members/member-crequer.html">Gwendal Crequer</a>, <a href="members/member-paula.html">Matheus Paula</a>, <a href="members/member-sevillano.html">Kimbery Grace Sevillano C.</a> and <a href="members/member-harle.html">Damien Harlé</a> finished their internships at the JRL.<br>
-  - date: 2024/9/1
+  - date: 01/09/2024
     content: >
       One member, <a href="members/member-lefevre.html">Hugo Lefevre</a> joined and three members, <a href="members/member-arslan.html">Mikael Arslan</a>, <a href="members/member-soucail.html">Martin Soucail</a> and <a href="members/member-chalanunt.html">Sirikorn Chalanunt</a> finished their internships at the JRL in August.<br>
       "<a href="https://www.sciencedirect.com/science/article/pii/S1746809424002933">Assessing time series correlation significance: A parametric approach with application to physiological signals</a>" was published in Biomedical Signal Processing and Control.
-  - date: 2024/8/1
+  - date: 01/08/2024
     content: >
       One member, <a href="members/member-duvinage.html">Thomas Duvinage</a> joined and three members, <a href="members/member-bwatier.html">Bruno Watier</a>, <a href="members/member-noel.html">Ocean Noel</a>, and <a href="members/member-samson.html">Marie Samson</a> left the JRL in July.<br>
       "<a href="https://hal.science/hal-04125159">Humanoid Loco-Manipulations using Combined Fast Dense 3D Tracking and SLAM with Wide-Angle Depth-Images</a>" was published in the IEEE T-ASE.
-  - date: 2024/7/1
+  - date: 01/07/2024
     content: >
       <a href="members/member-harle.html">Damien Harlé</a> joined in June.<br>
       "A cross-temporal robotic dance performance: Dancing with a humanoid robot and artificial life" was presented at ISEA2024.
-  - date: 2024/6/1
+  - date: 01/06/2024
     content: >
       Four members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-schulte.html">Sinta Schulte</a>, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, and <a href="members/member-guillaume.html">Constantin Guillaume</a> joined and one member, <a href="members/member-frizza.html">Irene Frizza</a> left the JRL in May.<br>
       "<a href="https://ieeexplore.ieee.org/document/10463090">Dual-Hemispherical Photometric Visual Servoing</a>" was published in the IEEE RA-L.
-  - date: 2024/5/17
+  - date: 17/05/2024
     content: >
       25 JRL members participated in the IEEE International Conference on Robotics and Automation (ICRA) and gave 15 presentations.
       <ul>
