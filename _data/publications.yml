@@ -4483,6 +4483,44 @@
   pdf: https://ieeexplore.ieee.org/document/10742560
   lab: jrl
   month: november
+- id: fournier:bmj:2024
+  year: 2024
+  title: Pilot study protocol evaluating the impact of telerobotics interactions with
+    autistic children during a Denver intervention on communication skills using single-case
+    experimental design
+  booktitle: BMJ Open
+  authors:
+  - family: Fournier
+    given: Carole
+  - family: Michelon
+    given: Cécile
+  - family: Granit
+    given: Véronique
+  - family: Audoyer
+    given: Paul
+  - family: Bernardot
+    given: Arielle
+  - family: Picot
+    given: Marie-Christine
+  - id: kheddar
+  - family: Baghdadli
+    given: Amaria
+  pdf: https://bmjopen.bmj.com/content/14/11/e084110
+  lab: jrl
+  month: october
+- id: osawa:cste:2024
+  year: 2024
+  title: Robot soft thermal display using self-heating and cooling system
+  booktitle: Case Studies in Thermal Engineering
+  authors:
+  - family: Osawa
+    given: Yukiko
+  - family: Ogura
+    given: Ichiro
+  - id: kheddar
+  pdf: https://www.sciencedirect.com/science/article/pii/S2214157X24013595
+  lab: jrl
+  month: november
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
@@ -10714,6 +10752,34 @@
     given: Pierre-Brice
   lab: jrl
   month: november 22-november 24
+- id: hong:hfr:2024
+  year: 2024
+  title: Integrating transformer-based AI-generated dance movements into HRP-4 for
+    human-robot artistic collaboration
+  booktitle: International Workshop on Human-Friendly Robotics
+  authors:
+  - family: Hong
+    given: Hui-Ting
+  - family: Chen
+    given: Chu-Yin
+  - id: kheddar
+  lab: jrl
+  month: september 30-october 1
+- id: hong:ro-man:2024
+  year: 2024
+  title: A Dance Performance with a Humanoid Robot using a Real-time Gesture Responsive
+    Framework
+  booktitle: International Symposium on Robot and Human Interactive Communication
+  authors:
+  - family: Hong
+    given: Hui-Ting
+  - family: Chen
+    given: Chu-Yin
+  - id: tanguy
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10731316
+  lab: jrl
+  month: august 26-august 30
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
