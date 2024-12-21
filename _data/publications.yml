@@ -4565,6 +4565,7 @@
     given: Vincent
   pdf: https://ieeexplore.ieee.org/document/10738286
   lab: jrl
+  month: december
 - id: yan:nmi:2024
   year: 2024
   title: A soft skin with self-decoupled three-axis force-sensing taxels
