@@ -10781,6 +10781,19 @@
   pdf: https://ieeexplore.ieee.org/document/10731316
   lab: jrl
   month: august 26-august 30
+- id: barstugan:iccr:2024
+  year: 2024
+  title: Aligning objects as preprocessing combined with imitation learning for improved
+    generalization
+  booktitle: International Conference on Control and Robotics
+  authors:
+  - family: Barstugan
+    given: Muchahid
+  - id: masuda
+  - id: sagawa
+  - id: kanehiro
+  lab: jrl
+  month: december 5-december 7
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
