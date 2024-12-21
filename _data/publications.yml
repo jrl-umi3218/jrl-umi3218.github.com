@@ -10688,6 +10688,7 @@
   - family: Xie
     given: Zhaoming
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10769793
   lab: jrl
   month: november 22-november 24
   projects:
@@ -10700,6 +10701,7 @@
   - id: wang
   - id: ayusawa
   - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/10769841
   lab: jrl
   month: november 22-november 24
   projects:
@@ -10720,6 +10722,7 @@
     given: Hiroaki
   - family: Kakiuchi
     given: Yohei
+  pdf: https://ieeexplore.ieee.org/document/10769855
   lab: jrl
   month: november 22-november 24
 - id: chalabi:humanoids:2024
@@ -10739,6 +10742,7 @@
   - id: bwatier
   - family: Bonnet
     given: Vincent
+  pdf: https://ieeexplore.ieee.org/document/10769846
   lab: jrl
   month: november 22-november 24
 - id: chefchaounimoussaoui::humanoids:2024
@@ -10751,6 +10755,7 @@
   - id: escande
   - family: Wieber
     given: Pierre-Brice
+  pdf: https://ieeexplore.ieee.org/document/10769961
   lab: jrl
   month: november 22-november 24
 - id: hong:hfr:2024
