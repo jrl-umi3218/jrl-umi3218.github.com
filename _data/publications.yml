@@ -10620,6 +10620,7 @@
   - id: ayusawa
   - id: sagawa
   - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/10802414
   lab: jrl
   month: october 14-october 18
   projects:
@@ -10636,6 +10637,7 @@
   - id: kanehiro
   - family: Cheng
     given: Gordon
+  pdf: https://ieeexplore.ieee.org/document/10802686
   lab: jrl
   month: october 14-october 18
 - id: hong:isea:2024
