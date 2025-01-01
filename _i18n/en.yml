@@ -121,6 +121,12 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/01/2025
+    content: >
+      Two members, <a href="members/member-pinon.html">Pierre Pinon</a> and <a href="members/member-vilfroy.html">Seanan Vilfroy</a> joined and <a href="members/member-sagawa.html">Ryusuke Sagawa</a> left the JRL in December.<p>
+      "<a href=https://laas.hal.science/hal-04725578>Wheelchair caster power losses due to rolling resistance on sports surfaces</a>" was published in the Disability and Rehabilitation: Assistive Technology.<br>
+      "<a href=https://ieeexplore.ieee.org/document/10738286>Concurrent validity of embedded solutions for whole body dynamics analysis</a>" was published in the IEEE Sensors Journal.<br>
+      "Aligning objects as preprocessing combined with imitation learning for improved generalization" was presented at the International Conference on Control and Robotics 2024.
   - date: 01/12/2024
     content: >
       Three members, <a href="members/member-dhaene.html">Mathis D'Haene</a>, <a href="members/member-lannelongue.html">Elisa Lannelongue</a> and <a href="members/member-paik.html">Albert Paik</a> joined and <a href="members/member-dallard.html">Antonin Dallard</a> defended this PhD thesis.<br>
@@ -135,11 +141,11 @@ news:
       </ul>
       Five papers were presented at the Humanoids2024.<br>
       <ul>
-      <li>Motion Accuracy and Computational Effort in QP-Based Robot Control</li>
-      <li>Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</li>
-      <li>Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</li>
-      <li>Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors</li>
-      <li>Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769961">Motion Accuracy and Computational Effort in QP-Based Robot Control</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769846">Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769855">Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769841">Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769793">Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</a></li>
       </ul>
   - date: 01/11/2024
     content: >
