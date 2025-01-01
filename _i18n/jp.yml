@@ -121,7 +121,13 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
-  - date: 2024/12/1
+  - date: 2025/01/01
+    content: >
+      12月には<a href="members/member-pinon.html">Pierre Pinon</a>と<a href="members/member-vilfroy.html">Seanan Vilfroy</a>の2名がメンバーとなり、<a href="members/member-sagawa.html">Ryusuke Sagawa</a>がJRLでの活動を終了しました。<p>
+      "<a href=https://laas.hal.science/hal-04725578>Wheelchair caster power losses due to rolling resistance on sports surfaces</a>"がDisability and Rehabilitation: Assistive Technologyに掲載されました。<br>
+      "<a href=https://ieeexplore.ieee.org/document/10738286>Concurrent validity of embedded solutions for whole body dynamics analysis</a>"がIEEE Sensors Journalに掲載されました。<br>
+      "Aligning objects as preprocessing combined with imitation learning for improved generalization"をInternational Conference on Control and Robotics 2024で発表しました。
+  - date: 2024/12/01
     content: >
       11月には<a href="members/member-dhaene.html">Mathis D'Haene</a>, <a href="members/member-lannelongue.html">Elisa Lannelongue</a> and <a href="members/member-paik.html">Albert Paik</a>の3名がメンバーとなり、<a href="members/member-dallard.html">Antonin Dallard</a>が博士号を取得しました。<br>
       Nature Machine Intelligenceに"<a href=https://www.nature.com/articles/s42256-024-00904-9>A soft skin with self-decoupled three-axis force-sensing taxels</a>"が掲載されました。<br>
@@ -135,11 +141,11 @@ news:
       </ul>
       Humanoids2024で5件の発表を行いました。<br>
       <ul>
-      <li>Motion Accuracy and Computational Effort in QP-Based Robot Control</li>
-      <li>Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</li>
-      <li>Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</li>
-      <li>Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors</li>
-      <li>Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769961">Motion Accuracy and Computational Effort in QP-Based Robot Control</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769846">Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769855">Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769841">Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769793">Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</a></li>
       </ul>
   - date: 2024/11/1
     content: >

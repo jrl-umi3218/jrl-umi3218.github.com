@@ -314,9 +314,12 @@
   given: Ryusuke
   family: Sagawa
   name-jp: 佐川 立昌
-  role: adjunct
-  from: 2020-04-01
+  role: alumni
+  from: 2025-01-01
   past-roles:
+    - role: adjunct
+      from: 2020-04-01
+      to: 2024-12-31
     - role: permanent
       to: 2020-03-31
   nationality: jp
@@ -1560,15 +1563,15 @@
 - id: pinon
   given: Pierre
   family: Pinon
-  role: coming-phd
+  role: phd
   from: 2024-12-01
   to: 2027-11-30
   nationality: fr
 - id: vilfroy
   given: Seanan
   family: Vilfroy
-  role: coming-master
-  from: 2025-12-02
+  role: master
+  from: 2024-12-02
   to: 2025-05-30
   nationality: fr
 - id: nasir
@@ -1589,8 +1592,8 @@
   given: Piero
   family: Vega-Gutierrez
   role: coming-master
-  from: 2025-04-01
-  to: 2025-08-31
+  from: 2025-04-28
+  to: 2025-08-22
   nationality: fr
 - id: yada
   given: Shori
@@ -1621,8 +1624,8 @@
   given: Romain
   family: Pezet
   role: coming-master
-  from: 2025-04-01
-  to: 2025-08-31
+  from: 2025-04-28
+  to: 2025-08-22
   nationality: fr
 - id: bories
   given: Maxime
@@ -1653,18 +1656,25 @@
   from: 2024-11-01
   to: 2027-10-31
   nationality: fr
+- id: herklet
+  given: Emilien
+  family: Herklet
+  role: coming-master
+  from: 2025-01-06
+  to: 2025-03-31
+  nationality: fr
 - id: cariou
   given: Alice
   family: Cariou
   role: coming-master
-  from: 2025-02-01
-  to: 2025-08-31
+  from: 2025-02-20
+  to: 2025-08-20
   nationality: fr
 - id: leroy
   given: Hippolyte
   family: Leroy
   role: coming-phd
-  from: 2025-01-01
+  from: 2025-01-06
   to: 2027-12-31
   nationality: fr
 - id: moussafir
@@ -1681,13 +1691,6 @@
   from: 2025-03-01
   to: 2025-08-31
   nationality: fr
-- id: debbah
-  given: Anis
-  family: Debbah
-  role: coming-phd
-  from: 2025-03-01
-  to: 2028-02-29
-  nationality: dz
 - id: kajitsuka
   given: Kotaro
   family: Kajitsuka
@@ -1717,3 +1720,52 @@
   from: 2025-02-17
   to: 2025-07-31
   nationality: fr
+- id: forgiel
+  given: Anatole
+  family: Forgiel
+  role: coming-master
+  from: 2025-04-01
+  to: 2025-06-27
+  nationality: fr
+- id: dorfani
+  given: Raphaël
+  family: d'Orfani
+  role: coming-master
+  from: 2025-04-01
+  to: 2025-09-30
+  nationality: fr
+- id: robert
+  given: Gauvain
+  family: Robert
+  role: coming-phd
+  from: 2025-04-01
+  to: 2028-03-31
+  nationality: fr
+- id: oubraim
+  given: Walid
+  family: Oubraim
+  role: coming-master
+  from: 2025-03-20
+  to: 2025-09-18
+  nationality: fr
+- id: vu
+  given: Jimmy
+  family: Vu
+  role: coming-master
+  from: 2025-04-01
+  to: 2025-10-10
+  nationality: fr
+- id: hernandezvaldez
+  given: Eduardo
+  family: Hernandez-Valdez
+  role: coming-undergraduate
+  from: 2025-06-24
+  to: 2026-02-15
+  nationality: mx
+- id: mesaros
+  given: David
+  family: Mesaros
+  role: coming-non-degree
+  from: 2025-04-01
+  to: 2026-03-31
+  nationality: rs
