@@ -10666,6 +10666,7 @@
   - id: kheddar
   - family: Chen
     given: C-Y.
+  pdf: https://www.isea-archives.org/isea2024_presentation_hong_et-al/
   lab: jrl
   month: june 21-june 29
 - id: sabbah:biorob:2024
@@ -10831,8 +10832,7 @@
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
   - id: noel
-  - family: Cisneros Limon
-    given: Rafael
+  - id: cisneros
   - id: kaneko
   - id: kanehiro
   lab: jrl
