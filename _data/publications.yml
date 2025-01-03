@@ -4593,6 +4593,8 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/10819609
   lab: jrl
+  projects:
+  - kakenhi_wakate2023_kumagai
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -10825,6 +10827,8 @@
   - id: kanehiro
   lab: jrl
   month: january 21-january 24
+  projects:
+  - icps
 - id: noel:sii:2025
   year: 2025
   title: 'A Lightweight Approach to Efficient Multimodal 2D Navigation and Mapping:
@@ -10837,6 +10841,8 @@
   - id: kanehiro
   lab: jrl
   month: january 21-january 24
+  projects:
+  - icps
 - id: schulte:sii:2025
   year: 2025
   title: On the Impact of the Camera Field-Of-View to Direct Visual Servoing Robot
