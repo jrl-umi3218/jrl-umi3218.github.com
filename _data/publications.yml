@@ -4581,6 +4581,18 @@
   pdf: https://www.nature.com/articles/s42256-024-00904-9
   lab: jrl
   month: november
+- id: kumagai:ral:2025
+  year: 2025
+  title: Reinforcement Learning of Contact Preferability in Multi-contact Locomotion
+    Planning for Humanoids
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: kumagai
+  - id: murooka
+  - id: morisawa
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10819609
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
