@@ -10856,6 +10856,8 @@
   - id: carong
   lab: jrl
   month: january 21-january 24
+  projects:
+  - dvsstraight
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
