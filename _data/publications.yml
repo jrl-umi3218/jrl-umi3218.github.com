@@ -4595,6 +4595,23 @@
   lab: jrl
   projects:
   - kakenhi_wakate2023_kumagai
+- id: lefevre:ral:2025
+  year: 2025
+  title: Humanoid-Human Sit-to-Stand-to-Sit Assistance
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Lefévre
+    given: Hugo
+  - family: Chaki
+    given: Tomohiro
+  - family: Kawakami
+    given: Tomohiro
+  - id: tanguy
+  - family: Yoshiike
+    given: Takahide
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10815980
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
