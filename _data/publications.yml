@@ -4593,6 +4593,7 @@
   - id: kanehiro
   pdf: https://ieeexplore.ieee.org/document/10819609
   lab: jrl
+  month: february
   projects:
   - kakenhi_wakate2023_kumagai
 - id: lefevre:ral:2025
