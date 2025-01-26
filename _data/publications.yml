@@ -4613,6 +4613,38 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/10815980
   lab: jrl
+- id: benallegue:ram:2025
+  year: 2025
+  title: 'Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated
+    Tasks in a Nursing Context'
+  booktitle: IEEE Robotics & Automation Magazine
+  authors:
+  - id: benalleguem
+  - id: glorthioir
+  - id: dallard
+  - id: cisneros
+  - id: kumagai
+  - id: morisawa
+  - id: kaminaga
+  - id: murooka
+  - family: Andre
+    given: Antoine
+  - id: gergondet
+  - id: kaneko
+  - id: carong
+  - id: kanehiro
+  - id: kheddar
+  - family: Yukizaki
+    given: Soh
+  - family: Karasuyama
+    given: Junichi
+  - family: Murakami
+    given: Junichi
+  - family: Kamon
+    given: Masayuki
+  lab: jrl
+  projects:
+  - jrp_khi
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
