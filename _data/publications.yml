@@ -4642,6 +4642,7 @@
     given: Junichi
   - family: Kamon
     given: Masayuki
+  pdf: https://ieeexplore.ieee.org/document/10852168
   lab: jrl
   projects:
   - jrp_khi
