@@ -4646,6 +4646,21 @@
   lab: jrl
   projects:
   - jrp_khi
+- id: sun:aei:2025
+  year: 2025
+  title: Enhancing multimodal-input object goal navigation by leveraging large language
+    models for inferring room–object relationship knowledge
+  booktitle: Advanced Engineering Informatics
+  authors:
+  - id: sun
+  - family: Kanezaki
+    given: Asako
+  - id: carong
+  - id: yoshiyasu
+  pdf: https://www.sciencedirect.com/science/article/pii/S147403462500028X
+  lab: jrl
+  projects:
+  - zero
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -10955,9 +10970,6 @@
     given: Katja
   - family: Berns
     given: Karsten
-- id: sun:aei:2025
-  projects:
-  - zero
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
