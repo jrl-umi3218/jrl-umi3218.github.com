@@ -10905,6 +10905,7 @@
   - family: Crombez
     given: Nathan
   - id: carong
+  pdf: https://hal.science/hal-04810271v1
   lab: jrl
   month: january 21-january 24
   projects:
@@ -10954,6 +10955,9 @@
     given: Katja
   - family: Berns
     given: Karsten
+- id: sun:aei:2025
+  projects:
+  - zero
 - id: traversaro:iros:2016
   year: 2016
   title: Identification of Fully Physical Consistent Inertial Parameters using Optimization
