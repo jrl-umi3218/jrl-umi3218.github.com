@@ -121,6 +121,15 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2025/02/01
+    content: >
+      1月にはo<a href="members/member-herklet.html">Emilien Herklet</a>と<a href="members/member-leroy.html">Hippolyte Leroy</a>の2名がメンバーとなりました。<br>
+      SII2025で3件の発表を行いました。<br>
+      <ul>
+      <li>Scalable, Training-Free Visual Language Robotics: A Modular Multi-Model Framework for Consumer-Grade GPUs</li>
+      <li>A Lightweight Approach to Efficient Multimodal 2D Navigation and Mapping: Unified Laser-Scans As an Alternative to 3D Methods</li>
+      <li>On the Impact of the Camera Field-Of-View to Direct Visual Servoing Robot Trajectories When Using the Photometric Gaussian Mixtures As Dense Feature</li>
+      </ul>
   - date: 2025/01/01
     content: >
       12月には<a href="members/member-pinon.html">Pierre Pinon</a>と<a href="members/member-vilfroy.html">Seanan Vilfroy</a>の2名がメンバーとなり、<a href="members/member-sagawa.html">Ryusuke Sagawa</a>がJRLでの活動を終了しました。<p>
