@@ -121,6 +121,15 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/02/2025
+    content: >
+      Two members, <a href="members/member-herklet.html">Emilien Herklet</a> and <a href="members/member-leroy.html">Hippolyte Leroy</a> joined.<br>
+      Three papers were presented at the SII2025.<br>
+      <ul>
+      <li>Scalable, Training-Free Visual Language Robotics: A Modular Multi-Model Framework for Consumer-Grade GPUs</li>
+      <li>A Lightweight Approach to Efficient Multimodal 2D Navigation and Mapping: Unified Laser-Scans As an Alternative to 3D Methods</li>
+      <li>On the Impact of the Camera Field-Of-View to Direct Visual Servoing Robot Trajectories When Using the Photometric Gaussian Mixtures As Dense Feature</li>
+      </ul>
   - date: 01/01/2025
     content: >
       Two members, <a href="members/member-pinon.html">Pierre Pinon</a> and <a href="members/member-vilfroy.html">Seanan Vilfroy</a> joined and <a href="members/member-sagawa.html">Ryusuke Sagawa</a> left the JRL in December.<p>
