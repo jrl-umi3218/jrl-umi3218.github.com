@@ -42,9 +42,7 @@
   authors:
   - id: yoshida
   - family: Arai
-    given: Tamio
-  - family: Yamamoto
-    given: Masakazu
+    given: Tamio Yand Yamamoto
   - family: Ota
     given: Jun
   pdf: https://staff.aist.go.jp/e.yoshida/papers/jrs98.pdf
@@ -4661,6 +4659,20 @@
   lab: jrl
   projects:
   - zero
+- id: andre:tro:2025
+  year: 2025
+  title: 'UniphorM: A New Uniform Spherical Image Representation for Robotic Vision'
+  booktitle: IEEE Transactions on Robotics
+  authors:
+  - family: Andre
+    given: Antoine
+  - family: Morbidi
+    given: Fabio
+  - id: carong
+  pdf: ''
+  lab: jrl
+  projects:
+  - dvsstraight
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
