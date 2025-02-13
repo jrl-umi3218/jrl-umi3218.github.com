@@ -9998,6 +9998,8 @@
   pdf: https://ieeexplore.ieee.org/document/9659324
   lab: jrl
   month: december 6-december 10
+  projects:
+  - dvsstraight
 - id: roux:icar:2021
   year: 2021
   title: Control of Humanoid in Multiple Fixed and Moving Unilateral Contacts
