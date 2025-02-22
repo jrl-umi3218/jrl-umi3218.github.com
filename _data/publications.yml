@@ -4673,6 +4673,33 @@
   lab: jrl
   projects:
   - dvsstraight
+- id: poquerusse:mbj:2025
+  year: 2025
+  title: Measurement of skidding to determine the optimum ergonomic configuration
+    of the racing wheelchair
+  booktitle: Multidisciplinary Biomechanics Journal
+  authors:
+  - family: Poquerusse
+    given: N.
+  - family: Hays
+    given: A.
+  - family: Cortial
+    given: A.
+  - family: Vigié
+    given: O.
+  - family: Deves
+    given: M.
+  - family: Alberca
+    given: I.
+  - family: Honnorat
+    given: L.
+  - family: Watier
+    given: B.
+  - family: Faupin
+    given: A.
+  pdf: http://mbj.episciences.org/14556
+  lab: jrl
+  month: january
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
