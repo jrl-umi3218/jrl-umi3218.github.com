@@ -1021,13 +1021,15 @@
   past-roles:
     - role: postdoc
       from: 2023-01-09
-      to: 2025-01-08
+      to: 2026-01-08
   nationality: fr
   linkedin: "https://www.linkedin.com/in/caillotantoine"
   github: "https://github.com/caillotantoine"
+  website: "https://caillotantoine.github.io"
+  scholar: "https://scholar.google.com/citations?user=872afecAAAAJ"
   bio: >
-    Antoine Caillot obtained his Ph.D. in Automatic, Signal, Industrial Production, and Robotics in 2022 from the University of Rouen (France), at IRSEEM in ESIGELEC (Rouen, France). His Ph.D. subject was focused on cooperative perception for autonomous navigation in an automotive context. These works aim to create a map of a scene at a roundabout or an intersection using light data from vehicles and infrastructure. Before that, he received an engineering degree in embedded systems for autonomous vehicles from ESIGELEC (Rouen, France).
-    He joined the JRL in 2023 as a postdoctoral fellow to study Simultaneous Localization And Mapping (SLAM) with emergent sensors. The goal is to improve the performances of SLAM algorithms using new image sensors such as High Dynamic Range (HDR) omniscient cameras, event-based cameras, or hyperspectral image sensors.
+    obtained his Ph.D. in Automatic, Signal, Industrial Production, and Robotics in 2022 from the University of Rouen (France), at IRSEEM in ESIGELEC (Rouen, France). His Ph.D. subject was focused on cooperative perception for autonomous navigation in an automotive context. These works aim to create a map of a scene at a roundabout or an intersection using light data from vehicles and infrastructure. Before that, he received an engineering degree in embedded systems for autonomous vehicles from ESIGELEC (Rouen, France).
+    He joined the JRL in 2023 as a JSPS postdoctoral fellow to study Simultaneous Localization And Mapping (SLAM) with emergent sensors. The goal is to improve the performances of SLAM algorithms using new image sensors such as High Dynamic Range (HDR) omniscient cameras, event-based cameras, or hyperspectral image sensors. He is now a CNRS postdoctoral fellow studying 360º vision for bio-inspired navigation of humanoid robots.
 - id: berenguel
   given: Bruno
   family: Berenguel-Baeta
