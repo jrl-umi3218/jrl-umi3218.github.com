@@ -797,9 +797,7 @@
   website: "https://antoineandre.github.io/"
   scholar: "https://scholar.google.fr/citations?user=iopU-RcAAAAJ&hl"
   bio: >
-    obtained his Ph.D. in Automatics and Computer Vision in 2021 from University Burgundy Franche-Comté (Besançon, France), at the FEMTO-ST Institute of research, in the department of Mechanics and Mechatronics. His Ph.D. subject was focusing on the pose measurement at small scale, using encoded periodic patterns to obtain a range of measure larger than the field of view allowed in microscopy. These periodic patterns also allow a highly resolute retrieval of the position through the study of their phase evolution, with resolution up to 1 nm in translation and a few microradians in rotation. Prior to that, he received an engineering degree in robotics from the National Institute of Mechanics and Microtechnologies (Besançon, France).
-    He joined the JRL in 2022 as a JSPS postdoctoral fellow to study the visual servoing capabilities of large field of view cameras. The core idea of this study is to enhance the servoing capabilities in robotics and avoid self-collision and joints limits while providing both a large convergence domain and a high resolution in the final positioning.
-    He is now a permanent researcher at CNRS-AIST JRL and his current research interests are focused on computer vision for robotics, including visual servoing with omnidirectional cameras and deformation estimation from images.
+    received his engineering degree in robotics from the National Institute of Mechanics and Microtechnologies, Besançon, France. He obtained his Ph.D. in Automatics and Computer Vision from the University of Burgundy Franche-Comté, France, in 2021, at the FEMTO-ST Institute. From 2022, he was a JSPS postdoctoral fellow at the CNRS-AIST Joint Robotics Laboratory (JRL), studying visual servoing with large field-of-view cameras. He is currently a permanent researcher at CNRS-AIST JRL. His research interests include computer vision for robotics, visual servoing with omnidirectional cameras, and deformation estimation from images.
 - id: demont
   given: Arnaud
   family: Demont
