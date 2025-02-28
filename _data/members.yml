@@ -1537,9 +1537,12 @@
 - id: cardot
   given: Aymeric
   family: Cardot
-  role: master
-  from: 2024-09-01
-  to: 2025-02-28
+  role: alumni
+  from: 2025-03-01
+  past-roles:
+    - role: master
+      from: 2024-09-01
+      to: 2025-02-28
   nationality: fr
   linkedin: https://www.linkedin.com/in/aymeric-cardot-46a20b255
 - id: stefanell
@@ -1559,9 +1562,12 @@
 - id: vazquez
   given: David
   family: Vázquez Leal
-  role: undergraduate
-  from: 2024-10-01
-  to: 2025-01-31
+  role: alumni
+  from: 2025-02-01
+  past-roles:
+    - role: undergraduate
+      from: 2024-10-01
+      to: 2025-01-31
   nationality: mx
 - id: pinon
   given: Pierre
@@ -1619,9 +1625,12 @@
 - id: paik
   given: Albert
   family: Paik
-  role: undergraduate
-  from: 2024-11-18
-  to: 2025-02-14
+  role: alumni
+  from: 2024-02-15
+  past-roles:
+    - role: undergraduate
+      from: 2024-11-18
+      to: 2025-02-14
   nationality: nz
 - id: pezet
   given: Romain
@@ -1633,14 +1642,14 @@
 - id: bories
   given: Maxime
   family: Bories
-  role: coming-master
+  role: master
   from: 2025-02-03
   to: 2025-07-31
   nationality: fr
 - id: durand
   given: Hugo
   family: Durand
-  role: coming-master
+  role: master
   from: 2025-02-17
   to: 2025-08-15
   nationality: fr
@@ -1669,7 +1678,7 @@
 - id: cariou
   given: Alice
   family: Cariou
-  role: coming-master
+  role: master
   from: 2025-02-20
   to: 2025-08-20
   nationality: fr
@@ -1684,7 +1693,7 @@
   given: Léo
   family: Moussafir
   role: coming-postdoc
-  from: 2025-02-01
+  from: 2025-03-10
   to: 2025-12-31
   nationality: fr
 - id: daligault
@@ -1719,7 +1728,7 @@
 - id: louapre
   given: Ferdinand
   family: Louapre
-  role: coming-master
+  role: master
   from: 2025-02-17
   to: 2025-08-15
   nationality: fr
@@ -1755,7 +1764,7 @@
   given: Jimmy
   family: Vu
   role: coming-master
-  from: 2025-04-01
+  from: 2025-04-10
   to: 2025-10-10
   nationality: fr
 - id: hernandezvaldez
@@ -1786,3 +1795,28 @@
   from: 2025-04-15
   to: 2025-10-15
   nationality: fr
+- id: senouci
+  given: Sidi Mohammed
+  family: Senouci
+  role: alumni
+  from: 2025-02-23
+  past-roles:
+    - role: adjunct
+      from: 2025-02-04
+      to: 2025-02-22
+  nationality: fr
+- id: tanabe
+  given: Katsuki
+  family: Tanabe
+  name-jp: 田邊 克輝
+  role: coming-master
+  from: 2025-04-01
+  to: 2007-03-31
+  nationality: jp
+- id: matsuzaki
+  given: Manako
+  family: Matsuzaki
+  name-jp: 松崎 舞那子
+  role: assistant
+  from: 2025-03-01
+  nationality: jp
