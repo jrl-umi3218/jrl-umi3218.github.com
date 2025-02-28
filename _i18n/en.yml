@@ -121,6 +121,14 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/03/2025
+    content: >
+      Six members, <a href="members/member-acaillot.html">Antoine Caillot</a>, <a href="members/member-bories.html">Maxime Bories</a>, <a href="members/member-senouci.html">Sidi Mohammed Senouci</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a> and <a href="members/member-cariou.html">Alice Cariou</a> joined and three members, <a href="members/member-cardot.html">Aymeric Cardot</a> and <a href="members/member-paik.html">Albert Paik</a> and <a href="members/member-senouci.html">Sidi Mohammed Senouci</a> left the JRL in February.<p>
+      Two papers were published in the RA-Letters.
+      <ul>
+      <li><a href=https://ieeexplore.ieee.org/document/10819609>Reinforcement Learning of Contact Preferability in Multi-contact Locomotion Planning for Humanoids</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10815980>Humanoid-Human Sit-to-Stand-to-Sit Assistance</a></li>
+      </ul>
   - date: 01/02/2025
     content: >
       Two members, <a href="members/member-herklet.html">Emilien Herklet</a> and <a href="members/member-leroy.html">Hippolyte Leroy</a> joined.<br>

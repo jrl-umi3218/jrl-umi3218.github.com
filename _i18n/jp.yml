@@ -121,9 +121,17 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2025/03/01
+    content: >
+      2月には<a href="members/member-acaillot.html">Antoine Caillot</a>, <a href="members/member-bories.html">Maxime Bories</a>, <a href="members/member-senouci.html">Sidi Mohammed Senouci</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a>, <a href="members/member-cariou.html">Alice Cariou</a>の6名がメンバーとなり、<a href="members/member-cardot.html">Aymeric Cardot</a>, <a href="members/member-paik.html">Albert Paik</a>, <a href="members/member-senouci.html">Sidi Mohammed Senouci</a>の3名がJRLでの活動を終了しました。<p>
+      RA-Lettersに2本の論文が掲載されました。
+      <ul>
+      <li><a href=https://ieeexplore.ieee.org/document/10819609>Reinforcement Learning of Contact Preferability in Multi-contact Locomotion Planning for Humanoids</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10815980>Humanoid-Human Sit-to-Stand-to-Sit Assistance</a></li>
+      </ul>
   - date: 2025/02/01
     content: >
-      1月にはo<a href="members/member-herklet.html">Emilien Herklet</a>と<a href="members/member-leroy.html">Hippolyte Leroy</a>の2名がメンバーとなりました。<br>
+      1月には<a href="members/member-herklet.html">Emilien Herklet</a>と<a href="members/member-leroy.html">Hippolyte Leroy</a>の2名がメンバーとなりました。<br>
       SII2025で3件の発表を行いました。<br>
       <ul>
       <li>Scalable, Training-Free Visual Language Robotics: A Modular Multi-Model Framework for Consumer-Grade GPUs</li>
