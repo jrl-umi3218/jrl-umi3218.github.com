@@ -1,5 +1,5 @@
 page-not-found: Page Not Found
-lab-name: CNRS-AIST JRL(Joint Robotics Laboratory), IRL
+lab-name: CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
 langs:
   jp: Japanese
 pages:
@@ -8,6 +8,7 @@ pages:
   projects: Projects
   past-projects: Past projects
   members: Members
+  robots: Robots
   publications: Publications
   HL: HL
   join: Join us
@@ -76,40 +77,51 @@ hl:
   students:
     - id: masuda
       name: Shimpei Masuda
-      grade: Ph.D. 2nd Year
+      grade: Ph.D. 3rd Year
       email: masuda.shimpei_*_aist.go.jp
     - id: hong
       name: Cheng Hong
-      grade: Ph.D. 1st Year
+      grade: Ph.D. 2nd Year
       email: cheng.hong_*_aist.go.jp
     - id: li
       name: Yitong Li
-      grade: Ph.D. 1st Year
+      grade: Ph.D. 2nd Year
       email: li.cornel_*_aist.go.jp
     - id: nishijima
       name: Yu Nishijima
-      grade: master 1st Year
+      grade: master 2nd Year
       email: y.nishijima_*_aist.go.jp
     - id: ono
       name: Tasuku Ono
-      grade: master 1st Year
+      grade: master 2nd Year
       email: ono.tasuku_*_aist.go.jp
     - id: aoyama
       name: Yunosuke Aoyama
-      grade: master 1st Year
+      grade: master 2nd Year
       email: aoyama.y0093_*_aist.go.jp
     - id: liu
       name: Zenong Liu
-      grade: master 1st Year
+      grade: master 2nd Year
       email: zenong.liu_*_aist.go.jp
     - id: morisaki
       name: Sunio Morisaki
-      grade: research student
+      grade: master 1st Year
       email: sunio.morisakiromero_*_aist.go.jp
+    - id: kajitsuka
+      name: Kotaro Kajitsuka
+      grade: master 1st Year
+    - id: tanabe
+      name: Katsuki Tanabe
+      grade: master 1st Year
+    - id: joyapaez
+      name: Sebastian Joya Paez
+      grade: master 1st Year
+    - id: mesaros
+      name: David Mesaros
+      grade: research student
     - id: singh
       name: Rohan Pratap Singh
       grade: Graduated (Ph.D.)
-      email: rohan-singh_*_aist.go.jp
       website: https://rohanpsingh.github.io
     - id: qin
       name: Yili Qin
@@ -117,10 +129,14 @@ hl:
     - id: sun
       name: Leyuan Sun
       grade: Graduated (Ph.D.)
-      email: son.leyuansun_*_aist.go.jp
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/04/2025
+    content: >
+      Two projects, <a href="projects/project-dvsstraight.html">DVS-Straight</a> and <a href="projects/project-icps.html">ICPS</a> finished.<p>
+      Three members, <a href="members/member-matsuzaki.html">Manako Matsuzaki</a>, <a href="members/member-moussafir.html">Léo Moussafir</a> and <a href="members/member-oubraim.html">Walid Oubraim</a> joined and 14 members, <a href="members/member-stefanell.html">Hélène Stefanell</a>, <a href="members/member-ganesh.html">Gowrishankar Ganesh</a>, <a href="members/member-abe.html">Naoko Abe</a>, <a href="members/member-singh.html">Rohan P. Singh</a>, <a href="members/member-katom.html">Mitsuko Kato</a>, <a href="members/member-glorthioir.html">Guillaume Lorthioir</a>, <a href="members/member-chen.html">Yang Chen</a>, <a href="members/member-miyake.html">Hibiki Miyake</a>, <a href="members/member-fukumitsu.html">Kensuke Fukumitsu</a>, <a href="members/member-tako.html">Taro Tako</a>, <a href="members/member-hoshi.html">Takahiro Hoshi</a>, <a href="members/member-mori.html">Kenya Mori</a>, <a href="members/member-racine.html">Isaac Racine</a> and <a href="members/member-yada.html">Shori Yada</a> left the JRL in March.<p>
+      <a href=https://ieeexplore.ieee.org/document/10852168>Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated Tasks in a Nursing Context</a> was published in the IEEE RAM.
   - date: 01/03/2025
     content: >
       Six members, <a href="members/member-acaillot.html">Antoine Caillot</a>, <a href="members/member-bories.html">Maxime Bories</a>, <a href="members/member-senouci.html">Sidi Mohammed Senouci</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a> and <a href="members/member-cariou.html">Alice Cariou</a> joined and three members, <a href="members/member-cardot.html">Aymeric Cardot</a> and <a href="members/member-paik.html">Albert Paik</a> and <a href="members/member-senouci.html">Sidi Mohammed Senouci</a> left the JRL in February.<p>
