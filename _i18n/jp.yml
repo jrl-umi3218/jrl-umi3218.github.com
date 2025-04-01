@@ -1,5 +1,5 @@
 page-not-found: ページが見つかりません
-lab-name: AIST-CNRSロボット工学連携研究ラボ
+lab-name: CNRS-産総研ロボット工学連携研究室
 langs:
   en: 英語
 pages:
@@ -8,6 +8,7 @@ pages:
   projects: プロジェクト
   past-projects: 過去のプロジェクト
   members: メンバー
+  robots: ロボット
   publications: 論文
   HL: HL
   join: 採用情報
@@ -76,36 +77,48 @@ hl:
   students:
     - id: masuda
       name: 増田慎平
-      grade: 博士課程2年
+      grade: 博士課程3年
       email: masuda.shimpei_*_aist.go.jp
     - id: hong
       name: Cheng Hong
-      grade: 博士課程1年
+      grade: 博士課程2年
       email: cheng.hong_*_aist.go.jp
     - id: li
       name: 李 伊童
-      grade: 博士課程1年
+      grade: 博士課程2年
       email: li.cornel_*_aist.go.jp
     - id: nishijima
       name: 西嶌 優
-      grade: 修士課程1年
+      grade: 修士課程2年
       email: y.nishijima_*_aist.go.jp
     - id: ono
       name: 小野 祐
-      grade: 修士課程1年
+      grade: 修士課程2年
       email: ono.tasuku_*_aist.go.jp
     - id: aoyama
       name: 青山 祐之介
-      grade: 修士課程1年
+      grade: 修士課程2年
       email: aoyama.y0093_*_aist.go.jp
     - id: liu
       name: Zenong Liu
-      grade: 修士課程1年
+      grade: 修士課程2年
       email: zenong.liu_*_aist.go.jp
     - id: morisaki
       name: Sunio Morisaki
-      grade: 研究生
+      grade: 修士課程1年
       email: sunio.morisakiromero_*_aist.go.jp
+    - id: kajitsuka
+      name: 梶塚 幸太朗
+      grade: 修士課程1年
+    - id: tanabe
+      name: 田邊 克輝
+      grade: 修士課程1年
+    - id: joyapaez
+      name: Sebastian Joya Paez
+      grade: 修士課程1年
+    - id: mesaros
+      name: David Mesaros
+      grade: 研究生
     - id: singh
       name: Rohan Pratap Singh
       grade: 博士後期修了
@@ -117,10 +130,15 @@ hl:
     - id: sun
       name: 孫 楽源
       grade: 博士後期修了
-      email: son.leyuansun_*_aist.go.jp
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2025/04/01
+    content: >
+      産業技術総合研究所の組織改編に伴い、ラボの名称が「CNRS-産総研ロボット工学連携研究室」に変更になりました。<p>
+      <a href="projects/project-dvsstraight.html">DVS-Straight</a>、<a href="projects/project-icps.html">ICPS</a>の2つのプロジェクトが終了しました。<p>
+      3月には<a href="members/member-matsuzaki.html">Manako Matsuzaki</a>, <a href="members/member-moussafir.html">Léo Moussafir</a>, <a href="members/member-oubraim.html">Walid Oubraim</a>の3名がメンバーとなり、<a href="members/member-stefanell.html">Hélène Stefanell</a>, <a href="members/member-ganesh.html">Gowrishankar Ganesh</a>, <a href="members/member-abe.html">Naoko Abe</a>, <a href="members/member-singh.html">Rohan P. Singh</a>, <a href="members/member-katom.html">Mitsuko Kato</a>, <a href="members/member-glorthioir.html">Guillaume Lorthioir</a>, <a href="members/member-chen.html">Yang Chen</a>, <a href="members/member-miyake.html">Hibiki Miyake</a>, <a href="members/member-fukumitsu.html">Kensuke Fukumitsu</a>, <a href="members/member-tako.html">Taro Tako</a>, <a href="members/member-hoshi.html">Takahiro Hoshi</a>, <a href="members/member-mori.html">Kenya Mori</a>, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-yada.html">Shori Yada</a>, の14名がJRLでの活動を終了しました。<p>
+      IEEE RAMに"<a href=https://ieeexplore.ieee.org/document/10852168>Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated Tasks in a Nursing Context</a>"が掲載されました。
   - date: 2025/03/01
     content: >
       2月には<a href="members/member-acaillot.html">Antoine Caillot</a>, <a href="members/member-bories.html">Maxime Bories</a>, <a href="members/member-senouci.html">Sidi Mohammed Senouci</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a>, <a href="members/member-cariou.html">Alice Cariou</a>の6名がメンバーとなり、<a href="members/member-cardot.html">Aymeric Cardot</a>, <a href="members/member-paik.html">Albert Paik</a>, <a href="members/member-senouci.html">Sidi Mohammed Senouci</a>の3名がJRLでの活動を終了しました。<p>

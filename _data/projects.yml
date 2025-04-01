@@ -150,7 +150,7 @@
   year-start: "2021.10"
   year-end: 2025.3
   funding: AIST ITH
-  active: true
+  active: false
   partners: [utbm,upjv]
   description: "
 <p>DVS-Straight is an international collaboration project funded by the ITH department of AIST. In this project, CNRS-AIST JRL is partnering with UTBM, CIAD lab (France) and UPJV, MIS lab (France) with the aim of mastering the robot trajectories during image-based visual servoing directly using the dense brightness of captured images as input of the control law (Direct Visual Servoing: DVS). Indeed, DVS is first known for its submillimetric precision and recently for a quite large convergence domain, e.g. with <a href=https://hal.archives-ouvertes.fr/hal-03155667 target=_blank>DDVS</a>. However, trajectories are not always satisfactory.</p>
@@ -320,7 +320,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   year-start: 2020.4
   year-end: 2025.3
   funding: AIST
-  active: true
+  active: false
   description: >
     <p>The target is to solve the problem of declining birthrate and aging population, which is one of the social issues. We aim to realize the following items in all industrial fields by using technology that integrates AI, robots, sensors, etc. to cooperate with humans.</p>
     <ul>

@@ -1,0 +1,20 @@
+- id: miroki
+  name: Miroki
+  joined: 2025
+  manufacturer: Enchanted Tools
+- id: friends
+  name: RHP Friends
+  joined: 2022
+  manufacturer: Kawasaki Heavy Industries, Ltd.
+- id: hrp4cr
+  name: HRP-4CR
+  joined: 2022
+  manufacturer: KAWADA Robotics Corporation
+- id: hrp5p
+  name: HRP-5P
+  joined: 2018
+  manufacturer: KAWADA Robotics Corporation
+- id: callm
+  name: CALL-M
+  joined: 2024
+  manufacturer: AIST

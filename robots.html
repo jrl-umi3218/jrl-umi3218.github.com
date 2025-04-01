@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% capture crumbs %}{% t pages.robots %}{% endcapture %}
+{%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
+
+<div class="container">
+  <div class="row row-centered">
+
+  {% for robot in site.data.robots %}
+    <div class="col-md-3 col-xs-6 col-centered">
+    <img src="{{site.baseurl_root}}/assets/robots/{{robot.id}}.png" height="480">
+    <h3>{{robot.name}}</h3>
+    <h4>Joined</h4> {{robot.joined}}
+    <h4>Manufacturer</h4> {{robot.manufacturer}}
+    </div>
+  {% endfor %}
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container -->
