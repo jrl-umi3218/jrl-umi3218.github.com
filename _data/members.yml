@@ -1426,8 +1426,8 @@
 - id: paula
   given: Matheus
   family: Paula
-  role: alumni
-  from: 2024-10-01
+  role: engineer
+  from: 2024-11-01
   past-roles:
     - role: master
       from: 2024-04-01
