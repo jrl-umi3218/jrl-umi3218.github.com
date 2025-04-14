@@ -701,8 +701,7 @@
   title: Modular architecture for humanoid walking pattern prototyping and experiments
   booktitle: Advanced Robotics
   authors:
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Verrelst
     given: Bjorn
   - family: Wieber
@@ -943,8 +942,7 @@
     study on motion generation'
   booktitle: Intelligent Service Robotics
   authors:
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Rul
     given: Rudolf
   - family: Lamiraux
@@ -1098,8 +1096,7 @@
   authors:
   - family: Foissotte
     given: Toréa
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Wieber
     given: Pierre-Brice
   - id: escande
@@ -1331,8 +1328,7 @@
     given: Claudia
   - family: Arechavaleta
     given: Gustavo
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/hayet-ijhr12.pdf
   lab: jrl
@@ -1419,8 +1415,7 @@
   authors:
   - family: Perrin
     given: Nicolas
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Baudouin
     given: Leo
   - family: Lamiraux
@@ -1437,8 +1432,7 @@
   authors:
   - family: Perrin
     given: Nicolas
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Lamiraux
     given: Florent
   - id: yoshida
@@ -4412,7 +4406,7 @@
   lab: jrl
   month: november
 - id: kessy:cvm:2024
-  year: 2024
+  year: 2025
   title: Illumination Compensation using Perpendicular Whisk-broom Hyperspectral Scans
   booktitle: Computational Visual Media
   authors:
@@ -4611,6 +4605,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/10815980
   lab: jrl
+  month: february
 - id: benallegue:ram:2025
   year: 2025
   title: 'Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated
@@ -4625,8 +4620,7 @@
   - id: morisawa
   - id: kaminaga
   - id: murooka
-  - family: Andre
-    given: Antoine
+  - id: aandre
   - id: gergondet
   - id: kaneko
   - id: carong
@@ -4642,6 +4636,7 @@
     given: Masayuki
   pdf: https://ieeexplore.ieee.org/document/10852168
   lab: jrl
+  month: march
   projects:
   - jrp_khi
 - id: sun:aei:2025
@@ -4657,6 +4652,7 @@
   - id: yoshiyasu
   pdf: https://www.sciencedirect.com/science/article/pii/S147403462500028X
   lab: jrl
+  month: may
   projects:
   - zero
 - id: andre:tro:2025
@@ -4664,13 +4660,13 @@
   title: 'UniphorM: A New Uniform Spherical Image Representation for Robotic Vision'
   booktitle: IEEE Transactions on Robotics
   authors:
-  - family: Andre
-    given: Antoine
+  - id: aandre
   - family: Morbidi
     given: Fabio
   - id: carong
-  pdf: https://ieeexplore.ieee.org/document/10463090
+  pdf: https://ieeexplore.ieee.org/document/10912746
   lab: jrl
+  month: march
   projects:
   - dvsstraight
 - id: poquerusse:mbj:2025
@@ -5690,8 +5686,7 @@
   authors:
   - family: Sellaouti
     given: Ramzi
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: kajita
   - family: Yokoi
     given: Kazuhito
@@ -5748,8 +5743,7 @@
     Robot HRP-2
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Larlus
     given: Diane
   - family: Lagarde
@@ -5893,8 +5887,7 @@
   authors:
   - family: Saidi
     given: Francois
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Yokoi
     given: Kazuhito
   - id: kanehiro
@@ -5940,8 +5933,7 @@
   authors:
   - family: Foissotte
     given: Toréa
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: escande
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2008_Humanoids_Foissotte.pdf
@@ -5991,8 +5983,7 @@
   title: Real-time (self)-collision avoidance task on a HRP-2 humanoid robot
   booktitle: IEEE International Conference on Robotics and Automation
   authors:
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: escande
   - family: Mansard
     given: Nicolas
@@ -6154,8 +6145,7 @@
   authors:
   - family: Kwak
     given: Nosan
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Foissotte
     given: Toréa
   - family: Yokoi
@@ -6225,8 +6215,7 @@
   authors:
   - family: Pierro
     given: Paolo
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: kheddar
   - family: Yokoi
     given: Kazuhito
@@ -6285,8 +6274,7 @@
   authors:
   - family: Foissotte
     given: Toréa
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: escande
   - family: Wieber
     given: Pierre-Brice
@@ -6551,8 +6539,7 @@
     given: Claire
   - family: Herdt
     given: Andrei
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Wieber
     given: Pierre-Brice
   - family: Yokoi
@@ -8607,8 +8594,7 @@
   - family: Mifsud
     given: Alexis
   - id: benalleguem
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   pdf: https://hal.archives-ouvertes.fr/hal-01574819/document
   month: november 15-november 17
 - id: ito:humanoids:2017
@@ -10893,6 +10879,7 @@
   - family: Chen
     given: Chu-Yin
   - id: kheddar
+  pdf: https://link.springer.com/chapter/10.1007/978-3-031-81688-8_9
   lab: jrl
   month: september 30-october 1
 - id: hong:ro-man:2024
@@ -10921,6 +10908,7 @@
   - id: masuda
   - id: sagawa
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10927529
   lab: jrl
   month: december 5-december 7
 - id: samson:sii:2025
