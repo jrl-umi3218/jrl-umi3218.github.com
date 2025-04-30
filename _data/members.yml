@@ -1659,7 +1659,7 @@
 - id: vega
   given: Piero
   family: Vega-Gutierrez
-  role: coming-master
+  role: master
   from: 2025-04-28
   to: 2025-08-22
   nationality: fr
@@ -1697,7 +1697,7 @@
 - id: pezet
   given: Romain
   family: Pezet
-  role: coming-master
+  role: master
   from: 2025-04-28
   to: 2025-08-22
   nationality: fr
@@ -1764,7 +1764,7 @@
 - id: daligault
   given: Celian
   family: Daligault
-  role: coming-master
+  role: master
   from: 2025-04-02
   to: 2025-09-30
   nationality: fr
@@ -1828,7 +1828,7 @@
 - id: vu
   given: Jimmy
   family: Vu
-  role: coming-master
+  role: master
   from: 2025-04-21
   to: 2025-10-15
   nationality: fr
@@ -1849,14 +1849,14 @@
 - id: gratiasquiquandon
   given: Philippe
   family: Gratias-Quiquandon
-  role: coming-master
+  role: master
   from: 2025-04-07
   to: 2025-10-27
   nationality: fr
 - id: gambardella
   given: Romain
   family: Gambardella
-  role: coming-master
+  role: master
   from: 2025-04-15
   to: 2025-10-15
   nationality: fr
