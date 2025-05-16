@@ -4525,8 +4525,8 @@
   pdf: https://doi.org/10.1080/23335432.2023.2268686
   lab: jrl
   month: november
-- id: pomarat:dart:2024
-  year: 2024
+- id: pomarat:dart:2025
+  year: 2025
   title: Wheelchair caster power losses due to rolling resistance on sports surfaces
   booktitle: 'Disability and Rehabilitation: Assistive Technology'
   authors:
@@ -4541,6 +4541,7 @@
   - id: bwatier
   pdf: https://laas.hal.science/hal-04725578
   lab: jrl
+  month: may
 - id: sabbah:isj:2024
   year: 2024
   title: Concurrent validity of embedded solutions for whole body dynamics analysis
@@ -10956,6 +10957,19 @@
   month: january 21-january 24
   projects:
   - dvsstraight
+- id: muraccioli:rss:2025
+  year: 2025
+  title: Demonstrating a Control Framework for Physical Human-Robot Interaction Toward
+    Industrial Applications
+  booktitle: 'Robotics: Science and Systems'
+  authors:
+  - id: muraccioli
+  - id: mcelerier
+  - id: benalleguem
+  - id: venture
+  pdf: https://roboticsconference.org/program/papers/84/
+  lab: jrl
+  month: june 21-june 25
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
