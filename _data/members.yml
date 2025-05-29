@@ -1768,6 +1768,8 @@
   from: 2025-04-02
   to: 2025-09-30
   nationality: fr
+  bio: >
+    is a master's student at Polytech Dijon, Le Creusot, France. He obtained his French Baccalauréat with a focus on Mathematics and Computer Science (NSI) in 2021. His current research try to provide a more intuitive and engaging experience for users operating a remote avatar through a VR headset. Having started with small video game projects, he can now use that experience into building immersive and interactive systems for robotics.
 - id: kajitsuka
   given: Kotaro
   family: Kajitsuka
