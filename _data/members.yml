@@ -1863,6 +1863,8 @@
   from: 2025-04-07
   to: 2025-10-27
   nationality: fr
+  bio: >
+    is a master's student at Télécom Paris, Palaiseau, France and in double degree at the Ecole Normale Supérieure de Paris-Saclay in the master Mathematics, Vision and Learning (MVA). His work focuses on locomotion and imitation learning for the humanoid robot Unitree H1. The goal is to have a policy that robustly opens a door.
 - id: gambardella
   given: Romain
   family: Gambardella
