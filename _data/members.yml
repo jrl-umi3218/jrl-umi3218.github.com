@@ -1831,6 +1831,8 @@
   from: 2025-03-19
   to: 2025-09-17
   nationality: fr
+  bio: >
+    is a master's student at the University of Technology of Belfort-Montbéliard, France. He obtained his French-Spanish Baccalauréat with a specialization in Engineering Science and Computer Science in 2020. With a background in artificial intelligence, his current work focuses on goal recognition in teleoperated robotics. He is developing a framework that combines object detection, vision-language models, large language models, and probabilistic reasoning to infer user intent.
 - id: vu
   given: Jimmy
   family: Vu
