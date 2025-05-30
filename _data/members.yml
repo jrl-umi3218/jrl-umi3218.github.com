@@ -1701,6 +1701,8 @@
   from: 2025-04-28
   to: 2025-08-22
   nationality: fr
+  bio: >
+    is a master student at UPSSITECH, Université Paul Sabatier in Toulouse. His research interests focus on computer science, artificial intelligence, and imitation learning. Currently, he is working on data collection for a robot using virtual reality equipment. He is also passionate about video games and enjoys playing badminton in his free time.
 - id: bories
   given: Maxime
   family: Bories
