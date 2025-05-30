@@ -1763,6 +1763,9 @@
   from: 2025-03-10
   to: 2025-12-31
   nationality: fr
+  linkedin: "https://fr.linkedin.com/in/l%C3%A9o-moussafir-13860284"
+  bio: >
+    received a Master's degree in Mechanical and Automatique from Institut National des Sciences Appliquée de Rennes, France, in 2017. He then received a Ph.D. in Mechanic/Robotic from the Institut National des Sciences Appliquée de Rennes, France, in 2021 after working 3 years with SIDEL in CIFRE context. His thesis focused on optimisation of poly-articulated mechanism with cam. He worked as a postdoc at the LIRMM until August 2024. During that time he explored the modelisation of impact in robotic structure through the I-AM project. He started a postdoc at JRL in Mars 2025 through the joined project with Schaeffler company. His current work focuses on new humanoid robot design.
 - id: daligault
   given: Celian
   family: Daligault
