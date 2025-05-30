@@ -1834,6 +1834,8 @@
   from: 2025-04-21
   to: 2025-10-15
   nationality: fr
+  bio: >
+        is a master’s student at Polytech Nice Sophia in Robotics and Autonomous Systems, France. His work at AIST revolves around making the robot HRP5P hit a nail with a hammer, maximizing the impact while minimizing the damage to the joints in the process. Often called "Dim" his colleagues back in France. 
 - id: hernandezvaldez
   given: Eduardo
   family: Hernandez-Valdez
