@@ -1770,6 +1770,8 @@
   from: 2025-04-02
   to: 2025-09-30
   nationality: fr
+  bio: >
+    is a master's student in autonomous robotics at ENSTA Bretagne, Brest (France). His current research imply Study on Software Integration of Versatile Kinematics Structure Systems.
 - id: kajitsuka
   given: Kotaro
   family: Kajitsuka
