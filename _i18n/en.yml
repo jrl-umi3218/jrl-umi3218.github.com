@@ -132,6 +132,11 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/06/2025
+    content: >
+      Two members, <a href="members/member-merrad.html">Lydia Merrad</a> and <a href="members/member-tazeroualttlamcani.html">Ghita Tazeroualt-Tlamcani</a> joined and three members <a href="members/member-taruf.html">Imane Taruf</a>, <a href="members/member-paula.html">Matheus Paula</a> and <a href="members/member-vilfroy.html">Seanan Vilfroy</a> left the JRL in May.<br>
+      "<a href=https://laas.hal.science/hal-04725578>Wheelchair caster power losses due to rolling resistance on sports surfaces</a>" was published in the Disability and Rehabilitation: Assistive Technology.<br>
+      "<a href=https://www.sciencedirect.com/science/article/pii/S147403462500028X>Enhancing multimodal-input object goal navigation by leveraging large language models for inferring room–object relationship knowledge</a>" was published in the Advanced Engineering Informatics.
   - date: 01/05/2025
     content: >
       13 members, <a href="members/member-kajitsuka.html">Kotaro Kajitsuka</a>, <a href="members/member-joyapaez.html">Sebastian Joya Paez</a>, <a href="members/member-forgiel.html">Anatole Forgiel</a>, <a href="members/member-dorfani.html">Raphaël d'Orfani</a>, <a href="members/member-robert.html">Gauvain Robert</a>, <a href="members/member-mesaros.html">David Mesaros</a>, <a href="members/member-tanabe.html">Katsuki Tanabe</a>, <a href="members/member-daligault.html">Celian Daligault</a>, <a href="members/member-gratiasquiquandon.html">Philippe Gratias-Quiquandon</a>, <a href="members/member-gambardella.html">Romain Gambardella</a>, <a href="members/member-vu.html">Jimmy Vu</a>, <a href="members/member-vega.html">Piero Vega-Gutierrez</a> and <a href="members/member-pezet.html">Romain Pezet</a> joined in April.
@@ -161,7 +166,6 @@ news:
     content: >
       Two members, <a href="members/member-pinon.html">Pierre Pinon</a> and <a href="members/member-vilfroy.html">Seanan Vilfroy</a> joined and <a href="members/member-sagawa.html">Ryusuke Sagawa</a> left the JRL in December.<p>
       "<a href=https://laas.hal.science/hal-04725578>Wheelchair caster power losses due to rolling resistance on sports surfaces</a>" was published in the Disability and Rehabilitation: Assistive Technology.<br>
-      "<a href=https://ieeexplore.ieee.org/document/10738286>Concurrent validity of embedded solutions for whole body dynamics analysis</a>" was published in the IEEE Sensors Journal.<br>
       "Aligning objects as preprocessing combined with imitation learning for improved generalization" was presented at the International Conference on Control and Robotics 2024.
   - date: 01/12/2024
     content: >
