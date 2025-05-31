@@ -1426,9 +1426,12 @@
 - id: paula
   given: Matheus
   family: Paula
-  role: engineer
-  from: 2024-11-01
+  role: alumni
+  from: 2025-05-31
   past-roles:
+    - role: engineer
+      from: 2024-11-01
+      to: 2025-05-30
     - role: master
       from: 2024-04-01
       to: 2024-09-30
@@ -1614,9 +1617,12 @@
 - id: taruf
   given: Imane
   family: Taruf
-  role: engineer
-  from: 2024-09-09
-  to: 2026-03-31
+  role: alumni
+  from: 2025-05-22
+  past-roles:
+    - role: engineer
+      from: 2024-09-09
+      to: 2025-05-21
   nationality: fr
 - id: vazquez
   given: David
@@ -1638,9 +1644,12 @@
 - id: vilfroy
   given: Seanan
   family: Vilfroy
-  role: master
-  from: 2024-12-02
-  to: 2025-05-30
+  role: alumni
+  from: 2025-06-01
+  past-roles:
+    - role: master
+      from: 2024-12-02
+      to: 2025-05-30
   nationality: fr
 - id: nasir
   given: Amneh
@@ -1793,7 +1802,7 @@
 - id: tazeroualttlamcani
   given: Ghita
   family: Tazeroualt-Tlamcani
-  role: coming-master
+  role: master
   from: 2025-05-07
   to: 2025-09-12
   nationality: ma
@@ -1903,7 +1912,7 @@
 - id: merrad
   given: Lydia
   family: Merrad
-  role: coming-phd
+  role: phd
   from: 2025-05-01
   to: 2027-04-30
   nationality: fr
