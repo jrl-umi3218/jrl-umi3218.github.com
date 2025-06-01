@@ -1912,9 +1912,9 @@
 - id: merrad
   given: Lydia
   family: Merrad
-  role: phd
-  from: 2025-05-01
-  to: 2027-04-30
+  role: coming-phd
+  from: 2025-10-01
+  to: 2027-09-30
   nationality: fr
 - id: scianca
   given: Nicola
