@@ -1426,9 +1426,12 @@
 - id: paula
   given: Matheus
   family: Paula
-  role: engineer
-  from: 2024-11-01
+  role: alumni
+  from: 2025-05-31
   past-roles:
+    - role: engineer
+      from: 2024-11-01
+      to: 2025-05-30
     - role: master
       from: 2024-04-01
       to: 2024-09-30
@@ -1614,9 +1617,12 @@
 - id: taruf
   given: Imane
   family: Taruf
-  role: engineer
-  from: 2024-09-09
-  to: 2026-03-31
+  role: alumni
+  from: 2025-05-22
+  past-roles:
+    - role: engineer
+      from: 2024-09-09
+      to: 2025-05-21
   nationality: fr
 - id: vazquez
   given: David
@@ -1638,9 +1644,12 @@
 - id: vilfroy
   given: Seanan
   family: Vilfroy
-  role: master
-  from: 2024-12-02
-  to: 2025-05-30
+  role: alumni
+  from: 2025-06-01
+  past-roles:
+    - role: master
+      from: 2024-12-02
+      to: 2025-05-30
   nationality: fr
 - id: nasir
   given: Amneh
@@ -1763,6 +1772,9 @@
   from: 2025-03-10
   to: 2025-12-31
   nationality: fr
+  linkedin: "https://fr.linkedin.com/in/l%C3%A9o-moussafir-13860284"
+  bio: >
+    received a Master's degree in Mechanical and Automatique from Institut National des Sciences Appliquée de Rennes, France, in 2017. He then received a Ph.D. in Mechanic/Robotic from the Institut National des Sciences Appliquée de Rennes, France, in 2021 after working 3 years with SIDEL in CIFRE context. His thesis focused on optimisation of poly-articulated mechanism with cam. He worked as a postdoc at the LIRMM until August 2024. During that time he explored the modelisation of impact in robotic structure through the I-AM project. He started a postdoc at JRL in Mars 2025 through the joined project with Schaeffler company. His current work focuses on new humanoid robot design.
 - id: daligault
   given: Celian
   family: Daligault
@@ -1833,6 +1845,8 @@
   from: 2025-03-19
   to: 2025-09-17
   nationality: fr
+  bio: >
+    is a master's student at the University of Technology of Belfort-Montbéliard, France. He obtained his French-Spanish Baccalauréat with a specialization in Engineering Science and Computer Science in 2020. With a background in artificial intelligence, his current work focuses on goal recognition in teleoperated robotics. He is developing a framework that combines object detection, vision-language models, large language models, and probabilistic reasoning to infer user intent.
 - id: vu
   given: Jimmy
   family: Vu
@@ -1840,6 +1854,8 @@
   from: 2025-04-21
   to: 2025-10-15
   nationality: fr
+  bio: >
+        is a master’s student at Polytech Nice Sophia in Robotics and Autonomous Systems, France. His work at AIST revolves around making the robot HRP5P hit a nail with a hammer, maximizing the impact while minimizing the damage to the joints in the process. Often called "Dim" his colleagues back in France. 
 - id: hernandezvaldez
   given: Eduardo
   family: Hernandez-Valdez
@@ -1861,6 +1877,8 @@
   from: 2025-04-07
   to: 2025-10-27
   nationality: fr
+  bio: >
+    is a master's student at Télécom Paris, Palaiseau, France and in double degree at the Ecole Normale Supérieure de Paris-Saclay in the master Mathematics, Vision and Learning (MVA). His work focuses on locomotion and imitation learning for the humanoid robot Unitree H1. The goal is to have a policy that robustly opens a door.
 - id: gambardella
   given: Romain
   family: Gambardella
@@ -1897,8 +1915,8 @@
   given: Lydia
   family: Merrad
   role: coming-phd
-  from: 2025-05-01
-  to: 2027-04-30
+  from: 2025-10-01
+  to: 2027-09-30
   nationality: fr
 - id: scianca
   given: Nicola
