@@ -1801,11 +1801,13 @@
   nationality: mx
 - id: tazeroualttlamcani
   given: Ghita
-  family: Tazeroualt-Tlamcani
+  family: Tazeroualt Tlamcani
   role: master
   from: 2025-05-07
   to: 2025-09-12
   nationality: ma
+  bio: >
+    is a master's student in robotics at ENSTA Bretagne, Brest, France. She obtained her Moroccan Baccalauréat in 2021 with a specialization in Mathematics and Physics. Her current academic focus is on control and localization for robotic systems. With a strong foundation in both theoretical and applied robotics, she is particularly interested in developing robust and intelligent methods to guide autonomous robots in complex environments.
 - id: louapre
   given: Ferdinand
   family: Louapre
