@@ -44,7 +44,11 @@
 - id: ganesh
   given: Gowrishankar
   family: Ganesh
-  role: adjunct
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: adjunct
+      to: 2025-03-31
   nationality: in
   scholar: "https://scholar.google.com/citations?user=NRjDuWgAAAAJ&hl=en"
   website: "https://www.lirmm.fr/~gowrishank/"
@@ -70,9 +74,12 @@
   given: Mitsuharu
   family: Morisawa
   name-jp: 森澤 光晴
-  role: deputy-director
-  from: 2020-04-01
+  role: permanent
+  from: 2025-04-01
   past-roles:
+    - role: deputy-director
+      from: 2020-04-01
+      to: 2025-03-31
     - role: adjunct
       to: 2020-03-31
   nationality: jp
@@ -314,9 +321,12 @@
   given: Ryusuke
   family: Sagawa
   name-jp: 佐川 立昌
-  role: adjunct
-  from: 2020-04-01
+  role: alumni
+  from: 2025-01-01
   past-roles:
+    - role: adjunct
+      from: 2020-04-01
+      to: 2024-12-31
     - role: permanent
       to: 2020-03-31
   nationality: jp
@@ -325,8 +335,12 @@
   given: Yumeko
   family: Imamura
   name-jp: 今村 由芽子
-  role: adjunct
-  from: 2021-04-01
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: adjunct
+      from: 2021-04-01
+      to: 2025-03-31
   past-roles:
     - role: permanent
       to: 2021-03-31
@@ -347,8 +361,8 @@
 - id: benalleguea
   given: Abdelaziz
   family: Benallegue
-  role: alumni
-  from: 2022-07-23
+  role: permanent
+  from: 2024-09-01
   past-roles:
     - role: permanent
       to: 2022-07-22
@@ -400,8 +414,12 @@
   given: Hiroshi
   family: Kaminaga
   name-jp: 神永 拓
-  role: permanent
-  from: 2020-04-01
+  role: deputy-director
+  from: 2025-04-01
+  past-roles:
+    - role: permanent
+      from: 2020-04-01
+      to: 2025-03-31
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=tNGygrIAAAAJ&hl=en&oi=ao"
   bio: >
@@ -442,8 +460,12 @@
   given: Iori
   family: Kumagai
   name-jp: 熊谷 伊織
-  role: permanent
-  from: 2020-04-01
+  role: adjunct
+  from: 2024-11-01
+  to: 2025-10-31
+  past-roles:
+    - role: permanent
+      to: 2024-10-31
   bio: >
     received the Ph.D. degree in information science and technology from The University of Tokyo, Japan, in 2017. He joined Intelligent Systems Research Institute in National Institute of Advanced Industrial Science and Technology (AIST) in 2017 as a researcher. His research interest includes perception, locomotion planning and system integration for humanoid robots.
   nationality: jp
@@ -508,8 +530,12 @@
 - id: hu
   given: Yue 
   family: Hu
-  role: adjunct
-  from: 2020-12-01
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: adjunct
+      from: 2020-12-01
+      to: 2025-03-31
   past-roles:
     - role: postdoc
       from: 2018-11-01
@@ -520,8 +546,12 @@
   given: Naoko
   family: Abe
   name-jp: 安部 直子
-  role: adjunct
-  from: 2020-07-15
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: adjunct
+      from: 2020-07-15
+      to: 2025-03-31
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=bhj90uAAAAAJ"
 - id: orthey
@@ -663,8 +693,12 @@
 - id: dallard
   given: Antonin
   family: Dallard
-  role: phd
-  from: 2020-10-01
+  role: alumni
+  from: 2024-11-16
+  past-roles:
+    - role: phd
+      from: 2020-10-01
+      to: 2024-11-15
   nationality: fr
   linkedin: https://www.linkedin.com/in/antonin-dallard-b7096814a
   bio: >
@@ -722,9 +756,12 @@
 - id: singh
   given: Rohan P.
   family: Singh
-  role: postdoc
-  from: 2024-04-01
+  role: alumni
+  from: 2025-04-01
   past-roles:
+    - role: postdoc
+      from: 2024-04-01
+      to: 2025-03-31
     - role: phd
       from: 2021-04-01
       to: 2024-03-31
@@ -736,7 +773,7 @@
   linkedin: "https://www.linkedin.com/in/rohanpsingh"
   website: "https://rohanpsingh.github.io/"
   bio: >
-    is a Ph.D. student at the University of Tsukuba and works at the CNRS-AIST JRL (Joint Robotics Lab), AIST as a Research Assistant. He received his Masters from the University of Tsukuba, Japan in April, 2021. Earlier, he worked as a Robotics Engineer at JRL (then known as the Humanoid Robotics Group) from 2017 to 2019. His current research endevour focusses on developing reinforcement learning based locomotion controllers for humanoid robots. Find out more <a href="https://rohanpsingh.github.io/" target="_self">here</a>.
+    is a postdoctoral researcher at the CNRS-AIST Joint Robotics Lab (JRL) in Tsukuba, Japan. He received the Ph.D. degree from the University of Tsukuba in April 2024 and the MS degree in April 2021. He has been working at AIST, Tsukuba as a Research Assistant since 2019. Earlier, he worked as a Robotics Engineer in the same group (then known as the Humanoid Robotics Group) from 2017 to 2019. His research work focuses on developing reinforcement learning based locomotion controllers for humanoid robots for bipedal and multi-contact locomotion. Find out more <a href="https://rohanpsingh.github.io/" target="_self">here</a>.
 - id: sakai
   given: Naoko
   family: Sakai
@@ -747,7 +784,12 @@
   given: Mitsuko
   family: Kato
   name-jp: 加藤 光子
-  role: admin
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: admin
+      from: 2020-04-01
+      to: 2025-03-31
   nationality: jp
 - id: kang
   given: Yufan
@@ -763,9 +805,12 @@
 - id: glorthioir
   given: Guillaume
   family: Lorthioir
-  role: postdoc
-  from: 2022-03-07
-  to: 2025-03-31
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: postdoc
+      from: 2022-03-07
+      to: 2025-03-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/guillaume-lorthioir-663201194/"
   bio: >
@@ -786,9 +831,7 @@
   website: "https://antoineandre.github.io/"
   scholar: "https://scholar.google.fr/citations?user=iopU-RcAAAAJ&hl"
   bio: >
-    obtained his Ph.D. in Automatics and Computer Vision in 2021 from University Burgundy Franche-Comté (Besançon, France), at the FEMTO-ST Institute of research, in the department of Mechanics and Mechatronics. His Ph.D. subject was focusing on the pose measurement at small scale, using encoded periodic patterns to obtain a range of measure larger than the field of view allowed in microscopy. These periodic patterns also allow a highly resolute retrieval of the position through the study of their phase evolution, with resolution up to 1 nm in translation and a few microradians in rotation. Prior to that, he received an engineering degree in robotics from the National Institute of Mechanics and Microtechnologies (Besançon, France).
-    He joined the JRL in 2022 as a JSPS postdoctoral fellow to study the visual servoing capabilities of large field of view cameras. The core idea of this study is to enhance the servoing capabilities in robotics and avoid self-collision and joints limits while providing both a large convergence domain and a high resolution in the final positioning.
-    He is now a permanent researcher at CNRS-AIST JRL and his current research interests are focused on computer vision for robotics, including visual servoing with omnidirectional cameras and deformation estimation from images.
+    received his engineering degree in robotics from the National Institute of Mechanics and Microtechnologies, Besançon, France. He obtained his Ph.D. in Automatics and Computer Vision from the University of Burgundy Franche-Comté, France, in 2021, at the FEMTO-ST Institute. From 2022, he was a JSPS postdoctoral fellow at the CNRS-AIST Joint Robotics Laboratory (JRL), studying visual servoing with large field-of-view cameras. He is currently a permanent researcher at CNRS-AIST JRL. His research interests include computer vision for robotics, visual servoing with omnidirectional cameras, and deformation estimation from images.
 - id: demont
   given: Arnaud
   family: Demont
@@ -809,9 +852,12 @@
 - id: chen
   given: Yang
   family: Chen
-  role: adjunct
-  from: 2023-04-01
+  role: alumni
+  from: 2025-04-01
   past-roles:
+    - role: adjunct
+      from: 2023-04-01
+      to: 2025-03-31
     - role: phd
       from: 2021-08-09
       to: 2023-03-31
@@ -826,7 +872,7 @@
   family: Celerier
   role: phd
   from: 2022-05-06
-  to: 2024-08-31
+  to: 2025-05-31
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/mathieu-celerier"
   github: "https://github.com/mathieu-celerier"
@@ -955,10 +1001,12 @@
   given: Hibiki
   family: Miyake
   name-jp: 三宅 響
-  role: master
-  from: 2023-04-01
-  to: 2025-03-31
+  role: alumni
+  from: 2025-04-01
   past-roles:
+    - role: master
+      from: 2023-04-01
+      to: 2025-03-31
     - role: undergraduate
       from: 2022-08-15
       to: 2023-03-31
@@ -967,10 +1015,12 @@
   given: Kensuke
   family: Fukumitsu
   name-jp: 福光 健介
-  role: master
-  from: 2023-04-01
-  to: 2025-03-31
+  role: alumni
+  from: 2025-04-01
   past-roles:
+    - role: master
+      from: 2023-04-01
+      to: 2025-03-31
     - role: undergraduate
       from: 2022-08-15
       to: 2023-03-31
@@ -1006,14 +1056,19 @@
   given: Antoine
   family: Caillot
   role: postdoc
-  from: 2023-01-09
-  to: 2025-01-08
+  from: 2025-02-03
+  past-roles:
+    - role: postdoc
+      from: 2023-01-09
+      to: 2025-01-08
   nationality: fr
   linkedin: "https://www.linkedin.com/in/caillotantoine"
   github: "https://github.com/caillotantoine"
+  website: "https://caillotantoine.github.io"
+  scholar: "https://scholar.google.com/citations?user=872afecAAAAJ"
   bio: >
-    Antoine Caillot obtained his Ph.D. in Automatic, Signal, Industrial Production, and Robotics in 2022 from the University of Rouen (France), at IRSEEM in ESIGELEC (Rouen, France). His Ph.D. subject was focused on cooperative perception for autonomous navigation in an automotive context. These works aim to create a map of a scene at a roundabout or an intersection using light data from vehicles and infrastructure. Before that, he received an engineering degree in embedded systems for autonomous vehicles from ESIGELEC (Rouen, France).
-    He joined the JRL in 2023 as a postdoctoral fellow to study Simultaneous Localization And Mapping (SLAM) with emergent sensors. The goal is to improve the performances of SLAM algorithms using new image sensors such as High Dynamic Range (HDR) omniscient cameras, event-based cameras, or hyperspectral image sensors.
+    obtained his Ph.D. in Automatic, Signal, Industrial Production, and Robotics in 2022 from the University of Rouen (France), at IRSEEM in ESIGELEC (Rouen, France). His Ph.D. subject was focused on cooperative perception for autonomous navigation in an automotive context. These works aim to create a map of a scene at a roundabout or an intersection using light data from vehicles and infrastructure. Before that, he received an engineering degree in embedded systems for autonomous vehicles from ESIGELEC (Rouen, France).
+    He joined the JRL in 2023 as a JSPS postdoctoral fellow to study Simultaneous Localization And Mapping (SLAM) with emergent sensors. The goal is to improve the performances of SLAM algorithms using new image sensors such as High Dynamic Range (HDR) omniscient cameras, event-based cameras, or hyperspectral image sensors. He is now a CNRS postdoctoral fellow studying 360º vision for bio-inspired navigation of humanoid robots.
 - id: berenguel
   given: Bruno
   family: Berenguel-Baeta
@@ -1028,10 +1083,12 @@
   given: Taro
   family: Tako
   name-jp: 田光 太郎
-  role: master
-  from: 2024-03-01
-  to: 2025-03-31
+  role: alumni
+  from: 2025-04-01
   past-roles:
+    - role: master
+      from: 2024-03-01
+      to: 2025-03-31
     - role: master
       from: 2023-04-01
       to: 2023-06-06
@@ -1042,10 +1099,12 @@
 - id: bwatier
   given: Bruno
   family: Watier
-  role: permanent
-  from: 2024-02-01
-  to: 2024-07-31
+  role: alumni
+  from: 2024-08-01
   past-roles:
+    - role: permanent
+      from: 2024-02-01
+      to: 2024-07-31
     - role: adjunct
       from: 2023-08-01
       to: 2024-01-31
@@ -1202,9 +1261,12 @@
   given: Takahiro
   family: Hoshi
   name-jp: 星 崇宏
-  role: master
-  from: 2024-04-01
+  role: alumni
+  from: 2025-04-01
   past-roles:
+    - role: master
+      from: 2024-04-01
+      to: 2025-03-31
     - role: undergraduate
       from: 2023-06-01
       to: 2024-03-31
@@ -1247,9 +1309,9 @@
   family: Duvinage
   linkedin: "https://www.linkedin.com/in/thomas-duvinage/"
   github: "https://github.com/ThomasDuvinage"
-  role: alumni
-  from: 2024-03-30
-  to: 2024-06-30
+  role: engineer
+  from: 2024-07-01
+  to: 2026-06-30
   past-roles:
     - role: master
       from: 2023-10-02
@@ -1262,6 +1324,10 @@
   from: 2023-09-01
   to: 2026-08-31
   nationality: fr
+  linkedin: "www.linkedin.com/in/dorian-kempf-0b694b1b3"
+  github: "https://github.com/Doriankmf"
+  bio: >
+    obtained his Master's degree in Robotics from the Institut Supérieur des Sciences et Techniques (INSSET) of Saint-Quentin, France in 2022. He completed his studies with an internship as a research engineer working on Visual Odometry, followed by a position as a research engineer working on Visual SLAM in the Laboratoire des Technologies Innovantes of Amiens, France. In September 2023, he began a thesis with the MIS (Modélisation, Information & Systèmes, Amiens, France) and CNRS-AIST JRL (Joint Robotics Laboratory, Tsukuba, Japan) laboratories. His thesis focuses on the 3D-3D and 2D-3D point clouds registration that include non-static elements, aiming to improve their accuracy and completeness even when only a minority of the captured scene remains static. This approach will enable the application of 3D-3D and 2D-3D point cloud registration to robot localization and navigation within a common, unified paradigm. His research interests include robotic perception, especially 3D reconstruction, 3D computer vision, and SLAM. 
 - id: hong
   given: Cheng
   family: Hong
@@ -1269,6 +1335,8 @@
   from: 2023-10-01
   to: 2026-09-30
   nationality: cn
+  bio: >
+      is currently a PhD student at the University of Tsukuba. His research interests focus on the fusion of heterogeneous sensor data for scene perception tasks, with a particular emphasis on integrating hyperspectral and point cloud data.
 - id: li
   given: Yitong
   family: Li
@@ -1306,9 +1374,12 @@
   given: Kenya
   family: Mori
   name-jp: 森 賢哉
-  role: phd
-  from: 2023-09-19
-  to: 2025-03-31
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: phd
+      from: 2023-09-19
+      to: 2025-03-31
   nationality: jp
 - id: acevedo
   given: Valeria
@@ -1344,16 +1415,26 @@
 - id: arslan
   given: Mikael
   family: Arslan
-  role: master
-  from: 2024-02-01
-  to: 2024-08-21
+  role: alumni
+  from: 2024-08-22
+  past-roles:
+    - role: master
+      from: 2024-02-01
+      to: 2024-08-21
   nationality: fr
+  bio: Currently a student at Ecole Centrale de Nantes in France, pursuing a master's degree in Advanced Robotics. During his studies he completed an internship at Polytechnique Montreal in Canada, during which he worked on the design and control of a low cost planar cable driven robot. Presently, he is an intern at the CNRS-AIST Joint Robotics Laboratory (JRL) in Tsukuba, Japan. His research focuses on the design and control of robust hydraulic-pneumatic hybrid actuated grippers for use on humanoid robots.
 - id: paula
   given: Matheus
   family: Paula
-  role: master
-  from: 2024-04-01
-  to: 2024-09-30
+  role: alumni
+  from: 2025-05-31
+  past-roles:
+    - role: engineer
+      from: 2024-11-01
+      to: 2025-05-30
+    - role: master
+      from: 2024-04-01
+      to: 2024-09-30
   nationality: br
 - id: leziart
   given: Pierre-Alexandre
@@ -1367,18 +1448,28 @@
   bio: >
     received a Master's degree in Mechatronics from École Normale Supérieure de Rennes, France, in 2019. He then received a Ph.D. in Robotics from the University of Toulouse, France, in 2022 after working 3 years at LAAS-CNRS, France, as part of the Gepetto team. His thesis focused on developping a model predictive control architecture able to exploit the dynamical capabilities of a lightweight quadruped robot. He continued working in the Gepetto team as a postdoc until April 2024. During that time he explored quadruped locomotion using reinforcement learning approaches. He started a postdoc at JRL in May 2024 through the JSPS program. His current work focuses on reinforcement learning locomotion for humanoid robots.
 - id: sevillano
-  given: Kimberly
-  family: Sevillano
-  role: master
-  from: 2024-02-01
-  to: 2024-07-31
+  given: Kimberly Grace
+  family: Sevillano C.
+  role: alumni
+  from: 2024-10-01
+  past-roles:
+    - role: master
+      from: 2024-02-01
+      to: 2024-09-30
   nationality: pe
+  linkedin: "https://www.linkedin.com/in/grace-sevillano/"
+  website: "https://gracesevillano.github.io/"
+  bio: >
+    is currently pursuing a Master's degree in Signal and Image Processing with a specialization in Computer Vision and Robotics (VIBOT) at the University of Burgundy, France. She earned her B.Sc. in Electronics Engineering from the National University of Engineering (UNI), Peru. She is conducting her Master's thesis at the CNRS-AIST JRL (Joint Robotics Laboratory), IRL3218 in Tsukuba, Japan. Her research focuses on combining dual-fisheye and color-depth vision for real-time, full-scale spherical image depth imaging, covering areas such as 3D imaging and robotics.
 - id: soucail
   given: Martin
   family: Soucail
-  role: master
-  from: 2024-02-01
-  to: 2024-07-31
+  role: alumni
+  from: 2024-09-01
+  past-roles:
+    - role: master
+      from: 2024-02-01
+      to: 2024-08-31
   nationality: fr
   linkedin: "www.linkedin.com/in/martin-soucail-23aa28223"
   bio: >
@@ -1386,16 +1477,22 @@
 - id: chalanunt
   given: Sirikorn
   family: Chalanunt
-  role: master
-  from: 2024-03-01
-  to: 2024-08-31
+  role: alumni
+  from: 2024-09-01
+  past-roles:
+    - role: master
+      from: 2024-03-01
+      to: 2024-08-31
   nationality: th
 - id: samson
   given: Marie
   family: Samson
-  role: master
-  from: 2024-02-05
-  to: 2024-07-31
+  role: alumni
+  from: 2024-08-01
+  past-roles:
+    - role: master
+      from: 2024-02-05
+      to: 2024-07-31
   nationality: fr
   linkedin: "http://www.linkedin.com/in/marie-samson-30953b226"
   bio: >
@@ -1403,38 +1500,55 @@
 - id: crequer
   given: Gwendal
   family: Crequer
-  role: master
-  from: 2024-03-18
-  to: 2024-09-17
+  role: alumni
+  from: 2024-09-14
+  past-roles:
+    - role: master
+      from: 2024-03-18
+      to: 2024-09-13
   nationality: fr
 - id: harle
   given: Damien
   family: Harlé
-  role: coming-master
-  from: 2024-06-03
-  to: 2024-09-30
+  role: alumni
+  from: 2024-10-01
+  past-roles:
+    - role: master
+      from: 2024-06-03
+      to: 2024-09-30
   nationality: fr
 - id: racine
   given: Isaac
   family: Racine
-  role: master
-  from: 2024-05-07
-  to: 2025-03-31
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: master
+      from: 2024-05-07
+      to: 2025-03-31
   nationality: ca
 - id: schulte
   given: Sinta
   family: Schulte
-  role: undergraduate
-  from: 2024-05-07
-  to: 2024-10-31
+  role: alumni
+  from: 2024-11-01
+  past-roles:
+    - role: undergraduate
+      from: 2024-05-07
+      to: 2024-10-31
   nationality: de
 - id: aymes
   given: Malo
   family: Aymes
-  role: master
-  from: 2024-04-22
-  to: 2024-09-02
+  role: alumni
+  from: 2024-09-03
+  past-roles:
+    - role: master
+      from: 2024-04-22
+      to: 2024-09-02
   nationality: fr
+  bio: >
+      Student in the Ingénieur Polytechnicien program at Ecole Polytechnique (Cycle Ingénieur polytechnicien) in Palaiseau, France, with a specialization in Artificial Intelligence and Data Science. Currently working as an intern and Research Assistant at the CNRS-AIST JRL in Tsukuba, Japan, on the subject of Skill Transfer from Human to Robot by Teleoperation, working with expert data obtained using teleoperation to train Deep Neural Networks using Imitation Learning.
 - id: aoyama
   given: Yunosuke
   family: Aoyama
@@ -1448,24 +1562,34 @@
 - id: morisaki
   given: Sunio
   family: Morisaki
-  role: non-degree
-  from: 2024-04-01
+  role: master
+  from: 2025-04-01
+  past-roles:
+    - role: non-degree
+      from: 2024-04-01
+      to: 2025-03-31
   nationality: pe
   bio: >
       is pursuing a master's degree in Intelligent and Mechanical Interaction Systems at the University of Tsukuba. His research interests include autonomous navigation and path planning algorithms.
 - id: guillaume
   given: Constantin
   family: Guillaume
-  role: master
-  from: 2024-05-27
-  to: 2024-10-04
+  role: alumni
+  from: 2024-10-05
+  past-roles:
+    - role: master
+      from: 2024-05-27
+      to: 2024-10-04
   nationality: fr
 - id: noel
   given: Ocean
   family: Noel
-  role: master
-  from: 2023-10-09
-  to: 2024-07-31
+  role: alumni
+  from: 2024-08-01
+  past-roles:
+    - role: master
+      from: 2023-10-09
+      to: 2024-07-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/oc%C3%A9an-noel-b5931b220"
   github: "https://github.com/Noceo200"
@@ -1474,14 +1598,343 @@
 - id: cardot
   given: Aymeric
   family: Cardot
-  role: coming-master
-  from: 2024-09-01
-  to: 2025-02-28
+  role: alumni
+  from: 2025-03-01
+  past-roles:
+    - role: master
+      from: 2024-09-01
+      to: 2025-02-28
   nationality: fr
+  linkedin: https://www.linkedin.com/in/aymeric-cardot-46a20b255
 - id: stefanell
   given: Hélène
   family: Stefanell
-  role: coming-master
+  role: alumni
+  from: 2025-03-29
+  past-roles:
+    - role: master
+      from: 2024-09-30
+      to: 2025-03-28
+  nationality: fr
+- id: taruf
+  given: Imane
+  family: Taruf
+  role: alumni
+  from: 2025-05-22
+  past-roles:
+    - role: engineer
+      from: 2024-09-09
+      to: 2025-05-21
+  nationality: fr
+- id: vazquez
+  given: David
+  family: Vázquez Leal
+  role: alumni
+  from: 2025-02-01
+  past-roles:
+    - role: undergraduate
+      from: 2024-10-01
+      to: 2025-01-31
+  nationality: mx
+- id: pinon
+  given: Pierre
+  family: Pinon
+  role: phd
+  from: 2024-12-01
+  to: 2027-11-30
+  nationality: fr
+- id: vilfroy
+  given: Seanan
+  family: Vilfroy
+  role: alumni
+  from: 2025-06-01
+  past-roles:
+    - role: master
+      from: 2024-12-02
+      to: 2025-05-30
+  nationality: fr
+- id: nasir
+  given: Amneh
+  family: Nasir
+  role: phd
+  from: 2024-10-01
+  to: 2027-09-30
+  nationality: jo
+- id: lannelongue
+  given: Elisa
+  family: Lannelongue
+  role: phd
+  from: 2024-11-18
+  to: 2027-11-30
+  nationality: fr
+- id: vega
+  given: Piero
+  family: Vega-Gutierrez
+  role: master
+  from: 2025-04-28
+  to: 2025-08-22
+  nationality: fr
+- id: yada
+  given: Shori
+  family: Yada
+  name-jp: 矢田 頌理
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: undergraduate
+      from: 2024-09-01
+      to: 2025-03-31
+  nationality: jp
+- id: lefevre
+  given: Hugo
+  family: Lefevre
+  role: alumni
+  from: 2024-10-26
+  past-roles:
+    - role: phd
+      from: 2024-08-26
+      to: 2024-10-25
+  nationality: fr
+- id: paik
+  given: Albert
+  family: Paik
+  role: alumni
+  from: 2024-02-15
+  past-roles:
+    - role: undergraduate
+      from: 2024-11-18
+      to: 2025-02-14
+  nationality: nz
+- id: pezet
+  given: Romain
+  family: Pezet
+  role: master
+  from: 2025-04-28
+  to: 2025-08-22
+  nationality: fr
+  bio: >
+    is a master student at UPSSITECH, Université Paul Sabatier in Toulouse. His research interests focus on computer science, artificial intelligence, and imitation learning. Currently, he is working on data collection for a robot using virtual reality equipment. He is also passionate about video games and enjoys playing badminton in his free time.
+- id: bories
+  given: Maxime
+  family: Bories
+  role: master
+  from: 2025-02-03
+  to: 2025-07-31
+  nationality: fr
+- id: durand
+  given: Hugo
+  family: Durand
+  role: master
+  from: 2025-02-17
+  to: 2025-08-15
+  nationality: fr
+- id: kikuchi
+  given: Misaki
+  family: Kikuchi
+  name-jp: 菊池 美咲
+  role: engineer
+  from: 2024-10-01
+  to: 2025-03-31
+  nationality: jp
+- id: dhaene
+  given: Mathis
+  family: D'Haene
+  role: phd
   from: 2024-11-01
-  to: 2025-03-28
+  to: 2027-10-31
+  nationality: fr
+- id: herklet
+  given: Emilien
+  family: Herklet
+  role: alumni
+  from: 2025-04-01
+  past-roles:
+    - role: master
+      from: 2025-01-06
+      to: 2025-03-31
+  nationality: fr
+- id: cariou
+  given: Alice
+  family: Cariou
+  role: master
+  from: 2025-02-20
+  to: 2025-08-20
+  nationality: fr
+  bio: >
+    is a master's student at EPITA, Paris, France, in AI major. Her current research includes fusing RL and QP for humanoid locomotion tasks to ensure safety and feasibility constraints.
+- id: leroy
+  given: Hippolyte
+  family: Leroy
+  role: phd
+  from: 2025-01-06
+  to: 2027-12-31
+  nationality: fr
+- id: moussafir
+  given: Léo
+  family: Moussafir
+  role: postdoc
+  from: 2025-03-10
+  to: 2025-12-31
+  nationality: fr
+  linkedin: "https://fr.linkedin.com/in/l%C3%A9o-moussafir-13860284"
+  bio: >
+    received a Master's degree in Mechanical and Automatique from Institut National des Sciences Appliquée de Rennes, France, in 2017. He then received a Ph.D. in Mechanic/Robotic from the Institut National des Sciences Appliquée de Rennes, France, in 2021 after working 3 years with SIDEL in CIFRE context. His thesis focused on optimisation of poly-articulated mechanism with cam. He worked as a postdoc at the LIRMM until August 2024. During that time he explored the modelisation of impact in robotic structure through the I-AM project. He started a postdoc at JRL in Mars 2025 through the joined project with Schaeffler company. His current work focuses on new humanoid robot design.
+- id: daligault
+  given: Celian
+  family: Daligault
+  role: master
+  from: 2025-04-02
+  to: 2025-09-30
+  nationality: fr
+  bio: >
+    is a master's student in autonomous robotics at ENSTA Bretagne, Brest (France). His current research imply Study on Software Integration of Versatile Kinematics Structure Systems.
+- id: kajitsuka
+  given: Kotaro
+  family: Kajitsuka
+  name-jp: 梶塚 幸太朗
+  role: master
+  from: 2025-04-01
+  to: 2027-03-31
+  nationality: jp
+  bio: >
+    is currently a master's student at the University of Tsukuba. He obtained his bachelor's degree in Physics from Tokyo University of Science. His current research focuses on tactile sensor-equipped multi-fingered robot hands for object exploration. 
+- id: joyapaez
+  given: Sebastian
+  family: Joya Paez
+  role: master
+  from: 2025-04-01
+  to: 2027-03-31
+  nationality: mx
+- id: tazeroualttlamcani
+  given: Ghita
+  family: Tazeroualt Tlamcani
+  role: master
+  from: 2025-05-07
+  to: 2025-09-12
+  nationality: ma
+  bio: >
+    is a master's student in robotics at ENSTA Bretagne, Brest, France. She obtained her Moroccan Baccalauréat in 2021 with a specialization in Mathematics and Physics. Her current academic focus is on control and localization for robotic systems. With a strong foundation in both theoretical and applied robotics, she is particularly interested in developing robust and intelligent methods to guide autonomous robots in complex environments.
+- id: louapre
+  given: Ferdinand
+  family: Louapre
+  role: master
+  from: 2025-02-17
+  to: 2025-08-15
+  nationality: fr
+- id: forgiel
+  given: Anatole
+  family: Forgiel
+  role: master
+  from: 2025-04-01
+  to: 2025-06-27
+  nationality: fr
+- id: dorfani
+  given: Raphaël
+  family: d'Orfani
+  role: master
+  from: 2025-04-01
+  to: 2025-09-30
+  nationality: fr
+  bio: >
+    is a master's student at Polytech Dijon, Le Creusot, France. He obtained his French Baccalauréat with a focus on Mathematics and Computer Science (NSI) in 2021. His current research try to provide a more intuitive and engaging experience for users operating a remote avatar through a VR headset. Having started with small video game projects, he can now use that experience into building immersive and interactive systems for robotics.
+- id: robert
+  given: Gauvain
+  family: Robert
+  role: phd
+  from: 2025-04-01
+  to: 2028-03-31
+  nationality: fr
+- id: oubraim
+  given: Walid
+  family: Oubraim
+  role: master
+  from: 2025-03-19
+  to: 2025-09-17
+  nationality: fr
+  bio: >
+    is a master's student at the University of Technology of Belfort-Montbéliard, France. He obtained his French-Spanish Baccalauréat with a specialization in Engineering Science and Computer Science in 2020. With a background in artificial intelligence, his current work focuses on goal recognition in teleoperated robotics. He is developing a framework that combines object detection, vision-language models, large language models, and probabilistic reasoning to infer user intent.
+- id: vu
+  given: Jimmy
+  family: Vu
+  role: master
+  from: 2025-04-21
+  to: 2025-10-15
+  nationality: fr
+  bio: >
+        is a master’s student at Polytech Nice Sophia in Robotics and Autonomous Systems, France. His work at AIST revolves around making the robot HRP5P hit a nail with a hammer, maximizing the impact while minimizing the damage to the joints in the process. Often called "Dim" his colleagues back in France. 
+- id: hernandezvaldez
+  given: Eduardo
+  family: Hernandez-Valdez
+  role: coming-undergraduate
+  from: 2025-06-24
+  to: 2026-02-15
+  nationality: mx
+- id: mesaros
+  given: David
+  family: Mesaros
+  role: non-degree
+  from: 2025-04-01
+  to: 2026-03-31
+  nationality: rs
+- id: gratiasquiquandon
+  given: Philippe
+  family: Gratias-Quiquandon
+  role: master
+  from: 2025-04-07
+  to: 2025-10-27
+  nationality: fr
+  bio: >
+    is a master's student at Télécom Paris, Palaiseau, France and in double degree at the Ecole Normale Supérieure de Paris-Saclay in the master Mathematics, Vision and Learning (MVA). His work focuses on locomotion and imitation learning for the humanoid robot Unitree H1. The goal is to have a policy that robustly opens a door.
+- id: gambardella
+  given: Romain
+  family: Gambardella
+  role: master
+  from: 2025-04-15
+  to: 2025-10-15
+  nationality: fr
+- id: senouci
+  given: Sidi Mohammed
+  family: Senouci
+  role: alumni
+  from: 2025-02-23
+  past-roles:
+    - role: adjunct
+      from: 2025-02-04
+      to: 2025-02-22
+  nationality: fr
+- id: tanabe
+  given: Katsuki
+  family: Tanabe
+  name-jp: 田邊 克輝
+  role: master
+  from: 2025-04-01
+  to: 2027-03-31
+  nationality: jp
+- id: matsuzaki
+  given: Manako
+  family: Matsuzaki
+  name-jp: 松崎 舞那子
+  role: admin
+  from: 2025-03-01
+  nationality: jp
+- id: merrad
+  given: Lydia
+  family: Merrad
+  role: coming-phd
+  from: 2025-10-01
+  to: 2027-09-30
+  nationality: fr
+- id: scianca
+  given: Nicola
+  family: Scianca
+  role: coming-adjunct
+  from: 2025-04-21
+  to: 2025-06-20
+  nationality: it
+- id: stasse
+  given: Olivier
+  family: Stasse
+  role: coming-adjunct
+  from: 2025-06-28
+  to: 2025-08-06
   nationality: fr

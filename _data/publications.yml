@@ -42,9 +42,7 @@
   authors:
   - id: yoshida
   - family: Arai
-    given: Tamio
-  - family: Yamamoto
-    given: Masakazu
+    given: Tamio Yand Yamamoto
   - family: Ota
     given: Jun
   pdf: https://staff.aist.go.jp/e.yoshida/papers/jrs98.pdf
@@ -703,8 +701,7 @@
   title: Modular architecture for humanoid walking pattern prototyping and experiments
   booktitle: Advanced Robotics
   authors:
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Verrelst
     given: Bjorn
   - family: Wieber
@@ -945,8 +942,7 @@
     study on motion generation'
   booktitle: Intelligent Service Robotics
   authors:
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Rul
     given: Rudolf
   - family: Lamiraux
@@ -1100,8 +1096,7 @@
   authors:
   - family: Foissotte
     given: Toréa
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Wieber
     given: Pierre-Brice
   - id: escande
@@ -1333,8 +1328,7 @@
     given: Claudia
   - family: Arechavaleta
     given: Gustavo
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/hayet-ijhr12.pdf
   lab: jrl
@@ -1421,8 +1415,7 @@
   authors:
   - family: Perrin
     given: Nicolas
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Baudouin
     given: Leo
   - family: Lamiraux
@@ -1439,8 +1432,7 @@
   authors:
   - family: Perrin
     given: Nicolas
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Lamiraux
     given: Florent
   - id: yoshida
@@ -4011,8 +4003,8 @@
   month: july
   projects:
   - jst_mirai
-- id: chappellet:tase:2023
-  year: 2023
+- id: chappellet:tase:2024
+  year: 2024
   title: Humanoid Loco-Manipulations using Combined Fast Dense 3D Tracking and SLAM
     with Wide-Angle Depth-Images
   booktitle: IEEE Transactions on Automation Science and Engineering
@@ -4024,6 +4016,7 @@
   - id: kheddar
   pdf: https://hal.science/hal-04125159
   lab: jrl
+  month: july
 - id: singh:access:2023
   year: 2023
   title: Learning Bipedal Walking for Humanoids with Current Feedback
@@ -4378,6 +4371,7 @@
   - id: kheddar
   pdf: https://doi.org/10.1080/10556788.2024.2307467
   lab: jrl
+  month: november
 - id: zhu:tm:2024
   year: 2024
   title: The Development of a 7-DoF Humanoid Arm for Driving Using a Task-Driven Design
@@ -4399,6 +4393,126 @@
   pdf: https://ieeexplore.ieee.org/document/10250896
   lab: jrl
   month: april
+- id: hamze:ral:2024
+  year: 2024
+  title: Compliant Contacts Balance-Force Controller for Legged Robots
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: hamze
+  - id: benalleguem
+  - id: cisneros
+  - id: benalleguea
+  pdf: https://ieeexplore.ieee.org/abstract/document/10609486
+  lab: jrl
+  month: november
+- id: kessy:cvm:2024
+  year: 2025
+  title: Illumination Compensation using Perpendicular Whisk-broom Hyperspectral Scans
+  booktitle: Computational Visual Media
+  authors:
+  - family: Kessy
+    given: Suzan
+  - family: Funatomi
+    given: Takuya
+  - family: Kushida
+    given: Takahiro
+  - family: Kitano
+    given: Kazuya
+  - family: Fujimura
+    given: Yuki
+  - id: carong
+  - family: Mouaddib
+    given: El
+  - family: Mukaigawa
+    given: Yasuhiro
+  pdf: https://hal.science/hal-04651042
+  lab: jrl
+- id: roux:ral:2024
+  year: 2024
+  title: End-Effectors Changer Design for Humanoids
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Roux
+    given: Julien
+  - family: Izard
+    given: Jean-Baptiste
+  - id: tanguy
+  - id: kaminaga
+  - id: kanehiro
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10697271
+  lab: jrl
+  month: november
+- id: murooka:ral:2024
+  year: 2024
+  title: Whole-Body Multi-Contact Motion Control for Humanoid Robots Based on Distributed
+    Tactile Sensors
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: murooka
+  - id: fukumitsu
+  - id: hamze
+  - id: morisawa
+  - id: kaminaga
+  - id: kanehiro
+  - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/10706003
+  lab: jrl
+  month: november
+  projects:
+  - icph
+- id: zermane:ral:2024
+  year: 2024
+  title: Minimal Impact Pokes to Place Objects on Planar Surfaces
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Zermane
+    given: Ahmed
+  - id: moussafir
+  - family: Yan
+    given: Youcan
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10742560
+  lab: jrl
+  month: november
+- id: fournier:bmj:2024
+  year: 2024
+  title: Pilot study protocol evaluating the impact of telerobotics interactions with
+    autistic children during a Denver intervention on communication skills using single-case
+    experimental design
+  booktitle: BMJ Open
+  authors:
+  - family: Fournier
+    given: Carole
+  - family: Michelon
+    given: Cécile
+  - family: Granit
+    given: Véronique
+  - family: Audoyer
+    given: Paul
+  - family: Bernardot
+    given: Arielle
+  - family: Picot
+    given: Marie-Christine
+  - id: kheddar
+  - family: Baghdadli
+    given: Amaria
+  pdf: https://bmjopen.bmj.com/content/14/11/e084110
+  lab: jrl
+  month: october
+- id: osawa:cste:2024
+  year: 2024
+  title: Robot soft thermal display using self-heating and cooling system
+  booktitle: Case Studies in Thermal Engineering
+  authors:
+  - family: Osawa
+    given: Yukiko
+  - family: Ogura
+    given: Ichiro
+  - id: kheddar
+  pdf: https://www.sciencedirect.com/science/article/pii/S2214157X24013595
+  lab: jrl
+  month: november
 - id: watier:ibm:2023
   year: 2023
   title: Use of adult anthropometric tables to estimate children body segment inertial
@@ -4411,6 +4525,178 @@
   pdf: https://doi.org/10.1080/23335432.2023.2268686
   lab: jrl
   month: november
+- id: pomarat:dart:2025
+  year: 2025
+  title: Wheelchair caster power losses due to rolling resistance on sports surfaces
+  booktitle: 'Disability and Rehabilitation: Assistive Technology'
+  authors:
+  - family: Pomarat
+    given: Z.
+  - family: Marsan
+    given: T.
+  - family: Faupin
+    given: A.
+  - family: Landon
+    given: Y.
+  - id: bwatier
+  pdf: https://laas.hal.science/hal-04725578
+  lab: jrl
+  month: may
+- id: sabbah:isj:2024
+  year: 2024
+  title: Concurrent validity of embedded solutions for whole body dynamics analysis
+  booktitle: IEEE Sensors Journal
+  authors:
+  - family: Sabbah
+    given: Maxime
+  - id: bwatier
+  - family: Dumas
+    given: Raphael
+  - family: Gautier
+    given: Maxime
+  - family: Bonnet
+    given: Vincent
+  pdf: https://ieeexplore.ieee.org/document/10738286
+  lab: jrl
+  month: december
+- id: yan:nmi:2024
+  year: 2024
+  title: A soft skin with self-decoupled three-axis force-sensing taxels
+  booktitle: Nature Machine Intelligence
+  authors:
+  - family: Yan
+    given: Youcan
+  - family: Zermane
+    given: Ahmed
+  - family: Pan
+    given: Jia
+  - id: kheddar
+  pdf: https://www.nature.com/articles/s42256-024-00904-9
+  lab: jrl
+  month: november
+- id: kumagai:ral:2025
+  year: 2025
+  title: Reinforcement Learning of Contact Preferability in Multi-contact Locomotion
+    Planning for Humanoids
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: kumagai
+  - id: murooka
+  - id: morisawa
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10819609
+  lab: jrl
+  month: february
+  projects:
+  - kakenhi_wakate2023_kumagai
+- id: lefevre:ral:2025
+  year: 2025
+  title: Humanoid-Human Sit-to-Stand-to-Sit Assistance
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Lefévre
+    given: Hugo
+  - family: Chaki
+    given: Tomohiro
+  - family: Kawakami
+    given: Tomohiro
+  - id: tanguy
+  - family: Yoshiike
+    given: Takahide
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10815980
+  lab: jrl
+  month: february
+- id: benallegue:ram:2025
+  year: 2025
+  title: 'Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated
+    Tasks in a Nursing Context'
+  booktitle: IEEE Robotics & Automation Magazine
+  authors:
+  - id: benalleguem
+  - id: glorthioir
+  - id: dallard
+  - id: cisneros
+  - id: kumagai
+  - id: morisawa
+  - id: kaminaga
+  - id: murooka
+  - id: aandre
+  - id: gergondet
+  - id: kaneko
+  - id: carong
+  - id: kanehiro
+  - id: kheddar
+  - family: Yukizaki
+    given: Soh
+  - family: Karasuyama
+    given: Junichi
+  - family: Murakami
+    given: Junichi
+  - family: Kamon
+    given: Masayuki
+  pdf: https://ieeexplore.ieee.org/document/10852168
+  lab: jrl
+  month: march
+  projects:
+  - jrp_khi
+- id: sun:aei:2025
+  year: 2025
+  title: Enhancing multimodal-input object goal navigation by leveraging large language
+    models for inferring room–object relationship knowledge
+  booktitle: Advanced Engineering Informatics
+  authors:
+  - id: sun
+  - family: Kanezaki
+    given: Asako
+  - id: carong
+  - id: yoshiyasu
+  pdf: https://www.sciencedirect.com/science/article/pii/S147403462500028X
+  lab: jrl
+  month: may
+  projects:
+  - zero
+- id: andre:tro:2025
+  year: 2025
+  title: 'UniphorM: A New Uniform Spherical Image Representation for Robotic Vision'
+  booktitle: IEEE Transactions on Robotics
+  authors:
+  - id: aandre
+  - family: Morbidi
+    given: Fabio
+  - id: carong
+  pdf: https://ieeexplore.ieee.org/document/10912746
+  lab: jrl
+  month: march
+  projects:
+  - dvsstraight
+- id: poquerusse:mbj:2025
+  year: 2025
+  title: Measurement of skidding to determine the optimum ergonomic configuration
+    of the racing wheelchair
+  booktitle: Multidisciplinary Biomechanics Journal
+  authors:
+  - family: Poquerusse
+    given: N.
+  - family: Hays
+    given: A.
+  - family: Cortial
+    given: A.
+  - family: Vigié
+    given: O.
+  - family: Deves
+    given: M.
+  - family: Alberca
+    given: I.
+  - family: Honnorat
+    given: L.
+  - family: Watier
+    given: B.
+  - family: Faupin
+    given: A.
+  pdf: http://mbj.episciences.org/14556
+  lab: jrl
+  month: january
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -5401,8 +5687,7 @@
   authors:
   - family: Sellaouti
     given: Ramzi
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: kajita
   - family: Yokoi
     given: Kazuhito
@@ -5459,8 +5744,7 @@
     Robot HRP-2
   booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Larlus
     given: Diane
   - family: Lagarde
@@ -5604,8 +5888,7 @@
   authors:
   - family: Saidi
     given: Francois
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Yokoi
     given: Kazuhito
   - id: kanehiro
@@ -5651,8 +5934,7 @@
   authors:
   - family: Foissotte
     given: Toréa
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: escande
   - id: kheddar
   pdf: https://raw.githubusercontent.com/aescande/website/master/papers/2008_Humanoids_Foissotte.pdf
@@ -5702,8 +5984,7 @@
   title: Real-time (self)-collision avoidance task on a HRP-2 humanoid robot
   booktitle: IEEE International Conference on Robotics and Automation
   authors:
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: escande
   - family: Mansard
     given: Nicolas
@@ -5865,8 +6146,7 @@
   authors:
   - family: Kwak
     given: Nosan
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Foissotte
     given: Toréa
   - family: Yokoi
@@ -5936,8 +6216,7 @@
   authors:
   - family: Pierro
     given: Paolo
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: kheddar
   - family: Yokoi
     given: Kazuhito
@@ -5996,8 +6275,7 @@
   authors:
   - family: Foissotte
     given: Toréa
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - id: escande
   - family: Wieber
     given: Pierre-Brice
@@ -6262,8 +6540,7 @@
     given: Claire
   - family: Herdt
     given: Andrei
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   - family: Wieber
     given: Pierre-Brice
   - family: Yokoi
@@ -8318,8 +8595,7 @@
   - family: Mifsud
     given: Alexis
   - id: benalleguem
-  - family: Stasse
-    given: Olivier
+  - id: stasse
   pdf: https://hal.archives-ouvertes.fr/hal-01574819/document
   month: november 15-november 17
 - id: ito:humanoids:2017
@@ -9736,6 +10012,8 @@
   pdf: https://ieeexplore.ieee.org/document/9659324
   lab: jrl
   month: december 6-december 10
+  projects:
+  - dvsstraight
 - id: roux:icar:2021
   year: 2021
   title: Control of Humanoid in Multiple Fixed and Moving Unilateral Contacts
@@ -10224,6 +10502,66 @@
   pdf: https://link.springer.com/chapter/10.1007/978-981-99-8715-3_28
   lab: jrl
   month: december 3-december 7
+- id: alberca:isb:2023
+  year: 2023
+  title: COMPARISON BETWEEN BACKWARD AND FORWARD PROPULSION IN WHEELCHAIR BADMINTON
+  booktitle: International Society of Biomechanics
+  authors:
+  - family: Alberca
+    given: Ilona
+  - id: bwatier
+  - family: Chénier
+    given: Félix
+  - family: Faupin
+    given: Arnaud
+  pdf: https://hal.science/JRL/hal-04489352v1
+  lab: jrl
+  month: july 30-august 3
+- id: watier:isb:2023
+  year: 2023
+  title: BODY CENTER OF MASS TO MINIMAL MOMENT AXIS DISTANCE IS DETERMINANT OF AGE-RELATED
+    EVOLUTION IN STEPPING
+  booktitle: International Society of Biomechanics
+  authors:
+  - id: bwatier
+  - family: Begue
+    given: Jérémie
+  - family: Caderby
+    given: Teddy
+  - family: Pillet
+    given: Hélène
+  pdf: https://hal.science/JRL/hal-04489345v1
+  lab: jrl
+  month: july 30-august 3
+- id: deves:isb:2023
+  year: 2023
+  title: IN SITU VALIDATION OF POWER QUANTIFICATION FOR DYNAMIC WHEELCHAIR SPORTS
+  booktitle: International Society of Biomechanics
+  authors:
+  - family: Deves
+    given: Mathieu
+  - family: Marsan
+    given: Thibault
+  - family: Faupin
+    given: Arnaud
+  - id: bwatier
+  pdf: https://hal.science/JRL/hal-04489340v1
+  lab: jrl
+  month: july 30-august 3
+- id: pillet:isb:2023
+  year: 2023
+  title: INFLUENCE OF NEGLECTING FREE MOMENT AND TRANSVERSE GROUND REACTION FORCES
+    IN THE DETECTION OF THE INSTABILITY OF GAIT
+  booktitle: International Society of Biomechanics
+  authors:
+  - family: Pillet
+    given: Hélène
+  - family: Bonnet
+    given: Xavier
+  - id: bwatier
+  pdf: https://hal.science/JRL/hal-04489336v1
+  lab: jrl
+  month: july 30-august 3
 - id: quaccia:sii:2024
   year: 2024
   title: A Study on Learned Feature Maps Toward Direct Visual Servoing
@@ -10364,6 +10702,52 @@
   pdf: https://hal.science/hal-04519122
   lab: jrl
   month: may 13-may 17
+- id: naamani:iros:2024
+  year: 2024
+  title: A mathematical characterization of the convergence domain for Direct Visual
+    Servoing
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: naamani
+  - id: carong
+  - id: morisawa
+  - family: Mouaddib
+    given: El
+  pdf: https://hal.science/hal-04650438
+  lab: jrl
+  month: october 14-october 18
+  projects:
+  - dvsstraight
+- id: miyake:iros:2024
+  year: 2024
+  title: 'Contacts from Motion: Learning Discrete Features for Automatic Contact Detection
+    and Estimation from Human Movements'
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: miyake
+  - id: ayusawa
+  - id: sagawa
+  - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/10802414
+  lab: jrl
+  month: october 14-october 18
+  projects:
+  - icph
+- id: guadarramaolvera:iros:2024
+  year: 2024
+  title: Contact Stability Control of Stepping Over Partial Footholds Using Plantar
+    Tactile Feedback
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Guadarrama-Olvera
+    given: J.
+  - id: kajita
+  - id: kanehiro
+  - family: Cheng
+    given: Gordon
+  pdf: https://ieeexplore.ieee.org/document/10802686
+  lab: jrl
+  month: october 14-october 18
 - id: hong:isea:2024
   year: 2024
   title: 'A cross-temporal robotic dance performance: Dancing with a humanoid robot
@@ -10378,9 +10762,214 @@
   - id: kheddar
   - family: Chen
     given: C-Y.
-  pdf: ''
+  pdf: https://www.isea-archives.org/isea2024_presentation_hong_et-al/
   lab: jrl
   month: june 21-june 29
+- id: sabbah:biorob:2024
+  year: 2024
+  title: Ground Reaction Forces and Moments Estimation from Embedded Insoles using
+    Machine Learning Regression Models
+  booktitle: International Conference on Biomedical Robotics and Biomechatronics
+  authors:
+  - family: Sabbah
+    given: Maxime
+  - family: Dumas
+    given: Raphael
+  - family: Pomarat
+    given: Zoe
+  - family: Robinet
+    given: Lucas
+  - family: Adjel
+    given: Mohamed
+  - id: bwatier
+  - family: Bonnet
+    given: Vincent
+  pdf: https://ieeexplore.ieee.org/document/10719958
+  lab: jrl
+  month: september 1-september 4
+- id: singh:humanoids:2024
+  year: 2024
+  title: Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement
+    Learning
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: singh
+  - id: morisawa
+  - id: benalleguem
+  - family: Xie
+    given: Zhaoming
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10769793
+  lab: jrl
+  month: november 22-november 24
+  projects:
+  - icph
+- id: wang:humanoids:2024
+  year: 2024
+  title: Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: wang
+  - id: ayusawa
+  - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/10769841
+  lab: jrl
+  month: november 22-november 24
+  projects:
+  - icph
+- id: tako:humanoids:2024
+  year: 2024
+  title: Tactile Sensor-Based Detection of Partial Foothold for Balance Control in
+    Humanoid Robots
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: tako
+  - id: cisneros
+  - id: kaminaga
+  - id: kaneko
+  - id: murooka
+  - id: kumagai
+  - family: Masuzawa
+    given: Hiroaki
+  - family: Kakiuchi
+    given: Yohei
+  pdf: https://ieeexplore.ieee.org/document/10769855
+  lab: jrl
+  month: november 22-november 24
+- id: chalabi:humanoids:2024
+  year: 2024
+  title: Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine
+    Learning
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - family: Chalabi
+    given: Kahina
+  - family: Adjel
+    given: Mohamed
+  - family: Bousquet
+    given: Thomas
+  - family: Sabbah
+    given: Maxime
+  - id: bwatier
+  - family: Bonnet
+    given: Vincent
+  pdf: https://ieeexplore.ieee.org/document/10769846
+  lab: jrl
+  month: november 22-november 24
+- id: chefchaounimoussaoui::humanoids:2024
+  year: 2024
+  title: Motion Accuracy and Computational Effort in QP-Based Robot Control
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: chefchaouni
+  - id: benalleguem
+  - id: escande
+  - family: Wieber
+    given: Pierre-Brice
+  pdf: https://ieeexplore.ieee.org/document/10769961
+  lab: jrl
+  month: november 22-november 24
+- id: hong:hfr:2024
+  year: 2024
+  title: Integrating transformer-based AI-generated dance movements into HRP-4 for
+    human-robot artistic collaboration
+  booktitle: International Workshop on Human-Friendly Robotics
+  authors:
+  - family: Hong
+    given: Hui-Ting
+  - family: Chen
+    given: Chu-Yin
+  - id: kheddar
+  pdf: https://link.springer.com/chapter/10.1007/978-3-031-81688-8_9
+  lab: jrl
+  month: september 30-october 1
+- id: hong:ro-man:2024
+  year: 2024
+  title: A Dance Performance with a Humanoid Robot using a Real-time Gesture Responsive
+    Framework
+  booktitle: International Symposium on Robot and Human Interactive Communication
+  authors:
+  - family: Hong
+    given: Hui-Ting
+  - family: Chen
+    given: Chu-Yin
+  - id: tanguy
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10731316
+  lab: jrl
+  month: august 26-august 30
+- id: barstugan:iccr:2024
+  year: 2024
+  title: Aligning objects as preprocessing combined with imitation learning for improved
+    generalization
+  booktitle: International Conference on Control and Robotics
+  authors:
+  - family: Barstugan
+    given: Muchahid
+  - id: masuda
+  - id: sagawa
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10927529
+  lab: jrl
+  month: december 5-december 7
+- id: samson:sii:2025
+  year: 2025
+  title: 'Scalable, Training-Free Visual Language Robotics: A Modular Multi-Model
+    Framework for Consumer-Grade GPUs'
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: samson
+  - id: muraccioli
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10870971
+  lab: jrl
+  month: january 21-january 24
+  projects:
+  - icps
+- id: noel:sii:2025
+  year: 2025
+  title: 'A Lightweight Approach to Efficient Multimodal 2D Navigation and Mapping:
+    Unified Laser-Scans As an Alternative to 3D Methods'
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: noel
+  - id: cisneros
+  - id: kaneko
+  - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/10871118
+  lab: jrl
+  month: january 21-january 24
+  projects:
+  - icps
+- id: schulte:sii:2025
+  year: 2025
+  title: On the Impact of the Camera Field-Of-View to Direct Visual Servoing Robot
+    Trajectories When Using the Photometric Gaussian Mixtures As Dense Feature
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: schulte
+  - id: aandre
+  - family: Crombez
+    given: Nathan
+  - id: carong
+  pdf: https://hal.science/hal-04810271v1
+  lab: jrl
+  month: january 21-january 24
+  projects:
+  - dvsstraight
+- id: muraccioli:rss:2025
+  year: 2025
+  title: Demonstrating a Control Framework for Physical Human-Robot Interaction Toward
+    Industrial Applications
+  booktitle: 'Robotics: Science and Systems'
+  authors:
+  - id: muraccioli
+  - id: mcelerier
+  - id: benalleguem
+  - id: venture
+  pdf: https://roboticsconference.org/program/papers/84/
+  lab: jrl
+  month: june 21-june 25
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics

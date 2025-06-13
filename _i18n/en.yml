@@ -1,5 +1,5 @@
 page-not-found: Page Not Found
-lab-name: CNRS-AIST JRL(Joint Robotics Laboratory), IRL
+lab-name: CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
 langs:
   jp: Japanese
 pages:
@@ -8,6 +8,7 @@ pages:
   projects: Projects
   past-projects: Past projects
   members: Members
+  robots: Robots
   publications: Publications
   HL: HL
   join: Join us
@@ -76,40 +77,51 @@ hl:
   students:
     - id: masuda
       name: Shimpei Masuda
-      grade: Ph.D. 2nd Year
+      grade: Ph.D. 3rd Year
       email: masuda.shimpei_*_aist.go.jp
     - id: hong
       name: Cheng Hong
-      grade: Ph.D. 1st Year
+      grade: Ph.D. 2nd Year
       email: cheng.hong_*_aist.go.jp
     - id: li
       name: Yitong Li
-      grade: Ph.D. 1st Year
+      grade: Ph.D. 2nd Year
       email: li.cornel_*_aist.go.jp
     - id: nishijima
       name: Yu Nishijima
-      grade: master 1st Year
+      grade: master 2nd Year
       email: y.nishijima_*_aist.go.jp
     - id: ono
       name: Tasuku Ono
-      grade: master 1st Year
+      grade: master 2nd Year
       email: ono.tasuku_*_aist.go.jp
     - id: aoyama
       name: Yunosuke Aoyama
-      grade: master 1st Year
+      grade: master 2nd Year
       email: aoyama.y0093_*_aist.go.jp
     - id: liu
       name: Zenong Liu
-      grade: master 1st Year
+      grade: master 2nd Year
       email: zenong.liu_*_aist.go.jp
     - id: morisaki
       name: Sunio Morisaki
-      grade: research student
+      grade: master 1st Year
       email: sunio.morisakiromero_*_aist.go.jp
+    - id: kajitsuka
+      name: Kotaro Kajitsuka
+      grade: master 1st Year
+    - id: tanabe
+      name: Katsuki Tanabe
+      grade: master 1st Year
+    - id: joyapaez
+      name: Sebastian Joya Paez
+      grade: master 1st Year
+    - id: mesaros
+      name: David Mesaros
+      grade: research student
     - id: singh
       name: Rohan Pratap Singh
       grade: Graduated (Ph.D.)
-      email: rohan-singh_*_aist.go.jp
       website: https://rohanpsingh.github.io
     - id: qin
       name: Yili Qin
@@ -117,18 +129,103 @@ hl:
     - id: sun
       name: Leyuan Sun
       grade: Graduated (Ph.D.)
-      email: son.leyuansun_*_aist.go.jp
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
-  - date: 2024/6/1
+  - date: 01/06/2025
     content: >
-      Four members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-schulte.html">Sinta Schulte</a>, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, and <a href="members/member-guillaume.html">Constantin Guillaume</a> joined and one member, <a href="members/member-frizza.html">Irene Frizza</a> left the JRL in May.
-  - date: 2024/5/17
+      One member, <a href="members/member-tazeroualttlamcani.html">Ghita Tazeroualt-Tlamcani</a> joined and three members <a href="members/member-taruf.html">Imane Taruf</a>, <a href="members/member-paula.html">Matheus Paula</a> and <a href="members/member-vilfroy.html">Seanan Vilfroy</a> left the JRL in May.<br>
+      "<a href=https://laas.hal.science/hal-04725578>Wheelchair caster power losses due to rolling resistance on sports surfaces</a>" was published in the Disability and Rehabilitation: Assistive Technology.<br>
+      "<a href=https://www.sciencedirect.com/science/article/pii/S147403462500028X>Enhancing multimodal-input object goal navigation by leveraging large language models for inferring room–object relationship knowledge</a>" was published in the Advanced Engineering Informatics.
+  - date: 01/05/2025
+    content: >
+      13 members, <a href="members/member-kajitsuka.html">Kotaro Kajitsuka</a>, <a href="members/member-joyapaez.html">Sebastian Joya Paez</a>, <a href="members/member-forgiel.html">Anatole Forgiel</a>, <a href="members/member-dorfani.html">Raphaël d'Orfani</a>, <a href="members/member-robert.html">Gauvain Robert</a>, <a href="members/member-mesaros.html">David Mesaros</a>, <a href="members/member-tanabe.html">Katsuki Tanabe</a>, <a href="members/member-daligault.html">Celian Daligault</a>, <a href="members/member-gratiasquiquandon.html">Philippe Gratias-Quiquandon</a>, <a href="members/member-gambardella.html">Romain Gambardella</a>, <a href="members/member-vu.html">Jimmy Vu</a>, <a href="members/member-vega.html">Piero Vega-Gutierrez</a> and <a href="members/member-pezet.html">Romain Pezet</a> joined in April.
+  - date: 01/04/2025
+    content: >
+      Two projects, <a href="projects/project-dvsstraight.html">DVS-Straight</a> and <a href="projects/project-icps.html">ICPS</a> finished.<p>
+      Three members, <a href="members/member-matsuzaki.html">Manako Matsuzaki</a>, <a href="members/member-moussafir.html">Léo Moussafir</a> and <a href="members/member-oubraim.html">Walid Oubraim</a> joined and 15 members, <a href="members/member-stefanell.html">Hélène Stefanell</a>, <a href="members/member-ganesh.html">Gowrishankar Ganesh</a>, <a href="members/member-abe.html">Naoko Abe</a>, <a href="members/member-singh.html">Rohan P. Singh</a>, <a href="members/member-katom.html">Mitsuko Kato</a>, <a href="members/member-glorthioir.html">Guillaume Lorthioir</a>, <a href="members/member-chen.html">Yang Chen</a>, <a href="members/member-miyake.html">Hibiki Miyake</a>, <a href="members/member-fukumitsu.html">Kensuke Fukumitsu</a>, <a href="members/member-tako.html">Taro Tako</a>, <a href="members/member-hoshi.html">Takahiro Hoshi</a>, <a href="members/member-mori.html">Kenya Mori</a>, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-herklet.html">Emilien Herklet</a> and <a href="members/member-leroy.html">Hippolyte Leroy</a> and <a href="members/member-yada.html">Shori Yada</a> left the JRL in March.<p>
+      <a href=https://ieeexplore.ieee.org/document/10852168>Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated Tasks in a Nursing Context</a> was published in the IEEE RAM.
+  - date: 01/03/2025
+    content: >
+      Six members, <a href="members/member-acaillot.html">Antoine Caillot</a>, <a href="members/member-bories.html">Maxime Bories</a>, <a href="members/member-senouci.html">Sidi Mohammed Senouci</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a> and <a href="members/member-cariou.html">Alice Cariou</a> joined and three members, <a href="members/member-cardot.html">Aymeric Cardot</a> and <a href="members/member-paik.html">Albert Paik</a> and <a href="members/member-senouci.html">Sidi Mohammed Senouci</a> left the JRL in February.<p>
+      Two papers were published in the RA-Letters.
+      <ul>
+      <li><a href=https://ieeexplore.ieee.org/document/10819609>Reinforcement Learning of Contact Preferability in Multi-contact Locomotion Planning for Humanoids</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10815980>Humanoid-Human Sit-to-Stand-to-Sit Assistance</a></li>
+      </ul>
+  - date: 01/02/2025
+    content: >
+      Two members, <a href="members/member-herklet.html">Emilien Herklet</a> and <a href="members/member-leroy.html">Hippolyte Leroy</a> joined and <a href="members/member-vazquez.html">David Vázquez Leal</a> left the JRL in January.<br>
+      Three papers were presented at the SII2025.<br>
+      <ul>
+      <li>Scalable, Training-Free Visual Language Robotics: A Modular Multi-Model Framework for Consumer-Grade GPUs</li>
+      <li>A Lightweight Approach to Efficient Multimodal 2D Navigation and Mapping: Unified Laser-Scans As an Alternative to 3D Methods</li>
+      <li>On the Impact of the Camera Field-Of-View to Direct Visual Servoing Robot Trajectories When Using the Photometric Gaussian Mixtures As Dense Feature</li>
+      </ul>
+  - date: 01/01/2025
+    content: >
+      Two members, <a href="members/member-pinon.html">Pierre Pinon</a> and <a href="members/member-vilfroy.html">Seanan Vilfroy</a> joined and <a href="members/member-sagawa.html">Ryusuke Sagawa</a> left the JRL in December.<p>
+      "<a href=https://laas.hal.science/hal-04725578>Wheelchair caster power losses due to rolling resistance on sports surfaces</a>" was published in the Disability and Rehabilitation: Assistive Technology.<br>
+      "Aligning objects as preprocessing combined with imitation learning for improved generalization" was presented at the International Conference on Control and Robotics 2024.
+  - date: 01/12/2024
+    content: >
+      Three members, <a href="members/member-dhaene.html">Mathis D'Haene</a>, <a href="members/member-lannelongue.html">Elisa Lannelongue</a> and <a href="members/member-paik.html">Albert Paik</a> joined and <a href="members/member-dallard.html">Antonin Dallard</a> defended this PhD thesis.<br>
+      "<a href=https://www.nature.com/articles/s42256-024-00904-9>A soft skin with self-decoupled three-axis force-sensing taxels</a>" was published in the Nature Machine Intelligence.<br>
+      "<a href=https://doi.org/10.1080/10556788.2024.2307467>Sequential hierarchical least-squares programming for prioritized non-linear optimal control</a>" was published in the Optimization Methods and Software.<br>
+      Four papers were published in the RA-Letters.<br>
+      <ul>
+      <li><a href=https://ieeexplore.ieee.org/abstract/document/10609486>Compliant Contacts Balance-Force Controller for Legged Robots</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10706003>Whole-Body Multi-Contact Motion Control for Humanoid Robots Based on Distributed Tactile Sensors</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10742560>Minimal Impact Pokes to Place Objects on Planar Surfaces</a></li>
+      <li><a href=https://ieeexplore.ieee.org/document/10697271>End-Effectors Changer Design for Humanoids</a></li>
+      </ul>
+      Five papers were presented at the Humanoids2024.<br>
+      <ul>
+      <li><a href="https://ieeexplore.ieee.org/document/10769961">Motion Accuracy and Computational Effort in QP-Based Robot Control</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769846">Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769855">Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769841">Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10769793">Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</a></li>
+      </ul>
+  - date: 01/11/2024
+    content: >
+      Three members, <a href="members/member-nasir.html">Amneh Nasir</a>, <a href="members/member-vazquez.html">David Vázquez Leal</a>, and <a href="members/member-kikuchi.html">Misaki Kikuchi</a> joined and three members, <a href="members/member-lefevre.html">Hugo Lefevre</a>, <a href="members/member-guillaume.html">Constantin Guillaume</a> and <a href="members/member-schulte.html">Sinta Schulte</a> finished their stays at the JRL.<br>
+      Two papers were presented at the ICRA@40<br>
+      <ul>
+      <li>Impact-Aware Dual-Arm Manipulation</li>
+      <li><a href="https://ieeexplore.ieee.org/document/10463090">Dual-Hemispherical Photometric Visual Servoing</a></li>
+      </ul>
+      Four papers were presented at the IROS 2024<br>
+      <ul>
+      <li>Contact Stability Control of Stepping Over Partial Footholds Using Plantar Tactile Feedback</li>
+      <li><a href="https://ieeexplore.ieee.org/document/10400898">Planning Impact-Driven Logistic Tasks</a></li>
+      <li>Contacts from Motion: Learning Discrete Features for Automatic Contact Detection and Estimation from Human Movements</li>
+      <li><a href="https://hal.science/hal-04650438">A Mathematical Characterization of the Convergence Domain for Direct Visual Servoing</a></li>
+      </ul>
+  - date: 01/10/2024
+    content: >
+      Five members, <a href="members/member-benalleguea.html">Abdelaziz Benallegue</a>, <a href="members/member-taruf.html">Imane Taruf</a>, <a href="members/member-cardot.html">Aymeric Cardot</a>, <a href="members/member-stefanell.html">Hélène Stefanell</a>, and <a href="memebers/member-yada.html">Shori Yada</a> joined and five members, <a href="members/member-aymes.html">Malo Aymes</a>, <a href="members/member-crequer.html">Gwendal Crequer</a>, <a href="members/member-paula.html">Matheus Paula</a>, <a href="members/member-sevillano.html">Kimbery Grace Sevillano C.</a> and <a href="members/member-harle.html">Damien Harlé</a> finished their internships at the JRL.<br>
+  - date: 01/09/2024
+    content: >
+      One member, <a href="members/member-lefevre.html">Hugo Lefevre</a> joined and three members, <a href="members/member-arslan.html">Mikael Arslan</a>, <a href="members/member-soucail.html">Martin Soucail</a> and <a href="members/member-chalanunt.html">Sirikorn Chalanunt</a> finished their internships at the JRL in August.<br>
+      "<a href="https://www.sciencedirect.com/science/article/pii/S1746809424002933">Assessing time series correlation significance: A parametric approach with application to physiological signals</a>" was published in Biomedical Signal Processing and Control.
+  - date: 01/08/2024
+    content: >
+      One member, <a href="members/member-duvinage.html">Thomas Duvinage</a> joined and three members, <a href="members/member-bwatier.html">Bruno Watier</a>, <a href="members/member-noel.html">Ocean Noel</a>, and <a href="members/member-samson.html">Marie Samson</a> left the JRL in July.<br>
+      "<a href="https://hal.science/hal-04125159">Humanoid Loco-Manipulations using Combined Fast Dense 3D Tracking and SLAM with Wide-Angle Depth-Images</a>" was published in the IEEE T-ASE.
+  - date: 01/07/2024
+    content: >
+      <a href="members/member-harle.html">Damien Harlé</a> joined in June.<br>
+      "A cross-temporal robotic dance performance: Dancing with a humanoid robot and artificial life" was presented at ISEA2024.
+  - date: 01/06/2024
+    content: >
+      Four members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-schulte.html">Sinta Schulte</a>, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, and <a href="members/member-guillaume.html">Constantin Guillaume</a> joined and one member, <a href="members/member-frizza.html">Irene Frizza</a> left the JRL in May.<br>
+      "<a href="https://ieeexplore.ieee.org/document/10463090">Dual-Hemispherical Photometric Visual Servoing</a>" was published in the IEEE RA-L.
+  - date: 17/05/2024
     content: >
       25 JRL members participated in the IEEE International Conference on Robotics and Automation (ICRA) and gave 15 presentations.
       <ul>
-      <li>2 regular articles</li>
+      <li>2 regular articles (<a href="https://hal.science/hal-04528418">1</a>,<a href="https://hal.science/hal-04519122">2</a>)</li>
       <li>3 journal article presentations</li>
       <li>2 late breaking results poster presentations</li>
       <li>4 invited talks in workshops (3) and cluster forum (1)</li>

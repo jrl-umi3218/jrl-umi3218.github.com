@@ -1,6 +1,62 @@
+- id: foundation
+  title: "RoboticsFoundationModel"
+  longtitle: "Research and Development on Generative AI Foundation Model in Physical Domain"
+  longtitle-jp: "フィジカル領域の生成AI基盤モデルに関する研究開発"
+  pi: murooka
+  year-start: 2024.4
+  year-end: 2027.3
+  funding: AIST
+  active: true
+  description: >
+    <p>We aim to develop and integrate AI foundation models of various modalities such as language, images, acoustics, and 3D point clouds to build robotics foundation models that enables motion planning and control of robots in the real world. The CNRS-AIST JRL, in collaboration with the Industrial CPS Research Center and the Artificial Intelligence Research Center, is working to develop robotics foundation models through the development of imitation learning methods that can realize difficult manipulation tasks in a data-driven manner.</p>
+  description-jp: >
+    <p>言語・画像・音響・三次元点群等の多様なモダリティのAI基盤モデルを開発し統合することでロボットの実世界における動作計画・制御を可能とするロボット基盤モデルを構築することを目指す。AIST-CNRSロボット工学連携研究ラボでは、インダストリアルCPS研究センターや人工知能研究センターと協力しながら、センサ計測に応じた繊細なロボットの運動が必要となる難易度の高いマニピュレーションタスクをデータドリブンに実現可能な模倣学習の開発を通してロボット基盤モデルの構築に取り組んでいる。</p>
+- id: kakenhi_wakate2022_murooka
+  title: "InteractivePlanning"
+  longtitle: "Interactive Robot Motion Planning System Capable of Acquiring Information by Human Instruction"
+  longtitle-jp: "人間からの教示により情報獲得可能な対話型ロボット動作計画システム"
+  pi: murooka
+  year-start: 2022.4
+  year-end: 2025.3
+  funding: JSPS Grant-in-Aid for Early-Career Scientists
+  funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 若手研究
+  active: true
+  description: >
+    <p>We aim to build a robotic system that enables humanoid robots and mobile manipulators to perform tasks that are difficult to execute fully autonomously with conventional planning methods by making complementary use of human teaching through demonstrations, gestures, and speech. In planning methods based on search and optimization, on-site human teaching of task-specific unknown information or information that requires exploration time enables the robot to immediately adapt to a new task and realize its behavior without the need for software modification.</p>
+  description-jp: >
+    <p>人型ロボットや移動型マニピュレータが、複雑環境三次元移動、大型物体運搬、複雑組み立て作業などの従来の計画手法では完全自律実行の困難であったタスクを、人間による実演・身振り・発話による教示を補完的に活用することで実現するためのロボットシステムを構築する。探索・最適化に基づいた計画手法において、タスク固有の未知情報や探索に時間を要する情報を人間がオンサイトで教示することで、ソフトウェアの変更を必要とせずに、ロボットが新しいタスクに即座に適応し動作を実現することを可能とする。</p>
+- id: call
+  title: "CALL"
+  longtitle: "CALL: Cobotic AppLication for handover and Load transport"
+  pi: carong
+  year-start: 2025
+  year-end: 2028
+  funding: ANR
+  active: true
+  partners: [cnrs,tlse3,enit,uds]
+  description: "
+<p>CALL is a collaborative project funded by ANR (Agence Nationale de la Recherche / French national research agency). In this project led by <a href=https://www.laas.fr/en/>CNRS LAAS</a>, CNRS-AIST JRL is a partner with <a href=https://www.lgp.enit.fr/en/index.html>ENIT LGP</a> and <a href=https://www.usherbrooke.ca/3it/en/>UDS 3IT</a>. The aim is to combine the biomechanical modeling of humans with full-spherical visual perception and optimal robot control to enable the dynamic object handover between a human and a robot. </p>
+<p>CALL will be implemented on robot arm and mobile manipulator.  
+</p>
+"
+- id: antnoid
+  title: "Ant'noid"
+  longtitle: "Ant'noid: ant visual memory for humanoid robot autonomous navigation"
+  pi: carong
+  year-start: 2024
+  year-end: 2028
+  funding: ANR
+  active: true
+  partners: [cnrs,amu]
+  description: "
+<p>Ant'noid is a collaborative project funded by ANR (Agence Nationale de la Recherche / French national research agency). In this project led by CNRS-AIST JRL, we've partnered with CNRS-Aix-Marseille University <a href=https://ism.univ-amu.fr/en>Institute of Movement Science</a>. The aim is to leverage the knowledge on desert ants' visual familiarity capabilities to make a humanoid robot navigate both in bidimensional and tridimensional spaces with an extremely low memory usage from full-spherical visual perception. This project emerges from an International Emerging Action funded by CNRS.</p>
+<p>Ant'noid will be implemented on small size and human adult size humanoids such as HRP-5P. 
+</p>
+"
 - id: m2sv
   title: "M2SV"
   longtitle: "M2SV: Mobile Manipulator control based on Spherical Vision"
+  pi: carong
   year-start: 2023
   year-end: 2025
   funding: CNRS GDR ISIS
@@ -20,6 +76,7 @@
 - id: zero
   title: "Z"
   longtitle: "Z: Zero-Shot Learning of Real-World AI Connecting Large-Scale Learning Models and 3D Virtual Space"
+  pi: yoshiyasu
   year-start: 2023
   year-end: 2026
   funding: JSPS
@@ -89,10 +146,11 @@
 - id: dvsstraight
   title: "DVS-Straight"
   longtitle: "DVS-Straight: Direct Visual Servoing of robot with optimal 3D trajectories"
+  pi: carong
   year-start: "2021.10"
   year-end: 2025.3
   funding: AIST ITH
-  active: true
+  active: false
   partners: [utbm,upjv]
   description: "
 <p>DVS-Straight is an international collaboration project funded by the ITH department of AIST. In this project, CNRS-AIST JRL is partnering with UTBM, CIAD lab (France) and UPJV, MIS lab (France) with the aim of mastering the robot trajectories during image-based visual servoing directly using the dense brightness of captured images as input of the control law (Direct Visual Servoing: DVS). Indeed, DVS is first known for its submillimetric precision and recently for a quite large convergence domain, e.g. with <a href=https://hal.archives-ouvertes.fr/hal-03155667 target=_blank>DDVS</a>. However, trajectories are not always satisfactory.</p>
@@ -243,6 +301,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   title: "iCPH"
   longtitle: "Interactive cyber-physical human: Generating contact-rich whole-body motions"
   longtitle-jp: "サイバーフィジカルヒューマンによる全身接触運動の包括的データ駆動学習・予測・生成"
+  pi: morisawa
   year-start: 2022.4
   year-end: 2027.3
   funding: JSPS Grant-in-Aid for Scientific Research (S)
@@ -257,10 +316,11 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   title: "ICPS"
   longtitle: "Industrial Cyber-Physical Systems"
   longtitle-jp: "インダストリアルCPS"
+  pi: kanehiro
   year-start: 2020.4
   year-end: 2025.3
   funding: AIST
-  active: true
+  active: false
   description: >
     <p>The target is to solve the problem of declining birthrate and aging population, which is one of the social issues. We aim to realize the following items in all industrial fields by using technology that integrates AI, robots, sensors, etc. to cooperate with humans.</p>
     <ul>
@@ -293,6 +353,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
 - id: jrp_khi
   title: "Friends"
   longtitle: "Joint Research on Airplane Manufacturing Humanoid Robot"
+  pi: kanehiro
   year-start: 2020.4
   year-end: 2025.3
   active: true
@@ -304,6 +365,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
 - id: sigrole
   title: SIGRoLe
   longtitle: "Self-Improving AI for seamless human-guided robot learning"
+  pi: cisneros
   year-start: 2023.11
   year-end: 2026.3
   active: true
@@ -313,6 +375,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
 - id: hican
   title: HICAN
   longtitle: "Human-Inclusive Dynamic Control and Navigation for Next-Gen Robotics "
+  pi: benalleguem
   year-start: 2023.11
   year-end: 2026.3
   active: true
@@ -323,6 +386,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   title: "RLOptMCP"
   longtitle: "Development of multi-contact motion planning based on learned future contact feasibility"
   longtitle-jp: "接触の将来性学習に基づく多点接触動作計画の実現"
+  pi: kumagai
   year-start: 2023.4
   year-end: 2026.3
   funding: JSPS Grant-in-Aid for Early-Career Scientists
@@ -334,6 +398,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   title: ImpAdm
   longtitle: "Impact/Overload Management for Admittance-Type Mechatronic Devices Using Nonsmooth Controllers"
   longtitle-jp: "アドミッタンス型メカトロ機器のための非平滑制御則を用いた撃力・過荷重マネジメント"
+  pi: cisneros
   year-start: 2024.4
   year-end: 2027.3
   funding: JSPS Grant-in-Aid for Scientific Research (B)

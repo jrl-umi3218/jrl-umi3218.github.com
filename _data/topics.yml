@@ -20,19 +20,18 @@
     <p><i>Preferred</i>: C++, Deep learning, ROS, multibody mechanics.</p>
     <p><i>Required</i>: spoken English language</p>
 - id: dvs
-  title: Direct Visual Servoing with optimal robot trajectories
+  title: Direct Visual Servoing from farther and faster
   description: >
     <ul>
       <li>Robot motion control from camera image brightness</li>
       <li>Accuracy < 1 mm but 3D trajectories are not ideal</li>
       <li>Goals:
         <ul>
-          <li>Implement damping control near singularities</li>
-          <li>Multi-objective optimization to constrain the trajectory</li>
-          <li>Online selection of the camera field-of-view maximizing the motion perceptibility</li>
+          <li>new Hessian construction algorithm</li>
+          <li>hybrid camera field-of-view desired / current images</li>
         </ul>
       </li>
-      <li>Related project: <a href="../en/projects/project-dvsstraight.html">DVS-straight</a></li>
+      <li>Related projects: <a href="../en/projects/project-dvsstraight.html">DVS-straight</a>, <a href="../en/projects/project-m2sv.html">M2SV</a></li>
     </ul>
   grade: Master/PhD
   skills: C++ programming, mathematical background
@@ -48,13 +47,34 @@
   skills: Mechanical design, Basic electronics, Basic numerical optimization
 - id: shared_control
   title: AI-aided teleoperation to achieve seamless telepresence for non-experts
+  grade: Master/PhD
+  description: >
+    <ul>
+      <li>Development of semi-automatic grasping and user intention recognition technologies</li>
+      <li>Efficient combination of machine learning and human guidance to achieve AI-aided teleoperation</li>
+      <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
+    </ul>
+  skills: C++, Python, Linux, machine learning
+- id: objects_wild
+  title: Pose estimation and mesh reconstruction of objects in the wild
   grade: Master
   description: >
     <ul>
       <li>Identify objects of interest in the visible field of view without prior knowledge</li>
       <li>Identify major affordances and display them as AR visual aids</li>
+      <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
     </ul>
-  skills: C++, Python, basic familiarity with Linux, some knwoledge related to computer vision
+  skills: C++, Python, Linux, computer vision for object pose detection
+- id: immersive_teleoperation
+  title: Enhanced visual feedback for immersive humanod robot teleoperation
+  grade: Master
+  description: >
+    <ul>
+      <li>Achieve an immersive experience for the operator of an avatar in a remote location</li>
+      <li>Use of SLAM and AR to complement visual information outside of the field of view of the robot</li>
+      <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
+    </ul>
+  skills: Unity/Unreal, computer vision, SLAM
 - id: mobile_robot
   title: Navigation and control of a mobile robot with mounted arm
   grade: Master
@@ -62,8 +82,29 @@
     <ul>
       <li>Develop autonomous/teleoperated navigation for a mobile robot</li>
       <li>Develop controller for robotic arm mounted on the mobile robot to perform real-world tasks</li>
+      <li>Related project: <a href="../en/projects/project-icps.html">ICPS</a></li>
     </ul>
-  skills: C++, Python, ROS, basic familiarity with Linux, some knowledge of robotics 
+  skills: C++, Python, ROS2, Linux, planning and control of mobile robots and manipulators
+- id: impact_management
+  title: Impact management for humanoid robots using nonsmooth controllers
+  grade: Master/PhD
+  description: >
+    <ul>
+      <li>Develop and implement non-smooth controllers for dealing with impacts</li>
+      <li>Realize hammering, nail-gun and jumping tasks using humanoid robots</li>
+      <li>Related project: <a href="../en/projects/project-impadm.html">ImpAdm</a></li>
+    </ul>
+  skills: C++, Linux, dynamics, non-linear control theory
+- id: inflatable_module
+  title: Simulation and control of an inflatable module mockup
+  grade: Master
+  description: >
+    <ul>
+      <li>Simulate the dynamics of a cylindric inflatable module</li>
+      <li>Control the inflation sequence of the chambers of the module to achieve controlled rolling</li>
+      <li>Validate control using a small mockup</li>
+    </ul>
+  skills: C++, Linux, CAD design, FEM-based simulation, fluid mechanics, non-linear control theory
 - id: mcl
   title: Responsive multi-contact locomotion
   description: >
@@ -89,23 +130,6 @@
   description: We offer research about the methodology of construction and retrieval of motion library to achieve on-site multi-contact motion planning for a humanoid robot. We want to clarify the structure of the motion library, which can preserve the feasible whole-body motion of a humanoid robot. We also want to develop the online adaptation method to modify preserved motion to satisfy kinematics and dynamics constraints in an unknown environment.
   grade: PhD
   skills: Basic knowledge of robotics, Software development by C++ and Python with ROS
-- id: eveloc
-  title: Event-based visual registration to 3D point clouds
-  description: >
-    <ul>
-      <li>Event cameras: new vision sensors emitting asynchronously per pixel intensity variations</li>
-      <li>Low latency, high dynamic range</li>
-      <li>Goals:
-        <ul>
-          <li>Design visual information models and multi-modal cost/loss for alignment</li>
-          <li>High processing frequency to allow highly dynamic 3D tracking</li>
-          <li>Explore non-conventional optics to solve the registration problem</li>
-        </ul>
-      </li>
-      <li>Related publication: <a href="https://hal.science/hal-04519122" target="_blank">hal-04519122</a></li>
-    </ul>
-  grade: Master/PhD
-  skills: C++ / python programming, mathematical background in 3D geometry and optimization
 - id: manyvis
   title: Vision-based deformation of human body deformation for safe robot interaction
   description: >
