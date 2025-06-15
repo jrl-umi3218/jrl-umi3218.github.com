@@ -1569,8 +1569,10 @@
       from: 2024-04-01
       to: 2025-03-31
   nationality: pe
+  linkedin: "https://www.linkedin.com/in/sunio-morisakiromero/"
+  github: "https://github.com/mr-Sunio"
   bio: >
-      is pursuing a master's degree in Intelligent and Mechanical Interaction Systems at the University of Tsukuba. His research interests include autonomous navigation and path planning algorithms.
+      is a master's degree student in Intelligent and Mechanical Interaction Systems at the University of Tsukuba. He obtained his bachelor's degree in mechatronics engineering in 2021. His research interests include autonomous navigation and path planning algorithms.
 - id: guillaume
   given: Constantin
   family: Guillaume
