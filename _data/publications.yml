@@ -4607,6 +4607,25 @@
   pdf: https://ieeexplore.ieee.org/document/10815980
   lab: jrl
   month: february
+- id: murooka:ral:2025
+  year: 2025
+  title: 'TACT: Humanoid Whole-body Contact Manipulation through Deep Imitation Learning
+    with Tactile Modality'
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: murooka
+  - id: hoshi
+  - id: fukumitsu
+  - id: masuda
+  - id: hamze
+  - family: Sasaki
+    given: Tomoya
+  - id: morisawa
+  - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/11037531
+  lab: jrl
+  projects:
+  - icph
 - id: benallegue:ram:2025
   year: 2025
   title: 'Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated
