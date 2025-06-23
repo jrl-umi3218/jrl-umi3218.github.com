@@ -10989,6 +10989,46 @@
   pdf: https://roboticsconference.org/program/papers/84/
   lab: jrl
   month: june 21-june 25
+- id: hong:mva:2025
+  year: 2025
+  title: 3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging
+  booktitle: IAPR International Conference on Machine Vision Applications
+  authors:
+  - id: hong
+  - id: carong
+  - id: imamoglu
+  - id: kanehiro
+  lab: jrl
+  month: july 26-july 28
+- id: mouaddib:dh:2025
+  year: 2025
+  title: Spatial random access to explore heritage site using spherical video
+  booktitle: Digital Heritage World Congress & Expo
+  authors:
+  - family: Mouaddib
+    given: El
+  - id: carong
+  - family: Zarghili
+    given: Arsalane
+  lab: jrl
+  month: september 8-september 13
+- id: puigt:gretsi:2025
+  year: 2025
+  title: Méthode comprimée et distribuée de factorisation pondérée en matrices non-négatives
+    pour les matrices de grande dimension
+  booktitle: Colloque Francophone de Traitement du Signal et des Images
+  authors:
+  - family: Puigt
+    given: Matthieu
+  - family: El Hyani
+    given: Asmae
+  - family: Abbas
+    given: Kinan
+  - family: Roussel
+    given: Gilles
+  - id: carong
+  lab: jrl
+  month: august 25-august 29
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
