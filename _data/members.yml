@@ -1874,6 +1874,8 @@
   from: 2025-04-01
   to: 2026-03-31
   nationality: rs
+  bio: >
+    is a research student at the University of Tsukuba. He obtained his bachelor's degree at the University of Belgrade School of Electrical Engineering, and his thesis focused on human motion analysis using markerless pose tracking. His current research is focused on humanoid robot motion planning using reinforcement learning.
 - id: gratiasquiquandon
   given: Philippe
   family: Gratias-Quiquandon
