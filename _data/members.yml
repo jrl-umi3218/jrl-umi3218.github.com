@@ -870,9 +870,13 @@
 - id: mcelerier
   given: Mathieu
   family: Celerier
-  role: phd
-  from: 2022-05-06
-  to: 2025-05-31
+  role: engineer
+  from: 2025-06-01
+  to: 2025-12-31
+  past-role:
+    - role: phd
+      from: 2022-05-06
+      to: 2025-05-31
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/mathieu-celerier"
   github: "https://github.com/mathieu-celerier"
@@ -1083,8 +1087,9 @@
   given: Taro
   family: Tako
   name-jp: 田光 太郎
-  role: alumni
-  from: 2025-04-01
+  role: phd
+  from: 2025-05-19
+  to: 2026-03-31
   past-roles:
     - role: master
       from: 2024-03-01
@@ -1864,8 +1869,8 @@
   given: Eduardo
   family: Hernandez-Valdez
   role: coming-undergraduate
-  from: 2025-06-24
-  to: 2026-02-15
+  from: 2025-08-01
+  to: 2026-02-16
   nationality: mx
 - id: mesaros
   given: David
@@ -1927,9 +1932,12 @@
 - id: scianca
   given: Nicola
   family: Scianca
-  role: coming-adjunct
-  from: 2025-04-21
-  to: 2025-06-20
+  role: alumni
+  from: 2025-06-21
+  past-roles:
+    - role: adjunct
+      from: 2025-06-11
+      to: 2025-06-20
   nationality: it
 - id: stasse
   given: Olivier
@@ -1937,4 +1945,32 @@
   role: coming-adjunct
   from: 2025-06-28
   to: 2025-08-06
+  nationality: fr
+- id: joshi
+  given: Rishikesh
+  family: Joshi
+  role: coming-engineer
+  from: 2025-09-01
+  to: 2027-03-31
+  nationality: us
+- id: lopez
+  given: Diego
+  family: López Hernánde
+  role: coming-engineer
+  from: 2025-07-15
+  to: 2026-03-31
+  nationality: mx
+- id: ruble
+  given: Louis
+  family: Ruble
+  role: coming-master
+  from: 2025-09-01
+  to: 2026-02-27
+  nationality: fr
+- id: erens
+  given: Ruud
+  family: Erens
+  role: coming-master
+  from: 2025-09-01
+  to: 2026-02-27
   nationality: fr
