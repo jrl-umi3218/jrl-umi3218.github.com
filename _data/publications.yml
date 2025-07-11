@@ -11030,6 +11030,25 @@
   - id: carong
   lab: jrl
   month: august 25-august 29
+- id: motoda:case:2025
+  year: 2025
+  title: Learning Bimanual Manipulation Via Action Chunking and Inter-Arm Coordination
+    with Transformers
+  booktitle: IEEE International Conference on Automation Science and Engineering
+  authors:
+  - family: Motoda
+    given: Tomohiro
+  - family: Hanai
+    given: Ryo
+  - family: Nakajo
+    given: Ryoichi
+  - id: murooka
+  - family: Erich
+    given: Floris
+  - family: Domae
+    given: Yukiyasu
+  lab: jrl
+  month: august 17-august 21
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
