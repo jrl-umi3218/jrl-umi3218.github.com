@@ -4717,6 +4717,18 @@
   pdf: http://mbj.episciences.org/14556
   lab: jrl
   month: january
+- id: dallard:tro:2025
+  year: 2025
+  title: Robust Bipedal Walking with Closed-Loop MPC–Adios Stabilizers
+  booktitle: IEEE Transactions on Robotics
+  authors:
+  - id: dallard
+  - id: benalleguem
+  - id: scianca
+  - id: kanehiro
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/11077997
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -11049,6 +11061,8 @@
     given: Yukiyasu
   lab: jrl
   month: august 17-august 21
+  projects:
+  - foundation
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
