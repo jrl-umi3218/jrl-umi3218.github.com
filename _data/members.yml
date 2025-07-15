@@ -870,9 +870,13 @@
 - id: mcelerier
   given: Mathieu
   family: Celerier
-  role: phd
-  from: 2022-05-06
-  to: 2025-05-31
+  role: engineer
+  from: 2025-06-01
+  to: 2025-12-31
+  past-role:
+    - role: phd
+      from: 2022-05-06
+      to: 2025-05-31
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/mathieu-celerier"
   github: "https://github.com/mathieu-celerier"
@@ -1083,8 +1087,9 @@
   given: Taro
   family: Tako
   name-jp: 田光 太郎
-  role: alumni
-  from: 2025-04-01
+  role: phd
+  from: 2025-05-19
+  to: 2026-03-31
   past-roles:
     - role: master
       from: 2024-03-01
@@ -1426,9 +1431,12 @@
 - id: paula
   given: Matheus
   family: Paula
-  role: engineer
-  from: 2024-11-01
+  role: alumni
+  from: 2025-05-31
   past-roles:
+    - role: engineer
+      from: 2024-11-01
+      to: 2025-05-30
     - role: master
       from: 2024-04-01
       to: 2024-09-30
@@ -1614,9 +1622,12 @@
 - id: taruf
   given: Imane
   family: Taruf
-  role: engineer
-  from: 2024-09-09
-  to: 2026-03-31
+  role: alumni
+  from: 2025-05-22
+  past-roles:
+    - role: engineer
+      from: 2024-09-09
+      to: 2025-05-21
   nationality: fr
 - id: vazquez
   given: David
@@ -1638,9 +1649,12 @@
 - id: vilfroy
   given: Seanan
   family: Vilfroy
-  role: master
-  from: 2024-12-02
-  to: 2025-05-30
+  role: alumni
+  from: 2025-06-01
+  past-roles:
+    - role: master
+      from: 2024-12-02
+      to: 2025-05-30
   nationality: fr
 - id: nasir
   given: Amneh
@@ -1749,6 +1763,8 @@
   from: 2025-02-20
   to: 2025-08-20
   nationality: fr
+  bio: >
+    is a master's student at EPITA, Paris, France, in AI major. Her current research includes fusing RL and QP for humanoid locomotion tasks to ensure safety and feasibility constraints.
 - id: leroy
   given: Hippolyte
   family: Leroy
@@ -1763,6 +1779,9 @@
   from: 2025-03-10
   to: 2025-12-31
   nationality: fr
+  linkedin: "https://fr.linkedin.com/in/l%C3%A9o-moussafir-13860284"
+  bio: >
+    received a Master's degree in Mechanical and Automatique from Institut National des Sciences Appliquée de Rennes, France, in 2017. He then received a Ph.D. in Mechanic/Robotic from the Institut National des Sciences Appliquée de Rennes, France, in 2021 after working 3 years with SIDEL in CIFRE context. His thesis focused on optimisation of poly-articulated mechanism with cam. He worked as a postdoc at the LIRMM until August 2024. During that time he explored the modelisation of impact in robotic structure through the I-AM project. He started a postdoc at JRL in Mars 2025 through the joined project with Schaeffler company. His current work focuses on new humanoid robot design.
 - id: daligault
   given: Celian
   family: Daligault
@@ -1780,6 +1799,8 @@
   from: 2025-04-01
   to: 2027-03-31
   nationality: jp
+  bio: >
+    is currently a master's student at the University of Tsukuba. He obtained his bachelor's degree in Physics from Tokyo University of Science. His current research focuses on tactile sensor-equipped multi-fingered robot hands for object exploration. 
 - id: joyapaez
   given: Sebastian
   family: Joya Paez
@@ -1789,11 +1810,13 @@
   nationality: mx
 - id: tazeroualttlamcani
   given: Ghita
-  family: Tazeroualt-Tlamcani
-  role: coming-master
+  family: Tazeroualt Tlamcani
+  role: master
   from: 2025-05-07
   to: 2025-09-12
   nationality: ma
+  bio: >
+    is a master's student in robotics at ENSTA Bretagne, Brest, France. She obtained her Moroccan Baccalauréat in 2021 with a specialization in Mathematics and Physics. Her current academic focus is on control and localization for robotic systems. With a strong foundation in both theoretical and applied robotics, she is particularly interested in developing robust and intelligent methods to guide autonomous robots in complex environments.
 - id: louapre
   given: Ferdinand
   family: Louapre
@@ -1846,8 +1869,8 @@
   given: Eduardo
   family: Hernandez-Valdez
   role: coming-undergraduate
-  from: 2025-06-24
-  to: 2026-02-15
+  from: 2025-08-01
+  to: 2026-02-16
   nationality: mx
 - id: mesaros
   given: David
@@ -1856,6 +1879,8 @@
   from: 2025-04-01
   to: 2026-03-31
   nationality: rs
+  bio: >
+    is a research student at the University of Tsukuba. He obtained his bachelor's degree at the University of Belgrade School of Electrical Engineering, and his thesis focused on human motion analysis using markerless pose tracking. His current research is focused on humanoid robot motion planning using reinforcement learning.
 - id: gratiasquiquandon
   given: Philippe
   family: Gratias-Quiquandon
@@ -1901,15 +1926,18 @@
   given: Lydia
   family: Merrad
   role: coming-phd
-  from: 2025-05-01
-  to: 2027-04-30
+  from: 2025-10-01
+  to: 2027-09-30
   nationality: fr
 - id: scianca
   given: Nicola
   family: Scianca
-  role: coming-adjunct
-  from: 2025-04-21
-  to: 2025-06-20
+  role: alumni
+  from: 2025-06-21
+  past-roles:
+    - role: adjunct
+      from: 2025-06-11
+      to: 2025-06-20
   nationality: it
 - id: stasse
   given: Olivier
@@ -1917,4 +1945,32 @@
   role: coming-adjunct
   from: 2025-06-28
   to: 2025-08-06
+  nationality: fr
+- id: joshi
+  given: Rishikesh
+  family: Joshi
+  role: coming-engineer
+  from: 2025-09-01
+  to: 2027-03-31
+  nationality: us
+- id: lopez
+  given: Diego
+  family: López Hernánde
+  role: coming-engineer
+  from: 2025-07-15
+  to: 2026-03-31
+  nationality: mx
+- id: ruble
+  given: Louis
+  family: Ruble
+  role: coming-master
+  from: 2025-09-01
+  to: 2026-02-27
+  nationality: fr
+- id: erens
+  given: Ruud
+  family: Erens
+  role: coming-master
+  from: 2025-09-01
+  to: 2026-02-27
   nationality: fr

@@ -4607,6 +4607,26 @@
   pdf: https://ieeexplore.ieee.org/document/10815980
   lab: jrl
   month: february
+- id: murooka:ral:2025
+  year: 2025
+  title: 'TACT: Humanoid Whole-body Contact Manipulation through Deep Imitation Learning
+    with Tactile Modality'
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: murooka
+  - id: hoshi
+  - id: fukumitsu
+  - id: masuda
+  - id: hamze
+  - family: Sasaki
+    given: Tomoya
+  - id: morisawa
+  - id: yoshida
+  pdf: https://ieeexplore.ieee.org/document/11037531
+  lab: jrl
+  month: august
+  projects:
+  - icph
 - id: benallegue:ram:2025
   year: 2025
   title: 'Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated
@@ -4697,6 +4717,18 @@
   pdf: http://mbj.episciences.org/14556
   lab: jrl
   month: january
+- id: dallard:tro:2025
+  year: 2025
+  title: Robust Bipedal Walking with Closed-Loop MPC–Adios Stabilizers
+  booktitle: IEEE Transactions on Robotics
+  authors:
+  - id: dallard
+  - id: benalleguem
+  - id: scianca
+  - id: kanehiro
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/11077997
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -10970,6 +11002,67 @@
   pdf: https://roboticsconference.org/program/papers/84/
   lab: jrl
   month: june 21-june 25
+- id: hong:mva:2025
+  year: 2025
+  title: 3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging
+  booktitle: IAPR International Conference on Machine Vision Applications
+  authors:
+  - id: hong
+  - id: carong
+  - id: imamoglu
+  - id: kanehiro
+  lab: jrl
+  month: july 26-july 28
+- id: mouaddib:dh:2025
+  year: 2025
+  title: Spatial random access to explore heritage site using spherical video
+  booktitle: Digital Heritage World Congress & Expo
+  authors:
+  - family: Mouaddib
+    given: El
+  - id: carong
+  - family: Zarghili
+    given: Arsalane
+  lab: jrl
+  month: september 8-september 13
+- id: puigt:gretsi:2025
+  year: 2025
+  title: Méthode comprimée et distribuée de factorisation pondérée en matrices non-négatives
+    pour les matrices de grande dimension
+  booktitle: Colloque Francophone de Traitement du Signal et des Images
+  authors:
+  - family: Puigt
+    given: Matthieu
+  - family: El Hyani
+    given: Asmae
+  - family: Abbas
+    given: Kinan
+  - family: Roussel
+    given: Gilles
+  - id: carong
+  lab: jrl
+  month: august 25-august 29
+- id: motoda:case:2025
+  year: 2025
+  title: Learning Bimanual Manipulation Via Action Chunking and Inter-Arm Coordination
+    with Transformers
+  booktitle: IEEE International Conference on Automation Science and Engineering
+  authors:
+  - family: Motoda
+    given: Tomohiro
+  - family: Hanai
+    given: Ryo
+  - family: Nakajo
+    given: Ryoichi
+  - id: murooka
+  - family: Erich
+    given: Floris
+  - family: Domae
+    given: Yukiyasu
+  lab: jrl
+  month: august 17-august 21
+  projects:
+  - foundation
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
