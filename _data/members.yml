@@ -1915,6 +1915,8 @@
   from: 2025-04-01
   to: 2027-03-31
   nationality: jp
+  bio: >
+    is a master's student at the University of Tsukuba.He is interested in humanoid robots walking optimization and its theory.He is interested in development of foot mechanism enabling humanoid walking on uneven terrain.
 - id: matsuzaki
   given: Manako
   family: Matsuzaki
