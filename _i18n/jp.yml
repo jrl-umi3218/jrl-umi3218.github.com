@@ -110,15 +110,19 @@ hl:
     - id: kajitsuka
       name: 梶塚 幸太朗
       grade: 修士課程1年
+      email: tactile.kajitsuka_*_aist.go.jp
     - id: tanabe
       name: 田邊 克輝
       grade: 修士課程1年
+      email: tanabe.scone_*_aist.go.jp
     - id: joyapaez
       name: Sebastian Joya Paez
       grade: 修士課程1年
+      email: s.joyapaez_*_aist.go.jp
     - id: mesaros
       name: David Mesaros
       grade: 研究生
+      email: mesaros.d_*_aist.go.jp
     - id: singh
       name: Rohan Pratap Singh
       grade: 博士後期修了
@@ -132,6 +136,13 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2025/08/01
+    content: >
+      7月には<a href="members/member-stasse.html">Olivier Stasse</a>, <a href="members/member-lopez.html">Diego López Hernández</a>, <a href="members/member-castillo.html">Hugo Daniel Castillo Ovando</a>の3名がンバーに加わり、<a href="members/member-bories.html">Maxime Bories</a>がJRLでの活動を終了しました。<br>
+      MVA2025で1件の発表を行いました。
+      <ul>
+      <li>3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging</li>
+      </ul>
   - date: 2025/07/01
     content: >
       6月には<a href="members/member-scianca.html">Nicola Scianca</a>がJRLに滞在しました。<br>

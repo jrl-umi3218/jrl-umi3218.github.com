@@ -74,9 +74,12 @@
   given: Mitsuharu
   family: Morisawa
   name-jp: 森澤 光晴
-  role: permanent
-  from: 2025-04-01
+  role: adjunct
+  from: 2025-08-01
   past-roles:
+    - role: permanent
+      from: 2025-04-01
+      to: 2025-07-31
     - role: deputy-director
       from: 2020-04-01
       to: 2025-03-31
@@ -1724,9 +1727,12 @@
 - id: bories
   given: Maxime
   family: Bories
-  role: master
-  from: 2025-02-03
-  to: 2025-07-31
+  role: alumni
+  from: 2025-08-01
+  past-roles:
+    - role: master
+      from: 2025-02-03
+      to: 2025-07-31
   nationality: fr
 - id: durand
   given: Hugo
@@ -1948,8 +1954,8 @@
 - id: stasse
   given: Olivier
   family: Stasse
-  role: coming-adjunct
-  from: 2025-06-28
+  role: adjunct
+  from: 2025-07-15
   to: 2025-08-06
   nationality: fr
 - id: joshi
@@ -1961,8 +1967,8 @@
   nationality: us
 - id: lopez
   given: Diego
-  family: López Hernánde
-  role: coming-engineer
+  family: López Hernández
+  role: engineer
   from: 2025-07-15
   to: 2026-03-31
   nationality: mx
@@ -1980,3 +1986,11 @@
   from: 2025-09-01
   to: 2026-02-27
   nationality: fr
+- id: castillo
+  given: Hugo Daniel
+  family: Castillo Ovando
+  role: undergraduate
+  from: 2025-07-23
+  to: 2026-01-23
+  nationality: gt
+  
