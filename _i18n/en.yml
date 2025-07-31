@@ -110,15 +110,19 @@ hl:
     - id: kajitsuka
       name: Kotaro Kajitsuka
       grade: master 1st Year
+      email: tactile.kajitsuka_*_aist.go.jp
     - id: tanabe
       name: Katsuki Tanabe
       grade: master 1st Year
+      email: tanabe.scone_*_aist.go.jp
     - id: joyapaez
       name: Sebastian Joya Paez
       grade: master 1st Year
+      email: s.joyapaez_*_aist.go.jp
     - id: mesaros
       name: David Mesaros
       grade: research student
+      email: mesaros.d_*_aist.go.jp
     - id: singh
       name: Rohan Pratap Singh
       grade: Graduated (Ph.D.)
@@ -132,6 +136,13 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/08/2025
+    content: >
+      Three members, <a href="members/member-stasse.html">Olivier Stasse</a>, <a href="members/member-lopez.html">Diego López Hernández</a> and <a href="members/member-castillo.html">Hugo Daniel Castillo Ovando</a> joined and <a href="members/member-bories.html">Maxime Bories</a> left the JRL in July.<br>
+      One paper was presented at MVA2025.
+      <ul>
+      <li>3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging</li>
+      </ul>
   - date: 01/07/2025
     content: >
       <a href="members/member-scianca.html">Nicola Scianca</a> stayed in June.<br>
