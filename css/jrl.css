@@ -12,26 +12,9 @@
   table-layout: fixed;
 }
 
-/* .row-eq-height class from http://getbootstrap.com.vn/examples/equal-height-columns/ */
-/*
- * Row with equal height columns
- * --------------------------------------------------
- */
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}
-
 .col-middle {
   vertical-align: middle !important;
   margin: auto;
-}
-
-/* .row-centered and .col-centered class from http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns */
-.row-centered {
-  text-align: center;
 }
 
 .col-centered {
@@ -49,6 +32,12 @@
 .breadcrumbs-container {
   background:#222;
   color: #9d9d9d;
+  position: relative;
+}
+
+/* If needed, ensure navbar stays on top */
+.navbar {
+  z-index: 1050; /* Makes sure navbar is always above other elements */
 }
 
 .breadcrumbs-container h1 {
@@ -65,9 +54,31 @@
   color: #9d9d9d !important;
 }
 
-.navbar-inverse
+.navbar-dark
 {
   border-bottom: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar-collapse-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.navbar-toggler {
+  margin-bottom: 5px;
 }
 
 .thumbnail {

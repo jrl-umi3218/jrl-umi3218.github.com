@@ -8,180 +8,188 @@ layout: default
 {%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
 
 <!-- Page Content -->
-<div class="container">
-  <!-- Intro Content -->
-  <div class="row row-eq-height">
-    <div class="col-md-9 col-xs-6 col-middle" style="padding-top: 20px; padding-bottom: 20px" >
-      <a href="{{site.baseurl_root}}/assets/pictures/jrl-team-picture-2025-06-06.jpg" data-toggle="lightbox">
-        <img class="img-responsive img-rounded" src="{{site.baseurl_root}}/assets/pictures/jrl-team-picture-2025-06-06.jpg" alt="JRL Team Picture">
+<div class="container py-5">
+  <!-- Team Picture -->
+  <div class="row mb-5 justify-content-center">
+    <div class="col-md-9 col-12">
+      <a href="{{site.baseurl_root}}/assets/pictures/jrl-team-picture-2025-06-06.jpg" data-bs-toggle="lightbox">
+        <img class="img-fluid rounded shadow-lg" src="{{site.baseurl_root}}/assets/pictures/jrl-team-picture-2025-06-06.jpg" alt="JRL Team Picture">
       </a>
     </div>
   </div>
-  <!-- /.row -->
 
-  <!-- Co-directors -->
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.direction %}</h3>
+  <!-- Co-directors Section -->
+  <div class="row text-center mb-4">
+    <div class="col-12">
+      <h2 class="display-4 text-primary mb-3">{% t roles.direction %}</h2>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center mb-5">
     {%- for member in members -%}
     {%- if member.role == "director" -%}
-    {%- include member_summary.html member=member -%}
+    <div class="col-md-4 col-12 mb-4">
+      <div class="card shadow-sm border-0">
+        <img src="{{member.photo}}" class="card-img-top" alt="{{member.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{member.name}}</h5>
+          <p class="card-text text-muted">{{member.bio}}</p>
+        </div>
+      </div>
+    </div>
     {%- endif -%}
     {%- endfor -%}
     {%- for member in members -%}
     {%- if member.role == "deputy-director" -%}
-    {%- include member_summary.html member=member -%}
+    <div class="col-md-4 col-12 mb-4">
+      <div class="card shadow-sm border-0">
+        <img src="{{member.photo}}" class="card-img-top" alt="{{member.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{member.name}}</h5>
+          <p class="card-text text-muted">{{member.bio}}</p>
+        </div>
+      </div>
+    </div>
     {%- endif -%}
     {%- endfor -%}
   </div>
 
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.permanent-researchers %}</h3>
+  <!-- Permanent Researchers Section -->
+  <div class="row text-center mb-4">
+    <div class="col-12">
+      <h3 class="text-primary mb-3">{% t roles.permanent-researchers %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center mb-5">
     {%- for member in members -%}
     {%- if member.role == "permanent" -%}
-    {%- include member_summary.html member=member -%}
+    <div class="col-md-3 col-12 mb-4">
+      <div class="card shadow-sm border-0">
+        <img src="{{member.photo}}" class="card-img-top" alt="{{member.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{member.name}}</h5>
+          <p class="card-text text-muted">{{member.bio}}</p>
+        </div>
+      </div>
+    </div>
     {%- endif -%}
     {%- endfor -%}
+  </div>
 
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.adjunct-members %}</h3>
+  <!-- Adjunct Members Section -->
+  <div class="row text-center mb-4">
+    <div class="col-12">
+      <h3 class="text-primary mb-3">{% t roles.adjunct-members %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center mb-5">
     {%- for member in members -%}
     {%- if member.role == "adjunct" -%}
-    {%- include member_summary.html member=member -%}
+    <div class="col-md-3 col-12 mb-4">
+      <div class="card shadow-sm border-0">
+        <img src="{{member.photo}}" class="card-img-top" alt="{{member.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{member.name}}</h5>
+          <p class="card-text text-muted">{{member.bio}}</p>
+        </div>
+      </div>
+    </div>
     {%- endif -%}
     {%- endfor -%}
   </div>
 
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.postdoctoral-fellows %}</h3>
+  <!-- Postdoctoral Fellows Section -->
+  <div class="row text-center mb-4">
+    <div class="col-12">
+      <h3 class="text-primary mb-3">{% t roles.postdoctoral-fellows %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center mb-5">
     {%- for member in members -%}
     {%- if member.role == "postdoc" -%}
-    {%- include member_summary.html member=member -%}
+    <div class="col-md-3 col-12 mb-4">
+      <div class="card shadow-sm border-0">
+        <img src="{{member.photo}}" class="card-img-top" alt="{{member.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{member.name}}</h5>
+          <p class="card-text text-muted">{{member.bio}}</p>
+        </div>
+      </div>
+    </div>
     {%- endif -%}
     {%- endfor -%}
   </div>
 
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.research-engineers %}</h3>
+  <!-- Administrative Staff Section -->
+  <div class="row text-center mb-4">
+    <div class="col-12">
+      <h3 class="text-primary mb-3">{% t roles.administrative-staff %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
-    {%- for member in members -%}
-    {%- if member.role == "engineer" -%}
-    {%- include member_summary.html member=member -%}
-    {%- endif -%}
-    {%- endfor -%}
-  </div>
-
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.phd-students %}</h3>
-    </div>
-  </div>
-  <div class="row row-centered">
-    {%- for member in members -%}
-    {%- if member.role == "phd" -%}
-    {%- include member_summary.html member=member -%}
-    {%- endif -%}
-    {%- endfor -%}
-  </div>
-
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.master-students %}</h3>
-    </div>
-  </div>
-  <div class="row row-centered">
-    {%- for member in members -%}
-    {%- if member.role == "master" -%}
-    {%- include member_summary.html member=member -%}
-    {%- endif -%}
-    {%- endfor -%}
-  </div>
-
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.undergraduate-students %}</h3>
-    </div>
-  </div>
-  <div class="row row-centered">
-    {%- for member in members -%}
-    {%- if member.role == "undergraduate" -%}
-    {%- include member_summary.html member=member -%}
-    {%- endif -%}
-    {%- endfor -%}
-  </div>
-
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.non-degree-students %}</h3>
-    </div>
-  </div>
-  <div class="row row-centered">
-    {%- for member in members -%}
-    {%- if member.role == "non-degree" -%}
-    {%- include member_summary.html member=member -%}
-    {%- endif -%}
-    {%- endfor -%}
-  </div>
-
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.administrative-staff %}</h3>
-    </div>
-  </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center mb-5">
     {%- for member in members -%}
     {%- if member.role == "admin" -%}
-    {%- include member_summary.html member=member -%}
+    <div class="col-md-3 col-12 mb-4">
+      <div class="card shadow-sm border-0">
+        <img src="{{member.photo}}" class="card-img-top" alt="{{member.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{member.name}}</h5>
+          <p class="card-text text-muted">{{member.bio}}</p>
+        </div>
+      </div>
+    </div>
     {%- endif -%}
     {%- endfor -%}
   </div>
 
-  <div class="row row-centered">
-    <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.alumni %}<a id="alumni_button" style="float:right;font-size:medium;" data-toggle="collapse" href="#alumni">{% t show %}</a></h3>
+  <!-- Alumni Section -->
+  <div class="row text-center mb-4">
+    <div class="col-12">
+      <h3 class="text-primary mb-3">
+        {% t roles.alumni %}
+        <a id="alumni_button" class="btn btn-link" style="font-size: medium;" data-bs-toggle="collapse" href="#alumni">
+          {% t show %}
+        </a>
+      </h3>
     </div>
   </div>
-  <div class="row row-centered">
-    <div id="alumni" class="panel-collapse collapse" style="transition: none;">
-	{%- for member in members -%}
-    {%- if member.role == "alumni-star" -%}
-    {%- include member_summary.html member=member -%}
-    {%- endif -%}
-    {%- endfor -%}
-	<br>
-    {%- for member in members -%}
-    {%- if member.role == "alumni" -%}
-    {%- include member_summary.html member=member -%}
-    {%- endif -%}
-    {%- endfor -%}
+  <div class="row justify-content-center">
+    <div id="alumni" class="collapse">
+      {%- for member in members -%}
+      {%- if member.role == "alumni-star" -%}
+      <div class="col-md-3 col-12 mb-4">
+        <div class="card shadow-sm border-0">
+          <img src="{{member.photo}}" class="card-img-top" alt="{{member.name}}">
+          <div class="card-body">
+            <h5 class="card-title">{{member.name}}</h5>
+            <p class="card-text text-muted">{{member.bio}}</p>
+          </div>
+        </div>
+      </div>
+      {%- endif -%}
+      {%- endfor -%}
+      <br>
+      {%- for member in members -%}
+      {%- if member.role == "alumni" -%}
+      <div class="col-md-3 col-12 mb-4">
+        <div class="card shadow-sm border-0">
+          <img src="{{member.photo}}" class="card-img-top" alt="{{member.name}}">
+          <div class="card-body">
+            <h5 class="card-title">{{member.name}}</h5>
+            <p class="card-text text-muted">{{member.bio}}</p>
+          </div>
+        </div>
+      </div>
+      {%- endif -%}
+      {%- endfor -%}
     </div>
   </div>
-  <script type="text/javascript">
-    function handleClick()
-    {
-      this.text = (this.text == '{% t show %}' ? '{% t hide %}' : '{% t show %}');
-    }
-    document.getElementById('alumni_button').onclick = handleClick;
-  </script>
 
 </div>
 <!-- /.container -->
 
+<script type="text/javascript">
+  function handleClick() {
+    this.text = (this.text == '{% t show %}' ? '{% t hide %}' : '{% t show %}');
+  }
+  document.getElementById('alumni_button').onclick = handleClick;
+</script>

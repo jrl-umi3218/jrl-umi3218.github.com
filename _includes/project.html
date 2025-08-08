@@ -5,28 +5,31 @@
 {%- endfor -%}
 
 {%- if project.url -%}
-{%- if site.lang == "jp" and project.longtitle-jp -%}
-{%- capture subtitle -%}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle-jp}} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{%- endcapture -%}
-{%- else -%}
-{%- capture subtitle -%}<br/><a href="{{project.url}}" target="blank_">{{project.longtitle}} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{%- endcapture -%}
-{%- endif -%}
+  {%- if site.lang == "jp" and project.longtitle-jp -%}
+    {%- capture subtitle -%}<br/><a href="{{project.url}}" target="_blank">{{project.longtitle-jp}} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
+  {%- else -%}
+    {%- capture subtitle -%}<br/><a href="{{project.url}}" target="_blank">{{project.longtitle}} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
+  {%- endif -%}
 {%- else -%}
   {%- if site.lang == "jp" and project.longtitle-jp -%}
-  {%- capture subtitle -%}<br/>{{project.longtitle-jp}}{%- endcapture -%}
+    {%- capture subtitle -%}<br/>{{project.longtitle-jp}}{%- endcapture -%}
   {%- else -%}
-  {%- capture subtitle -%}<br/>{{project.longtitle}}{%- endcapture -%}
+    {%- capture subtitle -%}<br/>{{project.longtitle}}{%- endcapture -%}
   {%- endif -%}
 {%- endif -%}
+
 {%- if project.longtitle != project.title -%}
   {%- if site.lang == "jp" and project.longtitle-jp -%}
-  {%- capture bc -%}{{project.title}} - {{project.longtitle-jp}} {%- endcapture -%}
+    {%- capture bc -%}{{project.title}} - {{project.longtitle-jp}}{%- endcapture -%}
   {%- else -%}
-  {%- capture bc -%}{{project.title}} - {{project.longtitle}} {%- endcapture -%}
+    {%- capture bc -%}{{project.title}} - {{project.longtitle}}{%- endcapture -%}
   {%- endif -%}
 {%- else -%}
   {%- capture bc -%}{{project.title}}{%- endcapture -%}
 {%- endif -%}
+
 {%- include breadcrumbs.html breadcrumbs=bc title=project.title subtitle=subtitle -%}
+
 <!-- Page Content -->
 <div class="container">
   <!-- Portfolio Item Row -->
@@ -48,54 +51,58 @@
     {%- assign carousel_files = carousel_files | split: "," -%}
     {%- assign carousel_files_size = carousel_files | size -%}
 
-    <div class="col-md-6 col-xs-6 col-middle">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div class="col-lg-6 col-md-6 col-12">
+      <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
+        
         {%- if carousel_files_size != 1 -%}
         <!-- Indicators -->
         <ol class="carousel-indicators">
-        {%- for f in carousel_files -%}
-          {%- if forloop.index0 == 0 -%}
-            <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}" class="active"></li>
-          {%- else -%}
-            <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}"></li>
-          {%- endif -%}
-        {%- endfor -%}
+          {%- for f in carousel_files -%}
+            {%- if forloop.index0 == 0 -%}
+              <li data-bs-target="#carousel-example-generic" data-bs-slide-to="{{ forloop.index0 }}" class="active"></li>
+            {%- else -%}
+              <li data-bs-target="#carousel-example-generic" data-bs-slide-to="{{ forloop.index0 }}"></li>
+            {%- endif -%}
+          {%- endfor -%}
         </ol>
         {%- endif -%}
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-        {%- for f in carousel_files -%}
-          {%- if forloop.index0 == 0 -%}
-            {%- assign class = "item active" -%}
-          {%- else -%}
-            {%- assign class = "item" -%}
-          {%- endif -%}
-          <div class="{{class}}">
-            <img class="img-responsive" src="{{f}}" alt="carousel {{forloop.index}}">
-          </div>
-        {%- endfor -%}
+          {%- for f in carousel_files -%}
+            {%- if forloop.index0 == 0 -%}
+              {%- assign class = "carousel-item active" -%}
+            {%- else -%}
+              {%- assign class = "carousel-item" -%}
+            {%- endif -%}
+            <div class="{{class}}">
+              <img class="d-block w-100" src="{{f}}" alt="carousel {{forloop.index}}">
+            </div>
+          {%- endfor -%}
         </div>
 
         {%- if carousel_files_size != 1 -%}
         <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
+        <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </a>
-        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
+        <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </a>
         {%- endif -%}
       </div>
     </div>
 
-    <div class="col-md-6 col-xs-6 col-middle">
+    <div class="col-lg-6 col-md-6 col-12">
       <h3>{% t project-page.description %}</h3>
       {% if site.lang == "jp" and project.description-jp %}
-      {{project.description-jp}}
+        {{ project.description-jp }}
       {% else %}
-      {{project.description}}
+        {{ project.description }}
       {%- endif -%}
+
       {%- if project.pi -%}
       <h4>PI</h4>
       {%- for m in site.data.members -%}
@@ -106,77 +113,69 @@
       {%- endfor -%}
       {%- capture member_page -%}members/member-{{member.id}}.html{%- endcapture -%}
       {%- capture member_page_url -%}{{site.baseurl}}/{{member_page}}{%- endcapture -%}
-      <a href={{member_page_url}}>{{member.given}} {{member.family}}</a>
+      <a href="{{member_page_url}}">{{member.given}} {{member.family}}</a>
       {%- endif -%}
+
       <h4>{% t project-page.period %}</h4>
-      {{project.year-start}}-{{project.year-end}}
+      {{ project.year-start }} - {{ project.year-end }}
+
       {%- if project.funding -%}
       <h4>{% t project-page.funding %}</h4>
       {% if site.lang == "jp" and project.funding-jp %}
-      {{project.funding-jp}}
+        {{ project.funding-jp }}
       {% else %}
-      {{project.funding}}
+        {{ project.funding }}
       {%- endif -%}
       {%- endif -%}
     </div>
-
   </div>
-  <!-- /.row -->
 
   {%- if project.videos -%}
-  <!-- Videos -->
+  <!-- Videos Section -->
   <div class="row">
     <div class="col-lg-12">
       <h3 class="page-header">Videos</h3>
     </div>
-      {%- for video in project.videos -%}
-        <div class="col-sm-3 text-center">
-          <a href="{{video.url}}" data-toggle="lightbox" data-gallery="videos" data-title="{{video.title}}">
-            <img src="{{video.img}}" class="img-responsive" alt="{{video.title}} snapshot"><br/>{{video.title}}
-          </a>
-        </div>
-      {%- endfor -%}
+    {%- for video in project.videos -%}
+    <div class="col-sm-3 text-center">
+      <a href="{{ video.url }}" target="_blank" data-bs-toggle="lightbox" data-bs-gallery="videos" data-bs-title="{{ video.title }}">
+        <img src="{{ video.img }}" class="img-fluid" alt="{{ video.title }} snapshot">
+        <br/>{{ video.title }}
+      </a>
+    </div>
+    {%- endfor -%}
   </div>
-  <!-- /.row -->
   {%- endif -%}
 
-  <!-- Publications row -->
+  <!-- Publications Section -->
   <div class="row">
-
     <div class="col-lg-12">
       <h3 class="page-header">{% t project-page.publications %}</h3>
-
       {%- include publications_table.html project_id=include.id -%}
     </div>
-
   </div>
-  <!-- /.row -->
 
-  <!-- Partners row -->
+  <!-- Partners Section -->
   <div class="row">
     <div class="col-lg-12">
       <h3 class="page-header">{% t project-page.partners %}</h3>
     </div>
-
     {%- for p_id in project.partners -%}
       {%- assign bla = forloop.index0 -%}
       {%- for partner in site.data.partners -%}
         {%- if partner.id == p_id -%}
-        <div class="col-lg-4 col-sm-3 col-xs-6" style="text-align:center;">
-            <a href="{{partner.website}}">
-              {{partner.name}}{%- if partner.shortname -%}&nbsp;({{ partner.shortname }}){%- endif -%}<br/>
-              <img class="center-block img-responsive img-hover img-related" src="{{site.baseurl_root}}{{partner.logo}}" alt="{{partner.name}} logo" style="width:50%;"><br/><br/>
-            </a>
-          </div>
-          {%- if bla == 3 -%}
-          <div class="clearfix visible-xs"></div>
-              <div class="clearfix visible-sm"></div>
-          {%- endif -%}
+        <div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="{{ partner.website }}">
+            {{ partner.name }}{%- if partner.shortname -%} &nbsp;({{ partner.shortname }}){%- endif -%}<br/>
+            <img class="center-block img-fluid" src="{{site.baseurl_root}}{{ partner.logo }}" alt="{{ partner.name }} logo" style="width: 50%;">
+          </a>
+        </div>
+        {%- if bla == 3 -%}
+          <div class="clearfix d-block d-sm-none"></div>
+        {%- endif -%}
         {%- endif -%}
       {%- endfor -%}
     {%- endfor -%}
   </div>
-  <!-- /.row -->
-
 </div>
 <!-- /.container -->

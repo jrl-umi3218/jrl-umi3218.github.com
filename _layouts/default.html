@@ -13,6 +13,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="{{site.baseurl_root}}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+
 
     <!-- Custom CSS -->
     <link href="{{site.baseurl_root}}/css/modern-business.css" rel="stylesheet">
@@ -63,93 +65,103 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- jQuery -->
-    <script src="{{site.baseurl_root}}/js/jquery.js"></script>
+    <script src="{{site.baseurl_root}}/js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{site.baseurl_root}}/js/bootstrap.min.js"></script>
+    <script src="{{site.baseurl_root}}/js/bootstrap.bundle.min.js"></script>
   </head>
 
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          {%- capture title -%}{% t lab-name %}{%- endcapture -%}
-          {%- if page.title -%}
-            {%- capture title -%}{{title}} - {% t page.title %}{%- endcapture -%}
-          {%- endif -%}
-          <a class="navbar-brand" href="{{site.baseurl}}/{{site.index_name}}"><img src="{{site.baseurl_root}}/assets/cnrs-aist.png" alt="logos"/>{{title}}</a>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+        <div class="container-fluid w-75">
+          <a class="navbar-brand" href="{{site.baseurl}}/{{site.index_name}}">
+            <img src="{{site.baseurl_root}}/assets/cnrs-aist.png" alt="logos" />
+            {%- capture title -%}{% t lab-name %}{%- endcapture -%}
+            {%- if page.title -%}
+              {%- capture title -%}{{title}} - {% t page.title %}{%- endcapture -%}
+            {%- endif -%}
+            {{title}}
+          </a>        
         </div>
+
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="{{site.baseurl}}/news.html">{% t pages.news %}</a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">{% t pages.projects %} <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                {%- assign sorted_projects = site.data.projects | sort: 'id' -%}
-                {%- for project in sorted_projects -%}
-                {%- if project.active == true -%}
-                <li>
-                <a href="{{site.baseurl}}/projects/project-{{ project.id }}.html">{{project.title}}</a>
-                </li>
-                {%- endif -%}
-                {%- endfor -%}
-                <li role=separator class=divider></li>
-                <li>
-                  <a href="{{site.baseurl}}/past-projects.html">{% t pages.past-projects %}</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="{{site.baseurl}}/members.html">{% t pages.members %}</a>
-            </li>
-            <li>
-              <a href="{{site.baseurl}}/robots.html">{% t pages.robots %}</a>
-            </li>
-            <li>
-              <a href="{{site.baseurl}}/publications.html">{% t pages.publications %}</a>
-            </li>
-            <li>
-              <a href="{{site.baseurl}}/humanoid_lab.html">{% t pages.HL %}</a>
-            </li>
-            <li>
-              <a href="{{site.baseurl}}/join_us.html">{% t pages.join %}</a>
-            </li>
-            <li>
-              <a href="{{site.baseurl}}/contact.html">{% t pages.contact %}</a>
-            </li>
-            <li>
-              {% for lang in site.languages %}
-                {% capture lang_folder %}/{{lang}}{% endcapture %}
-                {% capture LANG %}{{ lang | upcase }}{% endcapture %}
-                {% if site.lang != lang %}
-                <a href="{{site.baseurl_root}}{{lang_folder}}{{page.url}}" style="display:inline;">{{LANG}}</a>
-                {% else %}
-                {{LANG}}
-                {% endif %}
-                {% if forloop.last %}
-                  &nbsp;
-                {% else %}
-                  |
-                {% endif %}
-              {% endfor %}
-            </li>
-          </ul>
+        <div class="container-fluid w-75">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> 
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/news.html">{% t pages.news %}</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {% t pages.projects %}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {%- assign sorted_projects = site.data.projects | sort: 'id' -%}
+                  {%- for project in sorted_projects -%}
+                    {%- if project.active == true -%}
+                      <li>
+                        <a class="dropdown-item" href="{{site.baseurl}}/projects/project-{{ project.id }}.html">{{project.title}}</a>
+                      </li>
+                    {%- endif -%}
+                  {%- endfor -%}
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item" href="{{site.baseurl}}/past-projects.html">{% t pages.past-projects %}</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/members.html">{% t pages.members %}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/robots.html">{% t pages.robots %}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/publications.html">{% t pages.publications %}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/humanoid_lab.html">{% t pages.HL %}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/join_us.html">{% t pages.join %}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.baseurl}}/contact.html">{% t pages.contact %}</a>
+              </li>
+              <li class="nav-item">
+                {% for lang in site.languages %}
+                  {% capture lang_folder %}/{{ lang }}{% endcapture %}
+                  {% capture LANG %}{{ lang | upcase }}{% endcapture %}
+                  
+                  {% if site.lang != lang %}
+                    <a href="{{ site.baseurl_root }}{{ lang_folder }}{{ page.url }}" class="nav-link" style="display:inline;">
+                      {{ LANG }}
+                    </a>
+                  {% else %}
+                    <span class="nav-link" style="display:inline;">{{ LANG }}</span>
+                  {% endif %}
+                  
+                  {% if forloop.last %}
+                    &nbsp;
+                  {% else %}
+                    |
+                  {% endif %}
+                {% endfor %}
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container -->
+      <!-- /.navbar-collapse -->
+    <!-- /.container -->
     </nav>
+
 
     {{ content }}
 
@@ -165,13 +177,6 @@
       </footer>
     </div>
     <!-- /.container -->
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-$('.carousel').carousel({
-  interval: 5000 //changes the speed
-})
-    </script>
 
     <!-- Ekko lightbox js -->
     <script src="{{site.baseurl_root}}/js/ekko-lightbox.min.js"></script>

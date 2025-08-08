@@ -4,126 +4,113 @@
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
+
 {%- capture member_full_name -%}{{member.given}} {{member.family}}{%- endcapture -%}
+
 {%- if site.lang == "jp" and member.name-jp -%}
   {%- capture member_full_name -%}{{member.name-jp}}{%- endcapture -%}
 {%- endif -%}
+
 {%- capture member_picture -%}{{site.baseurl_root}}/assets/members/nopicture.png{%- endcapture -%}
- {%- capture search_picture -%}/assets/members/{{member.id}}.jpg{%- endcapture -%}
+{%- capture search_picture -%}/assets/members/{{member.id}}.jpg{%- endcapture -%}
+
 {%- for file in site.static_files -%}
   {%- if file.path == search_picture -%}
-    {%- capture member_picture -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
+    {%- capture member_picture -%}{{site.baseurl_root}}{{file.path}}{%- endcapture -%}
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
+
 {%- capture subtitle -%}
   {%- case member.role -%}
-  {%- when "director" -%}
-  {% t roles.director %}
-  {%- when "deputy-director" -%}
-  {% t roles.deputy-director %}
-  {%- when "permanent" -%}
-  {% t roles.permanent-researcher %}
-  {%- when "adjunct" -%}
-  {% t roles.adjunct-member %}
-  {%- when "postdoc" -%}
-  {% t roles.postdoctoral-fellow %}
-  {%- when "engineer" -%}
-  {% t roles.research-engineer %}
-  {%- when "phd" -%}
-  {% t roles.phd-student %}
-  {%- when "master" -%}
-  {% t roles.master-student %}
-  {%- when "undergraduate" -%}
-  {% t roles.undergraduate-student %}
-  {%- when "non-degree" -%}
-  {% t roles.non-degree-student %}
-  {%- when "alumni" -%}
-  {% t roles.alumni %}
-  {%- when "alumni-star" -%}
-  {% t roles.alumni %}
+    {%- when "director" %}{% t roles.director %}
+    {%- when "deputy-director" %}{% t roles.deputy-director %}
+    {%- when "permanent" %}{% t roles.permanent-researcher %}
+    {%- when "adjunct" %}{% t roles.adjunct-member %}
+    {%- when "postdoc" %}{% t roles.postdoctoral-fellow %}
+    {%- when "engineer" %}{% t roles.research-engineer %}
+    {%- when "phd" %}{% t roles.phd-student %}
+    {%- when "master" %}{% t roles.master-student %}
+    {%- when "undergraduate" %}{% t roles.undergraduate-student %}
+    {%- when "non-degree" %}{% t roles.non-degree-student %}
+    {%- when "alumni" %}{% t roles.alumni %}
+    {%- when "alumni-star" %}{% t roles.alumni %}
   {%- endcase -%}
 {%- endcapture -%}
+
 {%- if member.website -%}
-{%- capture subtitle -%}<br/>{{subtitle}} &mdash; <a href="{{member.website}}" target="blank_">{%t member-page.personal-website %} <span class="glyphicon glyphicon-globe" style="font-size: small;"></span></a>{%- endcapture -%}
+  {%- capture subtitle -%}<br/>{{subtitle}} &mdash; <a href="{{member.website}}" target="_blank">{% t member-page.personal-website %} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
 {%- else -%}
-{%- capture subtitle -%}<br/>{{subtitle}}{%- endcapture -%}
+  {%- capture subtitle -%}<br/>{{subtitle}}{%- endcapture -%}
 {%- endif -%}
+
 {%- capture crumbs -%}<a href="{{site.baseurl}}/members.html">{% t pages.members %}</a>{%- endcapture -%}
 {%- assign crumbs = crumbs | split: "," -%}
 {%- include breadcrumbs.html crumbs=crumbs breadcrumbs=member_full_name title=member_full_name subtitle=subtitle -%}
 
 <!-- Page Content -->
 <div class="container">
-  <!-- Portfolio Item Row -->
   <div class="row row-eq-height">
     {%- capture carousel_files -%}{{member_picture}}{%- endcapture -%}
     {%- capture member_assets -%}/assets/members/{{member.id}}/{%- endcapture -%}
+
     {%- for f in site.static_files -%}
       {%- assign f_base = f.path | remove_first: member_assets -%}
       {%- if f_base != f.path -%}
         {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
       {%- endif -%}
     {%- endfor -%}
-    {%- unless carousel_files -%}
-    {%- endunless -%}
+
     {%- assign carousel_files = carousel_files | split: "," -%}
     {%- assign carousel_files_size = carousel_files | size -%}
-    <div class="col-md-6 col-xs-6 col-middle">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+    <div class="col-md-6 col-12 col-middle">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         {%- if carousel_files_size != 1 -%}
-        <!-- Indicators -->
         <ol class="carousel-indicators">
-        {%- for f in carousel_files -%}
-          {%- if forloop.index0 == 0 -%}
-            <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}" class="active"></li>
-          {%- else -%}
-            <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}"></li>
-          {%- endif -%}
-        {%- endfor -%}
+          {%- for f in carousel_files -%}
+            <li data-bs-target="#carouselExample" data-bs-slide-to="{{forloop.index0}}" class="{{ 'active' if forloop.index0 == 0 else '' }}"></li>
+          {%- endfor -%}
         </ol>
         {%- endif -%}
 
-        <!-- Wrapper for slides -->
         <div class="carousel-inner">
-        {%- for f in carousel_files -%}
-          {%- if forloop.index0 == 0 -%}
-            {%- assign class = "item active" -%}
-          {%- else -%}
-            {%- assign class = "item" -%}
-          {%- endif -%}
-          <div class="{{class}}">
-            <img class="img-responsive img-rounded" src="{{f}}" alt="carousel picture {{forloop.index}}" style="margin: auto;">
-          </div>
-        {%- endfor -%}
+          {%- for f in carousel_files -%}
+            <div class="carousel-item {{ 'active' if forloop.index0 == 0 else '' }}">
+              <img class="img-fluid rounded" src="{{f}}" alt="carousel picture {{forloop.index}}" style="margin: auto;">
+            </div>
+          {%- endfor -%}
         </div>
 
         {%- if carousel_files_size != 1 -%}
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
         {%- endif -%}
       </div>
     </div>
 
-    <div class="col-md-6 col-xs-6 col-middle">
+    <div class="col-md-6 col-12 col-middle">
       {%- if member.bio -%}
       <h3>{% t member-page.bio %}</h3>
       <p>
-      {%- if site.lang == "jp" and member.bio-jp %}
-      <b>{{member_full_name}}は</b>{{member.bio-jp}}
-      {%- else -%}
-      <b>{{member_full_name}}&nbsp;</b>{{member.bio}}
-      {%- endif -%}
+        {%- if site.lang == "jp" and member.bio-jp %}
+          <b>{{member_full_name}}は</b>{{member.bio-jp}}
+        {%- else -%}
+          <b>{{member_full_name}}&nbsp;</b>{{member.bio}}
+        {%- endif -%}
       </p>
       {%- endif -%}
+
       {%- if member.rawbio -%}
-      {{member.rawbio}}
+        {{member.rawbio}}
       {%- endif -%}
+
       {%- if member.research -%}
         <h3>{% t member-page.research-interests %}</h3>
         {%- if site.lang == "jp" and member.research-jp -%}
@@ -135,28 +122,27 @@
     </div>
 
   </div>
-  <!-- /.row -->
 
   {%- if member.videos -%}
-  <!-- Videos -->
   <div class="row">
     <div class="col-lg-12">
       <h3 class="page-header">{% t member-page.videos %}</h3>
     </div>
       {%- for video in member.videos -%}
         <div class="col-sm-3 text-center">
-          <a href="{{video.url}}" data-toggle="lightbox" data-gallery="videos" data-title="{{video.title}}">
-            {% if site.lang == "jp" and video.title-jp %}
-              {% capture video_title %}{{video.title-jp}}{% endcapture %}
-            {% else %}
-              {% capture video_title %}{{video.title}}{% endcapture %}
-            {% endif %}
-            <img src="{{video.img}}" class="img-responsive" alt="{{video.title}} snapshot"><br/>{{video_title}}
+          <a href="{{video.url}}" data-bs-toggle="lightbox" data-bs-gallery="videos" data-bs-title="{{video.title}}">
+            {% capture video_title %}
+              {% if site.lang == "jp" and video.title-jp %}
+                {{video.title-jp}}
+              {% else %}
+                {{video.title}}
+              {% endif %}
+            {% endcapture %}
+            <img src="{{video.img}}" class="img-fluid" alt="{{video.title}} snapshot"><br/>{{video_title}}
           </a>
         </div>
       {%- endfor -%}
   </div>
-  <!-- /.row -->
   {%- endif -%}
 
   <!-- Publications row -->
@@ -165,8 +151,8 @@
       {%- if member.selected_publications -%}
       <h3 class="page-header">{% t member-page.selected-publications %}</h3>
         {%- include publications_table.html publications_id=member.selected_publications -%}
-        <h3 class="page-header">{% t member-page.all-publications %}<a id="all_pubs_button" style="float:right;font-size:medium;" data-toggle="collapse" href="#all_pubs">{% t member-page.show %}</a></h3>
-        <div id="all_pubs" class="panel-collapse collapse" style="transition: none;">
+        <h3 class="page-header">{% t member-page.all-publications %}<a id="all_pubs_button" style="float:right;font-size:medium;" data-bs-toggle="collapse" href="#all_pubs">{% t member-page.show %}</a></h3>
+        <div id="all_pubs" class="collapse">
           {%- include publications_table.html member_id=member.id%}
         </div>
       {%- else -%}
@@ -174,16 +160,3 @@
         <div class="alert alert-info">{% t publications.incomplete-warning %}</div>
           {%- include publications_table.html member_id=member.id%}
       {%- endif -%}
-    </div>
-  <script type="text/javascript">
-    function handleClick()
-    {
-      this.text = (this.text == '{% t member-page.show %}' ? '{% t member-page.hide %}' : '{% t member-page.show %}');
-    }
-    document.getElementById('all_pubs_button').onclick = handleClick;
-  </script>
-
-  </div>
-  <!-- /.row -->
-</div>
-<!-- /.container -->

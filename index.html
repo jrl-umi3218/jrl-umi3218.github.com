@@ -1,20 +1,10 @@
 ---
 layout: default
 ---
-<div class="breadcrumbs-container">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-      <h1 class="page-header">
-        {% t lab-name %}
-      </h1>
-    </div>
-  </div>
-</div>
-</div>
+
 <div class="breadcrumbs-container home-banner-large">
   <div class="container home-banner-xs">
-  <!-- Marketing Icons Section -->
+    <!-- Marketing Icons Section -->
     {%- capture home_assets -%}/assets/pictures/home/{%- endcapture -%}
     {%- for f in site.static_files -%}
       {%- assign f_base = f.path | remove_first: home_assets -%}
@@ -29,66 +19,69 @@ layout: default
     {%- assign carousel_files = carousel_files | split: "," -%}
     {%- assign carousel_files_size = carousel_files | size -%}
 
-  <div class="row">
-    <div class="col-md-8 col-xs-8 col-md-offset-2 col-xs-offset-2">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        {%- if carousel_files_size != 1 -%}
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-        {%- for f in carousel_files -%}
-          {%- if forloop.index0 == 0 -%}
-            <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}" class="active"></li>
-          {%- else -%}
-            <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}"></li>
-          {%- endif -%}
-        {%- endfor -%}
-        </ol>
-        {%- endif -%}
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-        {%- for f in carousel_files -%}
-          {%- if forloop.index0 == 0 -%}
-            {%- assign class = "item active" -%}
-          {%- else -%}
-            {%- assign class = "item" -%}
-          {%- endif -%}
-          <div class="{{class}}">
-            <img class="img-responsive img-rounded" src="{{f}}" alt="carousel {{forloop.index}}">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div id="project-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+          
+          {% if carousel_files_size != 1 %}
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            {% for f in carousel_files %}
+              {% if forloop.index0 == 0 %}
+                <button data-bs-target="#project-carousel" data-bs-slide-to="{{ forloop.index0 }}" class="active" aria-current="true"></button>
+              {% else %}
+                <button data-bs-target="#project-carousel" data-bs-slide-to="{{ forloop.index0 }}"></button>
+              {% endif %}
+            {% endfor %}
           </div>
-        {%- endfor -%}
+          {% endif %}
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            {% for f in carousel_files %}
+              {% if forloop.index0 == 0 %}
+                <div class="carousel-item active">
+              {% else %}
+                <div class="carousel-item">
+              {% endif %}
+                <img class="img-fluid img-rounded" src="{{ f }}" alt="carousel {{ forloop.index }}">
+              </div>
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>
-    <div align="right" style="padding-right:20px;">
+
+    <div class="d-flex justify-content-end position-absolute top-0 end-0 p-3">
       <table>
-	<tbody>
-	  <tr>
-	    <td style="padding-bottom:10px">
-	      <a href="https://github.com/jrl-umi3218/">
-	      <img src="{{site.baseurl_root}}/assets/icons/GitHub-Mark-Light-64px.png" width="40" alt="GitHub">
-	      </a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td style="padding-bottom:10px">
-	      <a href="https://www.youtube.com/channel/UCYwHCdMHAKYZJ2MQIoTavVQ">
-	      <img src="{{site.baseurl_root}}/assets/icons/yt_icon_rgb.png" width="40" alt="YouTube Channel">
-	      </a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td style="padding-bottom:10px">
-	      <a href="https://jrl-umi3218.github.io/mc_rtc/">
-	      <img src="{{site.baseurl_root}}/assets/icons/mc_rtc.png" width="40" alt="mc-rtc">
-	      </a>
-	    </td>
-	  </tr>
-	</tbody>
+        <tbody>
+          <tr>
+            <td style="padding-bottom:10px">
+              <a href="https://github.com/jrl-umi3218/">
+                <img src="{{site.baseurl_root}}/assets/icons/GitHub-Mark-Light-64px.png" width="40" alt="GitHub">
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:10px">
+              <a href="https://www.youtube.com/channel/UCYwHCdMHAKYZJ2MQIoTavVQ">
+                <img src="{{site.baseurl_root}}/assets/icons/yt_icon_rgb.png" width="40" alt="YouTube Channel">
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:10px">
+              <a href="https://jrl-umi3218.github.io/mc_rtc/">
+                <img src="{{site.baseurl_root}}/assets/icons/mc_rtc.png" width="40" alt="mc-rtc">
+              </a>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>
 </div>
+
 
 </div>
 
@@ -118,7 +111,7 @@ layout: default
     {%- if project.active == true -%}
     <div class="col-md-3 col-xs-6 col-centered">
       <a href="{{site.baseurl}}/projects/project-{{project.id}}.html" data-toggle="tooltip" title="{{project.title}} - {{project.longtitle}}">
-        <img class="img-responsive img-portfolio img-hover" src="{{site.baseurl_root}}/assets/projects/{{project.id}}.png" alt="{{project.title}} - {{project.longtitle}}">
+        <img class="img-fluid img-portfolio img-hover" src="{{site.baseurl_root}}/assets/projects/{{project.id}}.png" alt="{{project.title}} - {{project.longtitle}}">
       </a>
     </div>
     {%- endif -%}
