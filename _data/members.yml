@@ -1972,6 +1972,9 @@
   from: 2025-07-15
   to: 2026-03-31
   nationality: mx
+  linkedin: "https://www.linkedin.com/in/diego-lopez-hz"
+  bio: >
+    received his B.S. in Mechatronics Engineering at Instituto Tecnológico y de Estudios Superiores de Monterrey, in 2025. During his studies, he participated in a research stay on Model Predictive Control and was part of the campus' competitive robotics student group in a mechanical engineering role.
 - id: ruble
   given: Louis
   family: Ruble
