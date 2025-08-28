@@ -4407,7 +4407,8 @@
   month: november
 - id: kessy:cvm:2024
   year: 2025
-  title: Illumination Compensation using Perpendicular Whisk-broom Hyperspectral Scans
+  title: Temporal illumination Compensation using Perpendicular Whisk-broom Hyperspectral
+    Scans
   booktitle: Computational Visual Media
   authors:
   - family: Kessy
@@ -4729,6 +4730,7 @@
   - id: kheddar
   pdf: https://ieeexplore.ieee.org/document/11077997
   lab: jrl
+  month: july
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -11011,6 +11013,7 @@
   - id: carong
   - id: imamoglu
   - id: kanehiro
+  pdf: https://hal.science/hal-05124721
   lab: jrl
   month: july 26-july 28
 - id: mouaddib:dh:2025
@@ -11023,6 +11026,7 @@
   - id: carong
   - family: Zarghili
     given: Arsalane
+  pdf: https://hal.science/hal-05124722
   lab: jrl
   month: september 8-september 13
 - id: puigt:gretsi:2025
@@ -11063,6 +11067,32 @@
   month: august 17-august 21
   projects:
   - foundation
+- id: caillot:humanoids:2025
+  year: 2010
+  title: RGB-D versus omnidirectional visual SLAM in humanoid robot positioning
+  booktitle: International Communication Association
+  authors:
+  - id: acaillot
+  - id: aandre
+  - id: duvinage
+  - id: carong
+  pdf: https://hal.science/hal-05193891
+  lab: jrl
+  month: june 22-june 26
+- id: kempf:iccvw:2025
+  year: 2025
+  title: Globally optimal registration of dense terrestrial laser scans from coarse
+    sampling
+  booktitle: IEEE/CVF International Conference on Computer Vision Workshops
+  authors:
+  - id: kempf
+  - id: carong
+  - family: Mouaddib
+    given: El
+  - id: kanehiro
+  pdf: https://hal.science/hal-05193969
+  lab: jrl
+  month: october 20
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
