@@ -19,22 +19,6 @@
   skills: >
     <p><i>Preferred</i>: C++, Deep learning, ROS, multibody mechanics.</p>
     <p><i>Required</i>: spoken English language</p>
-- id: dvs
-  title: Direct Visual Servoing from farther and faster
-  description: >
-    <ul>
-      <li>Robot motion control from camera image brightness</li>
-      <li>Accuracy < 1 mm but 3D trajectories are not ideal</li>
-      <li>Goals:
-        <ul>
-          <li>new Hessian construction algorithm</li>
-          <li>hybrid camera field-of-view desired / current images</li>
-        </ul>
-      </li>
-      <li>Related projects: <a href="../en/projects/project-dvsstraight.html">DVS-straight</a>, <a href="../en/projects/project-m2sv.html">M2SV</a></li>
-    </ul>
-  grade: Master/PhD
-  skills: C++ programming, mathematical background
 - id: hydraulic_actuator
   title: Contact-Ready Robust Hydraulic Actuator for Mobile Robots
   description: To vastly increase the use of robots, tasks with contacts are inevitable. In this research, we aim to develop robust and force sensitive hydraulic actuators to realize robust and dexterous manipulation on mobile robots.
@@ -65,16 +49,6 @@
       <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
     </ul>
   skills: C++, Python, Linux, computer vision for object pose detection
-- id: immersive_teleoperation
-  title: Enhanced visual feedback for immersive humanod robot teleoperation
-  grade: Master
-  description: >
-    <ul>
-      <li>Achieve an immersive experience for the operator of an avatar in a remote location</li>
-      <li>Use of SLAM and AR to complement visual information outside of the field of view of the robot</li>
-      <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
-    </ul>
-  skills: Unity/Unreal, computer vision, SLAM
 - id: mobile_robot
   title: Navigation and control of a mobile robot with mounted arm
   grade: Master
@@ -146,19 +120,3 @@
     </ul>
   grade: Master/PhD
   skills: mathematical and mechanical background in 3D geometry, optimization, training, C++ / python programming
-- id: call
-  title: Human body visual tracking leveraging biomechanical modelling
-  description: >
-    <ul>
-      <li>State-of-the-art biomechanical human tracking is marker-based optical motion capture</li>
-      <li>Markerless human visual trackers are more flexible but with puppet-like models</li>
-      <li>Goals:
-        <ul>
-          <li>Leverage biomechanical models in markerless human visual tracking</li>
-          <li>Improve human dynamics prediction</li>
-          <li>Integrate in human robot physical interaction (e.g. load carrying)</li>
-        </ul>
-      </li>
-    </ul>
-  grade: Master
-  skills: mathematical and mechanical background, 3D geometry, optimization, training, C++ / python programming
