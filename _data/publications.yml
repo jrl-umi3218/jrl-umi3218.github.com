@@ -11068,9 +11068,9 @@
   projects:
   - foundation
 - id: caillot:humanoids:2025
-  year: 2010
+  year: 2025
   title: RGB-D versus omnidirectional visual SLAM in humanoid robot positioning
-  booktitle: International Communication Association
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
   authors:
   - id: acaillot
   - id: aandre
@@ -11078,7 +11078,9 @@
   - id: carong
   pdf: https://hal.science/hal-05193891
   lab: jrl
-  month: june 22-june 26
+  month: september 30
+  projects:
+  - antnoid
 - id: kempf:iccvw:2025
   year: 2025
   title: Globally optimal registration of dense terrestrial laser scans from coarse
