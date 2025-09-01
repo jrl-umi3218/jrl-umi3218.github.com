@@ -1,7 +1,11 @@
 - id: kheddar
   given: Abderrahmane
   family: Kheddar
-  role: permanent
+  role: adjunct
+  from: 2025-09-01
+  past-roles:
+    - role: permanent
+      to: 2025-08-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/kheddar"
   website: "http://www.lirmm.fr/lirmm_eng/users/utilisateurs-lirmm/equipes/idh/abderrahmane-kheddar"
@@ -364,9 +368,12 @@
 - id: benalleguea
   given: Abdelaziz
   family: Benallegue
-  role: permanent
-  from: 2024-09-01
+  role: alumni
+  from: 2025-09-01
   past-roles:
+    - role: permanent
+      from: 2024-09-01
+      to: 2025-08-31
     - role: permanent
       to: 2022-07-22
       from: 2021-01-01
@@ -600,7 +607,9 @@
 - id: vasalya
   given: Ashesh
   family: Vasalya
-  role: alumni
+  role: postdoc
+  from: 2025-09-01
+  to: 2026-05-29
   nationality: in
 - id: gabas
   given: Antonio
@@ -1680,9 +1689,12 @@
 - id: vega
   given: Piero
   family: Vega-Gutierrez
-  role: master
-  from: 2025-04-28
-  to: 2025-08-22
+  role: alumni
+  from: 2025-08-23
+  past-roles:
+    - role: master
+      from: 2025-04-28
+      to: 2025-08-22
   nationality: fr
 - id: yada
   given: Shori
@@ -1718,9 +1730,12 @@
 - id: pezet
   given: Romain
   family: Pezet
-  role: master
-  from: 2025-04-28
-  to: 2025-08-22
+  role: alumni
+  from: 2025-08-23
+  past-roles:
+    - role: master
+      from: 2025-04-28
+      to: 2025-08-22
   nationality: fr
   bio: >
     is a master student at UPSSITECH, Université Paul Sabatier in Toulouse. His research interests focus on computer science, artificial intelligence, and imitation learning. Currently, he is working on data collection for a robot using virtual reality equipment. He is also passionate about video games and enjoys playing badminton in his free time.
@@ -1737,17 +1752,23 @@
 - id: durand
   given: Hugo
   family: Durand
-  role: master
-  from: 2025-02-17
-  to: 2025-08-15
+  role: alumni
+  from: 2025-08-16
+  past-roles:
+    - role: master
+      from: 2025-02-17
+      to: 2025-08-15
   nationality: fr
 - id: kikuchi
   given: Misaki
   family: Kikuchi
   name-jp: 菊池 美咲
-  role: engineer
-  from: 2024-10-01
-  to: 2025-03-31
+  role: alumni
+  from: 2025-09-01
+  past-roles:
+    - role: engineer
+      from: 2024-10-01
+      to: 2025-08-31
   nationality: jp
 - id: dhaene
   given: Mathis
@@ -1769,9 +1790,12 @@
 - id: cariou
   given: Alice
   family: Cariou
-  role: master
-  from: 2025-02-20
-  to: 2025-08-20
+  role: alumni
+  from: 2025-09-01
+  past-roles:
+    - role: master
+      from: 2025-02-20
+      to: 2025-08-31
   nationality: fr
   bio: >
     is a master's student at EPITA, Paris, France, in AI major. Her current research includes fusing RL and QP for humanoid locomotion tasks to ensure safety and feasibility constraints.
@@ -1787,7 +1811,7 @@
   family: Moussafir
   role: postdoc
   from: 2025-03-10
-  to: 2025-12-31
+  to: 2026-09-30
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/l%C3%A9o-moussafir-13860284"
   bio: >
@@ -1830,16 +1854,22 @@
 - id: louapre
   given: Ferdinand
   family: Louapre
-  role: master
-  from: 2025-02-17
-  to: 2025-08-15
+  role: alumni
+  from: 2025-08-16
+  past-roles:
+    - role: master
+      from: 2025-02-17
+      to: 2025-08-15
   nationality: fr
 - id: forgiel
   given: Anatole
   family: Forgiel
-  role: master
-  from: 2025-04-01
-  to: 2025-06-27
+  role: alumni
+  from: 2025-06-28
+  past-roles:
+    - role: master
+      from: 2025-04-01
+      to: 2025-06-27
   nationality: fr
 - id: dorfani
   given: Raphaël
@@ -1878,7 +1908,7 @@
 - id: hernandezvaldez
   given: Eduardo
   family: Hernandez-Valdez
-  role: coming-undergraduate
+  role: undergraduate
   from: 2025-08-01
   to: 2026-02-16
   nationality: mx
@@ -1954,22 +1984,18 @@
 - id: stasse
   given: Olivier
   family: Stasse
-  role: adjunct
-  from: 2025-07-15
-  to: 2025-08-06
+  role: alumni
+  from: 2025-08-07
+  past-roles:
+    - role: adjunct
+      from: 2025-07-15
+      to: 2025-08-06
   nationality: fr
-- id: joshi
-  given: Rishikesh
-  family: Joshi
-  role: coming-engineer
-  from: 2025-09-01
-  to: 2027-03-31
-  nationality: us
 - id: lopez
   given: Diego
   family: López Hernández
   role: engineer
-  from: 2025-07-15
+  from: 2025-08-20
   to: 2026-03-31
   nationality: mx
   linkedin: "https://www.linkedin.com/in/diego-lopez-hz"
@@ -1978,14 +2004,14 @@
 - id: ruble
   given: Louis
   family: Ruble
-  role: coming-master
+  role: master
   from: 2025-09-01
   to: 2026-02-27
   nationality: fr
 - id: erens
   given: Ruud
   family: Erens
-  role: coming-master
+  role: master
   from: 2025-09-01
   to: 2026-02-27
   nationality: fr
