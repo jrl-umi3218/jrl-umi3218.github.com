@@ -136,9 +136,19 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/09/2025
+    content: >
+      Two members, <a href="members/member-hernandezvaldez.html">Eduardo Hernandez-Valdez</a> and <a href="members/member-lopez.html">Diego López Hernández</a> joind and eight members, <a href="members/member-stasse.html">Olivier Stasse</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a>, <a href="members/member-vega.html">Piero Vega-Gutierrez</a>, <a href="members/member-pezet.html">Romain Pezet</a>, <a href="members/member-benalleguea.html">Abdelaziz Benallegue</a>, <a href="members/member-kikuchi.html">Misaki Kikuchi</a> and <a href="members/member-cariou.html">Alice Cariou</a> left the JRL in August.<br>
+      "<a href=https://ieeexplore.ieee.org/document/11037531>TACT: Humanoid Whole-body Contact Manipulation through Deep Imitation Learning with Tactile Modality</a>" was published in the RA-Letters.<br>
+      One paper was presented at CASE2025.
+      <ul>
+      <li>
+      Learning Bimanual Manipulation Via Action Chunking and Inter-Arm Coordination with Transformers
+      </li>
+      </ul>
   - date: 01/08/2025
     content: >
-      Three members, <a href="members/member-stasse.html">Olivier Stasse</a>, <a href="members/member-lopez.html">Diego López Hernández</a> and <a href="members/member-castillo.html">Hugo Daniel Castillo Ovando</a> joined and <a href="members/member-bories.html">Maxime Bories</a> left the JRL in July.<br>
+      Two members, <a href="members/member-stasse.html">Olivier Stasse</a> and <a href="members/member-castillo.html">Hugo Daniel Castillo Ovando</a> joined and <a href="members/member-bories.html">Maxime Bories</a> left the JRL in July.<br>
       One paper was presented at MVA2025.
       <ul>
       <li>3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging</li>
