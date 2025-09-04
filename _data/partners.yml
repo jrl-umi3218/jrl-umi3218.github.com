@@ -1,3 +1,13 @@
+- id: univevry
+  logo: "/assets/logos/univevry.png"
+  name: "Universite d'Evry - Paris Saclay"
+  shortname: "Univ. Evry"
+  website: "https://www.univ-evry.fr/"
+- id: univorleans
+  logo: "/assets/logos/univorleans.jpg"
+  name: "Universite d'Orleans"
+  shortname: "Univ. Orleans"
+  website: "https://www.univ-orleans.fr/en"
 - id: uds
   logo: "/assets/logos/uds.png"
   name: "Universite de Sherbrooke"

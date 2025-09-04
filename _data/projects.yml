@@ -1,3 +1,17 @@
+- id: calcadn
+  title: "CalcADN"
+  longtitle: "CalcADN: Computing on DNA"
+  pi: carong
+  year-start: 2025
+  year-end: 2027
+  funding: France 2030
+  active: true
+  partners: [cnrs,univevry,univorleans]
+  description: "
+<p>CalcADN is a collaborative project funded by the France 2030 program manged by ANR (Agence Nationale de la Recherche / French national research agency). In this high risk research project led by both <a href=https://limms-tokyo.org/>CNRS-U Tokyo LIMMS</a> and <a href=https://www.ens-lyon.fr/LIP/>CNRS-ENS Lyon LIP</a>, CNRS-AIST JRL is a partner with <a href=https://www.ibisc.univ-evry.fr/en/>U Evry IBISC</a>, <a href=https://www.univ-orleans.fr/lifo/>U Orleans LIFO</a>, <a href=https://lasir.cnrs.fr/en/lasir/>CNRS-UdL LASIRe</a>, <a href=https://www.gulliver.espci.fr/?-home->CNRS-ESPCI Gulliver</a> and <a href=https://www.iemn.fr/en/>CNRS-UdL IEMN</a>. The aim is to create the first computer that makes large scale computations on DNA by combining research on molecular computation, computer science and robotics for which JRL contributes in order to mimic expert bilogists with robots in manipulating liquids accurately at large scale with a high degree of repeatability. </p>
+<p>CalcADN will be implemented on dual-arm robot.  
+</p>
+"
 - id: foundation
   title: "RoboticsFoundationModel"
   longtitle: "Research and Development on Generative AI Foundation Model in Physical Domain"
