@@ -1842,6 +1842,10 @@
   from: 2025-04-01
   to: 2027-03-31
   nationality: mx
+  linkedin: "https://www.linkedin.com/in/sebastian-joya-paez-5764951b8"
+  github: "https://github.com/joyapseb"
+  bio: >
+    is a master’s student at the Unviversity of Tsukuba, He obtained his bachelor's degree in Robotics and Digital Systems from Instituto Tecnologico y de Estudios Superiores de Monterrey. His current research focuses on 3D Sequential Dextereous Part Assembly based on a Transformer-DRL hybrid model.
 - id: tazeroualttlamcani
   given: Ghita
   family: Tazeroualt Tlamcani
