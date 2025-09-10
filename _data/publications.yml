@@ -4731,6 +4731,18 @@
   pdf: https://ieeexplore.ieee.org/document/11077997
   lab: jrl
   month: july
+- id: mori:ral:2025
+  year: 2025
+  title: 'Active Learning for Exciting Motion Generation With Safety Constraint: Toward
+    Reducing Model-Reality Gap in Inertial Parameters'
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: mori
+  - id: ayusawa
+  - id: venture
+  pdf: https://ieeexplore.ieee.org/document/10982135
+  lab: jrl
+  month: june
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
