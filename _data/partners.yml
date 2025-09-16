@@ -1,3 +1,13 @@
+- id: mines
+  logo: "/assets/logos/mines.png"
+  name: "Mines Paris - PSL"
+  shortname: "Mines Paris - PSL"
+  website: "https://www.minesparis.psl.eu/en/home/"
+- id: onera
+  logo: "/assets/logos/onera.png"
+  name: "ONERA: The French Aerospace lab"
+  shortname: "ONERA"
+  website: "https://www.onera.fr/en"
 - id: univevry
   logo: "/assets/logos/univevry.png"
   name: "Universite d'Evry - Paris Saclay"

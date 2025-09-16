@@ -1,3 +1,17 @@
+- id: hammer
+  title: "HAMMER"
+  longtitle: "Hybridization of model-based and data-driven methods for robot locomotion and mobility"
+  pi: carong
+  year-start: 2025
+  year-end: 2031
+  funding: France 2030 - PEPR Robotics
+  active: true
+  partners: [cnrs,inria,onera,mines]
+  description: "
+<p>HAMMER is the Target Project 2 of the Prioritary Program of Research and Equipment of Acceleration in Robotics funded by the France 2030 program managed by ANR (Agence Nationale de la Recherche / French national research agency). In this large collaborative project led by <a href=https://www.i3s.unice.fr/en/>CNRS-U Nice I3S</a>, CNRS-AIST JRL is a partner with <a href=https://icb.cnrs.fr/>CNRS-UBE ICB</a>, <a href=https://www.onera.fr/en/tis>ONERA DITIS</a>, <a href=https://www.gipsa-lab.grenoble-inp.fr/en>CNRS-INP GIPSA-lab</a>, <a href=https://www.isir.upmc.fr/?lang=en>CNRS-Sorbonne Univ. ISIR</a>, <a href=https://www.laas.fr/en/teams/gepetto/>LAAS-CNRS</a>, <a href=https://www.inria.fr/en/willow>Inria-ENS Willow</a>, <a href=https://team.inria.fr/acentauri>Inria ACENTAURI</a>, <a href=https://team.inria.fr/larsen/>Inria Larsen</a> and <a href=https://www.minesparis.psl.eu/en/home/>Mines Paris PSL</a>. The aim is to endow robots with advanced locomotion and mobility capabilities, by developing a hybrid approach combining advantages of model-based and data-driven methods. </p>
+<p>More specifically to JRL, we will focus on combining learning-based with model-based control to ensure strong control guarantees and learning-based with model-based vision for improving prediction capabilities from joint learning- and model-based feedback. 
+</p>
+"
 - id: calcadn
   title: "CalcADN"
   longtitle: "CalcADN: Computing on DNA"
@@ -8,7 +22,7 @@
   active: true
   partners: [cnrs,univevry,univorleans]
   description: "
-<p>CalcADN is a collaborative project funded by the France 2030 program manged by ANR (Agence Nationale de la Recherche / French national research agency). In this high risk research project led by both <a href=https://limms-tokyo.org/>CNRS-U Tokyo LIMMS</a> and <a href=https://www.ens-lyon.fr/LIP/>CNRS-ENS Lyon LIP</a>, CNRS-AIST JRL is a partner with <a href=https://www.ibisc.univ-evry.fr/en/>U Evry IBISC</a>, <a href=https://www.univ-orleans.fr/lifo/>U Orleans LIFO</a>, <a href=https://lasir.cnrs.fr/en/lasir/>CNRS-UdL LASIRe</a>, <a href=https://www.gulliver.espci.fr/?-home->CNRS-ESPCI Gulliver</a> and <a href=https://www.iemn.fr/en/>CNRS-UdL IEMN</a>. The aim is to create the first computer that makes large scale computations on DNA by combining research on molecular computation, computer science and robotics for which JRL contributes in order to mimic expert bilogists with robots in manipulating liquids accurately at large scale with a high degree of repeatability. </p>
+<p>CalcADN is a collaborative project funded by the France 2030 program managed by ANR (Agence Nationale de la Recherche / French national research agency). In this high risk research project led by both <a href=https://limms-tokyo.org/>CNRS-U Tokyo LIMMS</a> and <a href=https://www.ens-lyon.fr/LIP/>CNRS-ENS Lyon LIP</a>, CNRS-AIST JRL is a partner with <a href=https://www.ibisc.univ-evry.fr/en/>U Evry IBISC</a>, <a href=https://www.univ-orleans.fr/lifo/>U Orleans LIFO</a>, <a href=https://lasir.cnrs.fr/en/lasir/>CNRS-UdL LASIRe</a>, <a href=https://www.gulliver.espci.fr/?-home->CNRS-ESPCI Gulliver</a> and <a href=https://www.iemn.fr/en/>CNRS-UdL IEMN</a>. The aim is to create the first computer that makes large scale computations on DNA by combining research on molecular computation, computer science and robotics for which JRL contributes in order to mimic expert bilogists with robots in manipulating liquids accurately at large scale with a high degree of repeatability. </p>
 <p>CalcADN will be implemented on dual-arm robot.  
 </p>
 "
