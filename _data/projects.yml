@@ -9,7 +9,7 @@
   partners: [cnrs,inria,onera,mines]
   description: "
 <p>HAMMER is the Target Project 2 of the Prioritary Program of Research and Equipment of Acceleration in Robotics funded by the France 2030 program managed by ANR (Agence Nationale de la Recherche / French national research agency). In this large collaborative project led by <a href=https://www.i3s.unice.fr/en/>CNRS-U Nice I3S</a>, CNRS-AIST JRL is a partner with <a href=https://icb.cnrs.fr/>CNRS-UBE ICB</a>, <a href=https://www.onera.fr/en/tis>ONERA DITIS</a>, <a href=https://www.gipsa-lab.grenoble-inp.fr/en>CNRS-INP GIPSA-lab</a>, <a href=https://www.isir.upmc.fr/?lang=en>CNRS-Sorbonne Univ. ISIR</a>, <a href=https://www.laas.fr/en/teams/gepetto/>LAAS-CNRS</a>, <a href=https://www.inria.fr/en/willow>Inria-ENS Willow</a>, <a href=https://team.inria.fr/acentauri>Inria ACENTAURI</a>, <a href=https://team.inria.fr/larsen/>Inria Larsen</a> and <a href=https://www.minesparis.psl.eu/en/home/>Mines Paris PSL</a>. The aim is to endow robots with advanced locomotion and mobility capabilities, by developing a hybrid approach combining advantages of model-based and data-driven methods. </p>
-<p>More specifically to JRL, we will focus on combining learning-based with model-based control to ensure strong control guarantees and learning-based with model-based vision for improving prediction capabilities from joint learning- and model-based feedback. 
+<p>More specifically to JRL, we will focus on combining learning-based with model-based control to ensure strong control guarantees with LAAS-CNRS and also combining learning-based with model-based vision for improving prediction capabilities with Inria ACENTAURI. 
 </p>
 "
 - id: calcadn
