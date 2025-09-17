@@ -11093,6 +11093,33 @@
   month: september 30
   projects:
   - antnoid
+- id: murooka:humanoids:2025
+  year: 2025
+  title: Learning Differentiable Reachability Maps for Optimization-Based Humanoid
+    Motion Generation
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: murooka
+  - id: kumagai
+  - id: morisawa
+  - id: kanehiro
+  lab: jrl
+  month: september 30
+- id: chalanunt:humanoids:2025
+  year: 2025
+  title: Comparative Analysis of Dynamic Balance Descriptors in Humanoids and Humans
+    During Perturbed Bipedal Locomotion and Fall
+  booktitle: IEEE-RAS International Conference on Humanoid Robots
+  authors:
+  - id: chalanunt
+  - family: Lallès
+    given: Arian Eand Demont
+  - id: benalleguem
+  - id: bwatier
+  - family: Pillet
+    given: Helene
+  lab: jrl
+  month: september 30
 - id: kempf:iccvw:2025
   year: 2025
   title: Globally optimal registration of dense terrestrial laser scans from coarse
