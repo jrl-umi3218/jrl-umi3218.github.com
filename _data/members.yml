@@ -1679,6 +1679,9 @@
   from: 2024-10-01
   to: 2027-09-30
   nationality: jo
+  linkedin: https://www.linkedin.com/in/amneh-nasir/
+  bio: >
+    PhD candidate at Université de Picardie Jules Verne (MIS Lab) and JRL (CNRS-AIST). My research focuses on transformation-domain Gaussian smoothing of SSD for Direct Visual Servoing, aiming to enlarge convergence basins and provide smoother optimization landscapes for control.
 - id: lannelongue
   given: Elisa
   family: Lannelongue
