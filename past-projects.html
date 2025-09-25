@@ -9,9 +9,9 @@ layout: default
   <div class="row">
     {%- for project in site.data.projects -%}
     {%- if project.active == false -%}
-    <div class="col-md-4 col-sm-6">
-      <a href="{{site.baseurl}}/projects/project-{{project.id}}.html" data-toggle="tooltip" title="{{project.title}} - {{project.longtitle}}">
-        <img class="img-responsive img-portfolio img-hover" src="{{site.baseurl_root}}/assets/projects/{{project.id}}.png" alt="{{project.title}} - {{project.longtitle}}">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <a href="{{ site.baseurl }}/projects/project-{{ project.id }}.html" data-bs-toggle="tooltip" data-bs-title="{{ project.title }} - {{ project.longtitle }}">
+        <img class="img-fluid img-portfolio img-hover" src="{{ site.baseurl_root }}/assets/projects/{{ project.id }}.png" alt="{{ project.title }} - {{ project.longtitle }}">
       </a>
     </div>
     {%- endif -%}
