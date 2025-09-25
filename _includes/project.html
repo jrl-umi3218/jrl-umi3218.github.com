@@ -33,7 +33,7 @@
 <!-- Page Content -->
 <div class="container">
   <!-- Portfolio Item Row -->
-  <div class="row row-eq-height">
+  <div class="row align-items-center">
     {%- capture project_assets -%}/assets/projects/{{project.id}}/{%- endcapture -%}
     {%- for f in site.static_files -%}
       {%- assign f_base = f.path | remove_first: project_assets -%}
@@ -52,19 +52,19 @@
     {%- assign carousel_files_size = carousel_files | size -%}
 
     <div class="col-lg-6 col-md-6 col-12">
-      <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         
         {%- if carousel_files_size != 1 -%}
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <div class="carousel-indicators">
           {%- for f in carousel_files -%}
             {%- if forloop.index0 == 0 -%}
-              <li data-bs-target="#carousel-example-generic" data-bs-slide-to="{{ forloop.index0 }}" class="active"></li>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ forloop.index0 }}" class="active" aria-current="true" aria-label="Slide {{ forloop.index0 }}"></button>
             {%- else -%}
-              <li data-bs-target="#carousel-example-generic" data-bs-slide-to="{{ forloop.index0 }}"></li>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index0 }}"></button>
             {%- endif -%}
           {%- endfor -%}
-        </ol>
+        </div>
         {%- endif -%}
 
         <!-- Wrapper for slides -->
@@ -83,14 +83,14 @@
 
         {%- if carousel_files_size != 1 -%}
         <!-- Controls -->
-        <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-bs-slide="next">
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </a>
+        </button>
         {%- endif -%}
       </div>
     </div>

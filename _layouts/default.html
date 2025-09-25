@@ -13,8 +13,9 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="{{site.baseurl_root}}/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
 
+    <!-- Bootstrap icons CSS -->
+    <link href="{{site.baseurl_root}}/css/bootstrap-icons.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="{{site.baseurl_root}}/css/modern-business.css" rel="stylesheet">
@@ -24,9 +25,6 @@
 
     <!-- Custom Fonts -->
     <link href="{{site.baseurl_root}}/font-awesome/css/all.min.css" rel="stylesheet">
-
-    <!-- Academicons -->
-    <link href="{{site.baseurl_root}}/css/academicons.min.css" rel="stylesheet" type="text/css">
 
     <!-- Flag CSS -->
     <link href="{{site.baseurl_root}}/css/flag-icon.min.css" rel="stylesheet">
@@ -74,7 +72,7 @@
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
-        <div class="container-fluid w-75">
+        <div class="container">
           <a class="navbar-brand" href="{{site.baseurl}}/{{site.index_name}}">
             <img src="{{site.baseurl_root}}/assets/cnrs-aist.png" alt="logos" />
             {%- capture title -%}{% t lab-name %}{%- endcapture -%}
@@ -86,7 +84,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="container-fluid w-75">
+        <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -139,22 +137,25 @@
                 {% for lang in site.languages %}
                   {% capture lang_folder %}/{{ lang }}{% endcapture %}
                   {% capture LANG %}{{ lang | upcase }}{% endcapture %}
-                  
+
                   {% if site.lang != lang %}
-                    <a href="{{ site.baseurl_root }}{{ lang_folder }}{{ page.url }}" class="nav-link" style="display:inline;">
+                    <a href="{{ site.baseurl_root }}{{ lang_folder }}{{ page.url }}"
+                      class="nav-link active text-white fw-semibold"
+                      style="display:inline;">
                       {{ LANG }}
                     </a>
                   {% else %}
-                    <span class="nav-link" style="display:inline;">{{ LANG }}</span>
+                    <span class="nav-link fw-bold" style="display:inline;">
+                      {{ LANG }}
+                    </span>
                   {% endif %}
-                  
-                  {% if forloop.last %}
-                    &nbsp;
-                  {% else %}
-                    |
-                  {% endif %}
+
+                  {% unless forloop.last %}
+                    <span class="fw-bold text-white">|</span>
+                  {% endunless %}
                 {% endfor %}
               </li>
+
             </ul>
           </div>
         </div>

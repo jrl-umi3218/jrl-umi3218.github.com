@@ -2,86 +2,84 @@
   <td id="{{ include.publication.id }}-title">{{ include.publication.title }}</td>
   <td id="{{ include.publication.id }}-authors">
     {%- for author in include.publication.authors -%}
-      {%- assign member_has_page = false -%}
-      {%- if author.id -%}
-        {%- for member in site.data.members -%}
-          {%- if member.id == author.id -%}
-            {%- assign role = member.role -%}
-            {%- assign given = member.given -%}
-            {%- assign family = member.family -%}
-            {%- capture member_page -%}members/member-{{member.id}}.html{%- endcapture -%}
-            {%- capture member_summary -%}{{site.baseurl}}/members.html#summary-{{member.id}}{%- endcapture -%}
-            {%- for page in site.html_pages -%}
-              {%- if page.path == member_page -%}
-                {%- assign member_has_page = true -%}
-                {%- break -%}
-              {%- endif -%}
-            {%- endfor -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- else -%}
-        {%- assign given = author.given -%}
-        {%- assign family = author.family -%}
-      {%- endif -%}
-      {%- assign given_names = given | split:'-' -%}
-      <span class="publications-members">
+    {%- assign member_has_page = false -%}
+    {%- if author.id -%}
+    {%- for member in site.data.members -%}
+    {%- if member.id == author.id -%}
+    {%- assign role = member.role -%}
+    {%- assign given = member.given -%}
+    {%- assign family = member.family -%}
+    {%- capture member_page -%}members/member-{{member.id}}.html{%- endcapture -%}
+    {%- capture member_summary -%}{{site.baseurl}}/members.html#summary-{{member.id}}{%- endcapture -%}
+    {%- for page in site.html_pages -%}
+    {%- if page.path == member_page -%}
+    {%- assign member_has_page = true -%}
+    {%- break -%}
+    {%- endif -%}
+    {%- endfor -%}
+    {%- break -%}
+    {%- endif -%}
+    {%- endfor -%}
+    {%- else -%}
+    {%- assign given = author.given -%}
+    {%- assign family = author.family -%}
+    {%- endif -%}
+    {%- assign given_names = given | split:'-' -%}
+    <span class="publications-members">
       {%- capture author_initials -%}
-      {%- for n in given_names  -%}
-        {%- if forloop.index > 1 -%}
-          -{{ n | truncate: 2, '.' }}
-        {%- else -%}
-          {{ n | truncate: 2, '.' }}
-        {%- endif -%}
+      {%- for n in given_names -%}
+      {%- if forloop.index > 1 -%}
+      -{{ n | truncate: 2, '.' }}
+      {%- else -%}
+      {{ n | truncate: 2, '.' }}
+      {%- endif -%}
       {%- endfor -%}
       {%- endcapture -%}
       {%- capture author_fullname -%}{{author_initials}} {{family}}{%- endcapture%}
       {%- if member_has_page == true -%}
-        {%- capture author_fullname -%}<a href="{{site.baseurl}}/{{member_page}}">{{author_fullname}}</a>{%- endcapture -%}
+      {%- capture author_fullname -%}<a href="{{site.baseurl}}/{{member_page}}">{{author_fullname}}</a>{%- endcapture
+      -%}
       {%- elsif author.id and role != "alumni" -%}
-        {%- capture author_fullname -%}<a href="{{member_summary}}">{{author_fullname}}</a>{%- endcapture -%}
+      {%- capture author_fullname -%}<a href="{{member_summary}}">{{author_fullname}}</a>{%- endcapture -%}
       {%- endif -%}
-      {%- if forloop.index < forloop.length -%}
-      {%- capture author_fullname -%}{{author_fullname}}, {%- endcapture -%}
-      {%- endif -%}
-      {{author_fullname}}
-      </span>
-    {%- endfor -%}
+      {%- if forloop.index < forloop.length -%} {%- capture author_fullname -%}{{author_fullname}}, {%- endcapture -%}
+        {%- endif -%} {{author_fullname}} </span>
+        {%- endfor -%}
   </td>
   <td id="{{ include.publication.id }}-book-title">{{include.publication.booktitle | xml_escape}}</td>
   <td id="{{ include.publication.id }}-year">{{include.publication.year}}</td>
   <td id="{{ include.publication.id }}-bib">
     {%- if include.publication.bib -%}
     <a href="{{ include.publication.bib }}" target="_blank">
-      <span class='glyphicon glyphicon-file'></span>
+      <i class="bi bi-file-earmark-fill"></i>
     </a>
     {%- else -%}
-      {%- assign found_bib = false -%}
-      {%- assign bib_name = include.publication.id | replace: ':', '_'-%}
-      {%- capture search_bib -%}/assets/bib/{{bib_name}}.bib{%- endcapture -%}
-      {%- for file in site.static_files -%}
-        {%- if file.path == search_bib -%}
-          {%- capture bib_path -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
-          {%- assign found_bib = true -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-      {%- if found_bib -%}
+    {%- assign found_bib = false -%}
+    {%- assign bib_name = include.publication.id | replace: ':', '_'-%}
+    {%- capture search_bib -%}/assets/bib/{{bib_name}}.bib{%- endcapture -%}
+    {%- for file in site.static_files -%}
+    {%- if file.path == search_bib -%}
+    {%- capture bib_path -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
+    {%- assign found_bib = true -%}
+    {%- break -%}
+    {%- endif -%}
+    {%- endfor -%}
+    {%- if found_bib -%}
     <a href="{{ bib_path }}" target="_blank">
-      <span class='glyphicon glyphicon-file'></span>
+     <i class="bi bi-file-earmark-fill"></i>
     </a>
-      {%- else -%}
-    <span class='glyphicon glyphicon-ban-circle'></span>
-      {%- endif -%}
+    {%- else -%}
+    <i class="bi bi-x-circle"></i>
+    {%- endif -%}
     {%- endif -%}
   </td>
   <td id="{{ include.publication.id }}-pdf">
     {%- if include.publication.pdf -%}
     <a href="{{ include.publication.pdf }}" target="_blank">
-      <span class='glyphicon glyphicon-file'></span>
+      <i class="bi bi-file-earmark-fill"></i>
     </a>
     {%- else -%}
-    <span class='glyphicon glyphicon-ban-circle'></span>
+    <i class="bi bi-x-circle"></i>
     {%- endif -%}
   </td>
 </tr>

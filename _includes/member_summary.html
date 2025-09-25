@@ -1,53 +1,96 @@
 {%- assign member_has_page = false -%}
-{%- capture member_page -%}members/member-{{include.member.id}}.html{%- endcapture -%}
+{%- capture member_page -%}members/member-{{ include.member.id }}.html{%- endcapture -%}
 {%- for page in site.html_pages -%}
   {%- if page.path == member_page -%}
     {%- assign member_has_page = true -%}
-    {%- capture member_page_url -%}{{site.baseurl}}/{{member_page}}{%- endcapture -%}
+    {%- capture member_page_url -%}{{ site.baseurl }}/{{ member_page }}{%- endcapture -%}
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
-{%- capture member_picture -%}{{site.baseurl_root}}/assets/members/nopicture.png{%- endcapture -%}
- {%- capture search_picture -%}/assets/members/{{include.member.id}}.jpg{%- endcapture -%}
+
+{%- comment -%}
+  Try to locate a real image, otherwise fallback to default
+{%- endcomment -%}
+{%- capture default_picture -%}{{ site.baseurl_root }}/assets/members/nopicture.png{%- endcapture -%}
+{%- capture expected_picture_path -%}/assets/members/{{ include.member.id }}.jpg{%- endcapture -%}
+
+{%- assign member_picture = default_picture -%}
 {%- for file in site.static_files -%}
-  {%- if file.path == search_picture -%}
-    {%- capture member_picture -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
+  {%- if file.path == expected_picture_path -%}
+    {%- capture member_picture -%}{{ site.baseurl_root }}{{ file.path }}{%- endcapture -%}
     {%- break -%}
   {%- endif -%}
 {%- endfor -%}
-{%- capture member_name -%}{{include.member.given}} {{include.member.family}}{%- endcapture -%}
-{%- if site.lang == "jp" -%}
-  {%- if include.member.name-jp -%}
-    {%- capture member_name -%}{{ include.member.name-jp }}{%- endcapture -%}
-  {%- endif -%}
+
+{%- comment -%}
+  Handle name (JP or EN)
+{%- endcomment -%}
+{%- capture member_name -%}{{ include.member.given }} {{ include.member.family }}{%- endcapture -%}
+{%- if site.lang == "jp" and include.member.name-jp -%}
+  {%- capture member_name -%}{{ include.member.name-jp }}{%- endcapture -%}
 {%- endif -%}
+
 <div class="col-xs-6 col-md-3 col-centered text-center">
-  <div class="thumbnail" id="summary-{{include.member.id}}">
-    {%- if member_has_page -%}<a href="{{member_page_url}}">{%- endif -%}<img class="img-responsive img-rounded" src="{{member_picture}}" alt="{{include.member.given}} {{include.member.family}} photo">{%- if member_has_page -%}</a>{%- endif -%}
-    <div class="caption">
-      <h3>{%- if member_has_page -%}<a href="{{member_page_url}}">{%- endif -%}{{ member_name }}{%- if member_has_page -%}</a>{%- endif -%}&nbsp;<span class="flag-icon flag-icon-{{include.member.nationality}}"></span>{%- if member.nationality2 -%}<span class="flag-icon flag-icon-{{include.member.nationality2}}"></span>{%- endif -%}{%- if member.nationality3 -%}<span class="flag-icon flag-icon-{{include.member.nationality3}}"></span>{%- endif -%}</h3>
+  <div class="thumbnail" id="summary-{{ include.member.id }}">
+    {%- if member_has_page -%}<a href="{{ member_page_url }}">{%- endif -%}
+      <img class="img-responsive img-rounded" src="{{ member_picture | strip }}" alt="{{ member_name }} photo">
+    {%- if member_has_page -%}</a>{%- endif -%}
+
+    <div class="caption pt-2">
+      <h3>
+        {%- if member_has_page -%}<a href="{{ member_page_url }}">{%- endif -%}
+          {{ member_name }}
+        {%- if member_has_page -%}</a>{%- endif -%}
+        &nbsp;
+        {%- if include.member.nationality -%}
+          <span class="flag-icon flag-icon-{{ include.member.nationality }}"></span>
+        {%- endif -%}
+        {%- if include.member.nationality2 -%}
+          <span class="flag-icon flag-icon-{{ include.member.nationality2 }}"></span>
+        {%- endif -%}
+        {%- if include.member.nationality3 -%}
+          <span class="flag-icon flag-icon-{{ include.member.nationality3 }}"></span>
+        {%- endif -%}
+      </h3>
+
       <ul class="list-inline">
         {%- assign has_no_details = true -%}
         {%- if include.member.website -%}
           {%- assign has_no_details = false -%}
-        <li><a href="{{include.member.website}}" target="_blank"><i class="fas fa-2x fa-external-link-square-alt"></i></a>
-        </li>
+          <li class="list-inline-item">
+            <a href="{{ include.member.website }}" target="_blank">
+              <i class="fas fa-2x fa-external-link-square-alt"></i>
+            </a>
+          </li>
         {%- endif -%}
         {%- if include.member.linkedin -%}
           {%- assign has_no_details = false -%}
-        <li><a href="{{include.member.linkedin}}" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
-        </li>
+          <li class="list-inline-item">
+            <a href="{{ include.member.linkedin }}" target="_blank">
+              <i class="fab fa-2x fa-linkedin"></i>
+            </a>
+          </li>
         {%- endif -%}
         {%- if include.member.scholar -%}
           {%- assign has_no_details = false -%}
-        <li><a href="{{include.member.scholar}}" target="_blank"><i class="ai ai-2x ai-google-scholar-square"></i></a></li>
+          <li class="list-inline-item">
+            <a href="{{ include.member.scholar }}" target="_blank">
+              <i class="ai ai-2x ai-google-scholar-square"></i>
+            </a>
+          </li>
         {%- endif -%}
         {%- if include.member.github -%}
           {%- assign has_no_details = false -%}
-          <li><a href="{{include.member.github}}" target="_blank"><i class="fab fa-2x fa-github-square"></i></a></li>
+          <li class="list-inline-item">
+            <a href="{{ include.member.github }}" target="_blank">
+              <i class="fab fa-2x fa-github-square"></i>
+            </a>
+          </li>
         {%- endif -%}
         {%- if has_no_details -%}
-        <li><i class="fa fa-2x fa-fw">&nbsp;</i></li>
+          <li class="list-inline-item">
+            <i class="fa fa-2x fa-fw">&nbsp;</i>
+          </li>
         {%- endif -%}
       </ul>
     </div>
