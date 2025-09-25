@@ -9,15 +9,14 @@ layout: default
 
 <!-- Page Content -->
 <div class="container">
-  <!-- Intro Content -->
-  <div class="row row-eq-height">
-    <div class="col-md-9 col-xs-6 col-middle" style="padding-top: 20px; padding-bottom: 20px" >
-      <a href="{{site.baseurl_root}}/assets/pictures/jrl-team-picture-2025-06-06.jpg" data-toggle="lightbox">
-        <img class="img-responsive img-rounded" src="{{site.baseurl_root}}/assets/pictures/jrl-team-picture-2025-06-06.jpg" alt="JRL Team Picture">
+  <!-- Team Picture -->
+  <div class="row mb-5 justify-content-center">
+    <div class="col-md-9 col-12">
+      <a href="{{site.baseurl_root}}/assets/pictures/jrl-team-picture-2025-06-06.jpg" data-bs-toggle="lightbox">
+        <img class="img-fluid rounded" src="{{site.baseurl_root}}/assets/pictures/jrl-team-picture-2025-06-06.jpg" alt="JRL Team Picture">
       </a>
     </div>
   </div>
-  <!-- /.row -->
 
   <!-- Co-directors -->
   <div class="row row-centered">
@@ -25,7 +24,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.direction %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "director" -%}
     {%- include member_summary.html member=member -%}
@@ -43,7 +42,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.permanent-researchers %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center mb-5">
     {%- for member in members -%}
     {%- if member.role == "permanent" -%}
     {%- include member_summary.html member=member -%}
@@ -55,7 +54,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.adjunct-members %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "adjunct" -%}
     {%- include member_summary.html member=member -%}
@@ -68,7 +67,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.postdoctoral-fellows %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "postdoc" -%}
     {%- include member_summary.html member=member -%}
@@ -81,7 +80,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.research-engineers %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "engineer" -%}
     {%- include member_summary.html member=member -%}
@@ -94,7 +93,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.phd-students %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "phd" -%}
     {%- include member_summary.html member=member -%}
@@ -107,7 +106,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.master-students %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "master" -%}
     {%- include member_summary.html member=member -%}
@@ -120,7 +119,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.undergraduate-students %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "undergraduate" -%}
     {%- include member_summary.html member=member -%}
@@ -133,7 +132,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.non-degree-students %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "non-degree" -%}
     {%- include member_summary.html member=member -%}
@@ -146,7 +145,7 @@ layout: default
       <h3 class="page-header compact">{% t roles.administrative-staff %}</h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     {%- for member in members -%}
     {%- if member.role == "admin" -%}
     {%- include member_summary.html member=member -%}
@@ -156,10 +155,10 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.alumni %}<a id="alumni_button" style="float:right;font-size:medium;" data-toggle="collapse" href="#alumni">{% t show %}</a></h3>
+      <h3 class="page-header compact">{% t roles.alumni %}<a id="alumni_button" style="float:right;font-size:medium;" data-bs-toggle="collapse" aria-expanded="false" aria-controls="alumni" data-bs-target="#alumni" >{% t show %}</a></h3>
     </div>
   </div>
-  <div class="row row-centered">
+  <div class="row justify-content-center">
     <div id="alumni" class="panel-collapse collapse" style="transition: none;">
 	{%- for member in members -%}
     {%- if member.role == "alumni-star" -%}
@@ -184,4 +183,3 @@ layout: default
 
 </div>
 <!-- /.container -->
-
