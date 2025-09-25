@@ -1209,7 +1209,7 @@
   nationality: fr
   linkedin: "https://www.linkedin.com/in/matthieu-quaccia/"
   bio: >
-    is a Master's student in Computer Sciences at the <a href="https://www.insa-toulouse.fr/en/index.html" target="_self">National Institute of Applied Sciences</a> of Toulouse in France. He is currently a Research Assistant at CNRS-AIST Joint Robotics Laboratory (JRL), and works in the <a href="https://unit.aist.go.jp/jrl-22022/en/projects/project-dvsstraight.html" target="_self">DVS-Straight</a> project. His research interests include visual servoing, neural networks feature maps, and robot control.
+    is a Master's student in Computer Sciences at the <a href="https://www.insa-toulouse.fr/en/index.html" target="_self">National Institute of Applied Sciences</a> of Toulouse in France. He is currently a Research Assistant at CNRS-AIST Joint Robotics Laboratory (JRL), and works in the <a href="https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-dvsstraight.html" target="_self">DVS-Straight</a> project. His research interests include visual servoing, neural networks feature maps, and robot control.
 - id: foussereau
   given: Virgile
   family: Foussereau
