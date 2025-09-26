@@ -11028,7 +11028,7 @@
   pdf: https://hal.science/hal-05124721
   lab: jrl
   month: july 26-july 28
-- id: mouaddib:dh:2025
+- id: mouaddib:dh:2025a
   year: 2025
   title: Spatial random access to explore heritage site using spherical video
   booktitle: Digital Heritage World Congress & Expo
@@ -11038,6 +11038,20 @@
   - id: carong
   - family: Zarghili
     given: Arsalane
+  pdf: https://hal.science/hal-05124722
+  lab: jrl
+  month: september 8-september 13
+- id: mouaddib:dh:2025b
+  year: 2025
+  title: 'ESILab: An efficient software for immersion and exploitation of large point
+    clouds'
+  booktitle: Digital Heritage World Congress & Expo
+  authors:
+  - family: Mouaddib
+    given: El
+  - family: Caracotte
+    given: Jordan
+  - id: kempf
   pdf: https://hal.science/hal-05124722
   lab: jrl
   month: september 8-september 13
