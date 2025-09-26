@@ -11147,6 +11147,52 @@
   pdf: https://hal.science/hal-05193969
   lab: jrl
   month: october 20
+- id: zhu:iros:2025
+  year: 2025
+  title: Structural Analysis and Design of Humanoid Arms from Human Arm Reachable
+    Workspace
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Zhu
+    given: Xin
+  - family: Liu
+    given: Haozhou
+  - family: Li
+    given: Qingqing
+  - family: Cai
+    given: Zhaoyang
+  - family: Yu
+    given: Zhangguo
+  - family: Chen
+    given: Xuechao
+  - family: Huang
+    given: Qiang
+  - id: kheddar
+  lab: jrl
+  month: october 19-october 25
+- id: figueroa:iros:2025
+  year: 2025
+  title: Fast Autolearning for Multimodal Walking in Humanoid Robots with Variability
+    of Experience
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Figueroa
+    given: Nícolas
+  - family: Tafur
+    given: Julio
+  - id: kheddar
+  lab: jrl
+  month: october 19-october 25
+- id: lorthioir:iros:2025
+  year: 2025
+  title: Lorthioir, Guillaume and Benallegue, Mehdi and Cisneros Limon, Rafael and
+    Ramirez-Alpizar, Ixchel Georgina
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - family: Teleoperation
+    given: Landmark-Based
+  lab: jrl
+  month: october 19-october 25
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
