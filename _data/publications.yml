@@ -4711,8 +4711,7 @@
     given: I.
   - family: Honnorat
     given: L.
-  - family: Watier
-    given: B.
+  - id: bwatier
   - family: Faupin
     given: A.
   pdf: http://mbj.episciences.org/14556
@@ -11104,7 +11103,7 @@
   - id: carong
   pdf: https://hal.science/hal-05193891
   lab: jrl
-  month: september 30
+  month: september 30-october 2
   projects:
   - antnoid
 - id: murooka:humanoids:2025
@@ -11118,7 +11117,7 @@
   - id: morisawa
   - id: kanehiro
   lab: jrl
-  month: september 30
+  month: september 30-october 2
 - id: chalanunt:humanoids:2025
   year: 2025
   title: Comparative Analysis of Dynamic Balance Descriptors in Humanoids and Humans
@@ -11133,7 +11132,7 @@
   - family: Pillet
     given: Helene
   lab: jrl
-  month: september 30
+  month: september 30-october 2
 - id: kempf:iccvw:2025
   year: 2025
   title: Globally optimal registration of dense terrestrial laser scans from coarse
