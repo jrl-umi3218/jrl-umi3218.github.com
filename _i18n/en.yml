@@ -136,6 +136,20 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/10/2025
+    content: >
+      Three members, <a href="members/member-ruble.html">Louis Ruble</a>, <a href="members/member-erens.html">Ruud Erens</a> and <a href="members/member-farhi-rivasseau.html">Alice Farhi-rivasseau</a> joined and four members, <a href="members/member-tazeroualttlamcani.html">Ghita Tazeroualt Tlamcani</a>, <a href="members/member-oubraim.html">Walid Oubraim</a>, <a href="members/member-daligault.html">Celian Daligault</a> and <a href="members/member-dorfani.html">Raphaël d'Orfani</a> left the JRL in September.
+      Two papers were presented at Digital Heritage 2025.
+      <ul>
+      <li><a href=https://hal.science/hal-05124722>Spatial random access to explore heritage site using spherical video</a></li>
+      <li><a href=https://hal.science/hal-05124722>ESILab: An efficient software for immersion and exploitation of large point clouds</a></li>
+      </ul>
+      Three papers were presented at Humanoids2025.
+      <ul>
+      <li><a href=https://hal.science/hal-05193891>RGB-D versus omnidirectional visual SLAM in humanoid robot positioning</a></li>
+      <li>Learning Differentiable Reachability Maps for Optimization-Based Humanoid Motion Generation</li>
+      <li>Comparative Analysis of Dynamic Balance Descriptors in Humanoids and Humans During Perturbed Bipedal Locomotion and Fall</li>
+      </ul>
   - date: 01/09/2025
     content: >
       Two members, <a href="members/member-hernandezvaldez.html">Eduardo Hernandez-Valdez</a> and <a href="members/member-lopez.html">Diego López Hernández</a> joind and eight members, <a href="members/member-stasse.html">Olivier Stasse</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a>, <a href="members/member-vega.html">Piero Vega-Gutierrez</a>, <a href="members/member-pezet.html">Romain Pezet</a>, <a href="members/member-benalleguea.html">Abdelaziz Benallegue</a>, <a href="members/member-kikuchi.html">Misaki Kikuchi</a> and <a href="members/member-cariou.html">Alice Cariou</a> left the JRL in August.<br>

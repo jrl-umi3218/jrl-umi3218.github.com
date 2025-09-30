@@ -607,9 +607,7 @@
 - id: vasalya
   given: Ashesh
   family: Vasalya
-  role: postdoc
-  from: 2025-09-01
-  to: 2026-05-29
+  role: alumni
   nationality: in
 - id: gabas
   given: Antonio
@@ -808,11 +806,11 @@
   family: Kang
   past-roles:
     - role: master
-      from: 2020-10-01
+      from: 2021-01-04
       to: 2022-09-30
   role: phd
   from: 2022-10-01
-  to: 2025-09-30
+  to: 2026-03-31
   nationality: cn
 - id: glorthioir
   given: Guillaume
@@ -1537,8 +1535,9 @@
 - id: racine
   given: Isaac
   family: Racine
-  role: alumni
-  from: 2025-04-01
+  role: maaster
+  from: 2025-10-01
+  to: 2025-11-14
   past-roles:
     - role: master
       from: 2024-05-07
@@ -1793,8 +1792,8 @@
 - id: cariou
   given: Alice
   family: Cariou
-  role: alumni
-  from: 2025-09-01
+  role: coming-engineer
+  from: 2025-11-01
   past-roles:
     - role: master
       from: 2025-02-20
@@ -1822,9 +1821,12 @@
 - id: daligault
   given: Celian
   family: Daligault
-  role: master
-  from: 2025-04-02
-  to: 2025-09-30
+  role: alumni
+  from: 2025-10-01
+  past-roles:
+    - role: master
+      from: 2025-04-02
+      to: 2025-09-30
   nationality: fr
   bio: >
     is a master's student in autonomous robotics at ENSTA Bretagne, Brest (France). His current research imply Study on Software Integration of Versatile Kinematics Structure Systems.
@@ -1852,9 +1854,12 @@
 - id: tazeroualttlamcani
   given: Ghita
   family: Tazeroualt Tlamcani
-  role: master
-  from: 2025-05-07
-  to: 2025-09-12
+  role: alumni
+  from: 2025-09-13
+  past-roles:
+    - role: master
+      from: 2025-05-07
+      to: 2025-09-12
   nationality: ma
   bio: >
     is a master's student in robotics at ENSTA Bretagne, Brest, France. She obtained her Moroccan Baccalauréat in 2021 with a specialization in Mathematics and Physics. Her current academic focus is on control and localization for robotic systems. With a strong foundation in both theoretical and applied robotics, she is particularly interested in developing robust and intelligent methods to guide autonomous robots in complex environments.
@@ -1881,9 +1886,12 @@
 - id: dorfani
   given: Raphaël
   family: d'Orfani
-  role: master
-  from: 2025-04-01
-  to: 2025-09-30
+  role: alumni
+  from: 2025-10-01
+  past-roles:
+    - role: master
+      from: 2025-04-01
+      to: 2025-09-30
   nationality: fr
   bio: >
     is a master's student at Polytech Dijon, Le Creusot, France. He obtained his French Baccalauréat with a focus on Mathematics and Computer Science (NSI) in 2021. His current research try to provide a more intuitive and engaging experience for users operating a remote avatar through a VR headset. Having started with small video game projects, he can now use that experience into building immersive and interactive systems for robotics.
@@ -1897,9 +1905,12 @@
 - id: oubraim
   given: Walid
   family: Oubraim
-  role: master
-  from: 2025-03-19
-  to: 2025-09-17
+  role: alumni
+  from: 2025-09-18
+  past-roles:
+    - role: master
+      from: 2025-03-19
+      to: 2025-09-17
   nationality: fr
   bio: >
     is a master's student at the University of Technology of Belfort-Montbéliard, France. He obtained his French-Spanish Baccalauréat with a specialization in Engineering Science and Computer Science in 2020. With a background in artificial intelligence, his current work focuses on goal recognition in teleoperated robotics. He is developing a framework that combines object detection, vision-language models, large language models, and probabilistic reasoning to infer user intent.
@@ -1978,7 +1989,7 @@
 - id: merrad
   given: Lydia
   family: Merrad
-  role: coming-phd
+  role: phd
   from: 2025-10-01
   to: 2027-09-30
   nationality: fr
@@ -2025,7 +2036,7 @@
   role: master
   from: 2025-09-01
   to: 2026-02-27
-  nationality: fr
+  nationality: nl
 - id: castillo
   given: Hugo Daniel
   family: Castillo Ovando
@@ -2037,3 +2048,46 @@
   linkedin: https://www.linkedin.com/in/hugo-daniel-castillo/
   bio: >
       I'm a Robotic Engineer Student at Tecnológico de Monterrey. My work focuses on ROS2-based robotics and human-robot interaction.
+- id: miyawaki
+  given: Kaito
+  family: Miyawaki
+  name-jp: 宮脇 海斗
+  role: master
+  from: 2025-10-01
+  to: 2026-03-31
+  nationality: jp
+- id: farhi-rivasseau
+  given: Alice
+  family: Farhi-rivasseau
+  role: master
+  from: 2025-09-30
+  to: 2026-03-31
+  nationality: fr
+- id: filliung
+  given: Martin
+  family: Filliung
+  role: coming-postdoc
+  from: 2025-11-15
+  to: 2027-11-14
+  nationality: fr
+- id: morello
+  given: Luca
+  family: Morello
+  role: coming-phd
+  from: 2026-04-01
+  to: 2029-03-31
+  nationality: it
+- id: pham
+  given: Khang
+  family: Pham
+  role: coming-engineer
+  from: 2025-12-01
+  to: 2028-03-31
+  nationality: in
+- id: hussain
+  given: Saqi
+  family: Hussain
+  role: phd
+  from: 2025-10-01
+  to: 2028-09-30
+  nationality: in
