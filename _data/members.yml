@@ -1773,12 +1773,16 @@
       to: 2025-08-31
   nationality: jp
 - id: dhaene
-  given: Mathis
-  family: D'Haene
-  role: phd
-  from: 2024-11-01
-  to: 2027-10-31
-  nationality: fr
+ given: Mathis
+ family: D'Haene
+ role: phd
+ from: 2024-11-01
+ to: 2027-10-31
+ nationality: fr
+ linkedin: "https://www.linkedin.com/in/mathis-d-haene-548235256/"
+ bio: >
+   is a graduate engineer from Ecole Nationale Supérieure d'Arts et Métiers - Master 2 Biomechanics BME Paris. He is currently pursuing a PhD within the LAAS-CNRS in the GEPETTO team, and within the JRL, as a student of the 
+Université de Toulouse.
 - id: herklet
   given: Emilien
   family: Herklet
