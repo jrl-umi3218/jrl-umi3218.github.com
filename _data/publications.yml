@@ -4742,6 +4742,78 @@
   pdf: https://ieeexplore.ieee.org/document/10982135
   lab: jrl
   month: june
+- id: figueroa:ral:2025
+  year: 2025
+  title: Fast Autolearning for Multimodal Walking in Humanoid Robots With Variability
+    of Experience
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Figueroa
+    given: Nícolas
+  - family: Tafur
+    given: Julio
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10904273
+  lab: jrl
+  month: april
+- id: zhu:ral:2025
+  year: 2025
+  title: Structural Analysis and Design of Humanoid Arms From Human Arm Reachable
+    Workspace
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - family: Zhu
+    given: Xin
+  - family: Liu
+    given: Haozhou
+  - family: Li
+    given: Qingqing
+  - family: Cai
+    given: Zhaoyang
+  - family: Chen
+    given: Xuechao
+  - family: Yu
+    given: Zhangguo
+  - family: Huang
+    given: Qiang
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/document/10806768
+  lab: jrl
+  month: february
+- id: boillereaux:tmrb:2025
+  year: 2025
+  title: A Distraction Knee-Brace and a Robotic Testbed for Tibiofemoral Load Reduction
+    During Squatting
+  booktitle: IEEE Transactions on Medical Robotics and Bionics
+  authors:
+  - family: Boillereaux
+    given: Léa
+  - family: Floc’h
+    given: Simon
+  - family: Jourdan
+    given: Franck
+  - family: Camp
+    given: Gille
+  - id: tanguy
+  - id: kheddar
+  pdf: https://ieeexplore.ieee.org/abstract/document/10924258
+  lab: jrl
+  month: march
+- id: Deves:sb:2025
+  year: 2025
+  title: New method for quantifying power during wheelchair sports propulsion in the
+    field
+  booktitle: Sports Biomechanics
+  authors:
+  - family: Deves
+    given: Mathieu
+  - family: Marsan
+    given: Thibault
+  - family: Faupin
+    given: Arnaud
+  - id: bwatier
+  pdf: https://doi.org/10.1080/14763141.2025.2531219
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -11147,42 +11219,6 @@
   pdf: https://hal.science/hal-05193969
   lab: jrl
   month: october 20
-- id: zhu:iros:2025
-  year: 2025
-  title: Structural Analysis and Design of Humanoid Arms from Human Arm Reachable
-    Workspace
-  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
-  authors:
-  - family: Zhu
-    given: Xin
-  - family: Liu
-    given: Haozhou
-  - family: Li
-    given: Qingqing
-  - family: Cai
-    given: Zhaoyang
-  - family: Yu
-    given: Zhangguo
-  - family: Chen
-    given: Xuechao
-  - family: Huang
-    given: Qiang
-  - id: kheddar
-  lab: jrl
-  month: october 19-october 25
-- id: figueroa:iros:2025
-  year: 2025
-  title: Fast Autolearning for Multimodal Walking in Humanoid Robots with Variability
-    of Experience
-  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
-  authors:
-  - family: Figueroa
-    given: Nícolas
-  - family: Tafur
-    given: Julio
-  - id: kheddar
-  lab: jrl
-  month: october 19-october 25
 - id: lorthioir:iros:2025
   year: 2025
   title: Lorthioir, Guillaume and Benallegue, Mehdi and Cisneros Limon, Rafael and
