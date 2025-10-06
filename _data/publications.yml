@@ -11221,12 +11221,16 @@
   month: october 20
 - id: lorthioir:iros:2025
   year: 2025
-  title: Lorthioir, Guillaume and Benallegue, Mehdi and Cisneros Limon, Rafael and
-    Ramirez-Alpizar, Ixchel Georgina
+  title: 'Landmark-Based Goal Recognition for Shared Autonomy: A Framework for Enhanced
+    Teleoperation'
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   authors:
-  - family: Teleoperation
-    given: Landmark-Based
+  - id: glorthioir
+  - id: benalleguem
+  - family: Cisneros Limon
+    given: Rafael
+  - family: Ramirez-Alpizar
+    given: Ixchel
   lab: jrl
   month: october 19-october 25
 - id: kheddar:book:2017
