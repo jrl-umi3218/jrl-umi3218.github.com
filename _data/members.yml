@@ -2040,6 +2040,9 @@
   from: 2025-09-01
   to: 2026-02-27
   nationality: nl
+  linkedin: "www.linkedin.com/in/ruuderens"
+  bio: >
+    is a master’s student at Eindhoven University of Technology in the Netherlands. His work will be within the impact/overload management project on damage mitigation and post impact stabilization.
 - id: castillo
   given: Hugo Daniel
   family: Castillo Ovando
