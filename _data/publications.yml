@@ -11233,6 +11233,21 @@
     given: Ixchel
   lab: jrl
   month: october 19-october 25
+  projects:
+  - jst_mirai
+  - sigrole
+- id: demont:iccas:2025
+  year: 2025
+  title: 'Landmark-Based Goal Recognition for Shared Autonomy: A Framework for Enhanced
+    Teleoperation'
+  booktitle: International Conference on Control, Automation, and Systems
+  authors:
+  - id: demont
+  - id: benalleguem
+  - id: duvinage
+  - id: benalleguea
+  lab: jrl
+  month: november 4-november 7
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
