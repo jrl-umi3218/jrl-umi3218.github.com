@@ -11160,6 +11160,7 @@
     given: Floris
   - family: Domae
     given: Yukiyasu
+  pdf: https://ieeexplore.ieee.org/document/11164107
   lab: jrl
   month: august 17-august 21
   projects:
@@ -11188,6 +11189,7 @@
   - id: kumagai
   - id: morisawa
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/11203189
   lab: jrl
   month: september 30-october 2
 - id: chalanunt:humanoids:2025
@@ -11203,6 +11205,7 @@
   - id: bwatier
   - family: Pillet
     given: Helene
+  pdf: https://ieeexplore.ieee.org/document/11203160/
   lab: jrl
   month: september 30-october 2
 - id: kempf:iccvw:2025
@@ -11238,8 +11241,7 @@
   - sigrole
 - id: demont:iccas:2025
   year: 2025
-  title: 'Landmark-Based Goal Recognition for Shared Autonomy: A Framework for Enhanced
-    Teleoperation'
+  title: 'VALINOR: A Lightweight Leg Inertial Odometry for Humanoid Robots'
   booktitle: International Conference on Control, Automation, and Systems
   authors:
   - id: demont
