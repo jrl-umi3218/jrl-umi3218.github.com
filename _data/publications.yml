@@ -2949,6 +2949,8 @@
   pdf: https://hal-lirmm.ccsd.cnrs.fr/lirmm-02303117/file/ram2019.pdf
   lab: jrl
   month: october
+  projects:
+  - comanoid
 - id: kumagai:ram:2019
   year: 2019
   title: 'Toward Industrialization of Humanoid Robots: Autonomous Plasterboard Installation
