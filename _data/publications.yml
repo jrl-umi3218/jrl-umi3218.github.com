@@ -11276,20 +11276,19 @@
   - id: carong
   - family: Mouaddib
     given: El
-  pdf: https://hal.science/
   lab: jrl
   month: january 11-january 14
 - id: dhaene:sii:2026
   year: 2026
   title: Low-latency online estimation of human upper-limb pose and kinematics from
-    a single 360° camera
+    a single 360 camera
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - id: dhaene
+  - family: D Haene
+    given: Mathis
   - id: carong
   - id: yoshiyasu
   - id: bwatier
-  pdf: https://hal.science/
   lab: jrl
   month: january 11-january 14
   projects:
@@ -11299,14 +11298,13 @@
   title: RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - family: D'orphani
+  - family: D Orphani
     given: Raphaël
   - id: aandre
   - id: benalleguem
   - family: Cisneros Limon
     given: Rafael
   - id: carong
-  pdf: https://hal.science/
   lab: jrl
   month: january 11-january 14
   projects:
