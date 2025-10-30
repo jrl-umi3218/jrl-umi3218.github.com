@@ -11270,12 +11270,12 @@
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
   - family: Chagouti
-    given: E.
+    given: El
   - family: Alj
     given: Youssef
   - id: carong
   - family: Mouaddib
-    given: E.
+    given: El
   lab: jrl
   month: january 11-january 14
 - id: dhaene:sii:2026
@@ -11297,8 +11297,7 @@
   title: RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context
   booktitle: IEEE/SICE International Symposium on System Integration
   authors:
-  - family: D'orphani
-    given: Raphaël
+  - id: dorfani
   - id: aandre
   - id: benalleguem
   - id: cisneros
