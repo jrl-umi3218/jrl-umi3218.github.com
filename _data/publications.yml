@@ -11252,6 +11252,65 @@
   - id: benalleguea
   lab: jrl
   month: november 4-november 7
+- id: goichon:ras:2026
+  year: 2026
+  title: Linear conversions of nonlinear camera models for robotic vision applications
+  booktitle: Robotics and Autonomous Systems
+  authors:
+  - id: goichon
+  - id: carong
+  - family: Vasseur
+    given: Pascal
+  - id: kanehiro
+  pdf: https://hal.science/hal-05321882v1
+  lab: jrl
+- id: chagouti:sii:2026
+  year: 2026
+  title: Photometric Virtual Visual Servoing based on Gaussian Splatting
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Chagouti
+    given: El
+  - family: Alj
+    given: Youssef
+  - id: carong
+  - family: Mouaddib
+    given: El
+  pdf: https://hal.science/
+  lab: jrl
+  month: january 11-january 14
+- id: dhaene:sii:2026
+  year: 2026
+  title: Low-latency online estimation of human upper-limb pose and kinematics from
+    a single 360° camera
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: dhaene
+  - id: carong
+  - id: yoshiyasu
+  - id: bwatier
+  pdf: https://hal.science/
+  lab: jrl
+  month: january 11-january 14
+  projects:
+  - call
+- id: dorphani:sii:2026
+  year: 2026
+  title: RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: D'orphani
+    given: Raphaël
+  - id: aandre
+  - id: benalleguem
+  - family: Cisneros Limon
+    given: Rafael
+  - id: carong
+  pdf: https://hal.science/
+  lab: jrl
+  month: january 11-january 14
+  projects:
+  - sigrole
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
