@@ -4830,6 +4830,7 @@
   - id: venture
   pdf: https://doi.org/10.1007/s10846-025-02327-z
   lab: jrl
+  month: october
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
