@@ -4816,6 +4816,20 @@
   - id: bwatier
   pdf: https://doi.org/10.1080/14763141.2025.2531219
   lab: jrl
+- id: frizza:irs:2025
+  year: 2025
+  title: Enhancing Humanoid Robot Stability on Uneven Terrain with Online Foothold
+    Planning Based on Ground Scanning
+  booktitle: Journal of Intelligent & Robotic Systems
+  authors:
+  - id: frizza
+  - id: kaminaga
+  - id: cisneros
+  - family: Fraisse
+    given: Philippe
+  - id: venture
+  pdf: https://doi.org/10.1007/s10846-025-02327-z
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
