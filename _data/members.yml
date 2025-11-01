@@ -470,10 +470,12 @@
   given: Iori
   family: Kumagai
   name-jp: 熊谷 伊織
-  role: adjunct
-  from: 2024-11-01
-  to: 2025-10-31
+  role: permanent
+  from: 2025-11-01
   past-roles:
+    - role: adjunct
+      from: 2024-11-01
+      to: 2025-10-31
     - role: permanent
       to: 2024-10-31
   bio: >
@@ -845,10 +847,12 @@
 - id: demont
   given: Arnaud
   family: Demont
-  role: phd
-  from: 2022-11-01
-  to: 2025-10-31
+  role: alumni
+  from: 2025-11-01
   past-roles:
+    - role: phd
+      from: 2022-11-01
+      to: 2025-10-31
     - role: master
       from: 2022-05-06
       to: 2022-10-31
@@ -1795,7 +1799,7 @@
 - id: cariou
   given: Alice
   family: Cariou
-  role: coming-engineer
+  role: engineer
   from: 2025-11-01
   past-roles:
     - role: master
@@ -1920,9 +1924,12 @@
 - id: vu
   given: Jimmy
   family: Vu
-  role: master
-  from: 2025-04-21
-  to: 2025-10-15
+  role: alumni
+  from: 2025-10-16
+  past-roles:
+    - role: master
+      from: 2025-04-21
+      to: 2025-10-15
   nationality: fr
   bio: >
         is a master’s student at Polytech Nice Sophia in Robotics and Autonomous Systems, France. His work at AIST revolves around making the robot HRP5P hit a nail with a hammer, maximizing the impact while minimizing the damage to the joints in the process. Often called "Dim" his colleagues back in France. 
@@ -1949,18 +1956,24 @@
 - id: gratiasquiquandon
   given: Philippe
   family: Gratias-Quiquandon
-  role: master
-  from: 2025-04-07
-  to: 2025-10-27
+  role: alumni
+  from: 2025-10-28
+  past-roles:
+    - role: master
+      from: 2025-04-07
+      to: 2025-10-27
   nationality: fr
   bio: >
     is a master's student at Télécom Paris, Palaiseau, France and in double degree at the Ecole Normale Supérieure de Paris-Saclay in the master Mathematics, Vision and Learning (MVA). His work focuses on locomotion and imitation learning for the humanoid robot Unitree H1. The goal is to have a policy that robustly opens a door.
 - id: gambardella
   given: Romain
   family: Gambardella
-  role: master
-  from: 2025-04-15
-  to: 2025-10-15
+  role: alumni
+  from: 2025-10-16
+  past-roles:
+    - role: master
+      from: 2025-04-15
+      to: 2025-10-15
   nationality: fr
 - id: senouci
   given: Sidi Mohammed
@@ -1988,13 +2001,14 @@
   name-jp: 松崎 舞那子
   role: admin
   from: 2025-03-01
+  to: 2025-11-30
   nationality: jp
 - id: merrad
   given: Lydia
   family: Merrad
   role: phd
-  from: 2025-10-01
-  to: 2027-09-30
+  from: 2025-09-15
+  to: 2027-09-14
   nationality: fr
 - id: scianca
   given: Nicola
@@ -2090,10 +2104,23 @@
   from: 2025-12-01
   to: 2028-03-31
   nationality: in
-- id: hussain
-  given: Saqi
-  family: Hussain
+- id: lanneau
+  given: Victorien
+  family: Lanneau
+  role: coming-phd
+  from: 2025-12-01
+  to: 2028-11-30
+  nationality: fr
+- id: sharma
+  given: Ekansh
+  family: Sharma
+  role: coming-engineer
+  from: 2025-12-01
+  nationality: in
+- id: ahmed
+  given: Sakib
+  family: Ahmed
   role: phd
   from: 2025-10-01
   to: 2028-09-30
-  nationality: in
+  nationality: bd
