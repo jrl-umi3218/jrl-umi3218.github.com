@@ -11338,6 +11338,54 @@
   month: january 11-january 14
   projects:
   - sigrole
+- id: li:sii:2026
+  year: 2026
+  title: Improving Robotic Imitation Learning with Predicted Facial Motion Using Transformers
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: li
+  - id: kanehiro
+  lab: jrl
+  month: january 11-january 14
+- id: vazquez:sii:2026
+  year: 2026
+  title: Development of a semi-autonomous manipulation pipeline for robotic shelf-picking
+    operations
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: vazquez
+  - id: vega
+  - id: cisneros
+  - id: kaneko
+  - id: kanehiro
+  - family: Munoz
+    given: Luis
+  lab: jrl
+  month: january 11-january 14
+- id: singh:sii:2026
+  year: 2026
+  title: Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion
+    Capture
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: singh
+  - id: leziart
+  - id: murooka
+  - id: morisawa
+  - id: yoshida
+  - id: kanehiro
+  lab: jrl
+  month: january 11-january 14
+- id: leziart:sii:2026
+  year: 2026
+  title: Learning Humanoid Loco-manipulation with Constraints as Terminations
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: leziart
+  - id: morisawa
+  - id: kanehiro
+  lab: jrl
+  month: january 11-january 14
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
