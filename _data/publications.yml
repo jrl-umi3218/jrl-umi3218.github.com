@@ -11264,8 +11264,7 @@
   authors:
   - id: glorthioir
   - id: benalleguem
-  - family: Cisneros Limon
-    given: Rafael
+  - id: cisneros
   - family: Ramirez-Alpizar
     given: Ixchel
   lab: jrl
