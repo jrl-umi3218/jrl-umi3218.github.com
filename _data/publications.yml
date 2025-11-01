@@ -4019,6 +4019,7 @@
   pdf: https://hal.science/hal-04125159
   lab: jrl
   month: july
+  mov: https://www.youtube.com/watch?v=YR7xZGwIdmE&pp=0gcJCQYKAYcqIYzv
 - id: singh:access:2023
   year: 2023
   title: Learning Bipedal Walking for Humanoids with Current Feedback
@@ -4349,6 +4350,7 @@
   pdf: https://ieeexplore.ieee.org/document/10452756
   lab: jrl
   month: april
+  mov: https://www.youtube.com/watch?v=ZKUHtAi5qrA
 - id: medrano:bspc:2024
   year: 2024
   title: 'Assessing time series correlation significance: A parametric approach with
@@ -4407,6 +4409,7 @@
   pdf: https://ieeexplore.ieee.org/abstract/document/10609486
   lab: jrl
   month: november
+  mov: https://www.youtube.com/watch?v=RZl2Cvk6VOw
 - id: kessy:cvm:2024
   year: 2025
   title: Temporal illumination Compensation using Perpendicular Whisk-broom Hyperspectral
@@ -4446,6 +4449,7 @@
   pdf: https://ieeexplore.ieee.org/document/10697271
   lab: jrl
   month: november
+  mov: https://www.youtube.com/watch?v=41XNc4Mu-hs
 - id: murooka:ral:2024
   year: 2024
   title: Whole-Body Multi-Contact Motion Control for Humanoid Robots Based on Distributed
@@ -4464,6 +4468,7 @@
   month: november
   projects:
   - icph
+  mov: https://www.youtube.com/watch?v=I0OZYr-53uU
 - id: zermane:ral:2024
   year: 2024
   title: Minimal Impact Pokes to Place Objects on Planar Surfaces
@@ -4592,6 +4597,7 @@
   month: february
   projects:
   - kakenhi_wakate2023_kumagai
+  mov: https://youtu.be/pL8iOvTH_mg
 - id: lefevre:ral:2025
   year: 2025
   title: Humanoid-Human Sit-to-Stand-to-Sit Assistance
@@ -4630,6 +4636,7 @@
   month: august
   projects:
   - icph
+  mov: https://www.youtube.com/watch?v=BPKo6f1lSek
 - id: benallegue:ram:2025
   year: 2025
   title: 'Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated
@@ -4732,6 +4739,7 @@
   pdf: https://ieeexplore.ieee.org/document/11077997
   lab: jrl
   month: july
+  mov: https://www.youtube.com/watch?v=PC4CyQwSP_I
 - id: mori:ral:2025
   year: 2025
   title: 'Active Learning for Exciting Motion Generation With Safety Constraint: Toward
@@ -4744,6 +4752,7 @@
   pdf: https://ieeexplore.ieee.org/document/10982135
   lab: jrl
   month: june
+  mov: https://youtu.be/PI18XiOan6Q
 - id: figueroa:ral:2025
   year: 2025
   title: Fast Autolearning for Multimodal Walking in Humanoid Robots With Variability
@@ -10742,6 +10751,7 @@
   month: january 8-january 11
   projects:
   - icps
+  mov: https://www.youtube.com/watch?v=88fUkTWQqaQ
 - id: figueroa:sii:2024
   year: 2024
   title: Reinforcement Learning-Based Parameter Optimization for Whole-Body Admittance
@@ -10836,6 +10846,7 @@
   pdf: https://hal.science/hal-04519122
   lab: jrl
   month: may 13-may 17
+  mov: https://www.youtube.com/watch?v=7w7BooquN9U
 - id: naamani:iros:2024
   year: 2024
   title: A mathematical characterization of the convergence domain for Direct Visual
@@ -10938,6 +10949,7 @@
   month: november 22-november 24
   projects:
   - icph
+  mov: https://www.youtube.com/watch?v=ZgfNzGAkk2Q
 - id: wang:humanoids:2024
   year: 2024
   title: Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors
@@ -10951,6 +10963,7 @@
   month: november 22-november 24
   projects:
   - icph
+  mov: https://www.youtube.com/watch?v=-_MfBrCOxyQ
 - id: tako:humanoids:2024
   year: 2024
   title: Tactile Sensor-Based Detection of Partial Foothold for Balance Control in
@@ -10970,6 +10983,7 @@
   pdf: https://ieeexplore.ieee.org/document/10769855
   lab: jrl
   month: november 22-november 24
+  mov: https://www.youtube.com/watch?v=1nscY7zVYbg
 - id: chalabi:humanoids:2024
   year: 2024
   title: Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine
@@ -11104,6 +11118,7 @@
   pdf: https://roboticsconference.org/program/papers/84/
   lab: jrl
   month: june 21-june 25
+  mov: https://www.youtube.com/watch?v=lo9FRXFrVPw
 - id: hong:mva:2025
   year: 2025
   title: 3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging
@@ -11116,6 +11131,7 @@
   pdf: https://hal.science/hal-05124721
   lab: jrl
   month: july 26-july 28
+  mov: https://www.youtube.com/watch?v=_VXpfsIxNyY
 - id: mouaddib:dh:2025a
   year: 2025
   title: Spatial random access to explore heritage site using spherical video
@@ -11209,6 +11225,7 @@
   pdf: https://ieeexplore.ieee.org/document/11203189
   lab: jrl
   month: september 30-october 2
+  mov: https://www.youtube.com/watch?v=WRYLLVb8ndg
 - id: chalanunt:humanoids:2025
   year: 2025
   title: Comparative Analysis of Dynamic Balance Descriptors in Humanoids and Humans
@@ -11256,6 +11273,7 @@
   projects:
   - jst_mirai
   - sigrole
+  mov: https://www.youtube.com/watch?v=UQG1pGJ8NeI
 - id: demont:iccas:2025
   year: 2025
   title: 'VALINOR: A Lightweight Leg Inertial Odometry for Humanoid Robots'
