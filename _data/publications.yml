@@ -11386,6 +11386,52 @@
   - id: kanehiro
   lab: jrl
   month: january 11-january 14
+- id: tazeroualttlamcani:sii:2026
+  year: 2026
+  title: CoM Jacobian-based locomotion control of an annular pneumatic robot
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: tazeroualttlamcani
+  - id: vilfroy
+  - id: cisneros
+  - id: kaminaga
+  lab: jrl
+  month: january 11-january 14
+- id: soucail:sii:2026
+  year: 2026
+  title: Residual-based and Passivity-based external Disturbance Compensation for
+    Closed Loop Torque Control
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - id: soucail
+  - id: benalleguem
+  - id: stefanelli
+  - id: mcelerier
+  - id: duvinage
+  - id: muraccioli
+  - id: cisneros
+  lab: jrl
+  month: january 11-january 14
+- id: singh:sii:2026
+  year: 2026
+  title: Can Policy Learning with Time Limits be used for Contact-rich Industrial
+    Manipulation?
+  booktitle: IEEE/SICE International Symposium on System Integration
+  authors:
+  - family: Singh
+    given: Bharat
+  - family: Kilpatrick
+    given: Jack
+  - id: joyapaez
+  - family: Hanai
+    given: Ryo
+  - family: Ramirez-Alpizar
+    given: Ixchel
+  - id: yamanobe
+  - family: Domae
+    given: Yukiyasu
+  lab: jrl
+  month: january 11-january 14
 - id: kheddar:book:2017
   year: 2017
   title: Social Robotics
