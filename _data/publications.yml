@@ -11296,6 +11296,7 @@
   - id: kanehiro
   pdf: https://www.sciencedirect.com/science/article/pii/S0921889025003203?via%3Dihub
   lab: jrl
+  month: february
 - id: chagouti:sii:2026
   year: 2026
   title: Photometric Virtual Visual Servoing based on Gaussian Splatting
