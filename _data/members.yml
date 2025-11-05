@@ -2047,6 +2047,11 @@
   from: 2025-09-01
   to: 2026-02-27
   nationality: fr
+  linkedin: https://www.linkedin.com/in/louis-rubl%C3%A9-49b596225/
+  github: https://github.com/sioulruble
+  website: https://sioulruble.github.io/
+  bio: >
+      I am a master's student in computer science at the University of Technology of Compiègne, France. I am working on human-robot interactions, specifically on improving the user experience of humanoid robot teleoperation.
 - id: erens
   given: Ruud
   family: Erens
