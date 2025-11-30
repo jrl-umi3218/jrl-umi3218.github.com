@@ -847,8 +847,9 @@
 - id: demont
   given: Arnaud
   family: Demont
-  role: alumni
-  from: 2025-11-01
+  role: engineer
+  from: 2025-11-07
+  to: 2025-12-31
   past-roles:
     - role: phd
       from: 2022-11-01
@@ -999,7 +1000,7 @@
       to: 2022-09-30
   role: phd
   from: 2022-10-01
-  to: 2025-09-30
+  to: 2025-12-15
   nationality: fr
   linkedin: "www.linkedin.com/in/eva-goichon-123189195"
   github: "https://github.com/EvaGoichon"
@@ -1048,7 +1049,7 @@
   family: Naamani
   role: phd
   from: 2022-10-01
-  to: 2025-09-30
+  to: 2025-12-31
   nationality: dz
 - id: toumi
   given: Mohamed
@@ -1999,9 +2000,12 @@
   given: Manako
   family: Matsuzaki
   name-jp: 松崎 舞那子
-  role: admin
-  from: 2025-03-01
-  to: 2025-11-30
+  role: alumni
+  from: 2025-12-01
+  past-roles:
+    - role: admin
+      from: 2025-03-01
+      to: 2025-11-30
   nationality: jp
 - id: merrad
   given: Lydia
@@ -2092,8 +2096,8 @@
   given: Martin
   family: Filliung
   role: coming-postdoc
-  from: 2025-11-15
-  to: 2027-11-14
+  from: 2026-02-01
+  to: 2028-01-31
   nationality: fr
 - id: morello
   given: Luca
@@ -2106,13 +2110,13 @@
   given: Khang
   family: Pham
   role: coming-engineer
-  from: 2025-12-01
+  from: 2025-12-15
   to: 2028-03-31
   nationality: in
 - id: lanneau
   given: Victorien
   family: Lanneau
-  role: coming-phd
+  role: phd
   from: 2025-12-01
   to: 2028-11-30
   nationality: fr
@@ -2120,7 +2124,7 @@
   given: Ekansh
   family: Sharma
   role: coming-engineer
-  from: 2025-12-01
+  from: 2025-12-15
   nationality: in
 - id: ahmed
   given: Sakib
