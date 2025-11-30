@@ -11074,6 +11074,7 @@
   month: january 21-january 24
   projects:
   - icps
+  prj: https://scalable-visual-language-robotics.github.io/
 - id: noel:sii:2025
   year: 2025
   title: 'A Lightweight Approach to Efficient Multimodal 2D Navigation and Mapping:
@@ -11119,6 +11120,7 @@
   lab: jrl
   month: june 21-june 25
   mov: https://www.youtube.com/watch?v=lo9FRXFrVPw
+  prj: https://industry-ready-phri.github.io/
 - id: hong:mva:2025
   year: 2025
   title: 3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging
@@ -11267,6 +11269,7 @@
   - id: cisneros
   - family: Ramirez-Alpizar
     given: Ixchel
+  pdf: https://ieeexplore.ieee.org/document/11245815
   lab: jrl
   month: october 19-october 25
   projects:
