@@ -91,4 +91,13 @@
     <i class="bi bi-x-circle"></i>
     {%- endif -%}
   </td>
+  <td id="{{ include.publication.id }}-prj">
+    {%- if include.publication.prj -%}
+    <a href="{{ include.publication.prj }}" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a>
+    {%- else -%}
+    <i class="bi bi-x-circle"></i>
+    {%- endif -%}
+  </td>
 </tr>
