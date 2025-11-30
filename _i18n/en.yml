@@ -136,12 +136,17 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/12/2025
+    content: >
+      Two members, <a href="members/member-cariou.html">Alice Cariou</a> and <a href="members/member-demont.html">Arnaud Demont</a> joined and one member, <a href="members/member-matsuzaki.html">Manako Matsuzaki</a> left the JRL in November.<br>
+      "VALINOR: A Lightweight Leg Inertial Odometry for Humanoid Robots" was presented at the ICCAS2025.
+
   - date: 01/11/2025
     content: >
       Three members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-miyawaki.html">Kaito Miyawaki</a> and <a href="members/member-ahmed.html">Sakib Ahmed</a> joined and four members, <a href="members/member-vu.html">Jimmy Vu</a>, <a href="members/member-gambardella.html">Romain Gambardella</a>, <a href="members/member-gratiasquiquandon.html">Philippe Gratias-Quiquandon</a> and <a href="members/member-demont.html">Arnaud Demont</a> left the JRL in October.<br>
       "<a href=https://doi.org/10.1007/s10846-025-02327-z>Enhancing Humanoid Robot Stability on Uneven Terrain with Online Foothold Planning Based on Ground Scanning</a>" was published in the Journal of Intelligent & Robotic Systems.<br>
       "<a href=https://hal.science/hal-05193969>Globally optimal registration of dense terrestrial laser scans from coarse sampling</a>" was presented it the ICCV2025.<br>
-      "Landmark-Based Goal Recognition for Shared Autonomy: A Framework for Enhanced Teleoperation" was presented at the IROS 2025.
+      "<a href=https://ieeexplore.ieee.org/document/11245815>Landmark-Based Goal Recognition for Shared Autonomy: A Framework for Enhanced Teleoperation</a>" was presented at the IROS 2025.
   - date: 01/10/2025
     content: >
       Three members, <a href="members/member-ruble.html">Louis Ruble</a>, <a href="members/member-erens.html">Ruud Erens</a> and <a href="members/member-farhi-rivasseau.html">Alice Farhi-rivasseau</a> joined and four members, <a href="members/member-tazeroualttlamcani.html">Ghita Tazeroualt Tlamcani</a>, <a href="members/member-oubraim.html">Walid Oubraim</a>, <a href="members/member-daligault.html">Celian Daligault</a> and <a href="members/member-dorfani.html">Raphaël d'Orfani</a> left the JRL in September.
