@@ -207,3 +207,38 @@
   name: "Hiroshima University"
   shortname: "HU"
   website: "https://www.hiroshima-u.ac.jp/"
+- id: esol
+  logo: "/assets/logos/esol.png"
+  name: "eSOL Co.,Ltd."
+  shortname: "eSOL"
+  website: "https://www.esol.com/"
+- id: robocip
+  logo: "/assets/logos/robocip.svg"
+  name: "Robot Industrial Basic Technology Collaborative Innovation Partnership"
+  shortname: "ROBOCIP"
+  website: "https://www.robocip.or.jp/"
+- id: sec
+  logo: "/assets/logos/sec.png"
+  name: "Systems Engineering Consultants Co.,LTD."
+  shortname: "SEC"
+  website: "https://www.sec.co.jp/"
+- id: panasonic
+  logo: "/assets/logos/panasonic.png"
+  name: "Panasonic Holdings Corporation"
+  shortname: "Panasonic"
+  website: "https://holdings.panasonic/"
+- id: fujisoft
+  logo: "/assets/logos/fujisoft.png"
+  name: "FUJI SOFT INCORPORATED"
+  shortname: "FujiSoft"
+  website: "https://www.fsi.co.jp/"
+- id: mamezo
+  logo: "/assets/logos/mamezo.png"
+  name: "MAMEZO Co., Ltd."
+  shortname: "Mamezo"
+  website: "https://www.mamezou.com/"
+- id: ritsumeikan
+  logo: "/assets/logos/ritsumeikan.png"
+  name: "Ritsumeikan University"
+  shortname: "Ritsumeikan"
+  website: "https://www.ritsumei.ac.jp/"
