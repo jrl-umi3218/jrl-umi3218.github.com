@@ -4840,6 +4840,18 @@
   pdf: https://doi.org/10.1007/s10846-025-02327-z
   lab: jrl
   month: october
+- id: demont:ijcas:2025
+  year: 2025
+  title: 'VALINOR: A Minimalist Leg Inertial Odometry for Humanoid Robots'
+  booktitle: International Journal of Control, Automation and Systems
+  authors:
+  - id: demont
+  - id: benalleguem
+  - id: duvinage
+  - id: benalleguea
+  pdf: https://link.springer.com/article/10.1007/s12555-025-0511-x
+  lab: jrl
+  month: december
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -11121,6 +11133,8 @@
   month: june 21-june 25
   mov: https://www.youtube.com/watch?v=lo9FRXFrVPw
   prj: https://industry-ready-phri.github.io/
+  projects:
+  - hican
 - id: hong:mva:2025
   year: 2025
   title: 3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging
