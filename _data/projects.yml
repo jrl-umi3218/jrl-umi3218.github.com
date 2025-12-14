@@ -45,7 +45,7 @@
   longtitle-jp: "人間からの教示により情報獲得可能な対話型ロボット動作計画システム"
   pi: murooka
   year-start: 2022.4
-  year-end: 2025.3
+  year-end: 2026.3
   funding: JSPS Grant-in-Aid for Early-Career Scientists
   funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 若手研究
   active: true
@@ -437,4 +437,34 @@ all for better behavior of DVS-based control laws and hence applicability in a m
     <p>Many of today's industrial robotic equipment is controlled by dedicated servo amplifiers and operates based on position commands (or speed commands) from a higher-level controller. In applications where it's necessary to manipulate contact force, a method called admittance control, which modifies position commands based on information from force sensors or external force observers, is commonly used. Therefore, many industrial mechatronics devices can be described as "admittance-type," which means they are force-input and position-output systems. These devices are technically and cost-effectively mature, but they are not suited for situations where contact/non-contact changes frequently, especially where excessive force or impact might occur. This research project aims to establish a force control strategy for existing hardware of industrial and humanoid robots when subjected to overload or impact forces. To achieve this goal, a framework of nonsmooth control laws that can explicitly handle the saturation of state variables and control inputs will be utilized.</p>
   description-jp: >
     <p>今日の産業用ロボット機器の多くは専用のサーボアンプで制御されており，上位コントローラからの位置指令（あるいは速度指令）にもとづいて動作する．接触力を操作する用途においては，力センサや外力オブザーバからの情報にもとづいて位置指令を修正するアドミッタンス制御とよばれる手法がよく用いられる．このため，多くの産業用メカトロニクス機器は，力入力・位置出力型の「アドミッタンス型」であるといえる．これらの機器は技術的にもコスト的にも成熟しているが，接触・非接触が頻繁に変化する状況，特に，過大な力や撃力が加わりうる状況に不向きである．本研究課題では，産業用ロボットや人型ロボットの既存のハードウェアを対象として，過荷重や撃力が加わる際の力制御の戦略を確立する．この目的のために，状態量や制御入力の飽和を陽に扱える非平滑制御則の枠組みを活用する.</p>
-    
+- id: post5g
+  title: SDP4ESI
+  longtitle: "Development of a software development platform that enhances quality, reliability, and safety for improving the efficiency of robot system integration"
+  longtitle-jp: "ロボットSI効率化に向けた品質・信頼性・安全性強化型ソフトウェア開発基盤の構築"
+  pi: kanehiro
+  year-start: 2025.7
+  year-end: 2028.2
+  funding: NEDO
+  funding-jp: NEDO
+  active: true
+  partners: [esol,robocip,sec,panasonic,fujisoft,mamezo,ritsumeikan]
+  description: >
+    <p>By leveraging open-source software (OSS) and defining a modular robot architecture, we aim to establish a robot system development methodology that enables flexible and low-cost deployment even in long-tail application domains. To this end, we will develop a screening system for validating OSS and modules developed by various vendors, tools to improve the efficiency of individual module development, reference robot systems for verification, as well as various development-support tools, simulators, and simulation models. Through these efforts, we will provide reusable and reliable software modules and a development platform that enables their effective use, thereby allowing the development of high-quality robot systems without requiring highly specialized expertise. Furthermore, we aim to provide these software modules, tools, and related assets through a distribution platform to be established in the future.
+  description-jp: >
+    <p>OSS活用とモジュールベースのロボットアーキテクチャの定義を通じて、ロングテール領域にも柔軟かつ低コストで導入可能なロボットシステム開発手法を確立する。OSS や様々なベンダが開発するモジュールを検証するためのスクリーニングシステム、個々のモジュール開発を効率化するツールや検証用リファレンスロボットシステム、その他様々な開発を支援するツール・シミュレータやシミュレーションモデルを開発することで、安心して再利用可能なソフトウェアモジュールや、それらを利用可能な開発基盤を提供し、高度な熟練者でなくとも高品質なロボットシステム開発を可能にするとともに、将来的に構築されるソフトウェアモジュールやツール等の流通基盤上での提供を目指す。
+- id: moral
+  title: MORAL
+  longtitle: "MORAL: A Body-Thinking Robot Foundation Model"
+  longtitle-jp: "身体が考えるロボット基盤モデル：MORAL"
+  pi: murooka
+  year-start: "2025.10"
+  year-end: 2027.3
+  funding: JST CREST
+  funding-jp: JST CREST
+  active: true
+  partners: []
+  description: >
+    <p>Current vision-language-action approaches are dominated by symbolic information such as text, lacking reasoning grounded in body structure or internal states. We propose MORAL as a concept for body-centered robot intelligence, placing bodily representations—including morphology—at the core while integrating modalities such as auditory sensing. This concept envisions embodied reasoning and action generation beyond symbols, aiming for future capabilities such as handling unseen situations, adapting force and motion, and generalizing across different morphologies, with the goal of enabling robots to flexibly operate in diverse real-world tasks in manufacturing.
+  description-jp: >
+    <p>現在の視覚・言語・行動モデルは記号的情報に偏り、身体構造や内部状態に基づく推論を欠いている。本研究では、形態を含む身体表現を中核に据え、聴覚などの身体性モダリティを統合する身体中心の知能モデルMORALを提案する。MORALは記号を超えた身体的推論と行動生成を構想し、未知の状況への対応、力加減の適応、身体構造間の汎化を目指し、多様な実環境タスクに柔軟に適応するロボットの実現を目的とする。
+
