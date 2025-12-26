@@ -4852,6 +4852,20 @@
   pdf: https://link.springer.com/article/10.1007/s12555-025-0511-x
   lab: jrl
   month: december
+- id: frizza:machines:2025
+  year: 2025
+  title: Design and Validation of a Soft Pneumatic Submodule for Adaptive Humanoid
+    Foot Compliance
+  booktitle: Machines
+  authors:
+  - id: frizza
+  - id: kaminaga
+  - family: Fraisse
+    given: Philippe
+  - id: venture
+  pdf: https://www.mdpi.com/2075-1702/13/12/1142
+  lab: jrl
+  month: december
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
