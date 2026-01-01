@@ -994,13 +994,15 @@
 - id: goichon
   given: Eva
   family: Goichon
+  role: alumni
+  from: 2025-12-16
   past-roles:
+    - role: phd
+      from: 2022-10-01
+      to: 2025-12-15
     - role: master
       from: 2022-08-17
       to: 2022-09-30
-  role: phd
-  from: 2022-10-01
-  to: 2025-12-15
   nationality: fr
   linkedin: "www.linkedin.com/in/eva-goichon-123189195"
   github: "https://github.com/EvaGoichon"
@@ -1104,7 +1106,7 @@
   name-jp: 田光 太郎
   role: phd
   from: 2025-05-19
-  to: 2026-03-31
+  to: 2027-03-31
   past-roles:
     - role: master
       from: 2024-03-01
@@ -2049,7 +2051,7 @@
   family: Ruble
   role: master
   from: 2025-09-01
-  to: 2026-02-27
+  to: 2026-04-30
   nationality: fr
   linkedin: https://www.linkedin.com/in/louis-rubl%C3%A9-49b596225/
   github: https://github.com/sioulruble
@@ -2083,7 +2085,7 @@
   name-jp: 宮脇 海斗
   role: master
   from: 2025-10-01
-  to: 2026-03-31
+  to: 2027-03-31
   nationality: jp
 - id: farhi-rivasseau
   given: Alice
@@ -2110,8 +2112,8 @@
   given: Khang
   family: Pham
   role: coming-engineer
-  from: 2025-12-15
-  to: 2028-03-31
+  from: 2026-01-20
+  to: 2027-03-31
   nationality: in
 - id: lanneau
   given: Victorien
@@ -2124,7 +2126,7 @@
   given: Ekansh
   family: Sharma
   role: coming-engineer
-  from: 2025-12-15
+  from: 2026-01-15
   nationality: in
 - id: ahmed
   given: Sakib
@@ -2133,3 +2135,24 @@
   from: 2025-10-01
   to: 2028-09-30
   nationality: bd
+- id: euribe
+  given: Andree Alonso
+  family: Euribe Vargas
+  role: coming-master
+  from: 2026-02-16
+  to: 2026-05-14
+  nationality: pe
+- id: ben
+  given: Selim
+  family: Ben Abdallah
+  role: coming-master
+  from: 2026-02-22
+  to: 2026-07-31
+  nationality: fr
+- id: evangelisti
+  given: Chiara
+  family: Evangelisti
+  role: coming-master
+  from: 2026-03-02
+  to: 2026-08-31
+  nationality: it
