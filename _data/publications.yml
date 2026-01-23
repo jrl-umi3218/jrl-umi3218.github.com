@@ -11340,6 +11340,7 @@
   - id: carong
   - family: Mouaddib
     given: El
+  pdf: https://hal.science/hal-05339556
   lab: jrl
   month: january 11-january 14
 - id: dhaene:sii:2026
@@ -11352,6 +11353,7 @@
   - id: carong
   - id: yoshiyasu
   - id: bwatier
+  pdf: https://hal.science/hal-05339555
   lab: jrl
   month: january 11-january 14
   projects:
@@ -11368,6 +11370,7 @@
   - id: benalleguem
   - id: cisneros
   - id: carong
+  pdf: https://hal.science/hal-05339552
   lab: jrl
   month: january 11-january 14
   projects:
