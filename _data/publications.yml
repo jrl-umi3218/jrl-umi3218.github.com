@@ -11356,6 +11356,8 @@
   month: january 11-january 14
   projects:
   - call
+  prj: https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-call.html
+  mov: https://youtu.be/w4CNT0KJLVY
 - id: dorphani:sii:2026
   year: 2026
   title: RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context
@@ -11370,6 +11372,8 @@
   month: january 11-january 14
   projects:
   - sigrole
+  prj: https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-sigrole.html
+  mov: https://youtu.be/kvFsxiHh1Js
 - id: li:sii:2026
   year: 2026
   title: Improving Robotic Imitation Learning with Predicted Facial Motion Using Transformers
