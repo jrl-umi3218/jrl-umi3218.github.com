@@ -88,7 +88,7 @@
   year-start: 2023
   year-end: 2025
   funding: CNRS GDR ISIS
-  active: true
+  active: false
   partners: [utbm,upjv]
   description: "
 <p>M2SV is an exploratory project funded by CNRS&rsquo; Special Interest Group on Information, Signal, Image and Vision (GDR ISIS). In this project led by UTBM, CIAD lab, CNRS-AIST JRL is a partner as UPJV, MIS lab (France) too. The aim is to enable the direct visual servoing of both the mobile base and the robot arm with a single spherical camera onboard the mobile base. Thus, a combined eye-in-hand / eye-t-hand visual servo is to be considered. This project emerges from <a href=https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-dvsstraight.html target=_blank>DVS-straight</a>.</p>
