@@ -11386,6 +11386,7 @@
   - id: kanehiro
   lab: jrl
   month: january 11-january 14
+  mov: https://youtu.be/oWgjga72rVU
 - id: vazquez:sii:2026
   year: 2026
   title: Development of a semi-autonomous manipulation pipeline for robotic shelf-picking
@@ -11401,6 +11402,9 @@
     given: Luis
   lab: jrl
   month: january 11-january 14
+  projects:
+  - icps
+  mov: https://youtu.be/vJ2qutTbado
 - id: singh:sii:2026
   year: 2026
   title: Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion
@@ -11415,6 +11419,9 @@
   - id: kanehiro
   lab: jrl
   month: january 11-january 14
+  projects:
+  - icph
+  mov: https://youtu.be/g9dBdkwtURE
 - id: leziart:sii:2026
   year: 2026
   title: Learning Humanoid Loco-manipulation with Constraints as Terminations
@@ -11425,6 +11432,7 @@
   - id: kanehiro
   lab: jrl
   month: january 11-january 14
+  mov: https://youtu.be/_Eb-Qr9MdqA
 - id: tazeroualttlamcani:sii:2026
   year: 2026
   title: CoM Jacobian-based locomotion control of an annular pneumatic robot
@@ -11436,6 +11444,7 @@
   - id: kaminaga
   lab: jrl
   month: january 11-january 14
+  mov: https://youtu.be/X9GPzdMK8Ck
 - id: soucail:sii:2026
   year: 2026
   title: Residual-based and Passivity-based external Disturbance Compensation for
