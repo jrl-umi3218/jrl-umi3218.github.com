@@ -2108,13 +2108,16 @@
   from: 2026-04-01
   to: 2029-03-31
   nationality: it
-- id: pham
+- id: phamk
   given: Khang
   family: Pham
-  role: coming-engineer
+  role: engineer
   from: 2026-01-20
   to: 2027-03-31
-  nationality: in
+  linkedin: "https://www.linkedin.com/in/khangpham632"
+  website: "https://phamthekhang632.github.io/"
+  github: "https://github.com/phamthekhang632"
+  nationality: vn
 - id: lanneau
   given: Victorien
   family: Lanneau
