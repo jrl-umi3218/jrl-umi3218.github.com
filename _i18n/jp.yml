@@ -136,6 +136,22 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2026/02/01
+    content: >
+      1月には<a href="members/member-phamk.html">Khang Pham</a>がメンバーに加わりました。<br>
+      SII2026で10件の発表を行いました。
+      <ul>
+      <li>Photometric Virtual Visual Servoing based on Gaussian Splatting</li>
+      <li>Low-latency online estimation of human upper-limb pose and kinematics from a single 360 camera</li>
+      <li>RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context</li>
+      <li>Improving Robotic Imitation Learning with Predicted Facial Motion Using Transformers</li>
+      <li>Development of a semi-autonomous manipulation pipeline for robotic shelf-picking operations</li>
+      <li>Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion Capture</li>
+      <li>Learning Humanoid Loco-manipulation with Constraints as Terminations</li>
+      <li>CoM Jacobian-based locomotion control of an annular pneumatic robot</li>
+      <li>Residual-based and Passivity-based external Disturbance Compensation for Closed Loop Torque Control</li>
+      <li>Can Policy Learning with Time Limits be used for Contact-rich Industrial Manipulation?</li>
+      </ul>
   - date: 2026/01/01
     content: >
       12月には<a href="members/member-lanneau.html">Victorien Lanneau</a>がメンバーに加わり、<a href="members/member-goichon.html">Eva Goichon</a>がJRLでの活動を終了しました。<br>
