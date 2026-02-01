@@ -847,10 +847,12 @@
 - id: demont
   given: Arnaud
   family: Demont
-  role: engineer
-  from: 2025-11-07
-  to: 2025-12-31
+  role: postdoc
+  from: 2026-01-26
   past-roles:
+    - role: engineer
+      from: 2025-11-07
+      to: 2025-12-31
     - role: phd
       from: 2022-11-01
       to: 2025-10-31
@@ -885,10 +887,12 @@
 - id: mcelerier
   given: Mathieu
   family: Celerier
-  role: engineer
-  from: 2025-06-01
-  to: 2025-12-31
+  role: postdoc
+  from: 2026-02-01
   past-role:
+    - role: engineer
+      from: 2025-06-01
+      to: 2025-12-31
     - role: phd
       from: 2022-05-06
       to: 2025-05-31
@@ -1587,6 +1591,7 @@
   family: Morisaki
   role: master
   from: 2025-04-01
+  to: 2027-03-31
   past-roles:
     - role: non-degree
       from: 2024-04-01
@@ -2097,7 +2102,7 @@
 - id: filliung
   given: Martin
   family: Filliung
-  role: coming-postdoc
+  role: postdoc
   from: 2026-02-01
   to: 2028-01-31
   nationality: fr
@@ -2113,7 +2118,7 @@
   family: Pham
   role: engineer
   from: 2026-01-20
-  to: 2027-03-31
+  to: 2028-03-31
   linkedin: "https://www.linkedin.com/in/khangpham632"
   website: "https://phamthekhang632.github.io/"
   github: "https://github.com/phamthekhang632"
@@ -2129,7 +2134,7 @@
   given: Ekansh
   family: Sharma
   role: coming-engineer
-  from: 2026-01-15
+  from: 2026-04-01
   nationality: in
 - id: ahmed
   given: Sakib
@@ -2159,3 +2164,56 @@
   from: 2026-03-02
   to: 2026-08-31
   nationality: it
+- id: jokinen
+  given: Kristiina
+  family: Jokinen
+  role: adjunct
+  from: 2026-02-01
+  to: 2027-01-31
+  nationality: fi
+- id: gomez-vargas
+  given: Roberto Raymundo
+  family: Gomez-Vargas
+  role: coming-undergraduate
+  from: 2026-03-09
+  to: 2026-09-04
+  nationality: mx
+- id: takeshima
+  given: Ryo
+  family: Takeshima
+  name-jp: 竹島 諒
+  role: coming-master
+  from: 2026-04-01
+  to: 2028-03-31
+  nationality: jp
+- id: varma
+  given: Dhanush
+  family: Varma
+  role: coming-phd
+  from: 2026-04-01
+  to: 2028-03-31
+  nationality: in
+- id: furuhata
+  given: Shikou
+  family: Furuhata
+  name-jp: 古畑 志高
+  role: coming-master
+  from: 2026-04-01
+  to: 2028-03-31
+  nationality: jp
+- id: yamada
+  given: Suzutaro
+  family: Yamada
+  name-jp: 山田 涼太朗
+  role: coming-master
+  from: 2026-04-01
+  to: 2028-03-31
+  nationality: jp
+- id: sato
+  given: makoto
+  family: sato
+  name-jp: 佐藤 真実
+  role: coming-master
+  from: 2026-04-01
+  to: 2028-03-31
+  nationality: jp
