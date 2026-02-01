@@ -136,6 +136,22 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/02/2026
+    content: >
+      One member, <a href="members/member-phamk.html">Khang Pham</a> joined.<br>
+      10 papers were presented at the SII2026.
+      <ul>
+      <li>Photometric Virtual Visual Servoing based on Gaussian Splatting</li>
+      <li>Low-latency online estimation of human upper-limb pose and kinematics from a single 360 camera</li>
+      <li>RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context</li>
+      <li>Improving Robotic Imitation Learning with Predicted Facial Motion Using Transformers</li>
+      <li>Development of a semi-autonomous manipulation pipeline for robotic shelf-picking operations</li>
+      <li>Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion Capture</li>
+      <li>Learning Humanoid Loco-manipulation with Constraints as Terminations</li>
+      <li>CoM Jacobian-based locomotion control of an annular pneumatic robot</li>
+      <li>Residual-based and Passivity-based external Disturbance Compensation for Closed Loop Torque Control</li>
+      <li>Can Policy Learning with Time Limits be used for Contact-rich Industrial Manipulation?</li>
+      </ul>
   - date: 01/01/2026
     content: >
       <a href="members/member-lanneau.html">Victorien Lanneau</a> joined and <a href="members/member-goichon.html">Eva Goichon</a> left the JRL in December.<br>
