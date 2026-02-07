@@ -4636,6 +4636,7 @@
   month: august
   projects:
   - icph
+  - humanoid_lab
   mov: https://www.youtube.com/watch?v=BPKo6f1lSek
 - id: benallegue:ram:2025
   year: 2025
@@ -11086,6 +11087,8 @@
   pdf: https://ieeexplore.ieee.org/document/10927529
   lab: jrl
   month: december 5-december 7
+  projects:
+  - humanoid_lab
 - id: samson:sii:2025
   year: 2025
   title: 'Scalable, Training-Free Visual Language Robotics: A Modular Multi-Model
@@ -11162,6 +11165,8 @@
   lab: jrl
   month: july 26-july 28
   mov: https://www.youtube.com/watch?v=_VXpfsIxNyY
+  projects:
+  - humanoid_lab
 - id: mouaddib:dh:2025a
   year: 2025
   title: Spatial random access to explore heritage site using spherical video
@@ -11794,3 +11799,6 @@
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/imamrua-sii2014-proc.pdf
+- id: li:li:sii:2026
+  projects:
+  - humanoid_lab
