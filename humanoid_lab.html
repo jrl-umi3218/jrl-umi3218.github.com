@@ -140,6 +140,30 @@ layout: default
         </div>
       </div>
     </div>
+
+  <!-- Research Card 5 -->
+  <div class="col-12 mb-4">
+      <div class="p-4 bg-primary-subtle rounded">
+        <div class="row">
+          <div class="col-md-9">
+            <h5><strong>Monocular Visual SLAM that works with Pre-built Point Cloud Maps using Point and Line Features</strong></h5>
+            <p>
+              Monocular Visual SLAM is attractive for its low cost and portability, but it suffers from scale ambiguity and typically cannot localize
+              directly in heterogeneous prior maps such as dense LiDAR/3D-reconstruction point clouds. This project enables a monocular
+              point-line SLAM pipeline to perform absolute localization in a pre-built dense point cloud map. We first extract 3D structural line
+              segments from the dense point cloud offline, and then detect 2D line segments in incoming images online. By establishing robust
+              2D-3D line correspondences and solving a Perspective-n-Line (PnL) optimization, the system estimates metric absolute camera poses
+              during initialization, recovering real-world scale without requiring additional sensors. After monocular initialization,
+              multiple PnL poses are accumulated and aligned with the SLAM trajectory to compute a fixed Sim(3) transformation, which is then
+              propagated throughout tracking and mapping to maintain globally consistent poses in the dense map coordinate frame.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <img src="{{site.baseurl_root}}/assets/humanoidlab/MonocularVisualSLAMthatworkswithPre-builtPointCloudMapsusingPointandLineFeatures.png" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </div>
     
   </div>
 
