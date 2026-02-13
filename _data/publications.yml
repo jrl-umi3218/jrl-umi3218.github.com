@@ -11392,6 +11392,8 @@
   lab: jrl
   month: january 11-january 14
   mov: https://youtu.be/oWgjga72rVU
+  projects:
+  - humanoid_lab
 - id: vazquez:sii:2026
   year: 2026
   title: Development of a semi-autonomous manipulation pipeline for robotic shelf-picking
@@ -11799,6 +11801,3 @@
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/imamrua-sii2014-proc.pdf
-- id: li:li:sii:2026
-  projects:
-  - humanoid_lab
