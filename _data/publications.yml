@@ -11488,6 +11488,36 @@
     given: Yukiyasu
   lab: jrl
   month: january 11-january 14
+- id: aoyama:amc:2026
+  year: 2026
+  title: Estimation-based Control of Forces Applied to Parts of Humanoids That Do
+    Not Have Force Sensors
+  booktitle: IEEE International Workshop on Advanced Motion Control
+  authors:
+  - id: aoyama
+  - id: benalleguem
+  - id: demont
+  - id: kanehiro
+  lab: jrl
+  month: march 9-march 11
+  projects:
+  - humanoid_lab
+- id: vu:amc:2026
+  year: 2026
+  title: QP-based impact momentum maximization for a hammering task by a humanoid
+    robot
+  booktitle: IEEE International Workshop on Advanced Motion Control
+  authors:
+  - id: vu
+  - id: erens
+  - id: stefanelli
+  - id: cisneros
+  - id: benalleguem
+  - id: benalleguea
+  lab: jrl
+  month: march 9-march 11
+  projects:
+  - impadm
 - id: filliung:icra:2024
   year: 2024
   title: An Augmented Catenary Model for Underwater Tethered Robots
