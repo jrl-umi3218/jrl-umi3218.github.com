@@ -2175,6 +2175,11 @@
   from: 2026-02-01
   to: 2027-01-31
   nationality: fi
+  linkedin: "https://www.linkedin.com/in/kristiina-jokinen-b01585/"
+  website: "https://www.kristiinajokinen.fi/"
+  scholar: "https://scholar.google.com/citations?hl=fr&user=lBn2-9UAAAAJ"
+  bio: >
+    received a BSc in Physics at University of Helsinki, and a PhD in Computational Linguistics at University of Manchester Institute of Science and Technology (UMIST). She was awarded a JSPS Fellowship for research at Nara Institute of Science and Technology (NAIST), and was Invited Researcher at ATR Research Labs in Kyoto, and Visiting Professor at Doshisha University. She is Adjunct Professor at University of Helsinki and University of Tampere, Finland. She joined CNRS-AIST Joint Research Lab as Adjunct Member in 2026, after eight years at AIST AI Research Lab (AIRC) in Tokyo Waterfront. <br>She is Life Member of Clare Hall at University of Cambridge, member of ELLIS (European AI network of excellence), member of Japanese Society for Artificial Intelligence, and member of ACM and IEEE. In the Spoken Dialogue Systems research community, she served as Secretary-Treasurer of SIGDial for many years, and is a Steering Committee member for the IWSDS international workshop series. <br>Her research concerns human-robot interaction, spoken dialogue systems, multimodal communication (speech, gaze, gestures), generative dialogue models, and creative use of robots in practical applications. She has published widely on these topics, including three books and over 300 research papers. Amongst her most highly cited research contributions are the MUMIN standards for multimodal corpus annotation developed in the Nordic NOMCO project, and her work on eye-gaze in turn-taking done at Doshisha University. She developed Constructive Dialogue Model as a general framework for interaction. With Graham Wilcock she developed WikiTalk, a Wikipedia-based robot dialogue system which won an award in Best Robot Design (Software Category) at International Conference of Social Robotics in 2017. She has led numerous international research projects, most recently heading dialogue research in the e-VITA EU-Japan collaboration project at AIST AIRC. 
 - id: gomez-vargas
   given: Roberto Raymundo
   family: Gomez-Vargas
