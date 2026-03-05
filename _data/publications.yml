@@ -4868,6 +4868,23 @@
   pdf: https://www.mdpi.com/2075-1702/13/12/1142
   lab: jrl
   month: december
+- id: oh:ar:2026
+  year: 2026
+  title: 'Self-augmented robot trajectory: efficient imitation learning via safe self-augmentation
+    with demonstrator-annotated precision'
+  booktitle: Advanced Robotics
+  authors:
+  - family: Oh
+    given: Hanbit
+  - id: murooka
+  - family: Motoda
+    given: Tomohiro
+  - family: Nakajo
+    given: Ryoichi
+  - family: Domae
+    given: Yukiyasu
+  pdf: https://www.tandfonline.com/doi/abs/10.1080/01691864.2026.2631642
+  lab: jrl
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
