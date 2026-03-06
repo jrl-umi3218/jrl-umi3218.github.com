@@ -11439,6 +11439,7 @@
   - id: kanehiro
   - family: Munoz
     given: Luis
+  pdf: https://ieeexplore.ieee.org/document/11404624
   lab: jrl
   month: january 11-january 14
   projects:
@@ -11456,6 +11457,7 @@
   - id: morisawa
   - id: yoshida
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/11404507
   lab: jrl
   month: january 11-january 14
   projects:
@@ -11469,6 +11471,7 @@
   - id: leziart
   - id: morisawa
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/11404486
   lab: jrl
   month: january 11-january 14
   mov: https://youtu.be/_Eb-Qr9MdqA
@@ -11481,6 +11484,7 @@
   - id: vilfroy
   - id: cisneros
   - id: kaminaga
+  pdf: https://ieeexplore.ieee.org/document/11404699
   lab: jrl
   month: january 11-january 14
   mov: https://youtu.be/X9GPzdMK8Ck
@@ -11497,6 +11501,7 @@
   - id: duvinage
   - id: muraccioli
   - id: cisneros
+  pdf: https://ieeexplore.ieee.org/document/11404487
   lab: jrl
   month: january 11-january 14
 - id: singh:sii:2026
@@ -11517,6 +11522,7 @@
   - id: yamanobe
   - family: Domae
     given: Yukiyasu
+  pdf: https://ieeexplore.ieee.org/document/11404482
   lab: jrl
   month: january 11-january 14
 - id: aoyama:amc:2026
