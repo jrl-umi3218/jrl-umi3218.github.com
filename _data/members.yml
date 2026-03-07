@@ -80,6 +80,7 @@
   name-jp: 森澤 光晴
   role: adjunct
   from: 2025-08-01
+  to: 2026-05-31
   past-roles:
     - role: permanent
       from: 2025-04-01
@@ -313,6 +314,7 @@
   family: Caron
   role: deputy-director
   from: 2022-01-01
+  to: 2028-03-31
   past-roles:
     - role: permanent
       to: 2021-12-31
@@ -1055,7 +1057,7 @@
   family: Naamani
   role: phd
   from: 2022-10-01
-  to: 2025-12-31
+  to: 2026-03-25
   nationality: dz
 - id: toumi
   given: Mohamed
@@ -1082,6 +1084,7 @@
   family: Caillot
   role: postdoc
   from: 2025-02-03
+  to: 2026-09-30
   past-roles:
     - role: postdoc
       from: 2023-01-09
@@ -2139,6 +2142,7 @@
   family: Sharma
   role: coming-engineer
   from: 2026-04-01
+  to: 20208-03-31
   nationality: in
 - id: ahmed
   given: Sakib
@@ -2150,15 +2154,15 @@
 - id: euribe
   given: Andree Alonso
   family: Euribe Vargas
-  role: coming-master
+  role: master
   from: 2026-02-16
   to: 2026-05-14
   nationality: pe
 - id: ben
   given: Selim
   family: Ben Abdallah
-  role: coming-master
-  from: 2026-02-22
+  role: master
+  from: 2026-02-02
   to: 2026-07-31
   nationality: fr
 - id: evangelisti
@@ -2195,9 +2199,9 @@
   from: 2026-04-01
   to: 2028-03-31
   nationality: jp
-- id: varma
-  given: Dhanush
-  family: Varma
+- id: penmetsa
+  given: Dhanush Kumar Varma
+  family: Penmetsa
   role: coming-phd
   from: 2026-04-01
   to: 2028-03-31
@@ -2222,6 +2226,35 @@
   given: makoto
   family: sato
   name-jp: 佐藤 真実
+  role: coming-master
+  from: 2026-04-01
+  to: 2028-03-31
+  nationality: jp
+- id: nangsue
+  given: Norawit
+  family: Nangsue
+  role: coming-phd
+  from: 2026-04-01
+  to: 2029-03-31
+  nationality: th
+- id: delooecker
+  given: Thibault
+  family: Delooecker
+  role: coming-master
+  from: 2026-04-01
+  to: 2026-09-30
+  nationality: fr
+- id: kessy
+  given: Suzan
+  family: Kessy
+  role: coming-postdoc
+  from: 2026-04-01
+  to: 2027-03-31
+  nationality: tz
+- id: matsuno
+  given: Yuki
+  family: Matsuno
+  name-jp: 松野 有希
   role: coming-master
   from: 2026-04-01
   to: 2028-03-31
