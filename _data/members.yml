@@ -1947,9 +1947,12 @@
 - id: hernandezvaldez
   given: Eduardo
   family: Hernandez Valdez
-  role: undergraduate
-  from: 2025-08-01
-  to: 2026-02-16
+  past-roles:
+    - role: undergraduate
+      from: 2025-08-01
+      to: 2026-02-16
+  role: alumni
+  from: 2026-02-17
   nationality: mx
   linkedin: "https://www.linkedin.com/in/eduardohdz42/"
   github: "https://github.com/saucesaft"
@@ -2069,9 +2072,12 @@
 - id: erens
   given: Ruud
   family: Erens
-  role: master
-  from: 2025-09-01
-  to: 2026-02-27
+  past-roles:
+    - role: master
+      from: 2025-09-01
+      to: 2026-02-27
+  role: alumni
+  from: 2026-03-01
   nationality: nl
   linkedin: "www.linkedin.com/in/ruuderens"
   bio: >
@@ -2079,9 +2085,12 @@
 - id: castillo
   given: Hugo Daniel
   family: Castillo Ovando
-  role: undergraduate
-  from: 2025-07-23
-  to: 2026-01-23
+  past-roles:
+    - role: undergraduate
+      from: 2025-07-23
+      to: 2026-01-23
+  role: alumni
+  from: 2026-01-24
   nationality: gt
   github: https://github.com/Hugo734
   linkedin: https://www.linkedin.com/in/hugo-daniel-castillo/
@@ -2154,7 +2163,7 @@
 - id: euribe
   given: Andree Alonso
   family: Euribe Vargas
-  role: master
+  role: phd
   from: 2026-02-16
   to: 2026-05-14
   nationality: pe
