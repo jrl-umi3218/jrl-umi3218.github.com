@@ -4416,8 +4416,7 @@
     Scans
   booktitle: Computational Visual Media
   authors:
-  - family: Kessy
-    given: Suzan
+  - id: kessy
   - family: Funatomi
     given: Takuya
   - family: Kushida
@@ -10467,8 +10466,7 @@
   booktitle: IEEE International Conference on Image Processing
   authors:
   - id: carong
-  - family: Kessy
-    given: Suzan
+  - id: kessy
   - family: Mukaigawa
     given: Yasuhiro
   - family: Funatomi
@@ -10649,8 +10647,7 @@
     Compensation Using Two Perpendicular Scans'
   booktitle: IEEE/CVF International Conference on Computer Vision Workshops
   authors:
-  - family: Kessy
-    given: Suzan
+  - id: kessy
   - family: Funatomi
     given: Takuya
   - family: Kitano
@@ -11555,6 +11552,33 @@
   month: march 9-march 11
   projects:
   - impadm
+- id: kang:ral:2026
+  year: 2026
+  title: Event-based 6-DoF object tracking with distance field reaching 130 Hz
+  booktitle: IEEE Robotics and Automation Letters
+  authors:
+  - id: kang
+  - family: Ishikawa
+    given: Ryoichi
+  - id: carong
+  - family: Oishi
+    given: Takeshi
+  pdf: https://hal.science/hal-05542491
+  lab: jrl
+- id: nasir:icra:2026
+  year: 2026
+  title: Transformation-Domain Gaussian Smoothing for translational Direct Visual
+    Servoing
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - id: nasir
+  - id: carong
+  - family: Kachi
+    given: Djemaa
+  - id: aandre
+  pdf: https://hal.science/hal-05491392
+  lab: jrl
+  month: june 1-june 5
 - id: filliung:icra:2024
   year: 2024
   title: An Augmented Catenary Model for Underwater Tethered Robots
