@@ -454,8 +454,8 @@ all for better behavior of DVS-based control laws and hence applicability in a m
     <p>OSS活用とモジュールベースのロボットアーキテクチャの定義を通じて、ロングテール領域にも柔軟かつ低コストで導入可能なロボットシステム開発手法を確立する。OSS や様々なベンダが開発するモジュールを検証するためのスクリーニングシステム、個々のモジュール開発を効率化するツールや検証用リファレンスロボットシステム、その他様々な開発を支援するツール・シミュレータやシミュレーションモデルを開発することで、安心して再利用可能なソフトウェアモジュールや、それらを利用可能な開発基盤を提供し、高度な熟練者でなくとも高品質なロボットシステム開発を可能にするとともに、将来的に構築されるソフトウェアモジュールやツール等の流通基盤上での提供を目指す。
 - id: moral
   title: MORAL
-  longtitle: "MORAL: A Body-Thinking Robot Foundation Model"
-  longtitle-jp: "身体が考えるロボット基盤モデル：MORAL"
+  longtitle: "Robot Contact Reasoning Model Based on Tactile and Force Sensing"
+  longtitle-jp: "触力覚に基づくロボット接触リーズニングモデルの構築"
   pi: murooka
   year-start: "2025.10"
   year-end: 2027.3
@@ -464,7 +464,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   active: true
   partners: []
   description: >
-    <p>Current vision-language-action approaches are dominated by symbolic information such as text, lacking reasoning grounded in body structure or internal states. We propose MORAL as a concept for body-centered robot intelligence, placing bodily representations—including morphology—at the core while integrating modalities such as auditory sensing. This concept envisions embodied reasoning and action generation beyond symbols, aiming for future capabilities such as handling unseen situations, adapting force and motion, and generalizing across different morphologies, with the goal of enabling robots to flexibly operate in diverse real-world tasks in manufacturing.
+    <p>This research is conducted as a subtheme of the JST CREST project "MORAL: Morphoception-Oriented Reasoning and Action with Language" (PI: Yukiyasu Domae). Current vision-language-action approaches are dominated by symbolic information such as text, lacking reasoning grounded in body structure or internal states. We propose MORAL as a concept for body-centered robot intelligence, placing bodily representations—including morphology—at the core while integrating modalities such as auditory sensing. This concept envisions embodied reasoning and action generation beyond symbols, aiming for future capabilities such as handling unseen situations, adapting force and motion, and generalizing across different morphologies, with the goal of enabling robots to flexibly operate in diverse real-world tasks in manufacturing.
   description-jp: >
-    <p>現在の視覚・言語・行動モデルは記号的情報に偏り、身体構造や内部状態に基づく推論を欠いている。本研究では、形態を含む身体表現を中核に据え、聴覚などの身体性モダリティを統合する身体中心の知能モデルMORALを提案する。MORALは記号を超えた身体的推論と行動生成を構想し、未知の状況への対応、力加減の適応、身体構造間の汎化を目指し、多様な実環境タスクに柔軟に適応するロボットの実現を目的とする。
+    <p>本研究は、JST CREST "身体が考えるロボット基盤モデル：MORAL" (代表: 堂前 幸康)のサブテーマとして実施する。現在の視覚・言語・行動モデルは記号的情報に偏り、身体構造や内部状態に基づく推論を欠いている。本研究では、形態を含む身体表現を中核に据え、聴覚などの身体性モダリティを統合する身体中心の知能モデルMORALを提案する。MORALは記号を超えた身体的推論と行動生成を構想し、未知の状況への対応、力加減の適応、身体構造間の汎化を目指し、多様な実環境タスクに柔軟に適応するロボットの実現を目的とする。
 
