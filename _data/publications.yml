@@ -11565,6 +11565,7 @@
     given: Takeshi
   pdf: https://hal.science/hal-05542491
   lab: jrl
+  month: march
 - id: nasir:icra:2026
   year: 2026
   title: Transformation-Domain Gaussian Smoothing for translational Direct Visual
