@@ -48,7 +48,7 @@
   year-end: 2026.3
   funding: JSPS Grant-in-Aid for Early-Career Scientists
   funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 若手研究
-  active: true
+  active: false
   description: >
     <p>We aim to build a robotic system that enables humanoid robots and mobile manipulators to perform tasks that are difficult to execute fully autonomously with conventional planning methods by making complementary use of human teaching through demonstrations, gestures, and speech. In planning methods based on search and optimization, on-site human teaching of task-specific unknown information or information that requires exploration time enables the robot to immediately adapt to a new task and realize its behavior without the need for software modification.</p>
   description-jp: >
@@ -384,7 +384,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   pi: kanehiro
   year-start: 2020.4
   year-end: 2025.3
-  active: true
+  active: false
   partners: [khi]
   description: >
     <p>This Joint Research aims to develop a humanoid-type robot for airplane manufacturing which can relieve human workers from non-added-value tasks.</p>
@@ -396,7 +396,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   pi: cisneros
   year-start: 2023.11
   year-end: 2026.3
-  active: true
+  active: false
   partners: [cmu]
   description: >
     <p>Robots can alleviate the burden of repetitive and dangerous tasks. Such robots need to be autonomous in a low-level but able to follow high-level human guidance. The interface must be such that tasks that take much burden can be semi-automatic (through shared control), leaving the high-level planning to the user through teleoperation. Collaboration of robot learning, and human guidance is necessary for solving unstructured problems. We propose a general shared autonomy framework (not targeted to specific robotic system) that will rely on Large Language Models (LLM) and propositional logic for action inference and predicting user intention, relying on an AI framework for continuously learning how to perform tasks.</p>
@@ -406,7 +406,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   pi: benalleguem
   year-start: 2023.11
   year-end: 2026.3
-  active: true
+  active: false
   partners: [cmu]
   description: >
     <p>This study aims to bridge the gap between precise yet dangerous industrial robots and safer but less efficient collaboration counterparts by developing a unified advanced control and navigation framework. We aim to integrate this research into our existing mc_rtc control environment, building on our current control system used for various robots and tasks. Inspired by the need for industry certifications, our focus is on creating a complete system that enables robots to move and navigate more autonomously and safely in dynamic environments, including around humans. The foundation of this framework relies on theoretical guarantees of stability and convergence provided by control theory, those of optimality and performance provided by numerical optimization techniques, and the reliability provided by sensor fusion. We propose also to establish systematic benchmarking on actual robotic platforms. Finally, we aim for actual industrial applications in physical tasks and improved robot autonomy. The target robots are any multi-body robot (fixed and mobile manipulators, legged robots, etc.)</p>
@@ -416,7 +416,7 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   longtitle-jp: "接触の将来性学習に基づく多点接触動作計画の実現"
   pi: kumagai
   year-start: 2023.4
-  year-end: 2026.3
+  year-end: 2027.3
   funding: JSPS Grant-in-Aid for Early-Career Scientists
   funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 若手研究
   active: true
