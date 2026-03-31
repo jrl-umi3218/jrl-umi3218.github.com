@@ -81,12 +81,22 @@ hl:
       email: masuda.shimpei_*_aist.go.jp
     - id: hong
       name: Cheng Hong
-      grade: 博士課程2年
+      grade: 博士課程3年
       email: cheng.hong_*_aist.go.jp
     - id: li
       name: 李 伊童
-      grade: 博士課程2年
+      grade: 博士課程3年
       email: li.cornel_*_aist.go.jp
+    - id: aoyama
+      name: 青山 祐之介
+      grade: 博士課程1年
+      email: aoyama.y0093_*_aist.go.jp
+    - id: penmetsa
+      name: Dhanush Kumar Varma Penmetsa
+      grade: 博士課程1年
+    - id: nangsue
+      name: Norawit Nangsue
+      grade: 博士課程1年
     - id: nishijima
       name: 西嶌 優
       grade: 修士課程2年
@@ -95,34 +105,47 @@ hl:
       name: 小野 祐
       grade: 修士課程2年
       email: ono.tasuku_*_aist.go.jp
-    - id: aoyama
-      name: 青山 祐之介
-      grade: 修士課程2年
-      email: aoyama.y0093_*_aist.go.jp
-    - id: liu
-      name: Zenong Liu
-      grade: 修士課程2年
-      email: zenong.liu_*_aist.go.jp
     - id: morisaki
       name: Sunio Morisaki
-      grade: 修士課程1年
+      grade: 修士課程2年
       email: sunio.morisakiromero_*_aist.go.jp
     - id: kajitsuka
       name: 梶塚 幸太朗
-      grade: 修士課程1年
+      grade: 修士課程2年
       email: tactile.kajitsuka_*_aist.go.jp
     - id: tanabe
       name: 田邊 克輝
-      grade: 修士課程1年
+      grade: 修士課程2年
       email: tanabe.scone_*_aist.go.jp
     - id: joyapaez
       name: Sebastian Joya Paez
-      grade: 修士課程1年
+      grade: 修士課程2年
       email: s.joyapaez_*_aist.go.jp
     - id: mesaros
       name: David Mesaros
-      grade: 研究生
+      grade: 修士課程1年
       email: mesaros.d_*_aist.go.jp
+    - id: takeshima
+      name: 竹島 諒
+      grade: 修士課程1年
+    - id: furuhata
+      name: 古畑 志高
+      grade: 修士課程1年
+    - id: yamada
+      name: 山田 涼太朗
+      grade: 修士課程1年
+    - id: sato
+      name: 佐藤 真実
+      grade: 修士課程1年
+    - id: matsuno
+      name: 松野 有希
+      grade: 修士課程1年
+    - id: lopez
+      name: Diego López Hernández
+      grade: 修士課程1年
+    - id: liu
+      name: Zenong Liu
+      grade: 博士前期修了
     - id: singh
       name: Rohan Pratap Singh
       grade: 博士後期修了
@@ -136,6 +159,15 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2026/04/01
+    content: >
+      3月には<a href="members/member-evangelisti.html">Chiara Evangelisti</a>, <a href="members/member-gomez-vargas.html">Roberto Raymundo Gomez-Vargas</a>, <a href="members/member-villarreal-trevino.html">Christian Villarreal-Trevino</a>の3名がメンバーに加わり、<a href="members/member-naamani.html">Meriem Naamani</a>, <a href="members/member-liu.html">Zenong Liu</a>, <a href="members/member-farhi-rivasseau.html">Alice Farhi-rivasseau</a>の3名がJRLでの活動を終了しました。<br>
+      AMC2026で2件の発表を行いました。
+      <ul>
+      <li>Estimation-based Control of Forces Applied to Parts of Humanoids That Do Not Have Force Sensors</li>
+      <li>QP-based impact momentum maximization for a hammering task by a humanoid robot</li>
+      </ul>
+      <a href=https://hal.science/hal-05542491>Event-based 6-DoF object tracking with distance field reaching 130 Hz</a>がRALに掲載されました。
   - date: 2026/03/01
     content: >
       2月には<a href="members/member-filliung.html">Martin Filliung</a>, <a href="members/member-jokinen.html">Kristiina Jokinen</a>, <a href="members/member-ben.html">Selim Ben Abdallah</a>, <a href="members/member-euribe.html">Andree Alonso Euribe Vargas</a>の4名がメンバーに加わり、<a href="members/member-hernandezvaldez.html">Eduardo Hernandez Valdez</a>, <a href="members/member-erens.html">Ruud Erens</a>の2名がJRLでの活動を終了しました。<br>

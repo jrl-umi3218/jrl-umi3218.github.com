@@ -81,12 +81,22 @@ hl:
       email: masuda.shimpei_*_aist.go.jp
     - id: hong
       name: Cheng Hong
-      grade: Ph.D. 2nd Year
+      grade: Ph.D. 3rd Year
       email: cheng.hong_*_aist.go.jp
     - id: li
       name: Yitong Li
-      grade: Ph.D. 2nd Year
+      grade: Ph.D. 3rd Year
       email: li.cornel_*_aist.go.jp
+    - id: aoyama
+      name: Yunosuke Aoyama
+      grade: Ph.D. 1st Year
+      email: aoyama.y0093_*_aist.go.jp
+    - id: penmetsa
+      name: Dhanush Kumar Varma Penmetsa
+      grade: Ph.D. 1st Year
+    - id: nangsue
+      name: Norawit Nangsue
+      grade: Ph.D. 1st Year
     - id: nishijima
       name: Yu Nishijima
       grade: master 2nd Year
@@ -95,34 +105,47 @@ hl:
       name: Tasuku Ono
       grade: master 2nd Year
       email: ono.tasuku_*_aist.go.jp
-    - id: aoyama
-      name: Yunosuke Aoyama
-      grade: master 2nd Year
-      email: aoyama.y0093_*_aist.go.jp
-    - id: liu
-      name: Zenong Liu
-      grade: master 2nd Year
-      email: zenong.liu_*_aist.go.jp
     - id: morisaki
       name: Sunio Morisaki
-      grade: master 1st Year
+      grade: master 2nd Year
       email: sunio.morisakiromero_*_aist.go.jp
     - id: kajitsuka
       name: Kotaro Kajitsuka
-      grade: master 1st Year
+      grade: master 2nd Year
       email: tactile.kajitsuka_*_aist.go.jp
     - id: tanabe
       name: Katsuki Tanabe
-      grade: master 1st Year
+      grade: master 2nd Year
       email: tanabe.scone_*_aist.go.jp
     - id: joyapaez
       name: Sebastian Joya Paez
-      grade: master 1st Year
+      grade: master 2nd Year
       email: s.joyapaez_*_aist.go.jp
     - id: mesaros
       name: David Mesaros
-      grade: research student
+      grade: master 1st year
       email: mesaros.d_*_aist.go.jp
+    - id: takeshima
+      name: Ryo Takeshima
+      grade: master 1st year
+    - id: furuhata
+      name: Shikou Furuhata
+      grade: master 1st year
+    - id: yamada
+      name: Suzutaro Yamada
+      grade: master 1st year
+    - id: sato
+      name: Makoto Sato
+      grade: master 1st year
+    - id: matsuno
+      name: Yuki Matsuno
+      grade: master 1st year
+    - id: lopez
+      name: Diego López Hernández
+      grade: master 1st year
+    - id: liu
+      name: Zenong Liu
+      grade: Graduated (Masters)
     - id: singh
       name: Rohan Pratap Singh
       grade: Graduated (Ph.D.)
@@ -136,6 +159,15 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/04e/2026
+    content: >
+      Three members, <a href="members/member-evangelisti.html">Chiara Evangelisti</a>, <a href="members/member-gomez-vargas.html">Roberto Raymundo Gomez-Vargas</a> and <a href="members/member-villarreal-trevino.html">Christian Villarreal-Trevino</a> joind and three members, <a href="members/member-naamani.html">Meriem Naamani</a>, <a href="members/member-liu.html">Zenong Liu</a> and <a href="members/member-farhi-rivasseau.html">Alice Farhi-rivasseau</a> left the JRL in March.
+      Two papers were presented at the AMC2026.
+      <ul>
+      <li>Estimation-based Control of Forces Applied to Parts of Humanoids That Do Not Have Force Sensors</li>
+      <li>QP-based impact momentum maximization for a hammering task by a humanoid robot</li>
+      </ul>
+      <a href=https://hal.science/hal-05542491>Event-based 6-DoF object tracking with distance field reaching 130 Hz</a> was published in the RA-Letters.
   - date: 01/03/2026
     content: >
       Four members, <a href="members/member-filliung.html">Martin Filliung</a>, <a href="members/member-jokinen.html">Kristiina Jokinen</a>, <a href="members/member-ben.html">Selim Ben Abdallah</a> and <a href="members/member-euribe.html">Andree Alonso Euribe Vargas</a> joined and two members, <a href="members/member-hernandezvaldez.html">Eduardo Hernandez Valdez</a> and <a href="members/member-erens.html">Ruud Erens</a> left the JRL in February.<br>
