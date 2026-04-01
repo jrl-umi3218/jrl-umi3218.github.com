@@ -2189,6 +2189,10 @@
   from: 2026-02-02
   to: 2026-07-31
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/selim-ben-abdallah"
+  github: "https://github.com/selim-ba"
+  bio: >
+    is a master’s student in Applied Mathematics at the National Institute of Applied Sciences of Toulouse (INSA Toulouse). He joined CNRS-ASIT Joint Robotics Laboratory to work on semi-autonomous teleoperated grasping based on Imitation Learning. His reserch interests include humanoids, computer vision, and imitation/reinforcement learning.
 - id: evangelisti
   given: Chiara
   family: Evangelisti
