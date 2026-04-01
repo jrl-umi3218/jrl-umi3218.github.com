@@ -1055,9 +1055,12 @@
 - id: naamani
   given: Meriem
   family: Naamani
-  role: phd
-  from: 2022-10-01
-  to: 2026-03-25
+  past-roles:
+    - role: phd
+      from: 2022-10-01
+      to: 2026-03-25
+  role: alumni
+  from: 2026-03-26
   nationality: dz
 - id: toumi
   given: Mohamed
@@ -1259,9 +1262,10 @@
 - id: masuda
   given: Shimpei
   family: Masuda
+  name-jp: 増田 慎平
   role: phd
   from: 2023-04-01
-  to: 2026-03-31
+  to: 2027-03-31
   nationality: jp
   scholar: "https://scholar.google.com/citations?user=Ee4GB30AAAAJ"
   bio: >
@@ -1385,7 +1389,7 @@
   name-jp: 小野 祐
   role: master
   from: 2024-04-01
-  to: 2026-03-31
+  to: 2027-03-31
   nationality: jp
   bio: >
       is a master's student at the University of Tsukuba, and graduated from Yamagata University in 2023 with a Bachelor of Engineering degree. His research interests include calibration and mechanism parameters. 
@@ -1395,7 +1399,7 @@
   name-jp: 西嶌 優
   role: master
   from: 2024-04-01
-  to: 2026-03-31
+  to: 2027-03-31
   nationality: jp
   bio: >
     received his BE degree from the National Institute of Technology (KOSEN), Kumamoto College, Japan, in 2024. He is currently a master's student at the University of Tsukuba, Japan. His research interests include the whole-body motion planning and optimization of humanoid robots.
@@ -1423,9 +1427,12 @@
 - id: liu
   given: Zenong
   family: Liu
-  role: master
-  from: 2024-04-01
-  to: 2026-03-31
+  past-roles:
+    - role: master
+      from: 2024-04-01
+      to: 2026-03-31
+  role: alumni
+  from: 2026-04-01
   nationality: cn
   bio: >
     is currently studying at the University of Tsukuba in Japan, specializing in Intelligent and Mechanical Interaction Systems. He is conducting his master's research at the CNRS-AIST Joint Robotics Laboratory (JRL), focusing on accelerated localization using non-homogeneous maps. His research interests lie in VSLAM (Visual Simultaneous Localization and Mapping) and deep learning, among other computer vision technologies. He aims to explore the intricacies of spatial computation by integrating deep learning with VSLAM.
@@ -1583,9 +1590,13 @@
   given: Yunosuke
   family: Aoyama
   name-jp: 青山 祐之介
-  role: master
-  from: 2024-04-01
-  to: 2026-03-31
+  past-roles:
+    - role: master
+      from: 2024-04-01
+      to: 2026-03-31
+  role: phd
+  from: 2026-04-01
+  to: 2029-03-31
   nationality: jp
   bio: >
       is master student at the University of Tsukuba. He obtained his bachelor's degree at Tokyo Institute of Technology in 2024. His current research focuses on the state estimation for legged robots and in paticular for humanoid robots. He is interested in humanoid robots walking optimization and its theory. He hate vegetables, but these days he eats them out of obligation.
@@ -1961,9 +1972,13 @@
 - id: mesaros
   given: David
   family: Mesaros
-  role: non-degree
-  from: 2025-04-01
-  to: 2026-03-31
+  past-roles:
+    - role: non-degree
+      from: 2025-04-01
+      to: 2026-03-31
+  role: master
+  from: 2026-04-01
+  to: 2028-03-31
   nationality: rs
   bio: >
     is a research student at the University of Tsukuba. He obtained his bachelor's degree at the University of Belgrade School of Electrical Engineering, and his thesis focused on human motion analysis using markerless pose tracking. His current research is focused on humanoid robot motion planning using reinforcement learning.
@@ -2050,9 +2065,13 @@
 - id: lopez
   given: Diego
   family: López Hernández
-  role: engineer
-  from: 2025-08-20
-  to: 2026-03-31
+  past-roles:
+    - role: engineer
+      from: 2025-08-20
+      to: 2026-03-31
+  role: master
+  from: 2026-04-01
+  to: 2028-03-31
   nationality: mx
   linkedin: "https://www.linkedin.com/in/diego-lopez-hz"
   bio: >
@@ -2107,9 +2126,12 @@
 - id: farhi-rivasseau
   given: Alice
   family: Farhi-rivasseau
-  role: master
-  from: 2025-09-30
-  to: 2026-03-31
+  past-roles:
+    - role: master
+      from: 2025-09-30
+      to: 2026-03-31
+  role: alumni
+  from: 2026-04-01
   nationality: fr
 - id: filliung
   given: Martin
@@ -2125,7 +2147,7 @@
 - id: morello
   given: Luca
   family: Morello
-  role: coming-phd
+  role: phd
   from: 2026-04-01
   to: 2029-03-31
   nationality: it
@@ -2146,13 +2168,6 @@
   from: 2025-12-01
   to: 2028-11-30
   nationality: fr
-- id: sharma
-  given: Ekansh
-  family: Sharma
-  role: coming-engineer
-  from: 2026-04-01
-  to: 20208-03-31
-  nationality: in
 - id: ahmed
   given: Sakib
   family: Ahmed
@@ -2177,9 +2192,9 @@
 - id: evangelisti
   given: Chiara
   family: Evangelisti
-  role: coming-master
+  role: master
   from: 2026-03-02
-  to: 2026-08-31
+  to: 2026-09-25
   nationality: it
 - id: jokinen
   given: Kristiina
@@ -2196,7 +2211,7 @@
 - id: gomez-vargas
   given: Roberto Raymundo
   family: Gomez-Vargas
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-03-09
   to: 2026-09-04
   nationality: mx
@@ -2204,14 +2219,14 @@
   given: Ryo
   family: Takeshima
   name-jp: 竹島 諒
-  role: coming-master
+  role: master
   from: 2026-04-01
   to: 2028-03-31
   nationality: jp
 - id: penmetsa
   given: Dhanush Kumar Varma
   family: Penmetsa
-  role: coming-phd
+  role: phd
   from: 2026-04-01
   to: 2028-03-31
   nationality: in
@@ -2219,7 +2234,7 @@
   given: Shikou
   family: Furuhata
   name-jp: 古畑 志高
-  role: coming-master
+  role: master
   from: 2026-04-01
   to: 2028-03-31
   nationality: jp
@@ -2227,36 +2242,36 @@
   given: Suzutaro
   family: Yamada
   name-jp: 山田 涼太朗
-  role: coming-master
+  role: master
   from: 2026-04-01
   to: 2028-03-31
   nationality: jp
 - id: sato
-  given: makoto
-  family: sato
+  given: Makoto
+  family: Sato
   name-jp: 佐藤 真実
-  role: coming-master
+  role: master
   from: 2026-04-01
   to: 2028-03-31
   nationality: jp
 - id: nangsue
   given: Norawit
   family: Nangsue
-  role: coming-phd
+  role: phd
   from: 2026-04-01
   to: 2029-03-31
   nationality: th
 - id: delooecker
   given: Thibault
   family: Delooecker
-  role: coming-master
+  role: master
   from: 2026-04-01
   to: 2026-09-30
   nationality: fr
 - id: kessy
   given: Suzan
   family: Kessy
-  role: coming-postdoc
+  role: postdoc
   from: 2026-04-01
   to: 2027-03-31
   nationality: tz
@@ -2264,7 +2279,28 @@
   given: Yuki
   family: Matsuno
   name-jp: 松野 有希
-  role: coming-master
+  role: master
   from: 2026-04-01
   to: 2028-03-31
   nationality: jp
+- id: villarreal-trevino
+  given:  Christian
+  family: Villarreal-Trevino
+  role: undergraduate
+  from: 2026-03-30
+  to: 2026-06-26
+  nationality: mx
+- id: simon
+  given: Noah-Luc
+  family: Simon
+  role: coming-master
+  from: 2026-04-30
+  to: 2026-10-30
+  nationality: fr
+- id: seron
+  given: Sabrina
+  family: Seron
+  role: coming-master
+  from: 2026-04-30
+  to: 2026-08-26
+  nationality: fr
