@@ -39,7 +39,7 @@ Note 1: Biography given through `bio` will start with a title `Bio` and `firstna
 
 ###### Optional asset
 
-If the user's id is `jrlmember`, the site expects to find a picture of the member at the following location: `/en/assets/members/jrlmember.jpg`. Otherwise it will use an anonymous picture.
+If the user's id is `jrlmember`, the site expects to find a picture of the member at the following location: `/assets/members/jrlmember.jpg`. Otherwise it will use an anonymous picture.
 
 The image should be `150x200` for the sake of the website's layout.
 
