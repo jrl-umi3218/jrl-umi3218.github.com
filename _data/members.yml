@@ -2192,7 +2192,7 @@
   linkedin: "https://www.linkedin.com/in/selim-ben-abdallah"
   github: "https://github.com/selim-ba"
   bio: >
-    is a master’s student in Applied Mathematics at the National Institute of Applied Sciences of Toulouse (INSA Toulouse). He joined CNRS-ASIT Joint Robotics Laboratory to work on semi-autonomous teleoperated grasping based on Imitation Learning. His reserch interests include humanoids, computer vision, and imitation/reinforcement learning.
+    is a master’s student in Applied Mathematics at the National Institute of Applied Sciences of Toulouse (INSA Toulouse). He joined CNRS-AIST Joint Robotics Laboratory to work on semi-autonomous teleoperated grasping based on Imitation Learning. His reserch interests include humanoids, computer vision, and imitation/reinforcement learning.
 - id: evangelisti
   given: Chiara
   family: Evangelisti
@@ -2200,6 +2200,10 @@
   from: 2026-03-02
   to: 2026-09-25
   nationality: it
+  linkedin: "https://www.linkedin.com/in/chiara-evangelisti-695935256?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+  github: "https://github.com/chiaraevangelisti01"
+  bio: >
+    is a master’s student in Robotics at Ecole Polytechnique Fédérale de Lausanne (EPFL) in Switzerland. She joined CNRS-AIST Joint Robotics Laboratory to work on soft objects humanoid manipulation. Her reserch interests include reinforcement learning and other data-driven approaches for legged robots control. 
 - id: jokinen
   given: Kristiina
   family: Jokinen
