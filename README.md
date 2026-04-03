@@ -173,6 +173,7 @@ In order to test your modifications locally before pushing to GitHub, install
 `jekyll` according to the instructions in https://jekyllrb.com/docs/installation/, and run the following command at the root of the project folder:
 
 ```sh
+$ bundle install
 $ bundle exec jekyll server --safe --trace
 ```
 **Note** on Ubuntu 18.04 and earlier, you will need probably to uninstall the Jekyll version installed by apt. <br/>

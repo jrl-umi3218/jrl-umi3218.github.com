@@ -1,4 +1,4 @@
-page-not-found: Page Not Found
+page_not_found: Page Not Found
 lab-name: CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
 langs:
   jp: Japanese
@@ -6,7 +6,7 @@ pages:
   home: Home
   news: News
   projects: Projects
-  past-projects: Past projects
+  past_projects: Past projects
   members: Members
   robots: Robots
   publications: Publications
@@ -63,7 +63,7 @@ publications:
   incomplete-warning: The publication list may not be complete, especially for publications prior to 2017. We are working on updating it.
 hl:
   title: Humanoid Lab (University of Tsukuba)
-  title-short: Humanoid Lab
+  title_short: Humanoid Lab
   link: https://www.tsukuba.ac.jp/en/academics/g-courses-cooperative/
   link-name: University of Tsukuba - Cooperative Graduate School System
   professor: Professor

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% capture crumbs %}{% t pages.news %}{% endcapture %}
+{% capture crumbs %}{{ site.data[site.active_lang].pages.news }}{% endcapture %}
 {%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
 
 <div class="container">

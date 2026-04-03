@@ -25,27 +25,27 @@
 {%- comment -%} Subtitle: role + optional website link {%- endcomment -%}
 {%- capture subtitle -%}
   {%- case member.role -%}
-    {%- when "director" %}{% t roles.director %}
-    {%- when "deputy-director" %}{% t roles.deputy-director %}
-    {%- when "permanent" %}{% t roles.permanent-researcher %}
-    {%- when "adjunct" %}{% t roles.adjunct-member %}
-    {%- when "postdoc" %}{% t roles.postdoctoral-fellow %}
-    {%- when "engineer" %}{% t roles.research-engineer %}
-    {%- when "phd" %}{% t roles.phd-student %}
-    {%- when "master" %}{% t roles.master-student %}
-    {%- when "undergraduate" %}{% t roles.undergraduate-student %}
-    {%- when "non-degree" %}{% t roles.non-degree-student %}
-    {%- when "alumni", "alumni-star" %}{% t roles.alumni %}
+    {%- when "director" %}{{ site.data[site.active_lang].roles.director }}
+    {%- when "deputy-director" %}{{ site.data[site.active_lang].roles.deputy-director }}
+    {%- when "permanent" %}{{ site.data[site.active_lang].roles.permanent-researcher }}
+    {%- when "adjunct" %}{{ site.data[site.active_lang].roles.adjunct-member }}
+    {%- when "postdoc" %}{{ site.data[site.active_lang].roles.postdoctoral-fellow }}
+    {%- when "engineer" %}{{ site.data[site.active_lang].roles.research-engineer }}
+    {%- when "phd" %}{{ site.data[site.active_lang].roles.phd-student }}
+    {%- when "master" %}{{ site.data[site.active_lang].roles.master-student }}
+    {%- when "undergraduate" %}{{ site.data[site.active_lang].roles.undergraduate-student }}
+    {%- when "non-degree" %}{{ site.data[site.active_lang].roles.non-degree-student }}
+    {%- when "alumni", "alumni-star" %}{{ site.data[site.active_lang].roles.alumni }}
   {%- endcase -%}
 {%- endcapture -%}
 
 {%- if member.website -%}
-  {%- capture subtitle -%}<br/>{{subtitle}} &mdash; <a href="{{member.website}}" target="_blank">{% t member-page.personal-website %} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
+  {%- capture subtitle -%}<br/>{{subtitle}} &mdash; <a href="{{member.website}}" target="_blank">{{ site.data[site.active_lang].member-page.personal-website }} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
 {%- else -%}
   {%- capture subtitle -%}<br/>{{subtitle}}{%- endcapture -%}
 {%- endif -%}
 
-{%- capture crumbs -%}<a href="{{ site.baseurl }}/members.html">{% t pages.members %}</a>{%- endcapture -%}
+{%- capture crumbs -%}<a href="{{ site.baseurl }}/members.html">{{ site.data[site.active_lang].pages.members }}</a>{%- endcapture -%}
 {%- assign crumbs = crumbs | split: "," -%}
 {%- include breadcrumbs.html crumbs=crumbs breadcrumbs=member_full_name title=member_full_name subtitle=subtitle -%}
 
@@ -106,7 +106,7 @@
 
     <div class="col-md-7 col-12">
       {%- if member.bio -%}
-        <h3>{% t member-page.bio %}</h3>
+        <h3>{{ site.data[site.active_lang].member-page.bio }}</h3>
         <p>
           {%- if site.lang == "jp" and member["bio-jp"] -%}
             <strong>{{ member_full_name }}は</strong>{{ member["bio-jp"] }}
@@ -121,7 +121,7 @@
       {%- endif -%}
 
       {%- if member.research -%}
-        <h3>{% t member-page.research-interests %}</h3>
+        <h3>{{ site.data[site.active_lang].member-page.research-interests }}</h3>
         <p>
           {%- if site.lang == "jp" and member["research-jp"] -%}
             {{ member["research-jp"] }}
@@ -137,7 +137,7 @@
   {%- if member.videos -%}
     <div class="row mt-4">
       <div class="col-12">
-        <h3>{% t member-page.videos %}</h3>
+        <h3>{{ site.data[site.active_lang].member-page.videos }}</h3>
       </div>
       {%- for video in member.videos -%}
         <div class="col-sm-6 col-lg-3 text-center mb-3">
@@ -157,16 +157,16 @@
   <div class="row mt-4">
     <div class="col-12">
       {%- if member.selected_publications -%}
-        <h3>{% t member-page.selected-publications %}</h3>
+        <h3>{{ site.data[site.active_lang].member-page.selected-publications }}</h3>
         {%- include publications_table.html publications_id=member.selected_publications -%}
 
-        <h3 class="mt-4">{% t member-page.all-publications %} <a id="all_pubs_button" class="btn btn-sm btn-link" data-bs-toggle="collapse" href="#all_pubs">{% t member-page.show %}</a></h3>
+        <h3 class="mt-4">{{ site.data[site.active_lang].member-page.all-publications }} <a id="all_pubs_button" class="btn btn-sm btn-link" data-bs-toggle="collapse" href="#all_pubs">{{ site.data[site.active_lang].member-page.show }}</a></h3>
         <div id="all_pubs" class="collapse">
           {%- include publications_table.html member_id=member.id -%}
         </div>
       {%- else -%}
-        <h3>{% t pages.publications %}</h3>
-        <div class="alert alert-info">{% t publications.incomplete-warning %}</div>
+        <h3>{{ site.data[site.active_lang].pages.publications }}</h3>
+        <div class="alert alert-info">{{ site.data[site.active_lang].publications.incomplete-warning }}</div>
         {%- include publications_table.html member_id=member.id -%}
       {%- endif -%}
     </div>

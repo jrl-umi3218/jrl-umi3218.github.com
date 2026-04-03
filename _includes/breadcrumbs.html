@@ -8,7 +8,7 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-2">
             <li class="breadcrumb-item">
-              <a href="{{ site.baseurl }}/index.html">{% t pages.home %}</a>
+              <a href="{{ site.baseurl }}/index.html">{{ site.data[site.active_lang].pages.home }}</a>
             </li>
 
             {%- if include.crumbs -%}

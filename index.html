@@ -90,10 +90,10 @@ layout: default
     <div class="col-md-12">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4>{% t index.overview %}</h4>
+          <h4>{{ site.data[site.active_lang].index.overview }}</h4>
         </div>
         <div class="panel-body">
-          {% translate_file index-overview.html %}
+          {% include {{ site.active_lang }}/index-overview.html %}
         </div>
       </div>
     </div>
@@ -103,7 +103,7 @@ layout: default
   <!-- Projects Section -->
   <div class="row row-centered">
     <div class="col-lg-12 col-centered">
-      <h2 class="page-header">{% t index.projects %}</h2>
+      <h2 class="page-header">{{ site.data[site.active_lang].index.projects }}</h2>
     </div>
     {%- assign sorted_projects = site.data.projects | sort: 'id' -%}
     {%- for project in sorted_projects -%}
