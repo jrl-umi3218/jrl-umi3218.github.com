@@ -11418,6 +11418,7 @@
   authors:
   - id: li
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/11404449
   lab: jrl
   month: january 11-january 14
   mov: https://youtu.be/oWgjga72rVU
@@ -11532,6 +11533,7 @@
   - id: benalleguem
   - id: demont
   - id: kanehiro
+  pdf: https://ieeexplore.ieee.org/document/11435849
   lab: jrl
   month: march 9-march 11
   projects:
@@ -11548,6 +11550,7 @@
   - id: cisneros
   - id: benalleguem
   - id: benalleguea
+  pdf: https://ieeexplore.ieee.org/document/11435814
   lab: jrl
   month: march 9-march 11
   projects:
