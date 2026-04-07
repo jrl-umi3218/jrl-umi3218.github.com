@@ -2308,7 +2308,7 @@
   website: "https://christianrvillarrealt.github.io/"
   github: "https://github.com/christianrvillarrealt"
   bio: > 
-    Christian Raúl Villarreal Treviño is a senior undergraduate student pursuing a B.Eng in Robotics and Digital Systems at Tecnológico de Monterrey (ITESM) in the city of Monterrey, Nuevo León, Mexico. She joined CNRS-AIST Joint Robotics Laboratory as a Humanoids Research Intern to work on the migration of a humanoid avatar teleoperation system from ROS1 to ROS2 and from Unity to Unreal Engine, as well as integrate new features to improve the system. His research interests include humanoid robotics, soft robotics, and sustainable robotics.
+    Christian Raúl Villarreal Treviño is a senior undergraduate student pursuing a B.Eng in Robotics and Digital Systems at Tecnológico de Monterrey (ITESM) in the city of Monterrey, Nuevo León, Mexico. He joined CNRS-AIST Joint Robotics Laboratory as a Humanoids Research Intern to work on the migration of a humanoid avatar teleoperation system from ROS1 to ROS2 and from Unity to Unreal Engine, as well as integrate new features to improve the system. His research interests include humanoid robotics, soft robotics, and sustainable robotics.
 - id: simon
   given: Noah-Luc
   family: Simon
