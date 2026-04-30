@@ -899,10 +899,10 @@
       from: 2022-05-06
       to: 2025-05-31
   nationality: fr
-  linkedin: "https://fr.linkedin.com/in/mathieu-celerier"
+  linkedin: "https://linkedin.com/in/mathieu-celerier"
   github: "https://github.com/mathieu-celerier"
   bio: >
-    obtained his M.Sc in Microelectronic and Automation Engineering in 2021 from Polytech Montpellier Engineering School. He carried out is final Engineering School Internship as Research Engineer, working on Dual Arm Manipulation of Deformable Objects at Laboratory of Informatics, Robotics and Microelectronics of Montpellier (LIRMM), France. Currently, he is a Ph.D. student in CNRS-AIST JRL (Joint Robotics Laboratory) at National Institute of Advanced Industrial Science and Technology (AIST) in Tsukuba, Japan, with University of Montpellier (UM), France, through a collaboration between UM and AIST. His research interest includes Semi Collaborative Physical Human-Robot Interaction, Human centered perception of Physical Human-Robot Interaction.
+    obtained his M.Sc. in Microelectronics and Automation Engineering in 2021 from Polytech Montpellier Engineering School. He carried out his final engineering internship as a Research Engineer, working on dual-arm manipulation of deformable objects at the Laboratoire d’Informatique, de Robotique et de Microélectronique de Montpellier (LIRMM), France. He received his Ph.D. in Robotics from the University of Montpellier, France, conducted in collaboration between the University of Montpellier and the CNRS-AIST Joint Robotics Laboratory (JRL) at the National Institute of Advanced Industrial Science and Technology (AIST), Japan. His doctoral research focused on physical human–robot interaction, with an emphasis on sustained-contact interaction and control for safe and intuitive human–robot collaboration. He is currently a Postdoctoral Researcher at the CNRS-AIST Joint Robotics Laboratory (JRL), National Institute of Advanced Industrial Science and Technology (AIST), in Tsukuba, Japan. His current research explores Physical AI approaches, including reinforcement learning (RL) and imitation learning (IL), for learning interaction-aware behaviors in physical human–robot interaction, with a focus on preserving safety and stability.
 - id: kodama
   given: Hiroto
   family: Kodama
