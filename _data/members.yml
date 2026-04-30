@@ -2182,6 +2182,10 @@
   from: 2026-02-16
   to: 2026-05-14
   nationality: pe
+  linkedin: "https://www.linkedin.com/in/andree-euribe-vargas-594836110/"
+  bio: >
+    received his engineering degree from the Pontificia Universidad Católica del Perú (PUCP), where he was involved in the Mechatronics Engineering program and participated in research on robotic system design. He is currently pursuing a Ph.D. at the Universidad Nacional Toribio Rodríguez de Mendoza. His work focuses on the integration of IoT, robotics, and smart systems, with applications in agriculture, environmental monitoring, and automation. His research interests include autonomous robotic systems, sensor integration, IoT architectures, and applied artificial intelligence for real-world deployments.
+
 - id: ben
   given: Selim
   family: Ben Abdallah
@@ -2223,6 +2227,11 @@
   from: 2026-03-09
   to: 2026-09-04
   nationality: mx
+  linkedin: "https://www.linkedin.com/in/roberto-raymundo"
+  github: "https://github.com/raymundo140"
+  website: "https://raymundo140.github.io/"
+  bio: >
+    is a Robotics and Digital Systems Engineering student at Tecnológico de Monterrey in Monterrey, Mexico. His work focuses on intelligent robotics and artificial intelligence, with interests in autonomous systems, robot perception, control, and learning-based methods for real-world robotic platforms.
 - id: takeshima
   given: Ryo
   family: Takeshima
