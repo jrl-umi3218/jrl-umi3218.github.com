@@ -94,9 +94,11 @@ hl:
     - id: penmetsa
       name: Dhanush Kumar Varma Penmetsa
       grade: 博士課程1年
+      email: d-penmetsa_*_aist.go.jp
     - id: nangsue
       name: Norawit Nangsue
       grade: 博士課程1年
+      email: nangsue.n_*_aist.go.jp
     - id: nishijima
       name: 西嶌 優
       grade: 修士課程2年
@@ -128,21 +130,27 @@ hl:
     - id: takeshima
       name: 竹島 諒
       grade: 修士課程1年
+      email:  takeshima.tsukuba_*_aist.go.jp
     - id: furuhata
       name: 古畑 志高
       grade: 修士課程1年
+      email: furuhata.s_*_aist.go.jp
     - id: yamada
       name: 山田 涼太朗
       grade: 修士課程1年
+      email: yamada.suzutaro_*_aist.go.jp
     - id: sato
       name: 佐藤 真実
       grade: 修士課程1年
+      email: sato.311020_*_aist.go.jp
     - id: matsuno
       name: 松野 有希
       grade: 修士課程1年
+      email: tukuba.matsuno_*_aist.go.jp
     - id: lopez
       name: Diego López Hernández
       grade: 修士課程1年
+      email: d.lopezhernandez_*_aist.go.jp
     - id: liu
       name: Zenong Liu
       grade: 博士前期修了
@@ -159,6 +167,9 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2026/05/01
+    content: >
+      4月には<a href="members/member-morello.html">Luca Morello</a>, <a href="members/member-takeshima.html">Ryo Takeshima</a>, <a href="members/member-penmetsa.html">Dhanush Kumar Varma Penmetsa</a>, <a href="members/member-furuhata.html">Shikou Furuhata</a>, <a href="members/member-yamada.html">Suzutaro Yamada</a>, <a href="members/member-sato.html">Makoto Sato</a>, <a href="members/member-nangsue.html">Norawit Nangsue</a>, <a href="members/member-delooecker.html">Thibault Delooecker</a>, <a href="members/member-kessy.html">Suzan Kessy</a>, <a href="members/member-matsuno.html">Yuki Matsuno</a>, <a href="members/member-simon.html">Noah-Luc Simon</a>, <a href="members/member-seron.html">Sabrina Seron</a>の12名がメンバーに加わりました。
   - date: 2026/04/01
     content: >
       3月には<a href="members/member-evangelisti.html">Chiara Evangelisti</a>, <a href="members/member-gomez-vargas.html">Roberto Raymundo Gomez-Vargas</a>, <a href="members/member-villarreal-trevino.html">Christian Villarreal-Trevino</a>の3名がメンバーに加わり、<a href="members/member-naamani.html">Meriem Naamani</a>, <a href="members/member-liu.html">Zenong Liu</a>, <a href="members/member-farhi-rivasseau.html">Alice Farhi-rivasseau</a>の3名がJRLでの活動を終了しました。<br>
