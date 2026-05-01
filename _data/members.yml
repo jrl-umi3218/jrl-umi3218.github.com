@@ -1477,7 +1477,7 @@
   family: Leziart
   role: postdoc
   from: 2024-05-09
-  to: 2026-05-08
+  to: 2026-06-16
   nationality: fr
   website: "https://paleziart.github.io/"
   scholar: "https://scholar.google.com/citations?user=AzZwyIUAAAAJ"
@@ -2330,14 +2330,49 @@
 - id: simon
   given: Noah-Luc
   family: Simon
-  role: coming-master
+  role: master
   from: 2026-04-30
   to: 2026-10-30
   nationality: fr
 - id: seron
   given: Sabrina
   family: Seron
-  role: coming-master
+  role: master
   from: 2026-04-30
   to: 2026-08-26
+  nationality: fr
+- id: verilhac
+  given: Oscar
+  family: Verilhac
+  role: coming-master
+  from: 2026-05-25
+  to: 2027-05-06
+  nationality: fr
+- id: grajales-ramirez
+  given: Jose
+  family: Grajales Ramirez
+  role: coming-undergraduate
+  from: 2026-05-12
+  to: 2027-08-10
+  nationality: mx
+- id: benalleguean
+  given: Anisse
+  family: Benallegue
+  role: coming-undergraduate
+  from: 2026-06-29
+  to: 2026-08-28
+  nationality: fr
+- id: mouaddib
+  given: El Mustapha
+  family: Mouaddib
+  role: coming-deputy-director
+  from: 2026-09-01
+  to: 2029-08-31
+  nationality: fr
+- id: tamadazte
+  given: Brahim
+  family: Tamadazte
+  role: coming-permanent
+  from: 2026-09-01
+  to: 2027-08-31
   nationality: fr
