@@ -108,7 +108,7 @@
   year-start: 2023
   year-end: 2026
   funding: JSPS
-  active: true
+  active: false
   partners: [ttech]
   description: "
 <p>This project, led by AIST's AIRC whose CNRS-AIST JRL is partner together with Tokyo Tech aims at leveraging the large learning models for 3D human learning, High-level object recognition and robot exploration, learned feature maps-based visual servoing.</p>
