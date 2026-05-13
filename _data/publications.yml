@@ -11221,7 +11221,6 @@
     given: Jordan
   - id: kempf
   pdf: https://hal.science/hal-05124722
-  lab: jrl
   month: september 8-september 13
 - id: puigt:gretsi:2025
   year: 2025
@@ -11569,6 +11568,34 @@
   pdf: https://hal.science/hal-05542491
   lab: jrl
   month: march
+- id: murooka:access:2026
+  year: 2026
+  title: 'RoboManipBaselines: A Unified Framework for Imitation Learning in Robotic
+    Manipulation across Real and Simulation Environments'
+  booktitle: IEEE Access
+  authors:
+  - id: murooka
+  - family: Motoda
+    given: Tomohiro
+  - family: Nakajo
+    given: Ryoichi
+  - family: Oh
+    given: Hanbit
+  - family: Makihara
+    given: Koshi
+  - family: Shirai
+    given: Keisuke
+  - family: Ogata
+    given: Tetsuya
+  - family: Domae
+    given: Yukiyasu
+  pdf: https://ieeexplore.ieee.org/document/11511708
+  lab: jrl
+  projects:
+  - foundation
+  - moral
+  - kakenhi_wakate2022_murooka
+  mov: https://youtu.be/0HtEtiqk728
 - id: nasir:icra:2026
   year: 2026
   title: Transformation-Domain Gaussian Smoothing for translational Direct Visual
@@ -11583,6 +11610,58 @@
   pdf: https://hal.science/hal-05491392
   lab: jrl
   month: june 1-june 5
+- id: hermus:icra:2026
+  year: 2026
+  title: Impact-Aware Dual-Arm Manipulation
+  booktitle: IEEE International Conference on Robotics and Automation
+  authors:
+  - family: Hermus
+    given: James
+  - family: Bombile
+    given: Michael
+  - family: Van Steen
+    given: Jari
+  - family: Jeandupeux
+    given: Elise
+  - family: Zermane
+    given: Ahmed
+  - family: Melone
+    given: Alessandro
+  - family: Troebinger
+    given: Mario
+  - family: Naceri
+    given: Abdeldjallil
+  - family: Lacoursière
+    given: Claud
+  - family: De Looijer
+    given: Stijn
+  - family: Haddadin
+    given: Sami
+  - id: kheddar
+  - family: Saccon
+    given: Alessandro
+  - family: Billard
+    given: Aude
+  lab: jrl
+  month: june 1-june 5
+  projects:
+  - iam
+- id: paula:icpr:2026
+  year: 2026
+  title: 'FuseDPT: Multi-scale and Multi-Projection Model for Learning Depth in 360
+    Degree'
+  booktitle: IAPR/IEEE International Conference on Pattern Recognition
+  authors:
+  - id: paula
+  - id: imamoglu
+  - id: carong
+  - id: aandre
+  pdf: https://hal.science/hal-05583714
+  lab: jrl
+  month: august 17-august 22
+  projects:
+  - antnoid
+  prj: https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-antnoid.html
 - id: filliung:icra:2024
   year: 2024
   title: An Augmented Catenary Model for Underwater Tethered Robots
