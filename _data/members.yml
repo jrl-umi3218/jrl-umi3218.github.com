@@ -78,10 +78,12 @@
   given: Mitsuharu
   family: Morisawa
   name-jp: 森澤 光晴
-  role: adjunct
-  from: 2025-08-01
-  to: 2026-05-31
+  role: alumni
+  from: 2026-06-01
   past-roles:
+    - role: adjunct
+      from: 2025-08-01
+      to: 2026-05-31
     - role: permanent
       from: 2025-04-01
       to: 2025-07-31
@@ -1355,7 +1357,7 @@
   family: Kempf
   role: phd
   from: 2023-09-01
-  to: 2026-08-31
+  to: 2026-09-30
   nationality: fr
   linkedin: "www.linkedin.com/in/dorian-kempf-0b694b1b3"
   github: "https://github.com/Doriankmf"
@@ -2079,9 +2081,12 @@
 - id: ruble
   given: Louis
   family: Ruble
-  role: master
-  from: 2025-09-01
-  to: 2026-04-30
+  role: alumni
+  from: 2026-05-01
+  past-roles:
+    - role: master
+      from: 2025-09-01
+      to: 2026-04-30
   nationality: fr
   linkedin: https://www.linkedin.com/in/louis-rubl%C3%A9-49b596225/
   github: https://github.com/sioulruble
@@ -2178,9 +2183,12 @@
 - id: euribe
   given: Andree Alonso
   family: Euribe Vargas
-  role: phd
-  from: 2026-02-16
-  to: 2026-05-14
+  role: alumni
+  from: 2026-05-15
+  past-roles:
+    - role: phd
+      from: 2026-02-16
+      to: 2026-05-14
   nationality: pe
   linkedin: "https://www.linkedin.com/in/andree-euribe-vargas-594836110/"
   bio: >
@@ -2344,14 +2352,14 @@
 - id: verilhac
   given: Oscar
   family: Verilhac
-  role: coming-master
+  role: master
   from: 2026-05-25
   to: 2027-05-06
   nationality: fr
 - id: grajales-ramirez
   given: Jose
   family: Grajales Ramirez
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-05-12
   to: 2027-08-10
   nationality: mx
@@ -2367,12 +2375,97 @@
   family: Mouaddib
   role: coming-deputy-director
   from: 2026-09-01
-  to: 2029-08-31
+  to: 2028-08-31
   nationality: fr
 - id: tamadazte
   given: Brahim
   family: Tamadazte
   role: coming-permanent
   from: 2026-09-01
-  to: 2027-08-31
+  to: 2028-08-31
   nationality: fr
+- id: duron
+  given: Raphael
+  family: Duron
+  role: coming-phd
+  from: 2026-08-01
+  to: 2029-07-31
+  nationality: fr
+- id: natsume
+  given: Kohei
+  family: Natsume
+  name-jp: 夏目 浩平
+  role: admin
+  from: 2026-06-01
+  to: 2026-11-30
+  nationality: jp
+- id: martinez-vilchis
+  given: Irene
+  family: Martinez Vilchis 
+  role: coming-undergraduate
+  from: 2026-07-17
+  to: 2026-12-17
+  nationality: mx
+- id: tovar-mendoza
+  given: Hector
+  family: Tovar Mendoza
+  role: coming-undergraduate
+  from: 2026-07-17
+  to: 2026-12-17
+  nationality: mx
+- id: dominguez-morales
+  given: Jose
+  family: Dominguez Morales
+  role: coming-undergraduate
+  from: 2026-07-17
+  to: 2026-12-17
+  nationality: mx
+- id: malagamba-montejo
+  given: Gilberto
+  family: Malagamba Montejo
+  role: coming-undergraduate
+  from: 2026-07-17
+  to: 2026-12-17
+  nationality: mx
+- id: fregoso-jimenez
+  given: Gerardo
+  family: Fregoso Jimenez
+  role: coming-undergraduate
+  from: 2026-07-17
+  to: 2026-12-17
+  nationality: mx
+- id: maldonado-mata
+  given: Abraham
+  family: Maldonado Mata
+  role: coming-undergraduate
+  from: 2026-07-17
+  to: 2026-12-17
+  nationality: mx
+- id: barrabes
+  given: Raphael
+  family: Barrabes
+  role: coming-master
+  from: 2026-07-17
+  to: 2026-12-17
+  nationality: fr
+- id: tordjman-levavasseu
+  given: Valentin
+  family: Tordjman-Levavasseu
+  role: phd
+  from: 2026-05-20
+  to: 2026-07-01
+  nationality: fr
+- id: gomez-gonzalez
+  given: Jesus
+  family: Gomez Gonzalez
+  role: coming-engineer
+  from: 2026-08-01
+  to: 2027-03-31
+  nationality: co
+- id: benmoussat
+  given: Mouad
+  family: Benmoussat
+  role: coming-master
+  from: 2026-06-25
+  to: 2028-03-31
+  nationality: dz
