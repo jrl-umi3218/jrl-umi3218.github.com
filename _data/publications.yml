@@ -3750,6 +3750,7 @@
   month: april
   projects:
   - iam
+  mov: https://www.youtube.com/watch?v=dPLNfl7knF8
 - id: guadarramaolvera:ral:2022
   year: 2022
   title: Preemptive Foot Compliance to Lower Impact During Biped Robot Walking Over
@@ -3877,6 +3878,7 @@
   month: july
   projects:
   - iam
+  mov: https://www.youtube.com/watch?v=3UJTVu1EZmk
 - id: katayama:ar:2023
   year: 2023
   title: 'Model predictive control of legged and humanoid robots: models and algorithms'
@@ -4299,6 +4301,7 @@
   month: march
   projects:
   - iam
+  mov: https://www.youtube.com/watch?v=A8N0C3mE3TM
 - id: osorio:sensors:2024
   year: 2024
   title: A Generative Model to Embed Human Expressivity into Robot Motions
@@ -10259,6 +10262,7 @@
   month: may 30-june 5
   projects:
   - iam
+  mov: https://www.youtube.com/watch?v=juynq6x9JJ8
 - id: singh:icra:2021
   year: 2021
   title: Rapid Pose Label Generation through Sparse Representation of Unknown Objects
