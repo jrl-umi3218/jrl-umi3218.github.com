@@ -72,7 +72,7 @@
   longtitle: "Ant'noid: ant visual memory for humanoid robot autonomous navigation"
   pi: carong
   year-start: 2024
-  year-end: 2028
+  year-end: 2029
   funding: ANR
   active: true
   partners: [cnrs,amu]
@@ -106,9 +106,9 @@
   longtitle: "Z: Zero-Shot Learning of Real-World AI Connecting Large-Scale Learning Models and 3D Virtual Space"
   pi: yoshiyasu
   year-start: 2023
-  year-end: 2026
+  year-end: 2027
   funding: JSPS
-  active: false
+  active: true
   partners: [ttech]
   description: "
 <p>This project, led by AIST's AIRC whose CNRS-AIST JRL is partner together with Tokyo Tech aims at leveraging the large learning models for 3D human learning, High-level object recognition and robot exploration, learned feature maps-based visual servoing.</p>
