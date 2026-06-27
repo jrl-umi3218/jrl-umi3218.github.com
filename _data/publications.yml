@@ -11667,6 +11667,30 @@
   month: june 1-june 5
   projects:
   - iam
+- id: noel:ark:2026
+  year: 2026
+  title: Coaxial Multi-Channel Rotary Transmission Device
+  booktitle: International Symposium on Advances in Robot Kinematics
+  authors:
+  - id: noel
+  - id: cisneros
+  - id: kaminaga
+  - id: kanehiro
+  lab: jrl
+  month: june 28-july 2
+- id: tako:aim:2026
+  year: 2026
+  title: Wedge-Jamming Mechanism for String Configuration
+  booktitle: IEEE/ASME International Conference on Advanced Intelligent Mechatronics
+  authors:
+  - id: tako
+  - family: Jin
+    given: Takanori
+  - id: kaminaga
+  - family: Kobayashi
+    given: Taisuke
+  lab: jrl
+  month: july 7-july 10
 - id: paula:icpr:2026
   year: 2026
   title: 'FuseDPT: Multi-scale and Multi-Projection Model for Learning Depth in 360
