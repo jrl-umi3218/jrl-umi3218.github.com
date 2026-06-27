@@ -719,7 +719,7 @@
 - id: vidal:ast:2008
   year: 2008
   title: Synthesis and Characterization of IPNs for Electrochemical Actuators
-  booktitle: Advances in Science and Technology
+  booktitle: Aerospace Science and Technology
   authors:
   - family: Vidal
     given: Frederic
@@ -4901,6 +4901,8 @@
     given: Yukiyasu
   pdf: https://www.tandfonline.com/doi/abs/10.1080/01691864.2026.2631642
   lab: jrl
+  projects:
+  - foundation
 - id: yoshida:iros:1999
   year: 1999
   title: Miniaturized Self-reconfigurable Modular Machine using Shape Memory Alloy
@@ -11600,6 +11602,21 @@
   - moral
   - kakenhi_wakate2022_murooka
   mov: https://youtu.be/0HtEtiqk728
+- id: laribi:ast:2026
+  year: 2026
+  title: QP-based control of an underactuated aerial manipulator under constraints
+  booktitle: Aerospace Science and Technology
+  authors:
+  - family: Laribi
+    given: Nesserine
+  - family: Mokhtari
+    given: Mohammed
+  - id: benalleguea
+  - family: El-Hadri
+    given: Abdelhafid
+  - id: benalleguem
+  pdf: https://www.sciencedirect.com/science/article/pii/S127096382601223X
+  lab: jrl
 - id: nasir:icra:2026
   year: 2026
   title: Transformation-Domain Gaussian Smoothing for translational Direct Visual
