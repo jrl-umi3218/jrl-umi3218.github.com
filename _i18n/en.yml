@@ -167,9 +167,21 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/07/2026
+    content: >
+      Three members, <a href="members/member-natsume.html">Kohei Natsume</a>, <a href="members/member-benmoussat.html">Mouad Benmoussat</a> and <a href="members/member-benalleguean.html">Anisse Benallegue</a> joind and <a href="members/member-villarreal-trevino.html">Christian Raúl Villarreal-Treviño</a> left the JRL in June.<br>
+      Two papers were presented at the ICRA2026.
+      <ul>
+      <li><a href=https://hal.science/hal-05491392>Transformation-Domain Gaussian Smoothing for translational Direct Visual Servoing</a></li>
+      <li>Impact-Aware Dual-Arm Manipulation</li>
+      </ul>
+      One paper was presented at the ARK2026.
+      <ul>
+      <li>Coaxial Multi-Channel Rotary Transmission Device</li>
+      </ul>
   - date: 01/06/2026
     content: >
-      Three members, <a href="members/member-grajales-ramirez.html">Jose Grajales Ramirez</a>, <a href="members/member-tordjman-levavasseu.html">Valentin Tordjman-Levavasseu</a> and <a href="members/member-verilhac.html">Oscar Verilhac</a> joined and two members, <a href="members/member-euribe.html">Andree Alonso Euribe Vargas</a> and <a href="members/member-morisawa.html">Mitsuharu Morisawa</a> left the JRL in May.
+      Three members, <a href="members/member-grajales-ramirez.html">Jose Grajales Ramirez</a>, <a href="members/member-tordjman-levavasseu.html">Valentin Tordjman-Levavasseu</a> and <a href="members/member-verilhac.html">Oscar Verilhac</a> joined and two members, <a href="members/member-euribe.html">Andree Alonso Euribe Vargas</a> and three members, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, <a href="members/member-euribe.html">Andree Alonso Euribe Vargas</a> and <a href="members/member-morisawa.html">Mitsuharu Morisawa</a> left the JRL in May.
   - date: 01/05/2026
     content: >
       Twelve members, <a href="members/member-morello.html">Luca Morello</a>, <a href="members/member-takeshima.html">Ryo Takeshima</a>, <a href="members/member-penmetsa.html">Dhanush Kumar Varma Penmetsa</a>, <a href="members/member-furuhata.html">Shikou Furuhata</a>, <a href="members/member-yamada.html">Suzutaro Yamada</a>, <a href="members/member-sato.html">Makoto Sato</a>, <a href="members/member-nangsue.html">Norawit Nangsue</a>, <a href="members/member-delooecker.html">Thibault Delooecker</a>, <a href="members/member-kessy.html">Suzan Kessy</a>, <a href="members/member-matsuno.html">Yuki Matsuno</a>, <a href="members/member-simon.html">Noah-Luc Simon</a> and <a href="members/member-seron.html">Sabrina Seron</a> joined and one member, <a href="members/member-ruble.html">Louis Ruble</a> left the JRL in April.
