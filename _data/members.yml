@@ -1477,9 +1477,12 @@
 - id: leziart
   given: Pierre-Alexandre
   family: Leziart
-  role: postdoc
-  from: 2024-05-09
-  to: 2026-06-16
+  role: alumni
+  from: 2026-05-09
+  past-roles:
+    - role: postdoc
+      from: 2024-05-09
+      to: 2026-05-08
   nationality: fr
   website: "https://paleziart.github.io/"
   scholar: "https://scholar.google.com/citations?user=AzZwyIUAAAAJ"
@@ -1630,8 +1633,9 @@
 - id: noel
   given: Ocean
   family: Noel
-  role: alumni
-  from: 2024-08-01
+  role: coming-phd
+  from: 2026-07-13
+  to: 2026-10-08
   past-roles:
     - role: master
       from: 2023-10-09
@@ -2326,9 +2330,12 @@
 - id: villarreal-trevino
   given:  Christian Raúl
   family: Villarreal-Treviño
-  role: undergraduate
-  from: 2026-03-30
-  to: 2026-06-26
+  role: alumni
+  from: 2026-06-27
+  past-roles:
+    - role: undergraduate
+      from: 2026-03-30
+      to: 2026-06-26
   nationality: mx
   linkedin: "www.linkedin.com/in/christianrvillarrealt"
   website: "https://christianrvillarrealt.github.io/"
@@ -2366,7 +2373,7 @@
 - id: benalleguean
   given: Anisse
   family: Benallegue
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-06-29
   to: 2026-08-28
   nationality: fr
@@ -2403,50 +2410,50 @@
   given: Irene
   family: Martinez Vilchis 
   role: coming-undergraduate
-  from: 2026-07-17
+  from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: tovar-mendoza
   given: Hector
   family: Tovar Mendoza
   role: coming-undergraduate
-  from: 2026-07-17
+  from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: dominguez-morales
   given: Jose
   family: Dominguez Morales
   role: coming-undergraduate
-  from: 2026-07-17
+  from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: malagamba-montejo
   given: Gilberto
   family: Malagamba Montejo
   role: coming-undergraduate
-  from: 2026-07-17
-  to: 2026-12-17
+  from: 2026-09-14
+  to: 2027-03-16
   nationality: mx
 - id: fregoso-jimenez
   given: Gerardo
   family: Fregoso Jimenez
   role: coming-undergraduate
-  from: 2026-07-17
+  from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: maldonado-mata
   given: Abraham
   family: Maldonado Mata
   role: coming-undergraduate
-  from: 2026-07-17
+  from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: barrabes
   given: Raphael
   family: Barrabes
   role: coming-master
-  from: 2026-07-17
-  to: 2026-12-17
+  from: 2026-05-18
+  to: 2026-08-14
   nationality: fr
 - id: tordjman-levavasseu
   given: Valentin
@@ -2465,7 +2472,21 @@
 - id: benmoussat
   given: Mouad
   family: Benmoussat
-  role: coming-master
+  role: master
   from: 2026-06-25
   to: 2028-03-31
   nationality: dz
+- id: munro
+  given: Ronan
+  family: Munro
+  role: coming-master
+  from: 2026-08-31
+  to: 2027-02-28
+  nationality: nl
+- id: birglen
+  given: Lionel
+  family: Birglen
+  role: adjunct
+  from: 2026-07-01
+  to: 2026-07-31
+  nationality: ca
