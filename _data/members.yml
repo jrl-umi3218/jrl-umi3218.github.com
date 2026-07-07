@@ -2370,6 +2370,9 @@
   from: 2026-05-12
   to: 2027-08-10
   nationality: mx
+  linkedin: "https://www.linkedin.com/in/jroberto-grajalesr"
+  bio: >
+    is a Electronics Engineering student at Tecnológico de Monterrey in Monterrey, Mexico. His work focuses on sensing systems and robotic sensors, with interests in hardware design, PCB design, sensor design, edge computing, and high-speed electronic systems for robotics applications.
 - id: benalleguean
   given: Anisse
   family: Benallegue
