@@ -2356,6 +2356,8 @@
   from: 2026-04-30
   to: 2026-08-26
   nationality: fr
+  bio: >
+    is a dual-degree student pursuing a Master's degree in Engineering for Health Devices at the University of Montpellier and an Engineering degree in Mechatronic Systems at IMT Mines Alès. She joined the CNRS-AIST Joint Robotics Laboratory to work on grasp learning with a multi-fingered robotic hand. Her research interests include reinforcement learning, tactile sensing, robotic grasping and manipulation.
 - id: verilhac
   given: Oscar
   family: Verilhac
