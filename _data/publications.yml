@@ -11708,6 +11708,30 @@
   - antnoid
   - sigrole
   prj: https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-antnoid.html
+- id: caillot:rap:2026
+  year: 2026
+  title: Dual-Exposure for Improving Omnidirectional Visual Simultaneous Localization
+    And Mapping
+  booktitle: IEEE Robotics and Automation Practice
+  authors:
+  - id: acaillot
+  - id: goichon
+  - id: sagawa
+  - id: carong
+  pdf: https://hal.science/hal-05667611
+  lab: jrl
+- id: liu:icprw:2026
+  year: 2026
+  title: Monocular Visual SLAM that works with Pre-built Point Cloud Maps using Point
+    and Line Features
+  booktitle: ICPR International Workshops and Challenges
+  authors:
+  - id: liu
+  - id: carong
+  - id: kanehiro
+  pdf: https://hal.science/hal-05583714
+  lab: jrl
+  month: august 17-august 22
 - id: filliung:icra:2024
   year: 2024
   title: An Augmented Catenary Model for Underwater Tethered Robots
