@@ -11720,6 +11720,9 @@
   - id: carong
   pdf: https://hal.science/hal-05667611
   lab: jrl
+  projects:
+  - antnoid
+  prj: https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-antnoid.html
 - id: liu:icprw:2026
   year: 2026
   title: Monocular Visual SLAM that works with Pre-built Point Cloud Maps using Point
