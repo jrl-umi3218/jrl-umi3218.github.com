@@ -52,17 +52,16 @@
   <div class="row align-items-center">
     <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
       <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel">
-        {%- assign carousel_files = "" | split: "" -%}
         {%- assign member_assets_prefix = "/assets/members/" | append: member.id | append: "/" -%}
         {%- assign main_image = member_picture -%}
-
-        {%- assign carousel_files = carousel_files | push: main_image -%}
+        {%- capture carousel_files -%}{{ main_image }}{%- endcapture -%}
 
         {%- assign member_extra_photos = member_assets_prefix | assets_in_dir -%}
         {%- for f in member_extra_photos -%}
           {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f}}{%- endcapture -%}
         {%- endfor -%}
 
+        {%- assign carousel_files = carousel_files | split: "," -%}
         {%- assign carousel_size = carousel_files | size -%}
 
         {%- if carousel_size > 1 -%}
@@ -82,7 +81,7 @@
         <div class="carousel-inner">
           {%- for f in carousel_files -%}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-              <img src="{{ f }}" class="d-block rounded" alt="{{ member_full_name }} image {{ forloop.index }}">
+              <img src="{{ f }}" class="d-block w-100 rounded" alt="{{ member_full_name }} image {{ forloop.index }}">
             </div>
           {%- endfor -%}
         </div>
