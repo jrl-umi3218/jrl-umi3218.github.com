@@ -54,16 +54,12 @@
       <i class="bi bi-file-earmark-fill"></i>
     </a>
     {%- else -%}
-    {%- assign found_bib = false -%}
     {%- assign bib_name = include.publication.id | replace: ':', '_'-%}
     {%- capture search_bib -%}/assets/bib/{{bib_name}}.bib{%- endcapture -%}
-    {%- for file in site.static_files -%}
-    {%- if file.path == search_bib -%}
-    {%- capture bib_path -%} {{site.baseurl_root}}{{file.path}}{%- endcapture -%}
-    {%- assign found_bib = true -%}
-    {%- break -%}
+    {%- assign found_bib = search_bib | asset_exists -%}
+    {%- if found_bib -%}
+    {%- capture bib_path -%} {{site.baseurl_root}}{{search_bib}}{%- endcapture -%}
     {%- endif -%}
-    {%- endfor -%}
     {%- if found_bib -%}
     <a href="{{ bib_path }}" target="_blank">
      <i class="bi bi-file-earmark-fill"></i>

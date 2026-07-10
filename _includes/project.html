@@ -35,14 +35,12 @@
   <!-- Portfolio Item Row -->
   <div class="row align-items-center">
     {%- capture project_assets -%}/assets/projects/{{project.id}}/{%- endcapture -%}
-    {%- for f in site.static_files -%}
-      {%- assign f_base = f.path | remove_first: project_assets -%}
-      {%- if f_base != f.path -%}
-        {%- if carousel_files -%}
-          {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
-        {%- else -%}
-          {%- capture carousel_files -%}{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
-        {%- endif -%}
+    {%- assign project_asset_files = project_assets | assets_in_dir -%}
+    {%- for f in project_asset_files -%}
+      {%- if carousel_files -%}
+        {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f}}{%- endcapture -%}
+      {%- else -%}
+        {%- capture carousel_files -%}{{site.baseurl_root}}{{f}}{%- endcapture -%}
       {%- endif -%}
     {%- endfor -%}
     {%- unless carousel_files -%}

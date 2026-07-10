@@ -15,12 +15,10 @@
 {%- capture expected_picture_path -%}/assets/members/{{ include.member.id }}.jpg{%- endcapture -%}
 
 {%- assign member_picture = default_picture -%}
-{%- for file in site.static_files -%}
-  {%- if file.path == expected_picture_path -%}
-    {%- capture member_picture -%}{{ site.baseurl_root }}{{ file.path }}{%- endcapture -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- assign picture_exists = expected_picture_path | asset_exists -%}
+{%- if picture_exists -%}
+  {%- capture member_picture -%}{{ site.baseurl_root }}{{ expected_picture_path }}{%- endcapture -%}
+{%- endif -%}
 
 {%- comment -%}
   Handle name (JP or EN)

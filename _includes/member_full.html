@@ -15,12 +15,10 @@
 {%- capture expected_picture_path -%}/assets/members/{{ member.id }}.jpg{%- endcapture -%}
 
 {%- assign member_picture = default_picture -%}
-{%- for file in site.static_files -%}
-  {%- if file.path == expected_picture_path -%}
-    {%- capture member_picture -%}{{ site.baseurl_root }}{{ file.path }}{%- endcapture -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- assign picture_exists = expected_picture_path | asset_exists -%}
+{%- if picture_exists -%}
+  {%- capture member_picture -%}{{ site.baseurl_root }}{{ expected_picture_path }}{%- endcapture -%}
+{%- endif -%}
 
 {%- comment -%} Subtitle: role + optional website link {%- endcomment -%}
 {%- capture subtitle -%}
@@ -60,11 +58,9 @@
 
         {%- assign carousel_files = carousel_files | push: main_image -%}
 
-        {%- for f in site.static_files -%}
-          {%- assign f_base = f.path | remove_first: member_assets -%}
-          {%- if f_base != f.path -%}
-            {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
-          {%- endif -%}
+        {%- assign member_extra_photos = member_assets_prefix | assets_in_dir -%}
+        {%- for f in member_extra_photos -%}
+          {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f}}{%- endcapture -%}
         {%- endfor -%}
 
         {%- assign carousel_size = carousel_files | size -%}

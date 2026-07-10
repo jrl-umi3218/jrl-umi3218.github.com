@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>{{ site.data[site.active_lang].lab_name }}</title>
+  <title>{{ site.data[site.active_lang]["lab-name"] }}</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="{{site.baseurl_root}}/css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
     <div class="container">
       <a class="navbar-brand" href="{{site.baseurl}}/{{site.index_name}}">
         <img src="{{site.baseurl_root}}/assets/cnrs-aist.png" alt="logos" />
-        {%- capture title -%}{{ site.data[site.active_lang].lab_name }}{%- endcapture -%}
+        {%- capture title -%}{{ site.data[site.active_lang]["lab-name"] }}{%- endcapture -%}
         {%- if page.title -%}
         {%- capture title -%}{{ title }} - {{ page.title }}{%- endcapture -%}
         {%- endif -%}

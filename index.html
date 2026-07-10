@@ -6,14 +6,12 @@ layout: default
   <div class="container home-banner-xs">
     <!-- Marketing Icons Section -->
     {%- capture home_assets -%}/assets/pictures/home/{%- endcapture -%}
-    {%- for f in site.static_files -%}
-    {%- assign f_base = f.path | remove_first: home_assets -%}
-    {%- if f_base != f.path -%}
+    {%- assign home_asset_files = home_assets | assets_in_dir -%}
+    {%- for f in home_asset_files -%}
     {%- if carousel_files -%}
-    {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
+    {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f}}{%- endcapture -%}
     {%- else -%}
-    {%- capture carousel_files -%}{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
-    {%- endif -%}
+    {%- capture carousel_files -%}{{site.baseurl_root}}{{f}}{%- endcapture -%}
     {%- endif -%}
     {%- endfor -%}
     {%- assign carousel_files = carousel_files | split: "," -%}
