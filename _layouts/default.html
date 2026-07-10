@@ -126,7 +126,7 @@
               </li>
 
               <li>
-                <a class="dropdown-item" href="{{site.baseurl}}/past_projects.html">
+                <a class="dropdown-item" href="{{site.baseurl}}/past-projects.html">
                   {{ site.data[site.active_lang].pages["past_projects"] }}
                 </a>
               </li>
@@ -170,11 +170,15 @@
           </li>
           <li class="nav-item">
             {% for lang in site.languages %}
+            {% if lang == site.default_lang %}
+            {% assign lang_folder = "" %}
+            {% else %}
             {% capture lang_folder %}/{{ lang }}{% endcapture %}
+            {% endif %}
             {% capture LANG %}{{ lang | upcase }}{% endcapture %}
 
-            {% if site.lang != lang %}
-            <a href="{{ site.baseurl_root }}{{ lang_folder }}{{ page.url }}"
+            {% if site.active_lang != lang %}
+            <a {% static_href %}href="{{ site.baseurl_root }}{{ lang_folder }}{{ page.url }}"{% endstatic_href %}
               class="nav-link active text-white fw-semibold" style="display:inline;">
               {{ LANG }}
             </a>

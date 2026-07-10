@@ -55,7 +55,7 @@ roles:
   non-degree-student: Non-degree student
   administrative-staff: Administrative staff
   alumni: Alumni
-publications:
+publications-labels:
   title: Title
   authors: Authors
   conference: Conference/Book

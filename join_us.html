@@ -5,4 +5,4 @@ layout: default
 {% capture crumbs %}{{ site.data[site.active_lang].pages.join }}{% endcapture %}
 {%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
 
-<!-- {% translate_file join_us.html %} -->
+{% include {{ site.active_lang }}/join_us.html %}

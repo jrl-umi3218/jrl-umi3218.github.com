@@ -26,7 +26,7 @@
   Handle name (JP or EN)
 {%- endcomment -%}
 {%- capture member_name -%}{{ include.member.given }} {{ include.member.family }}{%- endcapture -%}
-{%- if site.lang == "jp" and include.member.name-jp -%}
+{%- if site.active_lang == "jp" and include.member.name-jp -%}
   {%- capture member_name -%}{{ include.member.name-jp }}{%- endcapture -%}
 {%- endif -%}
 

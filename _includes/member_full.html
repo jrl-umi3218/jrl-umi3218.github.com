@@ -6,7 +6,7 @@
 {%- endfor -%}
 
 {%- capture member_full_name -%}{{ member.given }} {{ member.family }}{%- endcapture -%}
-{%- if site.lang == "jp" and member["name-jp"] -%}
+{%- if site.active_lang == "jp" and member["name-jp"] -%}
   {%- capture member_full_name -%}{{ member["name-jp"] }}{%- endcapture -%}
 {%- endif -%}
 
@@ -108,7 +108,7 @@
       {%- if member.bio -%}
         <h3>{{ site.data[site.active_lang].member-page.bio }}</h3>
         <p>
-          {%- if site.lang == "jp" and member["bio-jp"] -%}
+          {%- if site.active_lang == "jp" and member["bio-jp"] -%}
             <strong>{{ member_full_name }}は</strong>{{ member["bio-jp"] }}
           {%- else -%}
             <strong>{{ member_full_name }}&nbsp;</strong>{{ member.bio }}
@@ -123,7 +123,7 @@
       {%- if member.research -%}
         <h3>{{ site.data[site.active_lang].member-page.research-interests }}</h3>
         <p>
-          {%- if site.lang == "jp" and member["research-jp"] -%}
+          {%- if site.active_lang == "jp" and member["research-jp"] -%}
             {{ member["research-jp"] }}
           {%- else -%}
             {{ member.research }}
@@ -143,7 +143,7 @@
         <div class="col-sm-6 col-lg-3 text-center mb-3">
           <a href="{{ video.url }}" data-bs-toggle="lightbox" data-bs-gallery="videos" data-bs-title="{{ video.title }}">
             <img src="{{ video.img }}" class="img-fluid rounded mb-2" alt="{{ video.title }} snapshot">
-            {% if site.lang == "jp" and video["title-jp"] %}
+            {% if site.active_lang == "jp" and video["title-jp"] %}
               <div>{{ video["title-jp"] }}</div>
             {% else %}
               <div>{{ video.title }}</div>
@@ -166,7 +166,7 @@
         </div>
       {%- else -%}
         <h3>{{ site.data[site.active_lang].pages.publications }}</h3>
-        <div class="alert alert-info">{{ site.data[site.active_lang].publications.incomplete-warning }}</div>
+        <div class="alert alert-info">{{ site.data[site.active_lang]["publications-labels"].incomplete-warning }}</div>
         {%- include publications_table.html member_id=member.id -%}
       {%- endif -%}
     </div>

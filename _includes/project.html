@@ -5,13 +5,13 @@
 {%- endfor -%}
 
 {%- if project.url -%}
-  {%- if site.lang == "jp" and project.longtitle-jp -%}
+  {%- if site.active_lang == "jp" and project.longtitle-jp -%}
     {%- capture subtitle -%}<br/><a href="{{project.url}}" target="_blank">{{project.longtitle-jp}} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
   {%- else -%}
     {%- capture subtitle -%}<br/><a href="{{project.url}}" target="_blank">{{project.longtitle}} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
   {%- endif -%}
 {%- else -%}
-  {%- if site.lang == "jp" and project.longtitle-jp -%}
+  {%- if site.active_lang == "jp" and project.longtitle-jp -%}
     {%- capture subtitle -%}<br/>{{project.longtitle-jp}}{%- endcapture -%}
   {%- else -%}
     {%- capture subtitle -%}<br/>{{project.longtitle}}{%- endcapture -%}
@@ -19,7 +19,7 @@
 {%- endif -%}
 
 {%- if project.longtitle != project.title -%}
-  {%- if site.lang == "jp" and project.longtitle-jp -%}
+  {%- if site.active_lang == "jp" and project.longtitle-jp -%}
     {%- capture bc -%}{{project.title}} - {{project.longtitle-jp}}{%- endcapture -%}
   {%- else -%}
     {%- capture bc -%}{{project.title}} - {{project.longtitle}}{%- endcapture -%}
@@ -97,7 +97,7 @@
 
     <div class="col-lg-6 col-md-6 col-12">
       <h3>{{ site.data[site.active_lang].project-page.description }}</h3>
-      {% if site.lang == "jp" and project.description-jp %}
+      {% if site.active_lang == "jp" and project.description-jp %}
         {{ project.description-jp }}
       {% else %}
         {{ project.description }}
@@ -121,7 +121,7 @@
 
       {%- if project.funding -%}
       <h4>{{ site.data[site.active_lang].project-page.funding }}</h4>
-      {% if site.lang == "jp" and project.funding-jp %}
+      {% if site.active_lang == "jp" and project.funding-jp %}
         {{ project.funding-jp }}
       {% else %}
         {{ project.funding }}

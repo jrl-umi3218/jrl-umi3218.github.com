@@ -273,7 +273,7 @@ layout: default
             </tr>
           </thead>
           <tbody>
-            {% for student in site.translations[site.lang].hl.students %}
+            {% for student in site.data[site.active_lang].hl.students %}
             <tr>
               <td>
                 {% if student.website %}

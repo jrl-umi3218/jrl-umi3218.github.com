@@ -4,7 +4,7 @@ layout: default
 
 {%- assign members = site.data.members | sort: 'id' -%}
 
-{%- capture crumbs -%}{%- t pages.members -%}{%- endcapture -%}
+{%- capture crumbs -%}{{ site.data[site.active_lang].pages.members }}{%- endcapture -%}
 {%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
 
 <!-- Page Content -->

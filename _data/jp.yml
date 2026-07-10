@@ -55,7 +55,7 @@ roles:
   non-degree-student: 研究生
   administrative-staff: アシスタント
   alumni: 過去のメンバー
-publications:
+publications-labels:
   title: タイトル
   authors: 著者
   conference: 学会/論文誌

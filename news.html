@@ -9,7 +9,7 @@ layout: default
   <div class="row" style="margin-top: 25px;">
     <table class="table table-striped">
       <tbody>
-        {% for news in site.translations[site.lang].news %}
+        {% for news in site.data[site.active_lang].news %}
         <tr>
           <td>{{news.date}}</td>
           <td>{{news.content}}</td>
