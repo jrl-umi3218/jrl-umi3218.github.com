@@ -11597,6 +11597,7 @@
     given: Yukiyasu
   pdf: https://ieeexplore.ieee.org/document/11511708
   lab: jrl
+  month: may
   projects:
   - foundation
   - moral
@@ -11617,6 +11618,7 @@
   - id: benalleguem
   pdf: https://www.sciencedirect.com/science/article/pii/S127096382601223X
   lab: jrl
+  month: october
 - id: nasir:icra:2026
   year: 2026
   title: Transformation-Domain Gaussian Smoothing for translational Direct Visual
@@ -11631,10 +11633,10 @@
   pdf: https://hal.science/hal-05491392
   lab: jrl
   month: june 1-june 5
-- id: hermus:icra:2026
+- id: hermus:ram:2026
   year: 2026
-  title: Impact-Aware Dual-Arm Manipulation
-  booktitle: IEEE International Conference on Robotics and Automation
+  title: 'Impact-Aware Dual-Arm Manipulation: A Framework for Fast Package Handling'
+  booktitle: IEEE Robotics & Automation Magazine
   authors:
   - family: Hermus
     given: James
@@ -11663,10 +11665,8 @@
     given: Alessandro
   - family: Billard
     given: Aude
+  pdf: https://ieeexplore.ieee.org/document/11261634
   lab: jrl
-  month: june 1-june 5
-  projects:
-  - iam
 - id: noel:ark:2026
   year: 2026
   title: Coaxial Multi-Channel Rotary Transmission Device
@@ -12089,3 +12089,6 @@
   - id: ayusawa
   - id: yoshida
   pdf: https://staff.aist.go.jp/e.yoshida/papers/imamrua-sii2014-proc.pdf
+- id: hermus:icra:2026
+  projects:
+  - iam
