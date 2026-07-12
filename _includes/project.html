@@ -5,13 +5,13 @@
 {%- endfor -%}
 
 {%- if project.url -%}
-  {%- if site.lang == "jp" and project.longtitle-jp -%}
+  {%- if site.active_lang == "jp" and project.longtitle-jp -%}
     {%- capture subtitle -%}<br/><a href="{{project.url}}" target="_blank">{{project.longtitle-jp}} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
   {%- else -%}
     {%- capture subtitle -%}<br/><a href="{{project.url}}" target="_blank">{{project.longtitle}} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
   {%- endif -%}
 {%- else -%}
-  {%- if site.lang == "jp" and project.longtitle-jp -%}
+  {%- if site.active_lang == "jp" and project.longtitle-jp -%}
     {%- capture subtitle -%}<br/>{{project.longtitle-jp}}{%- endcapture -%}
   {%- else -%}
     {%- capture subtitle -%}<br/>{{project.longtitle}}{%- endcapture -%}
@@ -19,7 +19,7 @@
 {%- endif -%}
 
 {%- if project.longtitle != project.title -%}
-  {%- if site.lang == "jp" and project.longtitle-jp -%}
+  {%- if site.active_lang == "jp" and project.longtitle-jp -%}
     {%- capture bc -%}{{project.title}} - {{project.longtitle-jp}}{%- endcapture -%}
   {%- else -%}
     {%- capture bc -%}{{project.title}} - {{project.longtitle}}{%- endcapture -%}
@@ -35,14 +35,12 @@
   <!-- Portfolio Item Row -->
   <div class="row align-items-center">
     {%- capture project_assets -%}/assets/projects/{{project.id}}/{%- endcapture -%}
-    {%- for f in site.static_files -%}
-      {%- assign f_base = f.path | remove_first: project_assets -%}
-      {%- if f_base != f.path -%}
-        {%- if carousel_files -%}
-          {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
-        {%- else -%}
-          {%- capture carousel_files -%}{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
-        {%- endif -%}
+    {%- assign project_asset_files = project_assets | assets_in_dir -%}
+    {%- for f in project_asset_files -%}
+      {%- if carousel_files -%}
+        {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f}}{%- endcapture -%}
+      {%- else -%}
+        {%- capture carousel_files -%}{{site.baseurl_root}}{{f}}{%- endcapture -%}
       {%- endif -%}
     {%- endfor -%}
     {%- unless carousel_files -%}
@@ -96,8 +94,8 @@
     </div>
 
     <div class="col-lg-6 col-md-6 col-12">
-      <h3>{% t project-page.description %}</h3>
-      {% if site.lang == "jp" and project.description-jp %}
+      <h3>{{ site.data[site.active_lang].project-page.description }}</h3>
+      {% if site.active_lang == "jp" and project.description-jp %}
         {{ project.description-jp }}
       {% else %}
         {{ project.description }}
@@ -116,12 +114,12 @@
       <a href="{{member_page_url}}">{{member.given}} {{member.family}}</a>
       {%- endif -%}
 
-      <h4>{% t project-page.period %}</h4>
+      <h4>{{ site.data[site.active_lang].project-page.period }}</h4>
       {{ project.year-start }} - {{ project.year-end }}
 
       {%- if project.funding -%}
-      <h4>{% t project-page.funding %}</h4>
-      {% if site.lang == "jp" and project.funding-jp %}
+      <h4>{{ site.data[site.active_lang].project-page.funding }}</h4>
+      {% if site.active_lang == "jp" and project.funding-jp %}
         {{ project.funding-jp }}
       {% else %}
         {{ project.funding }}
@@ -150,7 +148,7 @@
   <!-- Publications Section -->
   <div class="row">
     <div class="col-lg-12">
-      <h3 class="page-header">{% t project-page.publications %}</h3>
+      <h3 class="page-header">{{ site.data[site.active_lang].project-page.publications }}</h3>
       {%- include publications_table.html project_id=include.id -%}
     </div>
   </div>
@@ -158,7 +156,7 @@
   <!-- Partners Section -->
   <div class="row">
     <div class="col-lg-12">
-      <h3 class="page-header">{% t project-page.partners %}</h3>
+      <h3 class="page-header">{{ site.data[site.active_lang].project-page.partners }}</h3>
     </div>
     {%- for p_id in project.partners -%}
       {%- assign bla = forloop.index0 -%}

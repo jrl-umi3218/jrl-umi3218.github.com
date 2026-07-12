@@ -4,7 +4,7 @@ layout: default
 
 {%- assign members = site.data.members | sort: 'id' -%}
 
-{%- capture crumbs -%}{%- t pages.members -%}{%- endcapture -%}
+{%- capture crumbs -%}{{ site.data[site.active_lang].pages.members }}{%- endcapture -%}
 {%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
 
 <!-- Page Content -->
@@ -21,7 +21,7 @@ layout: default
   <!-- Co-directors -->
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.direction %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.direction }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -39,7 +39,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.permanent-researchers %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.permanent-researchers }}</h3>
     </div>
   </div>
   <div class="row justify-content-center mb-5">
@@ -51,7 +51,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.adjunct-members %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.adjunct-members }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -64,7 +64,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.postdoctoral-fellows %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.postdoctoral-fellows }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -77,7 +77,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.research-engineers %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.research-engineers }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -90,7 +90,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.phd-students %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.phd-students }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -103,7 +103,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.master-students %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.master-students }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -116,7 +116,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.undergraduate-students %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.undergraduate-students }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -129,7 +129,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.non-degree-students %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.non-degree-students }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -142,7 +142,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.administrative-staff %}</h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.administrative-staff }}</h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -155,7 +155,7 @@ layout: default
 
   <div class="row row-centered">
     <div class="col-xs-12 col-centered">
-      <h3 class="page-header compact">{% t roles.alumni %}<a id="alumni_button" style="float:right;font-size:medium;" data-bs-toggle="collapse" aria-expanded="false" aria-controls="alumni" data-bs-target="#alumni" >{% t show %}</a></h3>
+      <h3 class="page-header compact">{{ site.data[site.active_lang].roles.alumni }}<a id="alumni_button" style="float:right;font-size:medium;" data-bs-toggle="collapse" aria-expanded="false" aria-controls="alumni" data-bs-target="#alumni" >{{ site.data[site.active_lang].show }}</a></h3>
     </div>
   </div>
   <div class="row justify-content-center">
@@ -176,7 +176,7 @@ layout: default
   <script type="text/javascript">
     function handleClick()
     {
-      this.text = (this.text == '{% t show %}' ? '{% t hide %}' : '{% t show %}');
+      this.text = (this.text == '{{ site.data[site.active_lang].show }}' ? '{{ site.data[site.active_lang].hide }}' : '{{ site.data[site.active_lang].show }}');
     }
     document.getElementById('alumni_button').onclick = handleClick;
   </script>

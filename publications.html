@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-{% capture crumbs %}{% t pages.publications %}{% endcapture %}
+{% capture crumbs %}{{ site.data[site.active_lang].pages.publications }}{% endcapture %}
 {%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
 <!-- Page Content -->
 <div class="container">
   <div class="row">
-    <div class="alert alert-info">{% t publications.incomplete-warning %}</div>
+    <div class="alert alert-info">{{ site.data[site.active_lang]["publications-labels"].incomplete-warning }}</div>
     {%- include publications_table.html lab_id="jrl" -%}
   </div>
 </div>

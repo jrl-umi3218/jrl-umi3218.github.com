@@ -2,14 +2,14 @@
 layout: default
 ---
 
-{% capture crumbs %}{% t pages.news %}{% endcapture %}
+{% capture crumbs %}{{ site.data[site.active_lang].pages.news }}{% endcapture %}
 {%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
 
 <div class="container">
   <div class="row" style="margin-top: 25px;">
     <table class="table table-striped">
       <tbody>
-        {% for news in site.translations[site.lang].news %}
+        {% for news in site.data[site.active_lang].news %}
         <tr>
           <td>{{news.date}}</td>
           <td>{{news.content}}</td>

@@ -1,4 +1,4 @@
-page-not-found: ページが見つかりません
+page_not_found: ページが見つかりません
 lab-name: CNRS-産総研ロボット工学連携研究室
 langs:
   en: 英語
@@ -6,7 +6,7 @@ pages:
   home: ホーム
   news: ニュース
   projects: プロジェクト
-  past-projects: 過去のプロジェクト
+  past_projects: 過去のプロジェクト
   members: メンバー
   robots: ロボット
   publications: 論文
@@ -55,7 +55,7 @@ roles:
   non-degree-student: 研究生
   administrative-staff: アシスタント
   alumni: 過去のメンバー
-publications:
+publications-labels:
   title: タイトル
   authors: 著者
   conference: 学会/論文誌
@@ -63,7 +63,7 @@ publications:
   incomplete-warning: 論文リストは完全ではない場合があります。特に2017年以前の論文については、更新作業を進めています。
 hl:
   title: ヒューマノイド研究室 (筑波大学連携大学院)
-  title-short: ヒューマノイド研究室
+  title_short: ヒューマノイド研究室
   link: https://www.tsukuba.ac.jp/education/g-courses-g-list-prev-cooperatives/
   link-name: 筑波大学 - 連携大学院
   professor: 教授

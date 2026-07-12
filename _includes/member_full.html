@@ -6,7 +6,7 @@
 {%- endfor -%}
 
 {%- capture member_full_name -%}{{ member.given }} {{ member.family }}{%- endcapture -%}
-{%- if site.lang == "jp" and member["name-jp"] -%}
+{%- if site.active_lang == "jp" and member["name-jp"] -%}
   {%- capture member_full_name -%}{{ member["name-jp"] }}{%- endcapture -%}
 {%- endif -%}
 
@@ -15,37 +15,35 @@
 {%- capture expected_picture_path -%}/assets/members/{{ member.id }}.jpg{%- endcapture -%}
 
 {%- assign member_picture = default_picture -%}
-{%- for file in site.static_files -%}
-  {%- if file.path == expected_picture_path -%}
-    {%- capture member_picture -%}{{ site.baseurl_root }}{{ file.path }}{%- endcapture -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- assign picture_exists = expected_picture_path | asset_exists -%}
+{%- if picture_exists -%}
+  {%- capture member_picture -%}{{ site.baseurl_root }}{{ expected_picture_path }}{%- endcapture -%}
+{%- endif -%}
 
 {%- comment -%} Subtitle: role + optional website link {%- endcomment -%}
 {%- capture subtitle -%}
   {%- case member.role -%}
-    {%- when "director" %}{% t roles.director %}
-    {%- when "deputy-director" %}{% t roles.deputy-director %}
-    {%- when "permanent" %}{% t roles.permanent-researcher %}
-    {%- when "adjunct" %}{% t roles.adjunct-member %}
-    {%- when "postdoc" %}{% t roles.postdoctoral-fellow %}
-    {%- when "engineer" %}{% t roles.research-engineer %}
-    {%- when "phd" %}{% t roles.phd-student %}
-    {%- when "master" %}{% t roles.master-student %}
-    {%- when "undergraduate" %}{% t roles.undergraduate-student %}
-    {%- when "non-degree" %}{% t roles.non-degree-student %}
-    {%- when "alumni", "alumni-star" %}{% t roles.alumni %}
+    {%- when "director" %}{{ site.data[site.active_lang].roles.director }}
+    {%- when "deputy-director" %}{{ site.data[site.active_lang].roles.deputy-director }}
+    {%- when "permanent" %}{{ site.data[site.active_lang].roles.permanent-researcher }}
+    {%- when "adjunct" %}{{ site.data[site.active_lang].roles.adjunct-member }}
+    {%- when "postdoc" %}{{ site.data[site.active_lang].roles.postdoctoral-fellow }}
+    {%- when "engineer" %}{{ site.data[site.active_lang].roles.research-engineer }}
+    {%- when "phd" %}{{ site.data[site.active_lang].roles.phd-student }}
+    {%- when "master" %}{{ site.data[site.active_lang].roles.master-student }}
+    {%- when "undergraduate" %}{{ site.data[site.active_lang].roles.undergraduate-student }}
+    {%- when "non-degree" %}{{ site.data[site.active_lang].roles.non-degree-student }}
+    {%- when "alumni", "alumni-star" %}{{ site.data[site.active_lang].roles.alumni }}
   {%- endcase -%}
 {%- endcapture -%}
 
 {%- if member.website -%}
-  {%- capture subtitle -%}<br/>{{subtitle}} &mdash; <a href="{{member.website}}" target="_blank">{% t member-page.personal-website %} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
+  {%- capture subtitle -%}<br/>{{subtitle}} &mdash; <a href="{{member.website}}" target="_blank">{{ site.data[site.active_lang].member-page.personal-website }} <i class="bi bi-globe" style="font-size: small;"></i></a>{%- endcapture -%}
 {%- else -%}
   {%- capture subtitle -%}<br/>{{subtitle}}{%- endcapture -%}
 {%- endif -%}
 
-{%- capture crumbs -%}<a href="{{ site.baseurl }}/members.html">{% t pages.members %}</a>{%- endcapture -%}
+{%- capture crumbs -%}<a href="{{ site.baseurl }}/members.html">{{ site.data[site.active_lang].pages.members }}</a>{%- endcapture -%}
 {%- assign crumbs = crumbs | split: "," -%}
 {%- include breadcrumbs.html crumbs=crumbs breadcrumbs=member_full_name title=member_full_name subtitle=subtitle -%}
 
@@ -54,19 +52,16 @@
   <div class="row align-items-center">
     <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
       <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel">
-        {%- assign carousel_files = "" | split: "" -%}
         {%- assign member_assets_prefix = "/assets/members/" | append: member.id | append: "/" -%}
         {%- assign main_image = member_picture -%}
+        {%- capture carousel_files -%}{{ main_image }}{%- endcapture -%}
 
-        {%- assign carousel_files = carousel_files | push: main_image -%}
-
-        {%- for f in site.static_files -%}
-          {%- assign f_base = f.path | remove_first: member_assets -%}
-          {%- if f_base != f.path -%}
-            {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f.path}}{%- endcapture -%}
-          {%- endif -%}
+        {%- assign member_extra_photos = member_assets_prefix | assets_in_dir -%}
+        {%- for f in member_extra_photos -%}
+          {%- capture carousel_files -%}{{carousel_files}},{{site.baseurl_root}}{{f}}{%- endcapture -%}
         {%- endfor -%}
 
+        {%- assign carousel_files = carousel_files | split: "," -%}
         {%- assign carousel_size = carousel_files | size -%}
 
         {%- if carousel_size > 1 -%}
@@ -86,7 +81,7 @@
         <div class="carousel-inner">
           {%- for f in carousel_files -%}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-              <img src="{{ f }}" class="d-block rounded" alt="{{ member_full_name }} image {{ forloop.index }}">
+              <img src="{{ f }}" class="d-block w-100 rounded" alt="{{ member_full_name }} image {{ forloop.index }}">
             </div>
           {%- endfor -%}
         </div>
@@ -106,9 +101,9 @@
 
     <div class="col-md-7 col-12">
       {%- if member.bio -%}
-        <h3>{% t member-page.bio %}</h3>
+        <h3>{{ site.data[site.active_lang].member-page.bio }}</h3>
         <p>
-          {%- if site.lang == "jp" and member["bio-jp"] -%}
+          {%- if site.active_lang == "jp" and member["bio-jp"] -%}
             <strong>{{ member_full_name }}は</strong>{{ member["bio-jp"] }}
           {%- else -%}
             <strong>{{ member_full_name }}&nbsp;</strong>{{ member.bio }}
@@ -121,9 +116,9 @@
       {%- endif -%}
 
       {%- if member.research -%}
-        <h3>{% t member-page.research-interests %}</h3>
+        <h3>{{ site.data[site.active_lang].member-page.research-interests }}</h3>
         <p>
-          {%- if site.lang == "jp" and member["research-jp"] -%}
+          {%- if site.active_lang == "jp" and member["research-jp"] -%}
             {{ member["research-jp"] }}
           {%- else -%}
             {{ member.research }}
@@ -137,13 +132,13 @@
   {%- if member.videos -%}
     <div class="row mt-4">
       <div class="col-12">
-        <h3>{% t member-page.videos %}</h3>
+        <h3>{{ site.data[site.active_lang].member-page.videos }}</h3>
       </div>
       {%- for video in member.videos -%}
         <div class="col-sm-6 col-lg-3 text-center mb-3">
           <a href="{{ video.url }}" data-bs-toggle="lightbox" data-bs-gallery="videos" data-bs-title="{{ video.title }}">
             <img src="{{ video.img }}" class="img-fluid rounded mb-2" alt="{{ video.title }} snapshot">
-            {% if site.lang == "jp" and video["title-jp"] %}
+            {% if site.active_lang == "jp" and video["title-jp"] %}
               <div>{{ video["title-jp"] }}</div>
             {% else %}
               <div>{{ video.title }}</div>
@@ -157,16 +152,16 @@
   <div class="row mt-4">
     <div class="col-12">
       {%- if member.selected_publications -%}
-        <h3>{% t member-page.selected-publications %}</h3>
+        <h3>{{ site.data[site.active_lang].member-page.selected-publications }}</h3>
         {%- include publications_table.html publications_id=member.selected_publications -%}
 
-        <h3 class="mt-4">{% t member-page.all-publications %} <a id="all_pubs_button" class="btn btn-sm btn-link" data-bs-toggle="collapse" href="#all_pubs">{% t member-page.show %}</a></h3>
+        <h3 class="mt-4">{{ site.data[site.active_lang].member-page.all-publications }} <a id="all_pubs_button" class="btn btn-sm btn-link" data-bs-toggle="collapse" href="#all_pubs">{{ site.data[site.active_lang].member-page.show }}</a></h3>
         <div id="all_pubs" class="collapse">
           {%- include publications_table.html member_id=member.id -%}
         </div>
       {%- else -%}
-        <h3>{% t pages.publications %}</h3>
-        <div class="alert alert-info">{% t publications.incomplete-warning %}</div>
+        <h3>{{ site.data[site.active_lang].pages.publications }}</h3>
+        <div class="alert alert-info">{{ site.data[site.active_lang]["publications-labels"].incomplete-warning }}</div>
         {%- include publications_table.html member_id=member.id -%}
       {%- endif -%}
     </div>

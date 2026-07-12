@@ -1,4 +1,4 @@
-FROM ruby:3.1
+FROM ruby:4.0.2
 
 WORKDIR /root
 ADD Gemfile /root

@@ -2,7 +2,13 @@
 layout: default
 ---
 
-{% capture crumbs %}{% t pages.contact %}{% endcapture %}
-{%- include breadcrumbs.html breadcrumbs=crumbs title=crumbs -%}
+{% comment %} 
+Polyglot sets site.active_lang automatically during each build 
+{% endcomment %}
 
-{% translate_file contact.html %}
+{% assign lang_data = site.data[site.active_lang] %}
+{% assign crumbs = lang_data.pages.contact %}
+
+{% include breadcrumbs.html breadcrumbs=crumbs title=crumbs %}
+
+{% include {{ site.active_lang }}/contact.html %}

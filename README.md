@@ -173,10 +173,10 @@ In order to test your modifications locally before pushing to GitHub, install
 `jekyll` according to the instructions in https://jekyllrb.com/docs/installation/, and run the following command at the root of the project folder:
 
 ```sh
-$ bundle exec jekyll server --safe --trace
+$ bundle install
+$ bundle exec jekyll server --trace
 ```
 **Note** on Ubuntu 18.04 and earlier, you will need probably to uninstall the Jekyll version installed by apt. <br/>
-**Note** If you're getting the error `ERROR /favicon.ico not found`, remove the `--safe`.
 
 You will get something like:
 
@@ -197,18 +197,14 @@ here).
 ### With Docker
 
 1. Install Docker on your system
-2. Create the image, e.g. `docker build -t jekyll`
+2. Create the image, e.g. `docker build . -t jekyll`
 3. Serve `docker run --rm -p 4000:4000 -v $(pwd):/site jekyll serve --trace -H 0.0.0.0`
 
 You can now browse the website in your browser at http://localhost:4000
 
 ## Deploy
 
-To deploy to AIST server, first build the site with `baseurl` to `/jrl-22022`:
-```
-bundle exec jekyll build -b /jrl-22022
-```
-Then upload the folder `_site/jp` and the folder `_site/en` using `FTP over Explicit SSL/TLS`
+Please check [Website-deployment](https://github.com/isri-aist/Website-deployment)
 
 ## Jekyll theme
 

@@ -2,12 +2,12 @@
 layout: default
 ---
 
-{% capture crumbs %}{% t hl.title %}{% endcapture %}
-{% capture crumbs_title %}{% t hl.title-short %}{% endcapture %}
+{% capture crumbs %}{{ site.data[site.active_lang].hl.title }}{% endcapture %}
+{% capture crumbs_title %}{{ site.data[site.active_lang].hl.title_short }}{% endcapture %}
 {% capture crumbs_subtitle %}
 <br />
-<a href="{% t hl.link %}" target="_blank">
-  {% t hl.link-name %} <i class="bi bi-globe"></i>
+<a href="{{ site.data[site.active_lang].hl.link }}" target="_blank">
+  {{ site.data[site.active_lang].hl.link-name }} <i class="bi bi-globe"></i>
 </a>
 {% endcapture %}
 
@@ -32,20 +32,20 @@ layout: default
           <strong>KANEHIRO Fumio</strong><br>
           <b>金広 文男</b><br>
           <span class="text-muted small">f-kanehiro_*_aist.go.jp</span><br>
-          <span class="badge bg-info text-dark">{% t hl.professor %}</span>
+          <span class="badge bg-info text-dark">{{ site.data[site.active_lang].hl.professor }}</span>
         </div>
       </div>
 
       <!-- Now the rest of the intro text follows -->
-      {% translate_file hl-introduction.html %}
-      {% translate_file hl-introduction-2.html %}
+      {% include {{ site.active_lang }}/hl-introduction.html %}
+      {% include {{ site.active_lang }}/hl-introduction-2.html %}
     </div>
   </div>
 
   <!-- Research Section -->
   <div class="row">
     <div class="col-12">
-      <h3 class="mb-4">{% t hl.research-content %}</h3>
+      <h3 class="mb-4">{{ site.data[site.active_lang].hl.research-content }}</h3>
     </div>
 
     <!-- Research Card 1 -->
@@ -170,7 +170,7 @@ layout: default
   <!-- Past Research Section -->
   <div class="row">
     <div class="col-12">
-      <h3 class="mb-4">{% t hl.past-research %}</h3>
+      <h3 class="mb-4">{{ site.data[site.active_lang].hl.past-research }}</h3>
       <button class="btn btn-outline-primary mb-3" type="button" data-bs-toggle="collapse"
         data-bs-target="#pastResearchCollapse">
         Toggle Past Research
@@ -254,7 +254,7 @@ layout: default
   <!-- Publications -->
   <div class="row mt-5">
     <div class="col-12">
-      <h3 class="mb-4">{% t pages.publications %}</h3>
+      <h3 class="mb-4">{{ site.data[site.active_lang].pages.publications }}</h3>
       {% include publications_table.html project_id="humanoid_lab" %}
     </div>
   </div>
@@ -262,18 +262,18 @@ layout: default
   <!-- Students -->
   <div class="row mt-5">
     <div class="col-12">
-      <h3 class="mb-4">{% t hl.student-members %}</h3>
+      <h3 class="mb-4">{{ site.data[site.active_lang].hl.student-members }}</h3>
       <div class="table-responsive">
         <table class="table table-bordered table-striped">
           <thead class="table-light">
             <tr>
-              <th>{% t hl.student-name %}</th>
-              <th>{% t hl.student-grade %}</th>
-              <th>{% t hl.student-email %}</th>
+              <th>{{ site.data[site.active_lang].hl.student-name }}</th>
+              <th>{{ site.data[site.active_lang].hl.student-grade }}</th>
+              <th>{{ site.data[site.active_lang].hl.student-email }}</th>
             </tr>
           </thead>
           <tbody>
-            {% for student in site.translations[site.lang].hl.students %}
+            {% for student in site.data[site.active_lang].hl.students %}
             <tr>
               <td>
                 {% if student.website %}
@@ -297,7 +297,7 @@ layout: default
   <!-- Location -->
   <div class="row mt-5">
     <div class="col-12">
-      <h3 class="mb-4">{% t hl.location %}</h3>
+      <h3 class="mb-4">{{ site.data[site.active_lang].hl.location }}</h3>
       <div class="ratio ratio-16x9">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d25795.692830871016!2d140.1074103178154!3d36.082234076560354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x60220bff99f57b0b%3A0x1cad40e7632fb4b8!2zVW5pdmVyc2l0eSBvZiBUc3VrdWJhIOetkeazouWkpw!3m2!1d36.103866599999996!2d140.1020979!4m5!1s0x60220cc567b824f5%3A0xecc14922713a4044!2z44CSMzA1LTg1NjAgSWJhcmFraSwgVHN1a3ViYSwgVW1lem9ubywgMSBDaG9tZeKIkjEtMSDkuK3lpK7nrKwx44Gk44GP44Gw5pys6YOo5oOF5aCx5oqA6KGT5YWx5ZCM56CU56m25qOfIFRzdWt1YmEgQ2VudGVyLCBBSVNUOiBOYXRpb25hbCBJbnN0aXR1dGUgb2YgQWR2YW5jZWQgSW5kdXN0cmlhbCBTY2llbmNlIGFuZCBUZWNobm9sb2d5!3m2!1d36.0624307!2d140.1356783!5e0!3m2!1sen!2sjp!4v1650429789876!5m2!1sen!2sjp"
