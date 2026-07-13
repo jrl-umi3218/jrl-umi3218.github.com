@@ -2165,11 +2165,13 @@
   family: Pham
   role: engineer
   from: 2026-01-20
-  to: 2028-03-31
-  linkedin: "https://www.linkedin.com/in/khangpham632"
-  website: "https://phamthekhang632.github.io/"
-  github: "https://github.com/phamthekhang632"
+  to: 2027-03-31
+  linkedin: "https://www.linkedin.com/in/khangtpham25/"
+  website: "https://khangtpham25.github.io/"
+  github: "https://github.com/khangtpham25"
   nationality: vn
+  bio: >
+    graduated from the Illinois Institute of Technology in 2025 with an M.S. in Autonomous Systems and Robotics and a B.S. in Aerospace Engineering. In early 2026, Khang joined the CNRS-AIST Joint Robotics Laboratory to develop a multi-robot system framework for the mc_rtc interface, enabling multi-robot scalability, real-time control, and teleoperation.
 - id: lanneau
   given: Victorien
   family: Lanneau
