@@ -2263,6 +2263,10 @@
   from: 2026-04-01
   to: 2028-03-31
   nationality: in
+  linkedin: "https://www.linkedin.com/in/dhanush-varma/"
+  github: "https://github.com/Dhanushvarma"
+  bio: >
+    is a Ph.D. student at University of Tsukuba.
 - id: furuhata
   given: Shikou
   family: Furuhata
