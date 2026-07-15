@@ -242,3 +242,33 @@
   name: "Ritsumeikan University"
   shortname: "Ritsumeikan"
   website: "https://www.ritsumei.ac.jp/"
+- id: utokyo
+  logo: "/assets/logos/utokyo.png"
+  name: "The University of Tokyo"
+  shortname: "UTokyo"
+  website: "https://www.u-tokyo.ac.jp/ja/index.html"
+- id: osaka
+  logo: "/assets/logos/osaka.png"
+  name: "The University of Osaka"
+  shortname: "UOsaka"
+  website: "https://www.osaka-u.ac.jp/ja"
+- id: nii
+  logo: "/assets/logos/nii.png"
+  name: "National Institute of Informatics"
+  shortname: "NII"
+  website: "https://www.nii.ac.jp/"
+- id: nagoya
+  logo: "/assets/logos/hoge.png"
+  name: "Nagoya University"
+  shortname: "NU"
+  website: "https://www.nagoya-u.ac.jp/"
+- id: tohoku
+  logo: "/assets/logos/tohoku.png"
+  name: "Tohoku University"
+  shortname: "Tohoku Univ."
+  website: "https://www.tohoku.ac.jp/japanese/"
+- id: uec
+  logo: "/assets/logos/uec.png"
+  name: "The University of Electro-Communications"
+  shortname: "UEC"
+  website: "https://www.uec.ac.jp/"
