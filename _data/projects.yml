@@ -467,4 +467,18 @@ all for better behavior of DVS-based control laws and hence applicability in a m
     <p>This research is conducted as a subtheme of the JST CREST project "MORAL: Morphoception-Oriented Reasoning and Action with Language" (PI: Yukiyasu Domae). Current vision-language-action approaches are dominated by symbolic information such as text, lacking reasoning grounded in body structure or internal states. We propose MORAL as a concept for body-centered robot intelligence, placing bodily representations—including morphology—at the core while integrating modalities such as auditory sensing. This concept envisions embodied reasoning and action generation beyond symbols, aiming for future capabilities such as handling unseen situations, adapting force and motion, and generalizing across different morphologies, with the goal of enabling robots to flexibly operate in diverse real-world tasks in manufacturing.
   description-jp: >
     <p>本研究は、JST CREST "身体が考えるロボット基盤モデル：MORAL" (代表: 堂前 幸康)のサブテーマとして実施する。現在の視覚・言語・行動モデルは記号的情報に偏り、身体構造や内部状態に基づく推論を欠いている。本研究では、形態を含む身体表現を中核に据え、聴覚などの身体性モダリティを統合する身体中心の知能モデルMORALを提案する。MORALは記号を超えた身体的推論と行動生成を構想し、未知の状況への対応、力加減の適応、身体構造間の汎化を目指し、多様な実環境タスクに柔軟に適応するロボットの実現を目的とする。
-
+- id: ms3_mirai
+  title: Moonshot MIRAI Humanoid
+  longtitle: "Behavior Foundation Model through Teaching and Transfer"
+  longtitle-jp: "教示と継承に基づき成長する行動基盤モデル"
+  pi: murooka
+  year-start: 2026.7
+  year-end: 2030.11
+  funding: Moonshot Research and Development Program
+  funding-jp: Moonshot Research and Development Program
+  active: true
+  partners: [utokyo,osaka,nii,nagoya,tohoku,uec]
+  description: >
+    <p>This research is conducted as a subproject of the Moonshot Research and Development Program Goal 3, "General-Purpose Autonomous Humanoids that Grow through Multi-Layered Teaching and Skill Transfer" (Project Manager: Kento Kawaharazuka, The University of Tokyo). We develop a behavior foundation model for integrated loco-manipulation, targeting tasks such as object transportation by combining control, perception, and interaction. Through multi-layered teaching and skill transfer, we aim to enable humanoids to adapt to changing environments and tasks and generalize across diverse loco-manipulation behaviors.
+  description-jp: >
+    <p>本研究は、ムーンショット型研究開発事業 目標3「多層的な教示と継承を通じて成長する汎用自律ヒューマノイド」（プロジェクトマネージャー：東京大学 河原塚健人）のサブテーマとして実施する。物体運搬などの移動・操作統合行動を対象に、制御・認識・インタラクションを統合した行動基盤モデルを開発する。多層的な教示と継承を通じて、環境やタスクの変化に適応し、多様な移動・操作行動へ汎化できるヒューマノイドの実現を目指す。
