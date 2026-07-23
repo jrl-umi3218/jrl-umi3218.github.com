@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-産総研ロボット工学連携研究室</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/jp/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-産総研ロボット工学連携研究室
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/news.html">
+              ニュース
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              プロジェクト
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/jp/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/jp/past-projects.html">
+                  過去のプロジェクト
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/members.html">
+              メンバー
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/robots.html">
+              ロボット
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/publications.html">
+              論文
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/join_us.html">
+              採用情報
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/contact.html">
+              アクセス
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <a href="/members/member-bwatier.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              EN
+            </a>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              JP
+            </span>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/jp/index.html">ホーム</a>
+            </li><li class="breadcrumb-item"><a href="/jp/members.html">メンバー</a></li><li class="breadcrumb-item active" aria-current="page">Bruno Watier</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">Bruno Watier<small><br/>過去のメンバー &mdash; <a href="https://www.researchgate.net/profile/Bruno-Watier" target="_blank">個人ウェブサイト <i class="bi bi-globe" style="font-size: small;"></i></a></small></h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container py-4">
+  <div class="row align-items-center">
+    <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
+      <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active">
+              <img src="/assets/members/bwatier.jpg" class="d-block w-100 rounded" alt="Bruno Watier image 1">
+            </div></div></div>
+    </div>
+
+    <div class="col-md-7 col-12"><h3>経歴</h3>
+        <p><strong>Bruno Watier&nbsp;</strong>Bruno Watier is full-time professor.He joined JRL as CNRS delegate in 2023. Since 1999, he has been Associate Professor at Universite de Toulouse 3 (UT3), LAAS-CNRS laboratory, France, in the Gepetto team. He received the Ph.D. degree in mechanics from ENSAM in 1997 and the Habilitation degree from UT3 in 2015, respectively. His research focuses on human movement analalysis, motion control and human-robot interaction. He organized several conferences and workshops related to biomechanics. Bruno Watier currently leads 4 french national ANR project. He is president of the Société de Biomécanique and lead a major degree in sport performance.
+</p></div>
+  </div><div class="row mt-4">
+    <div class="col-12"><h3>論文</h3>
+        <div class="alert alert-info">論文リストは完全ではない場合があります。特に2017年以前の論文については、更新作業を進めています。</div><table class="table table-striped">
+  <thead>
+    <tr>
+      <td>タイトル</td>
+      <td>著者</td>
+      <td>学会/論文誌</td>
+      <td>年</td>
+      <td>bib</td>
+      <td>pdf</td>
+      <td>mov</td>
+      <td>prj</td>
+    </tr>
+  </thead>
+  <tbody><tr id="dhaene:sii:2026">
+  <td id="dhaene:sii:2026-title">Low-latency online estimation of human upper-limb pose and kinematics from a single 360 camera</td>
+  <td id="dhaene:sii:2026-authors"><span class="publications-members"><a href="/jp/members/member-dhaene.html">M. D'Haene</a>, </span><span class="publications-members"><a href="/jp/members/member-carong.html">G. Caron</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a> </span></td>
+  <td id="dhaene:sii:2026-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="dhaene:sii:2026-year">2026</td>
+  <td id="dhaene:sii:2026-bib"><a href="/assets/bib/dhaene_sii_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dhaene:sii:2026-pdf"><a href="https://hal.science/hal-05339555" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dhaene:sii:2026-mov"><a href="https://youtu.be/w4CNT0KJLVY" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dhaene:sii:2026-prj"><a href="https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-call.html" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+</tr>
+<tr id="chalanunt:humanoids:2025">
+  <td id="chalanunt:humanoids:2025-title">Comparative Analysis of Dynamic Balance Descriptors in Humanoids and Humans During Perturbed Bipedal Locomotion and Fall</td>
+  <td id="chalanunt:humanoids:2025-authors"><span class="publications-members"><a href="/jp/members/member-chalanunt.html">S. Chalanunt</a>, </span><span class="publications-members">A. Lallès, </span><span class="publications-members"><a href="/jp/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a>, </span><span class="publications-members">H. Pillet </span></td>
+  <td id="chalanunt:humanoids:2025-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="chalanunt:humanoids:2025-year">2025</td>
+  <td id="chalanunt:humanoids:2025-bib"><a href="/assets/bib/chalanunt_humanoids_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chalanunt:humanoids:2025-pdf"><a href="https://ieeexplore.ieee.org/document/11203160/" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chalanunt:humanoids:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="chalanunt:humanoids:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="deves:sb:2025">
+  <td id="deves:sb:2025-title">New method for quantifying power during wheelchair sports propulsion in the field</td>
+  <td id="deves:sb:2025-authors"><span class="publications-members">M. Deves, </span><span class="publications-members">T. Marsan, </span><span class="publications-members">A. Faupin, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a> </span></td>
+  <td id="deves:sb:2025-book-title">Sports Biomechanics</td>
+  <td id="deves:sb:2025-year">2025</td>
+  <td id="deves:sb:2025-bib"><a href="/assets/bib/deves_sb_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="deves:sb:2025-pdf"><a href="https://doi.org/10.1080/14763141.2025.2531219" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="deves:sb:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="deves:sb:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="poquerusse:mbj:2025">
+  <td id="poquerusse:mbj:2025-title">Measurement of skidding to determine the optimum ergonomic configuration of the racing wheelchair</td>
+  <td id="poquerusse:mbj:2025-authors"><span class="publications-members">N. Poquerusse, </span><span class="publications-members">A. Hays, </span><span class="publications-members">A. Cortial, </span><span class="publications-members">O. Vigié, </span><span class="publications-members">M. Deves, </span><span class="publications-members">I. Alberca, </span><span class="publications-members">L. Honnorat, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a>, </span><span class="publications-members">A. Faupin </span></td>
+  <td id="poquerusse:mbj:2025-book-title">Multidisciplinary Biomechanics Journal</td>
+  <td id="poquerusse:mbj:2025-year">2025</td>
+  <td id="poquerusse:mbj:2025-bib"><a href="/assets/bib/poquerusse_mbj_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="poquerusse:mbj:2025-pdf"><a href="http://mbj.episciences.org/14556" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="poquerusse:mbj:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="poquerusse:mbj:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="pomarat:dart:2025">
+  <td id="pomarat:dart:2025-title">Wheelchair caster power losses due to rolling resistance on sports surfaces</td>
+  <td id="pomarat:dart:2025-authors"><span class="publications-members">Z. Pomarat, </span><span class="publications-members">T. Marsan, </span><span class="publications-members">A. Faupin, </span><span class="publications-members">Y. Landon, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a> </span></td>
+  <td id="pomarat:dart:2025-book-title">Disability and Rehabilitation: Assistive Technology</td>
+  <td id="pomarat:dart:2025-year">2025</td>
+  <td id="pomarat:dart:2025-bib"><a href="/assets/bib/pomarat_dart_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="pomarat:dart:2025-pdf"><a href="https://laas.hal.science/hal-04725578" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="pomarat:dart:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="pomarat:dart:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="chalabi:humanoids:2024">
+  <td id="chalabi:humanoids:2024-title">Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</td>
+  <td id="chalabi:humanoids:2024-authors"><span class="publications-members">K. Chalabi, </span><span class="publications-members">M. Adjel, </span><span class="publications-members">T. Bousquet, </span><span class="publications-members">M. Sabbah, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a>, </span><span class="publications-members">V. Bonnet </span></td>
+  <td id="chalabi:humanoids:2024-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="chalabi:humanoids:2024-year">2024</td>
+  <td id="chalabi:humanoids:2024-bib"><a href="/assets/bib/chalabi_humanoids_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chalabi:humanoids:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10769846" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chalabi:humanoids:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="chalabi:humanoids:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sabbah:biorob:2024">
+  <td id="sabbah:biorob:2024-title">Ground Reaction Forces and Moments Estimation from Embedded Insoles using Machine Learning Regression Models</td>
+  <td id="sabbah:biorob:2024-authors"><span class="publications-members">M. Sabbah, </span><span class="publications-members">R. Dumas, </span><span class="publications-members">Z. Pomarat, </span><span class="publications-members">L. Robinet, </span><span class="publications-members">M. Adjel, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a>, </span><span class="publications-members">V. Bonnet </span></td>
+  <td id="sabbah:biorob:2024-book-title">International Conference on Biomedical Robotics and Biomechatronics</td>
+  <td id="sabbah:biorob:2024-year">2024</td>
+  <td id="sabbah:biorob:2024-bib"><a href="/assets/bib/sabbah_biorob_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sabbah:biorob:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10719958" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sabbah:biorob:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sabbah:biorob:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sabbah:isj:2024">
+  <td id="sabbah:isj:2024-title">Concurrent validity of embedded solutions for whole body dynamics analysis</td>
+  <td id="sabbah:isj:2024-authors"><span class="publications-members">M. Sabbah, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a>, </span><span class="publications-members">R. Dumas, </span><span class="publications-members">M. Gautier, </span><span class="publications-members">V. Bonnet </span></td>
+  <td id="sabbah:isj:2024-book-title">IEEE Sensors Journal</td>
+  <td id="sabbah:isj:2024-year">2024</td>
+  <td id="sabbah:isj:2024-bib"><a href="/assets/bib/sabbah_isj_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sabbah:isj:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10738286" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sabbah:isj:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sabbah:isj:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="pillet:isb:2023">
+  <td id="pillet:isb:2023-title">INFLUENCE OF NEGLECTING FREE MOMENT AND TRANSVERSE GROUND REACTION FORCES IN THE DETECTION OF THE INSTABILITY OF GAIT</td>
+  <td id="pillet:isb:2023-authors"><span class="publications-members">H. Pillet, </span><span class="publications-members">X. Bonnet, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a> </span></td>
+  <td id="pillet:isb:2023-book-title">International Society of Biomechanics</td>
+  <td id="pillet:isb:2023-year">2023</td>
+  <td id="pillet:isb:2023-bib"><a href="/assets/bib/pillet_isb_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="pillet:isb:2023-pdf"><a href="https://hal.science/JRL/hal-04489336v1" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="pillet:isb:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="pillet:isb:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="deves:isb:2023">
+  <td id="deves:isb:2023-title">IN SITU VALIDATION OF POWER QUANTIFICATION FOR DYNAMIC WHEELCHAIR SPORTS</td>
+  <td id="deves:isb:2023-authors"><span class="publications-members">M. Deves, </span><span class="publications-members">T. Marsan, </span><span class="publications-members">A. Faupin, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a> </span></td>
+  <td id="deves:isb:2023-book-title">International Society of Biomechanics</td>
+  <td id="deves:isb:2023-year">2023</td>
+  <td id="deves:isb:2023-bib"><a href="/assets/bib/deves_isb_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="deves:isb:2023-pdf"><a href="https://hal.science/JRL/hal-04489340v1" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="deves:isb:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="deves:isb:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="watier:isb:2023">
+  <td id="watier:isb:2023-title">BODY CENTER OF MASS TO MINIMAL MOMENT AXIS DISTANCE IS DETERMINANT OF AGE-RELATED EVOLUTION IN STEPPING</td>
+  <td id="watier:isb:2023-authors"><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a>, </span><span class="publications-members">J. Begue, </span><span class="publications-members">T. Caderby, </span><span class="publications-members">H. Pillet </span></td>
+  <td id="watier:isb:2023-book-title">International Society of Biomechanics</td>
+  <td id="watier:isb:2023-year">2023</td>
+  <td id="watier:isb:2023-bib"><a href="/assets/bib/watier_isb_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="watier:isb:2023-pdf"><a href="https://hal.science/JRL/hal-04489345v1" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="watier:isb:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="watier:isb:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="alberca:isb:2023">
+  <td id="alberca:isb:2023-title">COMPARISON BETWEEN BACKWARD AND FORWARD PROPULSION IN WHEELCHAIR BADMINTON</td>
+  <td id="alberca:isb:2023-authors"><span class="publications-members">I. Alberca, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a>, </span><span class="publications-members">F. Chénier, </span><span class="publications-members">A. Faupin </span></td>
+  <td id="alberca:isb:2023-book-title">International Society of Biomechanics</td>
+  <td id="alberca:isb:2023-year">2023</td>
+  <td id="alberca:isb:2023-bib"><a href="/assets/bib/alberca_isb_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="alberca:isb:2023-pdf"><a href="https://hal.science/JRL/hal-04489352v1" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="alberca:isb:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="alberca:isb:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="watier:ibm:2023">
+  <td id="watier:ibm:2023-title">Use of adult anthropometric tables to estimate children body segment inertial parameters</td>
+  <td id="watier:ibm:2023-authors"><span class="publications-members">G. Sabrina Otmani, </span><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a> </span></td>
+  <td id="watier:ibm:2023-book-title">International Biomechanics</td>
+  <td id="watier:ibm:2023-year">2023</td>
+  <td id="watier:ibm:2023-bib"><a href="/assets/bib/watier_ibm_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="watier:ibm:2023-pdf"><a href="https://doi.org/10.1080/23335432.2023.2268686" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="watier:ibm:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="watier:ibm:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="watier:applsci:2023">
+  <td id="watier:applsci:2023-title">Instability during Stepping and Distance between the Center of Mass and the Minimal Moment Axis: Effect of Age and Speed </td>
+  <td id="watier:applsci:2023-authors"><span class="publications-members"><a href="/jp/members/member-bwatier.html">B. Watier</a>, </span><span class="publications-members">J. Begue, </span><span class="publications-members">H. Pillet, </span><span class="publications-members">T. Caderby </span></td>
+  <td id="watier:applsci:2023-book-title">Applied Sciences</td>
+  <td id="watier:applsci:2023-year">2023</td>
+  <td id="watier:applsci:2023-bib"><a href="/assets/bib/watier_applsci_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="watier:applsci:2023-pdf"><a href="https://www.mdpi.com/2076-3417/13/19/10574" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="watier:applsci:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="watier:applsci:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>
+
+</div>
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

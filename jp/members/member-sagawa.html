@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-産総研ロボット工学連携研究室</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/jp/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-産総研ロボット工学連携研究室
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/news.html">
+              ニュース
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              プロジェクト
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/jp/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/jp/past-projects.html">
+                  過去のプロジェクト
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/members.html">
+              メンバー
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/robots.html">
+              ロボット
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/publications.html">
+              論文
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/join_us.html">
+              採用情報
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/contact.html">
+              アクセス
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <a href="/members/member-sagawa.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              EN
+            </a>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              JP
+            </span>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/jp/index.html">ホーム</a>
+            </li><li class="breadcrumb-item"><a href="/jp/members.html">メンバー</a></li><li class="breadcrumb-item active" aria-current="page">佐川 立昌</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">佐川 立昌<small><br/>過去のメンバー</small></h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container py-4">
+  <div class="row align-items-center">
+    <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
+      <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active">
+              <img src="/assets/members/nopicture.png" class="d-block w-100 rounded" alt="佐川 立昌 image 1">
+            </div></div></div>
+    </div>
+
+    <div class="col-md-7 col-12"></div>
+  </div><div class="row mt-4">
+    <div class="col-12"><h3>論文</h3>
+        <div class="alert alert-info">論文リストは完全ではない場合があります。特に2017年以前の論文については、更新作業を進めています。</div><table class="table table-striped">
+  <thead>
+    <tr>
+      <td>タイトル</td>
+      <td>著者</td>
+      <td>学会/論文誌</td>
+      <td>年</td>
+      <td>bib</td>
+      <td>pdf</td>
+      <td>mov</td>
+      <td>prj</td>
+    </tr>
+  </thead>
+  <tbody><tr id="caillot:rap:2026">
+  <td id="caillot:rap:2026-title">Dual-Exposure for Improving Omnidirectional Visual Simultaneous Localization And Mapping</td>
+  <td id="caillot:rap:2026-authors"><span class="publications-members"><a href="/jp/members/member-acaillot.html">A. Caillot</a>, </span><span class="publications-members"><a href="/jp/members/member-goichon.html">E. Goichon</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="caillot:rap:2026-book-title">IEEE Robotics and Automation Practice</td>
+  <td id="caillot:rap:2026-year">2026</td>
+  <td id="caillot:rap:2026-bib"><a href="/assets/bib/caillot_rap_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="caillot:rap:2026-pdf"><a href="https://hal.science/hal-05667611" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="caillot:rap:2026-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="caillot:rap:2026-prj"><a href="https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-antnoid.html" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+</tr>
+<tr id="barstugan:iccr:2024">
+  <td id="barstugan:iccr:2024-title">Aligning objects as preprocessing combined with imitation learning for improved generalization</td>
+  <td id="barstugan:iccr:2024-authors"><span class="publications-members">M. Barstugan, </span><span class="publications-members"><a href="/jp/members/member-masuda.html">S. Masuda</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="barstugan:iccr:2024-book-title">International Conference on Control and Robotics</td>
+  <td id="barstugan:iccr:2024-year">2024</td>
+  <td id="barstugan:iccr:2024-bib"><a href="/assets/bib/barstugan_iccr_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="barstugan:iccr:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10927529" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="barstugan:iccr:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="barstugan:iccr:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="miyake:iros:2024">
+  <td id="miyake:iros:2024-title">Contacts from Motion: Learning Discrete Features for Automatic Contact Detection and Estimation from Human Movements</td>
+  <td id="miyake:iros:2024-authors"><span class="publications-members"><a href="/jp/members/member-miyake.html">H. Miyake</a>, </span><span class="publications-members"><a href="/jp/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="miyake:iros:2024-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="miyake:iros:2024-year">2024</td>
+  <td id="miyake:iros:2024-bib"><a href="/assets/bib/miyake_iros_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="miyake:iros:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10802414" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="miyake:iros:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="miyake:iros:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kang:icra:2024">
+  <td id="kang:icra:2024-title">Direct 3D model-based object tracking with event camera by motion interpolation</td>
+  <td id="kang:icra:2024-authors"><span class="publications-members"><a href="/jp/members/member-kang.html">Y. Kang</a>, </span><span class="publications-members"><a href="/jp/members/member-carong.html">G. Caron</a>, </span><span class="publications-members">R. Ishikawa, </span><span class="publications-members"><a href="/jp/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/jp/members/member-chappellet.html">K. Chappellet</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">T. Oishi </span></td>
+  <td id="kang:icra:2024-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="kang:icra:2024-year">2024</td>
+  <td id="kang:icra:2024-bib"><a href="/assets/bib/kang_icra_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kang:icra:2024-pdf"><a href="https://hal.science/hal-04519122" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kang:icra:2024-mov"><a href="https://www.youtube.com/watch?v=7w7BooquN9U" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kang:icra:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="osorio:sensors:2024">
+  <td id="osorio:sensors:2024-title">A Generative Model to Embed Human Expressivity into Robot Motions</td>
+  <td id="osorio:sensors:2024-authors"><span class="publications-members"><a href="/jp/members/member-osorio.html">P. Osorio</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-abe.html">N. Abe</a>, </span><span class="publications-members"><a href="/jp/members/member-venture.html">G. Venture</a> </span></td>
+  <td id="osorio:sensors:2024-book-title">Sensors</td>
+  <td id="osorio:sensors:2024-year">2024</td>
+  <td id="osorio:sensors:2024-bib"><a href="/assets/bib/osorio_sensors_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="osorio:sensors:2024-pdf"><a href="https://www.mdpi.com/1424-8220/24/2/569" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="osorio:sensors:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="osorio:sensors:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="niu:joi:2022">
+  <td id="niu:joi:2022-title">Estimating Muscle Activity from the Deformation of a Sequential 3D Point Cloud</td>
+  <td id="niu:joi:2022-authors"><span class="publications-members">H. Niu, </span><span class="publications-members"><a href="/jp/members/member-ito.html">T. Ito</a>, </span><span class="publications-members">D. Desclaux, </span><span class="publications-members"><a href="/jp/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="niu:joi:2022-book-title">Journal of Imaging</td>
+  <td id="niu:joi:2022-year">2022</td>
+  <td id="niu:joi:2022-bib"><a href="/assets/bib/niu_joi_2022.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="niu:joi:2022-pdf"><a href="https://www.mdpi.com/2313-433X/8/6/168" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="niu:joi:2022-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="niu:joi:2022-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="ikeuchi:book:2020">
+  <td id="ikeuchi:book:2020-title">Active Lighting and Its Application for Computer Vision</td>
+  <td id="ikeuchi:book:2020-authors"><span class="publications-members">K. Ikeuchi, </span><span class="publications-members">Y. Matsushita, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">H. Kawasaki, </span><span class="publications-members">Y. Mukaigawa, </span><span class="publications-members">R. Furukawa, </span><span class="publications-members">D. Miyazaki </span></td>
+  <td id="ikeuchi:book:2020-book-title">Active Lighting and Its Application for Computer Vision</td>
+  <td id="ikeuchi:book:2020-year">2020</td>
+  <td id="ikeuchi:book:2020-bib"><a href="/assets/bib/ikeuchi_book_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ikeuchi:book:2020-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="ikeuchi:book:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="ikeuchi:book:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="gabas:icip:2020">
+  <td id="gabas:icip:2020-title">APE: A More Practical Approach To 6-Dof Pose Estimation</td>
+  <td id="gabas:icip:2020-authors"><span class="publications-members"><a href="/jp/members/member-gabas.html">A. Gabas</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/jp/members/member-singh.html">R. Singh</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="gabas:icip:2020-book-title">IEEE International Conference on Image Processing</td>
+  <td id="gabas:icip:2020-year">2020</td>
+  <td id="gabas:icip:2020-bib"><a href="/assets/bib/gabas_icip_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="gabas:icip:2020-pdf"><a href="https://ieeexplore.ieee.org/document/9190664" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="gabas:icip:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="gabas:icip:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="yoshiyasu:embc:2020">
+  <td id="yoshiyasu:embc:2020-title">Statistical Human Body Shape Model including Elderly People</td>
+  <td id="yoshiyasu:embc:2020-authors"><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/jp/members/member-samy.html">V. Samy</a>, </span><span class="publications-members"><a href="/jp/members/member-imamura.html">Y. Imamura</a>, </span><span class="publications-members"><a href="/jp/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="yoshiyasu:embc:2020-book-title">International Conference of the IEEE Engineering in Medicine and Biology Society</td>
+  <td id="yoshiyasu:embc:2020-year">2020</td>
+  <td id="yoshiyasu:embc:2020-bib"><a href="/assets/bib/yoshiyasu_embc_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yoshiyasu:embc:2020-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu-EMBC2020.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yoshiyasu:embc:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="yoshiyasu:embc:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="furukawa:embc:2020">
+  <td id="furukawa:embc:2020-title">Fully Auto-calibrated Active-stereo-based 3D Endoscopic System using Correspondence Estimation with Graph Convolutional Network</td>
+  <td id="furukawa:embc:2020-authors"><span class="publications-members">R. Furukawa, </span><span class="publications-members">S. Oka, </span><span class="publications-members">T. Kotachi, </span><span class="publications-members">Y. Okamoto, </span><span class="publications-members">S. Tanaka, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">H. Kawasaki </span></td>
+  <td id="furukawa:embc:2020-book-title">International Conference of the IEEE Engineering in Medicine and Biology Society</td>
+  <td id="furukawa:embc:2020-year">2020</td>
+  <td id="furukawa:embc:2020-bib"><a href="/assets/bib/furukawa_embc_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="furukawa:embc:2020-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9176417" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="furukawa:embc:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="furukawa:embc:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sagawa:accv:2020">
+  <td id="sagawa:accv:2020-title">Dense Pixel-Wise Micro-motion Estimation of Object Surface by Using Low Dimensional Embedding of Laser Speckle Pattern</td>
+  <td id="sagawa:accv:2020-authors"><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">Y. Higuchi, </span><span class="publications-members">H. Kawasaki, </span><span class="publications-members">R. Furukawa, </span><span class="publications-members"><a href="/jp/members/member-ito.html">T. Ito</a> </span></td>
+  <td id="sagawa:accv:2020-book-title">Asian Conference on Computer Vision</td>
+  <td id="sagawa:accv:2020-year">2020</td>
+  <td id="sagawa:accv:2020-bib"><a href="/assets/bib/sagawa_accv_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:accv:2020-pdf"><a href="https://arxiv.org/pdf/2011.00174.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:accv:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sagawa:accv:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="samy:sii:2019a">
+  <td id="samy:sii:2019a-title">Fusion of Multiple Motion Capture Systems for Musculoskeletal Analysis</td>
+  <td id="samy:sii:2019a-authors"><span class="publications-members"><a href="/jp/members/member-samy.html">V. Samy</a>, </span><span class="publications-members"><a href="/jp/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="samy:sii:2019a-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="samy:sii:2019a-year">2019</td>
+  <td id="samy:sii:2019a-bib"><a href="/assets/bib/samy_sii_2019a.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="samy:sii:2019a-pdf"><a href="https://hal.archives-ouvertes.fr/hal-02433191/document" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="samy:sii:2019a-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="samy:sii:2019a-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nagamatsu:mva:2019">
+  <td id="nagamatsu:mva:2019-title">Single-wavelength and multi-parallel dotted- and solid-lines for dense and robust active 3D reconstruction</td>
+  <td id="nagamatsu:mva:2019-authors"><span class="publications-members">G. Nagamatsu, </span><span class="publications-members">R. Furukawa, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">H. Kawasaki </span></td>
+  <td id="nagamatsu:mva:2019-book-title">IAPR International Conference on Machine Vision Applications</td>
+  <td id="nagamatsu:mva:2019-year">2019</td>
+  <td id="nagamatsu:mva:2019-bib"><a href="/assets/bib/nagamatsu_mva_2019.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nagamatsu:mva:2019-pdf"><a href="http://www.cvg.ait.kyushu-u.ac.jp/papers/2018/37-paper.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nagamatsu:mva:2019-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nagamatsu:mva:2019-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="samy:arso:2019">
+  <td id="samy:arso:2019-title">Musculoskeletal Estimation Using Inertial Measurement Units and Single Video Image</td>
+  <td id="samy:arso:2019-authors"><span class="publications-members"><a href="/jp/members/member-samy.html">V. Samy</a>, </span><span class="publications-members"><a href="/jp/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="samy:arso:2019-book-title">IEEE International Conference on Advanced Robotics and its Social Impacts</td>
+  <td id="samy:arso:2019-year">2019</td>
+  <td id="samy:arso:2019-bib"><a href="/assets/bib/samy_arso_2019.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="samy:arso:2019-pdf"><a href="https://hal.archives-ouvertes.fr/hal-02311483v2/document" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="samy:arso:2019-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="samy:arso:2019-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sagawa:eccv:2018">
+  <td id="sagawa:eccv:2018-title">Predicting Muscle Activity and Joint Angle from Skin Shape</td>
+  <td id="sagawa:eccv:2018-authors"><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members">A. Murai </span></td>
+  <td id="sagawa:eccv:2018-book-title">European Conference on Computer Vision</td>
+  <td id="sagawa:eccv:2018-year">2018</td>
+  <td id="sagawa:eccv:2018-bib"><a href="/assets/bib/sagawa_eccv_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:eccv:2018-pdf"><a href="https://openaccess.thecvf.com/content_ECCVW_2018/papers/11129/Sagawa_Predicting_Muscle_Activity_and_Joint_Angle_from_Skin_Shape_ECCVW_2018_paper.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:eccv:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sagawa:eccv:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="yoshiyasu:accv:2018">
+  <td id="yoshiyasu:accv:2018-title">Skeleton Transformer Networks:3D Human Pose and Skinned Mesh from single RGB Image</td>
+  <td id="yoshiyasu:accv:2018-authors"><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members"><a href="/jp/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members">A. Murai </span></td>
+  <td id="yoshiyasu:accv:2018-book-title">Asian Conference on Computer Vision</td>
+  <td id="yoshiyasu:accv:2018-year">2018</td>
+  <td id="yoshiyasu:accv:2018-bib"><a href="/assets/bib/yoshiyasu_accv_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yoshiyasu:accv:2018-pdf"><a href="https://www.researchgate.net/publication/330036375_Skeleton_Transformer_Networks_3D_Human_Pose_and_Skinned_Mesh_from_Single_RGB_Image" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yoshiyasu:accv:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="yoshiyasu:accv:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sagawa:ro-man:2015">
+  <td id="sagawa:ro-man:2015-title">Modeling Dynamic Scenes by One-shot 3D Acquisition System for Moving Humanoid Robot</td>
+  <td id="sagawa:ro-man:2015-authors"><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">C. Malleson, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">Y. Matsumoto, </span><span class="publications-members">A. Hilton </span></td>
+  <td id="sagawa:ro-man:2015-book-title">International Symposium on Robot and Human Interactive Communication</td>
+  <td id="sagawa:ro-man:2015-year">2015</td>
+  <td id="sagawa:ro-man:2015-bib"><a href="/assets/bib/sagawa_ro-man_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:ro-man:2015-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="sagawa:ro-man:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sagawa:ro-man:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="yoshiyasu:cvpr:2014">
+  <td id="yoshiyasu:cvpr:2014-title">Symmetry-Aware Nonrigid Matching of Incomplete 3D Surfaces</td>
+  <td id="yoshiyasu:cvpr:2014-authors"><span class="publications-members"><a href="/jp/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a>, </span><span class="publications-members">K. Yokoi, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a> </span></td>
+  <td id="yoshiyasu:cvpr:2014-book-title">IEEE/CVF Conference on Computer Vision and Pattern Recognition</td>
+  <td id="yoshiyasu:cvpr:2014-year">2014</td>
+  <td id="yoshiyasu:cvpr:2014-bib"><a href="/assets/bib/yoshiyasu_cvpr_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yoshiyasu:cvpr:2014-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Yoshiyasu2014CVPR.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yoshiyasu:cvpr:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="yoshiyasu:cvpr:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="makihara:tsp:2014">
+  <td id="makihara:tsp:2014-title">Phase Estimation of a Single Quasi-Periodic Signal</td>
+  <td id="makihara:tsp:2014-authors"><span class="publications-members">Y. Makihara, </span><span class="publications-members">M. Aqmar, </span><span class="publications-members">T. Ngo, </span><span class="publications-members">H. Nagahara, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">Y. Mukaigawa, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="makihara:tsp:2014-book-title">IEEE Transactions on Signal Processing</td>
+  <td id="makihara:tsp:2014-year">2014</td>
+  <td id="makihara:tsp:2014-bib"><a href="/assets/bib/makihara_tsp_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="makihara:tsp:2014-pdf"><a href="http://www.am.sanken.osaka-u.ac.jp/~makihara/pdf/tsp_2014Apr.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="makihara:tsp:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="makihara:tsp:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sagawa:tpami:2014">
+  <td id="sagawa:tpami:2014-title">Dense 3D Reconstruction from High Frame-Rate Video using a Static Grid Pattern</td>
+  <td id="sagawa:tpami:2014-authors"><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">R. Furukawa, </span><span class="publications-members">H. Kawasaki </span></td>
+  <td id="sagawa:tpami:2014-book-title">IEEE Transactions on Pattern Analysis and Machine Intelligence</td>
+  <td id="sagawa:tpami:2014-year">2014</td>
+  <td id="sagawa:tpami:2014-bib"><a href="/assets/bib/sagawa_tpami_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:tpami:2014-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6714483" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:tpami:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sagawa:tpami:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sakashita:tcva:2012">
+  <td id="sakashita:tcva:2012-title">Capturing Textured 3D Shapes based on Infrared One-shot Grid Pattern</td>
+  <td id="sakashita:tcva:2012-authors"><span class="publications-members">K. Sakashita, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">R. Furukawa, </span><span class="publications-members">H. Kawasaki, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="sakashita:tcva:2012-book-title">IPSJ Transactions on Computer Vision and Applications</td>
+  <td id="sakashita:tcva:2012-year">2012</td>
+  <td id="sakashita:tcva:2012-bib"><a href="/assets/bib/sakashita_tcva_2012.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sakashita:tcva:2012-pdf"><a href="https://www.jstage.jst.go.jp/article/imt/7/4/7_1556/_pdf/-char/en" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sakashita:tcva:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sakashita:tcva:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="furukawa:tcva:2012">
+  <td id="furukawa:tcva:2012-title">Entire Shape Acquisition Technique Using Multiple Projectors and Cameras with Parallel Pattern Projection</td>
+  <td id="furukawa:tcva:2012-authors"><span class="publications-members">R. Furukawa, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">H. Kawasaki, </span><span class="publications-members">K. Sakashita, </span><span class="publications-members">Y. Yagi, </span><span class="publications-members">N. Asada </span></td>
+  <td id="furukawa:tcva:2012-book-title">IPSJ Transactions on Computer Vision and Applications</td>
+  <td id="furukawa:tcva:2012-year">2012</td>
+  <td id="furukawa:tcva:2012-bib"><a href="/assets/bib/furukawa_tcva_2012.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="furukawa:tcva:2012-pdf"><a href="https://www.jstage.jst.go.jp/article/ipsjtcva/4/0/4_0_40/_pdf/-char/en" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="furukawa:tcva:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="furukawa:tcva:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="daribo:res:2012">
+  <td id="daribo:res:2012-title">Efficient Rate-Distortion Compression of Dynamic Point Cloud for Grid-Pattern-Based 3D Scanning Systems</td>
+  <td id="daribo:res:2012-authors"><span class="publications-members">I. Daribo, </span><span class="publications-members">R. Furukawa, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">H. Kawasaki, </span><span class="publications-members">S. Hiura, </span><span class="publications-members">N. Asada </span></td>
+  <td id="daribo:res:2012-book-title">3D Research</td>
+  <td id="daribo:res:2012-year">2012</td>
+  <td id="daribo:res:2012-bib"><a href="/assets/bib/daribo_res_2012.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="daribo:res:2012-pdf"><a href="https://www.researchgate.net/publication/256104117_Efficient_rate-distortion_compression_of_dynamic_point_cloud_for_grid-pattern-based_3D_scanning_systems" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="daribo:res:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="daribo:res:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="ngo:itis:2010">
+  <td id="ngo:itis:2010-title">Real-time Estimation of Fast Egomotion with Feature Classification using Compound Omnidirectional Vision Sensor</td>
+  <td id="ngo:itis:2010-authors"><span class="publications-members">T. Ngo, </span><span class="publications-members">Y. Kojima, </span><span class="publications-members">H. Nagahara, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">Y. Mukaigawa, </span><span class="publications-members">M. Yachida, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="ngo:itis:2010-book-title">IEICE Transactions on Information and Systems</td>
+  <td id="ngo:itis:2010-year">2010</td>
+  <td id="ngo:itis:2010-bib"><a href="/assets/bib/ngo_itis_2010.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ngo:itis:2010-pdf"><a href="https://www.jstage.jst.go.jp/article/transinf/E93.D/1/E93.D_1_152/_pdf/-char/en" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ngo:itis:2010-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="ngo:itis:2010-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="ngo:tcva:2009">
+  <td id="ngo:tcva:2009-title">Highly Robust Estimator Using a Casedependent Residual Distribution Model</td>
+  <td id="ngo:tcva:2009-authors"><span class="publications-members">T. Ngo, </span><span class="publications-members">H. Nagahara, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">Y. Mukaigawa, </span><span class="publications-members">M. Yachida, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="ngo:tcva:2009-book-title">IPSJ Transactions on Computer Vision and Applications</td>
+  <td id="ngo:tcva:2009-year">2009</td>
+  <td id="ngo:tcva:2009-bib"><a href="/assets/bib/ngo_tcva_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ngo:tcva:2009-pdf"><a href="http://omilab.naist.jp/~mukaigawa/papers/TCVA2009-RobustEstimator.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ngo:tcva:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="ngo:tcva:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="furukawa:tcva:2009">
+  <td id="furukawa:tcva:2009-title">Shape from Grid Pattern Based on Coplanarity Constraints for One-shot Scanning</td>
+  <td id="furukawa:tcva:2009-authors"><span class="publications-members">R. Furukawa, </span><span class="publications-members">H. Kawasaki, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="furukawa:tcva:2009-book-title">IPSJ Transactions on Computer Vision and Applications</td>
+  <td id="furukawa:tcva:2009-year">2009</td>
+  <td id="furukawa:tcva:2009-bib"><a href="/assets/bib/furukawa_tcva_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="furukawa:tcva:2009-pdf"><a href="http://www.am.sanken.osaka-u.ac.jp/publications/static/files/0483/furukawa09:_shape_from_grid.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="furukawa:tcva:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="furukawa:tcva:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="vu:ima:2009">
+  <td id="vu:ima:2009-title">Controlling the Display of Capsule Endoscopy Video for Diagnostic Assistance</td>
+  <td id="vu:ima:2009-authors"><span class="publications-members">H. Vu, </span><span class="publications-members">T. Echigo, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">K. Yagi, </span><span class="publications-members">M. Shiba, </span><span class="publications-members">K. Higuchi, </span><span class="publications-members">T. Arakawa, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="vu:ima:2009-book-title">IMA Journal of Numerical Analysis</td>
+  <td id="vu:ima:2009-year">2009</td>
+  <td id="vu:ima:2009-bib"><a href="/assets/bib/vu_ima_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vu:ima:2009-pdf"><a href="http://www.am.sanken.osaka-u.ac.jp/~vhai/documents/e92-d_3_512.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vu:ima:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="vu:ima:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="makihara:elcvia:2009">
+  <td id="makihara:elcvia:2009-title">Gait Identification Considering Body Tilt by Walking Direction Changes</td>
+  <td id="makihara:elcvia:2009-authors"><span class="publications-members">Y. Makihara, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">Y. Mukaigawa, </span><span class="publications-members">T. Echigo, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="makihara:elcvia:2009-book-title">Electronic Letters on Computer Vision and Image Analysis</td>
+  <td id="makihara:elcvia:2009-year">2009</td>
+  <td id="makihara:elcvia:2009-bib"><a href="/assets/bib/makihara_elcvia_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="makihara:elcvia:2009-pdf"><a href="http://www.am.sanken.osaka-u.ac.jp/~makihara/pdf/Elcvia2009Apr.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="makihara:elcvia:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="makihara:elcvia:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="vu:cbm:2009">
+  <td id="vu:cbm:2009-title">Detection of Contractions in Adaptive Transit Time of the Small Bowel from Wireless Capsule Endoscopy Videos</td>
+  <td id="vu:cbm:2009-authors"><span class="publications-members">H. Vu, </span><span class="publications-members">T. Echigo, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">K. Yagi, </span><span class="publications-members">M. Shiba, </span><span class="publications-members">K. Higuchi, </span><span class="publications-members">T. Arakawa, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="vu:cbm:2009-book-title">Computers in Biology and Medicine</td>
+  <td id="vu:cbm:2009-year">2009</td>
+  <td id="vu:cbm:2009-bib"><a href="/assets/bib/vu_cbm_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vu:cbm:2009-pdf"><a href="https://www.deepdyve.com/lp/elsevier/detection-of-contractions-in-adaptive-transit-time-of-the-small-bowel-BoQNHehmn7" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vu:cbm:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="vu:cbm:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sagawa:tpami:2008">
+  <td id="sagawa:tpami:2008-title">Hole Filling of a 3D Model by Flipping Signs of a Signed Distance Field in Adaptive Resolution</td>
+  <td id="sagawa:tpami:2008-authors"><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">K. Ikeuchi </span></td>
+  <td id="sagawa:tpami:2008-book-title">IEEE Transactions on Pattern Analysis and Machine Intelligence</td>
+  <td id="sagawa:tpami:2008-year">2008</td>
+  <td id="sagawa:tpami:2008-bib"><a href="/assets/bib/sagawa_tpami_2008.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:tpami:2008-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4359341" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:tpami:2008-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sagawa:tpami:2008-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="mannami:vcir:2007">
+  <td id="mannami:vcir:2007-title">Adaptive dynamic range camera with reflective liquid crystal</td>
+  <td id="mannami:vcir:2007-authors"><span class="publications-members">H. Mannami, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">Y. Mukaigawa, </span><span class="publications-members">T. Echigo, </span><span class="publications-members">Y. Yagi </span></td>
+  <td id="mannami:vcir:2007-book-title">Journal of Visual Communication and Image Representation</td>
+  <td id="mannami:vcir:2007-year">2007</td>
+  <td id="mannami:vcir:2007-bib"><a href="/assets/bib/mannami_vcir_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="mannami:vcir:2007-pdf"><a href="http://omilab.naist.jp/~mukaigawa/papers/MIRU2006-WDRI.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="mannami:vcir:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="mannami:vcir:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="yagi:infla:2007">
+  <td id="yagi:infla:2007-title">A diagnosis support system for capsule endoscopy</td>
+  <td id="yagi:infla:2007-authors"><span class="publications-members">Y. Yagi, </span><span class="publications-members">T. Echigo, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">K. Yagi, </span><span class="publications-members">M. Shiba, </span><span class="publications-members">K. Higuchi, </span><span class="publications-members">T. Arakawa </span></td>
+  <td id="yagi:infla:2007-book-title">Inflammopharmacology</td>
+  <td id="yagi:infla:2007-year">2007</td>
+  <td id="yagi:infla:2007-bib"><a href="/assets/bib/yagi_infla_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yagi:infla:2007-pdf"><a href="https://www.mica.edu.vn/perso/Vu-Hai/Inflammopharmacology2007.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yagi:infla:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="yagi:infla:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="ikeuchi:ijcv:2007">
+  <td id="ikeuchi:ijcv:2007-title">The Great Buddha Project: Digitally Archiving, Restoring, and Analyzing Cultural Heritage Objects</td>
+  <td id="ikeuchi:ijcv:2007-authors"><span class="publications-members">K. Ikeuchi, </span><span class="publications-members">T. Oishi, </span><span class="publications-members">J. Takamatsu, </span><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">A. Nakazawa, </span><span class="publications-members">R. Kurazume, </span><span class="publications-members">Ko Nishino, </span><span class="publications-members">M. Kamakura, </span><span class="publications-members">Y. Okamoto </span></td>
+  <td id="ikeuchi:ijcv:2007-book-title">International Journal of Computer Vision</td>
+  <td id="ikeuchi:ijcv:2007-year">2007</td>
+  <td id="ikeuchi:ijcv:2007-bib"><a href="/assets/bib/ikeuchi_ijcv_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ikeuchi:ijcv:2007-pdf"><a href="https://www.cvl.iis.u-tokyo.ac.jp/~ki/papers/budda-IJCV07.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ikeuchi:ijcv:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="ikeuchi:ijcv:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="sagawa:tpami:2005">
+  <td id="sagawa:tpami:2005-title">Adaptively Merging Large-Scale Range Data with Reflectance Properties ",</td>
+  <td id="sagawa:tpami:2005-authors"><span class="publications-members"><a href="/jp/members/member-sagawa.html">R. Sagawa</a>, </span><span class="publications-members">Ko Nishino, </span><span class="publications-members">K. Ikeuchi </span></td>
+  <td id="sagawa:tpami:2005-book-title">IEEE Transactions on Pattern Analysis and Machine Intelligence</td>
+  <td id="sagawa:tpami:2005-year">2005</td>
+  <td id="sagawa:tpami:2005-bib"><a href="/assets/bib/sagawa_tpami_2005.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:tpami:2005-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1388265" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="sagawa:tpami:2005-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="sagawa:tpami:2005-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>
+
+</div>
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Projects
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/past-projects.html">
+                  Past projects
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/members.html">
+              Members
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/robots.html">
+              Robots
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/publications.html">
+              Publications
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/join_us.html">
+              Join us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              EN
+            </span>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <a href="/jp/members/member-tanguy.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              JP
+            </a>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/index.html">Home</a>
+            </li><li class="breadcrumb-item"><a href="/members.html">Members</a></li><li class="breadcrumb-item active" aria-current="page">Arnaud Tanguy</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">Arnaud Tanguy<small><br/>Alumni</small></h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container py-4">
+  <div class="row align-items-center">
+    <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
+      <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active">
+              <img src="/assets/members/nopicture.png" class="d-block w-100 rounded" alt="Arnaud Tanguy image 1">
+            </div></div></div>
+    </div>
+
+    <div class="col-md-7 col-12"></div>
+  </div><div class="row mt-4">
+    <div class="col-12"><h3>Publications</h3>
+        <div class="alert alert-info">The publication list may not be complete, especially for publications prior to 2017. We are working on updating it.</div><table class="table table-striped">
+  <thead>
+    <tr>
+      <td>Title</td>
+      <td>Authors</td>
+      <td>Conference/Book</td>
+      <td>Year</td>
+      <td>bib</td>
+      <td>pdf</td>
+      <td>mov</td>
+      <td>prj</td>
+    </tr>
+  </thead>
+  <tbody><tr id="boillereaux:tmrb:2025">
+  <td id="boillereaux:tmrb:2025-title">A Distraction Knee-Brace and a Robotic Testbed for Tibiofemoral Load Reduction During Squatting</td>
+  <td id="boillereaux:tmrb:2025-authors"><span class="publications-members">L. Boillereaux, </span><span class="publications-members">S. Floc’h, </span><span class="publications-members">F. Jourdan, </span><span class="publications-members">G. Camp, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="boillereaux:tmrb:2025-book-title">IEEE Transactions on Medical Robotics and Bionics</td>
+  <td id="boillereaux:tmrb:2025-year">2025</td>
+  <td id="boillereaux:tmrb:2025-bib"><a href="/assets/bib/boillereaux_tmrb_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="boillereaux:tmrb:2025-pdf"><a href="https://ieeexplore.ieee.org/abstract/document/10924258" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="boillereaux:tmrb:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="boillereaux:tmrb:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="lefevre:ral:2025">
+  <td id="lefevre:ral:2025-title">Humanoid-Human Sit-to-Stand-to-Sit Assistance</td>
+  <td id="lefevre:ral:2025-authors"><span class="publications-members">H. Lefévre, </span><span class="publications-members">T. Chaki, </span><span class="publications-members">T. Kawakami, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members">T. Yoshiike, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="lefevre:ral:2025-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="lefevre:ral:2025-year">2025</td>
+  <td id="lefevre:ral:2025-bib"><a href="/assets/bib/lefevre_ral_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="lefevre:ral:2025-pdf"><a href="https://ieeexplore.ieee.org/document/10815980" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="lefevre:ral:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="lefevre:ral:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="hong:ro-man:2024">
+  <td id="hong:ro-man:2024-title">A Dance Performance with a Humanoid Robot using a Real-time Gesture Responsive Framework</td>
+  <td id="hong:ro-man:2024-authors"><span class="publications-members">H.-T. Hong, </span><span class="publications-members">C.-Y. Chen, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="hong:ro-man:2024-book-title">International Symposium on Robot and Human Interactive Communication</td>
+  <td id="hong:ro-man:2024-year">2024</td>
+  <td id="hong:ro-man:2024-bib"><a href="/assets/bib/hong_ro-man_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hong:ro-man:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10731316" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hong:ro-man:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="hong:ro-man:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="hong:isea:2024">
+  <td id="hong:isea:2024-title">A cross-temporal robotic dance performance: Dancing with a humanoid robot and artificial life</td>
+  <td id="hong:isea:2024-authors"><span class="publications-members">H.-T. Hong, </span><span class="publications-members">I. Teles De Castro E Costa, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members">C-Y. Chen </span></td>
+  <td id="hong:isea:2024-book-title">International Symposium on Electronic Art</td>
+  <td id="hong:isea:2024-year">2024</td>
+  <td id="hong:isea:2024-bib"><a href="/assets/bib/hong_isea_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hong:isea:2024-pdf"><a href="https://www.isea-archives.org/isea2024_presentation_hong_et-al/" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hong:isea:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="hong:isea:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="roux:ral:2024">
+  <td id="roux:ral:2024-title">End-Effectors Changer Design for Humanoids</td>
+  <td id="roux:ral:2024-authors"><span class="publications-members">J. Roux, </span><span class="publications-members">J.-B. Izard, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="roux:ral:2024-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="roux:ral:2024-year">2024</td>
+  <td id="roux:ral:2024-bib"><a href="/assets/bib/roux_ral_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="roux:ral:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10697271" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="roux:ral:2024-mov"><a href="https://www.youtube.com/watch?v=41XNc4Mu-hs" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="roux:ral:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:ijsr:2024">
+  <td id="cisneros:ijsr:2024-title">A cybernetic avatar system to embody human telepresence for connectivity, exploration, and skill transfer</td>
+  <td id="cisneros:ijsr:2024-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-dallard.html">A. Dallard</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-singh.html">R. Singh</a>, </span><span class="publications-members"><a href="/members/member-sun.html">L. Sun</a>, </span><span class="publications-members"><a href="/members/member-chen.html">Y. Chen</a>, </span><span class="publications-members">C. Fournier, </span><span class="publications-members"><a href="/members/member-glorthioir.html">G. Lorthioir</a>, </span><span class="publications-members"><a href="/members/member-tsuru.html">M. Tsuru</a>, </span><span class="publications-members">Ś. Chefchaouni-Moussaoui, </span><span class="publications-members">Y. Osawa, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members"><a href="/members/member-chappellet.html">K. Chappellet</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/members/member-houhou.html">Y. Houhou</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members">M. Ono, </span><span class="publications-members">K. Shirasaka, </span><span class="publications-members">S. Wada, </span><span class="publications-members">H. Wada, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="cisneros:ijsr:2024-book-title">International Journal of Social Robotics</td>
+  <td id="cisneros:ijsr:2024-year">2024</td>
+  <td id="cisneros:ijsr:2024-bib"><a href="/assets/bib/cisneros_ijsr_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ijsr:2024-pdf"><a href="https://link.springer.com/article/10.1007/s12369-023-01096-9" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ijsr:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:ijsr:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="fournier:icsr:2023">
+  <td id="fournier:icsr:2023-title">A Pilot Usability Study of a Humanoid Avatar to Assist Therapists of ASD Children</td>
+  <td id="fournier:icsr:2023-authors"><span class="publications-members">C. Fournier, </span><span class="publications-members">C. Michelon, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members">P. Audoyer, </span><span class="publications-members">V. Granit, </span><span class="publications-members">A. Baghdadli, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="fournier:icsr:2023-book-title">International Conference on Social Robotics</td>
+  <td id="fournier:icsr:2023-year">2023</td>
+  <td id="fournier:icsr:2023-bib"><a href="/assets/bib/fournier_icsr_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="fournier:icsr:2023-pdf"><a href="https://link.springer.com/chapter/10.1007/978-981-99-8715-3_28" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="fournier:icsr:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="fournier:icsr:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="wang:ijrr:2023">
+  <td id="wang:ijrr:2023-title">Impact-aware task-space quadratic-programming control</td>
+  <td id="wang:ijrr:2023-authors"><span class="publications-members">Y. Wang, </span><span class="publications-members">N. Dehio, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="wang:ijrr:2023-book-title">The International Journal of Robotics Research</td>
+  <td id="wang:ijrr:2023-year">2023</td>
+  <td id="wang:ijrr:2023-bib"><a href="/assets/bib/wang_ijrr_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="wang:ijrr:2023-pdf"><a href="https://doi.org/10.1177/02783649231198558" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="wang:ijrr:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="wang:ijrr:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="chen:humanoids:2022">
+  <td id="chen:humanoids:2022-title">Enhanced Visual Feedback with Decoupled Viewpoint Control in Immersive Humanoid Robot Teleoperation using SLAM</td>
+  <td id="chen:humanoids:2022-authors"><span class="publications-members"><a href="/members/member-chen.html">Y. Chen</a>, </span><span class="publications-members"><a href="/members/member-sun.html">L. Sun</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-singh.html">R. Singh</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members">K. Suzuki, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="chen:humanoids:2022-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="chen:humanoids:2022-year">2022</td>
+  <td id="chen:humanoids:2022-bib"><a href="/assets/bib/chen_humanoids_2022.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chen:humanoids:2022-pdf"><a href="https://ieeexplore.ieee.org/document/9999740" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chen:humanoids:2022-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="chen:humanoids:2022-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="bolotnikova:sii:2021">
+  <td id="bolotnikova:sii:2021-title">Task-Space Control Interface for SoftBank Humanoid Robots and its Human-Robot Interaction Applications</td>
+  <td id="bolotnikova:sii:2021-authors"><span class="publications-members">A. Bolotnikova, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members">S. Courtois, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="bolotnikova:sii:2021-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="bolotnikova:sii:2021-year">2021</td>
+  <td id="bolotnikova:sii:2021-bib"><a href="/assets/bib/bolotnikova_sii_2021.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="bolotnikova:sii:2021-pdf"><a href="https://arxiv.org/pdf/2010.04573.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="bolotnikova:sii:2021-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="bolotnikova:sii:2021-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="benallegue:iros:2021">
+  <td id="benallegue:iros:2021-title">On compliance and safety with torque-control for robots with high reduction gears and no joint-torque feedback</td>
+  <td id="benallegue:iros:2021-authors"><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguea.html">A. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="benallegue:iros:2021-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="benallegue:iros:2021-year">2021</td>
+  <td id="benallegue:iros:2021-bib"><a href="/assets/bib/benallegue_iros_2021.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:iros:2021-pdf"><a href="https://ieeexplore.ieee.org/document/9636081" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:iros:2021-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="benallegue:iros:2021-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tsuru:ral:2021">
+  <td id="tsuru:ral:2021-title">Online Object Searching by a Humanoid Robot in an Unknown Environment</td>
+  <td id="tsuru:ral:2021-authors"><span class="publications-members"><a href="/members/member-tsuru.html">M. Tsuru</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-chappellet.html">K. Chappellet</a>, </span><span class="publications-members">K. Harada </span></td>
+  <td id="tsuru:ral:2021-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="tsuru:ral:2021-year">2021</td>
+  <td id="tsuru:ral:2021-bib"><a href="/assets/bib/tsuru_ral_2021.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tsuru:ral:2021-pdf"><a href="https://raw.githubusercontent.com/aescande/website/master/papers/2021_RAL_Tsuru.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tsuru:ral:2021-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="tsuru:ral:2021-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="samadi:ral:2021">
+  <td id="samadi:ral:2021-title">Humanoid Control Under Interchangeable Fixed and Sliding Unilateral Contacts</td>
+  <td id="samadi:ral:2021-authors"><span class="publications-members">S. Samadi, </span><span class="publications-members">J. Roux, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members">S. Caron, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="samadi:ral:2021-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="samadi:ral:2021-year">2021</td>
+  <td id="samadi:ral:2021-bib"><a href="/assets/bib/samadi_ral_2021.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="samadi:ral:2021-pdf"><a href="https://ieeexplore.ieee.org/document/9380971" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="samadi:ral:2021-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="samadi:ral:2021-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="murooka:ral:2021b">
+  <td id="murooka:ral:2021b-title">Humanoid Loco-Manipulations Pattern Generation and Stabilization Control</td>
+  <td id="murooka:ral:2021b-authors"><span class="publications-members"><a href="/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/members/member-chappellet.html">K. Chappellet</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="murooka:ral:2021b-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="murooka:ral:2021b-year">2021</td>
+  <td id="murooka:ral:2021b-bib"><a href="/assets/bib/murooka_ral_2021b.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2021b-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9424385" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2021b-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="murooka:ral:2021b-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="qin:iros:2020">
+  <td id="qin:iros:2020-title">Vision-based Belt Manipulation by Humanoid Robot</td>
+  <td id="qin:iros:2020-authors"><span class="publications-members"><a href="/members/member-qin.html">Y. Qin</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="qin:iros:2020-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="qin:iros:2020-year">2020</td>
+  <td id="qin:iros:2020-bib"><a href="/assets/bib/qin_iros_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="qin:iros:2020-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Qin_IROS2020.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="qin:iros:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="qin:iros:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="samadi:icra:2020">
+  <td id="samadi:icra:2020-title">Balance of Humanoid Robots in a Mix of Fixed and Sliding Multi-Contact Scenarios</td>
+  <td id="samadi:icra:2020-authors"><span class="publications-members">S. Samadi, </span><span class="publications-members">S. Caron, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="samadi:icra:2020-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="samadi:icra:2020-year">2020</td>
+  <td id="samadi:icra:2020-bib"><a href="/assets/bib/samadi_icra_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="samadi:icra:2020-pdf"><a href="https://hal.archives-ouvertes.fr/hal-02297879/document" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="samadi:icra:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="samadi:icra:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="djeha:ral:2020">
+  <td id="djeha:ral:2020-title">Adaptive-Gains Enforcing Constraints in Closed-Loop QP Control</td>
+  <td id="djeha:ral:2020-authors"><span class="publications-members">M. Djeha, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="djeha:ral:2020-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="djeha:ral:2020-year">2020</td>
+  <td id="djeha:ral:2020-bib"><a href="/assets/bib/djeha_ral_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="djeha:ral:2020-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="djeha:ral:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="djeha:ral:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tanguy:icra:2019">
+  <td id="tanguy:icra:2019-title">Closed-Loop MPC with Dense Visual SLAM - Stability through Reactive Stepping</td>
+  <td id="tanguy:icra:2019-authors"><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members">D. De Simone, </span><span class="publications-members">A. Comport, </span><span class="publications-members">G. Oriolo, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="tanguy:icra:2019-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="tanguy:icra:2019-year">2019</td>
+  <td id="tanguy:icra:2019-bib"><a href="/assets/bib/tanguy_icra_2019.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tanguy:icra:2019-pdf"><a href="https://www.dis.uniroma1.it/~labrob/pub/papers/ICRA19_CLMPC.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tanguy:icra:2019-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="tanguy:icra:2019-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="wang:humanoids:2019">
+  <td id="wang:humanoids:2019-title">Impact-aware humanoid robot motion generation with a quadratic optimization controller</td>
+  <td id="wang:humanoids:2019-authors"><span class="publications-members">Y. Wang, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="wang:humanoids:2019-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="wang:humanoids:2019-year">2019</td>
+  <td id="wang:humanoids:2019-bib"><a href="/assets/bib/wang_humanoids_2019.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="wang:humanoids:2019-pdf"><a href="https://hal.archives-ouvertes.fr/hal-02446116v2/file/paper_R2.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="wang:humanoids:2019-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="wang:humanoids:2019-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kheddar:ram:2019">
+  <td id="kheddar:ram:2019-title">Humanoid robots in aircraft manufacturing: the Airbus use-cases</td>
+  <td id="kheddar:ram:2019-authors"><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members">S. Caron, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members">A. Comport, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members">C. Ott, </span><span class="publications-members">B. Henze, </span><span class="publications-members">G. Mesesan, </span><span class="publications-members">J. Englsberger, </span><span class="publications-members">M. Roa, </span><span class="publications-members">P.-B. Wieber, </span><span class="publications-members">F. Chaumette, </span><span class="publications-members">F. Spindler, </span><span class="publications-members">G. Oriolo, </span><span class="publications-members">L. Lanari, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-chappellet.html">K. Chappellet</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">P. Rabate </span></td>
+  <td id="kheddar:ram:2019-book-title">IEEE Robotics &amp; Automation Magazine</td>
+  <td id="kheddar:ram:2019-year">2019</td>
+  <td id="kheddar:ram:2019-bib"><a href="/assets/bib/kheddar_ram_2019.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kheddar:ram:2019-pdf"><a href="https://hal-lirmm.ccsd.cnrs.fr/lirmm-02303117/file/ram2019.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kheddar:ram:2019-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kheddar:ram:2019-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tanguy:simpar:2018">
+  <td id="tanguy:simpar:2018-title">Online eye-robot self-calibration</td>
+  <td id="tanguy:simpar:2018-authors"><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members">A. Comport </span></td>
+  <td id="tanguy:simpar:2018-book-title">IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots</td>
+  <td id="tanguy:simpar:2018-year">2018</td>
+  <td id="tanguy:simpar:2018-bib"><a href="/assets/bib/tanguy_simpar_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tanguy:simpar:2018-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="tanguy:simpar:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="tanguy:simpar:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tanguy:sii:2016">
+  <td id="tanguy:sii:2016-title">Closed-loop RGB-D SLAM multi-contact control for humanoid robots</td>
+  <td id="tanguy:sii:2016-authors"><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members">A. Comport, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="tanguy:sii:2016-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="tanguy:sii:2016-year">2016</td>
+  <td id="tanguy:sii:2016-bib"><a href="/assets/bib/tanguy_sii_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tanguy:sii:2016-pdf"><a href="https://hal.archives-ouvertes.fr/hal-01568048/document" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tanguy:sii:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="tanguy:sii:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>
+
+</div>
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Projects
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/past-projects.html">
+                  Past projects
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/members.html">
+              Members
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/robots.html">
+              Robots
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/publications.html">
+              Publications
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/join_us.html">
+              Join us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              EN
+            </span>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <a href="/jp/projects/project-robohow.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              JP
+            </a>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/index.html">Home</a>
+            </li><li class="breadcrumb-item active" aria-current="page">RoboHow</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">RoboHow<small><br/><a href="https://robohow.eu/" target="_blank">RoboHow <i class="bi bi-globe" style="font-size: small;"></i></a></small></h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container">
+  <!-- Portfolio Item Row -->
+  <div class="row align-items-center"><div class="col-lg-6 col-md-6 col-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"><!-- Wrapper for slides -->
+        <div class="carousel-inner"><div class="carousel-item active">
+              <img class="d-block w-100" src="/assets/projects/robohow.png" alt="carousel 1">
+            </div></div></div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-12">
+      <h3>Project Description</h3>
+      
+        <p>Robohow is a four-year European research project that started in February 2012. It aims at enabling robots to competently perform everyday human-scale manipulation activities - both in human working and living environments.</p> <p>In order to achieve this goal, Robohow pursues a knowledge-enabled and plan-based approach to robot programming and control.</p> <p>The vision of the project is that of a cognitive robot that autonomously performs complex everyday manipulation tasks and extends its repertoire of such by acquiring new skills using web-enabled and experience-based learning as well as by observing humans.</p><h4>Period</h4>
+      2012 - 2016</div>
+  </div><!-- Videos Section -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="page-header">Videos</h3>
+    </div><div class="col-sm-3 text-center">
+      <a href="https://www.youtube.com/watch?v=LnuF41CKq0E" target="_blank" data-bs-toggle="lightbox" data-bs-gallery="videos" data-bs-title="Human-Humanoid Joint Haptic Table Carrying Task with Height Stabilization using Vision">
+        <img src="http://i1.ytimg.com/vi/LnuF41CKq0E/mqdefault.jpg" class="img-fluid" alt="Human-Humanoid Joint Haptic Table Carrying Task with Height Stabilization using Vision snapshot">
+        <br/>Human-Humanoid Joint Haptic Table Carrying Task with Height Stabilization using Vision
+      </a>
+    </div><div class="col-sm-3 text-center">
+      <a href="https://www.youtube.com/watch?v=kYUdYOIYeZ0" target="_blank" data-bs-toggle="lightbox" data-bs-gallery="videos" data-bs-title="Proactivity and Role Switching in a Humanoid-Human Transportation Task">
+        <img src="http://i1.ytimg.com/vi/kYUdYOIYeZ0/mqdefault.jpg" class="img-fluid" alt="Proactivity and Role Switching in a Humanoid-Human Transportation Task snapshot">
+        <br/>Proactivity and Role Switching in a Humanoid-Human Transportation Task
+      </a>
+    </div></div><!-- Publications Section -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="page-header">Related Publications (including JRL contributions)</h3><table class="table table-striped">
+  <thead>
+    <tr>
+      <td>Title</td>
+      <td>Authors</td>
+      <td>Conference/Book</td>
+      <td>Year</td>
+      <td>bib</td>
+      <td>pdf</td>
+      <td>mov</td>
+      <td>prj</td>
+    </tr>
+  </thead>
+  <tbody><tr id="chretien:tpds:2016">
+  <td id="chretien:tpds:2016-title">GPU Robot Motion Planning Using Semi-Infinite Nonlinear Programming</td>
+  <td id="chretien:tpds:2016-authors"><span class="publications-members"><a href="/members/member-chretien.html">B. Chrétien</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="chretien:tpds:2016-book-title">IEEE Transactions on Parallel and Distributed Systems</td>
+  <td id="chretien:tpds:2016-year">2016</td>
+  <td id="chretien:tpds:2016-bib"><a href="/assets/bib/chretien_tpds_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chretien:tpds:2016-pdf"><a href="https://hal.archives-ouvertes.fr/hal-01266581/document" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chretien:tpds:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="chretien:tpds:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="chretien:iros:2015">
+  <td id="chretien:iros:2015-title">Continuously satisfying constraints with contact forces in trajectory optimization for humanoid robots</td>
+  <td id="chretien:iros:2015-authors"><span class="publications-members"><a href="/members/member-chretien.html">B. Chrétien</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="chretien:iros:2015-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="chretien:iros:2015-year">2015</td>
+  <td id="chretien:iros:2015-bib"><a href="/assets/bib/chretien_iros_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chretien:iros:2015-pdf"><a href="https://hal-lirmm.ccsd.cnrs.fr/lirmm-01253539/document" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chretien:iros:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="chretien:iros:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="pham:cvpr:2015">
+  <td id="pham:cvpr:2015-title">Towards force sensing from vision: Observing hand-object interactions to infer manipulation forces</td>
+  <td id="pham:cvpr:2015-authors"><span class="publications-members"><a href="/members/member-pham.html">Tu-H. Pham</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members">A. Qammaz, </span><span class="publications-members">A. Argyros </span></td>
+  <td id="pham:cvpr:2015-book-title">IEEE/CVF Conference on Computer Vision and Pattern Recognition</td>
+  <td id="pham:cvpr:2015-year">2015</td>
+  <td id="pham:cvpr:2015-bib"><a href="/assets/bib/pham_cvpr_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="pham:cvpr:2015-pdf"><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pham_Towards_Force_Sensing_2015_CVPR_paper.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="pham:cvpr:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="pham:cvpr:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="brossette:iros:2014">
+  <td id="brossette:iros:2014-title">Integration of non-inclusive contacts in posture generation</td>
+  <td id="brossette:iros:2014-authors"><span class="publications-members"><a href="/members/member-brossette.html">S. Brossette</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-vaillant.html">J. Vaillant</a>, </span><span class="publications-members"><a href="/members/member-keith.html">F. Keith</a>, </span><span class="publications-members"><a href="/members/member-moulard.html">T. Moulard</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="brossette:iros:2014-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="brossette:iros:2014-year">2014</td>
+  <td id="brossette:iros:2014-bib"><a href="/assets/bib/brossette_iros_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="brossette:iros:2014-pdf"><a href="https://hal.archives-ouvertes.fr/hal-01016319/file/iros2014.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="brossette:iros:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="brossette:iros:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="audren:iros:2014">
+  <td id="audren:iros:2014-title">Model preview control in multi-contact motion -- Application to a humanoid robot</td>
+  <td id="audren:iros:2014-authors"><span class="publications-members"><a href="/members/member-audren.html">H. Audren</a>, </span><span class="publications-members"><a href="/members/member-vaillant.html">J. Vaillant</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="audren:iros:2014-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="audren:iros:2014-year">2014</td>
+  <td id="audren:iros:2014-bib"><a href="/assets/bib/audren_iros_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="audren:iros:2014-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Audren_iros2014.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="audren:iros:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="audren:iros:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="agravante:icra:2014">
+  <td id="agravante:icra:2014-title">Collaborative Human-Humanoid Carrying Using Vision and Haptic Sensing</td>
+  <td id="agravante:icra:2014-authors"><span class="publications-members">D. Agravante, </span><span class="publications-members">A. Cherubini, </span><span class="publications-members"><a href="/members/member-bussy.html">A. Bussy</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="agravante:icra:2014-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="agravante:icra:2014-year">2014</td>
+  <td id="agravante:icra:2014-bib"><a href="/assets/bib/agravante_icra_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="agravante:icra:2014-pdf"><a href="https://hal-lirmm.ccsd.cnrs.fr/file/index/docid/950727/filename/2014_icra_agravante-collaborative_human_humanoid_carrying_using_vision.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="agravante:icra:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="agravante:icra:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="moulard:rsj:2014">
+  <td id="moulard:rsj:2014-title">Software Tools for Nonlinear Optimization - Modern Solvers and Toolboxes for Robotics -</td>
+  <td id="moulard:rsj:2014-authors"><span class="publications-members"><a href="/members/member-moulard.html">T. Moulard</a>, </span><span class="publications-members"><a href="/members/member-chretien.html">B. Chrétien</a>, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="moulard:rsj:2014-book-title">Journal of the Robotics Society of Japan</td>
+  <td id="moulard:rsj:2014-year">2014</td>
+  <td id="moulard:rsj:2014-bib"><a href="/assets/bib/moulard_rsj_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="moulard:rsj:2014-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/moulard_rsj14.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="moulard:rsj:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="moulard:rsj:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="brossette:ram:2013">
+  <td id="brossette:ram:2013-title">Point-Cloud Multi-Contact Planning for Humanoids: Preliminary Results</td>
+  <td id="brossette:ram:2013-authors"><span class="publications-members"><a href="/members/member-brossette.html">S. Brossette</a>, </span><span class="publications-members"><a href="/members/member-vaillant.html">J. Vaillant</a>, </span><span class="publications-members"><a href="/members/member-keith.html">F. Keith</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="brossette:ram:2013-book-title">IEEE International Conference on Robotics, Automation and Mechatronics</td>
+  <td id="brossette:ram:2013-year">2013</td>
+  <td id="brossette:ram:2013-bib"><a href="/assets/bib/brossette_ram_2013.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="brossette:ram:2013-pdf"><a href="https://hal-lirmm.ccsd.cnrs.fr/lirmm-00863931/document/" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="brossette:ram:2013-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="brossette:ram:2013-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="bussy:roman:2012">
+  <td id="bussy:roman:2012-title">Proactive behavior of a humanoid robot in a haptic transportation task with a human partner</td>
+  <td id="bussy:roman:2012-authors"><span class="publications-members"><a href="/members/member-bussy.html">A. Bussy</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members"><a href="/members/member-keith.html">F. Keith</a>, </span><span class="publications-members">A. Crosnier </span></td>
+  <td id="bussy:roman:2012-book-title">Ro-Man&apos;2012: International Symposium on Robot and Human Interactive Communication</td>
+  <td id="bussy:roman:2012-year">2012</td>
+  <td id="bussy:roman:2012-bib"><a href="http://hal-lirmm.ccsd.cnrs.fr/lirmm-00773403" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="bussy:roman:2012-pdf"><a href="http://hal-lirmm.ccsd.cnrs.fr/file/index/docid/773403/filename/2012-roman-hri-bci.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="bussy:roman:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="bussy:roman:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="pham:iccvw:2015">
+  <td id="pham:iccvw:2015-title"></td>
+  <td id="pham:iccvw:2015-authors"></td>
+  <td id="pham:iccvw:2015-book-title"></td>
+  <td id="pham:iccvw:2015-year"></td>
+  <td id="pham:iccvw:2015-bib"><i class="bi bi-x-circle"></i></td>
+  <td id="pham:iccvw:2015-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="pham:iccvw:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="pham:iccvw:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>
+
+  <!-- Partners Section -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="page-header">Partners</h3>
+    </div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.uni-bremen.de/">
+            Universität Bremen&nbsp;(UNIHB)<br/>
+            <img class="center-block img-fluid" src="/assets/logos/bremen.png" alt="Universität Bremen logo" style="width: 50%;">
+          </a>
+        </div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.cnrs.fr/index.php">
+            Centre National de la Recherche Scientifique&nbsp;(CNRS)<br/>
+            <img class="center-block img-fluid" src="/assets/logos/cnrs.png" alt="Centre National de la Recherche Scientifique logo" style="width: 50%;">
+          </a>
+        </div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.epfl.ch/">
+            Ecole Polytechnique Federale de Lausanne&nbsp;(EPFL)<br/>
+            <img class="center-block img-fluid" src="/assets/logos/epfl.png" alt="Ecole Polytechnique Federale de Lausanne logo" style="width: 50%;">
+          </a>
+        </div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.kth.se/">
+            Kungliga Tekniska Högskolan&nbsp;(KTH)<br/>
+            <img class="center-block img-fluid" src="/assets/logos/kth.png" alt="Kungliga Tekniska Högskolan logo" style="width: 50%;">
+          </a>
+        </div><div class="clearfix d-block d-sm-none"></div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.kuleuven.be/">
+            Katholieke Universiteit Leuven&nbsp;(KUL)<br/>
+            <img class="center-block img-fluid" src="/assets/logos/kul.png" alt="Katholieke Universiteit Leuven logo" style="width: 50%;">
+          </a>
+        </div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.forth.gr/">
+            Foundation for Research and Technology - Hellas&nbsp;(FORTH)<br/>
+            <img class="center-block img-fluid" src="/assets/logos/forth.png" alt="Foundation for Research and Technology - Hellas logo" style="width: 50%;">
+          </a>
+        </div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.leidenuniv.nl/">
+            Universiteit Leiden&nbsp;(UL)<br/>
+            <img class="center-block img-fluid" src="/assets/logos/ul.png" alt="Universiteit Leiden logo" style="width: 50%;">
+          </a>
+        </div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.aldebaran-robotics.com/">
+            Aldebaran Robotics<br/>
+            <img class="center-block img-fluid" src="/assets/logos/aldebaran.png" alt="Aldebaran Robotics logo" style="width: 50%;">
+          </a>
+        </div><div class="col-lg-4 col-md-3 col-sm-4 col-6 text-center">
+          <a href="http://www.tum.de/">
+            Technische Universität München&nbsp;(TUM)<br/>
+            <img class="center-block img-fluid" src="/assets/logos/tum.png" alt="Technische Universität München logo" style="width: 50%;">
+          </a>
+        </div></div>
+</div>
+<!-- /.container -->
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

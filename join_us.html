@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Projects
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/past-projects.html">
+                  Past projects
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/members.html">
+              Members
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/robots.html">
+              Robots
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/publications.html">
+              Publications
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/join_us.html">
+              Join us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              EN
+            </span>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <a href="/jp/join_us.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              JP
+            </a>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/index.html">Home</a>
+            </li><li class="breadcrumb-item active" aria-current="page">Join us</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">Join us</h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container">
+
+  <table border="0" width="100%">
+    <tbody>
+      <tr>
+	<td>
+	  <h4><i>There are several ways to be a member of JRL.</i></h4>
+	</td>
+      </tr>
+
+      <tr><td style="padding-top: 10px">
+	  <h3>Permanent Positions</h3>
+      </td></tr>
+
+      <tr><td>
+	  You can find job opportunities of AIST <a href="https://www.aist.go.jp/aist_e/humanres/index.html">here</a>. We usually have two rounds of recruitment every year in Spring and Fall. Since the JRL belongs to the department of Information Technology and Human factors (ITH), please check recruitment information of the department. It is recommended to <a href="/contact.html">contact</a> before submitting an application.
+	  <br>
+      </td></tr>
+
+      <tr><td style="padding-top: 10px">
+	  <h3>Visiting Researchers</h3>
+      </td></tr>
+      <tr><td>
+	  If you want to stay at JRL as a visiting researcher, please <a href="/contact.html">contact</a> us. <br>JSPS fellows can be hosted at JRL. If you are planning to apply to <a href="https://www.jsps.go.jp/english/e-fellow/index.html">JSPS Postdoctoral Fellowships for Research in Japan</a> or <a href="https://www.jsps.go.jp/english/e-inv/index.html">Invitational Fellowships for Research in Japan</a>, please <a href="/contact.html">contact</a> us.
+	  <br>
+      </td></tr>
+
+      <tr><td style="padding-top: 10px">
+	  <h3>Contractual Positions</h3>
+      </td></tr>
+      <tr><td>
+	  We sometimes post job opportunities for contract employees (postdoc and engineer) to <a href="https://unit.aist.go.jp/hrd/keiyaku_koubo/tkb.html">here (only in Japanese)</a>.
+	  <br>
+      </td></tr>
+
+      <tr><td style="padding-top: 10px">
+	  <h3>Students/Internships</h3>
+	  <h4><a href="/humanoid_lab.html">(Click here for <i>HumanoidLab</i> page)</a></h4>
+      </td></tr>
+      <tr><td>
+	  Students can be hosted at JRL as technical trainees and excellent master/PhD students can be hired as <a href="https://www.aist.go.jp/aist_e/collab/ra/index.html">a research assistant of AIST</a>. Although students from any universities can do their internships at JRL, students from the following universities can do their thesis at JRL under supervision of researchers of JRL.<br>
+	  <ul>
+	    <li style="margin-top: 1em"><b>University of Tsukuba: </b><br>
+	      Since some JRL members are adjunct professors of <a href="https://www.tsukuba.ac.jp/en/">University of Tsukuba</a>, master and PhD students can do their thesis by enrolling at University of Tsukuba and doing research work at JRL. <a href="/humanoid_lab.html">Humanoid Laboratory</a> is a laboratory of University of Tsukuba hosted by JRL using <a href="https://www.tsukuba.ac.jp/en/academics/g-courses-cooperative/">Cooperative Graduate School System</a>.
+	    </li>
+	    <li style="margin-top: 1em"><b>University of Montpellier: </b><br>
+	      PhD students of <a href="https://www.umontpellier.fr/en/">University of Montpellier</a> can do their thesis at JRL. The JRL is the only one laboratory outside of France where PhD students of University of Montpellier can do their PhD thesis.
+	    </li>
+	    <li style="margin-top: 1em"><b>Other French universities: </b><br>
+	      Students from some other French universities can also do a part of their Ph.D. thesis at JRL. Please don't hesitate to <a href="/contact.html">contact</a> us for more details.
+	    </li>
+	  </ul>
+
+      <tr><td style="padding-top: 10px">
+	  <h3>Open topics</h3>
+      </td></tr>
+      <tr><td>
+	  Currently, we are offering the following topics. <b>If you want to do your internship or thesis at JRL, please <a href="/contact.html">contact</a> us.</b><br>
+      </td></tr>
+
+	  <br>
+	  <br>
+
+	  <table  class="table table-striped">
+	    <thead>
+        <tr>
+		      <th>Title</th>
+		      <th>Abstract</th>
+		      <th>Grade</th>
+		      <th>Expected skills</th>
+        </tr>
+	    </thead>
+	    <tbody>
+              
+              <tr>
+		<td><b>Adaptive torque control</b></td>
+		<td>Usually the control of robots rely on precise models, however, these can be unavailable or drift over time. Adaptive control techniques will be expected to correct for these modeling errors and compensate for them during the motion. The student will be working on our humanoid robots.</td>
+		<td>master (possibility to extend to PhD)</td>
+		<td><p><i>Preferred</i>: C++, control theory, multibody dynamics</p> <p><i>Required</i>: basic calculus, spoken English language</p>
+</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Humanoid robots force control for multi-contact locomotion</b></td>
+		<td>Locomotion control of legged robots requires force control that relies usually on contact force sensors, however humanoid or legged robot may use parts of their body that are not equipped with these sensors such as elbows and knees. In this work the student will develop and test a control of this kind of contact.</td>
+		<td>Master (possibility to extend to PhD)</td>
+		<td><p><i>Preferred</i>: C++, ROS, control theory, multibody mechanics.</p> <p><i>Required</i>: basic geometry and calculus, spoken English language</p>
+</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Safe training of neural networks on real robotic platforms</b></td>
+		<td>In most cases the training of neural networks to control the motion of humanoid and legged robots, happen in numerical simulation and then transferred to the real robot. In this work the student will design a framework to train neural networks directly on the real robot. They need to ensure the safety and the autonomy of the learning pipeline.</td>
+		<td>Master/PhD</td>
+		<td><p><i>Preferred</i>: C++, Deep learning, ROS, multibody mechanics.</p> <p><i>Required</i>: spoken English language</p>
+</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Contact-Ready Robust Hydraulic Actuator for Mobile Robots</b></td>
+		<td>To vastly increase the use of robots, tasks with contacts are inevitable. In this research, we aim to develop robust and force sensitive hydraulic actuators to realize robust and dexterous manipulation on mobile robots.</td>
+		<td>Master</td>
+		<td>Mechanical design, 3D CAD, Basic fluid dynamics, Basic mechatronics</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Optimal structural design and structural force sensing for robot systems</b></td>
+		<td>Force sensitivity is an important feature for robots that co-exist with humans. However, use of torque sensor was limited from increase in weight and size, and lowering of resonance frequency.  In this research, we study force sensing technique using structural materials and optimization of sensitivity and structural robustness.</td>
+		<td>Master</td>
+		<td>Mechanical design, Basic electronics, Basic numerical optimization</td>
+              </tr>
+	      
+              <tr>
+		<td><b>AI-aided teleoperation to achieve seamless telepresence for non-experts</b></td>
+		<td><ul>
+  <li>Development of semi-automatic grasping and user intention recognition technologies</li>
+  <li>Efficient combination of machine learning and human guidance to achieve AI-aided teleoperation</li>
+  <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
+</ul>
+</td>
+		<td>Master/PhD</td>
+		<td>C++, Python, Linux, machine learning</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Pose estimation and mesh reconstruction of objects in the wild</b></td>
+		<td><ul>
+  <li>Identify objects of interest in the visible field of view without prior knowledge</li>
+  <li>Identify major affordances and display them as AR visual aids</li>
+  <li>Related project: <a href="../en/projects/project-sigrole.html">SIGRoLe</a></li>
+</ul>
+</td>
+		<td>Master</td>
+		<td>C++, Python, Linux, computer vision for object pose detection</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Navigation and control of a mobile robot with mounted arm</b></td>
+		<td><ul>
+  <li>Develop autonomous/teleoperated navigation for a mobile robot</li>
+  <li>Develop controller for robotic arm mounted on the mobile robot to perform real-world tasks</li>
+  <li>Related project: <a href="../en/projects/project-icps.html">ICPS</a></li>
+</ul>
+</td>
+		<td>Master</td>
+		<td>C++, Python, ROS2, Linux, planning and control of mobile robots and manipulators</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Impact management for humanoid robots using nonsmooth controllers</b></td>
+		<td><ul>
+  <li>Develop and implement non-smooth controllers for dealing with impacts</li>
+  <li>Realize hammering, nail-gun and jumping tasks using humanoid robots</li>
+  <li>Related project: <a href="../en/projects/project-impadm.html">ImpAdm</a></li>
+</ul>
+</td>
+		<td>Master/PhD</td>
+		<td>C++, Linux, dynamics, non-linear control theory</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Simulation and control of an inflatable module mockup</b></td>
+		<td><ul>
+  <li>Simulate the dynamics of a cylindric inflatable module</li>
+  <li>Control the inflation sequence of the chambers of the module to achieve controlled rolling</li>
+  <li>Validate control using a small mockup</li>
+</ul>
+</td>
+		<td>Master</td>
+		<td>C++, Linux, CAD design, FEM-based simulation, fluid mechanics, non-linear control theory</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Responsive multi-contact locomotion</b></td>
+		<td><ul>
+  <li>Passing through narrow space using not only legs but also arms freely</li>
+  <li>Efficient search for contact transition and whole-body motion</li>
+  <li>Efficient solver for non-linear model predictive control</li>
+</ul>
+</td>
+		<td>Master/PhD</td>
+		<td>Dynamics, Control theory, Optimization, Graph search, Programming(c++), (Machine learning)</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Data-driven quadruped controller toward outdoor exploration</b></td>
+		<td><ul>
+  <li>Data-driven controller for quadruped robot to traverse uneven outdoor environments</li>
+  <li>Multimodal sensor fusion robust to environmental changes</li>
+  <li>SimToReal that requires no parameter fine-tuning</li>
+</ul>
+</td>
+		<td>Master</td>
+		<td>Reinforcement learning, RNN, DNN, Programming(python, c++)</td>
+              </tr>
+	      
+              <tr>
+		<td><b>Vision-based deformation of human body deformation for safe robot interaction</b></td>
+		<td><ul>
+  <li>Understanding the impact of a robot physical contact with a human is hard</li>
+  <li>Robot visual perception offers a potential of thoroughness and accuracy for such task</li>
+  <li>Goals:
+    <ul>
+      <li>Leverage physics-based modeling to train visual spatio-temporal features</li>
+      <li>Frugal and real-time processing</li>
+      <li>Integrate in human robot physical interaction (e.g. assistive robotics)</li>
+    </ul>
+  </li>
+</ul>
+</td>
+		<td>Master/PhD</td>
+		<td>mathematical and mechanical background in 3D geometry, optimization, training, C++ / python programming</td>
+              </tr>
+	      
+	    </tbody>
+	  </table>
+      </td></tr>
+
+    </tbody>
+  </table>
+</div>
+<!-- /.container -->
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-産総研ロボット工学連携研究室</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/jp/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-産総研ロボット工学連携研究室
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/news.html">
+              ニュース
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              プロジェクト
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/jp/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/jp/past-projects.html">
+                  過去のプロジェクト
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/members.html">
+              メンバー
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/robots.html">
+              ロボット
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/publications.html">
+              論文
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/join_us.html">
+              採用情報
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/contact.html">
+              アクセス
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <a href="/members/member-murooka.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              EN
+            </a>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              JP
+            </span>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/jp/index.html">ホーム</a>
+            </li><li class="breadcrumb-item"><a href="/jp/members.html">メンバー</a></li><li class="breadcrumb-item active" aria-current="page">室岡 雅樹</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">室岡 雅樹<small><br/>主務研究員 &mdash; <a href="https://mmurooka.github.io/" target="_blank">個人ウェブサイト <i class="bi bi-globe" style="font-size: small;"></i></a></small></h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container py-4">
+  <div class="row align-items-center">
+    <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
+      <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active">
+              <img src="/assets/members/murooka.jpg" class="d-block w-100 rounded" alt="室岡 雅樹 image 1">
+            </div></div></div>
+    </div>
+
+    <div class="col-md-7 col-12"><h3>経歴</h3>
+        <p><strong>室岡 雅樹&nbsp;</strong>received the BE, MS, and PhD degree in information science and technology from The University of Tokyo, Japan, in 2013, 2015, and 2018, respectively. He was a project assistant professor in the Department of Mechano-Informatics at The University of Tokyo from 2018 to 2020. He joined the CNRS-AIST Joint Robotics Laboratory in the National Institute of Advanced Industrial Science and Technology (AIST) in 2020 as a researcher. His research interest includes the motion planning and control of humanoid robots.
+</p></div>
+  </div><div class="row mt-4">
+    <div class="col-12"><h3>論文</h3>
+        <div class="alert alert-info">論文リストは完全ではない場合があります。特に2017年以前の論文については、更新作業を進めています。</div><table class="table table-striped">
+  <thead>
+    <tr>
+      <td>タイトル</td>
+      <td>著者</td>
+      <td>学会/論文誌</td>
+      <td>年</td>
+      <td>bib</td>
+      <td>pdf</td>
+      <td>mov</td>
+      <td>prj</td>
+    </tr>
+  </thead>
+  <tbody><tr id="murooka:access:2026">
+  <td id="murooka:access:2026-title">RoboManipBaselines: A Unified Framework for Imitation Learning in Robotic Manipulation across Real and Simulation Environments</td>
+  <td id="murooka:access:2026-authors"><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">T. Motoda, </span><span class="publications-members">R. Nakajo, </span><span class="publications-members">H. Oh, </span><span class="publications-members">K. Makihara, </span><span class="publications-members">K. Shirai, </span><span class="publications-members">T. Ogata, </span><span class="publications-members">Y. Domae </span></td>
+  <td id="murooka:access:2026-book-title">IEEE Access</td>
+  <td id="murooka:access:2026-year">2026</td>
+  <td id="murooka:access:2026-bib"><a href="/assets/bib/murooka_access_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:access:2026-pdf"><a href="https://ieeexplore.ieee.org/document/11511708" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:access:2026-mov"><a href="https://youtu.be/0HtEtiqk728" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:access:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="singh:sii:2026">
+  <td id="singh:sii:2026-title">Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion Capture</td>
+  <td id="singh:sii:2026-authors"><span class="publications-members"><a href="/jp/members/member-singh.html">R. Singh</a>, </span><span class="publications-members"><a href="/jp/members/member-leziart.html">P.-A. Leziart</a>, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="singh:sii:2026-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="singh:sii:2026-year">2026</td>
+  <td id="singh:sii:2026-bib"><a href="/assets/bib/singh_sii_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="singh:sii:2026-pdf"><a href="https://ieeexplore.ieee.org/document/11404507" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="singh:sii:2026-mov"><a href="https://youtu.be/g9dBdkwtURE" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="singh:sii:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="oh:ar:2026">
+  <td id="oh:ar:2026-title">Self-augmented robot trajectory: efficient imitation learning via safe self-augmentation with demonstrator-annotated precision</td>
+  <td id="oh:ar:2026-authors"><span class="publications-members">H. Oh, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">T. Motoda, </span><span class="publications-members">R. Nakajo, </span><span class="publications-members">Y. Domae </span></td>
+  <td id="oh:ar:2026-book-title">Advanced Robotics</td>
+  <td id="oh:ar:2026-year">2026</td>
+  <td id="oh:ar:2026-bib"><a href="/assets/bib/oh_ar_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="oh:ar:2026-pdf"><a href="https://www.tandfonline.com/doi/abs/10.1080/01691864.2026.2631642" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="oh:ar:2026-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="oh:ar:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="murooka:humanoids:2025">
+  <td id="murooka:humanoids:2025-title">Learning Differentiable Reachability Maps for Optimization-Based Humanoid Motion Generation</td>
+  <td id="murooka:humanoids:2025-authors"><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="murooka:humanoids:2025-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="murooka:humanoids:2025-year">2025</td>
+  <td id="murooka:humanoids:2025-bib"><a href="/assets/bib/murooka_humanoids_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:humanoids:2025-pdf"><a href="https://ieeexplore.ieee.org/document/11203189" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:humanoids:2025-mov"><a href="https://www.youtube.com/watch?v=WRYLLVb8ndg" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:humanoids:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="motoda:case:2025">
+  <td id="motoda:case:2025-title">Learning Bimanual Manipulation Via Action Chunking and Inter-Arm Coordination with Transformers</td>
+  <td id="motoda:case:2025-authors"><span class="publications-members">T. Motoda, </span><span class="publications-members">R. Hanai, </span><span class="publications-members">R. Nakajo, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">F. Erich, </span><span class="publications-members">Y. Domae </span></td>
+  <td id="motoda:case:2025-book-title">IEEE International Conference on Automation Science and Engineering</td>
+  <td id="motoda:case:2025-year">2025</td>
+  <td id="motoda:case:2025-bib"><a href="/assets/bib/motoda_case_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="motoda:case:2025-pdf"><a href="https://ieeexplore.ieee.org/document/11164107" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="motoda:case:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="motoda:case:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="benallegue:ram:2025">
+  <td id="benallegue:ram:2025-title">Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated Tasks in a Nursing Context</td>
+  <td id="benallegue:ram:2025-authors"><span class="publications-members"><a href="/jp/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/jp/members/member-glorthioir.html">G. Lorthioir</a>, </span><span class="publications-members"><a href="/jp/members/member-dallard.html">A. Dallard</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/jp/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-carong.html">G. Caron</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members">S. Yukizaki, </span><span class="publications-members">J. Karasuyama, </span><span class="publications-members">J. Murakami, </span><span class="publications-members">M. Kamon </span></td>
+  <td id="benallegue:ram:2025-book-title">IEEE Robotics &amp; Automation Magazine</td>
+  <td id="benallegue:ram:2025-year">2025</td>
+  <td id="benallegue:ram:2025-bib"><a href="/assets/bib/benallegue_ram_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:ram:2025-pdf"><a href="https://ieeexplore.ieee.org/document/10852168" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:ram:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="benallegue:ram:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="murooka:ral:2025">
+  <td id="murooka:ral:2025-title">TACT: Humanoid Whole-body Contact Manipulation through Deep Imitation Learning with Tactile Modality</td>
+  <td id="murooka:ral:2025-authors"><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-hoshi.html">T. Hoshi</a>, </span><span class="publications-members"><a href="/jp/members/member-fukumitsu.html">K. Fukumitsu</a>, </span><span class="publications-members"><a href="/jp/members/member-masuda.html">S. Masuda</a>, </span><span class="publications-members"><a href="/jp/members/member-hamze.html">M. Hamze</a>, </span><span class="publications-members">T. Sasaki, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="murooka:ral:2025-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="murooka:ral:2025-year">2025</td>
+  <td id="murooka:ral:2025-bib"><a href="/assets/bib/murooka_ral_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2025-pdf"><a href="https://ieeexplore.ieee.org/document/11037531" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2025-mov"><a href="https://www.youtube.com/watch?v=BPKo6f1lSek" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kumagai:ral:2025">
+  <td id="kumagai:ral:2025-title">Reinforcement Learning of Contact Preferability in Multi-contact Locomotion Planning for Humanoids</td>
+  <td id="kumagai:ral:2025-authors"><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kumagai:ral:2025-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="kumagai:ral:2025-year">2025</td>
+  <td id="kumagai:ral:2025-bib"><a href="/assets/bib/kumagai_ral_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ral:2025-pdf"><a href="https://ieeexplore.ieee.org/document/10819609" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ral:2025-mov"><a href="https://youtu.be/pL8iOvTH_mg" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ral:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tako:humanoids:2024">
+  <td id="tako:humanoids:2024-title">Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</td>
+  <td id="tako:humanoids:2024-authors"><span class="publications-members"><a href="/jp/members/member-tako.html">T. Tako</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members">H. Masuzawa, </span><span class="publications-members">Y. Kakiuchi </span></td>
+  <td id="tako:humanoids:2024-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="tako:humanoids:2024-year">2024</td>
+  <td id="tako:humanoids:2024-bib"><a href="/assets/bib/tako_humanoids_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tako:humanoids:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10769855" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tako:humanoids:2024-mov"><a href="https://www.youtube.com/watch?v=1nscY7zVYbg" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tako:humanoids:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="murooka:ral:2024">
+  <td id="murooka:ral:2024-title">Whole-Body Multi-Contact Motion Control for Humanoid Robots Based on Distributed Tactile Sensors</td>
+  <td id="murooka:ral:2024-authors"><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-fukumitsu.html">K. Fukumitsu</a>, </span><span class="publications-members"><a href="/jp/members/member-hamze.html">M. Hamze</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="murooka:ral:2024-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="murooka:ral:2024-year">2024</td>
+  <td id="murooka:ral:2024-bib"><a href="/assets/bib/murooka_ral_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10706003" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2024-mov"><a href="https://www.youtube.com/watch?v=I0OZYr-53uU" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="chappellet:tase:2024">
+  <td id="chappellet:tase:2024-title">Humanoid Loco-Manipulations using Combined Fast Dense 3D Tracking and SLAM with Wide-Angle Depth-Images</td>
+  <td id="chappellet:tase:2024-authors"><span class="publications-members"><a href="/jp/members/member-chappellet.html">K. Chappellet</a>, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-carong.html">G. Caron</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="chappellet:tase:2024-book-title">IEEE Transactions on Automation Science and Engineering</td>
+  <td id="chappellet:tase:2024-year">2024</td>
+  <td id="chappellet:tase:2024-bib"><a href="/assets/bib/chappellet_tase_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chappellet:tase:2024-pdf"><a href="https://hal.science/hal-04125159" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chappellet:tase:2024-mov"><a href="https://www.youtube.com/watch?v=YR7xZGwIdmE&pp=0gcJCQYKAYcqIYzv" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chappellet:tase:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tsuru:sensors:2023">
+  <td id="tsuru:sensors:2023-title">Online Multi-Contact Motion Replanning for Humanoid Robots with Semantic 3D Voxel Mapping: ExOctomap</td>
+  <td id="tsuru:sensors:2023-authors"><span class="publications-members"><a href="/jp/members/member-tsuru.html">M. Tsuru</a>, </span><span class="publications-members"><a href="/jp/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">K. Harada </span></td>
+  <td id="tsuru:sensors:2023-book-title">Sensors</td>
+  <td id="tsuru:sensors:2023-year">2023</td>
+  <td id="tsuru:sensors:2023-bib"><a href="/assets/bib/tsuru_sensors_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tsuru:sensors:2023-pdf"><a href="https://www.mdpi.com/1424-8220/23/21/8837" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tsuru:sensors:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="tsuru:sensors:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="katayama:ar:2023">
+  <td id="katayama:ar:2023-title">Model predictive control of legged and humanoid robots: models and algorithms</td>
+  <td id="katayama:ar:2023-authors"><span class="publications-members">S. Katayama, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">Y. Tazaki </span></td>
+  <td id="katayama:ar:2023-book-title">Advanced Robotics</td>
+  <td id="katayama:ar:2023-year">2023</td>
+  <td id="katayama:ar:2023-bib"><a href="/assets/bib/katayama_ar_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="katayama:ar:2023-pdf"><a href="https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2168134" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="katayama:ar:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="katayama:ar:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kumagai:iros:2022">
+  <td id="kumagai:iros:2022-title">Reachability Based Trajectory Generation Combining Global Graph Search in Task Space and Local Optimization in Configuration Space</td>
+  <td id="kumagai:iros:2022-authors"><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kumagai:iros:2022-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="kumagai:iros:2022-year">2022</td>
+  <td id="kumagai:iros:2022-bib"><a href="/assets/bib/kumagai_iros_2022.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:iros:2022-pdf"><a href="https://ieeexplore.ieee.org/document/9981906" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:iros:2022-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kumagai:iros:2022-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="murooka:ral:2022">
+  <td id="murooka:ral:2022-title">Centroidal Trajectory Generation and Stabilization Based on Preview Control for Humanoid Multi-Contact Motion</td>
+  <td id="murooka:ral:2022-authors"><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="murooka:ral:2022-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="murooka:ral:2022-year">2022</td>
+  <td id="murooka:ral:2022-bib"><a href="/assets/bib/murooka_ral_2022.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2022-pdf"><a href="https://ieeexplore.ieee.org/document/9807369" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2022-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="murooka:ral:2022-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="murooka:ral:2021b">
+  <td id="murooka:ral:2021b-title">Humanoid Loco-Manipulations Pattern Generation and Stabilization Control</td>
+  <td id="murooka:ral:2021b-authors"><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-chappellet.html">K. Chappellet</a>, </span><span class="publications-members"><a href="/jp/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/jp/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="murooka:ral:2021b-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="murooka:ral:2021b-year">2021</td>
+  <td id="murooka:ral:2021b-bib"><a href="/assets/bib/murooka_ral_2021b.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2021b-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9424385" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2021b-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="murooka:ral:2021b-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="murooka:ral:2021a">
+  <td id="murooka:ral:2021a-title">Humanoid Loco-Manipulation Planning Based on Graph Search and Reachability Maps</td>
+  <td id="murooka:ral:2021a-authors"><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="murooka:ral:2021a-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="murooka:ral:2021a-year">2021</td>
+  <td id="murooka:ral:2021a-bib"><a href="/assets/bib/murooka_ral_2021a.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2021a-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9359455" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2021a-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="murooka:ral:2021a-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kumagai:ral:2021">
+  <td id="kumagai:ral:2021-title">Multi-Contact Locomotion Planning With Bilateral Contact Forces Considering Kinematics and Statics During Contact Transition</td>
+  <td id="kumagai:ral:2021-authors"><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kumagai:ral:2021-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="kumagai:ral:2021-year">2021</td>
+  <td id="kumagai:ral:2021-bib"><a href="/assets/bib/kumagai_ral_2021.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ral:2021-pdf"><a href="https://ieeexplore.ieee.org/document/9478184?source=authoralert" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ral:2021-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kumagai:ral:2021-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kawamura:iros:2020">
+  <td id="kawamura:iros:2020-title">Learning of Tool Force Adjustment Skills by a Life-sized Humanoid using Deep Reinforcement Learning and Active Teaching Request</td>
+  <td id="kawamura:iros:2020-authors"><span class="publications-members">Y. Kawamura, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">N. Hiraoka, </span><span class="publications-members">H. Ito, </span><span class="publications-members">K. Okada, </span><span class="publications-members">M. Inaba </span></td>
+  <td id="kawamura:iros:2020-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="kawamura:iros:2020-year">2020</td>
+  <td id="kawamura:iros:2020-bib"><a href="/assets/bib/kawamura_iros_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kawamura:iros:2020-pdf"><a href="https://ras.papercept.net/proceedings/IROS20/1467.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kawamura:iros:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kawamura:iros:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="shi:icra:2020">
+  <td id="shi:icra:2020-title">Aerial Regrasping: Pivoting with Transformable Multilink Aerial Robot</td>
+  <td id="shi:icra:2020-authors"><span class="publications-members">F. Shi, </span><span class="publications-members">M. Zhao, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">K. Okada, </span><span class="publications-members">M. Inaba </span></td>
+  <td id="shi:icra:2020-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="shi:icra:2020-year">2020</td>
+  <td id="shi:icra:2020-bib"><a href="/assets/bib/shi_icra_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="shi:icra:2020-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="shi:icra:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="shi:icra:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="noda:icra:2020">
+  <td id="noda:icra:2020-title">Learning of Key Pose Evaluation for Efficient Multi-Contact Motion Planner</td>
+  <td id="noda:icra:2020-authors"><span class="publications-members">S. Noda, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">Y. Asano, </span><span class="publications-members">Y. Ishizaki, </span><span class="publications-members">T. Kawakami, </span><span class="publications-members">O. Watabe, </span><span class="publications-members">K. Okada, </span><span class="publications-members">T. Yoshiike, </span><span class="publications-members">M. Inaba </span></td>
+  <td id="noda:icra:2020-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="noda:icra:2020-year">2020</td>
+  <td id="noda:icra:2020-bib"><a href="/assets/bib/noda_icra_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="noda:icra:2020-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="noda:icra:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="noda:icra:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="yamaguchi:ras:2020">
+  <td id="yamaguchi:ras:2020-title">Selective grasp in occluded space by all-around proximity perceptible finger</td>
+  <td id="yamaguchi:ras:2020-authors"><span class="publications-members">N. Yamaguchi, </span><span class="publications-members">S. Hasegawa, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">M. Inaba </span></td>
+  <td id="yamaguchi:ras:2020-book-title">Robotics and Autonomous Systems</td>
+  <td id="yamaguchi:ras:2020-year">2020</td>
+  <td id="yamaguchi:ras:2020-bib"><a href="/assets/bib/yamaguchi_ras_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yamaguchi:ras:2020-pdf"><a href="https://reader.elsevier.com/reader/sd/pii/S092188901930274X?token=5DA146BC76B4EBE5FF174749FD240F858E9411C3509AB843F08B6BDCC5ED6679B44D550DB3123337B9216907A2978CB7" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yamaguchi:ras:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="yamaguchi:ras:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="murooka:ral:2020">
+  <td id="murooka:ral:2020-title">Optimization-Based Posture Generation for Whole-Body Contact Motion by Contact Point Search on the Body Surface</td>
+  <td id="murooka:ral:2020-authors"><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">K. Okada, </span><span class="publications-members">M. Inaba </span></td>
+  <td id="murooka:ral:2020-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="murooka:ral:2020-year">2020</td>
+  <td id="murooka:ral:2020-bib"><a href="/assets/bib/murooka_ral_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="murooka:ral:2020-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="murooka:ral:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="murooka:ral:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tazaki:ar:2020">
+  <td id="tazaki:ar:2020-title">A survey of motion planning techniques for humanoid robots</td>
+  <td id="tazaki:ar:2020-authors"><span class="publications-members">Y. Tazaki, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a> </span></td>
+  <td id="tazaki:ar:2020-book-title">Advanced Robotics</td>
+  <td id="tazaki:ar:2020-year">2020</td>
+  <td id="tazaki:ar:2020-bib"><a href="/assets/bib/tazaki_ar_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tazaki:ar:2020-pdf"><a href="https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1803128?needAccess=true" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tazaki:ar:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="tazaki:ar:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="hiraoka:ar:2020">
+  <td id="hiraoka:ar:2020-title">Online generation and control of quasi-static multi-contact motion by PWT Jacobian matrix with contact wrench estimation and joint load reduction*</td>
+  <td id="hiraoka:ar:2020-authors"><span class="publications-members">N. Hiraoka, </span><span class="publications-members"><a href="/jp/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members">S. Noda, </span><span class="publications-members">K. Okada, </span><span class="publications-members">M. Inaba </span></td>
+  <td id="hiraoka:ar:2020-book-title">Advanced Robotics</td>
+  <td id="hiraoka:ar:2020-year">2020</td>
+  <td id="hiraoka:ar:2020-bib"><a href="/assets/bib/hiraoka_ar_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hiraoka:ar:2020-pdf"><a href="https://www.tandfonline.com/doi/pdf/10.1080/01691864.2020.1838321?needAccess=true" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hiraoka:ar:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="hiraoka:ar:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>
+
+</div>
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

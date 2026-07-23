@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Projects
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/past-projects.html">
+                  Past projects
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/members.html">
+              Members
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/robots.html">
+              Robots
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/publications.html">
+              Publications
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/join_us.html">
+              Join us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              EN
+            </span>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <a href="/jp/news.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              JP
+            </a>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/index.html">Home</a>
+            </li><li class="breadcrumb-item active" aria-current="page">News</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">News</h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row" style="margin-top: 25px;">
+    <table class="table table-striped">
+      <tbody>
+        
+        <tr>
+          <td>01/07/2026</td>
+          <td>Three members, <a href="members/member-natsume.html">Kohei Natsume</a>, <a href="members/member-benmoussat.html">Mouad Benmoussat</a> and <a href="members/member-benalleguean.html">Anisse Benallegue</a> joind and <a href="members/member-villarreal-trevino.html">Christian Raúl Villarreal-Treviño</a> left the JRL in June.<br> Two papers were presented at the ICRA2026. <ul> <li><a href=https://hal.science/hal-05491392>Transformation-Domain Gaussian Smoothing for translational Direct Visual Servoing</a></li> <li>Impact-Aware Dual-Arm Manipulation</li> </ul> One paper was presented at the ARK2026. <ul> <li>Coaxial Multi-Channel Rotary Transmission Device</li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/06/2026</td>
+          <td>Three members, <a href="members/member-grajales-ramirez.html">Jose Grajales Ramirez</a>, <a href="members/member-tordjman-levavasseu.html">Valentin Tordjman-Levavasseu</a> and <a href="members/member-verilhac.html">Oscar Verilhac</a> joined and two members, <a href="members/member-euribe.html">Andree Alonso Euribe Vargas</a> and three members, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, <a href="members/member-euribe.html">Andree Alonso Euribe Vargas</a> and <a href="members/member-morisawa.html">Mitsuharu Morisawa</a> left the JRL in May.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/05/2026</td>
+          <td>Twelve members, <a href="members/member-morello.html">Luca Morello</a>, <a href="members/member-takeshima.html">Ryo Takeshima</a>, <a href="members/member-penmetsa.html">Dhanush Kumar Varma Penmetsa</a>, <a href="members/member-furuhata.html">Shikou Furuhata</a>, <a href="members/member-yamada.html">Suzutaro Yamada</a>, <a href="members/member-sato.html">Makoto Sato</a>, <a href="members/member-nangsue.html">Norawit Nangsue</a>, <a href="members/member-delooecker.html">Thibault Delooecker</a>, <a href="members/member-kessy.html">Suzan Kessy</a>, <a href="members/member-matsuno.html">Yuki Matsuno</a>, <a href="members/member-simon.html">Noah-Luc Simon</a> and <a href="members/member-seron.html">Sabrina Seron</a> joined and one member, <a href="members/member-ruble.html">Louis Ruble</a> left the JRL in April.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/04/2026</td>
+          <td>Three members, <a href="members/member-evangelisti.html">Chiara Evangelisti</a>, <a href="members/member-gomez-vargas.html">Roberto Raymundo Gomez-Vargas</a> and <a href="members/member-villarreal-trevino.html">Christian Villarreal-Trevino</a> joind and three members, <a href="members/member-naamani.html">Meriem Naamani</a>, <a href="members/member-liu.html">Zenong Liu</a> and <a href="members/member-farhi-rivasseau.html">Alice Farhi-rivasseau</a> left the JRL in March.<br> Two papers were presented at the AMC2026. <ul> <li>Estimation-based Control of Forces Applied to Parts of Humanoids That Do Not Have Force Sensors</li> <li>QP-based impact momentum maximization for a hammering task by a humanoid robot</li> </ul> <a href=https://hal.science/hal-05542491>Event-based 6-DoF object tracking with distance field reaching 130 Hz</a> was published in the RA-Letters.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/03/2026</td>
+          <td>Four members, <a href="members/member-filliung.html">Martin Filliung</a>, <a href="members/member-jokinen.html">Kristiina Jokinen</a>, <a href="members/member-ben.html">Selim Ben Abdallah</a> and <a href="members/member-euribe.html">Andree Alonso Euribe Vargas</a> joined and two members, <a href="members/member-hernandezvaldez.html">Eduardo Hernandez Valdez</a> and <a href="members/member-erens.html">Ruud Erens</a> left the JRL in February.<br>
+"<a href=https://advanced.onlinelibrary.wiley.com/doi/10.1002/adrr.202500156>Compliant Pneumatic Feet with Real-Time Stiffness Adaptation for Humanoid Locomotion</a>" was published in the Advanced Robotics Research.<br> "<a href=https://www.sciencedirect.com/science/article/pii/S0921889025003203?via%3Dihub>Linear conversions of nonlinear camera models for robotic vision applications</a>" was published in the Robotics and Autonomous Systems.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/02/2026</td>
+          <td>One member, <a href="members/member-phamk.html">Khang Pham</a> joined and <a href="members/member-castillo.html">Hugo Daniel Castillo Ovando</a> left the JRL in January.<br> 10 papers were presented at the SII2026. <ul> <li>Photometric Virtual Visual Servoing based on Gaussian Splatting</li> <li>Low-latency online estimation of human upper-limb pose and kinematics from a single 360 camera</li> <li>RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context</li> <li>Improving Robotic Imitation Learning with Predicted Facial Motion Using Transformers</li> <li>Development of a semi-autonomous manipulation pipeline for robotic shelf-picking operations</li> <li>Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion Capture</li> <li>Learning Humanoid Loco-manipulation with Constraints as Terminations</li> <li>CoM Jacobian-based locomotion control of an annular pneumatic robot</li> <li>Residual-based and Passivity-based external Disturbance Compensation for Closed Loop Torque Control</li> <li>Can Policy Learning with Time Limits be used for Contact-rich Industrial Manipulation?</li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/01/2026</td>
+          <td><a href="members/member-lanneau.html">Victorien Lanneau</a> joined and <a href="members/member-goichon.html">Eva Goichon</a> left the JRL in December.<br> "<a href=https://doi.org/10.1080/14763141.2025.2531219>New method for quantifying power during wheelchair sports propulsion in the field</a>" was published in the Sports Biomechanics.<br> "<a href=https://link.springer.com/article/10.1007/s12555-025-0511-x>VALINOR: A Minimalist Leg Inertial Odometry for Humanoid Robots</a>" was published in the International Journal of Control, Automation and Systems.<br> "<a href=https://www.mdpi.com/2075-1702/13/12/1142>Design and Validation of a Soft Pneumatic Submodule for Adaptive Humanoid Foot Compliance</a>" was published in the Machines.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/12/2025</td>
+          <td>Two members, <a href="members/member-cariou.html">Alice Cariou</a> and <a href="members/member-demont.html">Arnaud Demont</a> joined and one member, <a href="members/member-matsuzaki.html">Manako Matsuzaki</a> left the JRL in November.<br> "VALINOR: A Lightweight Leg Inertial Odometry for Humanoid Robots" was presented at the ICCAS2025.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/11/2025</td>
+          <td>Three members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-miyawaki.html">Kaito Miyawaki</a> and <a href="members/member-ahmed.html">Sakib Ahmed</a> joined and four members, <a href="members/member-vu.html">Jimmy Vu</a>, <a href="members/member-gambardella.html">Romain Gambardella</a>, <a href="members/member-gratiasquiquandon.html">Philippe Gratias-Quiquandon</a> and <a href="members/member-demont.html">Arnaud Demont</a> left the JRL in October.<br> "<a href=https://doi.org/10.1007/s10846-025-02327-z>Enhancing Humanoid Robot Stability on Uneven Terrain with Online Foothold Planning Based on Ground Scanning</a>" was published in the Journal of Intelligent & Robotic Systems.<br> "<a href=https://hal.science/hal-05193969>Globally optimal registration of dense terrestrial laser scans from coarse sampling</a>" was presented it the ICCV2025.<br> "<a href=https://ieeexplore.ieee.org/document/11245815>Landmark-Based Goal Recognition for Shared Autonomy: A Framework for Enhanced Teleoperation</a>" was presented at the IROS 2025.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/10/2025</td>
+          <td>Three members, <a href="members/member-ruble.html">Louis Ruble</a>, <a href="members/member-erens.html">Ruud Erens</a> and <a href="members/member-farhi-rivasseau.html">Alice Farhi-rivasseau</a> joined and four members, <a href="members/member-tazeroualttlamcani.html">Ghita Tazeroualt Tlamcani</a>, <a href="members/member-oubraim.html">Walid Oubraim</a>, <a href="members/member-daligault.html">Celian Daligault</a> and <a href="members/member-dorfani.html">Raphaël d'Orfani</a> left the JRL in September. Two papers were presented at Digital Heritage 2025. <ul> <li><a href=https://hal.science/hal-05124722>Spatial random access to explore heritage site using spherical video</a></li> <li><a href=https://hal.science/hal-05124722>ESILab: An efficient software for immersion and exploitation of large point clouds</a></li> </ul> Three papers were presented at Humanoids2025. <ul> <li><a href=https://hal.science/hal-05193891>RGB-D versus omnidirectional visual SLAM in humanoid robot positioning</a></li> <li>Learning Differentiable Reachability Maps for Optimization-Based Humanoid Motion Generation</li> <li>Comparative Analysis of Dynamic Balance Descriptors in Humanoids and Humans During Perturbed Bipedal Locomotion and Fall</li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/09/2025</td>
+          <td>Two members, <a href="members/member-hernandezvaldez.html">Eduardo Hernandez-Valdez</a> and <a href="members/member-lopez.html">Diego López Hernández</a> joind and eight members, <a href="members/member-stasse.html">Olivier Stasse</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a>, <a href="members/member-vega.html">Piero Vega-Gutierrez</a>, <a href="members/member-pezet.html">Romain Pezet</a>, <a href="members/member-benalleguea.html">Abdelaziz Benallegue</a>, <a href="members/member-kikuchi.html">Misaki Kikuchi</a> and <a href="members/member-cariou.html">Alice Cariou</a> left the JRL in August.<br> "<a href=https://ieeexplore.ieee.org/document/11037531>TACT: Humanoid Whole-body Contact Manipulation through Deep Imitation Learning with Tactile Modality</a>" was published in the RA-Letters.<br> One paper was presented at CASE2025. <ul> <li> Learning Bimanual Manipulation Via Action Chunking and Inter-Arm Coordination with Transformers </li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/08/2025</td>
+          <td>Two members, <a href="members/member-stasse.html">Olivier Stasse</a> and <a href="members/member-castillo.html">Hugo Daniel Castillo Ovando</a> joined and <a href="members/member-bories.html">Maxime Bories</a> left the JRL in July.<br> One paper was presented at MVA2025. <ul> <li>3D Object Reconstruction Through Integration of Hyperspectral and RGB-D Imaging</li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/07/2025</td>
+          <td><a href="members/member-scianca.html">Nicola Scianca</a> stayed in June.<br> One paper was presented at RSS2025. <ul> <li> <a href=https://roboticsconference.org/program/papers/84/>Demonstrating a Control Framework for Physical Human-Robot Interaction Toward Industrial Applications</a> </li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/06/2025</td>
+          <td>One member, <a href="members/member-tazeroualttlamcani.html">Ghita Tazeroualt-Tlamcani</a> joined and three members <a href="members/member-taruf.html">Imane Taruf</a>, <a href="members/member-paula.html">Matheus Paula</a> and <a href="members/member-vilfroy.html">Seanan Vilfroy</a> left the JRL in May.<br> "<a href=https://laas.hal.science/hal-04725578>Wheelchair caster power losses due to rolling resistance on sports surfaces</a>" was published in the Disability and Rehabilitation: Assistive Technology.<br> "<a href=https://www.sciencedirect.com/science/article/pii/S147403462500028X>Enhancing multimodal-input object goal navigation by leveraging large language models for inferring room–object relationship knowledge</a>" was published in the Advanced Engineering Informatics.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/05/2025</td>
+          <td>13 members, <a href="members/member-kajitsuka.html">Kotaro Kajitsuka</a>, <a href="members/member-joyapaez.html">Sebastian Joya Paez</a>, <a href="members/member-forgiel.html">Anatole Forgiel</a>, <a href="members/member-dorfani.html">Raphaël d'Orfani</a>, <a href="members/member-robert.html">Gauvain Robert</a>, <a href="members/member-mesaros.html">David Mesaros</a>, <a href="members/member-tanabe.html">Katsuki Tanabe</a>, <a href="members/member-daligault.html">Celian Daligault</a>, <a href="members/member-gratiasquiquandon.html">Philippe Gratias-Quiquandon</a>, <a href="members/member-gambardella.html">Romain Gambardella</a>, <a href="members/member-vu.html">Jimmy Vu</a>, <a href="members/member-vega.html">Piero Vega-Gutierrez</a> and <a href="members/member-pezet.html">Romain Pezet</a> joined in April.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/04/2025</td>
+          <td>Two projects, <a href="projects/project-dvsstraight.html">DVS-Straight</a> and <a href="projects/project-icps.html">ICPS</a> finished.<p> Three members, <a href="members/member-matsuzaki.html">Manako Matsuzaki</a>, <a href="members/member-moussafir.html">Léo Moussafir</a> and <a href="members/member-oubraim.html">Walid Oubraim</a> joined and 15 members, <a href="members/member-stefanell.html">Hélène Stefanell</a>, <a href="members/member-ganesh.html">Gowrishankar Ganesh</a>, <a href="members/member-abe.html">Naoko Abe</a>, <a href="members/member-singh.html">Rohan P. Singh</a>, <a href="members/member-katom.html">Mitsuko Kato</a>, <a href="members/member-glorthioir.html">Guillaume Lorthioir</a>, <a href="members/member-chen.html">Yang Chen</a>, <a href="members/member-miyake.html">Hibiki Miyake</a>, <a href="members/member-fukumitsu.html">Kensuke Fukumitsu</a>, <a href="members/member-tako.html">Taro Tako</a>, <a href="members/member-hoshi.html">Takahiro Hoshi</a>, <a href="members/member-mori.html">Kenya Mori</a>, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-herklet.html">Emilien Herklet</a> and <a href="members/member-leroy.html">Hippolyte Leroy</a> and <a href="members/member-yada.html">Shori Yada</a> left the JRL in March.<p> <a href=https://ieeexplore.ieee.org/document/10852168>Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated Tasks in a Nursing Context</a> was published in the IEEE RAM.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/03/2025</td>
+          <td>Six members, <a href="members/member-acaillot.html">Antoine Caillot</a>, <a href="members/member-bories.html">Maxime Bories</a>, <a href="members/member-senouci.html">Sidi Mohammed Senouci</a>, <a href="members/member-durand.html">Hugo Durand</a>, <a href="members/member-louapre.html">Ferdinand Louapre</a> and <a href="members/member-cariou.html">Alice Cariou</a> joined and three members, <a href="members/member-cardot.html">Aymeric Cardot</a> and <a href="members/member-paik.html">Albert Paik</a> and <a href="members/member-senouci.html">Sidi Mohammed Senouci</a> left the JRL in February.<p> Two papers were published in the RA-Letters. <ul> <li><a href=https://ieeexplore.ieee.org/document/10819609>Reinforcement Learning of Contact Preferability in Multi-contact Locomotion Planning for Humanoids</a></li> <li><a href=https://ieeexplore.ieee.org/document/10815980>Humanoid-Human Sit-to-Stand-to-Sit Assistance</a></li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/02/2025</td>
+          <td>Two members, <a href="members/member-herklet.html">Emilien Herklet</a> and <a href="members/member-leroy.html">Hippolyte Leroy</a> joined and <a href="members/member-vazquez.html">David Vázquez Leal</a> left the JRL in January.<br> Three papers were presented at the SII2025.<br> <ul> <li>Scalable, Training-Free Visual Language Robotics: A Modular Multi-Model Framework for Consumer-Grade GPUs</li> <li>A Lightweight Approach to Efficient Multimodal 2D Navigation and Mapping: Unified Laser-Scans As an Alternative to 3D Methods</li> <li>On the Impact of the Camera Field-Of-View to Direct Visual Servoing Robot Trajectories When Using the Photometric Gaussian Mixtures As Dense Feature</li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/01/2025</td>
+          <td>Two members, <a href="members/member-pinon.html">Pierre Pinon</a> and <a href="members/member-vilfroy.html">Seanan Vilfroy</a> joined and <a href="members/member-sagawa.html">Ryusuke Sagawa</a> left the JRL in December.<p> "<a href=https://laas.hal.science/hal-04725578>Wheelchair caster power losses due to rolling resistance on sports surfaces</a>" was published in the Disability and Rehabilitation: Assistive Technology.<br> "Aligning objects as preprocessing combined with imitation learning for improved generalization" was presented at the International Conference on Control and Robotics 2024.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/12/2024</td>
+          <td>Three members, <a href="members/member-dhaene.html">Mathis D'Haene</a>, <a href="members/member-lannelongue.html">Elisa Lannelongue</a> and <a href="members/member-paik.html">Albert Paik</a> joined and <a href="members/member-dallard.html">Antonin Dallard</a> defended this PhD thesis.<br> "<a href=https://www.nature.com/articles/s42256-024-00904-9>A soft skin with self-decoupled three-axis force-sensing taxels</a>" was published in the Nature Machine Intelligence.<br> "<a href=https://doi.org/10.1080/10556788.2024.2307467>Sequential hierarchical least-squares programming for prioritized non-linear optimal control</a>" was published in the Optimization Methods and Software.<br> Four papers were published in the RA-Letters.<br> <ul> <li><a href=https://ieeexplore.ieee.org/abstract/document/10609486>Compliant Contacts Balance-Force Controller for Legged Robots</a></li> <li><a href=https://ieeexplore.ieee.org/document/10706003>Whole-Body Multi-Contact Motion Control for Humanoid Robots Based on Distributed Tactile Sensors</a></li> <li><a href=https://ieeexplore.ieee.org/document/10742560>Minimal Impact Pokes to Place Objects on Planar Surfaces</a></li> <li><a href=https://ieeexplore.ieee.org/document/10697271>End-Effectors Changer Design for Humanoids</a></li> </ul> Five papers were presented at the Humanoids2024.<br> <ul> <li><a href="https://ieeexplore.ieee.org/document/10769961">Motion Accuracy and Computational Effort in QP-Based Robot Control</a></li> <li><a href="https://ieeexplore.ieee.org/document/10769846">Lower Limbs 3D Joint Kinematics Estimation from Force Plates Data and Machine Learning</a></li> <li><a href="https://ieeexplore.ieee.org/document/10769855">Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</a></li> <li><a href="https://ieeexplore.ieee.org/document/10769841">Measuring and Analyzing Human Wide-Area Contact Motion Using Tactile Sensors</a></li> <li><a href="https://ieeexplore.ieee.org/document/10769793">Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</a></li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/11/2024</td>
+          <td>Three members, <a href="members/member-nasir.html">Amneh Nasir</a>, <a href="members/member-vazquez.html">David Vázquez Leal</a>, and <a href="members/member-kikuchi.html">Misaki Kikuchi</a> joined and three members, <a href="members/member-lefevre.html">Hugo Lefevre</a>, <a href="members/member-guillaume.html">Constantin Guillaume</a> and <a href="members/member-schulte.html">Sinta Schulte</a> finished their stays at the JRL.<br> Two papers were presented at the ICRA@40<br> <ul> <li>Impact-Aware Dual-Arm Manipulation</li> <li><a href="https://ieeexplore.ieee.org/document/10463090">Dual-Hemispherical Photometric Visual Servoing</a></li> </ul> Four papers were presented at the IROS 2024<br> <ul> <li>Contact Stability Control of Stepping Over Partial Footholds Using Plantar Tactile Feedback</li> <li><a href="https://ieeexplore.ieee.org/document/10400898">Planning Impact-Driven Logistic Tasks</a></li> <li>Contacts from Motion: Learning Discrete Features for Automatic Contact Detection and Estimation from Human Movements</li> <li><a href="https://hal.science/hal-04650438">A Mathematical Characterization of the Convergence Domain for Direct Visual Servoing</a></li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/10/2024</td>
+          <td>Five members, <a href="members/member-benalleguea.html">Abdelaziz Benallegue</a>, <a href="members/member-taruf.html">Imane Taruf</a>, <a href="members/member-cardot.html">Aymeric Cardot</a>, <a href="members/member-stefanell.html">Hélène Stefanell</a>, and <a href="memebers/member-yada.html">Shori Yada</a> joined and five members, <a href="members/member-aymes.html">Malo Aymes</a>, <a href="members/member-crequer.html">Gwendal Crequer</a>, <a href="members/member-paula.html">Matheus Paula</a>, <a href="members/member-sevillano.html">Kimbery Grace Sevillano C.</a> and <a href="members/member-harle.html">Damien Harlé</a> finished their internships at the JRL.<br>
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/09/2024</td>
+          <td>One member, <a href="members/member-lefevre.html">Hugo Lefevre</a> joined and three members, <a href="members/member-arslan.html">Mikael Arslan</a>, <a href="members/member-soucail.html">Martin Soucail</a> and <a href="members/member-chalanunt.html">Sirikorn Chalanunt</a> finished their internships at the JRL in August.<br> "<a href="https://www.sciencedirect.com/science/article/pii/S1746809424002933">Assessing time series correlation significance: A parametric approach with application to physiological signals</a>" was published in Biomedical Signal Processing and Control.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/08/2024</td>
+          <td>One member, <a href="members/member-duvinage.html">Thomas Duvinage</a> joined and three members, <a href="members/member-bwatier.html">Bruno Watier</a>, <a href="members/member-noel.html">Ocean Noel</a>, and <a href="members/member-samson.html">Marie Samson</a> left the JRL in July.<br> "<a href="https://hal.science/hal-04125159">Humanoid Loco-Manipulations using Combined Fast Dense 3D Tracking and SLAM with Wide-Angle Depth-Images</a>" was published in the IEEE T-ASE.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/07/2024</td>
+          <td><a href="members/member-harle.html">Damien Harlé</a> joined in June.<br> "A cross-temporal robotic dance performance: Dancing with a humanoid robot and artificial life" was presented at ISEA2024.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/06/2024</td>
+          <td>Four members, <a href="members/member-racine.html">Isaac Racine</a>, <a href="members/member-schulte.html">Sinta Schulte</a>, <a href="members/member-leziart.html">Pierre-Alexandre Leziart</a>, and <a href="members/member-guillaume.html">Constantin Guillaume</a> joined and one member, <a href="members/member-frizza.html">Irene Frizza</a> left the JRL in May.<br> "<a href="https://ieeexplore.ieee.org/document/10463090">Dual-Hemispherical Photometric Visual Servoing</a>" was published in the IEEE RA-L.
+</td>
+        </tr>
+        
+        <tr>
+          <td>17/05/2024</td>
+          <td>25 JRL members participated in the IEEE International Conference on Robotics and Automation (ICRA) and gave 15 presentations. <ul> <li>2 regular articles (<a href="https://hal.science/hal-04528418">1</a>,<a href="https://hal.science/hal-04519122">2</a>)</li> <li>3 journal article presentations</li> <li>2 late breaking results poster presentations</li> <li>4 invited talks in workshops (3) and cluster forum (1)</li> <li>1 presentation in a workshop</li> <li>3 posters in workshops</li> </ul>
+</td>
+        </tr>
+        
+        <tr>
+          <td>24/10/2023</td>
+          <td>Philippe Coiffet, co-founder of the JRL and pioneer of French robotics, passed away on 20 October 2023. He will be dearly missed but his legacy will live on through the work he initiated. If you wish to honor his memory or express your condolences, a webpage has been setup on <a href="https://www.lirmm.fr/philippe-coiffet/">LIRMM website</a>.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/06/2023</td>
+          <td>The paper co-authored by <a href="members/member-kaneko.html">Kenji Kaneko</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, Shuuji Kajita, Hirohisa Hirukawa, Toshikazu Kawasaki, Masaru Hirata, Kazuhiko Akachi, Takakatsu Isozumi: Humanoid robot HRP-2 recevied <a href="https://www.ieee-ras.org/awards-recognition/society-awards?view=article&id=1790:ieee-icra-milestone-award&catid=69">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>.
+</td>
+        </tr>
+        
+        <tr>
+          <td>07/12/2022</td>
+          <td>The paper co-authored by <a href="members/member-sun.html">Leyuan Sun</a>, Guanqun Ding, <a href="members/member-yoshiyasu.html">Yusuke Yoshiyasu</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>: CertainOdom: Uncertainty Weighted Multi-task Learning Model for LiDAR Odometry Estimation recevied the 2022 IEEE International Conference on Robotics and Biomimetics (ROBIO) Best Conference Paper Award.
+</td>
+        </tr>
+        
+        <tr>
+          <td>29/11/2022</td>
+          <td><a href="members/member-frizza.html">Irene Frizza</a> recevied the 2022 IEEE-RAS International Conference on Humanoid Robots (Humanoids) <a href="https://www.humanoids2022.org/travel/kanako-miura-award">Kanako Miura Award</a>.</td>
+        </tr>
+        
+        <tr>
+          <td>25/05/2022</td>
+          <td><a href="https://unit.aist.go.jp/isri/isri-jrl/en/projects/janus/team-janus.html">Team Janus</a> advances to the <a href="https://www.xprize.org/prizes/avatar">ANA Avatar XPRIZE</a> Finals!</td>
+        </tr>
+        
+        <tr>
+          <td>25/03/2022</td>
+          <td><a href="https://www.naist.jp/pressrelease/2022/03/008826.html">A press release</a> was issued regarding "Eliminating temporal illumination variations in whisk-broom hyperspectral imaging".</td>
+        </tr>
+        
+        <tr>
+          <td>12/03/2022</td>
+          <td><a href="https://event.kawasakirobotics.com/jp/irex2022/jp/humanoid/kaleido-slim/">RHP Friends</a>, jointly developed with Kawasaki Heavy Industries, Ltd. was exhibited at <a href="https://biz.nikkan.co.jp/eve/irex/english/">the International Robot Exhibition</a>.</td>
+        </tr>
+        
+        <tr>
+          <td>01/03/2022</td>
+          <td>The Technical Committee on Model-Based Optimization for Robotics, co-chaired by <a href="members/member-escande.html">Adrien Escande</a>, received <a href="https://www.ieee-ras.org/about-ras/latest-news/1927-2022-ieee-ras-award-recipients-announced">the RAS Most Active Technical Committee Award</a>.</td>
+        </tr>
+        
+        <tr>
+          <td>07/06/2021</td>
+          <td><a href="members/member-tsuru.html">Masato Tsuru</a> has received the <a href="https://www.ieee-jp.org/section/tokyo/chapter/RA-24/RASJPYoungAward_ICRA2021.html">IEEE Robotics and Automation Society Japan Joint Chapter Young Award (ICRA2021)</a>.</td>
+        </tr>
+        
+        <tr>
+          <td>02/06/2021</td>
+          <td>The paper co-authored by Shuuji Kajita, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, <a href="members/member-kaneko.html">Kenji Kaneko</a>, Kiyoshi Fujiwara, Kensuke Harada, Kazuhito Yokoi, Hirohisa Hirukawa: Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point recevied <a href="https://www.ieee-ras.org/awards-recognition/society-awards?view=article&id=1790:ieee-icra-milestone-award&catid=69">IEEE International Conference on Robotics and Automation Most Influential Paper Award</a>.
+</td>
+        </tr>
+        
+        <tr>
+          <td>15/03/2021</td>
+          <td><a href="members/member-kanehiro.html">Fumio Kanehiro</a> was interviewed by <a href="https://robotics.kawasaki.com/ja1/xyz/en/2104-01/index.htm">XYZ</a>.</td>
+        </tr>
+        
+        <tr>
+          <td>12/03/2021</td>
+          <td>Daphné Héraïz-Bekkis was interviewed by <a href="https://jp.ambafrance.org/Entretien-avec-Daphne-Heraiz-Bekkis-doctorante-dans-le-domaine-des-interactions-homme-robot-entre-la-France-et-le-Japon">French Embassy</a>.</td>
+        </tr>
+        
+        <tr>
+          <td>30/05/2020</td>
+          <td>The paper co-authored by <a href="members/member-kheddar.html">Abderrahmane Kheddar</a>, Stéphane Caron, <a href="members/member-gergondet.html">Pierre Gergondet</a>, Andrew Comport, <a href="members/member-tanguy.html">Arnaud Tanguy</a>, Christian Ott, Bernd Henze, George Mesesan, Johannes Englsberger, Máximo Roa, Pierre-Brice Wieber, François Chaumette, Fabien Spindler, Giuseppe Oriolo, Leonardo Lanari, <a href="members/member-escande.html">Adrien Escande</a>, <a href="members/member-chappellet.html">Kévin Chappellet</a>, <a href="members/member-kanehiro.html">Fumio Kanehiro</a>, Patrice Rabate: Humanoid robots in aircraft manufacturing recevied <a href="https://www.ieee-ras.org/awards-recognition/publications-awards/70-awards-recognition/publication-awards/723-ieee-robotics-and-automation-magazine-best-paper-award">the 2020 IEEE Robotics and Automation Magazine Best Paper Award</a>.
+</td>
+        </tr>
+        
+        <tr>
+          <td>01/04/2020</td>
+          <td><a href="members/member-ayusawa.html">Ko Ayusawa</a> has received <a href="https://www.mext.go.jp/b_menu/houdou/mext_00187.html">the MEXT Award for Science and Technology for young scientists</a>.</td>
+        </tr>
+        
+        <tr>
+          <td>13/01/2020</td>
+          <td>The paper co-authored by <a href="members/member-tsuru.html">Masato Tsuru</a>, <a href="members/member-gergondet.html">Pierre Gergondet</a>, Tomohiro Motoda, <a href="members/member-escande.html">Adrien Escande</a>, <a href="members/member-yoshida.html">Eiichi Yoshida</a>, Ixchel G. Ramirez-Alpizar, Weiwei Wan, Kensuke Harada: POMDP-based action planning for the recognition of occluded objects with Humanoid robots received <a href="https://alife-robotics.co.jp/ICAROB2020-YAA.pdf">the 2020 International Conference on Artificial Life and Robotics (ICAROB) Young Author Award</a>.
+</td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

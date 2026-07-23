@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Projects
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/past-projects.html">
+                  Past projects
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/members.html">
+              Members
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/robots.html">
+              Robots
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/publications.html">
+              Publications
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/join_us.html">
+              Join us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              EN
+            </span>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <a href="/jp/members/member-aandre.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              JP
+            </a>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/index.html">Home</a>
+            </li><li class="breadcrumb-item"><a href="/members.html">Members</a></li><li class="breadcrumb-item active" aria-current="page">Antoine André</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">Antoine André<small><br/>Permanent researcher &mdash; <a href="https://antoineandre.github.io/" target="_blank">Personal website <i class="bi bi-globe" style="font-size: small;"></i></a></small></h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container py-4">
+  <div class="row align-items-center">
+    <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
+      <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active">
+              <img src="/assets/members/aandre.jpg" class="d-block w-100 rounded" alt="Antoine André image 1">
+            </div></div></div>
+    </div>
+
+    <div class="col-md-7 col-12"><h3>Bio</h3>
+        <p><strong>Antoine André&nbsp;</strong>received his engineering degree in robotics from the National Institute of Mechanics and Microtechnologies, Besançon, France. He obtained his Ph.D. in Automatics and Computer Vision from the University of Burgundy Franche-Comté, France, in 2021, at the FEMTO-ST Institute. From 2022, he was a JSPS postdoctoral fellow at the CNRS-AIST Joint Robotics Laboratory (JRL), studying visual servoing with large field-of-view cameras. He is currently a permanent researcher at CNRS-AIST JRL. His research interests include computer vision for robotics, visual servoing with omnidirectional cameras, and deformation estimation from images.
+</p></div>
+  </div><div class="row mt-4">
+    <div class="col-12"><h3>Publications</h3>
+        <div class="alert alert-info">The publication list may not be complete, especially for publications prior to 2017. We are working on updating it.</div><table class="table table-striped">
+  <thead>
+    <tr>
+      <td>Title</td>
+      <td>Authors</td>
+      <td>Conference/Book</td>
+      <td>Year</td>
+      <td>bib</td>
+      <td>pdf</td>
+      <td>mov</td>
+      <td>prj</td>
+    </tr>
+  </thead>
+  <tbody><tr id="paula:icpr:2026">
+  <td id="paula:icpr:2026-title">FuseDPT: Multi-scale and Multi-Projection Model for Learning Depth in 360 Degree</td>
+  <td id="paula:icpr:2026-authors"><span class="publications-members"><a href="/members/member-paula.html">M. Paula</a>, </span><span class="publications-members"><a href="/members/member-imamoglu.html">N. Imamoglu</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a> </span></td>
+  <td id="paula:icpr:2026-book-title">IAPR/IEEE International Conference on Pattern Recognition</td>
+  <td id="paula:icpr:2026-year">2026</td>
+  <td id="paula:icpr:2026-bib"><a href="/assets/bib/paula_icpr_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="paula:icpr:2026-pdf"><a href="https://hal.science/hal-05583714" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="paula:icpr:2026-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="paula:icpr:2026-prj"><a href="https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-antnoid.html" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+</tr>
+<tr id="nasir:icra:2026">
+  <td id="nasir:icra:2026-title">Transformation-Domain Gaussian Smoothing for translational Direct Visual Servoing</td>
+  <td id="nasir:icra:2026-authors"><span class="publications-members"><a href="/members/member-nasir.html">A. Nasir</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members">D. Kachi, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a> </span></td>
+  <td id="nasir:icra:2026-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="nasir:icra:2026-year">2026</td>
+  <td id="nasir:icra:2026-bib"><a href="/assets/bib/nasir_icra_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nasir:icra:2026-pdf"><a href="https://hal.science/hal-05491392" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nasir:icra:2026-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nasir:icra:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="dorphani:sii:2026">
+  <td id="dorphani:sii:2026-title">RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context</td>
+  <td id="dorphani:sii:2026-authors"><span class="publications-members"><a href="/members/member-dorfani.html">R. d'Orfani</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="dorphani:sii:2026-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="dorphani:sii:2026-year">2026</td>
+  <td id="dorphani:sii:2026-bib"><a href="/assets/bib/dorphani_sii_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dorphani:sii:2026-pdf"><a href="https://hal.science/hal-05339552" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dorphani:sii:2026-mov"><a href="https://youtu.be/kvFsxiHh1Js" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dorphani:sii:2026-prj"><a href="https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-sigrole.html" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+</tr>
+<tr id="caillot:humanoids:2025">
+  <td id="caillot:humanoids:2025-title">RGB-D versus omnidirectional visual SLAM in humanoid robot positioning</td>
+  <td id="caillot:humanoids:2025-authors"><span class="publications-members"><a href="/members/member-acaillot.html">A. Caillot</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-duvinage.html">T. Duvinage</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="caillot:humanoids:2025-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="caillot:humanoids:2025-year">2025</td>
+  <td id="caillot:humanoids:2025-bib"><a href="/assets/bib/caillot_humanoids_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="caillot:humanoids:2025-pdf"><a href="https://hal.science/hal-05193891" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="caillot:humanoids:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="caillot:humanoids:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="schulte:sii:2025">
+  <td id="schulte:sii:2025-title">On the Impact of the Camera Field-Of-View to Direct Visual Servoing Robot Trajectories When Using the Photometric Gaussian Mixtures As Dense Feature</td>
+  <td id="schulte:sii:2025-authors"><span class="publications-members"><a href="/members/member-schulte.html">S. Schulte</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members">N. Crombez, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="schulte:sii:2025-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="schulte:sii:2025-year">2025</td>
+  <td id="schulte:sii:2025-bib"><a href="/assets/bib/schulte_sii_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="schulte:sii:2025-pdf"><a href="https://hal.science/hal-04810271v1" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="schulte:sii:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="schulte:sii:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="andre:tro:2025">
+  <td id="andre:tro:2025-title">UniphorM: A New Uniform Spherical Image Representation for Robotic Vision</td>
+  <td id="andre:tro:2025-authors"><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members">F. Morbidi, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="andre:tro:2025-book-title">IEEE Transactions on Robotics</td>
+  <td id="andre:tro:2025-year">2025</td>
+  <td id="andre:tro:2025-bib"><a href="/assets/bib/andre_tro_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="andre:tro:2025-pdf"><a href="https://ieeexplore.ieee.org/document/10912746" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="andre:tro:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="andre:tro:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="benallegue:ram:2025">
+  <td id="benallegue:ram:2025-title">Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated Tasks in a Nursing Context</td>
+  <td id="benallegue:ram:2025-authors"><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-glorthioir.html">G. Lorthioir</a>, </span><span class="publications-members"><a href="/members/member-dallard.html">A. Dallard</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members">S. Yukizaki, </span><span class="publications-members">J. Karasuyama, </span><span class="publications-members">J. Murakami, </span><span class="publications-members">M. Kamon </span></td>
+  <td id="benallegue:ram:2025-book-title">IEEE Robotics &amp; Automation Magazine</td>
+  <td id="benallegue:ram:2025-year">2025</td>
+  <td id="benallegue:ram:2025-bib"><a href="/assets/bib/benallegue_ram_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:ram:2025-pdf"><a href="https://ieeexplore.ieee.org/document/10852168" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:ram:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="benallegue:ram:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="quaccia:sii:2024">
+  <td id="quaccia:sii:2024-title">A Study on Learned Feature Maps Toward Direct Visual Servoing</td>
+  <td id="quaccia:sii:2024-authors"><span class="publications-members"><a href="/members/member-quaccia.html">M. Quaccia</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-yoshiyasu.html">Y. Yoshiyasu</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="quaccia:sii:2024-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="quaccia:sii:2024-year">2024</td>
+  <td id="quaccia:sii:2024-bib"><a href="/assets/bib/quaccia_sii_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="quaccia:sii:2024-pdf"><a href="https://hal.science/hal-04306456" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="quaccia:sii:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="quaccia:sii:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="crombez:ral:2024">
+  <td id="crombez:ral:2024-title">Dual-Hemispherical Photometric Visual Servoing</td>
+  <td id="crombez:ral:2024-authors"><span class="publications-members">N. Crombez, </span><span class="publications-members">J. Buisson, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="crombez:ral:2024-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="crombez:ral:2024-year">2024</td>
+  <td id="crombez:ral:2024-bib"><a href="/assets/bib/crombez_ral_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="crombez:ral:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10463090" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="crombez:ral:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="crombez:ral:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="berenguel:cvprw:2023">
+  <td id="berenguel:cvprw:2023-title">Visual Gyroscope: Combination of Deep Learning Features and Direct Alignment for Panoramic Stabilization</td>
+  <td id="berenguel:cvprw:2023-authors"><span class="publications-members"><a href="/members/member-berenguel.html">B. Berenguel-Baeta</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members">J. Bermudez-Cameo, </span><span class="publications-members">J. Guerrero </span></td>
+  <td id="berenguel:cvprw:2023-book-title">IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops</td>
+  <td id="berenguel:cvprw:2023-year">2023</td>
+  <td id="berenguel:cvprw:2023-bib"><a href="/assets/bib/berenguel_cvprw_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="berenguel:cvprw:2023-pdf"><a href="https://hal.science/hal-04066957" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="berenguel:cvprw:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="berenguel:cvprw:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="andre:cvprw:2022">
+  <td id="andre:cvprw:2022-title">Photometric Visual Gyroscope for Full-View Spherical Camera</td>
+  <td id="andre:cvprw:2022-authors"><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="andre:cvprw:2022-book-title">IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops</td>
+  <td id="andre:cvprw:2022-year">2022</td>
+  <td id="andre:cvprw:2022-bib"><a href="/assets/bib/andre_cvprw_2022.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="andre:cvprw:2022-pdf"><a href="https://hal.archives-ouvertes.fr/hal-03636575/document" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="andre:cvprw:2022-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="andre:cvprw:2022-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>
+
+</div>
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

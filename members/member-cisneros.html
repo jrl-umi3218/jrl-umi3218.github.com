@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Projects
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/past-projects.html">
+                  Past projects
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/members.html">
+              Members
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/robots.html">
+              Robots
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/publications.html">
+              Publications
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/join_us.html">
+              Join us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              EN
+            </span>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <a href="/jp/members/member-cisneros.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              JP
+            </a>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/index.html">Home</a>
+            </li><li class="breadcrumb-item"><a href="/members.html">Members</a></li><li class="breadcrumb-item active" aria-current="page">Rafael Cisneros-Limón</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">Rafael Cisneros-Limón<small><br/>Permanent researcher &mdash; <a href="https://rafaelxero.github.io/rafael.cisneros/" target="_blank">Personal website <i class="bi bi-globe" style="font-size: small;"></i></a></small></h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container py-4">
+  <div class="row align-items-center">
+    <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
+      <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active">
+              <img src="/assets/members/cisneros.jpg" class="d-block w-100 rounded" alt="Rafael Cisneros-Limón image 1">
+            </div></div></div>
+    </div>
+
+    <div class="col-md-7 col-12"><h3>Bio</h3>
+        <p><strong>Rafael Cisneros-Limón&nbsp;</strong>received the B.Eng. degree from the University of the Americas - Puebla (UDLA-P), Mexico in 2006, the M.Sc. degree from the Center of Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV-IPN), Mexico in 2009, and the Ph.D. degree from the University of Tsukuba, Japan in 2015. Since then, he has been working at the National Institute of Advanced Industrial Science and Technology (AIST), Japan, from 2015 to 2018 as a post-doc and from 2018 until now as a researcher. He is currently a member of CNRS-AIST JRL (Joint Robotics Laboratory), IRL, AIST. His research interests include torque control, whole-body multi-contact motion control of humanoid robots, multi-body collision dynamics, teleoperation, and tactile feedback.
+</p></div>
+  </div><div class="row mt-4">
+    <div class="col-12"><h3>Publications</h3>
+        <div class="alert alert-info">The publication list may not be complete, especially for publications prior to 2017. We are working on updating it.</div><table class="table table-striped">
+  <thead>
+    <tr>
+      <td>Title</td>
+      <td>Authors</td>
+      <td>Conference/Book</td>
+      <td>Year</td>
+      <td>bib</td>
+      <td>pdf</td>
+      <td>mov</td>
+      <td>prj</td>
+    </tr>
+  </thead>
+  <tbody><tr id="noel:ark:2026">
+  <td id="noel:ark:2026-title">Coaxial Multi-Channel Rotary Transmission Device</td>
+  <td id="noel:ark:2026-authors"><span class="publications-members"><a href="/members/member-noel.html">O. Noel</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="noel:ark:2026-book-title">International Symposium on Advances in Robot Kinematics</td>
+  <td id="noel:ark:2026-year">2026</td>
+  <td id="noel:ark:2026-bib"><a href="/assets/bib/noel_ark_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="noel:ark:2026-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="noel:ark:2026-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="noel:ark:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="vu:amc:2026">
+  <td id="vu:amc:2026-title">QP-based impact momentum maximization for a hammering task by a humanoid robot</td>
+  <td id="vu:amc:2026-authors"><span class="publications-members"><a href="/members/member-vu.html">J. Vu</a>, </span><span class="publications-members"><a href="/members/member-erens.html">R. Erens</a>, </span><span class="publications-members"><a href="/members/member-stefanelli.html">H. Stefanelli</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-benalleguea.html">A. Benallegue</a> </span></td>
+  <td id="vu:amc:2026-book-title">IEEE International Workshop on Advanced Motion Control</td>
+  <td id="vu:amc:2026-year">2026</td>
+  <td id="vu:amc:2026-bib"><a href="/assets/bib/vu_amc_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vu:amc:2026-pdf"><a href="https://ieeexplore.ieee.org/document/11435814" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vu:amc:2026-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="vu:amc:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="soucail:sii:2026">
+  <td id="soucail:sii:2026-title">Residual-based and Passivity-based external Disturbance Compensation for Closed Loop Torque Control</td>
+  <td id="soucail:sii:2026-authors"><span class="publications-members"><a href="/members/member-soucail.html">M. Soucail</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-stefanelli.html">H. Stefanelli</a>, </span><span class="publications-members"><a href="/members/member-mcelerier.html">M. Celerier</a>, </span><span class="publications-members"><a href="/members/member-duvinage.html">T. Duvinage</a>, </span><span class="publications-members"><a href="/members/member-muraccioli.html">B. Muraccioli</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a> </span></td>
+  <td id="soucail:sii:2026-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="soucail:sii:2026-year">2026</td>
+  <td id="soucail:sii:2026-bib"><a href="/assets/bib/soucail_sii_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="soucail:sii:2026-pdf"><a href="https://ieeexplore.ieee.org/document/11404487" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="soucail:sii:2026-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="soucail:sii:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tazeroualttlamcani:sii:2026">
+  <td id="tazeroualttlamcani:sii:2026-title">CoM Jacobian-based locomotion control of an annular pneumatic robot</td>
+  <td id="tazeroualttlamcani:sii:2026-authors"><span class="publications-members"><a href="/members/member-tazeroualttlamcani.html">G. Tazeroualt Tlamcani</a>, </span><span class="publications-members"><a href="/members/member-vilfroy.html">S. Vilfroy</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a> </span></td>
+  <td id="tazeroualttlamcani:sii:2026-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="tazeroualttlamcani:sii:2026-year">2026</td>
+  <td id="tazeroualttlamcani:sii:2026-bib"><a href="/assets/bib/tazeroualttlamcani_sii_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tazeroualttlamcani:sii:2026-pdf"><a href="https://ieeexplore.ieee.org/document/11404699" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tazeroualttlamcani:sii:2026-mov"><a href="https://youtu.be/X9GPzdMK8Ck" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tazeroualttlamcani:sii:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="vazquez:sii:2026">
+  <td id="vazquez:sii:2026-title">Development of a semi-autonomous manipulation pipeline for robotic shelf-picking operations</td>
+  <td id="vazquez:sii:2026-authors"><span class="publications-members"><a href="/members/member-vazquez.html">D. Vázquez Leal</a>, </span><span class="publications-members"><a href="/members/member-vega.html">P. Vega-Gutierrez</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">L. Munoz </span></td>
+  <td id="vazquez:sii:2026-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="vazquez:sii:2026-year">2026</td>
+  <td id="vazquez:sii:2026-bib"><a href="/assets/bib/vazquez_sii_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vazquez:sii:2026-pdf"><a href="https://ieeexplore.ieee.org/document/11404624" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vazquez:sii:2026-mov"><a href="https://youtu.be/vJ2qutTbado" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="vazquez:sii:2026-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="dorphani:sii:2026">
+  <td id="dorphani:sii:2026-title">RGB-D Fusion for Wide Field of View User Feedback in Teleoperation Context</td>
+  <td id="dorphani:sii:2026-authors"><span class="publications-members"><a href="/members/member-dorfani.html">R. d'Orfani</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a> </span></td>
+  <td id="dorphani:sii:2026-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="dorphani:sii:2026-year">2026</td>
+  <td id="dorphani:sii:2026-bib"><a href="/assets/bib/dorphani_sii_2026.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dorphani:sii:2026-pdf"><a href="https://hal.science/hal-05339552" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dorphani:sii:2026-mov"><a href="https://youtu.be/kvFsxiHh1Js" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="dorphani:sii:2026-prj"><a href="https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-sigrole.html" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+</tr>
+<tr id="lorthioir:iros:2025">
+  <td id="lorthioir:iros:2025-title">Landmark-Based Goal Recognition for Shared Autonomy: A Framework for Enhanced Teleoperation</td>
+  <td id="lorthioir:iros:2025-authors"><span class="publications-members"><a href="/members/member-glorthioir.html">G. Lorthioir</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">I. Ramirez-Alpizar </span></td>
+  <td id="lorthioir:iros:2025-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="lorthioir:iros:2025-year">2025</td>
+  <td id="lorthioir:iros:2025-bib"><a href="/assets/bib/lorthioir_iros_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="lorthioir:iros:2025-pdf"><a href="https://ieeexplore.ieee.org/document/11245815" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="lorthioir:iros:2025-mov"><a href="https://www.youtube.com/watch?v=UQG1pGJ8NeI" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="lorthioir:iros:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="noel:sii:2025">
+  <td id="noel:sii:2025-title">A Lightweight Approach to Efficient Multimodal 2D Navigation and Mapping: Unified Laser-Scans As an Alternative to 3D Methods</td>
+  <td id="noel:sii:2025-authors"><span class="publications-members"><a href="/members/member-noel.html">O. Noel</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="noel:sii:2025-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="noel:sii:2025-year">2025</td>
+  <td id="noel:sii:2025-bib"><a href="/assets/bib/noel_sii_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="noel:sii:2025-pdf"><a href="https://ieeexplore.ieee.org/document/10871118" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="noel:sii:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="noel:sii:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="frizza:irs:2025">
+  <td id="frizza:irs:2025-title">Enhancing Humanoid Robot Stability on Uneven Terrain with Online Foothold Planning Based on Ground Scanning</td>
+  <td id="frizza:irs:2025-authors"><span class="publications-members"><a href="/members/member-frizza.html">I. Frizza</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">P. Fraisse, </span><span class="publications-members"><a href="/members/member-venture.html">G. Venture</a> </span></td>
+  <td id="frizza:irs:2025-book-title">Journal of Intelligent &amp; Robotic Systems</td>
+  <td id="frizza:irs:2025-year">2025</td>
+  <td id="frizza:irs:2025-bib"><a href="/assets/bib/frizza_irs_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="frizza:irs:2025-pdf"><a href="https://doi.org/10.1007/s10846-025-02327-z" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="frizza:irs:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="frizza:irs:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="benallegue:ram:2025">
+  <td id="benallegue:ram:2025-title">Humanoid Robot RHP Friends: Seamless Combination of Autonomous and Teleoperated Tasks in a Nursing Context</td>
+  <td id="benallegue:ram:2025-authors"><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-glorthioir.html">G. Lorthioir</a>, </span><span class="publications-members"><a href="/members/member-dallard.html">A. Dallard</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/members/member-aandre.html">A. André</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members">S. Yukizaki, </span><span class="publications-members">J. Karasuyama, </span><span class="publications-members">J. Murakami, </span><span class="publications-members">M. Kamon </span></td>
+  <td id="benallegue:ram:2025-book-title">IEEE Robotics &amp; Automation Magazine</td>
+  <td id="benallegue:ram:2025-year">2025</td>
+  <td id="benallegue:ram:2025-bib"><a href="/assets/bib/benallegue_ram_2025.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:ram:2025-pdf"><a href="https://ieeexplore.ieee.org/document/10852168" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:ram:2025-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="benallegue:ram:2025-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="tako:humanoids:2024">
+  <td id="tako:humanoids:2024-title">Tactile Sensor-Based Detection of Partial Foothold for Balance Control in Humanoid Robots</td>
+  <td id="tako:humanoids:2024-authors"><span class="publications-members"><a href="/members/member-tako.html">T. Tako</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-murooka.html">M. Murooka</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members">H. Masuzawa, </span><span class="publications-members">Y. Kakiuchi </span></td>
+  <td id="tako:humanoids:2024-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="tako:humanoids:2024-year">2024</td>
+  <td id="tako:humanoids:2024-bib"><a href="/assets/bib/tako_humanoids_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tako:humanoids:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10769855" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tako:humanoids:2024-mov"><a href="https://www.youtube.com/watch?v=1nscY7zVYbg" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="tako:humanoids:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="houhou:sii:2024">
+  <td id="houhou:sii:2024-title">Learning to Classify Surface Roughness Using Tactile Force Sensors</td>
+  <td id="houhou:sii:2024-authors"><span class="publications-members"><a href="/members/member-houhou.html">Y. Houhou</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-singh.html">R. Singh</a> </span></td>
+  <td id="houhou:sii:2024-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="houhou:sii:2024-year">2024</td>
+  <td id="houhou:sii:2024-bib"><a href="/assets/bib/houhou_sii_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="houhou:sii:2024-pdf"><a href="https://ieeexplore.ieee.org/document/10417621" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="houhou:sii:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="houhou:sii:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="hamze:ral:2024">
+  <td id="hamze:ral:2024-title">Compliant Contacts Balance-Force Controller for Legged Robots</td>
+  <td id="hamze:ral:2024-authors"><span class="publications-members"><a href="/members/member-hamze.html">M. Hamze</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguea.html">A. Benallegue</a> </span></td>
+  <td id="hamze:ral:2024-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="hamze:ral:2024-year">2024</td>
+  <td id="hamze:ral:2024-bib"><a href="/assets/bib/hamze_ral_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hamze:ral:2024-pdf"><a href="https://ieeexplore.ieee.org/abstract/document/10609486" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hamze:ral:2024-mov"><a href="https://www.youtube.com/watch?v=RZl2Cvk6VOw" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="hamze:ral:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:ijsr:2024">
+  <td id="cisneros:ijsr:2024-title">A cybernetic avatar system to embody human telepresence for connectivity, exploration, and skill transfer</td>
+  <td id="cisneros:ijsr:2024-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-dallard.html">A. Dallard</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-singh.html">R. Singh</a>, </span><span class="publications-members"><a href="/members/member-sun.html">L. Sun</a>, </span><span class="publications-members"><a href="/members/member-chen.html">Y. Chen</a>, </span><span class="publications-members">C. Fournier, </span><span class="publications-members"><a href="/members/member-glorthioir.html">G. Lorthioir</a>, </span><span class="publications-members"><a href="/members/member-tsuru.html">M. Tsuru</a>, </span><span class="publications-members">Ś. Chefchaouni-Moussaoui, </span><span class="publications-members">Y. Osawa, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members"><a href="/members/member-chappellet.html">K. Chappellet</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/members/member-houhou.html">Y. Houhou</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members">M. Ono, </span><span class="publications-members">K. Shirasaka, </span><span class="publications-members">S. Wada, </span><span class="publications-members">H. Wada, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a> </span></td>
+  <td id="cisneros:ijsr:2024-book-title">International Journal of Social Robotics</td>
+  <td id="cisneros:ijsr:2024-year">2024</td>
+  <td id="cisneros:ijsr:2024-bib"><a href="/assets/bib/cisneros_ijsr_2024.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ijsr:2024-pdf"><a href="https://link.springer.com/article/10.1007/s12369-023-01096-9" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ijsr:2024-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:ijsr:2024-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="darvish:tro:2023">
+  <td id="darvish:tro:2023-title">Teleoperation of Humanoid Robots: A Survey</td>
+  <td id="darvish:tro:2023-authors"><span class="publications-members">K. Darvish, </span><span class="publications-members">L. Penco, </span><span class="publications-members">J. Ramos, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">J. Pratt, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a>, </span><span class="publications-members">S. Ivaldi, </span><span class="publications-members">D. Pucci </span></td>
+  <td id="darvish:tro:2023-book-title">IEEE Transactions on Robotics</td>
+  <td id="darvish:tro:2023-year">2023</td>
+  <td id="darvish:tro:2023-bib"><a href="/assets/bib/darvish_tro_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="darvish:tro:2023-pdf"><a href="https://ieeexplore.ieee.org/document/10035484" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="darvish:tro:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="darvish:tro:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="benallegue:tac:2023">
+  <td id="benallegue:tac:2023-title">Velocity-aided IMU-based Tilt and Attitude Estimation</td>
+  <td id="benallegue:tac:2023-authors"><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-benalleguea.html">A. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">Y. Chitour </span></td>
+  <td id="benallegue:tac:2023-book-title">IEEE Transactions on Automatic Control</td>
+  <td id="benallegue:tac:2023-year">2023</td>
+  <td id="benallegue:tac:2023-bib"><a href="/assets/bib/benallegue_tac_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:tac:2023-pdf"><a href="https://ieeexplore.ieee.org/document/9966736" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:tac:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="benallegue:tac:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="chefchaounimoussaoui:sensors:2023">
+  <td id="chefchaounimoussaoui:sensors:2023-title">Spatial Calibration of Humanoid Robot Flexible Tactile Skin for Human-Robot Interaction</td>
+  <td id="chefchaounimoussaoui:sensors:2023-authors"><span class="publications-members"><a href="/members/member-chefchaouni.html">S. Chefchaouni Moussaoui</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members">T. Nobeshima, </span><span class="publications-members">S. Kanazawa, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="chefchaounimoussaoui:sensors:2023-book-title">Sensors</td>
+  <td id="chefchaounimoussaoui:sensors:2023-year">2023</td>
+  <td id="chefchaounimoussaoui:sensors:2023-bib"><a href="/assets/bib/chefchaounimoussaoui_sensors_2023.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chefchaounimoussaoui:sensors:2023-pdf"><a href="https://www.mdpi.com/1424-8220/23/9/4569" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chefchaounimoussaoui:sensors:2023-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="chefchaounimoussaoui:sensors:2023-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="singh:humanoids:2022">
+  <td id="singh:humanoids:2022-title">Learning Bipedal Walking on Planned Footsteps for Humanoid Robots</td>
+  <td id="singh:humanoids:2022-authors"><span class="publications-members"><a href="/members/member-singh.html">R. Singh</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="singh:humanoids:2022-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="singh:humanoids:2022-year">2022</td>
+  <td id="singh:humanoids:2022-bib"><a href="/assets/bib/singh_humanoids_2022.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="singh:humanoids:2022-pdf"><a href="https://ieeexplore.ieee.org/document/10000067" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="singh:humanoids:2022-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="singh:humanoids:2022-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="chen:humanoids:2022">
+  <td id="chen:humanoids:2022-title">Enhanced Visual Feedback with Decoupled Viewpoint Control in Immersive Humanoid Robot Teleoperation using SLAM</td>
+  <td id="chen:humanoids:2022-authors"><span class="publications-members"><a href="/members/member-chen.html">Y. Chen</a>, </span><span class="publications-members"><a href="/members/member-sun.html">L. Sun</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-singh.html">R. Singh</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-carong.html">G. Caron</a>, </span><span class="publications-members">K. Suzuki, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="chen:humanoids:2022-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="chen:humanoids:2022-year">2022</td>
+  <td id="chen:humanoids:2022-bib"><a href="/assets/bib/chen_humanoids_2022.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chen:humanoids:2022-pdf"><a href="https://ieeexplore.ieee.org/document/9999740" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="chen:humanoids:2022-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="chen:humanoids:2022-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="benallegue:iros:2021">
+  <td id="benallegue:iros:2021-title">On compliance and safety with torque-control for robots with high reduction gears and no joint-torque feedback</td>
+  <td id="benallegue:iros:2021-authors"><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguea.html">A. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-tanguy.html">A. Tanguy</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="benallegue:iros:2021-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="benallegue:iros:2021-year">2021</td>
+  <td id="benallegue:iros:2021-bib"><a href="/assets/bib/benallegue_iros_2021.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:iros:2021-pdf"><a href="https://ieeexplore.ieee.org/document/9636081" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:iros:2021-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="benallegue:iros:2021-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:iros:2020">
+  <td id="cisneros:iros:2020-title">Reliable chattering-free simulation of friction torque in joints presenting high stiction</td>
+  <td id="cisneros:iros:2020-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members">R. Kikuuwe, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:iros:2020-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="cisneros:iros:2020-year">2020</td>
+  <td id="cisneros:iros:2020-bib"><a href="/assets/bib/cisneros_iros_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:iros:2020-pdf"><a href="https://ras.papercept.net/proceedings/IROS20/1920.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:iros:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:iros:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="benallegue:ral:2020">
+  <td id="benallegue:ral:2020-title">Lyapunov-Stable Orientation Estimator for Humanoid Robots</td>
+  <td id="benallegue:ral:2020-authors"><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguea.html">A. Benallegue</a>, </span><span class="publications-members">Y. Chitour, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="benallegue:ral:2020-book-title">IEEE Robotics and Automation Letters</td>
+  <td id="benallegue:ral:2020-year">2020</td>
+  <td id="benallegue:ral:2020-bib"><a href="/assets/bib/benallegue_ral_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:ral:2020-pdf"><a href="https://ras.papercept.net/proceedings/IROS20/3072.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="benallegue:ral:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="benallegue:ral:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="morisawa:ijhr:2020">
+  <td id="morisawa:ijhr:2020-title">Sequential Trajectory Generation for Dynamic Multi-Contact Locomotion Synchronizing Contact</td>
+  <td id="morisawa:ijhr:2020-authors"><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="morisawa:ijhr:2020-book-title">International Journal of Humanoid Robotics</td>
+  <td id="morisawa:ijhr:2020-year">2020</td>
+  <td id="morisawa:ijhr:2020-bib"><a href="/assets/bib/morisawa_ijhr_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:ijhr:2020-pdf"><a href="https://www.worldscientific.com/doi/10.1142/S0219843620500036" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:ijhr:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:ijhr:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:ar:2020">
+  <td id="cisneros:ar:2020-title">An inverse dynamics-based multi-contact locomotion control framework without joint torque feedback</td>
+  <td id="cisneros:ar:2020-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:ar:2020-book-title">Advanced Robotics</td>
+  <td id="cisneros:ar:2020-year">2020</td>
+  <td id="cisneros:ar:2020-bib"><a href="/assets/bib/cisneros_ar_2020.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ar:2020-pdf"><a href="https://raw.githubusercontent.com/aescande/website/master/papers/2020_AR_Cisneros.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ar:2020-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:ar:2020-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="morisawa:iros:2019">
+  <td id="morisawa:iros:2019-title">Multi-Contact Stabilization of a Humanoid Robot for Realizing Dynamic Contact Transitions on Non-coplanar Surfaces</td>
+  <td id="morisawa:iros:2019-authors"><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="morisawa:iros:2019-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="morisawa:iros:2019-year">2019</td>
+  <td id="morisawa:iros:2019-bib"><a href="/assets/bib/morisawa_iros_2019.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:iros:2019-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:iros:2019-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:iros:2019-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kumagai:ram:2019">
+  <td id="kumagai:ram:2019-title">Toward Industrialization of Humanoid Robots: Autonomous Plasterboard Installation to Improve Safety and Efficiency</td>
+  <td id="kumagai:ram:2019-authors"><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kumagai:ram:2019-book-title">IEEE Robotics &amp; Automation Magazine</td>
+  <td id="kumagai:ram:2019-year">2019</td>
+  <td id="kumagai:ram:2019-bib"><a href="/assets/bib/kumagai_ram_2019.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ram:2019-pdf"><a href="https://ieeexplore.ieee.org/document/8867918" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ram:2019-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kumagai:ram:2019-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:iros:2018">
+  <td id="cisneros:iros:2018-title">Robust humanoid control using a QP solver with integral gains</td>
+  <td id="cisneros:iros:2018-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-benalleguea.html">A. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-audren.html">H. Audren</a>, </span><span class="publications-members"><a href="/members/member-gergondet.html">P. Gergondet</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kheddar.html">A. Kheddar</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:iros:2018-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="cisneros:iros:2018-year">2018</td>
+  <td id="cisneros:iros:2018-bib"><a href="/assets/bib/cisneros_iros_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:iros:2018-pdf"><a href="http://www.comanoid.cnrs.fr/publications_files/2018/cisneros-hal-01845489.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:iros:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:iros:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="morisawa:humanoids:2018">
+  <td id="morisawa:humanoids:2018-title">Online 3D CoM Trajectory Generation for Multi-Contact Locomotion Synchronizing Contact</td>
+  <td id="morisawa:humanoids:2018-authors"><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/members/member-escande.html">A. Escande</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="morisawa:humanoids:2018-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="morisawa:humanoids:2018-year">2018</td>
+  <td id="morisawa:humanoids:2018-bib"><a href="/assets/bib/morisawa_humanoids_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:humanoids:2018-pdf"><a href="http://crlab.cs.columbia.edu/humanoids_2018_proceedings/media/files/0111.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:humanoids:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:humanoids:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:humanoids:2018">
+  <td id="kajita:humanoids:2018-title">Biped Gait Control Based on Spatially Quantized Dynamics</td>
+  <td id="kajita:humanoids:2018-authors"><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kajita:humanoids:2018-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kajita:humanoids:2018-year">2018</td>
+  <td id="kajita:humanoids:2018-bib"><a href="/assets/bib/kajita_humanoids_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:humanoids:2018-pdf"><a href="http://crlab.cs.columbia.edu/humanoids_2018_proceedings/media/files/0042.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:humanoids:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:humanoids:2018">
+  <td id="cisneros:humanoids:2018-title">Partial Yaw Moment Compensation using an Optimization-based Multi-Objective Motion Solver</td>
+  <td id="cisneros:humanoids:2018-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a>, </span><span class="publications-members">K. Yokoi, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:humanoids:2018-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="cisneros:humanoids:2018-year">2018</td>
+  <td id="cisneros:humanoids:2018-bib"><a href="/assets/bib/cisneros_humanoids_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2018-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Cisneros-Humanoids2018.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:humanoids:2017">
+  <td id="kajita:humanoids:2017-title">Biped walking pattern generation based on spatially quantized dynamics</td>
+  <td id="kajita:humanoids:2017-authors"><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kajita:humanoids:2017-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kajita:humanoids:2017-year">2017</td>
+  <td id="kajita:humanoids:2017-bib"><a href="/assets/bib/kajita_humanoids_2017.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:humanoids:2017-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2017-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2017-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:arso:2017">
+  <td id="nakaoka:arso:2017-title">Developing Semi-Autonomous Humanoid Robots that Perform Various Composite Tasks via a Task Sequencer and Dynamics Simulator</td>
+  <td id="nakaoka:arso:2017-authors"><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="nakaoka:arso:2017-book-title">IEEE International Conference on Advanced Robotics and its Social Impacts</td>
+  <td id="nakaoka:arso:2017-year">2017</td>
+  <td id="nakaoka:arso:2017-bib"><a href="/assets/bib/nakaoka_arso_2017.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:arso:2017-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:arso:2017-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:arso:2017-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:simpar:2016">
+  <td id="cisneros:simpar:2016-title">Stable simulation of flexible cable-like objects by using serial kinematic chains with high number of passive degrees-of-freedom</td>
+  <td id="cisneros:simpar:2016-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">R. Kikuuwe, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:simpar:2016-book-title">IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots</td>
+  <td id="cisneros:simpar:2016-year">2016</td>
+  <td id="cisneros:simpar:2016-bib"><a href="/assets/bib/cisneros_simpar_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:simpar:2016-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:simpar:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:simpar:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:humanoids:2016">
+  <td id="kajita:humanoids:2016-title">Impact Acceleration of Falling Humanoid Robot with an Airbag</td>
+  <td id="kajita:humanoids:2016-authors"><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kajita:humanoids:2016-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kajita:humanoids:2016-year">2016</td>
+  <td id="kajita:humanoids:2016-bib"><a href="/assets/bib/kajita_humanoids_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:humanoids:2016-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:humanoids:2016">
+  <td id="cisneros:humanoids:2016-title">Enabling a teleoperated humanoid robot to pass through debris-filled terrain using manipulation</td>
+  <td id="cisneros:humanoids:2016-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:humanoids:2016-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="cisneros:humanoids:2016-year">2016</td>
+  <td id="cisneros:humanoids:2016-bib"><a href="/assets/bib/cisneros_humanoids_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2016-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:ijhr:2016">
+  <td id="cisneros:ijhr:2016-title">Impulsive Pedipulation of a Spherical Object with 3D Goal Position by a Humanoid Robot: A 3D Targeted Kicking Motion Generator</td>
+  <td id="cisneros:ijhr:2016-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">K. Yokoi, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="cisneros:ijhr:2016-book-title">International Journal of Humanoid Robotics</td>
+  <td id="cisneros:ijhr:2016-year">2016</td>
+  <td id="cisneros:ijhr:2016-bib"><a href="/assets/bib/cisneros_ijhr_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ijhr:2016-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Cisneros_IJHR2016.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ijhr:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:ijhr:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:ar:2016">
+  <td id="cisneros:ar:2016-title">Effective teleoperated manipulation for humanoid robots in partially unknown real environments: team AIST-NEDO's approach for performing the Plug Task during the DRC Finals</td>
+  <td id="cisneros:ar:2016-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:ar:2016-book-title">Advanced Robotics</td>
+  <td id="cisneros:ar:2016-year">2016</td>
+  <td id="cisneros:ar:2016-bib"><a href="/assets/bib/cisneros_ar_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ar:2016-pdf"><a href="https://www.tandfonline.com/doi/pdf/10.1080/01691864.2016.1250674?needAccess=true" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ar:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:ar:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:humanoids:2015">
+  <td id="nakaoka:humanoids:2015-title">Task Sequencer Integrated into a Teleoperation Interface for Biped Humanoid Robots</td>
+  <td id="nakaoka:humanoids:2015-authors"><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="nakaoka:humanoids:2015-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="nakaoka:humanoids:2015-year">2015</td>
+  <td id="nakaoka:humanoids:2015-bib"><a href="/assets/bib/nakaoka_humanoids_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:humanoids:2015-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:humanoids:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:humanoids:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kaneko:humanoids:2015">
+  <td id="kaneko:humanoids:2015-title">Humanoid Robot HRP-2Kai - Improvement of HRP-2 towards Disaster Response Tasks</td>
+  <td id="kaneko:humanoids:2015-authors"><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kaneko:humanoids:2015-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kaneko:humanoids:2015-year">2015</td>
+  <td id="kaneko:humanoids:2015-bib"><a href="/assets/bib/kaneko_humanoids_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kaneko:humanoids:2015-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="kaneko:humanoids:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kaneko:humanoids:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:humanoids:2015">
+  <td id="cisneros:humanoids:2015-title">Task-Level Teleoperated Manipulation for the HRP-2Kai Humanoid Robot</td>
+  <td id="cisneros:humanoids:2015-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:humanoids:2015-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="cisneros:humanoids:2015-year">2015</td>
+  <td id="cisneros:humanoids:2015-bib"><a href="/assets/bib/cisneros_humanoids_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2015-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:icma:2014">
+  <td id="cisneros:icma:2014-title">Yaw Moment Compensation By Using Full Body Motion</td>
+  <td id="cisneros:icma:2014-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">K. Yokoi, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="cisneros:icma:2014-book-title">IEEE International Conference on Mechatronics and Automation</td>
+  <td id="cisneros:icma:2014-year">2014</td>
+  <td id="cisneros:icma:2014-bib"><a href="/assets/bib/cisneros_icma_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:icma:2014-pdf"><a href="file:///C:/Users/snkarc73/Downloads/ICMA2014-Rafael-proc.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:icma:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:icma:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:humanoids:2014">
+  <td id="cisneros:humanoids:2014-title">Partial yaw moment compensation through whole-body motion</td>
+  <td id="cisneros:humanoids:2014-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a>, </span><span class="publications-members">K. Yokoi </span></td>
+  <td id="cisneros:humanoids:2014-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="cisneros:humanoids:2014-year">2014</td>
+  <td id="cisneros:humanoids:2014-bib"><a href="/assets/bib/cisneros_humanoids_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2014-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Humanoids2014_Cisneros.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:humanoids:2013">
+  <td id="cisneros:humanoids:2013-title">Impulsive pedipulation of a spherical object for reaching a 3D goal position</td>
+  <td id="cisneros:humanoids:2013-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">K. Yokoi, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a> </span></td>
+  <td id="cisneros:humanoids:2013-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="cisneros:humanoids:2013-year">2013</td>
+  <td id="cisneros:humanoids:2013-bib"><a href="/assets/bib/cisneros_humanoids_2013.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2013-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Cisneros-humanoids2013.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2013-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2013-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:robio:2012">
+  <td id="cisneros:robio:2012-title">Ball dynamics simulation on OpenHRP3</td>
+  <td id="cisneros:robio:2012-authors"><span class="publications-members"><a href="/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/members/member-yoshida.html">E. Yoshida</a>, </span><span class="publications-members">K. Yokoi </span></td>
+  <td id="cisneros:robio:2012-book-title">International Conference on Robotics and Biomimetics</td>
+  <td id="cisneros:robio:2012-year">2012</td>
+  <td id="cisneros:robio:2012-bib"><a href="/assets/bib/cisneros_robio_2012.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:robio:2012-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:robio:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:robio:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>
+
+</div>
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>

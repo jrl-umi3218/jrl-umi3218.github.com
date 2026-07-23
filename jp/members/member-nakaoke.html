@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CNRS-産総研ロボット工学連携研究室</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons CSS -->
+  <link href="/css/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+  <!-- Custom on top of custom CSS -->
+  <link href="/css/jrl.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/all.min.css" rel="stylesheet">
+
+  <!-- Flag CSS -->
+  <link href="/css/flag-icon.min.css" rel="stylesheet">
+
+  <!-- Ekko lightbox -->
+  <link href="/css/ekko-lightbox.min.css" rel="stylesheet">
+
+  
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114"
+    href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120"
+    href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144"
+    href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152"
+    href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png"
+    sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- jQuery -->
+  <script src="/js/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/jp/">
+        <img src="/assets/cnrs-aist.png" alt="logos" />CNRS-産総研ロボット工学連携研究室
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/news.html">
+              ニュース
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              プロジェクト
+            </a>
+
+            <ul class="dropdown-menu"><li>
+                <a class="dropdown-item" href="/jp/projects/project-antnoid.html">
+                  Ant'noid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-calcadn.html">
+                  CalcADN
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-call.html">
+                  CALL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-foundation.html">
+                  RoboticsFoundationModel
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-hammer.html">
+                  HAMMER
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-icph.html">
+                  iCPH
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-impadm.html">
+                  ImpAdm
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-kakenhi_wakate2023_kumagai.html">
+                  RLOptMCP
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-moral.html">
+                  MORAL
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-ms3_mirai.html">
+                  Moonshot MIRAI Humanoid
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-post5g.html">
+                  SDP4ESI
+                </a>
+              </li><li>
+                <a class="dropdown-item" href="/jp/projects/project-zero.html">
+                  Z
+                </a>
+              </li><li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="/jp/past-projects.html">
+                  過去のプロジェクト
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/members.html">
+              メンバー
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/robots.html">
+              ロボット
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/publications.html">
+              論文
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/humanoid_lab.html">
+              HL
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/join_us.html">
+              採用情報
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/jp/contact.html">
+              アクセス
+            </a>
+          </li>
+          <li class="nav-item">
+            
+            
+            
+
+            
+            <a href="/members/member-nakaoke.html"
+              class="nav-link active text-white fw-semibold" style="display:inline;">
+              EN
+            </a>
+            
+
+            
+            <span class="fw-bold text-white">|</span>
+            
+            
+            
+            
+
+            
+            <span class="nav-link fw-bold" style="display:inline;">
+              JP
+            </span>
+            
+
+            
+            
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Heading / Breadcrumbs -->
+<div class="breadcrumbs-container bg-dark py-3 mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">
+              <a href="/jp/index.html">ホーム</a>
+            </li><li class="breadcrumb-item"><a href="/jp/members.html">メンバー</a></li><li class="breadcrumb-item active" aria-current="page">中岡 慎一郎</li>
+          </ol>
+        </nav>
+
+        <!-- Page Header -->
+        <h1 class="page-header">中岡 慎一郎<small><br/>過去のメンバー</small></h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="container py-4">
+  <div class="row align-items-center">
+    <div class="col-md-5 col-12 mb-4 d-flex align-items-center justify-content-center">
+      <div id="memberCarousel" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active">
+              <img src="/assets/members/nopicture.png" class="d-block w-100 rounded" alt="中岡 慎一郎 image 1">
+            </div></div></div>
+    </div>
+
+    <div class="col-md-7 col-12"><h3>経歴</h3>
+        <p><strong>中岡 慎一郎&nbsp;</strong>received his Ph.D degree in computer science from the University of Tokyo, Japan, in 2006. Since 2006, he has been with the Intelligent Systems Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), where he is currently a Senior Researcher. From 2011 to 2012, he was a Visiting Researcher at the University of Edinburgh. His research interests include humanoid robots and robotics software systems. He received the Best Paper Award of the Robotics Society of Japan in 2008, and the Best Paper Award (Robotics) of the 2012 IEEE/SICE International Symposium on System Integration.
+</p></div>
+  </div><div class="row mt-4">
+    <div class="col-12"><h3>論文</h3>
+        <div class="alert alert-info">論文リストは完全ではない場合があります。特に2017年以前の論文については、更新作業を進めています。</div><table class="table table-striped">
+  <thead>
+    <tr>
+      <td>タイトル</td>
+      <td>著者</td>
+      <td>学会/論文誌</td>
+      <td>年</td>
+      <td>bib</td>
+      <td>pdf</td>
+      <td>mov</td>
+      <td>prj</td>
+    </tr>
+  </thead>
+  <tbody><tr id="kumagai:ram:2019">
+  <td id="kumagai:ram:2019-title">Toward Industrialization of Humanoid Robots: Autonomous Plasterboard Installation to Improve Safety and Efficiency</td>
+  <td id="kumagai:ram:2019-authors"><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kumagai:ram:2019-book-title">IEEE Robotics &amp; Automation Magazine</td>
+  <td id="kumagai:ram:2019-year">2019</td>
+  <td id="kumagai:ram:2019-bib"><a href="/assets/bib/kumagai_ram_2019.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ram:2019-pdf"><a href="https://ieeexplore.ieee.org/document/8867918" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:ram:2019-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kumagai:ram:2019-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kumagai:iros:2018">
+  <td id="kumagai:iros:2018-title">Perception Based Locomotion System For a Humanoid Robot with Adaptive Footstep Compensation under Task Constraints</td>
+  <td id="kumagai:iros:2018-authors"><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kumagai:iros:2018-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="kumagai:iros:2018-year">2018</td>
+  <td id="kumagai:iros:2018-bib"><a href="/assets/bib/kumagai_iros_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:iros:2018-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593553" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:iros:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kumagai:iros:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kumagai:humanoids:2018">
+  <td id="kumagai:humanoids:2018-title">Efficient Locomotion Planning for a Humanoid Robot with Whole-Body Collision Avoidance Guided by Footsteps and Centroidal Sway Motion</td>
+  <td id="kumagai:humanoids:2018-authors"><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kumagai:humanoids:2018-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kumagai:humanoids:2018-year">2018</td>
+  <td id="kumagai:humanoids:2018-bib"><a href="/assets/bib/kumagai_humanoids_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kumagai:humanoids:2018-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="kumagai:humanoids:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kumagai:humanoids:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:humanoids:2018">
+  <td id="kajita:humanoids:2018-title">Biped Gait Control Based on Spatially Quantized Dynamics</td>
+  <td id="kajita:humanoids:2018-authors"><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaminaga.html">H. Kaminaga</a>, </span><span class="publications-members"><a href="/jp/members/member-kumagai.html">I. Kumagai</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kajita:humanoids:2018-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kajita:humanoids:2018-year">2018</td>
+  <td id="kajita:humanoids:2018-bib"><a href="/assets/bib/kajita_humanoids_2018.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:humanoids:2018-pdf"><a href="http://crlab.cs.columbia.edu/humanoids_2018_proceedings/media/files/0042.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:humanoids:2018-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2018-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:humanoids:2017">
+  <td id="kajita:humanoids:2017-title">Biped walking pattern generation based on spatially quantized dynamics</td>
+  <td id="kajita:humanoids:2017-authors"><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kajita:humanoids:2017-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kajita:humanoids:2017-year">2017</td>
+  <td id="kajita:humanoids:2017-bib"><a href="/assets/bib/kajita_humanoids_2017.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:humanoids:2017-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2017-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2017-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:arso:2017">
+  <td id="nakaoka:arso:2017-title">Developing Semi-Autonomous Humanoid Robots that Perform Various Composite Tasks via a Task Sequencer and Dynamics Simulator</td>
+  <td id="nakaoka:arso:2017-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="nakaoka:arso:2017-book-title">IEEE International Conference on Advanced Robotics and its Social Impacts</td>
+  <td id="nakaoka:arso:2017-year">2017</td>
+  <td id="nakaoka:arso:2017-bib"><a href="/assets/bib/nakaoka_arso_2017.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:arso:2017-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:arso:2017-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:arso:2017-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:simpar:2016">
+  <td id="cisneros:simpar:2016-title">Stable simulation of flexible cable-like objects by using serial kinematic chains with high number of passive degrees-of-freedom</td>
+  <td id="cisneros:simpar:2016-authors"><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members">R. Kikuuwe, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:simpar:2016-book-title">IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots</td>
+  <td id="cisneros:simpar:2016-year">2016</td>
+  <td id="cisneros:simpar:2016-bib"><a href="/assets/bib/cisneros_simpar_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:simpar:2016-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:simpar:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:simpar:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:humanoids:2016">
+  <td id="kajita:humanoids:2016-title">Impact Acceleration of Falling Humanoid Robot with an Airbag</td>
+  <td id="kajita:humanoids:2016-authors"><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-benalleguem.html">M. Benallegue</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kajita:humanoids:2016-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kajita:humanoids:2016-year">2016</td>
+  <td id="kajita:humanoids:2016-bib"><a href="/assets/bib/kajita_humanoids_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:humanoids:2016-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:humanoids:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:humanoids:2016">
+  <td id="cisneros:humanoids:2016-title">Enabling a teleoperated humanoid robot to pass through debris-filled terrain using manipulation</td>
+  <td id="cisneros:humanoids:2016-authors"><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:humanoids:2016-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="cisneros:humanoids:2016-year">2016</td>
+  <td id="cisneros:humanoids:2016-bib"><a href="/assets/bib/cisneros_humanoids_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2016-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:ar:2016">
+  <td id="cisneros:ar:2016-title">Effective teleoperated manipulation for humanoid robots in partially unknown real environments: team AIST-NEDO's approach for performing the Plug Task during the DRC Finals</td>
+  <td id="cisneros:ar:2016-authors"><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:ar:2016-book-title">Advanced Robotics</td>
+  <td id="cisneros:ar:2016-year">2016</td>
+  <td id="cisneros:ar:2016-bib"><a href="/assets/bib/cisneros_ar_2016.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ar:2016-pdf"><a href="https://www.tandfonline.com/doi/pdf/10.1080/01691864.2016.1250674?needAccess=true" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:ar:2016-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:ar:2016-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:humanoids:2015">
+  <td id="nakaoka:humanoids:2015-title">Task Sequencer Integrated into a Teleoperation Interface for Biped Humanoid Robots</td>
+  <td id="nakaoka:humanoids:2015-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="nakaoka:humanoids:2015-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="nakaoka:humanoids:2015-year">2015</td>
+  <td id="nakaoka:humanoids:2015-bib"><a href="/assets/bib/nakaoka_humanoids_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:humanoids:2015-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:humanoids:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:humanoids:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kaneko:humanoids:2015">
+  <td id="kaneko:humanoids:2015-title">Humanoid Robot HRP-2Kai - Improvement of HRP-2 towards Disaster Response Tasks</td>
+  <td id="kaneko:humanoids:2015-authors"><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="kaneko:humanoids:2015-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kaneko:humanoids:2015-year">2015</td>
+  <td id="kaneko:humanoids:2015-bib"><a href="/assets/bib/kaneko_humanoids_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kaneko:humanoids:2015-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="kaneko:humanoids:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kaneko:humanoids:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="cisneros:humanoids:2015">
+  <td id="cisneros:humanoids:2015-title">Task-Level Teleoperated Manipulation for the HRP-2Kai Humanoid Robot</td>
+  <td id="cisneros:humanoids:2015-authors"><span class="publications-members"><a href="/jp/members/member-cisneros.html">R. Cisneros-Limón</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-sakaguchi.html">T. Sakaguchi</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="cisneros:humanoids:2015-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="cisneros:humanoids:2015-year">2015</td>
+  <td id="cisneros:humanoids:2015-bib"><a href="/assets/bib/cisneros_humanoids_2015.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="cisneros:humanoids:2015-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2015-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="cisneros:humanoids:2015-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:sii:2014">
+  <td id="nakaoka:sii:2014-title">Development of an Indirect-type Teleoperation Interface for Biped Humanoid Robots</td>
+  <td id="nakaoka:sii:2014-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="nakaoka:sii:2014-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="nakaoka:sii:2014-year">2014</td>
+  <td id="nakaoka:sii:2014-bib"><a href="/assets/bib/nakaoka_sii_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:sii:2014-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:sii:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:sii:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="morisawa:sii:2014">
+  <td id="morisawa:sii:2014-title">Biped Locomotion Control for Uneven Terrain with Narrow Support Region</td>
+  <td id="morisawa:sii:2014-authors"><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">N. Kita, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a> </span></td>
+  <td id="morisawa:sii:2014-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="morisawa:sii:2014-year">2014</td>
+  <td id="morisawa:sii:2014-bib"><a href="/assets/bib/morisawa_sii_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:sii:2014-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:sii:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:sii:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="ayusawa:humanoids:2014">
+  <td id="ayusawa:humanoids:2014-title">Evaluation of Assistive Devices Using Humanoid Robot with Mechanical Parameters Robots</td>
+  <td id="ayusawa:humanoids:2014-authors"><span class="publications-members"><a href="/jp/members/member-ayusawa.html">Ko Ayusawa</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a>, </span><span class="publications-members"><a href="/jp/members/member-imamura.html">Y. Imamura</a>, </span><span class="publications-members">T. Tanaka </span></td>
+  <td id="ayusawa:humanoids:2014-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="ayusawa:humanoids:2014-year">2014</td>
+  <td id="ayusawa:humanoids:2014-bib"><a href="/assets/bib/ayusawa_humanoids_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ayusawa:humanoids:2014-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/Humanoids14_ayusawa_proc.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="ayusawa:humanoids:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="ayusawa:humanoids:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="okamoto:tro:2014">
+  <td id="okamoto:tro:2014-title">Toward a Dancing Robot With Listening Capability: Keypose-Based Integration of Lower-, Middle-, and Upper-Body Motions for Varying Music Tempos</td>
+  <td id="okamoto:tro:2014-authors"><span class="publications-members">T. Okamoto, </span><span class="publications-members">T. Shiratori, </span><span class="publications-members">S. Kudoh, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Ikeuchi </span></td>
+  <td id="okamoto:tro:2014-book-title">IEEE Transactions on Robotics</td>
+  <td id="okamoto:tro:2014-year">2014</td>
+  <td id="okamoto:tro:2014-bib"><a href="/assets/bib/okamoto_tro_2014.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="okamoto:tro:2014-pdf"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6730703" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="okamoto:tro:2014-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="okamoto:tro:2014-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="moulard:isr:2013">
+  <td id="moulard:isr:2013-title">Optimization-based motion retargeting integrating spatial and dynamic constraints for humanoid</td>
+  <td id="moulard:isr:2013-authors"><span class="publications-members"><a href="/jp/members/member-moulard.html">T. Moulard</a>, </span><span class="publications-members"><a href="/jp/members/member-yoshida.html">E. Yoshida</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a> </span></td>
+  <td id="moulard:isr:2013-book-title">International Symposium on Robotics</td>
+  <td id="moulard:isr:2013-year">2013</td>
+  <td id="moulard:isr:2013-bib"><a href="/assets/bib/moulard_isr_2013.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="moulard:isr:2013-pdf"><a href="https://staff.aist.go.jp/e.yoshida/papers/retargeting-isr2013.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="moulard:isr:2013-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="moulard:isr:2013-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:sii:2012">
+  <td id="nakaoka:sii:2012-title">Choreonoid: Extensible Virtual Robot Environment Built on an Integrated GUI Framework</td>
+  <td id="nakaoka:sii:2012-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a> </span></td>
+  <td id="nakaoka:sii:2012-book-title">IEEE/SICE International Symposium on System Integration</td>
+  <td id="nakaoka:sii:2012-year">2012</td>
+  <td id="nakaoka:sii:2012-bib"><a href="/assets/bib/nakaoka_sii_2012.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:sii:2012-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:sii:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:sii:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="yonekura:humanoids:2012">
+  <td id="yonekura:humanoids:2012-title">Whole-body motion input method for bipedal humanoid robot with support leg detection</td>
+  <td id="yonekura:humanoids:2012-authors"><span class="publications-members">K. Yonekura, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Yokoi </span></td>
+  <td id="yonekura:humanoids:2012-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="yonekura:humanoids:2012-year">2012</td>
+  <td id="yonekura:humanoids:2012-bib"><a href="/assets/bib/yonekura_humanoids_2012.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="yonekura:humanoids:2012-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="yonekura:humanoids:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="yonekura:humanoids:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:humanoids:2012">
+  <td id="nakaoka:humanoids:2012-title">Interaction Mesh Based Motion Adaptation for Biped Humanoid Robots</td>
+  <td id="nakaoka:humanoids:2012-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">T. Komura </span></td>
+  <td id="nakaoka:humanoids:2012-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="nakaoka:humanoids:2012-year">2012</td>
+  <td id="nakaoka:humanoids:2012-bib"><a href="/assets/bib/nakaoka_humanoids_2012.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:humanoids:2012-pdf"><a href="http://web.tuat.ac.jp/~gvlab/ronbun/ReadingGroupHCR/Interaction_Mesh_Based_Motion_Adaptation_for_Biped_Humanoid_Robots.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:humanoids:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:humanoids:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="enoch:humanoids:2012">
+  <td id="enoch:humanoids:2012-title">BLUE: A Bipedal Robot with Variable Stiffness and Damping</td>
+  <td id="enoch:humanoids:2012-authors"><span class="publications-members">A. Enoch, </span><span class="publications-members">A. Sutas, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">S. Vijayakumar </span></td>
+  <td id="enoch:humanoids:2012-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="enoch:humanoids:2012-year">2012</td>
+  <td id="enoch:humanoids:2012-bib"><a href="/assets/bib/enoch_humanoids_2012.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="enoch:humanoids:2012-pdf"><a href="https://homepages.inf.ed.ac.uk/svijayak/publications/enoch-Humanoids2012.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="enoch:humanoids:2012-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="enoch:humanoids:2012-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:iros:2011">
+  <td id="kajita:iros:2011-title">VocaWatcher: Natural Singing Motion Generator for a Humanoid Robot</td>
+  <td id="kajita:iros:2011-authors"><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members">T. Nakano, </span><span class="publications-members">M. Goto, </span><span class="publications-members">Y. Matsusaka, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Yokoi </span></td>
+  <td id="kajita:iros:2011-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="kajita:iros:2011-year">2011</td>
+  <td id="kajita:iros:2011-bib"><a href="/assets/bib/kajita_iros_2011.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:iros:2011-pdf"><a href="https://staff.aist.go.jp/t.nakano/PAPER/IROS2011kajita.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:iros:2011-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:iros:2011-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="goto:icassp:2011">
+  <td id="goto:icassp:2011-title">VocaListener and VocaWatcher: Imitating a Human Singer by Using Signal Processing</td>
+  <td id="goto:icassp:2011-authors"><span class="publications-members">M. Goto, </span><span class="publications-members">T. Nakano, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members">Y. Matsusaka, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Yokoi </span></td>
+  <td id="goto:icassp:2011-book-title">IEEE International Conference on Acoustics, Speech, and Signal Processing</td>
+  <td id="goto:icassp:2011-year">2011</td>
+  <td id="goto:icassp:2011-bib"><a href="/assets/bib/goto_icassp_2011.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="goto:icassp:2011-pdf"><a href="https://staff.aist.go.jp/t.nakano/PAPER/ICASSP2012goto.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="goto:icassp:2011-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="goto:icassp:2011-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:iros:2010">
+  <td id="kajita:iros:2010-title">Biped Walking Stabilization Based on Linear Inverted Pendulum Tracking</td>
+  <td id="kajita:iros:2010-authors"><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">K. Miura, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">K. Yokoi </span></td>
+  <td id="kajita:iros:2010-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="kajita:iros:2010-year">2010</td>
+  <td id="kajita:iros:2010-bib"><a href="/assets/bib/kajita_iros_2010.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:iros:2010-pdf"><a href="https://staff.aist.go.jp/k.kaneko/publications/2010_publications/IROS2010-0872.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:iros:2010-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:iros:2010-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="miura:icra:2010">
+  <td id="miura:icra:2010-title">Analysis on a Friction Based ``Twirl" for Biped Robots</td>
+  <td id="miura:icra:2010-authors"><span class="publications-members">K. Miura, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a> </span></td>
+  <td id="miura:icra:2010-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="miura:icra:2010-year">2010</td>
+  <td id="miura:icra:2010-bib"><a href="/assets/bib/miura_icra_2010.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="miura:icra:2010-pdf"><a href="http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_ICRA_2010/data/papers/2010.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="miura:icra:2010-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="miura:icra:2010-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="harada:iros:2009">
+  <td id="harada:iros:2009-title">Toward Human-Like Walking Pattern Generator</td>
+  <td id="harada:iros:2009-authors"><span class="publications-members">K. Harada, </span><span class="publications-members">K. Miura, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">T. Tsuji, </span><span class="publications-members"> Kajita.shuuji </span></td>
+  <td id="harada:iros:2009-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="harada:iros:2009-year">2009</td>
+  <td id="harada:iros:2009-bib"><a href="/assets/bib/harada_iros_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="harada:iros:2009-pdf"><a href="https://staff.aist.go.jp/k.kaneko/publications/2009_publications/IROS2009-0744.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="harada:iros:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="harada:iros:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:humanoids:2009">
+  <td id="nakaoka:humanoids:2009-title">Creating Facial Motions of Cybernetic Human HRP-4C</td>
+  <td id="nakaoka:humanoids:2009-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">K. Miura, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">K. Fujiwara, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members">K. Kajita, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members">H. Hirukawa </span></td>
+  <td id="nakaoka:humanoids:2009-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="nakaoka:humanoids:2009-year">2009</td>
+  <td id="nakaoka:humanoids:2009-bib"><a href="/assets/bib/nakaoka_humanoids_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:humanoids:2009-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:humanoids:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:humanoids:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="miura:humanoids:2009">
+  <td id="miura:humanoids:2009-title">Robot Motion Remix based on Motion Capture Data - Towards Human-like Locomotion of Humanoid Robots -</td>
+  <td id="miura:humanoids:2009-authors"><span class="publications-members">K. Miura, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a> </span></td>
+  <td id="miura:humanoids:2009-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="miura:humanoids:2009-year">2009</td>
+  <td id="miura:humanoids:2009-bib"><a href="/assets/bib/miura_humanoids_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="miura:humanoids:2009-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="miura:humanoids:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="miura:humanoids:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kaneko:humanoids:2009">
+  <td id="kaneko:humanoids:2009-title">Cybernetic Human HRP-4C</td>
+  <td id="kaneko:humanoids:2009-authors"><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">K. Miura, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a> </span></td>
+  <td id="kaneko:humanoids:2009-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="kaneko:humanoids:2009-year">2009</td>
+  <td id="kaneko:humanoids:2009-bib"><a href="/assets/bib/kaneko_humanoids_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kaneko:humanoids:2009-pdf"><a href="file:///C:/Users/snkarc73/Downloads/2009-ISRRKKKHMNMFNHYH.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kaneko:humanoids:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kaneko:humanoids:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="harada:jrm:2009">
+  <td id="harada:jrm:2009-title">Kinodynamic Planning for Humanoid Robots walking on Uneven Terrain</td>
+  <td id="harada:jrm:2009-authors"><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a> </span></td>
+  <td id="harada:jrm:2009-book-title">Journal of Robotics and Mechatronics</td>
+  <td id="harada:jrm:2009-year">2009</td>
+  <td id="harada:jrm:2009-bib"><a href="/assets/bib/harada_jrm_2009.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="harada:jrm:2009-pdf"><a href="http://www.cs.cmu.edu/~cga/ew/harada1.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="harada:jrm:2009-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="harada:jrm:2009-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="harada:iros:2008">
+  <td id="harada:iros:2008-title">Kinodynamic gait planning for full-body humanoid robots</td>
+  <td id="harada:iros:2008-authors"><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">K. Miura, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Fujiwara, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a> </span></td>
+  <td id="harada:iros:2008-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="harada:iros:2008-year">2008</td>
+  <td id="harada:iros:2008-bib"><a href="/assets/bib/harada_iros_2008.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="harada:iros:2008-pdf"><a href="https://staff.aist.go.jp/k.kaneko/publications/2008_publications/IROS2008-0640.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="harada:iros:2008-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="harada:iros:2008-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="miura:humanoids:2008">
+  <td id="miura:humanoids:2008-title">A Friction Based ``Twirl'' for Biped Robots</td>
+  <td id="miura:humanoids:2008-authors"><span class="publications-members">K. Miura, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a> </span></td>
+  <td id="miura:humanoids:2008-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="miura:humanoids:2008-year">2008</td>
+  <td id="miura:humanoids:2008-bib"><a href="/assets/bib/miura_humanoids_2008.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="miura:humanoids:2008-pdf"><a href="http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_ICRA_2010/data/papers/2010.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="miura:humanoids:2008-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="miura:humanoids:2008-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:iros:2007">
+  <td id="nakaoka:iros:2007-title">Constraint-based Dynamics Simulator for Humanoid Robots with Shock Absorbing Mechanisms</td>
+  <td id="nakaoka:iros:2007-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">S. Hattori, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members">H. Hirukawa </span></td>
+  <td id="nakaoka:iros:2007-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="nakaoka:iros:2007-year">2007</td>
+  <td id="nakaoka:iros:2007-bib"><a href="/assets/bib/nakaoka_iros_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:iros:2007-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:iros:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:iros:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="koyanagi:iros:2007">
+  <td id="koyanagi:iros:2007-title">A Pattern Generator of Humanoid Robots Walking on a Rough Terrain</td>
+  <td id="koyanagi:iros:2007-authors"><span class="publications-members">K. Koyanagi, </span><span class="publications-members">H. Hirukawa, </span><span class="publications-members">S. Hattori, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a> </span></td>
+  <td id="koyanagi:iros:2007-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="koyanagi:iros:2007-year">2007</td>
+  <td id="koyanagi:iros:2007-bib"><a href="/assets/bib/koyanagi_iros_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="koyanagi:iros:2007-pdf"><a href="https://staff.aist.go.jp/k.kaneko/publications/2007_publications/ICRA2007-0079.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="koyanagi:iros:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="koyanagi:iros:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="fujiwara:iros:2007">
+  <td id="fujiwara:iros:2007-title">An Optimal Planning of Falling Motions of a Humanoid Robot</td>
+  <td id="fujiwara:iros:2007-authors"><span class="publications-members">K. Fujiwara, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">H. Hirukawa </span></td>
+  <td id="fujiwara:iros:2007-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="fujiwara:iros:2007-year">2007</td>
+  <td id="fujiwara:iros:2007-bib"><a href="/assets/bib/fujiwara_iros_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="fujiwara:iros:2007-pdf"><a href="https://staff.aist.go.jp/k.kaneko/publications/2007_publications/IROS2007-0761.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="fujiwara:iros:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="fujiwara:iros:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="morisawa:icra:2007">
+  <td id="morisawa:icra:2007-title">Experimentation of Humanoid Walking Allowing Immediate Modification of Foot Place Based on Analytical Solution</td>
+  <td id="morisawa:icra:2007-authors"><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Fujiwara, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members">H. Hirukawa </span></td>
+  <td id="morisawa:icra:2007-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="morisawa:icra:2007-year">2007</td>
+  <td id="morisawa:icra:2007-bib"><a href="/assets/bib/morisawa_icra_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:icra:2007-pdf"><a href="https://staff.aist.go.jp/k.kaneko/publications/2007_publications/ICRA2007-1562.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:icra:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:icra:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kanehiro:icra:2007">
+  <td id="kanehiro:icra:2007-title">Getting up Motion Planning using Mahalanobis Distance</td>
+  <td id="kanehiro:icra:2007-authors"><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">K. Fujiwara, </span><span class="publications-members">H. Hirukawa, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a> </span></td>
+  <td id="kanehiro:icra:2007-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="kanehiro:icra:2007-year">2007</td>
+  <td id="kanehiro:icra:2007-bib"><a href="/assets/bib/kanehiro_icra_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kanehiro:icra:2007-pdf"><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1067.4111&rep=rep1&type=pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kanehiro:icra:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kanehiro:icra:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="kajita:icra:2007">
+  <td id="kajita:icra:2007-title">ZMP-based Biped Running Enchanced by Toe Springs</td>
+  <td id="kajita:icra:2007-authors"><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a> </span></td>
+  <td id="kajita:icra:2007-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="kajita:icra:2007-year">2007</td>
+  <td id="kajita:icra:2007-bib"><a href="/assets/bib/kajita_icra_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:icra:2007-pdf"><a href="https://staff.aist.go.jp/k.kaneko/publications/2007_publications/ICRA2007-0248.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="kajita:icra:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="kajita:icra:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:ijrr:2007">
+  <td id="nakaoka:ijrr:2007-title">Learning from Observation Paradigm: Leg Task Models for Enabling a Biped Humanoid Robot to Imitate Human Dances</td>
+  <td id="nakaoka:ijrr:2007-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">A. Nakazawa, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">H. Hirukawa, </span><span class="publications-members">K. Ikeuchi </span></td>
+  <td id="nakaoka:ijrr:2007-book-title">The International Journal of Robotics Research</td>
+  <td id="nakaoka:ijrr:2007-year">2007</td>
+  <td id="nakaoka:ijrr:2007-bib"><a href="/assets/bib/nakaoka_ijrr_2007.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:ijrr:2007-pdf"><a href="https://www.cvl.iis.u-tokyo.ac.jp/~ki/papers/nakaoka-07.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:ijrr:2007-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:ijrr:2007-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="morisawa:humanoids:2006">
+  <td id="morisawa:humanoids:2006-title">A Biped Pattern Generation Allowing Immediate Modification of Foot Placement in Real-time</td>
+  <td id="morisawa:humanoids:2006-authors"><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members">K. Fujiwara, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">H. Hirukawa </span></td>
+  <td id="morisawa:humanoids:2006-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="morisawa:humanoids:2006-year">2006</td>
+  <td id="morisawa:humanoids:2006-bib"><a href="/assets/bib/morisawa_humanoids_2006.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="morisawa:humanoids:2006-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:humanoids:2006-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="morisawa:humanoids:2006-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="fujiwara:humanoids:2006">
+  <td id="fujiwara:humanoids:2006-title">Towards an Optimal Falling Motion for a Humanoid Robot</td>
+  <td id="fujiwara:humanoids:2006-authors"><span class="publications-members">K. Fujiwara, </span><span class="publications-members"><a href="/jp/members/member-kajita.html">S. Kajita</a>, </span><span class="publications-members">K. Harada, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">H. Hirukawa </span></td>
+  <td id="fujiwara:humanoids:2006-book-title">IEEE-RAS International Conference on Humanoid Robots</td>
+  <td id="fujiwara:humanoids:2006-year">2006</td>
+  <td id="fujiwara:humanoids:2006-bib"><a href="/assets/bib/fujiwara_humanoids_2006.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="fujiwara:humanoids:2006-pdf"><i class="bi bi-x-circle"></i></td>
+  <td id="fujiwara:humanoids:2006-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="fujiwara:humanoids:2006-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:iros:2005">
+  <td id="nakaoka:iros:2005-title">Task Model of Lower Body Motion for a Biped Humanoid Robot to Imitate Human Dances</td>
+  <td id="nakaoka:iros:2005-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">A. Nakazawa, </span><span class="publications-members"><a href="/jp/members/member-kanehiro.html">F. Kanehiro</a>, </span><span class="publications-members"><a href="/jp/members/member-kaneko.html">K. Kaneko</a>, </span><span class="publications-members"><a href="/jp/members/member-morisawa.html">M. Morisawa</a>, </span><span class="publications-members">K. Ikeuchi </span></td>
+  <td id="nakaoka:iros:2005-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="nakaoka:iros:2005-year">2005</td>
+  <td id="nakaoka:iros:2005-bib"><a href="/assets/bib/nakaoka_iros_2005.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:iros:2005-pdf"><a href="https://staff.aist.go.jp/k.kaneko/publications/2005_publications/IROS2005-0928.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:iros:2005-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:iros:2005-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakaoka:icra:2003">
+  <td id="nakaoka:icra:2003-title">Generating Whole Body Motions for a Biped Humanoid Robot from Captured Human Dances</td>
+  <td id="nakaoka:icra:2003-authors"><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">A. Nakazawa, </span><span class="publications-members">K. Yokoi, </span><span class="publications-members">H. Hirukawa, </span><span class="publications-members">K. Ikeuchi </span></td>
+  <td id="nakaoka:icra:2003-book-title">IEEE International Conference on Robotics and Automation</td>
+  <td id="nakaoka:icra:2003-year">2003</td>
+  <td id="nakaoka:icra:2003-bib"><a href="/assets/bib/nakaoka_icra_2003.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:icra:2003-pdf"><a href="https://www.cvl.iis.u-tokyo.ac.jp/papers/all/0094.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakaoka:icra:2003-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakaoka:icra:2003-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+<tr id="nakazawa:iros:2002">
+  <td id="nakazawa:iros:2002-title">Imitating Human Dance Motions through Motion StructureAnalysis</td>
+  <td id="nakazawa:iros:2002-authors"><span class="publications-members">A. Nakazawa, </span><span class="publications-members"><a href="/jp/members/member-nakaoke.html">S. Nakaoka</a>, </span><span class="publications-members">K. Ikeuchi, </span><span class="publications-members">K. Yokoi </span></td>
+  <td id="nakazawa:iros:2002-book-title">IEEE/RSJ International Conference on Intelligent Robots and Systems</td>
+  <td id="nakazawa:iros:2002-year">2002</td>
+  <td id="nakazawa:iros:2002-bib"><a href="/assets/bib/nakazawa_iros_2002.bib" target="_blank">
+     <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakazawa:iros:2002-pdf"><a href="https://www.cvl.iis.u-tokyo.ac.jp/papers/all/0052.pdf" target="_blank">
+      <i class="bi bi-file-earmark-fill"></i>
+    </a></td>
+  <td id="nakazawa:iros:2002-mov"><i class="bi bi-x-circle"></i></td>
+  <td id="nakazawa:iros:2002-prj"><i class="bi bi-x-circle"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+  </div>
+
+</div>
+
+
+
+  <div class="container">
+    <!-- Footer -->
+    <footer>
+      <hr>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; CNRS-AIST JRL 2016-2026</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- /.container -->
+
+  <!-- Ekko lightbox js -->
+  <script src="/js/ekko-lightbox.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function ($) {
+
+      // delegate calls to data-toggle="lightbox"
+      $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            if (window.console) {
+              return console.log('onShown event fired');
+            }
+          },
+          onContentLoaded: function () {
+            if (window.console) {
+              return console.log('onContentLoaded event fired');
+            }
+          },
+          onNavigate: function (direction, itemIndex) {
+            if (window.console) {
+              return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+            }
+          }
+        });
+      });
+
+      //Programatically call
+      $('#open-image').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+      $('#open-youtube').click(function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+
+      $(document).delegate('*[data-gallery="navigateTo"]', 'click', function (event) {
+        event.preventDefault();
+        return $(this).ekkoLightbox({
+          onShown: function () {
+            var lb = this;
+            $(lb.modal_content).on('click', '.modal-footer a', function (e) {
+              e.preventDefault();
+              lb.navigateTo(2);
+            });
+          }
+        });
+      });
+
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const nav = document.querySelector('.navbar-collapse');
+      const content = document.querySelector('.home-banner-large');
+      const navHeight = nav.offsetHeight;
+      if (content) {
+        content.style.paddingTop = `${navHeight}px`;
+        document.querySelector("#index-links").style.setProperty("top", `${navHeight}px`, "important");
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>
