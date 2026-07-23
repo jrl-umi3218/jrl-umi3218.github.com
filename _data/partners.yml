@@ -258,7 +258,7 @@
   shortname: "NII"
   website: "https://www.nii.ac.jp/"
 - id: nagoya
-  logo: "/assets/logos/hoge.png"
+  logo: "/assets/logos/nagoya.png"
   name: "Nagoya University"
   shortname: "NU"
   website: "https://www.nagoya-u.ac.jp/"
