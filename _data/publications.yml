@@ -11720,6 +11720,7 @@
   - id: carong
   pdf: https://hal.science/hal-05667611
   lab: jrl
+  month: june
   projects:
   - antnoid
   prj: https://unit.aist.go.jp/isri/isri-jrl/en/projects/project-antnoid.html
