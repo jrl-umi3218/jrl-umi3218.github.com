@@ -810,13 +810,15 @@
 - id: kang
   given: Yufan
   family: Kang
+  role: alumni
+  from: 2026-08-01
   past-roles:
+    - role: phd
+      from: 2022-10-01
+      to: 2026-07-31
     - role: master
       from: 2021-01-04
       to: 2022-09-30
-  role: phd
-  from: 2022-10-01
-  to: 2026-03-31
   nationality: cn
 - id: glorthioir
   given: Guillaume
@@ -1633,7 +1635,7 @@
 - id: noel
   given: Ocean
   family: Noel
-  role: coming-phd
+  role: phd
   from: 2026-07-13
   to: 2026-10-08
   past-roles:
@@ -2203,9 +2205,12 @@
 - id: ben
   given: Selim
   family: Ben Abdallah
-  role: master
-  from: 2026-02-02
-  to: 2026-07-31
+  role: alumni
+  from: 2026-08-01
+  past-roles:
+    - role: master
+      from: 2026-02-02
+      to: 2026-07-31
   nationality: fr
   linkedin: "https://www.linkedin.com/in/selim-ben-abdallah"
   github: "https://github.com/selim-ba"
@@ -2466,16 +2471,19 @@
 - id: barrabes
   given: Raphael
   family: Barrabes
-  role: coming-master
+  role: master
   from: 2026-05-18
   to: 2026-08-14
   nationality: fr
 - id: tordjman-levavasseu
   given: Valentin
   family: Tordjman-Levavasseu
-  role: phd
-  from: 2026-05-20
-  to: 2026-07-01
+  role: alumni
+  from: 2026-07-02
+  past-roles:
+    - role: phd
+      from: 2026-05-20
+      to: 2026-07-01
   nationality: fr
 - id: gomez-gonzalez
   given: Jesus
@@ -2501,7 +2509,31 @@
 - id: birglen
   given: Lionel
   family: Birglen
-  role: adjunct
-  from: 2026-07-01
-  to: 2026-07-31
+  role: alumni
+  from: 2026-08-01
+  past-roles:
+    - role: adjunct
+      from: 2026-07-01
+      to: 2026-07-31
   nationality: ca
+- id: fieten
+  given: Mink
+  family: Fieten
+  role: coming-master
+  from: 2026-10-01
+  to: 2027-03-31
+  nationality: nl
+- id: gomes-de-oliveira
+  given: Antonio Maria
+  family: Gomes de Oliveira
+  role: coming-master
+  from: 2026-10-01
+  to: 2027-03-31
+  nationality:
+- id: solovov
+  given: Andrey
+  family: Solovov
+  role: coming-phd
+  from: 2026-08-28
+  to: 2026-10-17
+  nationality: pt
