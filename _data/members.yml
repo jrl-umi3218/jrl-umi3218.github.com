@@ -2161,7 +2161,9 @@
   role: phd
   from: 2026-04-01
   to: 2029-03-31
+  linkedin: https://www.linkedin.com/in/luca-morello-545222157?utm_source=share_via&utm_content=profile&utm_medium=member_android
   nationality: it
+  bio: received his M.S. in Robotics and Automation from the University of Pisa in 2024. In 2025, he joined KU Leuven as a Research Assistant, where he worked on physical human–robot interaction. He is currently pursuing a Ph.D. at the CNRS-AIST Joint Robotics Laboratory, where his research focuses on dual-arm manipulation and advanced robotic systems.
 - id: phamk
   given: Khang
   family: Pham
@@ -2169,8 +2171,6 @@
   from: 2026-01-20
   to: 2027-03-31
   linkedin: "https://www.linkedin.com/in/khangtpham25/"
-  website: "https://khangtpham25.github.io/"
-  github: "https://github.com/khangtpham25"
   nationality: vn
   bio: >
     graduated from the Illinois Institute of Technology in 2025 with an M.S. in Autonomous Systems and Robotics and a B.S. in Aerospace Engineering. In early 2026, Khang joined the CNRS-AIST Joint Robotics Laboratory to develop a multi-robot system framework for the mc_rtc interface, enabling multi-robot scalability, real-time control, and teleoperation.
