@@ -11736,6 +11736,32 @@
   pdf: https://hal.science/hal-05583714
   lab: jrl
   month: august 17-august 22
+- id: domae:tmlr:2026
+  year: 2026
+  title: The Embodiment Gap in Robot Foundation Models
+  booktitle: Transactions on Machine Learning Research
+  authors:
+  - family: Domae
+    given: Yukiyasu
+  - family: Shirai
+    given: Keisuke
+  - family: Oh
+    given: Hanbit
+  - family: Nakajo
+    given: Ryoichi
+  - family: Motoda
+    given: Tomohiro
+  - family: Makihara
+    given: Koshi
+  - id: murooka
+  - family: Yagi
+    given: Takuma
+  - family: Bando
+    given: Yoshiaki
+  - family: Hanai
+    given: Ryo
+  pdf: https://openreview.net/forum?id=D0XcH9Cso4
+  lab: jrl
 - id: filliung:icra:2024
   year: 2024
   title: An Augmented Catenary Model for Underwater Tethered Robots
