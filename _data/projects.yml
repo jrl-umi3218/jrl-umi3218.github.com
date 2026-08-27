@@ -482,3 +482,19 @@ all for better behavior of DVS-based control laws and hence applicability in a m
     <p>This research is conducted as a subproject of the Moonshot Research and Development Program Goal 3, "General-Purpose Autonomous Humanoids that Grow through Multi-Layered Teaching and Skill Transfer" (Project Manager: Kento Kawaharazuka, The University of Tokyo). We develop a behavior foundation model for integrated loco-manipulation, targeting tasks such as object transportation by combining control, perception, and interaction. Through multi-layered teaching and skill transfer, we aim to enable humanoids to adapt to changing environments and tasks and generalize across diverse loco-manipulation behaviors.
   description-jp: >
     <p>本研究は、ムーンショット型研究開発事業 目標3「多層的な教示と継承を通じて成長する汎用自律ヒューマノイド」（プロジェクトマネージャー：東京大学 河原塚健人）のサブテーマとして実施する。物体運搬などの移動・操作統合行動を対象に、制御・認識・インタラクションを統合した行動基盤モデルを開発する。多層的な教示と継承を通じて、環境やタスクの変化に適応し、多様な移動・操作行動へ汎化できるヒューマノイドの実現を目指す。
+- id: astech
+  title: ASTECH
+  longtitle: "Adaptive and Safe Torque Estimation and Control for Humanoids"
+  pi: benalleguem
+  year-start: 2026.4
+  year-end: 2029.3
+  funding: JSPS Grant-in-Aid for Scientific Research (C)
+  funding-jp: 日本学術振興会 科学研究費助成事業（科研費） 基盤研究(C)
+  active: true
+  partners: []
+  description: >
+    <p><strong>Official name: Passivity-Preserving Adaptive Control for Safe and Compliant Humanoid Loco-Manipulation</strong></p>
+    <p>Humanoid robots operating in narrow, cluttered, and evolving environments must combine precise manipulation and multi-contact locomotion with safe and compliant interaction. Unexpected contacts, modeling errors, friction, and flexible surfaces can generate large interaction forces or destabilize the robot, while simply reducing control gains improves compliance at the cost of precision. This project develops passivity-preserving adaptive whole-body control methods that reconcile these conflicting requirements. The proposed framework combines hierarchical optimization for dynamically feasible multi-objective motion generation with robust torque control whose convergence and compliance are adapted online while preserving passivity. Using Lyapunov-based analysis, the project aims to provide formal guarantees of stability and interaction safety even under external disturbances and compliant contacts, using primarily kinematic feedback from encoders and inertial sensors rather than joint torque sensing. The approach will explicitly address floating-base dynamics, balance, contact flexibility, and multi-contact locomotion, and will be validated in simulation and on humanoid platforms including HRP-5P, RHP-Friends, and H1. Representative experiments will combine precise manipulation, locomotion, support contacts, and disturbances in environments inspired by large-scale construction and assembly.</p>
+  description-jp: >
+    <p><strong>正式課題名：Passivity-Preserving Adaptive Control for Safe and Compliant Humanoid Loco-Manipulation</strong></p>
+    <p>狭く複雑で変化する環境で活動するヒューマノイドロボットには，高精度なマニピュレーションと多点接触を伴う移動能力に加え，安全で柔軟な物理インタラクションが求められる．しかし，予期しない接触，モデル誤差，摩擦，柔軟な接触面などは，大きな相互作用力やロボットの不安定化を引き起こす可能性がある．一方，制御ゲインを単純に低下させることで柔軟性を高める方法では，位置決め精度や再現性が低下する．本研究では，これらの相反する要求を両立するため，受動性を保証する適応型全身制御手法を開発する．提案手法では，動力学的に実行可能な複数タスクの運動を生成する階層型最適化と，収束性やコンプライアンスをオンラインで適応させながら受動性を維持するロバストなトルク制御を統合する．リアプノフ解析に基づき，外乱や柔軟な接触が存在する場合でも安定性とインタラクション安全性を理論的に保証することを目指す．また，関節トルクセンサに依存せず，エンコーダやIMUなどの運動学的フィードバックを主に利用することで，幅広いヒューマノイドへの適用を可能とする．浮遊基底系の非駆動自由度，バランス，接触面の柔軟性，多点接触移動を明示的に扱い，HRP-5P，RHP-Friends，H1などのヒューマノイドを用いて，精密作業，移動，支持接触，外乱を組み合わせた実験により検証する．</p>
