@@ -498,3 +498,20 @@ all for better behavior of DVS-based control laws and hence applicability in a m
   description-jp: >
     <p><strong>正式課題名：Passivity-Preserving Adaptive Control for Safe and Compliant Humanoid Loco-Manipulation</strong></p>
     <p>狭く複雑で変化する環境で活動するヒューマノイドロボットには，高精度なマニピュレーションと多点接触を伴う移動能力に加え，安全で柔軟な物理インタラクションが求められる．しかし，予期しない接触，モデル誤差，摩擦，柔軟な接触面などは，大きな相互作用力やロボットの不安定化を引き起こす可能性がある．一方，制御ゲインを単純に低下させることで柔軟性を高める方法では，位置決め精度や再現性が低下する．本研究では，これらの相反する要求を両立するため，受動性を保証する適応型全身制御手法を開発する．提案手法では，動力学的に実行可能な複数タスクの運動を生成する階層型最適化と，収束性やコンプライアンスをオンラインで適応させながら受動性を維持するロバストなトルク制御を統合する．リアプノフ解析に基づき，外乱や柔軟な接触が存在する場合でも安定性とインタラクション安全性を理論的に保証することを目指す．また，関節トルクセンサに依存せず，エンコーダやIMUなどの運動学的フィードバックを主に利用することで，幅広いヒューマノイドへの適用を可能とする．浮遊基底系の非駆動自由度，バランス，接触面の柔軟性，多点接触移動を明示的に扱い，HRP-5P，RHP-Friends，H1などのヒューマノイドを用いて，精密作業，移動，支持接触，外乱を組み合わせた実験により検証する．</p>
+- id: shields
+  title: SHIELDS / AISafety
+  longtitle: "Safe and Human Inclusive Embodied Learning for Dynamic Systems"
+  longtitle-jp: "動的システムのための安全で人間包摂的な身体化学習"
+  pi: benalleguem
+  year-start: 2026.1
+  year-end: 2027.3
+  funding: BRIDGE (Bridging the gap between R&D and the IDeal society (Society 5.0) and Generating Economic and social value)
+  funding-jp: 研究開発とSociety 5.0との橋渡しプログラム（BRIDGE）
+  active: true
+  partners: []
+  description: >
+    <p><strong>Official name: AIロボティクス分野等の安全性／金広・Benallegue</strong></p>
+    <p>Learning-based motion policies enable flexible and high-performance robot behaviors, but their deployment in physical systems remains constrained by safety risks arising from distribution shift, modeling errors, time-coupled dynamics such as balance, unexpected physical contact, sim-to-real mismatch, and misinterpretation of human intent. Project SHIELDS develops a unified framework for execution-level safety assurance in AI-driven robotic motion generation. The central approach is to treat learned policies as proposals while enforcing physical safety through hybrid model-based control layers and complementary learning mechanisms that reduce risk. The project investigates optimization-based action projection using QP and control barrier functions, predictive safety enforcement using MPC, safe integration of reinforcement learning within stabilizing controllers, model-based correction of out-of-distribution behavior, failure and fall prediction with preemptive recovery, adversarial robustness training, and on-robot learning under strict safety gating. It also addresses safe physical interaction through simulation-based force modeling, safety-aware grounding of language and perception to prevent hazardous actions caused by misunderstanding, and hardware-software co-design for intrinsically safe dexterous manipulation. The project aims to deliver reusable runtime safety modules, quantitative evaluation protocols, and validated demonstrations for safe learning-enabled robotic systems.
+  description-jp: >
+    <p><strong>正式課題名：AIロボティクス分野等の安全性／金広・Benallegue</strong></p>
+    <p>学習ベースの動作方策は，ロボットに高い柔軟性と性能を与える一方，分布外入力，モデル誤差，バランスのような時間依存ダイナミクス，予期しない物理接触，シミュレーションと実機の差異，人間の意図の誤認識などに起因する安全上の課題により，実環境への導入が制約されている．SHIELDSプロジェクトでは，AIによるロボット動作生成に対して，実行時に安全性を保証するための統合的な枠組みを開発する．中心的な考え方は，学習方策の出力を動作の提案として扱い，モデルベースのハイブリッド制御層によって実際に実行される動作の安全性を保証するとともに，学習技術によって危険な状態に入る頻度そのものを低減することである．具体的には，QPや制御バリア関数を用いた動作投影，MPCによる予測的な安全制御，安定化制御器内部への強化学習の安全な統合，分布外状態に対するモデルベースの補正，転倒や失敗の予測と事前回復，敵対的学習によるロバスト性向上，厳格な安全制御下での実機学習などに取り組む．さらに，シミュレーションを用いた接触力のモデル化による安全な物理インタラクション，人間の意図の誤解による危険動作を防止する言語・知覚グラウンディング，および安全な器用操作を実現するためのハードウェア・ソフトウェア協調設計を研究する．本プロジェクトでは，学習を用いるロボットシステムの安全な実用化に向けて，再利用可能な実行時安全モジュール，定量的な評価プロトコル，および実機による検証を実現することを目指す．
