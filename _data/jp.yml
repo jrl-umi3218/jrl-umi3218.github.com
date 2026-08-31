@@ -167,6 +167,21 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2026/09/01
+    content: >
+      8月には<a href="members/member-duron.html">Raphael Druon</a>, <a href="members/member-gomez-gonzalez.html">Jesus Gomez Gonzalez</a>, <a href="members/member-solovov.html">Andrey Solovov</a>, <a href="members/member-munro.html">Ronan Munro</a>の4名がメンバーに加わり、<a href="members/member-barrabes.html">Raphael Barrabes</a>, <a href="members/member-seron.html">Sabrina Seron</a>, <a href="members/member-benalleguean.html">Anisse Benallegue</a>, <a href="members/member-evangelisti.html">Chiara Evangelisti</a>の4名がJRLでの活動を終了しました。<br>
+      IAPR/IEEE International Conference on Pattern Recognitionで1件の発表を行いました。
+      <ul>
+      <li>
+      <a href=https://hal.science/hal-05583714>FuseDPT: Multi-scale and Multi-Projection Model for Learning Depth in 360 Degree</a>
+      </li>
+      </ul>
+      ICPR International Workshops and Challengesで1件の発表を行いました。
+      <ul>
+      <li>
+      <a href=https://hal.science/hal-05583714>Monocular Visual SLAM that works with Pre-built Point Cloud Maps using Point and Line Features</a>
+      </li>
+      </ul>
   - date: 2026/08/01
     content: >
       7月には<a href="members/member-birglen.html">Lionel Birglen</a>, <a href="members/member-noel.html">Ocean Noel</a>の2名がメンバーに加わり、<a href="members/member-tordjman-levavasseu.html">Valentin Tordjman-Levavasseu</a>, <a href="members/member-kang.html">Yufan Kang</a>, <a href="members/member-ben.html">Selim Ben Abdallah</a>, <a href="members/member-birglen.html">Lionel Birglen</a>の4名がJRLでの活動を終了しました。<br>
