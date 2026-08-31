@@ -314,10 +314,12 @@
 - id: carong
   given: Guillaume
   family: Caron
-  role: deputy-director
-  from: 2022-01-01
-  to: 2028-03-31
+  role: adjunct
+  from: 2026-09-01
   past-roles:
+    - role: deputy-director
+      from: 2022-01-01
+      to: 2028-03-31
     - role: permanent
       to: 2021-12-31
       from: 2019-09-01
@@ -2221,9 +2223,12 @@
 - id: evangelisti
   given: Chiara
   family: Evangelisti
-  role: master
-  from: 2026-03-02
-  to: 2026-09-25
+  role: alumni
+  from: 2026-09-01
+  past-roles:
+    - role: master
+      from: 2026-03-02
+      to: 2026-08-31
   nationality: it
   linkedin: "https://www.linkedin.com/in/chiara-evangelisti-695935256?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
   github: "https://github.com/chiaraevangelisti01"
@@ -2369,9 +2374,12 @@
 - id: seron
   given: Sabrina
   family: Seron
-  role: master
-  from: 2026-04-30
-  to: 2026-08-26
+  role: alumni
+  from: 2026-08-27
+  past-roles:
+    - role: master
+      from: 2026-04-30
+      to: 2026-08-26
   nationality: fr
   bio: >
     is a dual-degree student pursuing a Master's degree in Engineering for Health Devices at the University of Montpellier and an Engineering degree in Mechatronic Systems at IMT Mines Alès. She joined the CNRS-AIST Joint Robotics Laboratory to work on grasp learning with a multi-fingered robotic hand. Her research interests include reinforcement learning, tactile sensing, robotic grasping and manipulation.
@@ -2385,9 +2393,12 @@
 - id: grajales-ramirez
   given: Jose
   family: Grajales Ramirez
-  role: undergraduate
-  from: 2026-05-12
-  to: 2027-08-10
+  role: alumni
+  from: 2027-08-11
+  past-roles:
+    - role: undergraduate
+      from: 2026-05-12
+      to: 2027-08-10
   nationality: mx
   linkedin: "https://www.linkedin.com/in/jroberto-grajalesr"
   bio: >
@@ -2395,28 +2406,31 @@
 - id: benalleguean
   given: Anisse
   family: Benallegue
-  role: undergraduate
-  from: 2026-06-29
-  to: 2026-08-28
+  role: alumni
+  from: 2026-08-29
+  past-roles:
+    - role: undergraduate
+      from: 2026-06-29
+      to: 2026-08-28
   nationality: fr
 - id: mouaddib
   given: El Mustapha
   family: Mouaddib
-  role: coming-deputy-director
+  role: deputy-director
   from: 2026-09-01
   to: 2028-08-31
   nationality: fr
 - id: tamadazte
   given: Brahim
   family: Tamadazte
-  role: coming-permanent
+  role: permanent
   from: 2026-09-01
   to: 2028-08-31
   nationality: fr
 - id: duron
   given: Raphael
-  family: Duron
-  role: coming-phd
+  family: Druon
+  role: phd
   from: 2026-08-01
   to: 2029-07-31
   nationality: fr
@@ -2431,21 +2445,21 @@
 - id: martinez-vilchis
   given: Irene
   family: Martinez Vilchis 
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: tovar-mendoza
   given: Hector
   family: Tovar Mendoza
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: dominguez-morales
   given: Jose
   family: Dominguez Morales
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-09-01
   to: 2026-12-17
   nationality: mx
@@ -2459,23 +2473,26 @@
 - id: fregoso-jimenez
   given: Gerardo
   family: Fregoso Jimenez
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: maldonado-mata
   given: Abraham
   family: Maldonado Mata
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-09-01
   to: 2026-12-17
   nationality: mx
 - id: barrabes
   given: Raphael
   family: Barrabes
-  role: master
-  from: 2026-05-18
-  to: 2026-08-14
+  role: alumni
+  from: 2026-08-15
+  past-roles:
+    - role: master
+      from: 2026-05-18
+      to: 2026-08-14
   nationality: fr
 - id: tordjman-levavasseu
   given: Valentin
@@ -2504,7 +2521,7 @@
 - id: munro
   given: Ronan
   family: Munro
-  role: coming-master
+  role: master
   from: 2026-08-31
   to: 2027-02-28
   nationality: nl
@@ -2535,7 +2552,7 @@
 - id: solovov
   given: Andrey
   family: Solovov
-  role: coming-phd
+  role: phd
   from: 2026-08-28
   to: 2026-10-17
   nationality: pt
