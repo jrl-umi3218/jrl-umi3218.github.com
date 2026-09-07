@@ -2456,6 +2456,11 @@
   from: 2026-09-01
   to: 2026-12-17
   nationality: mx
+  linkedln: "https://www.linkedin.com/in/hectortovarm"
+  website: "https://hector-tovar-portfolio.vercel.app/"
+  github: "github.com/htovarm7"
+  bio: >
+    Hector Eduardo Tovar Mendoza is a senior undergraduate student from Monterrey Nuevo Leon in Tecnologico de Monterrey where he is pursuing a B.S. in Robotics and Digital Systems. 
 - id: dominguez-morales
   given: Jose
   family: Dominguez Morales
