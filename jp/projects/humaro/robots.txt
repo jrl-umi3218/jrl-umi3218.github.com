@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://antoineandre.github.io/projects/humaro/sitemap-index.xml

@@ -1,0 +1,14 @@
+# Humaro
+
+Humaro: Workshop on dynamic human-robot systems interaction
+
+No upcoming events are scheduled right now.
+
+## Links
+Start here (newcomers): https://antoineandre.github.io/projects/humaro/start/
+About and FAQ: https://antoineandre.github.io/projects/humaro/about/
+Events: https://antoineandre.github.io/projects/humaro/events/
+Calendar feed (iCalendar): https://antoineandre.github.io/projects/humaro/events/calendar.ics
+Talk archive: https://antoineandre.github.io/projects/humaro/talks/
+
+Built with the Popular theme.
