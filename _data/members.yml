@@ -2447,8 +2447,11 @@
   family: Martinez Vilchis 
   role: undergraduate
   from: 2026-09-01
-  to: 2026-12-17
+  to: 2026-02-06
   nationality: mx
+  Linkedin: "www.linkedin.com/in/sofia-mtz-vilchis"
+  bio: >
+   Irene Martinez Vilchis is a senior undergraduate Innovation and Development Engineering student @ Tecnologico de Monterrey, Mexico.
 - id: tovar-mendoza
   given: Hector
   family: Tovar Mendoza
