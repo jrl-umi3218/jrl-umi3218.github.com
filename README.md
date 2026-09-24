@@ -178,6 +178,21 @@ $ bundle exec jekyll server --trace
 ```
 **Note** on Ubuntu 18.04 and earlier, you will need probably to uninstall the Jekyll version installed by apt. <br/>
 
+### Windows
+
+On Windows, `jekyll-polyglot` cannot use parallel localization because `fork()` is not available. The `_config_windows.yml` configuration file disables parallel localization for Windows:
+
+```yaml
+parallel_localization: false
+```
+
+Run Jekyll with this additional configuration file:
+
+```sh
+bundle install
+bundle exec jekyll server --trace --config _config.yml,_config_windows.yml
+```
+
 You will get something like:
 
 ```
