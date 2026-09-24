@@ -2474,10 +2474,14 @@
 - id: malagamba-montejo
   given: Gilberto
   family: Malagamba Montejo
-  role: coming-undergraduate
+  role: undergraduate
   from: 2026-09-14
   to: 2027-03-16
   nationality: mx
+  linkedin: "https://www.linkedin.com/in/gilberto-malagamba-montejo-587a23305/"
+  github: "https://github.com/GilMM27"
+  bio: >
+    Is a senior undergraduate student pursuing B.S. in Computer Science at Tecnologico de Monterrey with experience in software development, cybersecurity and robotics.
 - id: fregoso-jimenez
   given: Gerardo
   family: Fregoso Jimenez
