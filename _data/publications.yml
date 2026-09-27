@@ -11666,6 +11666,7 @@
     given: Aude
   pdf: https://ieeexplore.ieee.org/document/11261634
   lab: jrl
+  month: september
 - id: noel:ark:2026
   year: 2026
   title: Coaxial Multi-Channel Rotary Transmission Device
@@ -11688,6 +11689,7 @@
   - id: kaminaga
   - family: Kobayashi
     given: Taisuke
+  pdf: https://ieeexplore.ieee.org/abstract/document/11658337
   lab: jrl
   month: july 7-july 10
 - id: paula:icpr:2026
@@ -11755,6 +11757,21 @@
   pdf: https://hal.science/hal-05718948
   lab: jrl
   month: september 2-september 4
+- id: muraccioli:iros:2026
+  year: 2026
+  title: Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement
+    for Real-World Robotic Deployments
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  authors:
+  - id: muraccioli
+  - id: cariou
+  - id: leziart
+  - id: mcelerier
+  - id: demont
+  - id: venture
+  - id: benalleguem
+  lab: jrl
+  month: september 27-october 1
 - id: domae:tmlr:2026
   year: 2026
   title: The Embodiment Gap in Robot Foundation Models
@@ -11781,6 +11798,43 @@
     given: Ryo
   pdf: https://openreview.net/forum?id=D0XcH9Cso4
   lab: jrl
+- id: kawaharazuka:ais:2026
+  year: 2026
+  title: 'From Instruction to Inheritance: Scaling Robot Learning Through Knowledge
+    Circulation'
+  booktitle: Advanced Intelligent Systems
+  authors:
+  - family: Kawaharazuka
+    given: Kento
+  - family: Itadera
+    given: Shunki
+  - family: Honda
+    given: Kohei
+  - family: Horii
+    given: Takato
+  - family: Kanezaki
+    given: Asako
+  - family: Kobayashi
+    given: Taisuke
+  - family: Koide
+    given: Kenji
+  - family: Kurita
+    given: Shuhei
+  - family: Makihara
+    given: Koshi
+  - family: Miyazawa
+    given: Kazuki
+  - id: murooka
+  - family: Onishi
+    given: Yuki
+  - family: Yagi
+    given: Satoshi
+  - family: Yamamori
+    given: Satoshi
+  pdf: https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.70564
+  lab: jrl
+  projects:
+  - ms3_mirai
 - id: filliung:icra:2024
   year: 2024
   title: An Augmented Catenary Model for Underwater Tethered Robots
