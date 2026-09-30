@@ -316,10 +316,11 @@
   family: Caron
   role: adjunct
   from: 2026-09-01
+  to: 2028-08-31
   past-roles:
     - role: deputy-director
       from: 2022-01-01
-      to: 2028-03-31
+      to: 2026-08-31
     - role: permanent
       to: 2021-12-31
       from: 2019-09-01
@@ -1091,10 +1092,12 @@
 - id: acaillot
   given: Antoine
   family: Caillot
-  role: postdoc
-  from: 2025-02-03
-  to: 2026-09-30
+  role: alumni
+  from: 2026-10-01
   past-roles:
+    - role: postdoc
+      from: 2025-02-03
+      to: 2026-09-30
     - role: postdoc
       from: 2023-01-09
       to: 2025-01-08
@@ -1348,10 +1351,12 @@
   family: Duvinage
   linkedin: "https://www.linkedin.com/in/thomas-duvinage/"
   github: "https://github.com/ThomasDuvinage"
-  role: engineer
-  from: 2024-07-01
-  to: 2026-06-30
+  role: alumni
+  from: 2026-10-01
   past-roles:
+    - role: engineer
+      from: 2024-07-01
+      to: 2026-09-30
     - role: master
       from: 2023-10-02
       to: 2024-03-29
@@ -1372,7 +1377,7 @@
   family: Hong
   role: phd
   from: 2023-10-01
-  to: 2026-09-30
+  to: 2027-03-31
   nationality: cn
   bio: >
       is currently a PhD student at the University of Tsukuba. His research interests focus on the fusion of heterogeneous sensor data for scene perception tasks, with a particular emphasis on integrating hyperspectral and point cloud data.
@@ -1565,10 +1570,12 @@
 - id: racine
   given: Isaac
   family: Racine
-  role: maaster
-  from: 2025-10-01
-  to: 2025-11-14
+  role: alumni
+  from: 2025-11-15
   past-roles:
+    - role: maaster
+      from: 2025-10-01
+      to: 2025-11-14
     - role: master
       from: 2024-05-07
       to: 2025-03-31
@@ -1852,7 +1859,7 @@
   family: Moussafir
   role: postdoc
   from: 2025-03-10
-  to: 2026-09-30
+  to: 2027-03-31
   nationality: fr
   linkedin: "https://fr.linkedin.com/in/l%C3%A9o-moussafir-13860284"
   bio: >
@@ -2249,9 +2256,12 @@
 - id: gomez-vargas
   given: Roberto Raymundo
   family: Gomez-Vargas
-  role: undergraduate
-  from: 2026-03-09
-  to: 2026-09-04
+  role: alumni
+  from: 2026-09-05
+  past-roles:
+    - role: undergraduate
+      from: 2026-03-09
+      to: 2026-09-04
   nationality: mx
   linkedin: "https://www.linkedin.com/in/roberto-raymundo"
   github: "https://github.com/raymundo140"
@@ -2427,7 +2437,7 @@
   from: 2026-09-01
   to: 2028-08-31
   nationality: fr
-- id: duron
+- id: druonr
   given: Raphael
   family: Druon
   role: phd
@@ -2447,7 +2457,7 @@
   family: Martinez Vilchis 
   role: undergraduate
   from: 2026-09-01
-  to: 2027-02-06
+  to: 2027-02-05
   nationality: mx
   Linkedin: "https://www.linkedin.com/in/sof%C3%ADa-mtz-vilchis?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
   bio: >
@@ -2487,7 +2497,7 @@
   family: Fregoso Jimenez
   role: undergraduate
   from: 2026-09-01
-  to: 2026-12-17
+  to: 2027-02-05
   nationality: mx
   linkedin: "https://www.linkedin.com/in/gerardofj"
   github: "https://github.com/GerardoFJ"
@@ -2498,7 +2508,7 @@
   family: Maldonado Mata
   role: undergraduate
   from: 2026-09-01
-  to: 2026-12-17
+  to: 2027-02-05
   nationality: mx
   linkedin: "https://www.linkedin.com/in/abraham-de-jes%C3%BAs-maldonado-mata-3331a72b6/"
   website: "https://abrahan-maldonado.vercel.app/"
@@ -2515,9 +2525,9 @@
       from: 2026-05-18
       to: 2026-08-14
   nationality: fr
-- id: tordjman-levavasseu
+- id: tordjman-levavasseur
   given: Valentin
-  family: Tordjman-Levavasseu
+  family: Tordjman-Levavasseur
   role: alumni
   from: 2026-07-02
   past-roles:
@@ -2529,7 +2539,7 @@
   given: Jesus
   family: Gomez Gonzalez
   role: coming-engineer
-  from: 2026-08-01
+  from: 2026-10-05
   to: 2027-03-31
   nationality: co
 - id: benmoussat
@@ -2559,17 +2569,17 @@
 - id: fieten
   given: Mink
   family: Fieten
-  role: coming-master
+  role: master
   from: 2026-10-01
   to: 2027-03-31
   nationality: nl
 - id: gomes-de-oliveira
   given: Antonio Maria
   family: Gomes de Oliveira
-  role: coming-master
+  role: master
   from: 2026-10-01
   to: 2027-03-31
-  nationality:
+  nationality: pt
 - id: solovov
   given: Andrey
   family: Solovov
@@ -2577,3 +2587,24 @@
   from: 2026-08-28
   to: 2026-10-17
   nationality: pt
+- id: trejo-lavin
+  given: Ximena
+  family: Trejo Lavin
+  role: coming-engineer
+  from: 2026-10-01
+  to: 2027-03-31
+  nationality: mx
+- id: chan
+  given: Mau Yuen
+  family: Chan
+  role: adjunct
+  from: 2026-09-01
+  to: 2026-08-31
+  nationality: gb
+- id: kaur
+  given: Sharanjeet
+  family: Kaur
+  role: adjunct
+  from: 2026-09-01
+  to: 2026-08-31
+  nationality: gb
