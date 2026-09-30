@@ -167,6 +167,27 @@ hl:
     - name: Xinchi Gao
       grade: Graduated (Masters)
 news:
+  - date: 01/10/2026
+    content: >
+      Ten members, <a href="members/member-mouaddib.html">El Mustapha Mouaddib</a>, <a href="members/member-tamadazte.html">Brahim Tamadazte</a>, <a href="members/member-martinez-vilchis.html">Irene Martinez Vilchis</a>, <a href="members/member-tovar-mendoza.html">Hector Tovar Mendoza</a>, <a href="members/member-dominguez-morales.html">Jose Dominguez Morales</a>, <a href="members/member-fregoso-jimenez.html">Gerardo Fregoso Jimenez</a>, <a href="members/member-maldonado-mata.html">Abraham Maldonado Mata</a>, <a href="members/member-malagamba-montejo.html">Gilberto Malagamba Montejo</a>, <a href="members/member-chan.html">Mau Yuen Chan</a> and <a href="members/member-kaur.html">Sharanjeet Kaur</a> joined and two members, <a href="members/member-acaillot.html">Antoine Caillot</a> and <a href="members/member-duvinage.html">Thomas Duvinage</a> left the JRL in September.<br>
+      One paper was published in the IEEE RAM.
+      <ul>
+      <li>
+      <a href=https://ieeexplore.ieee.org/document/11261634>Impact-Aware Dual-Arm Manipulation: A Framework for Fast Package Handling</a>
+      </li>
+      </ul>
+      One paper was presented at the MFI 2026.
+      <ul>
+      <li>
+      <a href=https://hal.science/hal-05718948>Event-based 6-DoF Visual Servoing for Dynamic Objects</a>
+      </li>
+      </ul>
+      One paper was presented at the IROS 2026.
+      <ul>
+      <li>
+      Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments
+      </li>
+      </ul>
   - date: 01/09/2026
     content: >
       Four members, <a href="members/member-duron.html">Raphael Druon</a>, <a href="members/member-gomez-gonzalez.html">Jesus Gomez Gonzalez</a>, <a href="members/member-solovov.html">Andrey Solovov</a> and <a href="members/member-munro.html">Ronan Munro</a> joined and four members, <a href="members/member-barrabes.html">Raphael Barrabes</a>, <a href="members/member-seron.html">Sabrina Seron</a>, <a href="members/member-benalleguean.html">Anisse Benallegue</a> and <a href="members/member-evangelisti.html">Chiara Evangelisti</a> left the JRL in August.<br>

@@ -167,6 +167,28 @@ hl:
     - name: Xinchi Gao
       grade: 博士前期修了
 news:
+  - date: 2026/10/01
+    content: >
+      9月には<a href="members/member-mouaddib.html">El Mustapha Mouaddib</a>, <a href="members/member-tamadazte.html">Brahim Tamadazte</a>, <a href="members/member-martinez-vilchis.html">Irene Martinez Vilchis</a>, <a href="members/member-tovar-mendoza.html">Hector Tovar Mendoza</a>, <a href="members/member-dominguez-morales.html">Jose Dominguez Morales</a>, <a href="members/member-fregoso-jimenez.html">Gerardo Fregoso Jimenez</a>, <a href="members/member-maldonado-mata.html">Abraham Maldonado Mata</a>, <a href="members/member-malagamba-montejo.html">Gilberto Malagamba Montejo</a>, <a href="members/member-chan.html">Mau Yuen Chan</a>, <a href="members/member-kaur.html">Sharanjeet Kaur</a>の10名がメンバーに加わり、<a href="members/member-acaillot.html">Antoine Caillot</a> and <a href="members/member-duvinage.html">Thomas Duvinage</a>の2名がJRLでの活動を終了しました。<br>
+      IEEE RAMに以下の論文が掲載されました。
+      <ul>
+      <li>
+      <a href=https://ieeexplore.ieee.org/document/11261634>Impact-Aware Dual-Arm Manipulation: A Framework for Fast Package Handling</a>
+      </li>
+      </ul>
+      MFI 2026で以下の論文発表を行いました。
+      <ul>
+      <li>
+      <a href=https://hal.science/hal-05718948>Event-based 6-DoF Visual Servoing for Dynamic Objects</a>
+      </li>
+      </ul>
+      IROS 2026で以下の論文発表を行いました。
+      <ul>
+      <li>
+      Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement for Real-World Robotic Deployments
+      </li>
+      </ul>
+
   - date: 2026/09/01
     content: >
       8月には<a href="members/member-duron.html">Raphael Druon</a>, <a href="members/member-gomez-gonzalez.html">Jesus Gomez Gonzalez</a>, <a href="members/member-solovov.html">Andrey Solovov</a>, <a href="members/member-munro.html">Ronan Munro</a>の4名がメンバーに加わり、<a href="members/member-barrabes.html">Raphael Barrabes</a>, <a href="members/member-seron.html">Sabrina Seron</a>, <a href="members/member-benalleguean.html">Anisse Benallegue</a>, <a href="members/member-evangelisti.html">Chiara Evangelisti</a>の4名がJRLでの活動を終了しました。<br>
