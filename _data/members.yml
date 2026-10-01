@@ -2475,12 +2475,22 @@
   bio: >
     Hector Eduardo Tovar Mendoza is a senior undergraduate student from Monterrey Nuevo Leon in Tecnologico de Monterrey where he is pursuing a B.S. in Robotics and Digital Systems. 
 - id: dominguez-morales
-  given: Jose
-  family: Dominguez Morales
+  given: José Luis
+  family: Domínguez Morales
   role: undergraduate
   from: 2026-09-01
   to: 2026-12-17
   nationality: mx
+  linkedin: "https://www.linkedin.com/in/jose-luis-dominguez-morales"
+  github: "https://github.com/JLDominguezM"
+  research: Robotic manipulation and grasping, humanoid teleoperation, whole-body control, reinforcement learning for legged locomotion
+  bio: >
+    is an undergraduate student in Robotics and Digital Systems Engineering at
+    Tecnológico de Monterrey, Mexico. He competes with the RoBorregos team in
+    RoboCup@Home, where he develops perception and manipulation for autonomous
+    service robots, and he has worked on a Unitree G1 humanoid, taking
+    reinforcement learning locomotion policies and speech interaction from
+    simulation to the real robot.
 - id: malagamba-montejo
   given: Gilberto
   family: Malagamba Montejo
