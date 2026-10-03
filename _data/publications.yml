@@ -3292,7 +3292,7 @@
   title: Visual Object Search by Learning Spatial Context
   booktitle: IEEE Robotics and Automation Letters
   authors:
-  - id: duron
+  - id: druonr
   - id: yoshiyasu
   - family: Kanezaki
     given: Asako
@@ -4900,6 +4900,7 @@
     given: Yukiyasu
   pdf: https://www.tandfonline.com/doi/abs/10.1080/01691864.2026.2631642
   lab: jrl
+  month: august
   projects:
   - foundation
 - id: yoshida:iros:1999
