@@ -11738,6 +11738,8 @@
   pdf: https://hal.science/hal-05583714
   lab: jrl
   month: august 17-august 22
+  projects:
+  - humanoid_lab
 - id: kang:mfi:2026
   year: 2026
   title: Event-based 6-DoF Visual Servoing for Dynamic Objects
