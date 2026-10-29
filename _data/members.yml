@@ -1838,6 +1838,8 @@
 - id: cariou
   given: Alice
   family: Cariou
+  linkedin: "https://linkedin.com/in/cariou-alice"
+  github: "https://github.com/Alhuuin"
   role: engineer
   from: 2025-11-01
   past-roles:
@@ -1846,7 +1848,7 @@
       to: 2025-08-31
   nationality: fr
   bio: >
-    is a master's student at EPITA, Paris, France, in AI major. Her current research includes fusing RL and QP for humanoid locomotion tasks to ensure safety and feasibility constraints.
+    received her Master's degree from EPITA, Paris, France, in 2025, with a specialization in Artificial Intelligence and Data Science. She currently provides engineering and technical support across various research projects.
 - id: leroy
   given: Hippolyte
   family: Leroy
