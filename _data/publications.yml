@@ -11775,6 +11775,17 @@
   - id: benalleguem
   lab: jrl
   month: september 27-october 1
+- id: tako:sensors:2026
+  year: 2026
+  title: Robust Readout of Cross-Point Resistive Arrays via Time-Domain Optimization
+  booktitle: IEEE Sensors
+  authors:
+  - id: tako
+  - id: kaminaga
+  - family: Kobayashi
+    given: Taisuke
+  lab: jrl
+  month: october 25-october 28
 - id: domae:tmlr:2026
   year: 2026
   title: The Embodiment Gap in Robot Foundation Models
