@@ -1644,10 +1644,12 @@
 - id: noel
   given: Ocean
   family: Noel
-  role: phd
-  from: 2026-07-13
-  to: 2026-10-08
+  role: alumni
+  from: 2026-10-09
   past-roles:
+    - role: phd
+      from: 2026-07-13
+      to: 2026-10-08
     - role: master
       from: 2023-10-09
       to: 2024-07-31
@@ -2336,9 +2338,12 @@
 - id: delooecker
   given: Thibault
   family: Delooecker
-  role: master
-  from: 2026-04-01
-  to: 2026-09-30
+  role: alumni
+  from: 2026-10-01
+  past-roles:
+    - role: master
+      from: 2026-04-01
+      to: 2026-09-30
   nationality: fr
   bio: >
     Is a master's student at ISAE-SUPMECA Saint-Ouen-sur-Seine. His major is mechatronics. He is currently working on safety constraints for hammering impact for humanoid robots.
@@ -2377,9 +2382,12 @@
 - id: simon
   given: Noah-Luc
   family: Simon
-  role: master
-  from: 2026-04-30
-  to: 2026-10-30
+  role: alumni
+  from: 2026-11-01
+  past-roles:
+    - role: master
+      from: 2026-04-30
+      to: 2026-10-30
   nationality: fr
   bio: >
     Is a master's student at Mines Paris - PSL, France. His research interests revolve around hybrid controllers in humanoid robotics.
@@ -2551,7 +2559,7 @@
   given: Jesus
   family: Gomez Gonzalez
   role: coming-engineer
-  from: 2026-10-05
+  from: 2026-11-09
   to: 2027-03-31
   nationality: co
 - id: benmoussat
@@ -2595,15 +2603,18 @@
 - id: solovov
   given: Andrey
   family: Solovov
-  role: phd
-  from: 2026-08-28
-  to: 2026-10-17
+  role: alumni
+  from: 2026-10-18
+  past-roles:
+    - role: phd
+      from: 2026-08-28
+      to: 2026-10-17
   nationality: pt
 - id: trejo-lavin
   given: Ximena
   family: Trejo Lavin
   role: coming-engineer
-  from: 2026-10-01
+  from: 2026-12-01
   to: 2027-03-31
   nationality: mx
 - id: chan
@@ -2611,12 +2622,12 @@
   family: Chan
   role: adjunct
   from: 2026-09-01
-  to: 2026-08-31
+  to: 2028-03-31
   nationality: gb
 - id: kaur
   given: Sharanjeet
   family: Kaur
   role: adjunct
   from: 2026-09-01
-  to: 2026-08-31
+  to: 2028-03-31
   nationality: gb
