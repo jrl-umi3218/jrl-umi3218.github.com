@@ -2454,6 +2454,9 @@
   from: 2026-08-01
   to: 2029-07-31
   nationality: fr
+  linkedin: "https://www.linkedin.com/in/raphael-druon"
+  bio: >
+    is a Ph.D. student at Université de Montpellier, France.
 - id: natsume
   given: Kohei
   family: Natsume
