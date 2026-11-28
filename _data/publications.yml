@@ -11740,26 +11740,6 @@
   month: august 17-august 22
   projects:
   - humanoid_lab
-- id: kang:mfi:2026
-  year: 2026
-  title: Event-based 6-DoF Visual Servoing for Dynamic Objects
-  booktitle: International Conference on Multisensor Fusion and Integration for Intelligent
-    Systems
-  authors:
-  - id: kang
-  - family: Glover
-    given: Arren
-  - id: carong
-  - family: Gava
-    given: Luna
-  - id: duvinage
-  - family: Ishikawa
-    given: Ryoichi
-  - family: Oishi
-    given: Takeshi
-  pdf: https://hal.science/hal-05718948
-  lab: jrl
-  month: september 2-september 4
 - id: muraccioli:iros:2026
   year: 2026
   title: Safe Execution of RL Policies Via Acceleration-Based CBF-QP Constraint Enforcement
@@ -11773,6 +11753,7 @@
   - id: demont
   - id: venture
   - id: benalleguem
+  pdf: https://ieeexplore.ieee.org/document/11777028
   lab: jrl
   month: september 27-october 1
 - id: tako:sensors:2026
